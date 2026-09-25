@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-09-25T19:12:38.237Z",
+  "totalAppleProducts": 42,
+  "verified23Count": 30,
+  "unverified19Count": 12,
+  "verifiedProducts": [
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-finish-select-202203-midnight?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-finish-select-202203-midnight?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-midnight-select-202402?wid=4000&hei=2400&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc74",
+      "name": "Laptop MacBook Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-select-202310?wid=4000&hei=2400&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadd32",
+      "name": "Smartwatch & Wearables Apple Watch Series",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-se-case-unselect-gallery-1-202309?wid=3200&hei=3200&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6a9904e369652590e0aadd34",
+      "name": "Smartwatch & Wearables Apple Watch SE",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-se-case-unselect-gallery-1-202309?wid=3200&hei=3200&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca51e",
+      "name": "Apple iPhone 16",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca533",
+      "name": "Apple iPhone 16 Plus",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca586",
+      "name": "Apple iPhone 15",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-pink?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca59b",
+      "name": "Apple iPhone 15 Plus",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-pink?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca943",
+      "name": "Apple MacBook Air 15 M3",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-15-midnight-select-202306?wid=4000&hei=2400&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca952",
+      "name": "Apple MacBook Pro 14 M3 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-select-202310?wid=4000&hei=2400&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06056af8879d815dca961",
+      "name": "Apple MacBook Pro 16 M3 Max",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=4000&hei=2400&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad10",
+      "name": "Apple AirPods Max",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-202409-midnight?wid=2000&hei=2000&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad1f",
+      "name": "Apple AirPods Pro 2",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=2000&hei=2000&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad2e",
+      "name": "Apple AirPods 3",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae2d",
+      "name": "Apple Watch Ultra 2",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae3c",
+      "name": "Apple Watch Series 10",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/s10-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae4b",
+      "name": "Apple Watch SE (2nd Gen)",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-se-case-unselect-gallery-1-202309?wid=3200&hei=3200&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0c1",
+      "name": "Apple iPad Pro 13-inch M4",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202405-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0d0",
+      "name": "Apple iPad Pro 11-inch M4",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202405-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0df",
+      "name": "Apple iPad Air 11-inch M2",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-finish-select-202405-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0ee",
+      "name": "Apple iPad Air 13-inch M2",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-finish-select-202405-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0fd",
+      "name": "Apple iPad 10th Gen 10.9-inch",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-10th-gen-finish-select-202210-blue?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb10c",
+      "name": "Apple iPad mini 7th Gen A17 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-mini-finish-select-202410-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageStatus": "OFFICIAL_VERIFIED"
+    }
+  ]
+}

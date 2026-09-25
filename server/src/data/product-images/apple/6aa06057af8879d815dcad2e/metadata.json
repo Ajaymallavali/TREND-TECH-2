@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06057af8879d815dcad2e",
+  "brand": "Apple",
+  "productName": "Apple AirPods 3",
+  "source": "Apple Official",
+  "sourceUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg",
+  "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg",
+  "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\product-images\\apple\\6aa06057af8879d815dcad2e\\primary.jpg",
+  "sha256": "3b608647b256705700cd0b31c1186d6d9caf952696a908a04e92a42eabd273ca",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "OFFICIAL_VERIFIED",
+  "verifiedAt": "2026-09-25T19:10:28.569Z",
+  "verificationMethod": "official-apple-source"
+}

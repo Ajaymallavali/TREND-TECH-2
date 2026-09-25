@@ -1,0 +1,122 @@
+[
+  {
+    "productId": "6a98d181a6bfd56d867752df",
+    "productName": "iPhone 17 Pro Max Silicone Case",
+    "brand": "Apple",
+    "category": "accessories",
+    "model": "iPhone 17 Pro Max Silicone Case",
+    "existingImageUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbea",
+    "productName": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone 17 Pro Max",
+    "existingImageUrl": "https://m.media-amazon.com/images/I/81Os1SDW92L._SL1500_.jpg",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbec",
+    "productName": "Apple iPhone 17 Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone 17 Pro",
+    "existingImageUrl": "https://m.media-amazon.com/images/I/81sigVkAHgL._SL1500_.jpg",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbee",
+    "productName": "Apple iPhone 17",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone 17",
+    "existingImageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf0",
+    "productName": "Apple iPhone Air",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone Air",
+    "existingImageUrl": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf4",
+    "productName": "Apple iPhone Plus",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone Plus",
+    "existingImageUrl": null,
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfa",
+    "productName": "Apple iPhone Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone Pro",
+    "existingImageUrl": null,
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfc",
+    "productName": "Apple iPhone Pro Max",
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "Apple iPhone Pro Max",
+    "existingImageUrl": null,
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd36",
+    "productName": "Smartwatch & Wearables Apple Watch Ultra",
+    "brand": "Smartwatch & Wearables",
+    "category": "smartwatch",
+    "model": "Smartwatch & Wearables Apple Watch Ultra",
+    "existingImageUrl": null,
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddc0",
+    "productName": "Audio Apple",
+    "brand": "Audio",
+    "category": "headphones",
+    "model": "Audio Apple",
+    "existingImageUrl": null,
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6aa06056af8879d815dca934",
+    "productName": "Apple MacBook Air 13 M3",
+    "brand": "Apple",
+    "category": "laptop",
+    "model": "Apple MacBook Air 13 M3",
+    "existingImageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80&idx=1",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  },
+  {
+    "productId": "6aa06056af8879d815dca970",
+    "productName": "Apple MacBook Air 13 M2",
+    "brand": "Apple",
+    "category": "laptop",
+    "model": "Apple MacBook Air 13 M2",
+    "existingImageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80&idx=5",
+    "imageVerificationStatus": "UNVERIFIED",
+    "sourceStatus": "LEGACY_SYNTHETIC"
+  }
+]
