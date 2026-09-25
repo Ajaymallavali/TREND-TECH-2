@@ -1,0 +1,894 @@
+{
+  "timestamp": "2026-09-25T07:55:57.435Z",
+  "appleProductsCount": 42,
+  "records": [
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "productName": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "model": "iPhone 17 Pro Max Silicone Case",
+      "category": "accessories",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a98d181a7c69cda97fb56f6"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/Apple-iPhone-Silicone-Case-MagSafe/dp/B0FQFPWY45/ref=sr_1_10?dib=eyJ2IjoiMSJ9.W2S_9QCavWvHTedn3yzmPnJBlWfN37s-xPzRBJgcGD2KL4Ud39uBnN5kZPoSKhpFCGmImOQLCsxB-pTfhSIKwIHwaxkJqa9pDnTsUoQFbUyG6nlAGheK3zjXhmA2cKJJLErxTELB704IG1FQOH-6YSJcR_UCYwydlYgmTRiNkiaisbRcQwtcCIDgK5IRK8VriUK3aMwHWEOPYL7sFbarG72otuuk6heAj7b4rVUfR_M.TRIfli5-rrsTbrZpuUzGxn4b8AX8rsaQI0wwZN11Ylg&dib_tag=se&keywords=Apple+iPhone+17+Pro+Max&qid=1788399994&sr=8-10",
+      "price": 4900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "productName": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "model": "Apple iPhone 17 Pro Max",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/81Os1SDW92L._SL1500_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbeb",
+        "6aa06055af8879d815dca4ba",
+        "6aa06055af8879d815dca4c0",
+        "6aa06055af8879d815dca4c6"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6",
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBEA",
+      "price": 144900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "productName": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "model": "Apple iPhone 17 Pro",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/81sigVkAHgL._SL1500_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbed",
+        "6aa06055af8879d815dca4ce",
+        "6aa06055af8879d815dca4d4",
+        "6aa06055af8879d815dca4da"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6",
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBEC",
+      "price": 134900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbee",
+      "productName": "Apple iPhone 17",
+      "brand": "Apple",
+      "model": "Apple iPhone 17",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbef",
+        "6aa06055af8879d815dca4e2",
+        "6aa06055af8879d815dca4e8",
+        "6aa06056af8879d815dca4ee"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6",
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBEE",
+      "price": 79900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "productName": "Apple iPhone Air",
+      "brand": "Apple",
+      "model": "Apple iPhone Air",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbf1"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBF0",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "productName": "Apple iPhone 16e",
+      "brand": "Apple",
+      "model": "Apple iPhone 16e",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbf3",
+        "6aa06056af8879d815dca54a",
+        "6aa06056af8879d815dca550",
+        "6aa06056af8879d815dca556"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6",
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBF2",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf4",
+      "productName": "Apple iPhone Plus",
+      "brand": "Apple",
+      "model": "Apple iPhone Plus",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbf5"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBF4",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "productName": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "model": "Apple iPhone SE (3rd Gen)",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-finish-select-202203-midnight?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbf7"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBF6",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "productName": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 2022",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-finish-select-202203-midnight?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbf9"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBF8",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfa",
+      "productName": "Apple iPhone Pro",
+      "brand": "Apple",
+      "model": "Apple iPhone Pro",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbfb"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBFA",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfc",
+      "productName": "Apple iPhone Pro Max",
+      "brand": "Apple",
+      "model": "Apple iPhone Pro Max",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadbfd"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADBFC",
+      "price": 2999,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "productName": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "model": "Apple MacBook Air M3 (13-inch)",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-midnight-select-202402?wid=4000&hei=2400&fmt=jpeg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadc73"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADC72",
+      "price": 99900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc74",
+      "productName": "Laptop MacBook Pro",
+      "brand": "Laptop",
+      "model": "Laptop MacBook Pro",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadc75"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADC74",
+      "price": 169900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadd32",
+      "productName": "Smartwatch & Wearables Apple Watch Series",
+      "brand": "Smartwatch & Wearables",
+      "model": "Smartwatch & Wearables Apple Watch Series",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": "https://m.media-amazon.com/images/I/71YdE55GwjL._SX679_.jpg",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadd33"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADD32",
+      "price": 14900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadd34",
+      "productName": "Smartwatch & Wearables Apple Watch SE",
+      "brand": "Smartwatch & Wearables",
+      "model": "Smartwatch & Wearables Apple Watch SE",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadd35"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADD34",
+      "price": 14900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aadd36",
+      "productName": "Smartwatch & Wearables Apple Watch Ultra",
+      "brand": "Smartwatch & Wearables",
+      "model": "Smartwatch & Wearables Apple Watch Ultra",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aadd37"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADD36",
+      "price": 14900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6a9904e369652590e0aaddc0",
+      "productName": "Audio Apple",
+      "brand": "Audio",
+      "model": "Audio Apple",
+      "category": "headphones",
+      "subcategory": null,
+      "existingImageUrl": null,
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6a9904e369652590e0aaddc1"
+      ],
+      "marketplace": [
+        "6a9856afa7c69cda97fb55e6"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B06A9904E369652590E0AADDC0",
+      "price": 8990,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca4f4",
+      "productName": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro Max",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca4f7",
+        "6aa06056af8879d815dca4fd",
+        "6aa06056af8879d815dca503"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP4",
+      "price": 103900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca509",
+      "productName": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca50c",
+        "6aa06056af8879d815dca512",
+        "6aa06056af8879d815dca518"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP5",
+      "price": 116400,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca51e",
+      "productName": "Apple iPhone 16",
+      "brand": "Apple",
+      "model": "Apple iPhone 16",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca521",
+        "6aa06056af8879d815dca527",
+        "6aa06056af8879d815dca52d"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP6",
+      "price": 128900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca533",
+      "productName": "Apple iPhone 16 Plus",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Plus",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca536",
+        "6aa06056af8879d815dca53c",
+        "6aa06056af8879d815dca542"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP7",
+      "price": 141400,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca55c",
+      "productName": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro Max",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca55f",
+        "6aa06056af8879d815dca565",
+        "6aa06056af8879d815dca56b"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP9",
+      "price": 166400,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca571",
+      "productName": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca574",
+        "6aa06056af8879d815dca57a",
+        "6aa06056af8879d815dca580"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP10",
+      "price": 178900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca586",
+      "productName": "Apple iPhone 15",
+      "brand": "Apple",
+      "model": "Apple iPhone 15",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-pink?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca589",
+        "6aa06056af8879d815dca58f",
+        "6aa06056af8879d815dca595"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP11",
+      "price": 191400,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca59b",
+      "productName": "Apple iPhone 15 Plus",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Plus",
+      "category": "smartphone",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-pink?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca59e",
+        "6aa06056af8879d815dca5a4",
+        "6aa06056af8879d815dca5aa"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SP12",
+      "price": 203900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca934",
+      "productName": "Apple MacBook Air 13 M3",
+      "brand": "Apple",
+      "model": "Apple MacBook Air 13 M3",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80&idx=1",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca937",
+        "6aa06056af8879d815dca93d"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e9"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00LP1",
+      "price": 90700,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca943",
+      "productName": "Apple MacBook Air 15 M3",
+      "brand": "Apple",
+      "model": "Apple MacBook Air 15 M3",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80&idx=2",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca946",
+        "6aa06056af8879d815dca94c"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e9"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00LP2",
+      "price": 106500,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca952",
+      "productName": "Apple MacBook Pro 14 M3 Pro",
+      "brand": "Apple",
+      "model": "Apple MacBook Pro 14 M3 Pro",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-select-202310?wid=4000&hei=2400&fmt=jpeg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca955",
+        "6aa06056af8879d815dca95b"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e9"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00LP3",
+      "price": 122300,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca961",
+      "productName": "Apple MacBook Pro 16 M3 Max",
+      "brand": "Apple",
+      "model": "Apple MacBook Pro 16 M3 Max",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=4000&hei=2400&fmt=jpeg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca964",
+        "6aa06056af8879d815dca96a"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e9"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00LP4",
+      "price": 138100,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06056af8879d815dca970",
+      "productName": "Apple MacBook Air 13 M2",
+      "brand": "Apple",
+      "model": "Apple MacBook Air 13 M2",
+      "category": "laptop",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80&idx=5",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06056af8879d815dca973",
+        "6aa06056af8879d815dca979"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e9"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00LP5",
+      "price": 153900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad10",
+      "productName": "Apple AirPods Max",
+      "brand": "Apple",
+      "model": "Apple AirPods Max",
+      "category": "headphones",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-202409-midnight?wid=2000&hei=2000&fmt=jpeg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcad13",
+        "6aa06057af8879d815dcad19"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00AU7",
+      "price": 59900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad1f",
+      "productName": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "model": "Apple AirPods Pro 2",
+      "category": "headphones",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=2000&hei=2000&fmt=jpeg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcad22",
+        "6aa06057af8879d815dcad28"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00AU8",
+      "price": 22900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad2e",
+      "productName": "Apple AirPods 3",
+      "brand": "Apple",
+      "model": "Apple AirPods 3",
+      "category": "headphones",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80&idx=9",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcad31",
+        "6aa06057af8879d815dcad37"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00AU9",
+      "price": 16900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae2d",
+      "productName": "Apple Watch Ultra 2",
+      "brand": "Apple",
+      "model": "Apple Watch Ultra 2",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcae30",
+        "6aa06057af8879d815dcae36"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SW1",
+      "price": 89900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae3c",
+      "productName": "Apple Watch Series 10",
+      "brand": "Apple",
+      "model": "Apple Watch Series 10",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/s10-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcae3f",
+        "6aa06057af8879d815dcae45"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SW2",
+      "price": 46900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06057af8879d815dcae4b",
+      "productName": "Apple Watch SE (2nd Gen)",
+      "brand": "Apple",
+      "model": "Apple Watch SE (2nd Gen)",
+      "category": "smartwatch",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80&idx=3",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06057af8879d815dcae4e",
+        "6aa06057af8879d815dcae54"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e8"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00SW3",
+      "price": 29900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0c1",
+      "productName": "Apple iPad Pro 13-inch M4",
+      "brand": "Apple",
+      "model": "Apple iPad Pro 13-inch M4",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202405-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb0c4",
+        "6aa06058af8879d815dcb0ca"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB1",
+      "price": 129900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0d0",
+      "productName": "Apple iPad Pro 11-inch M4",
+      "brand": "Apple",
+      "model": "Apple iPad Pro 11-inch M4",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202405-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb0d3",
+        "6aa06058af8879d815dcb0d9"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB2",
+      "price": 99900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0df",
+      "productName": "Apple iPad Air 11-inch M2",
+      "brand": "Apple",
+      "model": "Apple iPad Air 11-inch M2",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-finish-select-202405-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb0e2",
+        "6aa06058af8879d815dcb0e8"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB3",
+      "price": 59900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0ee",
+      "productName": "Apple iPad Air 13-inch M2",
+      "brand": "Apple",
+      "model": "Apple iPad Air 13-inch M2",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-finish-select-202405-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb0f1",
+        "6aa06058af8879d815dcb0f7"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB4",
+      "price": 79900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0fd",
+      "productName": "Apple iPad 10th Gen 10.9-inch",
+      "brand": "Apple",
+      "model": "Apple iPad 10th Gen 10.9-inch",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=5",
+      "imageVerificationStatus": "UNVERIFIED",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb100",
+        "6aa06058af8879d815dcb106"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB5",
+      "price": 34900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb10c",
+      "productName": "Apple iPad mini 7th Gen A17 Pro",
+      "brand": "Apple",
+      "model": "Apple iPad mini 7th Gen A17 Pro",
+      "category": "tablet",
+      "subcategory": null,
+      "existingImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-mini-finish-select-202410-spacegray?wid=5120&hei=2880&fmt=p-jpg",
+      "imageVerificationStatus": "VERIFIED_OFFICIAL",
+      "marketplaceProductIds": [
+        "6aa06058af8879d815dcb10f",
+        "6aa06058af8879d815dcb115"
+      ],
+      "marketplace": [
+        "6aa0604e37874f16fd03d4e2",
+        "6a9856afa7c69cda97fb55e7"
+      ],
+      "productUrl": "https://www.amazon.in/dp/B00TB6",
+      "price": 49900,
+      "sourceStatus": "LEGACY_SYNTHETIC"
+    }
+  ]
+}

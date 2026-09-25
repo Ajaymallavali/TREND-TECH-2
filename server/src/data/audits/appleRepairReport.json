@@ -1,0 +1,19 @@
+{
+  "brand": "Apple",
+  "productsBefore": 867,
+  "productsAfter": 867,
+  "appleProductsDiscovered": 42,
+  "appleProductsRepaired": 23,
+  "appleProductsUnresolved": 19,
+  "officialImagesVerified": 23,
+  "unsplashImagesRejected": 6,
+  "genericImagesRejected": 6,
+  "duplicateImagesDetected": 0,
+  "wrongImagesDetected": 0,
+  "fakeAsinsCreated": 0,
+  "fakeUrlsCreated": 0,
+  "fakePricesCreated": 0,
+  "nonAppleRecordsModified": 0,
+  "databaseWrites": 23,
+  "serpApiStatus": "HTTP 401 Unauthorized"
+}
