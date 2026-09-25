@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-25T07:32:34.867Z",
+  "databaseBefore": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559,
+    "marketplaces": 7
+  },
+  "databaseAfter": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559,
+    "marketplaces": 7
+  },
+  "productsRepaired": 0,
+  "productsUnresolved": 867,
+  "imagesVerified": 0,
+  "imagesUnverified": 867,
+  "duplicateImagesRejected": 90,
+  "unsplashImagesRemoved": 0,
+  "genericImagesRemoved": 0,
+  "categoryFixes": 0,
+  "brandFixes": 0,
+  "modelFixes": 0,
+  "priceFallbacksRemoved": 0,
+  "fakeUrlsFound": 0,
+  "fakeAsinsFound": 0,
+  "priceHistoryOrphans": 0,
+  "serpApiStatus": "HTTP 401 Unauthorized (LIVE_API_STATUS = BLOCKED)",
+  "frontendApiStatus": "PASS (Existing MongoDB catalog flows cleanly through API to frontend)",
+  "testResults": "29 test files passed (268 tests passed, 100% clean)"
+}
