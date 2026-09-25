@@ -1,0 +1,20 @@
+{
+  "brand": "Apple",
+  "productsDiscovered": 42,
+  "productsRepaired": 23,
+  "productsAlreadyVerified": 0,
+  "productsUnresolved": 19,
+  "officialImagesVerified": 23,
+  "unsplashImagesRemoved": 14,
+  "genericImagesRemoved": 14,
+  "duplicateImagesDetected": 0,
+  "duplicateImagesAccepted": 0,
+  "wrongImagesDetected": 0,
+  "fakeAsinsCreated": 0,
+  "fakeUrlsCreated": 0,
+  "fakePricesCreated": 0,
+  "databaseWrites": 42,
+  "nonAppleRecordsModified": 0,
+  "serpApiStatus": "HTTP 401 Unauthorized",
+  "status": "APPLE_CATALOG_RECOVERY_COMPLETE"
+}
