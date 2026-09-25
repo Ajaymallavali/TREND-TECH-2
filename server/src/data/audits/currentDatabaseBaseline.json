@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-23T16:41:44.791Z",
+  "databaseName": "trend-tech",
+  "counts": {
+    "products": 409,
+    "marketplaceProducts": 765,
+    "priceHistory": 13335,
+    "categories": 23,
+    "marketplaces": 11
+  },
+  "sourceStatusDistribution": {
+    "products": {
+      "LEGACY_SYNTHETIC": 409,
+      "LIVE_VERIFIED": 0,
+      "UNRESOLVED": 0
+    },
+    "marketplaceProducts": {
+      "LEGACY_SYNTHETIC": 0,
+      "LIVE_VERIFIED": 0
+    }
+  },
+  "imageSourceDistribution": {
+    "unsplash": 84,
+    "amazonCdn": 274,
+    "genericOther": 51,
+    "withImage": 409,
+    "withoutImage": 0
+  },
+  "provenanceMetrics": {
+    "withExternalId": 0,
+    "withoutExternalId": 409,
+    "withAsin": 0,
+    "withoutAsin": 409,
+    "generatedUrlsCount": 0
+  },
+  "priceHistoryMetrics": {
+    "total": 13335,
+    "orphan": 0,
+    "valid": 13335
+  }
+}

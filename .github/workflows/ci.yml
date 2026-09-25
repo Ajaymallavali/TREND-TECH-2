@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: server
+    services:
+      mongodb:
+        image: mongo:7
+        ports: ['27017:27017']
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+      - run: npm install
+      - run: npm run lint --if-present
+      - run: npm test --if-present
+        env:
+          MONGODB_URI: mongodb://localhost:27017/trend-tech-test
+          REDIS_URL: redis://localhost:6379
+          JWT_ACCESS_SECRET: ci_test_access_secret_please_change
+          JWT_REFRESH_SECRET: ci_test_refresh_secret_please_change
+
+  client:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+      - run: npm install
+      - run: npm run lint --if-present
+      - run: npm test --if-present
+      - run: npm run build

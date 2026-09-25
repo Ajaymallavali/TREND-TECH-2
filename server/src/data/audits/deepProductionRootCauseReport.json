@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-21T19:43:53.824Z",
+  "databaseBaseline": {
+    "productsCount": 867,
+    "marketplaceProductsCount": 1181,
+    "marketplacesCount": 7,
+    "priceHistoriesCount": 559
+  },
+  "imageStatusDistribution": {
+    "IMAGE_AMAZON_CDN": 36,
+    "IMAGE_NULL": 590,
+    "IMAGE_UNSPLASH": 241
+  },
+  "httpStatusDistribution": {
+    "200": 3,
+    "404": 9,
+    "invalid": 3
+  },
+  "categoryIntegrity": {
+    "totalSmartphonesScanned": 483,
+    "categoryMismatchCount": 99,
+    "xiaomiNonPhonesCount": 0
+  },
+  "offerAudit": {
+    "totalOffersScanned": 1181,
+    "searchUrlOffersCount": 305,
+    "amazonAsinCount": 626,
+    "suspiciousRepeatedAsinCount": 2
+  },
+  "imageDuplicationCount": 0,
+  "identityMismatchesCount": 1,
+  "syntheticDescriptionCount": 625,
+  "databaseModified": false
+}

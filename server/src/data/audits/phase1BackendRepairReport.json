@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-22T06:42:11.678Z",
+  "phase": "PHASE_1_BACKEND_REPAIR",
+  "filesInspected": [
+    "server/src/utils/categoryMapper.js",
+    "server/src/utils/productDTO.js",
+    "server/src/utils/productIdentity.js",
+    "server/src/controllers/product.controller.js",
+    "server/src/services/imagePipeline.service.js",
+    "server/src/routes/product.routes.js"
+  ],
+  "filesChanged": [
+    "server/src/utils/categoryMapper.js",
+    "server/src/utils/productDTO.js",
+    "server/src/services/__tests__/phase1BackendRepair.test.js"
+  ],
+  "databaseCountsBefore": {
+    "products": 867,
+    "marketplaceproducts": 1181,
+    "marketplaces": 7,
+    "pricehistories": 559
+  },
+  "databaseCountsAfter": {
+    "products": 867,
+    "marketplaceproducts": 1181,
+    "marketplaces": 7,
+    "pricehistories": 559
+  },
+  "databaseModified": false,
+  "categoryLogicChanges": [
+    "Added explicit phone accessory/charger/case/cover detection rule in determineProductCategory returning ACCESSORY category",
+    "Enforced tablet and smartwatch keyword checks before brand-level fallbacks",
+    "Enforced strict category + brand query logic (category = canonicalCategory AND brand = normalizedBrand)"
+  ],
+  "apiSerializationChanges": [
+    "Standardized formatProductDTO serializer across list, category, brand, and search endpoints",
+    "Populated offers array containing _id, id, marketplace details, url, currentPrice, originalPrice, currency, isAvailable, lastUpdated",
+    "Included categoryId in product DTO response schema",
+    "Return empty offers array [] when product has zero valid listings"
+  ],
+  "offerPopulationChanges": [
+    "Listings populated via MarketplaceProduct relationship",
+    "No fabricated offers or URLs created for products lacking verified store listings"
+  ],
+  "urlClassificationCounts": {
+    "EXACT_PRODUCT_URL": 626,
+    "SEARCH_URL": 0,
+    "INVALID_URL": 555,
+    "UNKNOWN": 0
+  },
+  "imageValidationBehavior": [
+    "Unsplash/Pexels stock photo URLs correctly identified as GENERIC stock and mapped to image: null / UNVERIFIED",
+    "No placeholder image substitution performed",
+    "Authoritative Amazon CDN images validated as VERIFIED_EXACT"
+  ],
+  "testsExecuted": [
+    "src/services/__tests__/phase1BackendRepair.test.js (12 tests)",
+    "src/services/__tests__/productionUrlAndDeal.test.js (16 tests)",
+    "src/services/__tests__/auth.service.test.js (4 tests)",
+    "src/services/__tests__/normalization.test.js (9 tests)",
+    "src/services/__tests__/verifiedCatalog.test.js (13 tests)"
+  ],
+  "testResults": {
+    "totalTestFiles": 5,
+    "passedTestFiles": 5,
+    "totalTests": 54,
+    "passedTests": 54,
+    "failedTests": 0
+  },
+  "remainingKnownProblems": [
+    "Legacy database contains 555 invalid/unverifiable marketplace URLs that need exact URL repair or clean linking in Phase 2",
+    "590 products have null image fields due to lack of direct CDN photography"
+  ]
+}

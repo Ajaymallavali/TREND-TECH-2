@@ -1,0 +1,2449 @@
+[
+  {
+    "_id": "6a9f0ede2dd777de0cd271ff",
+    "name": "Apple iPhone 15",
+    "brand": "Apple",
+    "description": "The iPhone 15 features Dynamic Island, a 48MP Main camera, and USB-C, all in a durable color-infused glass and aluminum design.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.1-inch Super Retina",
+      "Processor": "A16 Bionic",
+      "Storage": "128GB",
+      "RAM": "6GB",
+      "Camera": "48MP + 12MP"
+    },
+    "tags": [
+      "iphone",
+      "ios",
+      "apple",
+      "mobile"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.767Z",
+    "updatedAt": "2026-09-07T19:22:06.767Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27200",
+    "name": "Apple iPhone 15 Pro",
+    "brand": "Apple",
+    "description": "The iPhone 15 Pro features a strong and lightweight titanium design, new Action button, powerful camera upgrades, and A17 Pro chip.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.1-inch Super Retina 120Hz",
+      "Processor": "A17 Pro",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Camera": "48MP + 12MP + 12MP"
+    },
+    "tags": [
+      "iphone",
+      "ios",
+      "apple",
+      "flagship"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27201",
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "description": "The ultimate iPhone with a titanium design, A17 Pro chip, customizable Action button, and the most powerful iPhone camera system ever.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch Super Retina 120Hz",
+      "Processor": "A17 Pro",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Camera": "48MP + 12MP + 12MP 5x Zoom"
+    },
+    "tags": [
+      "iphone",
+      "ios",
+      "apple",
+      "flagship",
+      "pro-max"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27202",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "description": "Experience new levels of creativity, productivity and possibility starting with the most important device in your life: your smartphone.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.8-inch Dynamic AMOLED 2X",
+      "Processor": "Snapdragon 8 Gen 3",
+      "Storage": "512GB",
+      "RAM": "12GB",
+      "Camera": "200MP + 50MP + 12MP + 10MP"
+    },
+    "tags": [
+      "galaxy",
+      "samsung",
+      "android",
+      "flagship",
+      "ai"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27203",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "description": "The Galaxy S24 introduces Galaxy AI, making everyday tasks effortless with circle to search, live translation, and photo assist.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.2-inch Dynamic AMOLED 2X",
+      "Processor": "Exynos 2400",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 12MP + 10MP"
+    },
+    "tags": [
+      "galaxy",
+      "samsung",
+      "android",
+      "flagship"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27204",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "description": "A premium mid-range phone featuring a metallic frame, triple cameras with Nightography, and IP67 dust/water resistance.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.6-inch Super AMOLED 120Hz",
+      "Processor": "Exynos 1480",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 12MP + 5MP"
+    },
+    "tags": [
+      "galaxy",
+      "samsung",
+      "android",
+      "mid-range"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27205",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "description": "Redefined flagship smartphone featuring the Snapdragon 8 Gen 3, a 4th Gen Hasselblad Camera System, and 100W SuperVOOC charging.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.82-inch 2K ProXDR 120Hz",
+      "Processor": "Snapdragon 8 Gen 3",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 64MP + 48MP"
+    },
+    "tags": [
+      "oneplus",
+      "android",
+      "flagship",
+      "hasselblad"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27206",
+    "name": "OnePlus 12R",
+    "brand": "OnePlus",
+    "description": "A performance-driven powerhouse with a 1.5K 120Hz ProXDR display, Snapdragon 8 Gen 2, and the largest battery on a OnePlus phone.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.78-inch AMOLED 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "Storage": "256GB",
+      "RAM": "16GB",
+      "Camera": "50MP + 8MP + 2MP"
+    },
+    "tags": [
+      "oneplus",
+      "android",
+      "performance",
+      "mid-range"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27207",
+    "name": "OnePlus Nord CE4 5G",
+    "brand": "OnePlus",
+    "description": "Deliver the core OnePlus experience with a fast Snapdragon 7 Gen 3 processor, 100W charging, and 50MP Sony LYT-600 OIS camera.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch AMOLED 120Hz",
+      "Processor": "Snapdragon 7 Gen 3",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 8MP"
+    },
+    "tags": [
+      "oneplus",
+      "nord",
+      "android",
+      "budget"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27208",
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "brand": "Xiaomi",
+    "description": "Features a stunning 200MP camera with OIS, 1.5K curved AMOLED display, and Turbo Charging.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.67-inch AMOLED 120Hz",
+      "Processor": "Snapdragon 7s Gen 2",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Camera": "200MP + 8MP + 2MP"
+    },
+    "tags": [
+      "xiaomi",
+      "redmi",
+      "android",
+      "budget"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27209",
+    "name": "Realme 12 Pro 5G",
+    "brand": "Realme",
+    "description": "A design marvel inspired by luxury watch craftsmanship, featuring a telephoto portrait camera and curved display.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch OLED Curved 120Hz",
+      "Processor": "Snapdragon 6 Gen 1",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 32MP + 8MP"
+    },
+    "tags": [
+      "realme",
+      "android",
+      "mid-range"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720a",
+    "name": "Google Pixel 8",
+    "brand": "Google",
+    "description": "The helpful phone engineered by Google with Google AI, a state-of-the-art camera, and 7 years of software updates.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.2-inch Actua Display 120Hz",
+      "Processor": "Google Tensor G3",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 12MP"
+    },
+    "tags": [
+      "google",
+      "pixel",
+      "android",
+      "ai"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.768Z",
+    "updatedAt": "2026-09-07T19:22:06.768Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720b",
+    "name": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "description": "The best of Google AI and the most advanced Pixel camera system ever, built with polished aluminum and matte glass.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch Super Actua 120Hz",
+      "Processor": "Google Tensor G3",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 48MP + 48MP"
+    },
+    "tags": [
+      "google",
+      "pixel",
+      "android",
+      "flagship",
+      "ai"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720c",
+    "name": "Motorola Edge 50 Pro",
+    "brand": "Motorola",
+    "description": "Premium smartphone with Pantome validated display and camera, vegan leather design, and 125W TurboPower.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch 1.5K pOLED 144Hz",
+      "Processor": "Snapdragon 7 Gen 3",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 10MP + 13MP"
+    },
+    "tags": [
+      "motorola",
+      "moto",
+      "android",
+      "mid-range"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720d",
+    "name": "Nothing Phone (2)",
+    "brand": "Nothing",
+    "description": "Features the unique Glyph Interface 2.0, premium materials, custom Nothing OS 2.0, and dual 50MP rear cameras.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch LTPO OLED 120Hz",
+      "Processor": "Snapdragon 8+ Gen 1",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 50MP"
+    },
+    "tags": [
+      "nothing",
+      "android",
+      "glyph",
+      "design"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720e",
+    "name": "Nothing Phone (2a)",
+    "brand": "Nothing",
+    "description": "Powerfully unique smartphone optimized for daily performance, battery efficiency, and distinct aesthetics.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch flexible AMOLED 120Hz",
+      "Processor": "Dimensity 7200 Pro",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 50MP"
+    },
+    "tags": [
+      "nothing",
+      "android",
+      "budget",
+      "glyph"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2720f",
+    "name": "Vivo V30 Pro",
+    "brand": "Vivo",
+    "description": "Co-engineered with ZEISS optics, this phone features the Aura Light Portrait system and a premium slim profile.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.78-inch AMOLED 120Hz",
+      "Processor": "Dimensity 8200",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 50MP + 50MP ZEISS"
+    },
+    "tags": [
+      "vivo",
+      "android",
+      "zeiss",
+      "camera-phone"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27210",
+    "name": "Oppo Reno 11 5G",
+    "brand": "Oppo",
+    "description": "A portrait expert smartphone with ultra-clear camera system, linkboost connectivity, and 67W flash charge.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.7-inch OLED 120Hz",
+      "Processor": "Dimensity 7050",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Camera": "50MP + 32MP + 8MP"
+    },
+    "tags": [
+      "oppo",
+      "android",
+      "mid-range",
+      "portrait"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27211",
+    "name": "iQOO 12 5G",
+    "brand": "iQOO",
+    "description": "Extreme gaming performance phone featuring the Supercomputing Chip Q1 and the flagship Snapdragon 8 Gen 3.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.78-inch AMOLED 144Hz",
+      "Processor": "Snapdragon 8 Gen 3",
+      "Storage": "256GB",
+      "RAM": "12GB",
+      "Camera": "50MP + 50MP + 64MP"
+    },
+    "tags": [
+      "iqoo",
+      "vivo",
+      "android",
+      "gaming",
+      "flagship"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27212",
+    "name": "Poco X6 Pro 5G",
+    "brand": "Poco",
+    "description": "Insane price-to-performance phone featuring the MediaTek Dimensity 8300 Ultra and WildBoost Optimization.",
+    "category": "smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "6.67-inch CrystalRes AMOLED 120Hz",
+      "Processor": "Dimensity 8300 Ultra",
+      "Storage": "256GB",
+      "RAM": "8GB",
+      "Camera": "64MP + 8MP + 2MP"
+    },
+    "tags": [
+      "poco",
+      "xiaomi",
+      "android",
+      "gaming",
+      "budget"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27213",
+    "name": "Apple MacBook Air M3",
+    "brand": "Apple",
+    "description": "Super-portable, incredibly fast laptop powered by the advanced M3 chip, with up to 18 hours of battery life.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "13.6-inch Liquid Retina",
+      "Processor": "Apple M3 (8-core CPU)",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Battery": "Up to 18 hours"
+    },
+    "tags": [
+      "macbook",
+      "apple",
+      "m3",
+      "thin-and-light"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27214",
+    "name": "Apple MacBook Pro M3 Pro",
+    "brand": "Apple",
+    "description": "High-end developer and creator machine with stunning Liquid Retina XDR display, pro ports, and maximum performance.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "14.2-inch Liquid Retina XDR 120Hz",
+      "Processor": "Apple M3 Pro (11-core CPU)",
+      "RAM": "18GB",
+      "Storage": "512GB SSD",
+      "Battery": "Up to 22 hours"
+    },
+    "tags": [
+      "macbook",
+      "apple",
+      "macbook-pro",
+      "m3-pro",
+      "flagship"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27215",
+    "name": "ASUS TUF Gaming A15",
+    "brand": "Asus",
+    "description": "High-value gaming laptop offering high refresh rates, military-grade durability, and Ryzen 7 processors.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD 144Hz",
+      "Processor": "AMD Ryzen 7 7735HS",
+      "RAM": "16GB DDR5",
+      "Storage": "512GB SSD",
+      "GPU": "NVIDIA RTX 4060 8GB"
+    },
+    "tags": [
+      "gaming",
+      "asus",
+      "tuf",
+      "rtx4060",
+      "ryzen"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27216",
+    "name": "HP Pavilion 15",
+    "brand": "HP",
+    "description": "A versatile daily driver laptop with micro-edge display, premium audio by B&O, and long battery life.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD IPS",
+      "Processor": "Intel Core i5-1335U",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "OS": "Windows 11 Home"
+    },
+    "tags": [
+      "hp",
+      "pavilion",
+      "office",
+      "daily-driver"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27217",
+    "name": "Dell Inspiron 15",
+    "brand": "Dell",
+    "description": "Responsive, clean-design laptop featuring ExpressCharge, comfortable keyboard deck, and sustainable build.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD 120Hz",
+      "Processor": "Intel Core i5-1235U",
+      "RAM": "8GB DDR4",
+      "Storage": "512GB SSD",
+      "OS": "Windows 11"
+    },
+    "tags": [
+      "dell",
+      "inspiron",
+      "home",
+      "student"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27218",
+    "name": "Lenovo IdeaPad Slim 3",
+    "brand": "Lenovo",
+    "description": "Slim, light, and smart design laptop offering high-speed memory and multi-layered security features.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD anti-glare",
+      "Processor": "Intel Core i3-1215U",
+      "RAM": "8GB DDR4",
+      "Storage": "512GB SSD",
+      "Weight": "1.62kg"
+    },
+    "tags": [
+      "lenovo",
+      "ideapad",
+      "budget",
+      "student"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27219",
+    "name": "Acer Aspire 5 Lite",
+    "brand": "Acer",
+    "description": "Value-oriented, durable daily notebook with elevated keyboard design for comfortable typing.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD Display",
+      "Processor": "Intel Core i3-1115G4",
+      "RAM": "8GB RAM",
+      "Storage": "512GB SSD",
+      "OS": "Windows 11"
+    },
+    "tags": [
+      "acer",
+      "aspire",
+      "budget",
+      "work"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721a",
+    "name": "ASUS Zenbook 14 OLED",
+    "brand": "Asus",
+    "description": "Premium ultrabook with a breathtaking 2.8K OLED HDR display, light weight, and long-lasting battery.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "14.0-inch 2.8K OLED 90Hz",
+      "Processor": "Intel Core i5-1340P",
+      "RAM": "16GB LPDDR5",
+      "Storage": "512GB PCIe 4.0 SSD",
+      "Weight": "1.39kg"
+    },
+    "tags": [
+      "asus",
+      "zenbook",
+      "oled",
+      "premium",
+      "ultrabook"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721b",
+    "name": "MSI GF63 Thin",
+    "brand": "MSI",
+    "description": "Sleek brushed-aluminum gaming laptop that keeps things lightweight and highly frame-rate capable.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "15.6-inch FHD 144Hz",
+      "Processor": "Intel Core i5-11400H",
+      "RAM": "8GB DDR4",
+      "Storage": "512GB SSD",
+      "GPU": "NVIDIA GTX 1650 4GB"
+    },
+    "tags": [
+      "msi",
+      "gaming",
+      "thin",
+      "budget-gaming"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721c",
+    "name": "HP Victus 16",
+    "brand": "HP",
+    "description": "Spacious gaming laptop with refined cooling, high frame rates, and immersive visuals.",
+    "category": "laptop",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Screen": "16.1-inch FHD 144Hz",
+      "Processor": "AMD Ryzen 5 7640HS",
+      "RAM": "16GB DDR5",
+      "Storage": "512GB SSD",
+      "GPU": "NVIDIA RTX 4050 6GB"
+    },
+    "tags": [
+      "hp",
+      "victus",
+      "gaming",
+      "rtx4050",
+      "ryzen"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721d",
+    "name": "LG C3 OLED 55-inch TV",
+    "brand": "LG",
+    "description": "Stunning LG OLED evo TV with infinite contrast, powerful α9 AI Processor Gen6, and custom webOS interface.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "55-inch",
+      "Resolution": "4K Ultra HD",
+      "Panel": "OLED evo",
+      "Refresh Rate": "120Hz",
+      "HDMI Ports": "4"
+    },
+    "tags": [
+      "lg",
+      "oled",
+      "smart-tv",
+      "gaming-tv",
+      "4k"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721e",
+    "name": "Samsung Crystal 4K 43-inch TV",
+    "brand": "Samsung",
+    "description": "Immerse yourself in pictures with one billion shades of color via Crystal Processor 4K and HDR10+.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "43-inch",
+      "Resolution": "4K UHD",
+      "Panel": "LED",
+      "Smart OS": "Tizen OS",
+      "HDMI Ports": "3"
+    },
+    "tags": [
+      "samsung",
+      "crystal",
+      "smart-tv",
+      "budget-4k"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2721f",
+    "name": "Sony Bravia 55-inch Google TV",
+    "brand": "Sony",
+    "description": "Enter a world of movies and shows with rich contrast, natural colors, and Google TV dashboard.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "55-inch",
+      "Resolution": "4K UHD",
+      "Processor": "X1 4K HDR",
+      "OS": "Google TV",
+      "Audio": "20W Dolby Audio"
+    },
+    "tags": [
+      "sony",
+      "bravia",
+      "google-tv",
+      "4k",
+      "premium-brand"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27220",
+    "name": "OnePlus TV Y1S 32-inch",
+    "brand": "OnePlus",
+    "description": "Smart, borderless Android TV with OxygenPlay integration and gamma engine picture enhancement.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "32-inch",
+      "Resolution": "HD Ready",
+      "OS": "Android TV 11",
+      "Audio": "20W Speakers",
+      "HDMI Ports": "2"
+    },
+    "tags": [
+      "oneplus",
+      "android-tv",
+      "budget",
+      "bedroom-tv"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27221",
+    "name": "Xiaomi Smart TV X50 50-inch",
+    "brand": "Xiaomi",
+    "description": "Redefining entertainment with PatchWall, Dolby Vision, 30W audio speaker output, and Google TV.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "50-inch",
+      "Resolution": "4K UHD",
+      "OS": "Google TV (PatchWall)",
+      "Audio": "30W Dolby Audio",
+      "HDMI Ports": "3"
+    },
+    "tags": [
+      "xiaomi",
+      "mi-tv",
+      "patchwall",
+      "4k",
+      "value"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27222",
+    "name": "TCL 55-inch QLED Smart TV",
+    "brand": "TCL",
+    "description": "Quantum Dot technology yields over a billion colors with HDR 10+ and Dolby Atmos audio support.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "55-inch",
+      "Resolution": "4K QLED",
+      "OS": "Google TV",
+      "Refresh Rate": "60Hz",
+      "HDMI Ports": "3"
+    },
+    "tags": [
+      "tcl",
+      "qled",
+      "smart-tv",
+      "value-qled"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27223",
+    "name": "LG 32-inch Smart LED TV",
+    "brand": "LG",
+    "description": "Compact HD smart TV with active HDR, AI Sound, and webOS platform built-in.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "32-inch",
+      "Resolution": "HD Ready",
+      "OS": "webOS",
+      "HDMI Ports": "2",
+      "USB Ports": "1"
+    },
+    "tags": [
+      "lg",
+      "led-tv",
+      "smart-tv",
+      "budget"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27224",
+    "name": "Samsung Neo QLED 55-inch 8K TV",
+    "brand": "Samsung",
+    "description": "Ultimate clarity and precision with Quantum Mini LEDs, Neo Quantum Processor 8K, and Infinity Screen design.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "55-inch",
+      "Resolution": "8K Ultra HD",
+      "Panel": "Neo QLED",
+      "Refresh Rate": "120Hz",
+      "HDMI Ports": "4"
+    },
+    "tags": [
+      "samsung",
+      "neo-qled",
+      "8k-tv",
+      "premium",
+      "flagship"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27225",
+    "name": "Acer Advanced I Series 50-inch",
+    "brand": "Acer",
+    "description": "Brilliant display output featuring Google TV, MEMC motion smoothing, and 30W High-Fidelity speakers.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "50-inch",
+      "Resolution": "4K UHD",
+      "OS": "Google TV",
+      "Audio": "30W Dolby Atmos",
+      "HDMI Ports": "3"
+    },
+    "tags": [
+      "acer",
+      "google-tv",
+      "budget-4k",
+      "value-tv"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27226",
+    "name": "VU 65-inch GloLED Smart TV",
+    "brand": "VU",
+    "description": "High-brightness Glo Panel TV delivering 400 nits, dedicated Glo AI Processor, and an integrated 104W subwoofer bar.",
+    "category": "television",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "65-inch",
+      "Resolution": "4K UHD",
+      "Panel": "GloLED (400 Nits)",
+      "Audio": "104W DJ Sound (Subwoofer)",
+      "OS": "Google TV"
+    },
+    "tags": [
+      "vu",
+      "gloled",
+      "smart-tv",
+      "big-screen",
+      "loud-audio"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27227",
+    "name": "Sony WH-1000XM5 ANC Headphones",
+    "brand": "Sony",
+    "description": "Industry-leading noise cancelling over-ear headphones with custom processor, multi-point pairing, and 30-hour battery life.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Over-ear",
+      "Battery Life": "Up to 30 hours",
+      "Noise Cancelling": "Industry Leading ANC",
+      "Bluetooth": "v5.2",
+      "Weight": "250g"
+    },
+    "tags": [
+      "sony",
+      "anc",
+      "headphones",
+      "premium-audio"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27228",
+    "name": "Sony WF-1000XM5 TWS Earbuds",
+    "brand": "Sony",
+    "description": "Truly wireless active noise cancelling earbuds featuring the Dynamic Driver X, high-res audio, and bone conduction sensors.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 24 hours (with case)",
+      "Noise Cancelling": "Dual Processor ANC",
+      "Waterproof": "IPX4",
+      "Codec": "LDAC"
+    },
+    "tags": [
+      "sony",
+      "earbuds",
+      "tws",
+      "anc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27229",
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "brand": "Apple",
+    "description": "Magical listening experience featuring twice the noise cancellation capability, Adaptive Audio, and USB-C MagSafe charging case.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 30 hours (with case)",
+      "Chip": "Apple H2 chip",
+      "Noise Cancelling": "Active ANC",
+      "Charging": "USB-C / MagSafe"
+    },
+    "tags": [
+      "apple",
+      "airpods",
+      "airpods-pro",
+      "tws",
+      "anc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722a",
+    "name": "Apple AirPods (3rd Gen)",
+    "brand": "Apple",
+    "description": "Enjoy personalized spatial audio, longer battery life, and sweat/water resistance for workout routines.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 30 hours total",
+      "Chip": "Apple H1 chip",
+      "Spatial Audio": "Yes",
+      "Charging": "Lightning / MagSafe"
+    },
+    "tags": [
+      "apple",
+      "airpods",
+      "tws",
+      "spatial-audio"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722b",
+    "name": "OnePlus Buds 3",
+    "brand": "OnePlus",
+    "description": "High-resolution audio dual drivers, 49dB smart adaptive active noise cancellation, and fast charging.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 44 hours total",
+      "ANC": "49dB Smart ANC",
+      "Dual Drivers": "10.4mm + 6mm",
+      "Bluetooth": "v5.3"
+    },
+    "tags": [
+      "oneplus",
+      "earbuds",
+      "tws",
+      "value"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722c",
+    "name": "boAt Airdopes 141",
+    "brand": "boAt",
+    "description": "Highly affordable TWS earbuds featuring ENx environmental noise cancellation technology and Beast Mode low latency.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 42 hours total",
+      "Drivers": "8mm",
+      "Latency": "80ms",
+      "Charging": "Type-C"
+    },
+    "tags": [
+      "boat",
+      "airdopes",
+      "tws",
+      "budget",
+      "indian-brand"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722d",
+    "name": "Realme Buds Air 5 Pro",
+    "brand": "Realme",
+    "description": "Real dual-coaxial drivers TWS with 50dB active noise cancellation and high-res audio certification.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "In-ear / TWS",
+      "Battery Life": "Up to 40 hours total",
+      "ANC": "50dB ANC",
+      "Drivers": "11mm + 6mm Dual Drivers",
+      "LDAC": "Supported"
+    },
+    "tags": [
+      "realme",
+      "earbuds",
+      "tws",
+      "anc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722e",
+    "name": "JBL Tune 770NC ANC Headphones",
+    "brand": "JBL",
+    "description": "Wireless over-ear headphones with adaptive active noise cancelling, JBL Pure Bass sound, and 70-hour battery life.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Over-ear",
+      "Battery Life": "Up to 70 hours (ANC off)",
+      "ANC": "Adaptive Noise Cancelling",
+      "Bluetooth": "v5.3",
+      "Bass": "Pure Bass Sound"
+    },
+    "tags": [
+      "jbl",
+      "headphones",
+      "bass",
+      "anc",
+      "wireless"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2722f",
+    "name": "Sennheiser Accentum Wireless",
+    "brand": "Sennheiser",
+    "description": "German-engineered acoustic audio quality, hybrid active noise cancellation, and a comfortable ergonomic design.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Over-ear",
+      "Battery Life": "Up to 50 hours",
+      "ANC": "Hybrid ANC",
+      "Acoustic Tuned": "Yes",
+      "Charging": "USB-C Quick Charge"
+    },
+    "tags": [
+      "sennheiser",
+      "headphones",
+      "audiophile",
+      "anc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.769Z",
+    "updatedAt": "2026-09-07T19:22:06.769Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27230",
+    "name": "Bose QuietComfort Ultra",
+    "brand": "Bose",
+    "description": "World-class active noise cancellation, custom sound calibration, and immersive Bose spatial audio.",
+    "category": "headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Over-ear",
+      "Battery Life": "Up to 24 hours",
+      "ANC": "CustomTune Technology",
+      "Spatial Audio": "Bose Immersive Audio",
+      "Bluetooth": "v5.3"
+    },
+    "tags": [
+      "bose",
+      "quietcomfort",
+      "headphones",
+      "premium",
+      "anc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27231",
+    "name": "Apple Watch Series 9 GPS",
+    "brand": "Apple",
+    "description": "Includes Apple's S9 SiP processor, Double Tap gesture, advanced health tracking, and bright Always-On Retina display.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "Always-On Retina",
+      "Chip": "S9 SiP",
+      "Battery Life": "Up to 18 hours",
+      "Waterproof": "WR50",
+      "Sensors": "ECG, Blood Oxygen, Temp"
+    },
+    "tags": [
+      "apple-watch",
+      "apple",
+      "watch",
+      "ios",
+      "fitness"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27232",
+    "name": "Apple Watch Ultra 2 GPS+Cellular",
+    "brand": "Apple",
+    "description": "The ultimate sports watch with custom titanium case, up to 72 hours of battery, dual-frequency GPS, and modular watch face.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "3000 nits Always-On",
+      "Material": "Titanium Case",
+      "Battery Life": "Up to 36 hours (72h Low Power)",
+      "GPS": "Precision Dual-Freq",
+      "Waterproof": "100m"
+    },
+    "tags": [
+      "apple-watch",
+      "ultra",
+      "apple",
+      "sports",
+      "titanium"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27233",
+    "name": "Samsung Galaxy Watch 6 LTE",
+    "brand": "Samsung",
+    "description": "Featuring a rotating bezel design, personalized sleep coaching, BioActive health sensor, and Google WearOS integration.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "Super AMOLED",
+      "OS": "WearOS (One UI)",
+      "Battery Life": "Up to 40 hours",
+      "Sensors": "BIA, ECG, Heart Rate",
+      "Connectivity": "LTE + GPS"
+    },
+    "tags": [
+      "galaxy-watch",
+      "samsung",
+      "wearos",
+      "android",
+      "watch"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27234",
+    "name": "OnePlus Watch 2",
+    "brand": "OnePlus",
+    "description": "A revolutionary smart watch with dual-engine architecture yielding up to 100 hours of battery life in Smart Mode.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "1.43-inch AMOLED",
+      "OS": "WearOS 4",
+      "Battery Life": "Up to 100 hours",
+      "Processor": "Snapdragon W5 + BES2700",
+      "Material": "Stainless Steel"
+    },
+    "tags": [
+      "oneplus",
+      "wearos",
+      "battery-king",
+      "watch"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27235",
+    "name": "Amazfit GTR 4 Smartwatch",
+    "brand": "Amazfit",
+    "description": "Classic round business smartwatch with industry-leading dual-band GPS, Zepp OS, and 14-day battery life.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "1.43-inch AMOLED",
+      "Battery Life": "Up to 14 days",
+      "GPS": "Dual-Band circular-polarized",
+      "Sports Modes": "150+",
+      "Sensors": "BioTracker 4.0"
+    },
+    "tags": [
+      "amazfit",
+      "gtr",
+      "android-ios",
+      "battery-life"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27236",
+    "name": "Noise ColorFit Pulse 3",
+    "brand": "Noise",
+    "description": "Budget-friendly smartwatch with Bluetooth calling, large display screen, and multi-sport activity trackers.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "1.96-inch TFT",
+      "Battery Life": "Up to 7 days",
+      "Bluetooth Calling": "Yes",
+      "Waterproof": "IP68",
+      "Activity Trackers": "100+"
+    },
+    "tags": [
+      "noise",
+      "colorfit",
+      "budget",
+      "calling-watch",
+      "indian-brand"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27237",
+    "name": "boAt Wave Sigma Smartwatch",
+    "brand": "boAt",
+    "description": "Stylish smart wearable with large HD display, multiple custom watch faces, and built-in voice assistance.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "2.01-inch HD",
+      "Bluetooth Calling": "Yes",
+      "Battery Life": "Up to 5 days",
+      "Sports Modes": "700+",
+      "Voice Assistant": "Supported"
+    },
+    "tags": [
+      "boat",
+      "wave",
+      "budget",
+      "bluetooth-calling",
+      "indian-brand"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27238",
+    "name": "Fire-Boltt Gladiator Watch",
+    "brand": "Fire-Boltt",
+    "description": "Sturdy action watch featuring Apple Watch Ultra-inspired design, calling functionality, and rugged frame.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "1.96-inch HD",
+      "Calling": "Bluetooth Dial & Mic",
+      "Battery Life": "Up to 8 days",
+      "IP Rating": "IP67 Waterproof",
+      "Design": "Rugged Alloy"
+    },
+    "tags": [
+      "fire-boltt",
+      "rugged",
+      "budget",
+      "calling",
+      "indian-brand"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27239",
+    "name": "Fossil Gen 6 Smartwatch",
+    "brand": "Fossil",
+    "description": "Chic designer watch powered by WearOS, faster charging speed, and stainless steel band options.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "AMOLED Touchscreen",
+      "OS": "WearOS by Google",
+      "Processor": "Snapdragon Wear 4100+",
+      "Sensors": "SpO2, Heart Rate, NFC",
+      "Charging": "80% in 30 mins"
+    },
+    "tags": [
+      "fossil",
+      "wearos",
+      "premium-wear",
+      "fashion"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723a",
+    "name": "Fitbit Charge 6 tracker",
+    "brand": "Fitbit",
+    "description": "Advanced fitness band tracker with built-in GPS, Google wallet/maps integrations, and continuous heart monitoring.",
+    "category": "smartwatch",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "AMOLED Color Screen",
+      "Battery Life": "Up to 7 days",
+      "GPS": "Built-In GPS",
+      "Waterproof": "50m",
+      "Google Apps": "Wallet, Maps, YouTube"
+    },
+    "tags": [
+      "fitbit",
+      "google",
+      "tracker",
+      "fitness",
+      "sports-band"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723b",
+    "name": "LG UltraGear 24GN650 Gaming Monitor",
+    "brand": "LG",
+    "description": "Ultra-fast gaming monitor with 144Hz refresh rate, IPS panel for wide viewing angles, and FreeSync.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "24-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms GtG"
+    },
+    "tags": [
+      "lg",
+      "monitor",
+      "gaming",
+      "ips",
+      "144hz"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723c",
+    "name": "Samsung Odyssey G5 27-inch Curved Monitor",
+    "brand": "Samsung",
+    "description": "Immersive 1000R curved gaming monitor with QHD resolution, AMD FreeSync Premium, and 144Hz rate.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "27-inch",
+      "Panel": "VA Curved (1000R)",
+      "Resolution": "QHD (2560x1440)",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms"
+    },
+    "tags": [
+      "samsung",
+      "monitor",
+      "curved",
+      "gaming",
+      "qhd"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723d",
+    "name": "Dell SE2422H 24-inch Monitor",
+    "brand": "Dell",
+    "description": "Everyday home office monitor with slim bezels, AMD FreeSync, and flicker-free comfort viewing.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "24-inch",
+      "Panel": "VA",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "75Hz",
+      "Ports": "HDMI, VGA"
+    },
+    "tags": [
+      "dell",
+      "monitor",
+      "office",
+      "home",
+      "budget"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723e",
+    "name": "Acer Nitro 23.8-inch Gaming Monitor",
+    "brand": "Acer",
+    "description": "Zero-frame design gaming monitor with HDR10 support, 180Hz overclocked refresh rate, and stereophonic speakers.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "23.8-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "180Hz",
+      "Speakers": "2W x 2"
+    },
+    "tags": [
+      "acer",
+      "nitro",
+      "gaming",
+      "ips",
+      "180hz"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2723f",
+    "name": "BenQ EW2480 24-inch Entertainment Monitor",
+    "brand": "BenQ",
+    "description": "Optimized video monitor featuring HDRi intelligence, custom built-in speakers, and eye-care safety technology.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "24-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Sound": "treVolo True Sound",
+      "HDR": "HDRi Integrated"
+    },
+    "tags": [
+      "benq",
+      "monitor",
+      "eyecare",
+      "entertainment"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27240",
+    "name": "ASUS VY249HE Eye Care Monitor",
+    "brand": "ASUS",
+    "description": "Designed for healthy productivity, this monitor features an antibacterial treatment on bezels and hotkeys.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "23.8-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "75Hz",
+      "Treatment": "Antibacterial"
+    },
+    "tags": [
+      "asus",
+      "monitor",
+      "eyecare",
+      "office"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27241",
+    "name": "LG 27UP650 27-inch 4K Monitor",
+    "brand": "LG",
+    "description": "Ultra HD 4K IPS display with VESA DisplayHDR 400, AMD FreeSync, and custom factory color calibrations.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "27-inch",
+      "Panel": "IPS",
+      "Resolution": "4K UHD (3840x2160)",
+      "Brightness": "400 nits",
+      "HDR": "DisplayHDR 400"
+    },
+    "tags": [
+      "lg",
+      "monitor",
+      "4k",
+      "ips",
+      "creator"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27242",
+    "name": "Gigabyte G27F Gaming Monitor",
+    "brand": "Gigabyte",
+    "description": "Spacious 27-inch flat screen gamer display panel with wide color gamut and 165Hz ultra-high performance refresh rate.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "27-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "165Hz",
+      "Gamut": "125% sRGB"
+    },
+    "tags": [
+      "gigabyte",
+      "monitor",
+      "gaming",
+      "ips",
+      "165hz"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27243",
+    "name": "Lenovo L22e-40 21.5-inch Monitor",
+    "brand": "Lenovo",
+    "description": "Compact, near-frameless display panel monitor for home studies or space-efficient desks.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "21.5-inch",
+      "Panel": "VA",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "75Hz",
+      "Bezel": "3-side NearEdgeless"
+    },
+    "tags": [
+      "lenovo",
+      "monitor",
+      "budget",
+      "compact"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27244",
+    "name": "ViewSonic VX2479 Gaming Monitor",
+    "brand": "ViewSonic",
+    "description": "High-speed IPS gaming display offering 165Hz rate, adaptive sync technology, and rapid response cycles.",
+    "category": "monitor",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Size": "24-inch",
+      "Panel": "IPS",
+      "Resolution": "FHD (1920x1080)",
+      "Refresh Rate": "165Hz",
+      "Response": "1ms"
+    },
+    "tags": [
+      "viewsonic",
+      "monitor",
+      "gaming",
+      "165hz",
+      "budget-gaming"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27245",
+    "name": "Apple iPad (10th Gen) Wi-Fi",
+    "brand": "Apple",
+    "description": "Colorfully reimagined iPad featuring a 10.9-inch Liquid Retina display, A14 Bionic chip, and landscape front camera.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "10.9-inch Liquid Retina",
+      "Processor": "A14 Bionic",
+      "Storage": "64GB",
+      "OS": "iPadOS",
+      "Pencil Support": "Apple Pencil (1st Gen/USB-C)"
+    },
+    "tags": [
+      "ipad",
+      "apple",
+      "tablet",
+      "ios",
+      "student"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27246",
+    "name": "Apple iPad Air M2",
+    "brand": "Apple",
+    "description": "Supercharged by Apple M2 chip, this iPad Air features a thin design, landscape camera, and supports Apple Pencil Pro.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11-inch Liquid Retina",
+      "Processor": "Apple M2 chip",
+      "Storage": "128GB",
+      "Camera": "12MP Front/Back",
+      "OS": "iPadOS 17"
+    },
+    "tags": [
+      "ipad",
+      "ipad-air",
+      "apple",
+      "m2",
+      "tablet"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27247",
+    "name": "Apple iPad Pro M4 Ultra Thin",
+    "brand": "Apple",
+    "description": "Incredibly thin design combined with the breakthrough Tandem OLED Ultra Retina XDR screen and high-octane M4 processing.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11-inch Ultra Retina Tandem OLED",
+      "Processor": "Apple M4 chip",
+      "Storage": "256GB",
+      "Thickness": "5.3mm",
+      "Ports": "Thunderbolt / USB 4"
+    },
+    "tags": [
+      "ipad",
+      "ipad-pro",
+      "apple",
+      "m4",
+      "oled",
+      "premium"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27248",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "description": "Brilliant display, bundled IP68 water-resistant S Pen, and large battery for high-efficiency mobile work.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "10.9-inch 90Hz",
+      "Processor": "Exynos 1380",
+      "Storage": "128GB",
+      "RAM": "6GB",
+      "Stylus": "S Pen Included"
+    },
+    "tags": [
+      "samsung",
+      "galaxy-tab",
+      "android",
+      "tablet",
+      "spen"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27249",
+    "name": "Samsung Galaxy Tab A9+ Wi-Fi",
+    "brand": "Samsung",
+    "description": "Highly accessible family tablet with quad speakers, 90Hz fluid screen refresh rate, and multi-window multitasking.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11.0-inch 90Hz LCD",
+      "Processor": "Snapdragon 695",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Speakers": "Quad Dolby Atmos"
+    },
+    "tags": [
+      "samsung",
+      "galaxy-tab",
+      "budget-tablet",
+      "android"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724a",
+    "name": "Lenovo Tab M10 Gen 3",
+    "brand": "Lenovo",
+    "description": "Great for entertainment, featuring dual speakers, TUV Certified low-blue-light screen, and Android OS.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "10.1-inch FHD IPS",
+      "Processor": "Unisoc T610",
+      "Storage": "64GB",
+      "RAM": "4GB",
+      "Battery": "5000 mAh"
+    },
+    "tags": [
+      "lenovo",
+      "tablet",
+      "budget",
+      "kids-learning"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724b",
+    "name": "Xiaomi Pad 6",
+    "brand": "Xiaomi",
+    "description": "High-performance tablet featuring a 144Hz 7-stage variable refresh screen, Snapdragon 870, and metal unibody.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11-inch 2.8K 144Hz",
+      "Processor": "Snapdragon 870",
+      "Storage": "128GB",
+      "RAM": "6GB",
+      "Battery": "8840 mAh"
+    },
+    "tags": [
+      "xiaomi",
+      "pad",
+      "android-tablet",
+      "gaming",
+      "value"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724c",
+    "name": "OnePlus Pad",
+    "brand": "OnePlus",
+    "description": "Flagship Android tablet featuring a 7:5 ratio screen, Dimensity 9000 SoC, and ultra-fast charging.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11.61-inch 144Hz 7:5 ReadFit",
+      "Processor": "MediaTek Dimensity 9000",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Charge": "67W SUPERVOOC"
+    },
+    "tags": [
+      "oneplus",
+      "oneplus-pad",
+      "android",
+      "tablet"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724d",
+    "name": "OnePlus Pad Go",
+    "brand": "OnePlus",
+    "description": "A pocket-friendly fun tablet with a sharp 2.4K screen, eye care certification, and long standby battery.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11.35-inch 2.4K 90Hz",
+      "Processor": "MediaTek Helio G99",
+      "Storage": "128GB",
+      "RAM": "8GB",
+      "Battery": "8000 mAh"
+    },
+    "tags": [
+      "oneplus",
+      "budget-tablet",
+      "android",
+      "media-player"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724e",
+    "name": "Realme Pad 2 LTE",
+    "brand": "Realme",
+    "description": "LTE-connected mid-range tablet with 120Hz display, Helio G99 processor, and Dolby Atmos audio output.",
+    "category": "tablet",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "11.5-inch 120Hz 2K",
+      "Processor": "MediaTek Helio G99",
+      "Storage": "128GB",
+      "Connectivity": "LTE + Wi-Fi",
+      "Audio": "Quad Speakers"
+    },
+    "tags": [
+      "realme",
+      "tablet",
+      "lte",
+      "android"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2724f",
+    "name": "Sony Alpha 7 IV Mirrorless Camera",
+    "brand": "Sony",
+    "description": "Full-frame mirrorless camera setting standard for creators with 33MP sensor, real-time tracking, and 4K recording.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "33MP Full-frame CMOS",
+      "Mount": "Sony E-mount",
+      "Video": "4K 60p 10-bit",
+      "AF": "759 Phase-Detect Points",
+      "Stabilization": "5-axis IBIS"
+    },
+    "tags": [
+      "sony",
+      "alpha",
+      "camera",
+      "mirrorless",
+      "creator",
+      "full-frame"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.770Z",
+    "updatedAt": "2026-09-07T19:22:06.770Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27250",
+    "name": "Canon EOS R10 Mirrorless Camera",
+    "brand": "Canon",
+    "description": "Compact mirrorless camera, great for content creators, featuring fast autofocus and continuous action shooting.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "24.2MP APS-C CMOS",
+      "Mount": "Canon RF",
+      "Video": "4K 30p (60p cropped)",
+      "Burst": "15 fps Mechanical",
+      "AF": "Dual Pixel CMOS AF II"
+    },
+    "tags": [
+      "canon",
+      "camera",
+      "mirrorless",
+      "vlogging"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27251",
+    "name": "Nikon Z30 Vlogging Camera",
+    "brand": "Nikon",
+    "description": "Specifically built camera for vloggers and creators with modular screen, built-in stereo mic, and red recording lamp.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "20.9MP APS-C",
+      "Video": "4K UHD up to 30p",
+      "Screen": "3-inch Vari-angle touchscreen",
+      "Mic": "Built-In Stereo",
+      "Weight": "350g"
+    },
+    "tags": [
+      "nikon",
+      "vlog",
+      "mirrorless",
+      "content-creation"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27252",
+    "name": "Fujifilm X-T30 II Camera",
+    "brand": "Fujifilm",
+    "description": "Charming retro design camera packing Fujifilm's famous Film Simulation color profiles and compact handling.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "26.1MP X-Trans CMOS 4",
+      "Mount": "Fujifilm X",
+      "Film Simulations": "18 Modes",
+      "Video": "4K 30p",
+      "Design": "Retro dials"
+    },
+    "tags": [
+      "fujifilm",
+      "retro",
+      "street-photography",
+      "colors"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27253",
+    "name": "GoPro Hero 12 Black Action Camera",
+    "brand": "GoPro",
+    "description": "Rugged action camera featuring HyperSmooth 6.0 stabilization, HDR video, and waterproof durability up to 10m.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Resolution": "5.3K 60fps / 4K 120fps",
+      "Stabilization": "HyperSmooth 6.0",
+      "Waterproof": "10m / 33ft",
+      "Battery": "Enduro Battery",
+      "Photos": "27MP"
+    },
+    "tags": [
+      "gopro",
+      "action-camera",
+      "rugged",
+      "adventure",
+      "video"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27254",
+    "name": "DJI Pocket 3 Gimbal Camera",
+    "brand": "DJI",
+    "description": "Handheld 3-axis stabilized camera with a rotatable screen, ActiveTrack 6.0, and a powerful 1-inch sensor.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "1-inch CMOS",
+      "Stabilization": "3-axis mechanical gimbal",
+      "Video": "4K 120fps",
+      "Screen": "2-inch rotatable OLED",
+      "Tracking": "ActiveTrack 6.0"
+    },
+    "tags": [
+      "dji",
+      "gimbal",
+      "vlogging",
+      "pocket-size"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27255",
+    "name": "Sony ZV-E10 Vlogging Camera",
+    "brand": "Sony",
+    "description": "Interchangeable lens vlogging camera featuring a large APS-C sensor, product showcase setting, and high-quality audio.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "24.2MP APS-C Exmor CMOS",
+      "Mount": "Sony E-mount",
+      "Video": "4K UHD / 120p slow motion",
+      "Audio": "Directional 3-Capsule Mic",
+      "Screen": "Side-opening flip out"
+    },
+    "tags": [
+      "sony",
+      "vlogging",
+      "youtube-camera",
+      "creators"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27256",
+    "name": "Canon EOS 1500D DSLR Camera",
+    "brand": "Canon",
+    "description": "Classic entry-level DSLR camera with 24.1MP sensor, optical viewfinder, and simple smart auto settings.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "24.1MP APS-C CMOS",
+      "Type": "DSLR",
+      "Processor": "DIGIC 4+",
+      "ISO Range": "100-6400",
+      "Connectivity": "Wi-Fi, NFC"
+    },
+    "tags": [
+      "canon",
+      "dslr",
+      "beginner",
+      "photography"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27257",
+    "name": "Nikon D5600 DSLR Camera",
+    "brand": "Nikon",
+    "description": "Familiar crop DSLR camera featuring a vari-angle touchscreen, SnapBridge connectivity, and rich 39-point AF.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Sensor": "24.2MP DX-Format",
+      "Type": "DSLR",
+      "Screen": "3.2-inch articulating touch",
+      "AF Points": "39 Points",
+      "Connectivity": "SnapBridge Bluetooth"
+    },
+    "tags": [
+      "nikon",
+      "dslr",
+      "travel",
+      "hobbyist"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27258",
+    "name": "Fujifilm Instax Mini 12",
+    "brand": "Fujifilm",
+    "description": "Fun instant film camera with automatic exposure, close-up mode, and built-in selfie mirror.",
+    "category": "camera",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Instant Film",
+      "Film": "Instax Mini Film",
+      "Selfie Mirror": "Yes",
+      "Lens": "60mm focal length",
+      "Weight": "293g"
+    },
+    "tags": [
+      "fujifilm",
+      "instax",
+      "instant",
+      "gifts",
+      "party"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27259",
+    "name": "Sony PlayStation 5 Console",
+    "brand": "Sony",
+    "description": "Unleash new gaming possibilities with ultra-high-speed SSD, adaptive triggers, haptic feedback, and ray tracing.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Processor": "AMD Zen 2 8-core CPU",
+      "GPU": "AMD RDNA 2 (10.3 TFLOPS)",
+      "Storage": "825GB SSD",
+      "Output": "4K 120Hz / 8K support",
+      "Controller": "DualSense Wireless"
+    },
+    "tags": [
+      "sony",
+      "ps5",
+      "console",
+      "gaming",
+      "next-gen"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725a",
+    "name": "Xbox Series X Console",
+    "brand": "Microsoft",
+    "description": "The fastest, most powerful Xbox ever, designed for a console generation that puts you, the player, at its center.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Processor": "Custom Zen 2 8-core",
+      "GPU": "Custom RDNA 2 (12 TFLOPS)",
+      "Storage": "1TB SSD",
+      "OS": "Xbox OS",
+      "Frame Rate": "Up to 120fps"
+    },
+    "tags": [
+      "xbox",
+      "microsoft",
+      "console",
+      "gaming",
+      "series-x"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725b",
+    "name": "Xbox Series S Console",
+    "brand": "Microsoft",
+    "description": "All-digital next-gen gaming performance at our most accessible price point in a compact frame.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Processor": "Custom Zen 2 8-core",
+      "GPU": "Custom RDNA 2 (4 TFLOPS)",
+      "Storage": "512GB SSD",
+      "Output": "1440p up to 120fps",
+      "Type": "Digital Only"
+    },
+    "tags": [
+      "xbox",
+      "microsoft",
+      "budget",
+      "console",
+      "digital"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725c",
+    "name": "Nintendo Switch OLED Model",
+    "brand": "Nintendo",
+    "description": "Features a vibrant 7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port, and 64GB storage.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "7-inch OLED Touchscreen",
+      "Mode": "Handheld, Tabletop, TV",
+      "Storage": "64GB",
+      "Joy-Con": "Detachable Included",
+      "Battery Life": "4.5 - 9 hours"
+    },
+    "tags": [
+      "nintendo",
+      "switch",
+      "oled",
+      "handheld",
+      "family-games"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725d",
+    "name": "ASUS ROG Ally Handheld",
+    "brand": "Asus",
+    "description": "A genuine Windows 11 gaming handheld powered by the Ryzen Z1 Extreme processor and a smooth 120Hz screen.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "7-inch FHD 120Hz IPS",
+      "Processor": "AMD Ryzen Z1 Extreme",
+      "RAM": "16GB LPDDR5",
+      "Storage": "512GB PCIe SSD",
+      "OS": "Windows 11 Home"
+    },
+    "tags": [
+      "asus",
+      "rog",
+      "handheld",
+      "portable-pc",
+      "gaming"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725e",
+    "name": "Valve Steam Deck (512GB)",
+    "brand": "Valve",
+    "description": "Portable handheld console designed to run your Steam games library natively on SteamOS.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Display": "7-inch Touchscreen LCD",
+      "Processor": "Custom AMD APU",
+      "Storage": "512GB NVMe SSD",
+      "OS": "SteamOS 3.0 (Arch Linux)",
+      "RAM": "16GB LPDDR5"
+    },
+    "tags": [
+      "steamdeck",
+      "valve",
+      "handheld",
+      "portable-pc"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd2725f",
+    "name": "Sony PS5 DualSense Controller",
+    "brand": "Sony",
+    "description": "Discover a deeper, highly immersive gaming experience with innovative haptic feedbacks.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Gamepad",
+      "Wireless": "Bluetooth",
+      "Feedback": "Haptics & Adaptive Triggers",
+      "Ports": "USB-C, Headset jack",
+      "Weight": "280g"
+    },
+    "tags": [
+      "sony",
+      "ps5",
+      "controller",
+      "accessory"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27260",
+    "name": "Xbox Wireless Controller",
+    "brand": "Microsoft",
+    "description": "Experience the modernized design of the Xbox Wireless Controller featuring sculpted surfaces and refined geometry.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Gamepad",
+      "Wireless": "Xbox Wireless / Bluetooth",
+      "Battery": "2x AA batteries",
+      "Compatibility": "Xbox, PC, Android, iOS",
+      "Weight": "275g"
+    },
+    "tags": [
+      "xbox",
+      "controller",
+      "accessory",
+      "pc-gaming"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27261",
+    "name": "Razer DeathAdder Essential Mouse",
+    "brand": "Razer",
+    "description": "Classic ergonomic wired gaming mouse featuring a 6,400 DPI optical sensor and 5 hyperesponsive buttons.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Wired Gaming Mouse",
+      "Sensor": "6,400 DPI Optical",
+      "Buttons": "5 programmable",
+      "Switches": "Mechanical (10M clicks)",
+      "Weight": "96g"
+    },
+    "tags": [
+      "razer",
+      "mouse",
+      "gaming-mouse",
+      "wired",
+      "budget-gaming"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd27262",
+    "name": "Logitech G502 Hero Gaming Mouse",
+    "brand": "Logitech",
+    "description": "High-performance wired gaming mouse with HERO 25K sensor, adjustable weights, and 11 programmable buttons.",
+    "category": "gaming",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600&auto=format&fit=crop&q=60",
+    "specs": {
+      "Type": "Wired Gaming Mouse",
+      "Sensor": "HERO 25K (25,600 DPI)",
+      "Buttons": "11 programmable",
+      "Weights": "5x 3.6g adjustable",
+      "RGB": "LIGHTSYNC RGB"
+    },
+    "tags": [
+      "logitech",
+      "mouse",
+      "gaming-mouse",
+      "premium-mouse"
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.771Z",
+    "updatedAt": "2026-09-07T19:22:06.771Z"
+  }
+]

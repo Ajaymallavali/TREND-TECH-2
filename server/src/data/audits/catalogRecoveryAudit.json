@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-09-25T07:13:34.979Z",
+  "databaseBefore": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559,
+    "categories": 23,
+    "marketplaces": 7
+  },
+  "databaseAfter": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559,
+    "categories": 10,
+    "marketplaces": 7
+  },
+  "sourceStatus": {
+    "LEGACY_SYNTHETIC": 867,
+    "LIVE_VERIFIED": 0,
+    "UNRESOLVED": 0
+  },
+  "apiStatus": {
+    "MongoDB": "connected",
+    "SerpAPI": "401 Unauthorized (Live verification unavailable)",
+    "Redis": "connected"
+  },
+  "frontend": {
+    "categoryPagesWorking": true,
+    "productCardsWorking": true,
+    "productDetailsWorking": true,
+    "searchWorking": true,
+    "comparisonWorking": true,
+    "bestDealsWorking": true
+  },
+  "imageAudit": {
+    "totalImages": 278,
+    "downloadSuccess": 119,
+    "downloadFailures": 290,
+    "uniqueHashes": 29,
+    "duplicateHashes": 90,
+    "unverifiedImages": 278,
+    "mismatchedImages": 0,
+    "invalidGenericImages": 135
+  },
+  "dataIntegrity": {
+    "fakeAsinsCreated": 0,
+    "fakeUrlsCreated": 0,
+    "fakePricesCreated": 0,
+    "fakeImagesCreated": 0,
+    "databaseDeletions": 0,
+    "databaseWrites": 0
+  }
+}

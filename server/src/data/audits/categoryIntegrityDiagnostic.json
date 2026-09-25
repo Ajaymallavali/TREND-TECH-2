@@ -1,0 +1,4349 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadbea",
+    "name": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbec",
+    "name": "Apple iPhone 17 Pro",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbee",
+    "name": "Apple iPhone 17",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf0",
+    "name": "Apple iPhone Air",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf2",
+    "name": "Apple iPhone 16e",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf4",
+    "name": "Apple iPhone Plus",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf6",
+    "name": "Apple iPhone SE (3rd Gen)",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf8",
+    "name": "Apple iPhone SE 2022",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfa",
+    "name": "Apple iPhone Pro",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfc",
+    "name": "Apple iPhone Pro Max",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfe",
+    "name": "Smartphone Galaxy S series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc04",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc06",
+    "name": "Samsung Galaxy M55 5G",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc08",
+    "name": "Samsung Galaxy F55 5G",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc0a",
+    "name": "OnePlus 12 5G",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc0c",
+    "name": "OnePlus Nord CE4 5G",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc0e",
+    "name": "OnePlus Open Foldable",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc10",
+    "name": "Smartphone OnePlus CE series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc12",
+    "name": "Smartphone OnePlus R series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc14",
+    "name": "Smartphone Xiaomi flagship series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc16",
+    "name": "Smartphone Xiaomi T series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc18",
+    "name": "Smartphone Redmi",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc1a",
+    "name": "Smartphone Redmi Note",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc1c",
+    "name": "Smartphone Redmi A",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc1e",
+    "name": "Smartphone Redmi K",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc20",
+    "name": "Smartphone Poco",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc22",
+    "name": "Smartphone Pixel",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc24",
+    "name": "Smartphone Pixel Pro",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc26",
+    "name": "Smartphone Pixel A",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc28",
+    "name": "Smartphone Pixel Fold",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc2a",
+    "name": "Smartphone X series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc2c",
+    "name": "Smartphone V series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc2e",
+    "name": "Smartphone Y series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc30",
+    "name": "Smartphone T series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc32",
+    "name": "Smartphone Find X",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc34",
+    "name": "Smartphone Find N",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc36",
+    "name": "Smartphone Reno",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc38",
+    "name": "Smartphone A series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc3a",
+    "name": "Smartphone F series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc3c",
+    "name": "Smartphone GT",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc3e",
+    "name": "Smartphone Number series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc40",
+    "name": "Smartphone Narzo",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc42",
+    "name": "Smartphone C series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc44",
+    "name": "Smartphone P series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc46",
+    "name": "Smartphone Razr",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc48",
+    "name": "Smartphone Edge",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc4a",
+    "name": "Smartphone Moto G",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc4c",
+    "name": "Smartphone Moto E",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc4e",
+    "name": "Smartphone Phone series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc50",
+    "name": "Smartphone Phone (a)",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc52",
+    "name": "Smartphone CMF Phone",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc54",
+    "name": "Smartphone iQOO flagship",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc56",
+    "name": "Smartphone Neo",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc58",
+    "name": "Smartphone Z series",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc5a",
+    "name": "Smartphone Magic",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc5c",
+    "name": "Smartphone HMD smartphones",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc5e",
+    "name": "Smartphone Nokia C",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc60",
+    "name": "Smartphone Nokia G",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc62",
+    "name": "Smartphone Nokia X",
+    "brand": "Smartphone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc64",
+    "name": "Feature Phone Nokia feature phones",
+    "brand": "Feature Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc66",
+    "name": "Foldable Phone Galaxy Z Fold",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc68",
+    "name": "Foldable Phone Galaxy Z Flip",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc6a",
+    "name": "Foldable Phone Pixel Fold",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc6c",
+    "name": "Foldable Phone OnePlus Open",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc6e",
+    "name": "Foldable Phone Razr",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc70",
+    "name": "Foldable Phone Find N",
+    "brand": "Foldable Phone",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadca2",
+    "name": "ASUS VivoBook 15 OLED",
+    "brand": "ASUS",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcdc",
+    "name": "Desktop Mac Mini",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcde",
+    "name": "Desktop iMac",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadce0",
+    "name": "Desktop Mac Studio",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadce2",
+    "name": "Desktop Mac Pro",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadce6",
+    "name": "Desktop PCs",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadce8",
+    "name": "Desktop Mini PCs",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcea",
+    "name": "Desktop All-in-one PCs",
+    "brand": "Desktop",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd12",
+    "name": "Television Redmi TV",
+    "brand": "Television",
+    "storedCategory": "smartphone",
+    "detectedCategory": "television",
+    "reason": "Product name contains keywords matching television",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd14",
+    "name": "Television OnePlus TV",
+    "brand": "Television",
+    "storedCategory": "smartphone",
+    "detectedCategory": "television",
+    "reason": "Product name contains keywords matching television",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd28",
+    "name": "Television Realme",
+    "brand": "Television",
+    "storedCategory": "smartphone",
+    "detectedCategory": "television",
+    "reason": "Product name contains keywords matching television",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd3e",
+    "name": "Smartwatch & Wearables Pixel Watch",
+    "brand": "Smartwatch & Wearables",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartwatch",
+    "reason": "Product name contains keywords matching smartwatch",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd48",
+    "name": "Smartwatch & Wearables Vivoactive",
+    "brand": "Smartwatch & Wearables",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartwatch",
+    "reason": "Product name contains keywords matching smartwatch",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd7a",
+    "name": "Smartwatch & Wearables OnePlus",
+    "brand": "Smartwatch & Wearables",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartwatch",
+    "reason": "Product name contains keywords matching smartwatch",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd7e",
+    "name": "Smartwatch & Wearables Redmi",
+    "brand": "Smartwatch & Wearables",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartwatch",
+    "reason": "Product name contains keywords matching smartwatch",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd80",
+    "name": "Smartwatch & Wearables Realme",
+    "brand": "Smartwatch & Wearables",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartwatch",
+    "reason": "Product name contains keywords matching smartwatch",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd88",
+    "name": "Air Conditioners Daikin",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8a",
+    "name": "Air Conditioners LG",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8c",
+    "name": "Air Conditioners Samsung",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8e",
+    "name": "Air Conditioners Voltas",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd90",
+    "name": "Air Conditioners Blue Star",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd92",
+    "name": "Air Conditioners Panasonic",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd94",
+    "name": "Air Conditioners Carrier",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd96",
+    "name": "Air Conditioners Hitachi",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd98",
+    "name": "Air Conditioners Lloyd",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9a",
+    "name": "Air Conditioners Whirlpool",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9c",
+    "name": "Air Conditioners Godrej",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9e",
+    "name": "Air Conditioners Haier",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda0",
+    "name": "Air Conditioners O General",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda2",
+    "name": "Air Conditioners Mitsubishi Electric",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda4",
+    "name": "Air Conditioners Toshiba",
+    "brand": "Air Conditioners",
+    "storedCategory": "smartphone",
+    "detectedCategory": "air-conditioner",
+    "reason": "Product name contains keywords matching air-conditioner",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda6",
+    "name": "Washing Machines LG",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda8",
+    "name": "Washing Machines Samsung",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddaa",
+    "name": "Washing Machines Whirlpool",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddac",
+    "name": "Washing Machines IFB",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddae",
+    "name": "Washing Machines Bosch",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddb0",
+    "name": "Washing Machines Haier",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddb2",
+    "name": "Washing Machines Panasonic",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddb4",
+    "name": "Washing Machines Godrej",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddb6",
+    "name": "Washing Machines Voltas Beko",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddb8",
+    "name": "Washing Machines Siemens",
+    "brand": "Washing Machines",
+    "storedCategory": "smartphone",
+    "detectedCategory": "washing-machine",
+    "reason": "Product name contains keywords matching washing-machine",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddc4",
+    "name": "Audio OnePlus",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddcc",
+    "name": "Audio Realme",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddd4",
+    "name": "Audio Sennheiser",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddd6",
+    "name": "Audio Marshall",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddd8",
+    "name": "Audio-Technica",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadde2",
+    "name": "Audio Wired earphones",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddee",
+    "name": "Audio Microphones",
+    "brand": "Audio",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade36",
+    "name": "Computer Accessories Corsair",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade3c",
+    "name": "Computer Accessories Mechanical",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade3e",
+    "name": "Computer Accessories Membrane",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade48",
+    "name": "Computer Accessories Samsung",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade4a",
+    "name": "Computer Accessories WD",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade4c",
+    "name": "Computer Accessories SanDisk",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade4e",
+    "name": "Computer Accessories Seagate",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade50",
+    "name": "Computer Accessories Kingston",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade52",
+    "name": "Computer Accessories TP-Link",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade54",
+    "name": "Computer Accessories Netgear",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade56",
+    "name": "Computer Accessories Intel",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade58",
+    "name": "Computer Accessories AMD",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade5a",
+    "name": "Computer Accessories NVIDIA",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade5c",
+    "name": "Computer Accessories Gigabyte",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade5e",
+    "name": "Computer Accessories MSI",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade60",
+    "name": "Computer Accessories Zotac",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade62",
+    "name": "Computer Accessories Webcam",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade66",
+    "name": "Computer Accessories Printer",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade68",
+    "name": "Computer Accessories Scanner",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade6a",
+    "name": "Computer Accessories Router",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade6c",
+    "name": "Computer Accessories Wi-Fi extender",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade72",
+    "name": "Computer Accessories Docking station",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade74",
+    "name": "Computer Accessories USB hub",
+    "brand": "Computer Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade76",
+    "name": "Tops T-shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aade78",
+    "name": "Tops Shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade7a",
+    "name": "Tops Hoodie",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade7c",
+    "name": "Tops Polo T-shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aade7e",
+    "name": "Tops Sweatshirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade80",
+    "name": "Tops Jacket",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade82",
+    "name": "Tops Formal shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade84",
+    "name": "Tops Blazer",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade86",
+    "name": "Tops Suit",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade88",
+    "name": "Tops Graphic T-shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aade8a",
+    "name": "Tops Oversized T-shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aade8c",
+    "name": "Tops Henley",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade8e",
+    "name": "Tops Casual shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade90",
+    "name": "Tops Oxford shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade92",
+    "name": "Tops Linen shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade94",
+    "name": "Tops Denim shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade96",
+    "name": "Tops Hawaiian shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade98",
+    "name": "Tops Flannel shirt",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade9a",
+    "name": "Tops Bomber jacket",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade9c",
+    "name": "Tops Puffer jacket",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aade9e",
+    "name": "Tops Waistcoat",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadea0",
+    "name": "Bottoms Jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadea2",
+    "name": "Bottoms Skinny jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadea4",
+    "name": "Bottoms Straight-fit jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadea6",
+    "name": "Bottoms Chinos",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadea8",
+    "name": "Bottoms Joggers",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeaa",
+    "name": "Bottoms Trousers",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeac",
+    "name": "Bottoms Track pants",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeae",
+    "name": "Bottoms Formal trousers",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeb0",
+    "name": "Bottoms Relaxed-fit jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeb2",
+    "name": "Bottoms Baggy jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeb4",
+    "name": "Bottoms Cargo pants",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeb6",
+    "name": "Bottoms Shorts",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeb8",
+    "name": "Bottoms Denim shorts",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeba",
+    "name": "Bottoms Linen pants",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadebc",
+    "name": "Footwear Sneakers",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadebe",
+    "name": "Footwear Running shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadec0",
+    "name": "Footwear Casual shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadec2",
+    "name": "Footwear Boots",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadec4",
+    "name": "Footwear Formal shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadec6",
+    "name": "Footwear Loafers",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadec8",
+    "name": "Footwear Sandals",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadeca",
+    "name": "Footwear Slides",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadecc",
+    "name": "Footwear Flip-flops",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aaded0",
+    "name": "Accessories Sunglasses",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aaded2",
+    "name": "Accessories Backpacks",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aaded4",
+    "name": "Accessories Belts",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aaded6",
+    "name": "Accessories Wallets",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aaded8",
+    "name": "Accessories Caps",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadeda",
+    "name": "Accessories Hats",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadedc",
+    "name": "Accessories Crossbody bags",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadee0",
+    "name": "Accessories Ties",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadee2",
+    "name": "Accessories Cufflinks",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadee4",
+    "name": "Dresses Midi Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadee6",
+    "name": "Dresses Maxi Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadee8",
+    "name": "Dresses Mini Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadeea",
+    "name": "Dresses Bodycon Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadeec",
+    "name": "Dresses Wrap Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadeee",
+    "name": "Dresses Shirt Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadef0",
+    "name": "Dresses A-line Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadef2",
+    "name": "Dresses Cocktail Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadef4",
+    "name": "Dresses Party Dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadef6",
+    "name": "Dresses Slip dress",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadef8",
+    "name": "Dresses Co-ord set",
+    "brand": "Dresses",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadefa",
+    "name": "Tops Blouse",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadefc",
+    "name": "Tops Crop top",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadefe",
+    "name": "Tops Camisole",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf00",
+    "name": "Tops Tank top",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf02",
+    "name": "Tops Tube top",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf04",
+    "name": "Tops Halter top",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf06",
+    "name": "Tops Tunic",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf08",
+    "name": "Tops Bodysuit",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf0a",
+    "name": "Tops Sweater",
+    "brand": "Tops",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf0c",
+    "name": "Bottoms Wide-leg jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf0e",
+    "name": "Bottoms Mom jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf10",
+    "name": "Bottoms Boyfriend jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf12",
+    "name": "Bottoms Straight jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf14",
+    "name": "Bottoms Bootcut jeans",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf16",
+    "name": "Bottoms Palazzo",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf18",
+    "name": "Bottoms Culottes",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf1a",
+    "name": "Bottoms Mini skirt",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf1c",
+    "name": "Bottoms Midi skirt",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf1e",
+    "name": "Bottoms Maxi skirt",
+    "brand": "Bottoms",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf20",
+    "name": "Outerwear Blazer",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf22",
+    "name": "Outerwear Trench coat",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf24",
+    "name": "Outerwear Denim jacket",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf26",
+    "name": "Outerwear Leather jacket",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf28",
+    "name": "Outerwear Bomber jacket",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf2a",
+    "name": "Outerwear Puffer jacket",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf2c",
+    "name": "Outerwear Cardigan",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf2e",
+    "name": "Outerwear Shrug",
+    "brand": "Outerwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf30",
+    "name": "Activewear Sports bra",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf32",
+    "name": "Activewear Leggings",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf34",
+    "name": "Activewear Yoga pants",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf36",
+    "name": "Activewear Gym top",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf38",
+    "name": "Activewear Track pants",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf3a",
+    "name": "Activewear Running shorts",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf3c",
+    "name": "Activewear Tracksuit",
+    "brand": "Activewear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf3e",
+    "name": "Ethnic Manyavar",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf40",
+    "name": "Ethnic FabIndia",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf42",
+    "name": "Ethnic Biba",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf44",
+    "name": "Ethnic Soch",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf46",
+    "name": "Ethnic W",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf48",
+    "name": "Ethnic Aurelia",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf4a",
+    "name": "Ethnic Libas",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf4c",
+    "name": "Ethnic Global Desi",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf4e",
+    "name": "Ethnic Rangriti",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf50",
+    "name": "Ethnic Jaypore",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf52",
+    "name": "Ethnic Mohey",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf54",
+    "name": "Ethnic Indya",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf56",
+    "name": "Ethnic Palazzo set",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf58",
+    "name": "Ethnic Anarkali",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf5a",
+    "name": "Ethnic Sharara",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf5c",
+    "name": "Ethnic Gharara",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf5e",
+    "name": "Ethnic Dupatta",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf60",
+    "name": "Ethnic Indo-western",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf62",
+    "name": "Ethnic dresses",
+    "brand": "Ethnic",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf64",
+    "name": "Footwear Heels",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf66",
+    "name": "Footwear Flats",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf68",
+    "name": "Footwear Ballet flats",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf6a",
+    "name": "Footwear Pumps",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf6c",
+    "name": "Footwear Stilettos",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf6e",
+    "name": "Accessories Handbags",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf70",
+    "name": "Accessories Tote bags",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf72",
+    "name": "Accessories Shoulder bags",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf74",
+    "name": "Accessories Sling bags",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf76",
+    "name": "Accessories Clutches",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf78",
+    "name": "Accessories Jewellery",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf7a",
+    "name": "Accessories Scarves",
+    "brand": "Accessories",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf7c",
+    "name": "Kids 0–3 months",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf7e",
+    "name": "Kids 3–6 months",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf80",
+    "name": "Kids 6–12 months",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf82",
+    "name": "Kids 1–2 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf84",
+    "name": "Kids 2–4 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf86",
+    "name": "Kids 4–6 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf88",
+    "name": "Kids 6–8 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf8a",
+    "name": "Kids 8–10 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf8c",
+    "name": "Kids 10–12 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf8e",
+    "name": "Kids 12–14 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf90",
+    "name": "Kids 14–16 years",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf92",
+    "name": "Boys T-shirts",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf94",
+    "name": "Boys Shirts",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf96",
+    "name": "Boys Jeans",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf98",
+    "name": "Boys Jackets",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf9a",
+    "name": "Boys Polo T-shirt",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf9c",
+    "name": "Boys Shorts",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadf9e",
+    "name": "Boys Joggers",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfa0",
+    "name": "Boys Cargo pants",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfa2",
+    "name": "Boys Hoodies",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfa4",
+    "name": "Boys Ethnic wear",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfa6",
+    "name": "Boys School wear",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfa8",
+    "name": "Boys Sportswear",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfaa",
+    "name": "Boys Sneakers",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfac",
+    "name": "Boys Sandals",
+    "brand": "Boys",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfae",
+    "name": "Girls Dresses",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfb0",
+    "name": "Girls Tops",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfb2",
+    "name": "Girls Skirts",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfb4",
+    "name": "Girls Frocks",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfb6",
+    "name": "Girls T-shirts",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfb8",
+    "name": "Girls Jeans",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfba",
+    "name": "Girls Leggings",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfbc",
+    "name": "Girls Jumpsuits",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfbe",
+    "name": "Girls Co-ord sets",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfc0",
+    "name": "Girls Hoodies",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfc2",
+    "name": "Girls Jackets",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfc4",
+    "name": "Girls Ethnic wear",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfc6",
+    "name": "Girls Party wear",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfc8",
+    "name": "Girls Sportswear",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfca",
+    "name": "Girls Shoes",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfcc",
+    "name": "Girls Sandals",
+    "brand": "Girls",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfce",
+    "name": "Kids Mothercare",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfd0",
+    "name": "Kids FirstCry",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfd2",
+    "name": "Kids Hopscotch",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfd4",
+    "name": "Kids Allen Solly Junior",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfd6",
+    "name": "Kids United Colors of Benetton",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfd8",
+    "name": "Pepe Jeans Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfda",
+    "name": "Kids Gini & Jony",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfdc",
+    "name": "Max Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfde",
+    "name": "Kids Pantaloons",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfe0",
+    "name": "Kids Lifestyle",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfe2",
+    "name": "Kids Chicco",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfe4",
+    "name": "Adidas Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfe6",
+    "name": "Nike Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfe8",
+    "name": "Puma Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfea",
+    "name": "Skechers Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfec",
+    "name": "GAP Kids",
+    "brand": "Kids",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadfee",
+    "name": "Men Kurta",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadff0",
+    "name": "Men Sherwani",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadff2",
+    "name": "Men Nehru Jacket",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadff4",
+    "name": "Men Bandhgala",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadff6",
+    "name": "Men Kurta pajama",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aadff8",
+    "name": "Men Dhoti",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadffa",
+    "name": "Men Indo-western",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadffc",
+    "name": "Men Wedding wear",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aadffe",
+    "name": "Men Ethnic sets",
+    "brand": "Men",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae000",
+    "name": "Women Lehenga",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae002",
+    "name": "Women Saree",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae004",
+    "name": "Women Kurta",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "clothing",
+    "reason": "Product name contains keywords matching clothing",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae006",
+    "name": "Women Salwar Suit",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae008",
+    "name": "Women Anarkali",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae00a",
+    "name": "Women Kurti",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae00c",
+    "name": "Women Palazzo set",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae00e",
+    "name": "Women Sharara",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae010",
+    "name": "Women Gharara",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae012",
+    "name": "Women Dupatta",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae014",
+    "name": "Women Indo-western",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae016",
+    "name": "Women Ethnic dresses",
+    "brand": "Women",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae018",
+    "name": "Footwear Training shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae01a",
+    "name": "Footwear Football shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae01c",
+    "name": "Footwear Basketball shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae01e",
+    "name": "Footwear Cricket shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae020",
+    "name": "Footwear Tennis shoes",
+    "brand": "Footwear",
+    "storedCategory": "smartphone",
+    "detectedCategory": "shoes",
+    "reason": "Product name contains keywords matching shoes",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae022",
+    "name": "Apparel Gym clothing",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae024",
+    "name": "Apparel Compression wear",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae026",
+    "name": "Apparel Yoga clothing",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae028",
+    "name": "Apparel Track pants",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae02a",
+    "name": "Apparel Sports bras",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae02c",
+    "name": "Apparel Jerseys",
+    "brand": "Apparel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae02e",
+    "name": "Sports & Fitness Decathlon",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae030",
+    "name": "Sports & Fitness Yonex",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae032",
+    "name": "Sports & Fitness Wilson",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae034",
+    "name": "Sports & Fitness Cosco",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae036",
+    "name": "Sports & Fitness Nivia",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae038",
+    "name": "Sports & Fitness Head",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae03a",
+    "name": "Sports & Fitness Football",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae03c",
+    "name": "Sports & Fitness Cricket equipment",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae03e",
+    "name": "Sports & Fitness Dumbbells",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae040",
+    "name": "Sports & Fitness Treadmills",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae042",
+    "name": "Sports & Fitness Exercise bikes",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae044",
+    "name": "Sports & Fitness Yoga mats",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae046",
+    "name": "Sports & Fitness Resistance bands",
+    "brand": "Sports & Fitness",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae048",
+    "name": "Bags & Travel American Tourister",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae04a",
+    "name": "Bags & Travel Samsonite",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae04c",
+    "name": "Bags & Travel Safari",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae04e",
+    "name": "Bags & Travel VIP",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae050",
+    "name": "Bags & Travel Skybags",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae052",
+    "name": "Bags & Travel Trolley",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae056",
+    "name": "Bags & Travel Cabin luggage",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae058",
+    "name": "Bags & Travel Wildcraft",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae05a",
+    "name": "Bags & Travel Nike",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae05c",
+    "name": "Bags & Travel Adidas",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae05e",
+    "name": "Bags & Travel Puma",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae060",
+    "name": "Bags & Travel Herschel",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae062",
+    "name": "Bags & Travel Mokobara",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae064",
+    "name": "Bags & Travel School bag",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae066",
+    "name": "Bags & Travel College backpack",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae068",
+    "name": "Bags & Travel Travel backpack",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae06a",
+    "name": "Bags & Travel Caprese",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae06c",
+    "name": "Bags & Travel Lavie",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae06e",
+    "name": "Bags & Travel Hidesign",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae070",
+    "name": "Bags & Travel Tote",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae072",
+    "name": "Bags & Travel Sling",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae074",
+    "name": "Bags & Travel Crossbody",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae076",
+    "name": "Bags & Travel Messenger bag",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae078",
+    "name": "Bags & Travel Wallet",
+    "brand": "Bags & Travel",
+    "storedCategory": "smartphone",
+    "detectedCategory": "bags",
+    "reason": "Product name contains keywords matching bags",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae07a",
+    "name": "Beauty & Personal Care L'Oréal",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae07c",
+    "name": "Beauty & Personal Care Maybelline",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae07e",
+    "name": "Beauty & Personal Care Lakmé",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae080",
+    "name": "Beauty & Personal Care MAC",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae082",
+    "name": "Beauty & Personal Care Nykaa",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae084",
+    "name": "Beauty & Personal Care Revlon",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae086",
+    "name": "Beauty & Personal Care Foundation",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae088",
+    "name": "Beauty & Personal Care Concealer",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae08a",
+    "name": "Beauty & Personal Care Lipstick",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae08c",
+    "name": "Beauty & Personal Care Lip gloss",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae08e",
+    "name": "Beauty & Personal Care Mascara",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae090",
+    "name": "Beauty & Personal Care Eyeliner",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae092",
+    "name": "Beauty & Personal Care Eyeshadow",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae094",
+    "name": "Beauty & Personal Care Blush",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae096",
+    "name": "Beauty & Personal Care Highlighter",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae098",
+    "name": "Beauty & Personal Care Primer",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae09a",
+    "name": "Beauty & Personal Care Minimalist",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae09c",
+    "name": "Beauty & Personal Care Mamaearth",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae09e",
+    "name": "Beauty & Personal Care Plum",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0a0",
+    "name": "Beauty & Personal Care The Derma Co",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0a2",
+    "name": "Beauty & Personal Care Cetaphil",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0a4",
+    "name": "Beauty & Personal Care Neutrogena",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0a6",
+    "name": "Beauty & Personal Care Nivea",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0a8",
+    "name": "Beauty & Personal Care Dove",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0aa",
+    "name": "Beauty & Personal Care Face wash",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "beauty-personal-care",
+    "reason": "Product name contains keywords matching beauty-personal-care",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0ac",
+    "name": "Beauty & Personal Care Cleanser",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0ae",
+    "name": "Beauty & Personal Care Moisturizer",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0b0",
+    "name": "Beauty & Personal Care Sunscreen",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0b2",
+    "name": "Beauty & Personal Care Serum",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0b4",
+    "name": "Beauty & Personal Care Toner",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0b6",
+    "name": "Beauty & Personal Care Face mask",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0b8",
+    "name": "Beauty & Personal Care Garnier",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0ba",
+    "name": "Beauty & Personal Care Dyson",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0bc",
+    "name": "Beauty & Personal Care Philips",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0be",
+    "name": "Beauty & Personal Care Shampoo",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "beauty-personal-care",
+    "reason": "Product name contains keywords matching beauty-personal-care",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0c0",
+    "name": "Beauty & Personal Care Conditioner",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0c2",
+    "name": "Beauty & Personal Care Hair serum",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0c4",
+    "name": "Beauty & Personal Care Hair oil",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0c6",
+    "name": "Beauty & Personal Care Hair dryer",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0c8",
+    "name": "Beauty & Personal Care Hair straightener",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6a9904e469652590e0aae0ca",
+    "name": "Beauty & Personal Care Hair curler",
+    "brand": "Beauty & Personal Care",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca4f4",
+    "name": "Apple iPhone 16 Pro Max",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca509",
+    "name": "Apple iPhone 16 Pro",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca51e",
+    "name": "Apple iPhone 16",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca533",
+    "name": "Apple iPhone 16 Plus",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca55c",
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca571",
+    "name": "Apple iPhone 15 Pro",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca586",
+    "name": "Apple iPhone 15",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca59b",
+    "name": "Apple iPhone 15 Plus",
+    "brand": "Apple",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca619",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "brand": "Samsung",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca67f",
+    "name": "OnePlus 13",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca694",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca6a9",
+    "name": "OnePlus 12R",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca6be",
+    "name": "OnePlus Nord 4",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca6d3",
+    "name": "OnePlus Nord CE 4",
+    "brand": "OnePlus",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca6e8",
+    "name": "Google Pixel 9 Pro XL",
+    "brand": "Google",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca6fd",
+    "name": "Google Pixel 9 Pro",
+    "brand": "Google",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca712",
+    "name": "Google Pixel 9",
+    "brand": "Google",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca727",
+    "name": "Google Pixel 8a",
+    "brand": "Google",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca73c",
+    "name": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca751",
+    "name": "Xiaomi 15 Pro",
+    "brand": "Xiaomi",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca766",
+    "name": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca77b",
+    "name": "Xiaomi 14",
+    "brand": "Xiaomi",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca790",
+    "name": "Xiaomi Redmi Note 13 Pro+ 5G",
+    "brand": "Xiaomi",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca7a5",
+    "name": "Xiaomi Redmi Note 13 5G",
+    "brand": "Xiaomi",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca7ba",
+    "name": "Nothing Phone (2a)",
+    "brand": "Nothing",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca7cf",
+    "name": "Nothing Phone (2)",
+    "brand": "Nothing",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca7e4",
+    "name": "Nothing Phone (1)",
+    "brand": "Nothing",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca7f9",
+    "name": "Realme GT 6",
+    "brand": "Realme",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca80e",
+    "name": "Realme GT 6T",
+    "brand": "Realme",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca823",
+    "name": "Realme 13 Pro+ 5G",
+    "brand": "Realme",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca838",
+    "name": "Realme 12 Pro+ 5G",
+    "brand": "Realme",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca84d",
+    "name": "Motorola Edge 50 Ultra",
+    "brand": "Motorola",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca862",
+    "name": "Motorola Edge 50 Pro",
+    "brand": "Motorola",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca877",
+    "name": "Motorola Edge 50 Fusion",
+    "brand": "Motorola",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca88c",
+    "name": "Motorola Razr 50 Ultra",
+    "brand": "Motorola",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca8a1",
+    "name": "iQOO 13",
+    "brand": "iQOO",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca8b6",
+    "name": "iQOO 12",
+    "brand": "iQOO",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca8cb",
+    "name": "iQOO Neo 9 Pro",
+    "brand": "iQOO",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca8e0",
+    "name": "iQOO Z9 Turbo",
+    "brand": "iQOO",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca8f5",
+    "name": "Vivo X100 Pro",
+    "brand": "Vivo",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca90a",
+    "name": "Vivo V40 Pro",
+    "brand": "Vivo",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca91f",
+    "name": "Vivo V30 Pro",
+    "brand": "Vivo",
+    "storedCategory": "smartphone",
+    "detectedCategory": "smartphone",
+    "reason": "Verified smartphone model identity",
+    "confidence": "VERIFIED"
+  }
+]

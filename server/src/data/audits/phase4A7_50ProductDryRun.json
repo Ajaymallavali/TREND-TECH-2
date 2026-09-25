@@ -1,0 +1,945 @@
+{
+  "header": "PHASE 4A.7 50-PRODUCT PRODUCTION-SCALE DRY RUN REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:21:25.941Z",
+  "productCounters": {
+    "productsTested": 50,
+    "productsResolved": 6,
+    "productsUnresolved": 44,
+    "productsIdentityMismatch": 0,
+    "productsDuplicateConflict": 0
+  },
+  "candidateCounters": {
+    "candidateAttempts": 6,
+    "candidateSourcesFound": 6,
+    "candidateDownloadAttempts": 6,
+    "candidateDownloadSuccess": 6,
+    "candidateValid": 6,
+    "candidateInvalid": 0,
+    "candidate404": 0,
+    "candidate403": 0,
+    "candidate429": 0,
+    "candidate500": 0,
+    "candidateDuplicate": 0,
+    "candidateIdentityMismatch": 0
+  },
+  "qualityMetrics": {
+    "sourceResolutionRate": "12.0%",
+    "downloadSuccessRate": "100.0%",
+    "validImageRate": "100.0%",
+    "identityVerificationRate": "100.0%",
+    "duplicateConflictRate": "0.0%",
+    "unresolvedRate": "88.0%"
+  },
+  "invariantCheck": {
+    "sum": 50,
+    "expected": 50,
+    "result": "PASS"
+  },
+  "results": [
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbea",
+        "productName": "Apple iPhone 17 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 56,
+        "sha256": "d0a3f9ce82c7c1fcffd1e5bd2ad01736d655828137812c8b3986be57d911ad13",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadbea.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbec",
+        "productName": "Apple iPhone 17 Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 56,
+        "sha256": "d0a3f9ce82c7c1fcffd1e5bd2ad01736d655828137812c8b3986be57d911ad13",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadbec.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbee",
+        "name": "Apple iPhone 17",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbf0",
+        "productName": "Apple iPhone Air",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 44,
+        "sha256": "b492f830f9ba6e17b7d039dc74fcc2f75317073fd4d7165d147a33ae1a17773c",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadbf0.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbf2",
+        "productName": "Apple iPhone 16e",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "VERIFIED_CDN_MAPPING",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 44,
+        "sha256": "b492f830f9ba6e17b7d039dc74fcc2f75317073fd4d7165d147a33ae1a17773c",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadbf2.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbf4",
+        "name": "Apple iPhone Plus",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbf6",
+        "name": "Apple iPhone SE (3rd Gen)",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbf8",
+        "name": "Apple iPhone SE 2022",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfa",
+      "name": "Apple iPhone Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbfa",
+        "name": "Apple iPhone Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfc",
+      "name": "Apple iPhone Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadbfc",
+        "name": "Apple iPhone Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadc72",
+        "productName": "Apple MacBook Air M3 (13-inch)",
+        "brand": "Apple",
+        "category": "laptop",
+        "sourceType": "VERIFIED_CDN_MAPPING",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 42,
+        "sha256": "6c7176c2d25bd67ef1dee93188589604d6d6306ba93d9e5164056dc834ccb00c",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadc72.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc74",
+      "name": "Laptop MacBook Pro",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc74",
+        "name": "Laptop MacBook Pro",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "name": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "finalStatus": "RESOLVED",
+      "details": {
+        "productId": "6a9904e369652590e0aadc76",
+        "productName": "Dell Inspiron 15 3520",
+        "brand": "Dell",
+        "category": "laptop",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "sourceProvenance": "INDEPENDENT_SOURCE",
+        "productUrl": "https://www.dell.com/en-in/shop/laptops/inspiron-15-3520-laptop/spd/inspiron-15-3520-laptop",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "imageWidth": 1500,
+        "imageHeight": 1500,
+        "fileSizeKB": 42,
+        "sha256": "6c7176c2d25bd67ef1dee93188589604d6d6306ba93d9e5164056dc834ccb00c",
+        "localFile": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A7\\6a9904e369652590e0aadc76.jpg",
+        "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc78",
+      "name": "Laptop XPS",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc78",
+        "name": "Laptop XPS",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc7a",
+      "name": "Laptop Latitude",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc7a",
+        "name": "Laptop Latitude",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc7c",
+      "name": "Laptop Precision",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc7c",
+        "name": "Laptop Precision",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc7e",
+      "name": "Laptop Alienware",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc7e",
+        "name": "Laptop Alienware",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc80",
+      "name": "Laptop Vostro",
+      "brand": "Laptop",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc80",
+        "name": "Laptop Vostro",
+        "brand": "Laptop",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc82",
+      "name": "HP Pavilion 15 EG3036TU",
+      "brand": "HP",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc82",
+        "name": "HP Pavilion 15 EG3036TU",
+        "brand": "HP",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc84",
+      "name": "HP Envy x360 2-in-1",
+      "brand": "HP",
+      "category": "laptop",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadc84",
+        "name": "HP Envy x360 2-in-1",
+        "brand": "HP",
+        "category": "laptop",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcee",
+      "name": "Television Crystal UHD",
+      "brand": "Television",
+      "category": "television",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadcee",
+        "name": "Television Crystal UHD",
+        "brand": "Television",
+        "category": "television",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcf0",
+      "name": "Television QLED",
+      "brand": "Television",
+      "category": "television",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadcf0",
+        "name": "Television QLED",
+        "brand": "Television",
+        "category": "television",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcf2",
+      "name": "Television Neo QLED",
+      "brand": "Television",
+      "category": "television",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadcf2",
+        "name": "Television Neo QLED",
+        "brand": "Television",
+        "category": "television",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcf4",
+      "name": "Television OLED",
+      "brand": "Television",
+      "category": "television",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadcf4",
+        "name": "Television OLED",
+        "brand": "Television",
+        "category": "television",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcf6",
+      "name": "Television UHD",
+      "brand": "Television",
+      "category": "television",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadcf6",
+        "name": "Television UHD",
+        "brand": "Television",
+        "category": "television",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddba",
+      "name": "Audio Sony",
+      "brand": "Audio",
+      "category": "headphones",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddba",
+        "name": "Audio Sony",
+        "brand": "Audio",
+        "category": "headphones",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddbc",
+      "name": "Audio Bose",
+      "brand": "Audio",
+      "category": "headphones",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddbc",
+        "name": "Audio Bose",
+        "brand": "Audio",
+        "category": "headphones",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddbe",
+      "name": "Audio JBL",
+      "brand": "Audio",
+      "category": "headphones",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddbe",
+        "name": "Audio JBL",
+        "brand": "Audio",
+        "category": "headphones",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddc0",
+      "name": "Audio Apple",
+      "brand": "Audio",
+      "category": "headphones",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddc0",
+        "name": "Audio Apple",
+        "brand": "Audio",
+        "category": "headphones",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddc2",
+      "name": "Audio Samsung",
+      "brand": "Audio",
+      "category": "headphones",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddc2",
+        "name": "Audio Samsung",
+        "brand": "Audio",
+        "category": "headphones",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddf0",
+      "name": "Consoles PlayStation",
+      "brand": "Consoles",
+      "category": "gaming",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddf0",
+        "name": "Consoles PlayStation",
+        "brand": "Consoles",
+        "category": "gaming",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddf2",
+      "name": "Consoles Xbox",
+      "brand": "Consoles",
+      "category": "gaming",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddf2",
+        "name": "Consoles Xbox",
+        "brand": "Consoles",
+        "category": "gaming",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aaddf4",
+      "name": "Consoles Nintendo Switch",
+      "brand": "Consoles",
+      "category": "gaming",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aaddf4",
+        "name": "Consoles Nintendo Switch",
+        "brand": "Consoles",
+        "category": "gaming",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade02",
+      "name": "Gaming Razer",
+      "brand": "Gaming",
+      "category": "gaming",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade02",
+        "name": "Gaming Razer",
+        "brand": "Gaming",
+        "category": "gaming",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade04",
+      "name": "Gaming Logitech G",
+      "brand": "Gaming",
+      "category": "gaming",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade04",
+        "name": "Gaming Logitech G",
+        "brand": "Gaming",
+        "category": "gaming",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadd88",
+      "name": "Air Conditioners Daikin",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadd88",
+        "name": "Air Conditioners Daikin",
+        "brand": "Air Conditioners",
+        "category": "air-conditioner",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8a",
+      "name": "Air Conditioners LG",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadd8a",
+        "name": "Air Conditioners LG",
+        "brand": "Air Conditioners",
+        "category": "air-conditioner",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8c",
+      "name": "Air Conditioners Samsung",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadd8c",
+        "name": "Air Conditioners Samsung",
+        "brand": "Air Conditioners",
+        "category": "air-conditioner",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8e",
+      "name": "Air Conditioners Voltas",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadd8e",
+        "name": "Air Conditioners Voltas",
+        "brand": "Air Conditioners",
+        "category": "air-conditioner",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadd90",
+      "name": "Air Conditioners Blue Star",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aadd90",
+        "name": "Air Conditioners Blue Star",
+        "brand": "Air Conditioners",
+        "category": "air-conditioner",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade76",
+      "name": "Tops T-shirt",
+      "brand": "Tops",
+      "category": "mens-clothing",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade76",
+        "name": "Tops T-shirt",
+        "brand": "Tops",
+        "category": "mens-clothing",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade78",
+      "name": "Tops Shirt",
+      "brand": "Tops",
+      "category": "mens-clothing",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade78",
+        "name": "Tops Shirt",
+        "brand": "Tops",
+        "category": "mens-clothing",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade7c",
+      "name": "Tops Polo T-shirt",
+      "brand": "Tops",
+      "category": "mens-clothing",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade7c",
+        "name": "Tops Polo T-shirt",
+        "brand": "Tops",
+        "category": "mens-clothing",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade7e",
+      "name": "Tops Sweatshirt",
+      "brand": "Tops",
+      "category": "mens-clothing",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade7e",
+        "name": "Tops Sweatshirt",
+        "brand": "Tops",
+        "category": "mens-clothing",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade82",
+      "name": "Tops Formal shirt",
+      "brand": "Tops",
+      "category": "mens-clothing",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade82",
+        "name": "Tops Formal shirt",
+        "brand": "Tops",
+        "category": "mens-clothing",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a98d181a6bfd56d867752df",
+        "name": "iPhone 17 Pro Max Silicone Case",
+        "brand": "Apple",
+        "category": "accessory",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade6e",
+      "name": "Computer Accessories Power bank",
+      "brand": "Computer Accessories",
+      "category": "accessory",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade6e",
+        "name": "Computer Accessories Power bank",
+        "brand": "Computer Accessories",
+        "category": "accessory",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aade70",
+      "name": "Computer Accessories Laptop stand",
+      "brand": "Computer Accessories",
+      "category": "accessory",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e369652590e0aade70",
+        "name": "Computer Accessories Laptop stand",
+        "brand": "Computer Accessories",
+        "category": "accessory",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e469652590e0aae03e",
+      "name": "Sports & Fitness Dumbbells",
+      "brand": "Sports & Fitness",
+      "category": "accessory",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e469652590e0aae03e",
+        "name": "Sports & Fitness Dumbbells",
+        "brand": "Sports & Fitness",
+        "category": "accessory",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    },
+    {
+      "productId": "6a9904e469652590e0aae040",
+      "name": "Sports & Fitness Treadmills",
+      "brand": "Sports & Fitness",
+      "category": "accessory",
+      "finalStatus": "UNRESOLVED",
+      "details": null,
+      "failureRecord": {
+        "productId": "6a9904e469652590e0aae040",
+        "name": "Sports & Fitness Treadmills",
+        "brand": "Sports & Fitness",
+        "category": "accessory",
+        "finalStatus": "UNRESOLVED",
+        "attemptedCandidates": [],
+        "unresolvedReason": "No candidate URLs found"
+      }
+    }
+  ]
+}

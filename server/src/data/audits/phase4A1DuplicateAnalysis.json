@@ -1,0 +1,402 @@
+[
+  {
+    "productA": {
+      "id": "6a9904e369652590e0aadc0a",
+      "name": "OnePlus 12 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca694",
+      "name": "OnePlus 12",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "isSameProductVariant": true,
+    "decision": "ALLOW_EXACT_MODEL_VARIANT_SHARING",
+    "reason": "Both products are verified color/storage variants of the same base model"
+  },
+  {
+    "productA": {
+      "id": "6a9904e369652590e0aadcfe",
+      "name": "Television Bravia XR",
+      "brand": "Television",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabb7",
+      "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6a9904e369652590e0aadcfe",
+      "name": "Television Bravia XR",
+      "brand": "Television",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabc6",
+      "name": "Sony 55\" Bravia XR A90L OLED",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6a9904e369652590e0aadcfe",
+      "name": "Television Bravia XR",
+      "brand": "Television",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabd5",
+      "name": "Sony 65\" Bravia 3 4K LED Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6a9904e369652590e0aadcfe",
+      "name": "Television Bravia XR",
+      "brand": "Television",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcac98",
+      "name": "Sony 75\" Bravia 8 OLED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabb7",
+      "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabc6",
+      "name": "Sony 55\" Bravia XR A90L OLED",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabb7",
+      "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabd5",
+      "name": "Sony 65\" Bravia 3 4K LED Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabb7",
+      "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcac98",
+      "name": "Sony 75\" Bravia 8 OLED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabc6",
+      "name": "Sony 55\" Bravia XR A90L OLED",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcabd5",
+      "name": "Sony 65\" Bravia 3 4K LED Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabc6",
+      "name": "Sony 55\" Bravia XR A90L OLED",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcac98",
+      "name": "Sony 75\" Bravia 8 OLED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06057af8879d815dcabd5",
+      "name": "Sony 65\" Bravia 3 4K LED Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06057af8879d815dcac98",
+      "name": "Sony 75\" Bravia 8 OLED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": true,
+    "decision": "ALLOW_EXACT_MODEL_VARIANT_SHARING",
+    "reason": "Both products are verified color/storage variants of the same base model"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "isSameProductVariant": true,
+    "decision": "ALLOW_EXACT_MODEL_VARIANT_SHARING",
+    "reason": "Both products are verified color/storage variants of the same base model"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca604",
+      "name": "Samsung Galaxy S24+",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca619",
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71glmj7tqil.jpg",
+    "isSameProductVariant": true,
+    "decision": "ALLOW_EXACT_MODEL_VARIANT_SHARING",
+    "reason": "Both products are verified color/storage variants of the same base model"
+  },
+  {
+    "productA": {
+      "id": "6aa06056af8879d815dca790",
+      "name": "Xiaomi Redmi Note 13 Pro+ 5G",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06056af8879d815dca7a5",
+      "name": "Xiaomi Redmi Note 13 5G",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71ld7fsl0wl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  },
+  {
+    "productA": {
+      "id": "6aa06058af8879d815dcb175",
+      "name": "Xiaomi Pad 6 Max 14",
+      "brand": "Xiaomi",
+      "category": "tablet",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg"
+    },
+    "productB": {
+      "id": "6aa06058af8879d815dcb184",
+      "name": "Xiaomi Pad 6 11-inch",
+      "brand": "Xiaomi",
+      "category": "tablet",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg"
+    },
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71lry1j6uhl.jpg",
+    "isSameProductVariant": false,
+    "decision": "REJECT_UNRELATED_PRODUCT_DUPLICATE_COLLISION",
+    "reason": "Distinct products sharing identical image asset"
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "sha256": "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 4,
+    "distinctProductsCount": 4,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadbf2",
+        "productName": "Apple iPhone 16e",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6a9904e369652590e0aadbf0",
+        "productName": "Apple iPhone Air",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      },
+      {
+        "productId": "6aa06056af8879d815dca51e",
+        "productName": "Apple iPhone 16",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca533",
+        "productName": "Apple iPhone 16 Plus",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      }
+    ]
+  },
+  {
+    "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 6,
+    "distinctProductsCount": 6,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadbec",
+        "productName": "Apple iPhone 17 Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      },
+      {
+        "productId": "6a9904e369652590e0aadbea",
+        "productName": "Apple iPhone 17 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      },
+      {
+        "productId": "6aa06056af8879d815dca4f4",
+        "productName": "Apple iPhone 16 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca509",
+        "productName": "Apple iPhone 16 Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca571",
+        "productName": "Apple iPhone 15 Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca55c",
+        "productName": "Apple iPhone 15 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      }
+    ]
+  },
+  {
+    "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 4,
+    "distinctProductsCount": 4,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadc04",
+        "productName": "Samsung Galaxy A55 5G",
+        "brand": "Samsung",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca604",
+        "productName": "Samsung Galaxy S24+",
+        "brand": "Samsung",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca619",
+        "productName": "Samsung Galaxy S24",
+        "brand": "Samsung",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca5ef",
+        "productName": "Samsung Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      }
+    ]
+  },
+  {
+    "sha256": "f86192c90508e4cff7bddadc80408a6d0f32382b9c832a3630b8603b30891fef",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 8,
+    "distinctProductsCount": 8,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadc0c",
+        "productName": "OnePlus Nord CE4 5G",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6a9904e369652590e0aadc0a",
+        "productName": "OnePlus 12 5G",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca694",
+        "productName": "OnePlus 12",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca67f",
+        "productName": "OnePlus 13",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca6be",
+        "productName": "OnePlus Nord 4",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca6d3",
+        "productName": "OnePlus Nord CE 4",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca6a9",
+        "productName": "OnePlus 12R",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca766",
+        "productName": "Xiaomi 14 Ultra",
+        "brand": "Xiaomi",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      }
+    ]
+  },
+  {
+    "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 2,
+    "distinctProductsCount": 2,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadc72",
+        "productName": "Apple MacBook Air M3 (13-inch)",
+        "brand": "Apple",
+        "category": "laptop",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6a9904e369652590e0aadc76",
+        "productName": "Dell Inspiron 15 3520",
+        "brand": "Dell",
+        "category": "laptop",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      }
+    ]
+  },
+  {
+    "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 2,
+    "distinctProductsCount": 2,
+    "products": [
+      {
+        "productId": "6a9904e369652590e0aadcfc",
+        "productName": "Television Bravia",
+        "brand": "Television",
+        "category": "television",
+        "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE"
+      },
+      {
+        "productId": "6aa06057af8879d815dcacb6",
+        "productName": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+        "brand": "Sony",
+        "category": "headphones",
+        "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+        "sourceType": "DUPLICATE_CONFLICT_ATTEMPT"
+      }
+    ]
+  },
+  {
+    "sha256": "957de0f14e477b6a82f2e146c4f499f3e8a18df0b0b5737c205731da822bbc3a",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 2,
+    "distinctProductsCount": 2,
+    "products": [
+      {
+        "productId": "6aa06056af8879d815dca59b",
+        "productName": "Apple iPhone 15 Plus",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06056af8879d815dca586",
+        "productName": "Apple iPhone 15",
+        "brand": "Apple",
+        "category": "smartphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      }
+    ]
+  },
+  {
+    "sha256": "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 2,
+    "distinctProductsCount": 2,
+    "products": [
+      {
+        "productId": "6aa06057af8879d815dcad1f",
+        "productName": "Apple AirPods Pro 2",
+        "brand": "Apple",
+        "category": "headphones",
+        "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06058af8879d815dcb355",
+        "productName": "Sony PlayStation 5 Pro Console",
+        "brand": "Sony",
+        "category": "gaming",
+        "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+        "sourceType": "DUPLICATE_CONFLICT_ATTEMPT"
+      }
+    ]
+  },
+  {
+    "sha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+    "flag": "DUPLICATE_EXACT_IMAGE",
+    "productCount": 2,
+    "distinctProductsCount": 2,
+    "products": [
+      {
+        "productId": "6aa06058af8879d815dcb175",
+        "productName": "Xiaomi Pad 6 Max 14",
+        "brand": "Xiaomi",
+        "category": "tablet",
+        "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      },
+      {
+        "productId": "6aa06058af8879d815dcb184",
+        "productName": "Xiaomi Pad 6 11-inch",
+        "brand": "Xiaomi",
+        "category": "tablet",
+        "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+        "sourceType": "VERIFIED_CDN_MAPPING"
+      }
+    ]
+  }
+]

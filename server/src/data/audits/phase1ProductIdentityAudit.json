@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-22T06:39:41.816Z",
+  "totalProducts": 867,
+  "totalOffers": 1181,
+  "orphanOffers": 0,
+  "productsWithZeroOffers": 0,
+  "productsWithMultipleOffers": 250,
+  "offersWithSearchUrls": 0,
+  "invalidMarketplaceUrls": 555,
+  "amazonAsinListCount": 626,
+  "duplicateAsinsCount": 2,
+  "nullImageProducts": 590,
+  "unsplashImageProducts": 241,
+  "amazonCdnImageProducts": 36
+}

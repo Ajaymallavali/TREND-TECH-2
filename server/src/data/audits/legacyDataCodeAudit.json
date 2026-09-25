@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-23T16:41:44.795Z",
+  "legacyInventory": [
+    {
+      "file": "server/src/scripts/seedVerifiedCatalog.js",
+      "purpose": "Seeds static initial verified products data",
+      "type": "LEGACY",
+      "safeToRun": false,
+      "reason": "Contains static JSON product records without live SerpAPI ASIN provenance."
+    },
+    {
+      "file": "server/src/data/verifiedCatalog.data.js",
+      "purpose": "Static verified product catalog definitions",
+      "type": "LEGACY",
+      "safeToRun": false,
+      "reason": "Contains static catalog mappings with synthetic ASIN patterns."
+    },
+    {
+      "file": "server/src/data/masterCatalogData.js",
+      "purpose": "Full synthetic 867-product fallback data array",
+      "type": "LEGACY",
+      "safeToRun": false,
+      "reason": "Legacy synthetic product catalog used in initial seeders."
+    },
+    {
+      "file": "server/src/services/imagePipeline.service.js",
+      "purpose": "Legacy image fallback resolver",
+      "type": "LEGACY",
+      "safeToRun": false,
+      "reason": "Contains static image mappings that could override product images if enabled."
+    }
+  ]
+}

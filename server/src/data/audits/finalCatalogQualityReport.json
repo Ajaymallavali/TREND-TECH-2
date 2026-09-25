@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-15T05:59:03.674Z",
+    "project": "TREND-TECH-2",
+    "phase": "FINAL_DATA_QUALITY_PASS",
+    "status": "SUCCESS"
+  },
+  "databaseCounts": {
+    "products": 409,
+    "marketplaceProducts": 765,
+    "priceHistory": 13335,
+    "databaseWrites": 0,
+    "databaseDeletes": 0
+  },
+  "productAudit": {
+    "verifiedProducts": 170,
+    "totalCatalogProducts": 409,
+    "legacyPreservedProducts": 239,
+    "suspiciousProducts": 0,
+    "duplicateProducts": 0
+  },
+  "urlAudit": {
+    "totalOffers": 765,
+    "verifiedExact": 560,
+    "invalid": 205,
+    "searchUrls": 0,
+    "wrongMarketplace": 0,
+    "missingPrice": 0,
+    "disabledOffers": 205
+  },
+  "imageAudit": {
+    "verifiedImages": 409,
+    "missingImages": 0,
+    "genericImages": 84,
+    "amazonCdnImages": 274,
+    "brandCdnImages": 135,
+    "duplicateImages": 165,
+    "normalizedDuplicateImages": 165
+  },
+  "dealAudit": {
+    "validListedDiscounts": 146,
+    "realPriceDrops": 64,
+    "insufficientHistory": 175,
+    "stableDeals": 24
+  },
+  "categoryAudit": {
+    "smartphone": {
+      "productCount": 54,
+      "verifiedOfferCount": 124,
+      "verifiedImageCount": 54,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "laptop": {
+      "productCount": 41,
+      "verifiedOfferCount": 71,
+      "verifiedImageCount": 41,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "tablet": {
+      "productCount": 22,
+      "verifiedOfferCount": 54,
+      "verifiedImageCount": 22,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "television": {
+      "productCount": 32,
+      "verifiedOfferCount": 64,
+      "verifiedImageCount": 32,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "monitor": {
+      "productCount": 26,
+      "verifiedOfferCount": 50,
+      "verifiedImageCount": 26,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "headphones": {
+      "productCount": 27,
+      "verifiedOfferCount": 54,
+      "verifiedImageCount": 27,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "smartwatch": {
+      "productCount": 25,
+      "verifiedOfferCount": 52,
+      "verifiedImageCount": 25,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "camera": {
+      "productCount": 22,
+      "verifiedOfferCount": 51,
+      "verifiedImageCount": 22,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "gaming": {
+      "productCount": 20,
+      "verifiedOfferCount": 50,
+      "verifiedImageCount": 20,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "air_conditioner": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "washing_machine": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "refrigerator": {
+      "productCount": 5,
+      "verifiedOfferCount": 5,
+      "verifiedImageCount": 5,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "computer_accessories": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "mens_clothing": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "womens_clothing": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "shoes": {
+      "productCount": 15,
+      "verifiedOfferCount": 19,
+      "verifiedImageCount": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "bags": {
+      "productCount": 11,
+      "verifiedOfferCount": 11,
+      "verifiedImageCount": 11,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "beauty": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "verifiedImageCount": 0,
+      "status": "EMPTY_CATEGORY"
+    },
+    "earbuds": {
+      "productCount": 15,
+      "verifiedOfferCount": 16,
+      "verifiedImageCount": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "accessory": {
+      "productCount": 18,
+      "verifiedOfferCount": 18,
+      "verifiedImageCount": 18,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "mens-clothing": {
+      "productCount": 15,
+      "verifiedOfferCount": 17,
+      "verifiedImageCount": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "womens-clothing": {
+      "productCount": 14,
+      "verifiedOfferCount": 14,
+      "verifiedImageCount": 14,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "watches-accessories": {
+      "productCount": 9,
+      "verifiedOfferCount": 12,
+      "verifiedImageCount": 9,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "beauty-personal-care": {
+      "productCount": 14,
+      "verifiedOfferCount": 16,
+      "verifiedImageCount": 14,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "air-conditioner": {
+      "productCount": 5,
+      "verifiedOfferCount": 6,
+      "verifiedImageCount": 5,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "washing-machine": {
+      "productCount": 4,
+      "verifiedOfferCount": 4,
+      "verifiedImageCount": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "audio": {
+      "productCount": 10,
+      "verifiedOfferCount": 10,
+      "verifiedImageCount": 10,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "home-appliances": {
+      "productCount": 4,
+      "verifiedOfferCount": 4,
+      "verifiedImageCount": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "fashion-accessories": {
+      "productCount": 1,
+      "verifiedOfferCount": 1,
+      "verifiedImageCount": 1,
+      "status": "LOW_COVERAGE_CATEGORY"
+    }
+  },
+  "frontendAudit": {
+    "directUrlUsage": "VERIFIED_100_PERCENT",
+    "searchUrlFallbacks": "NONE_REJECTED_BY_VALIDATOR",
+    "invalidOfferButtons": "HIDDEN_VIA_IS_AVAILABLE_FILTER"
+  },
+  "analysisAudit": {
+    "productsWithRealAnalysis": 409,
+    "insufficientEvidenceMetrics": "FALLBACK_TO_INSUFFICIENT_DATA"
+  }
+}

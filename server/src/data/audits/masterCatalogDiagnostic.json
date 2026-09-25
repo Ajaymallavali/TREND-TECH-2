@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-09-23T01:33:30.000Z",
+  "audit": "MASTER FORENSIC DIAGNOSTIC PASS",
+  "databaseCounts": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "marketplaces": 7,
+    "priceHistory": 559
+  },
+  "summary": {
+    "productSource": "Synthetic / Legacy Seed Data",
+    "imageSource": "Synthetic / Unsplash / Heuristic Amazon CDN",
+    "priceSource": "Synthetic / Legacy Seed Data (457 records at ₹2,999)",
+    "marketplaceUrlSource": "Synthetic / Search URLs / Generated ASINs",
+    "categorySource": "Synthetic Taxonomy Mapping"
+  },
+  "rootCauses": {
+    "sameImageBug": {
+      "cause": "Shared stock Unsplash URL photo-1511707171634-5f897ff02aa9 with dummy query string params (&idx=N) reused across hundreds of products in masterCatalogData.js and seed.js",
+      "files": ["server/src/data/masterCatalogData.js", "server/src/scripts/seed.js", "client/src/components/ProductImage.jsx"]
+    },
+    "price2999Bug": {
+      "cause": "457 out of 1181 MarketplaceProduct MongoDB documents store hardcoded fallback price currentPrice: 2999. In product.controller.js, minPrice is calculated via Math.min(...prices), picking ₹2,999 over any real or secondary offer.",
+      "files": ["server/src/models/MarketplaceProduct.model.js", "server/src/scripts/seedAllProducts.js", "server/src/controllers/product.controller.js"]
+    },
+    "legacyCatalogExposure": {
+      "cause": "product.controller.js issues Product.find(filter) directly against MongoDB without any source or verification filter (e.g. source = 'live_verified'). Thus all 867 synthetic legacy products are served directly to the frontend.",
+      "files": ["server/src/controllers/product.controller.js", "client/src/pages/CategoryPage.jsx"]
+    }
+  },
+  "serpApiStatus": {
+    "environmentLoading": "Resolved in Phase 5A.3.2 via explicit path configuration in env.js",
+    "keyPresence": "YES",
+    "keyLength": 13,
+    "isPlaceholder": true,
+    "placeholderValue": "YOUR_REAL_KEY",
+    "lastHttpResponse": 401,
+    "blocker": "Valid SerpAPI account key required to perform live HTTP ingestion."
+  },
+  "recommendedFixOrder": [
+    "1. Obtain and configure valid live SerpAPI API key in server/.env",
+    "2. Establish separate live verified catalog collection or add source = 'live_verified' filter",
+    "3. Quarantine 867 legacy synthetic products from user-facing API routes",
+    "4. Enforce strict per-product SKU/ASIN identity schema",
+    "5. Populate exact Level-6 official manufacturer/API images and purge Unsplash/generic URLs",
+    "6. Enforce runtime image deduplication guard on category listings",
+    "7. Replace synthetic 2999 prices with verified live offer prices",
+    "8. Replace search/generated URLs with direct verified product URLs",
+    "9. Connect frontend exclusively to live-verified product endpoints",
+    "10. Execute pilot ingestion and verify invariants before full catalog rollout"
+  ]
+}

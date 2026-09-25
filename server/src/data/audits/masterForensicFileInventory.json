@@ -1,0 +1,50 @@
+[
+  {
+    "file": "server/src/data/masterCatalogData.js",
+    "entity": "Product, MarketplaceProduct, PriceHistory",
+    "role": "Static Master Catalog Data",
+    "type": "STATIC_SEED_SOURCE"
+  },
+  {
+    "file": "server/src/data/realVerifiedCatalog.js",
+    "entity": "Product, MarketplaceProduct",
+    "role": "Ingestion Reference Dataset",
+    "type": "STATIC_REFERENCE_SOURCE"
+  },
+  {
+    "file": "server/src/scripts/seedAllProducts.js",
+    "entity": "Product, MarketplaceProduct, PriceHistory",
+    "role": "Legacy Master Seeder Script",
+    "type": "SYNTHETIC_SEEDER_SCRIPT"
+  },
+  {
+    "file": "server/src/scripts/seedProfessionalCatalog.js",
+    "entity": "Product, MarketplaceProduct",
+    "role": "SerpAPI Product Seeder Script",
+    "type": "SERPAPI_SEEDER_SCRIPT"
+  },
+  {
+    "file": "server/src/services/realCatalogIngestion.service.js",
+    "entity": "Product, MarketplaceProduct",
+    "role": "Catalog Ingestion Service",
+    "type": "INGESTION_SERVICE"
+  },
+  {
+    "file": "server/src/services/imagePipeline.service.js",
+    "entity": "Product.image",
+    "role": "Image Resolution Service",
+    "type": "IMAGE_SERVICE"
+  },
+  {
+    "file": "server/src/controllers/product.controller.js",
+    "entity": "Product, MarketplaceProduct",
+    "role": "API Controller",
+    "type": "API_CONTROLLER"
+  },
+  {
+    "file": "client/src/components/ProductImage.jsx",
+    "entity": "Product.image",
+    "role": "Frontend Image Component",
+    "type": "FRONTEND_COMPONENT"
+  }
+]

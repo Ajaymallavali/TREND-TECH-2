@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-23T16:35:53.720Z",
+  "summary": {
+    "totalProducts": 409,
+    "totalMarketplaceProducts": 765,
+    "totalPriceHistory": 13335,
+    "totalMarketplaces": 11,
+    "totalCategories": 23
+  },
+  "provenance": {
+    "legacySynthetic": 409,
+    "liveVerified": 0,
+    "unresolved": 0
+  },
+  "integrityFailures": {
+    "syntheticAsins": 9,
+    "generatedUrls": 0,
+    "searchUrls": 0,
+    "unsplashImages": 84,
+    "missingImages": 0,
+    "duplicateImageHashes": 0
+  }
+}

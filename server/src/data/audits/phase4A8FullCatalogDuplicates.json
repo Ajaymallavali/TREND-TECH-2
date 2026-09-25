@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "6aa06057af8879d815dcacb6",
+    "productName": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "brand": "Sony",
+    "category": "headphones",
+    "collidingProductId": "6a9904e369652590e0aadcfc",
+    "collidingProductName": "Television Bravia",
+    "collidingCategory": "television",
+    "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+    "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+    "reason": "CROSS_PRODUCT_CONFLICT"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb355",
+    "productName": "Sony PlayStation 5 Pro Console",
+    "brand": "Sony",
+    "category": "gaming",
+    "collidingProductId": "6aa06057af8879d815dcad1f",
+    "collidingProductName": "Apple AirPods Pro 2",
+    "collidingCategory": "headphones",
+    "sha256": "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc",
+    "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+    "reason": "CROSS_PRODUCT_CONFLICT"
+  }
+]

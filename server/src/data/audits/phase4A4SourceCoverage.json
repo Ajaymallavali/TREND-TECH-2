@@ -1,0 +1,44 @@
+{
+  "officialManufacturer": {
+    "attempted": 7,
+    "successful": 6,
+    "failed": 1,
+    "notAttempted": 13
+  },
+  "amazon": {
+    "attempted": 14,
+    "successful": 1,
+    "failed": 13,
+    "notAttempted": 6
+  },
+  "flipkart": {
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "notAttempted": 20
+  },
+  "myntra": {
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "notAttempted": 20
+  },
+  "ajio": {
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "notAttempted": 20
+  },
+  "nykaa": {
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "notAttempted": 20
+  },
+  "other": {
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "notAttempted": 20
+  }
+}

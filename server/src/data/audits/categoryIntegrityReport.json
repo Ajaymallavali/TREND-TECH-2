@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-09-21T19:24:05.954Z",
+  "totalProductsScanned": 867,
+  "eligibleProducts": 825,
+  "validCategoryCount": 666,
+  "misclassifiedCategoryCount": 159,
+  "syntheticCount": 42,
+  "categoryBreakdown": [
+    {
+      "category": "smartphone",
+      "totalProducts": 336,
+      "validProducts": 333,
+      "misclassifiedProducts": 3
+    },
+    {
+      "category": "laptop",
+      "totalProducts": 96,
+      "validProducts": 86,
+      "misclassifiedProducts": 10
+    },
+    {
+      "category": "television",
+      "totalProducts": 75,
+      "validProducts": 56,
+      "misclassifiedProducts": 19
+    },
+    {
+      "category": "smartwatch",
+      "totalProducts": 65,
+      "validProducts": 60,
+      "misclassifiedProducts": 5
+    },
+    {
+      "category": "washing-machine",
+      "totalProducts": 10,
+      "validProducts": 0,
+      "misclassifiedProducts": 10
+    },
+    {
+      "category": "headphones",
+      "totalProducts": 39,
+      "validProducts": 39,
+      "misclassifiedProducts": 0
+    },
+    {
+      "category": "gaming",
+      "totalProducts": 36,
+      "validProducts": 36,
+      "misclassifiedProducts": 0
+    },
+    {
+      "category": "monitor",
+      "totalProducts": 13,
+      "validProducts": 13,
+      "misclassifiedProducts": 0
+    },
+    {
+      "category": "accessory",
+      "totalProducts": 1,
+      "validProducts": 1,
+      "misclassifiedProducts": 0
+    },
+    {
+      "category": "mens-clothing",
+      "totalProducts": 45,
+      "validProducts": 0,
+      "misclassifiedProducts": 45
+    },
+    {
+      "category": "shoes",
+      "totalProducts": 21,
+      "validProducts": 0,
+      "misclassifiedProducts": 21
+    },
+    {
+      "category": "bags",
+      "totalProducts": 31,
+      "validProducts": 0,
+      "misclassifiedProducts": 31
+    },
+    {
+      "category": "womens-clothing",
+      "totalProducts": 2,
+      "validProducts": 0,
+      "misclassifiedProducts": 2
+    },
+    {
+      "category": "beauty-personal-care",
+      "totalProducts": 6,
+      "validProducts": 0,
+      "misclassifiedProducts": 6
+    },
+    {
+      "category": "tablet",
+      "totalProducts": 21,
+      "validProducts": 20,
+      "misclassifiedProducts": 1
+    },
+    {
+      "category": "earbuds",
+      "totalProducts": 6,
+      "validProducts": 0,
+      "misclassifiedProducts": 6
+    },
+    {
+      "category": "camera",
+      "totalProducts": 22,
+      "validProducts": 22,
+      "misclassifiedProducts": 0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "totalProductsScanned": 867,
+  "mismatches": [],
+  "summary": "Category Tree mapped correctly from masterCatalogData, but synthetic ASIN generation caused cross-category URL mapping"
+}

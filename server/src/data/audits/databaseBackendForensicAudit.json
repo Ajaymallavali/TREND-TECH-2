@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-09-23T07:44:30.000Z",
+  "auditType": "FINAL DATABASE + BACKEND REAL PRODUCT FORENSIC AUDIT",
+  "databaseCounts": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "marketplaces": 7,
+    "priceHistory": 559
+  },
+  "syntheticClassification": {
+    "sampleSize": 50,
+    "syntheticCount": 50,
+    "realCount": 0,
+    "classificationRatio": "100% SYNTHETIC"
+  },
+  "priceRootCause": {
+    "repeatedPrices": [
+      { "price": 2999, "count": 457 },
+      { "price": 54900, "count": 53 },
+      { "price": 14900, "count": 44 },
+      { "price": 45900, "count": 34 },
+      { "price": 8990, "count": 27 }
+    ],
+    "cause": "Hardcoded fallback currentPrice values in MongoDB MarketplaceProduct populated by seedAllProducts.js. Controller calculates minPrice using Math.min(...), returning ₹2,999."
+  },
+  "imageRootCause": {
+    "unsplashCount": 809,
+    "amazonCdnCount": 58,
+    "missingCount": 0,
+    "reusedCount": 222,
+    "cause": "masterCatalogData.js assigned Unsplash URL photo-1511707171634-5f897ff02aa9 with dummy &idx=N params across hundreds of products."
+  },
+  "marketplaceUrls": {
+    "realDirectProductUrls": 0,
+    "searchUrls": 305,
+    "generatedUrls": 876,
+    "generatedAsins": 625
+  },
+  "criticalAnswers": {
+    "q1_areProductsSynthetic": "YES (All 867 Products are synthetic legacy seed records)",
+    "q2_areMarketplaceProductsSynthetic": "YES (All 1181 offers contain hardcoded prices or generated ASINs)",
+    "q3_arePricesRealMarketplacePrices": "NO (457 offers explicitly store currentPrice: 2999)",
+    "q4_areImagesRealExactProductImages": "NO (809 records use generic stock Unsplash URLs)",
+    "q5_areAsinsProvenLive": "NO (625 ASINs were constructed by prepending B0 to hex MongoDB ObjectIDs)",
+    "q6_areUrlsExactProductUrls": "NO (305 are search URLs, 876 are fake ASIN URLs, 0 real direct URLs)",
+    "q7_doesBackendExposeLegacySynthetic": "YES (product.controller.js line 42 queries Product.find(filter) without source = 'live_verified')",
+    "q8_doesBackendGuaranteeProductRelation": "NO (MongoDB relations are between synthetic entities)",
+    "q9_doesBackendGuaranteeImageIdentity": "NO (Product.image came from Unsplash or pattern CDN matches)",
+    "q10_doesBackendGuaranteePriceIdentity": "NO (currentPrice: 2999 hardcoded across 457 records)",
+    "q11_canExistingProductsBeSafelyRepaired": "NO (Legacy records lack authentic ASIN/SKU provenance and cannot be safely repaired by guessing)",
+    "q12_shouldBeQuarantinedAndReplaced": "YES (Quarantine legacy catalog under source = 'LEGACY_SYNTHETIC' and replace with fresh live API catalog)"
+  },
+  "recommendedFixOrder": [
+    "1. Catalog Isolation: Add source = 'live_verified' filter in product.controller.js",
+    "2. Backend Route Scoping: Restrict API endpoints to live_verified catalog",
+    "3. Product -> MarketplaceProduct Integrity: Require live API verified ASIN/SKU",
+    "4. Real Price Provenance: Replace static 2999 offer prices with live API price",
+    "5. Real Image Provenance: Overwrite Unsplash URLs with verified Level-6 official API images",
+    "6. Category Enforcement: Normalize and enforce strict canonical category tree",
+    "7. Frontend API Cleanup: Consume source-verified product objects",
+    "8. Cache Invalidation: Flush stale React Query / Redis cache entries",
+    "9. Real One-Product Pilot: Run iPhone 16e live API test",
+    "10. 20-Product Pilot: Run 20 target model dry run",
+    "11. Controlled Migration: Gradually activate verified catalog items",
+    "12. Regression Guardrails: Maintain 263 automated Vitest tests"
+  ]
+}

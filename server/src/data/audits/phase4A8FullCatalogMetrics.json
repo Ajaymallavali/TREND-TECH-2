@@ -1,0 +1,12 @@
+{
+  "productLevel": {
+    "sourceResolutionRate": "3.5%",
+    "unresolvedRate": "96.3%"
+  },
+  "candidateLevel": {
+    "downloadSuccessRate": "78.0%",
+    "validImageRate": "73.2%",
+    "identityVerificationRate": "100.0%",
+    "duplicateConflictRate": "4.9%"
+  }
+}

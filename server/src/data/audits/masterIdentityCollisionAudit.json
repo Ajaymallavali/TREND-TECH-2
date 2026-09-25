@@ -1,0 +1,85 @@
+{
+  "asinCollisions": 0,
+  "urlCollisions": 0,
+  "imageSha256Collisions": 15,
+  "syntheticAsinCount": 625,
+  "collisionDetails": {
+    "syntheticAsinPattern": "B0 + MongoDB Hex Product ObjectId",
+    "exampleCollisions": [
+      [
+        "c26bb6fbda2425a5646cdbc4358280e855075e8c103aca603488f02a3ee7df9b",
+        [
+          "6a9904e369652590e0aadc0a",
+          "6aa06056af8879d815dca694"
+        ]
+      ],
+      [
+        "6561bcefae3f6bd471c02b32f9446dfc41164148813a5214168becfcda1f8b48",
+        [
+          "6a9904e369652590e0aadcfe",
+          "6aa06057af8879d815dcabb7",
+          "6aa06057af8879d815dcabc6",
+          "6aa06057af8879d815dcabd5",
+          "6aa06057af8879d815dcac98"
+        ]
+      ],
+      [
+        "77b541ea70c760c1aaf7abd22eb4e513874d522f2d03f29c635cebf15f0c93bb",
+        [
+          "6aa06056af8879d815dca4f4",
+          "6aa06056af8879d815dca509",
+          "6aa06056af8879d815dca55c",
+          "6aa06056af8879d815dca571"
+        ]
+      ],
+      [
+        "a189e772e7320d851aee6ba218a309095452880f9d83dd2bd8be79daa8de3293",
+        [
+          "6aa06056af8879d815dca51e",
+          "6aa06056af8879d815dca533",
+          "6aa06056af8879d815dca586",
+          "6aa06056af8879d815dca59b",
+          "6aa06056af8879d815dca5b0",
+          "6aa06056af8879d815dca5c5",
+          "6aa06056af8879d815dca5da",
+          "6aa06056af8879d815dca67f",
+          "6aa06056af8879d815dca6a9",
+          "6aa06056af8879d815dca6be",
+          "6aa06056af8879d815dca6d3",
+          "6aa06056af8879d815dca6e8",
+          "6aa06056af8879d815dca6fd",
+          "6aa06056af8879d815dca712",
+          "6aa06056af8879d815dca727",
+          "6aa06056af8879d815dca73c",
+          "6aa06056af8879d815dca751",
+          "6aa06056af8879d815dca77b",
+          "6aa06056af8879d815dca7ba",
+          "6aa06056af8879d815dca7cf",
+          "6aa06056af8879d815dca7e4",
+          "6aa06056af8879d815dca7f9",
+          "6aa06056af8879d815dca80e",
+          "6aa06056af8879d815dca823",
+          "6aa06056af8879d815dca838",
+          "6aa06056af8879d815dca84d",
+          "6aa06056af8879d815dca862",
+          "6aa06056af8879d815dca877",
+          "6aa06056af8879d815dca88c",
+          "6aa06056af8879d815dca8a1",
+          "6aa06056af8879d815dca8b6",
+          "6aa06056af8879d815dca8cb",
+          "6aa06056af8879d815dca8e0",
+          "6aa06056af8879d815dca8f5",
+          "6aa06056af8879d815dca90a",
+          "6aa06056af8879d815dca91f"
+        ]
+      ],
+      [
+        "cd66b87406dda6a43534a274bc2b7bffdf473e69dd08c7f1a1e471d34cb78012",
+        [
+          "6aa06056af8879d815dca604",
+          "6aa06056af8879d815dca619"
+        ]
+      ]
+    ]
+  }
+}

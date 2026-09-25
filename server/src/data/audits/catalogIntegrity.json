@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-22T20:10:42.499Z",
+  "totalProducts": 867,
+  "realVerifiedProducts": 0,
+  "legacySyntheticProducts": 867,
+  "unknownProducts": 0,
+  "templateNames": 117,
+  "templateDescriptions": 753,
+  "categoryMismatches": 0,
+  "suspiciousPriceRepetition": 615,
+  "missingPrices": 0,
+  "missingImages": 589,
+  "duplicateImageUrls": 222,
+  "duplicateImageHashes": 222,
+  "generatedAsins": 625,
+  "generatedUrls": 876,
+  "searchUrls": 305,
+  "duplicateAsins": 0,
+  "brokenMarketplaceRelations": 0
+}

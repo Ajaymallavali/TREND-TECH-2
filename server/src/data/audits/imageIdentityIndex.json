@@ -1,0 +1,596 @@
+{
+  "6a98d181a6bfd56d867752df": {
+    "productId": "6a98d181a6bfd56d867752df",
+    "name": "iPhone 17 Pro Max Silicone Case",
+    "category": "accessory",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/51w9w4+a-il.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbea": {
+    "productId": "6a9904e369652590e0aadbea",
+    "name": "Apple iPhone 17 Pro Max",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81Os1SDW92L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81os1sdw92l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbec": {
+    "productId": "6a9904e369652590e0aadbec",
+    "name": "Apple iPhone 17 Pro",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81sigVkAHgL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81sigvkahgl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbee": {
+    "productId": "6a9904e369652590e0aadbee",
+    "name": "Apple iPhone 17",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71d7rfsl0wl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbf0": {
+    "productId": "6a9904e369652590e0aadbf0",
+    "name": "Apple iPhone Air",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71tpda7cwtl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbf2": {
+    "productId": "6a9904e369652590e0aadbf2",
+    "name": "Apple iPhone 16e",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71YdE4j2fFL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71yde4j2ffl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbf6": {
+    "productId": "6a9904e369652590e0aadbf6",
+    "name": "Apple iPhone SE (3rd Gen)",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61TOWf11+jL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61towf11+jl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbf8": {
+    "productId": "6a9904e369652590e0aadbf8",
+    "name": "Apple iPhone SE 2022",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71+G9rC0xQL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71+g9rc0xql.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadbfe": {
+    "productId": "6a9904e369652590e0aadbfe",
+    "name": "Smartphone Galaxy S series",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71J8tz0UeeL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71j8tz0ueel.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc00": {
+    "productId": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71R2HjJ4K5L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71r2hjj4k5l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc02": {
+    "productId": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71XMT65380L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71xmt65380l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc04": {
+    "productId": "6a9904e369652590e0aadc04",
+    "name": "Samsung Galaxy A55 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71e5zb1qbil.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc06": {
+    "productId": "6a9904e369652590e0aadc06",
+    "name": "Samsung Galaxy M55 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71qGismu6NL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71qgismu6nl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc08": {
+    "productId": "6a9904e369652590e0aadc08",
+    "name": "Samsung Galaxy F55 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71CXhVhpM0L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71cxhvhpm0l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc0a": {
+    "productId": "6a9904e369652590e0aadc0a",
+    "name": "OnePlus 12 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc0c": {
+    "productId": "6a9904e369652590e0aadc0c",
+    "name": "OnePlus Nord CE4 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61Io5-q3A8L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61io5-q3a8l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc0e": {
+    "productId": "6a9904e369652590e0aadc0e",
+    "name": "OnePlus Open Foldable",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71XNeka-BRL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71xneka-brl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc22": {
+    "productId": "6a9904e369652590e0aadc22",
+    "name": "Smartphone Pixel",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71p-tK6pW5L._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71p-tk6pw5l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc32": {
+    "productId": "6a9904e369652590e0aadc32",
+    "name": "Smartphone Find X",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71oD4Hk1p7L._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71od4hk1p7l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc4c": {
+    "productId": "6a9904e369652590e0aadc4c",
+    "name": "Smartphone Moto E",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61K7uC988zL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61k7uc988zl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc72": {
+    "productId": "6a9904e369652590e0aadc72",
+    "name": "Apple MacBook Air M3 (13-inch)",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71jg+e7roxl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc76": {
+    "productId": "6a9904e369652590e0aadc76",
+    "name": "Dell Inspiron 15 3520",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61L2lG4cWBL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61l2lg4cwbl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc78": {
+    "productId": "6a9904e369652590e0aadc78",
+    "name": "Laptop XPS",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71O15wS3tEL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71o15ws3tel.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc82": {
+    "productId": "6a9904e369652590e0aadc82",
+    "name": "HP Pavilion 15 EG3036TU",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71vfkbpkakl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc84": {
+    "productId": "6a9904e369652590e0aadc84",
+    "name": "HP Envy x360 2-in-1",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71Y5hJ42vTL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71y5hj42vtl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc92": {
+    "productId": "6a9904e369652590e0aadc92",
+    "name": "Lenovo IdeaPad Slim 3",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61Q65W-zVCL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61q65w-zvcl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadc94": {
+    "productId": "6a9904e369652590e0aadc94",
+    "name": "Laptop ThinkPad",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/51r26kixzIL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/51r26kixzil.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadca2": {
+    "productId": "6a9904e369652590e0aadca2",
+    "name": "ASUS VivoBook 15 OLED",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71V23uW-BGL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71v23uw-bgl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadca4": {
+    "productId": "6a9904e369652590e0aadca4",
+    "name": "ASUS ZenBook 14 OLED",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71qYx05hUBL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71qyx05hubl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadcaa": {
+    "productId": "6a9904e369652590e0aadcaa",
+    "name": "ASUS TUF Gaming A15",
+    "category": "laptop",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81+5W8J05vL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81+5w8j05vl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadcee": {
+    "productId": "6a9904e369652590e0aadcee",
+    "name": "Television Crystal UHD",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71R375b47iL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71r375b47il.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadcfc": {
+    "productId": "6a9904e369652590e0aadcfc",
+    "name": "Television Bravia",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81wxjP0B7RL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81wxjp0b7rl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadcfe": {
+    "productId": "6a9904e369652590e0aadcfe",
+    "name": "Television Bravia XR",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6a9904e369652590e0aadd32": {
+    "productId": "6a9904e369652590e0aadd32",
+    "name": "Smartwatch & Wearables Apple Watch Series",
+    "category": "smartwatch",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71YdE55GwjL._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71yde55gwjl.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e369652590e0aadd38": {
+    "productId": "6a9904e369652590e0aadd38",
+    "name": "Smartwatch & Wearables Galaxy Watch",
+    "category": "smartwatch",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61aZR+YvNML._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61azr+yvnml.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e469652590e0aae044": {
+    "productId": "6a9904e469652590e0aae044",
+    "name": "Sports & Fitness Yoga mats",
+    "category": "accessory",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61bW6f-6t2L._SX679_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bw6f-6t2l.jpg",
+    "status": "RETAINED"
+  },
+  "6a9904e469652590e0aae08e": {
+    "productId": "6a9904e469652590e0aae08e",
+    "name": "Beauty & Personal Care Mascara",
+    "category": "beauty-personal-care",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61cQ-21B0QL._SX522_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61cq-21b0ql.jpg",
+    "status": "RETAINED"
+  },
+  "6aa06056af8879d815dca4f4": {
+    "productId": "6aa06056af8879d815dca4f4",
+    "name": "Apple iPhone 16 Pro Max",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca509": {
+    "productId": "6aa06056af8879d815dca509",
+    "name": "Apple iPhone 16 Pro",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca51e": {
+    "productId": "6aa06056af8879d815dca51e",
+    "name": "Apple iPhone 16",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71vfkbpkakl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca533": {
+    "productId": "6aa06056af8879d815dca533",
+    "name": "Apple iPhone 16 Plus",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71vfkbpkakl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca55c": {
+    "productId": "6aa06056af8879d815dca55c",
+    "name": "Apple iPhone 15 Pro Max",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca571": {
+    "productId": "6aa06056af8879d815dca571",
+    "name": "Apple iPhone 15 Pro",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61bk6pmoc3l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca586": {
+    "productId": "6aa06056af8879d815dca586",
+    "name": "Apple iPhone 15",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71d7rfsl0wl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca59b": {
+    "productId": "6aa06056af8879d815dca59b",
+    "name": "Apple iPhone 15 Plus",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71d7rfsl0wl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca5ef": {
+    "productId": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71rvuw369ql.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca604": {
+    "productId": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71glmj7tqil.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca619": {
+    "productId": "6aa06056af8879d815dca619",
+    "name": "Samsung Galaxy S24",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71glmj7tqil.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca656": {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61VfL-WzBfL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61vfl-wzbfl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca67f": {
+    "productId": "6aa06056af8879d815dca67f",
+    "name": "OnePlus 13",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca694": {
+    "productId": "6aa06056af8879d815dca694",
+    "name": "OnePlus 12",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca6a9": {
+    "productId": "6aa06056af8879d815dca6a9",
+    "name": "OnePlus 12R",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca6be": {
+    "productId": "6aa06056af8879d815dca6be",
+    "name": "OnePlus Nord 4",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca6d3": {
+    "productId": "6aa06056af8879d815dca6d3",
+    "name": "OnePlus Nord CE 4",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/717qo4mh97l.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca766": {
+    "productId": "6aa06056af8879d815dca766",
+    "name": "Xiaomi 14 Ultra",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71N-W7C46OL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71n-w7c46ol.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca790": {
+    "productId": "6aa06056af8879d815dca790",
+    "name": "Xiaomi Redmi Note 13 Pro+ 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71ld7fsl0wl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06056af8879d815dca7a5": {
+    "productId": "6aa06056af8879d815dca7a5",
+    "name": "Xiaomi Redmi Note 13 5G",
+    "category": "smartphone",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71ld7fsl0wl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcabb7": {
+    "productId": "6aa06057af8879d815dcabb7",
+    "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcabc6": {
+    "productId": "6aa06057af8879d815dcabc6",
+    "name": "Sony 55\" Bravia XR A90L OLED",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcabd5": {
+    "productId": "6aa06057af8879d815dcabd5",
+    "name": "Sony 65\" Bravia 3 4K LED Google TV",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcac98": {
+    "productId": "6aa06057af8879d815dcac98",
+    "name": "Sony 75\" Bravia 8 OLED 4K TV",
+    "category": "television",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/81m+xwk89rl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcacb6": {
+    "productId": "6aa06057af8879d815dcacb6",
+    "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "category": "headphones",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/51skmu2g9fl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06057af8879d815dcad1f": {
+    "productId": "6aa06057af8879d815dcad1f",
+    "name": "Apple AirPods Pro 2",
+    "category": "headphones",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61suj2akoel.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06058af8879d815dcb175": {
+    "productId": "6aa06058af8879d815dcb175",
+    "name": "Xiaomi Pad 6 Max 14",
+    "category": "tablet",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71lry1j6uhl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06058af8879d815dcb184": {
+    "productId": "6aa06058af8879d815dcb184",
+    "name": "Xiaomi Pad 6 11-inch",
+    "category": "tablet",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/71lry1j6uhl.jpg",
+    "status": "REPAIRABLE"
+  },
+  "6aa06058af8879d815dcb355": {
+    "productId": "6aa06058af8879d815dcb355",
+    "name": "Sony PlayStation 5 Pro Console",
+    "category": "gaming",
+    "asin": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+    "canonicalUrl": "https://m.media-amazon.com/images/i/61b7m8k+b9l.jpg",
+    "status": "REPAIRABLE"
+  }
+}

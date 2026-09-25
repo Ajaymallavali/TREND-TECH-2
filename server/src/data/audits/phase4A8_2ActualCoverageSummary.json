@@ -1,0 +1,353 @@
+{
+  "header": "PHASE 4A.8.2 ACTUAL FULL CATALOG COVERAGE SUMMARY REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:38:48.271Z",
+  "coverageOverview": {
+    "totalProducts": 867,
+    "verifiedExactImages": 30,
+    "withoutVerifiedExactImage": 837,
+    "coveragePercentage": "3.5%"
+  },
+  "productLevel": {
+    "productsProcessed": 867,
+    "productsResolved": 30,
+    "productsUnresolved": 835,
+    "productsIdentityMismatch": 0,
+    "productsDuplicateConflict": 2
+  },
+  "candidateLevel": {
+    "candidateAttempts": 41,
+    "candidateSourcesFound": 44,
+    "candidateDownloadAttempts": 41,
+    "candidateDownloadSuccess": 32,
+    "candidateValid": 30,
+    "candidateInvalid": 11,
+    "candidate404": 9,
+    "candidate403": 0,
+    "candidate429": 0,
+    "candidate500": 0,
+    "candidateOtherErrors": 0,
+    "candidateDuplicate": 2,
+    "candidateIdentityMismatch": 0
+  },
+  "sourceProductBreakdown": {
+    "officialManufacturer": 7,
+    "amazon": 23,
+    "flipkart": 0,
+    "myntra": 0,
+    "ajio": 0,
+    "nykaa": 0,
+    "other": 0
+  },
+  "categoryCoverage": [
+    {
+      "category": "smartphone",
+      "totalProducts": 338,
+      "verifiedImages": 24,
+      "unresolved": 314,
+      "coveragePct": "7.1%"
+    },
+    {
+      "category": "laptop",
+      "totalProducts": 99,
+      "verifiedImages": 2,
+      "unresolved": 97,
+      "coveragePct": "2.0%"
+    },
+    {
+      "category": "television",
+      "totalProducts": 75,
+      "verifiedImages": 1,
+      "unresolved": 74,
+      "coveragePct": "1.3%"
+    },
+    {
+      "category": "smartwatch",
+      "totalProducts": 65,
+      "verifiedImages": 0,
+      "unresolved": 65,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "mens-clothing",
+      "totalProducts": 45,
+      "verifiedImages": 0,
+      "unresolved": 45,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "headphones",
+      "totalProducts": 39,
+      "verifiedImages": 1,
+      "unresolved": 38,
+      "coveragePct": "2.6%"
+    },
+    {
+      "category": "camera",
+      "totalProducts": 39,
+      "verifiedImages": 0,
+      "unresolved": 39,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "gaming",
+      "totalProducts": 36,
+      "verifiedImages": 0,
+      "unresolved": 36,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "bags",
+      "totalProducts": 30,
+      "verifiedImages": 0,
+      "unresolved": 30,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "shoes",
+      "totalProducts": 21,
+      "verifiedImages": 0,
+      "unresolved": 21,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "tablet",
+      "totalProducts": 21,
+      "verifiedImages": 2,
+      "unresolved": 19,
+      "coveragePct": "9.5%"
+    },
+    {
+      "category": "air-conditioner",
+      "totalProducts": 15,
+      "verifiedImages": 0,
+      "unresolved": 15,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "monitor",
+      "totalProducts": 13,
+      "verifiedImages": 0,
+      "unresolved": 13,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "washing-machine",
+      "totalProducts": 10,
+      "verifiedImages": 0,
+      "unresolved": 10,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "accessory",
+      "totalProducts": 7,
+      "verifiedImages": 0,
+      "unresolved": 7,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "beauty-personal-care",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "earbuds",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "womens-clothing",
+      "totalProducts": 2,
+      "verifiedImages": 0,
+      "unresolved": 2,
+      "coveragePct": "0.0%"
+    }
+  ],
+  "failureReasonBreakdown": {
+    "NO_EXACT_SOURCE": 827,
+    "IMAGE_404": 8,
+    "IMAGE_UNAVAILABLE": 0,
+    "IDENTITY_UNVERIFIED": 0,
+    "DUPLICATE_CONFLICT": 2,
+    "HTTP_ERROR": 0,
+    "OTHER": 0
+  },
+  "sampleVerifiedProducts": [
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "productName": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "sourceType": "VERIFIED_CDN_MAPPING",
+      "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "productName": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "productName": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "productName": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+      "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc04",
+      "productName": "Samsung Galaxy A55 5G",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "sourceType": "VERIFIED_CDN_MAPPING",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc0c",
+      "productName": "OnePlus Nord CE4 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "sourceType": "VERIFIED_CDN_MAPPING",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc0a",
+      "productName": "OnePlus 12 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "sourceType": "VERIFIED_CDN_MAPPING",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "productName": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "sourceType": "VERIFIED_CDN_MAPPING",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "productName": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadcfc",
+      "productName": "Television Bravia",
+      "brand": "Television",
+      "category": "television",
+      "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    }
+  ],
+  "sampleUnresolvedProducts": [
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "productName": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbee",
+      "productName": "Apple iPhone 17",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf4",
+      "productName": "Apple iPhone Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "productName": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "productName": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfa",
+      "productName": "Apple iPhone Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfc",
+      "productName": "Apple iPhone Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfe",
+      "productName": "Smartphone Galaxy S series",
+      "brand": "Smartphone",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc00",
+      "productName": "Samsung Galaxy Z Fold 6",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc02",
+      "productName": "Samsung Galaxy Z Flip 6",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    }
+  ],
+  "databaseIntegrity": {
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "marketplaceProductsBefore": 1181,
+    "marketplaceProductsAfter": 1181,
+    "priceHistoryBefore": 559,
+    "priceHistoryAfter": 559,
+    "productImageWrites": 0,
+    "databaseModified": false
+  }
+}

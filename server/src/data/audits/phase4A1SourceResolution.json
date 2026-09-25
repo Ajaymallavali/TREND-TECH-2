@@ -1,0 +1,373 @@
+{
+  "header": "PHASE 4A.1 SOURCE RESOLUTION TEST",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T16:50:30.701Z",
+  "productCounts": {
+    "productsTested": 30,
+    "exactSourcesFound": 8,
+    "actualDownloads": 8,
+    "validImages": 8,
+    "invalidImages": 22,
+    "http404": 17,
+    "http403": 0,
+    "http429": 0,
+    "http500": 0,
+    "duplicateConflicts": 1,
+    "identityMismatches": 0,
+    "unresolved": 22
+  },
+  "candidateCounts": {
+    "candidateAttempts": 26,
+    "candidateDownloads": 26,
+    "candidateValid": 8,
+    "candidateInvalid": 17,
+    "candidateDuplicate": 1,
+    "candidate404": 17
+  },
+  "testBatchResults": [
+    {
+      "productId": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6aa06056af8879d815dca4f4",
+        "name": "Apple iPhone 16 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 56,
+        "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6aa06056af8879d815dca5ef",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadc0a",
+      "name": "OnePlus 12 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6a9904e369652590e0aadc0a",
+        "name": "OnePlus 12 5G",
+        "brand": "OnePlus",
+        "category": "smartphone",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 150,
+        "sha256": "f86192c90508e4cff7bddadc80408a6d0f32382b9c832a3630b8603b30891fef",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6aa06056af8879d815dca766",
+      "name": "Xiaomi 14 Ultra",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6a9904e369652590e0aadbf2",
+        "name": "Apple iPhone 16e",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 44,
+        "sha256": "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6a9904e369652590e0aadc72",
+        "name": "Apple MacBook Air M3 (13-inch)",
+        "brand": "Apple",
+        "category": "laptop",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 42,
+        "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "name": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadc82",
+      "name": "HP Pavilion 15 EG3036TU",
+      "brand": "HP",
+      "category": "laptop",
+      "primaryState": "DUPLICATE_CONFLICT",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadc92",
+      "name": "Lenovo IdeaPad Slim 3",
+      "brand": "Lenovo",
+      "category": "laptop",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadca2",
+      "name": "ASUS VivoBook 15 OLED",
+      "brand": "ASUS",
+      "category": "laptop",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6aa06057af8879d815dcacb6",
+      "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "brand": "Sony",
+      "category": "headphones",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6aa06057af8879d815dcacb6",
+        "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+        "brand": "Sony",
+        "category": "headphones",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1125",
+        "fileSizeKB": 33,
+        "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6aa06057af8879d815dcad1f",
+      "name": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6aa06057af8879d815dcad1f",
+        "name": "Apple AirPods Pro 2",
+        "brand": "Apple",
+        "category": "headphones",
+        "sourceType": "VERIFIED_CDN_INDEX",
+        "productPageUrl": "https://m.media-amazon.com",
+        "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 35,
+        "sha256": "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6aa06057af8879d815dcace3",
+      "name": "Bose QuietComfort Ultra Headphones",
+      "brand": "Bose",
+      "category": "headphones",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadcfc",
+      "name": "Television Bravia",
+      "brand": "Television",
+      "category": "television",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadcee",
+      "name": "Television Crystal UHD",
+      "brand": "Television",
+      "category": "television",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6aa06058af8879d815dcb355",
+      "name": "Sony PlayStation 5 Pro Console",
+      "brand": "Sony",
+      "category": "gaming",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aaddf4",
+      "name": "Consoles Nintendo Switch",
+      "brand": "Consoles",
+      "category": "gaming",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6aa06058af8879d815dcb391",
+      "name": "Microsoft Xbox Series X 1TB",
+      "brand": "Microsoft",
+      "category": "gaming",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6aa06057af8879d815dcafb3",
+      "name": "LG UltraGear 27 240Hz OLED (27GR95QE)",
+      "brand": "LG",
+      "category": "television",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6aa06058af8879d815dcb247",
+      "name": "Canon EOS R6 Mark II Mirrorless",
+      "brand": "Canon",
+      "category": "camera",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadda6",
+      "name": "Washing Machines LG",
+      "brand": "Washing Machines",
+      "category": "washing-machine",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadd88",
+      "name": "Air Conditioners Daikin",
+      "brand": "Air Conditioners",
+      "category": "air-conditioner",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6a9904e369652590e0aadbee",
+        "name": "Apple iPhone 17",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "STORED_PRODUCT_IMAGE",
+        "productPageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 56,
+        "sha256": "957de0f14e477b6a82f2e146c4f499f3e8a18df0b0b5737c205731da822bbc3a",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "VALID_IMAGE",
+      "details": {
+        "productId": "6a9904e369652590e0aadbf6",
+        "name": "Apple iPhone SE (3rd Gen)",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "STORED_PRODUCT_IMAGE",
+        "productPageUrl": "https://m.media-amazon.com/images/I/61TOWf11+jL._SL1500_.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/61TOWf11+jL._SL1500_.jpg",
+        "httpStatus": 200,
+        "dimensions": "1500x1500",
+        "fileSizeKB": 54,
+        "sha256": "1b4f9d76c68b4a19dc1b8c77450e8086687555ac73fa3daba3cb40a88947ad5c",
+        "verificationStatus": "EXACT_PRODUCT_SOURCE_VERIFIED"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "category": "smartphone",
+      "primaryState": "404",
+      "details": null
+    }
+  ]
+}

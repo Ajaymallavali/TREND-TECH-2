@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-10T19:11:11.416Z",
+    "phase": "PHASE 2 REFERENCE-BASED PRODUCT INTELLIGENCE ARCHITECTURE",
+    "status": "DESIGN_AND_ARCHITECTURE_ONLY",
+    "isReadOnly": true
+  },
+  "sections": {
+    "1_currentArchitecture": {
+      "frontend": "React + Vite (SPA) with React Router, Tailwind CSS, Lucide Icons, and Recharts",
+      "backend": "Node.js + Express REST API on Port 5001",
+      "database": "MongoDB (Mongoose ODM) on mongodb://127.0.0.1:27017/trend-tech",
+      "cacheAndQueue": "Redis + BullMQ (sync workers)",
+      "coreModels": [
+        "Product",
+        "Marketplace",
+        "MarketplaceProduct",
+        "PriceHistory",
+        "Category",
+        "User",
+        "Wishlist",
+        "Comparison"
+      ]
+    },
+    "2_referenceWorkflowMapping": {
+      "steps": [
+        "HOME (Category & Trending Discovery)",
+        "CATEGORY / SEARCH (Filtered Catalog Browse)",
+        "PRODUCT DISCOVERY (Exact Model Cards)",
+        "PRODUCT DETAIL (Specs & Market Offers)",
+        "PRODUCT / FLASH AI ANALYSIS (7-step Streaming Scores & Pros/Cons)",
+        "VERIFIED MARKETPLACE OFFERS (Multi-Seller Direct Links)",
+        "PRICE COMPARISON (Side-by-Side Matrix)",
+        "BEST PRICE / DEAL (Genuine Price Drop Calculations)",
+        "BETTER OPTIONS (Verified Catalog Alternatives)",
+        "TOP OVERALL RANKINGS (Category Performance & Value Leaderboards)"
+      ]
+    },
+    "3_targetTrendTechWorkflow": {
+      "journey": "USER → SEARCH / CATEGORY → PRODUCT → EXACT PRODUCT IDENTITY → VARIANT → MARKETPLACE OFFERS → CURRENT PRICE → PRICE HISTORY → AI ANALYSIS → ALTERNATIVES → RANKINGS"
+    },
+    "4_productDataHierarchy": {
+      "hierarchy": "CATEGORY → PRODUCT → VARIANT → MARKETPLACE PRODUCT → PRICE OBSERVATION",
+      "schemaEvaluation": "Existing MongoDB models (Product, MarketplaceProduct, PriceHistory) fully support this hierarchy. All schemas preserved without breaking changes."
+    },
+    "5_productIdentityDesign": {
+      "identityKeys": [
+        "brand",
+        "name",
+        "model",
+        "modelNumber",
+        "category",
+        "variant"
+      ],
+      "matchingRules": "Boundary-checked token matching via productMatching.service.js prevents false matches between distinct products."
+    },
+    "6_variantStrategy": {
+      "attributes": [
+        "Storage (e.g. 128GB, 256GB, 512GB)",
+        "RAM (e.g. 8GB, 16GB)",
+        "Color",
+        "Screen Size",
+        "Configuration"
+      ],
+      "rule": "Variants are represented distinctly under parent model identity without blurring hardware specs or pricing."
+    },
+    "7_marketplaceStrategy": {
+      "activeRetailers": [
+        "Amazon India",
+        "Flipkart",
+        "Croma",
+        "Reliance Digital",
+        "Vijay Sales",
+        "Tata Neu",
+        "Apple Store"
+      ],
+      "amazonAsinStrategy": "Extract canonical /dp/ASIN links from direct store URLs; reject non-canonical search links."
+    },
+    "8_imageStrategy": {
+      "rule": "100% exact model product photography mapped via imagePipeline.service.js. Missing/unverified images render graceful \"Product image unavailable\" UI state via ProductImage.jsx without generic Unsplash stock photos."
+    },
+    "9_priceStrategy": {
+      "rule": "Distinguish currentPrice vs reference originalPrice. Display \"Best Current Price\" when no genuine reference price exists. Zero fake discount multipliers."
+    },
+    "10_priceHistoryStrategy": {
+      "schema": "PriceHistory model indexed by marketplaceProduct + timestamp (-1). Live price updates recorded via sync.service.js."
+    },
+    "11_aiAnalysisArchitecture": {
+      "workflow": "7-step sequential progress animation (aiWorkflow.service.js). Algorithmic scoring breakdown across Performance, Features, Build Quality, Ease of Use, Price Value, and Overall Score (0-100) using verified hardware specs."
+    },
+    "12_betterOptionsArchitecture": {
+      "engine": "Recommends verified catalog products matching category, use case, and price bracket (productMatching.service.js)."
+    },
+    "13_rankingsArchitecture": {
+      "categories": [
+        "Top Overall",
+        "Best Value",
+        "Best Performance",
+        "Best Budget",
+        "Best Camera",
+        "Best Battery"
+      ]
+    },
+    "14_dealsArchitecture": {
+      "rule": "Deals derived from true price drop calculation comparing historical average price vs current lowest offer."
+    },
+    "15_comparisonArchitecture": {
+      "matrix": "Side-by-side spec & offer comparison matrix for 2-4 selected products with direct seller links."
+    },
+    "16_reusableFrontendComponents": [
+      "ProductImage.jsx (Category fallback handling)",
+      "PriceHistoryChart.jsx (Recharts timeline)",
+      "useSavedProducts.js (Localstorage save state)",
+      "ProtectedRoute.jsx (Auth guard)"
+    ],
+    "17_frontendComponentsNeedingChanges": [
+      "HomePage.jsx (Integrate rankings & deals banner)",
+      "SearchPage.jsx (Enforce exact model cards & saved states)",
+      "ProductDetailPage.jsx (Enforce multi-seller direct offer list & spec breakdown)",
+      "ComparePage.jsx (Enhance side-by-side spec comparison)",
+      "AIAnalysisPage.jsx (Enhance 7-step progress & sub-scores UI)"
+    ],
+    "18_backendServicesNeedingChanges": [
+      "product.service.js (Enforce master database primary catalog lookup)",
+      "imagePipeline.service.js (Enforce exact model image registry)",
+      "productMatching.service.js (Enforce boundary-checked identity matching)",
+      "sync.service.js (Real-time price observation tracking)",
+      "aiWorkflow.service.js (Deterministic 7-step progress stream)"
+    ],
+    "19_syntheticLogicToRetire": [
+      "Generic Unsplash image fallback array",
+      "Legacy synthetic price drop multipliers (Math.random() * 1.15)",
+      "Unverified Amazon search query URLs"
+    ],
+    "20_recommendedImplementationOrder": [
+      "Step 1: Reference Data Architecture Upgrade",
+      "Step 2: Safe Real-Data Ingestion Pipeline",
+      "Step 3: Test Benchmark with 5 Core Commercial Products",
+      "Step 4: Exact Image Mapping & Fallback UI",
+      "Step 5: Marketplace URL & Amazon ASIN Canonicalization",
+      "Step 6: Real Pricing & Seller Availability Verification",
+      "Step 7: Real Price History Tracking",
+      "Step 8: Scale Master Catalog to 250+ Commercial Models",
+      "Step 9: Deals & Comparison Matrix Enhancement",
+      "Step 10: Reference-Style 7-Stage AI Analysis",
+      "Step 11: Value Rankings & Category Filters",
+      "Step 12: Final QA & Verification Suite"
+    ]
+  }
+}

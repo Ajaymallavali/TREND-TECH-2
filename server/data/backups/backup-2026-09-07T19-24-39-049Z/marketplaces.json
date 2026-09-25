@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "6a9f0ede2dd777de0cd271f8",
+    "name": "Amazon India",
+    "code": "amazon_in",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "baseUrl": "https://www.amazon.in",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.740Z",
+    "updatedAt": "2026-09-07T19:22:06.740Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd271f9",
+    "name": "Flipkart",
+    "code": "flipkart",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+    "baseUrl": "https://www.flipkart.com",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.741Z",
+    "updatedAt": "2026-09-07T19:22:06.741Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd271fa",
+    "name": "Croma",
+    "code": "croma",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Bh-logo.svg",
+    "baseUrl": "https://www.croma.com",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.742Z",
+    "updatedAt": "2026-09-07T19:22:06.742Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd271fb",
+    "name": "Reliance Digital",
+    "code": "reliancedigital",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Micro_Center_logo.svg",
+    "baseUrl": "https://www.reliancedigital.in",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.742Z",
+    "updatedAt": "2026-09-07T19:22:06.742Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd271fc",
+    "name": "Vijay Sales",
+    "code": "vijaysales",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Best_Buy_Logo.svg",
+    "baseUrl": "https://www.vijaysales.com",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.742Z",
+    "updatedAt": "2026-09-07T19:22:06.742Z"
+  },
+  {
+    "_id": "6a9f0ede2dd777de0cd271fd",
+    "name": "Tata Neu",
+    "code": "tataneu",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg",
+    "baseUrl": "https://www.tataneu.com",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-09-07T19:22:06.742Z",
+    "updatedAt": "2026-09-07T19:22:06.742Z"
+  }
+]

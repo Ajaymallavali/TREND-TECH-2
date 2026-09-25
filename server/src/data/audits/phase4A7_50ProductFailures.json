@@ -1,0 +1,398 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadbee",
+    "name": "Apple iPhone 17",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf4",
+    "name": "Apple iPhone Plus",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf6",
+    "name": "Apple iPhone SE (3rd Gen)",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf8",
+    "name": "Apple iPhone SE 2022",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfa",
+    "name": "Apple iPhone Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfc",
+    "name": "Apple iPhone Pro Max",
+    "brand": "Apple",
+    "category": "smartphone",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc74",
+    "name": "Laptop MacBook Pro",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc78",
+    "name": "Laptop XPS",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc7a",
+    "name": "Laptop Latitude",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc7c",
+    "name": "Laptop Precision",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc7e",
+    "name": "Laptop Alienware",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc80",
+    "name": "Laptop Vostro",
+    "brand": "Laptop",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc82",
+    "name": "HP Pavilion 15 EG3036TU",
+    "brand": "HP",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc84",
+    "name": "HP Envy x360 2-in-1",
+    "brand": "HP",
+    "category": "laptop",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcee",
+    "name": "Television Crystal UHD",
+    "brand": "Television",
+    "category": "television",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcf0",
+    "name": "Television QLED",
+    "brand": "Television",
+    "category": "television",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcf2",
+    "name": "Television Neo QLED",
+    "brand": "Television",
+    "category": "television",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcf4",
+    "name": "Television OLED",
+    "brand": "Television",
+    "category": "television",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcf6",
+    "name": "Television UHD",
+    "brand": "Television",
+    "category": "television",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddba",
+    "name": "Audio Sony",
+    "brand": "Audio",
+    "category": "headphones",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddbc",
+    "name": "Audio Bose",
+    "brand": "Audio",
+    "category": "headphones",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddbe",
+    "name": "Audio JBL",
+    "brand": "Audio",
+    "category": "headphones",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddc0",
+    "name": "Audio Apple",
+    "brand": "Audio",
+    "category": "headphones",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddc2",
+    "name": "Audio Samsung",
+    "brand": "Audio",
+    "category": "headphones",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddf0",
+    "name": "Consoles PlayStation",
+    "brand": "Consoles",
+    "category": "gaming",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddf2",
+    "name": "Consoles Xbox",
+    "brand": "Consoles",
+    "category": "gaming",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddf4",
+    "name": "Consoles Nintendo Switch",
+    "brand": "Consoles",
+    "category": "gaming",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade02",
+    "name": "Gaming Razer",
+    "brand": "Gaming",
+    "category": "gaming",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade04",
+    "name": "Gaming Logitech G",
+    "brand": "Gaming",
+    "category": "gaming",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd88",
+    "name": "Air Conditioners Daikin",
+    "brand": "Air Conditioners",
+    "category": "air-conditioner",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8a",
+    "name": "Air Conditioners LG",
+    "brand": "Air Conditioners",
+    "category": "air-conditioner",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8c",
+    "name": "Air Conditioners Samsung",
+    "brand": "Air Conditioners",
+    "category": "air-conditioner",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8e",
+    "name": "Air Conditioners Voltas",
+    "brand": "Air Conditioners",
+    "category": "air-conditioner",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd90",
+    "name": "Air Conditioners Blue Star",
+    "brand": "Air Conditioners",
+    "category": "air-conditioner",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade76",
+    "name": "Tops T-shirt",
+    "brand": "Tops",
+    "category": "mens-clothing",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade78",
+    "name": "Tops Shirt",
+    "brand": "Tops",
+    "category": "mens-clothing",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade7c",
+    "name": "Tops Polo T-shirt",
+    "brand": "Tops",
+    "category": "mens-clothing",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade7e",
+    "name": "Tops Sweatshirt",
+    "brand": "Tops",
+    "category": "mens-clothing",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade82",
+    "name": "Tops Formal shirt",
+    "brand": "Tops",
+    "category": "mens-clothing",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a98d181a6bfd56d867752df",
+    "name": "iPhone 17 Pro Max Silicone Case",
+    "brand": "Apple",
+    "category": "accessory",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade6e",
+    "name": "Computer Accessories Power bank",
+    "brand": "Computer Accessories",
+    "category": "accessory",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e369652590e0aade70",
+    "name": "Computer Accessories Laptop stand",
+    "brand": "Computer Accessories",
+    "category": "accessory",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e469652590e0aae03e",
+    "name": "Sports & Fitness Dumbbells",
+    "brand": "Sports & Fitness",
+    "category": "accessory",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  },
+  {
+    "productId": "6a9904e469652590e0aae040",
+    "name": "Sports & Fitness Treadmills",
+    "brand": "Sports & Fitness",
+    "category": "accessory",
+    "finalStatus": "UNRESOLVED",
+    "attemptedCandidates": [],
+    "unresolvedReason": "No candidate URLs found"
+  }
+]

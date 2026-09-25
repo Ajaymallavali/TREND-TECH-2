@@ -1,0 +1,57 @@
+[
+  {
+    "file": "server/src/models/Product.model.js",
+    "role": "Product Schema Definition",
+    "description": "Defines Product model including image, imageStatus, imageSourceUrl, imageSource, imageVerifiedAt"
+  },
+  {
+    "file": "server/src/models/MarketplaceProduct.model.js",
+    "role": "Marketplace Product Schema",
+    "description": "Defines listing url, currentPrice, image, productId"
+  },
+  {
+    "file": "server/src/utils/productDTO.js",
+    "role": "API DTO Formatting",
+    "description": "Formats Product for API responses"
+  },
+  {
+    "file": "server/src/controllers/product.controller.js",
+    "role": "Product API Controller",
+    "description": "Handles product list, details, search, deals endpoints"
+  },
+  {
+    "file": "server/src/services/imagePipeline.service.js",
+    "role": "Legacy Image Pipeline Service",
+    "description": "Contains getExactProductImageDetails, VERIFIED_CDN_MAPPINGS, isGenericStockImage"
+  },
+  {
+    "file": "server/src/services/exactProductImageIdentity.service.js",
+    "role": "Exact Image Identity Service",
+    "description": "Verifies exact brand, model, and device type compatibility"
+  },
+  {
+    "file": "server/src/utils/urlValidator.js",
+    "role": "URL & Identity Validator",
+    "description": "Validates marketplace URLs and product identity matching"
+  },
+  {
+    "file": "server/src/utils/imageValidator.js",
+    "role": "Image Byte Validator",
+    "description": "Validates image magic bytes, dimensions, SHA-256 hash"
+  },
+  {
+    "file": "server/src/utils/categoryMapper.js",
+    "role": "Category Mapper",
+    "description": "Maps product category strings to canonical categories"
+  },
+  {
+    "file": "server/src/data/realVerifiedCatalog.js",
+    "role": "Real Verified Catalog Data",
+    "description": "Static seed data array containing initial product records and images"
+  },
+  {
+    "file": "client/src/components/ProductImage.jsx",
+    "role": "Frontend Image Renderer",
+    "description": "Renders product.image or ImageOff placeholder if missing/error"
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-15T07:33:45.643Z",
+    "project": "TREND-TECH-2",
+    "phase": "FINAL_PRODUCTION_REPAIR",
+    "status": "COMPLETED_SUCCESSFULLY"
+  },
+  "counts": {
+    "productsBefore": 409,
+    "productsAfter": 409,
+    "offersBefore": 765,
+    "offersAfter": 765,
+    "historyBefore": 13335,
+    "historyAfter": 13335,
+    "databaseDeletes": 0,
+    "databaseDrops": 0,
+    "databaseResets": 0
+  },
+  "urls": {
+    "validExactUrls": 560,
+    "invalidUrls": 205,
+    "searchUrlsRejected": 0,
+    "placeholderUrlsCount": 0,
+    "disabledOffers": 205
+  },
+  "images": {
+    "exactImagesCount": 325,
+    "genericImagesCount": 84,
+    "missingImagesCount": 0,
+    "duplicateUnderlyingImages": 165
+  },
+  "dealEngine": {
+    "realListedDiscounts": 151,
+    "realPriceDrops": 59,
+    "insufficientHistoryCount": 175
+  },
+  "categoryCoverage": {
+    "smartphone": {
+      "productCount": 54,
+      "verifiedOfferCount": 92,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "laptop": {
+      "productCount": 41,
+      "verifiedOfferCount": 59,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "tablet": {
+      "productCount": 22,
+      "verifiedOfferCount": 38,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "television": {
+      "productCount": 32,
+      "verifiedOfferCount": 44,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "smartwatch": {
+      "productCount": 25,
+      "verifiedOfferCount": 36,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "headphones": {
+      "productCount": 27,
+      "verifiedOfferCount": 38,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "earbuds": {
+      "productCount": 15,
+      "verifiedOfferCount": 16,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "monitor": {
+      "productCount": 26,
+      "verifiedOfferCount": 36,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "camera": {
+      "productCount": 22,
+      "verifiedOfferCount": 30,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "gaming": {
+      "productCount": 20,
+      "verifiedOfferCount": 34,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "air-conditioner": {
+      "productCount": 5,
+      "verifiedOfferCount": 6,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "washing-machine": {
+      "productCount": 4,
+      "verifiedOfferCount": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "refrigerator": {
+      "productCount": 5,
+      "verifiedOfferCount": 5,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "shoes": {
+      "productCount": 15,
+      "verifiedOfferCount": 19,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "mens-clothing": {
+      "productCount": 15,
+      "verifiedOfferCount": 17,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "womens-clothing": {
+      "productCount": 14,
+      "verifiedOfferCount": 14,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "kids": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "status": "MISSING_CATEGORY"
+    },
+    "ethnic": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "status": "MISSING_CATEGORY"
+    },
+    "sports-fitness": {
+      "productCount": 0,
+      "verifiedOfferCount": 0,
+      "status": "MISSING_CATEGORY"
+    },
+    "bags": {
+      "productCount": 11,
+      "verifiedOfferCount": 11,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "beauty-personal-care": {
+      "productCount": 14,
+      "verifiedOfferCount": 16,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "accessory": {
+      "productCount": 18,
+      "verifiedOfferCount": 18,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "watches-accessories": {
+      "productCount": 9,
+      "verifiedOfferCount": 12,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "audio": {
+      "productCount": 10,
+      "verifiedOfferCount": 10,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "home-appliances": {
+      "productCount": 4,
+      "verifiedOfferCount": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "fashion-accessories": {
+      "productCount": 1,
+      "verifiedOfferCount": 1,
+      "status": "LOW_COVERAGE_CATEGORY"
+    }
+  }
+}

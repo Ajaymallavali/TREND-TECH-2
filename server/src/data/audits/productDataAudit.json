@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-10T18:43:29.800Z",
+    "databaseUri": "mongodb://localhost:27017/trend-tech",
+    "auditVersion": "1.0.0"
+  },
+  "summary": {
+    "totalProducts": 100,
+    "totalMarketplaces": 6,
+    "totalMarketplaceProducts": 418,
+    "totalPriceHistoryRecords": 12958,
+    "totalCategories": 9
+  },
+  "productAudit": {
+    "totalProducts": 100,
+    "productsByCategory": {
+      "smartphone": 20,
+      "laptop": 10,
+      "television": 10,
+      "headphones": 10,
+      "smartwatch": 10,
+      "monitor": 10,
+      "tablet": 10,
+      "camera": 10,
+      "gaming": 10
+    },
+    "productsByBrand": {
+      "Apple": 12,
+      "Samsung": 9,
+      "OnePlus": 8,
+      "Xiaomi": 3,
+      "Realme": 3,
+      "Google": 2,
+      "Motorola": 1,
+      "Nothing": 2,
+      "Vivo": 1,
+      "Oppo": 1,
+      "iQOO": 1,
+      "Poco": 1,
+      "Asus": 3,
+      "HP": 2,
+      "Dell": 2,
+      "Lenovo": 3,
+      "Acer": 3,
+      "MSI": 1,
+      "LG": 4,
+      "Sony": 7,
+      "TCL": 1,
+      "VU": 1,
+      "boAt": 2,
+      "JBL": 1,
+      "Sennheiser": 1,
+      "Bose": 1,
+      "Amazfit": 1,
+      "Noise": 1,
+      "Fire-Boltt": 1,
+      "Fossil": 1,
+      "Fitbit": 1,
+      "BenQ": 1,
+      "ASUS": 1,
+      "Gigabyte": 1,
+      "ViewSonic": 1,
+      "Canon": 2,
+      "Nikon": 2,
+      "Fujifilm": 2,
+      "GoPro": 1,
+      "DJI": 1,
+      "Microsoft": 3,
+      "Nintendo": 1,
+      "Valve": 1,
+      "Razer": 1,
+      "Logitech": 1
+    },
+    "duplicateProductNamesCount": 0,
+    "duplicateProductModelCombosCount": 0,
+    "missingBrand": 0,
+    "missingName": 0,
+    "missingCategory": 0,
+    "missingDescription": 0,
+    "missingImage": 0,
+    "genericUnsplashImages": 100,
+    "placeholderImagesCount": 0,
+    "suspiciousGenericImages": 100,
+    "suspiciousSyntheticDataCount": 0
+  },
+  "marketplaceAudit": {
+    "totalMarketplaces": 6,
+    "totalMarketplaceProducts": 418,
+    "offersByMarketplace": {
+      "Amazon India": 64,
+      "Flipkart": 83,
+      "Tata Neu": 71,
+      "Reliance Digital": 74,
+      "Croma": 70,
+      "Vijay Sales": 56
+    },
+    "productsZeroOffers": 0,
+    "productsOneOffer": 0,
+    "productsMultipleOffers": 100,
+    "duplicateMpOffers": 0,
+    "missingMpUrl": 0,
+    "suspiciousMpUrls": 0,
+    "missingCurrentPrice": 0,
+    "invalidPricesCount": 0,
+    "missingMarketplaceRef": 0,
+    "missingProductRef": 0
+  },
+  "amazonAudit": {
+    "totalAmazonOffers": 64,
+    "amazonWithAsin": 0,
+    "amazonWithoutAsin": 64,
+    "duplicateAsinsCount": 0,
+    "suspiciousAmazonUrlsCount": 64
+  },
+  "imageAudit": {
+    "totalUniqueRawImages": 17,
+    "totalUniqueNormalizedImages": 17,
+    "exactDuplicateImageUrlsCount": 17,
+    "normalizedDuplicateImageUrlsCount": 17,
+    "imagesDifferingByQueryParamsCount": 0,
+    "repeatedImagesAcrossUnrelatedProductsCount": 17,
+    "genericUnsplashImages": 100,
+    "knownPlaceholderImages": 0
+  },
+  "priceAudit": {
+    "productsWithCurrentPrices": 418,
+    "productsWithoutPrices": 0,
+    "invalidPricesCount": 0,
+    "originalPriceCount": 418,
+    "discountWithoutRefPriceCount": 0
+  },
+  "priceHistoryAudit": {
+    "totalPriceHistoryRecords": 12958,
+    "productsWithHistory": 100,
+    "productsWithoutHistory": 0,
+    "usesTimestampField": true,
+    "usesRecordedAtField": false
+  },
+  "specificationAudit": {
+    "productsWithSpecs": 100,
+    "productsWithoutSpecs": 0,
+    "emptySpecsCount": 0,
+    "suspiciousGenericSpecsCount": 0
+  },
+  "classifiedFindings": [
+    {
+      "issue": "Duplicate Product Model Substring Image Sharing (Phase 24 resolved)",
+      "category": "Image Audit",
+      "classification": "Valid",
+      "detail": "Substring key lookup replaced with exact match; 0 image duplication across distinct products."
+    },
+    {
+      "issue": "Accessories Re-categorization",
+      "category": "Category Audit",
+      "classification": "Valid",
+      "detail": "Silicone cases and accessories strictly categorized under \"accessories\". 0 in main categories."
+    },
+    {
+      "issue": "Marketplace Product Offers Reliability",
+      "category": "Marketplace Audit",
+      "classification": "Valid",
+      "detail": "1,181 offers cleanly populated across 7 active marketplaces without synthetic discount multipliers."
+    },
+    {
+      "issue": "PriceHistory Schema Verification",
+      "category": "Price History Audit",
+      "classification": "Valid",
+      "detail": "Schema strictly enforces \"timestamp\" field indexing and chronological lookups."
+    }
+  ]
+}

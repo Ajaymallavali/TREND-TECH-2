@@ -1,0 +1,98 @@
+{
+  "header": "PHASE 4A.6 DUPLICATE CONFLICT + RECOVERY VALIDATION REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:14:44.829Z",
+  "stats": {
+    "productsAttempted": 13,
+    "recovered": 8,
+    "unresolved": 5,
+    "identityMismatches": 0,
+    "duplicateConflicts": 2,
+    "sameProductDuplicates": 0,
+    "crossProductConflicts": 2,
+    "multiSourceSameProduct": 0,
+    "falsePositives": 0,
+    "verifiedExactRecoveredImages": 8
+  },
+  "invariantCheck": {
+    "sum": 13,
+    "expected": 13,
+    "result": "PASS"
+  },
+  "duplicateConflicts": [
+    {
+      "conflictId": "CONF-001",
+      "type": "CROSS_PRODUCT_CONFLICT",
+      "productId": "6aa06057af8879d815dcafb3",
+      "productName": "LG UltraGear 27 240Hz OLED (27GR95QE)",
+      "brand": "LG",
+      "category": "television",
+      "collidingWithProductId": "6a9904e369652590e0aadc76",
+      "collidingWithProductName": "Dell Inspiron 15 3520",
+      "collidingBrand": "Dell",
+      "collidingCategory": "laptop",
+      "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "resolution": "REJECTED_CANDIDATE_CROSS_PRODUCT_COLLISION",
+      "reason": "Image hash matches Dell laptop image. Cross-category collision between monitor/TV and laptop."
+    },
+    {
+      "conflictId": "CONF-002",
+      "type": "CROSS_PRODUCT_CONFLICT",
+      "productId": "6aa06058af8879d815dcb247",
+      "productName": "Canon EOS R6 Mark II Mirrorless",
+      "brand": "Canon",
+      "category": "camera",
+      "collidingWithProductId": "6a9904e369652590e0aadcfc",
+      "collidingWithProductName": "Television Bravia",
+      "collidingBrand": "Television",
+      "collidingCategory": "television",
+      "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "resolution": "REJECTED_CANDIDATE_CROSS_PRODUCT_COLLISION",
+      "reason": "Image hash matches Sony Bravia TV image. Cross-category collision between camera and television."
+    }
+  ],
+  "unresolvedProducts": [
+    {
+      "productId": "6a9904e369652590e0aadcee",
+      "name": "Television Crystal UHD",
+      "brand": "Television",
+      "category": "television",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "reason": "NO_EXACT_SOURCE_IMAGE_AVAILABLE"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafb3",
+      "name": "LG UltraGear 27 240Hz OLED (27GR95QE)",
+      "brand": "LG",
+      "category": "television",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "reason": "CROSS_PRODUCT_SHA256_COLLISION"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb247",
+      "name": "Canon EOS R6 Mark II Mirrorless",
+      "brand": "Canon",
+      "category": "camera",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "reason": "CROSS_PRODUCT_SHA256_COLLISION"
+    },
+    {
+      "productId": "6a9904e369652590e0aadda6",
+      "name": "Washing Machines LG",
+      "brand": "Washing Machines",
+      "category": "washing-machine",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "reason": "NO_EXACT_SOURCE_IMAGE_AVAILABLE"
+    },
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "reason": "NO_EXACT_SOURCE_IMAGE_AVAILABLE"
+    }
+  ]
+}

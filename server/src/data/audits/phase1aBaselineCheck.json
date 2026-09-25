@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-22T06:37:25.835Z",
+  "expected": {
+    "products": 867,
+    "marketplaceproducts": 1181,
+    "marketplaces": 7,
+    "pricehistories": 559
+  },
+  "actual": {
+    "products": 867,
+    "marketplaceproducts": 1181,
+    "marketplaces": 7,
+    "pricehistories": 559
+  },
+  "match": true
+}

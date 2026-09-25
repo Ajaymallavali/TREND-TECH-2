@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-23T16:35:53.723Z",
+  "totalProducts": 409,
+  "liveVerifiedProducts": 0,
+  "legacySyntheticProducts": 409,
+  "unverifiedProducts": 0,
+  "totalImages": 409,
+  "missingImages": 0,
+  "uniqueImageHashes": 0,
+  "duplicateImageHashes": 0,
+  "imageProductMismatches": 0,
+  "genericImages": 51,
+  "unsplashImages": 84,
+  "amazonImages": 274,
+  "otherExternalImages": 51,
+  "imageProvenanceValid": 0,
+  "imageProvenanceInvalid": 409
+}

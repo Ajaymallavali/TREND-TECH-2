@@ -1,0 +1,24 @@
+{
+  "name": "trend-tech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TREND-TECH \u2014 a shopping intelligence and price-comparison platform (MERN)",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npx concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "node server/src/server.js",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "install:all": "npm install",
+    "test:server": "npm run test --workspace=server",
+    "test:client": "npm run test --workspace=client",
+    "seed:verified": "npm run seed:verified --workspace=server",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "lint": "npm run lint --workspace=server && npm run lint --workspace=client",
+    "build": "npm run build --workspace=client"
+  }
+}

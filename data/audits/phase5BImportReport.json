@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-10T20:27:46.710Z",
+    "importedCount": 5,
+    "destructiveOperations": false
+  },
+  "counts": {
+    "products": {
+      "before": 105,
+      "created": 2,
+      "updated": 3,
+      "after": 107
+    },
+    "offers": {
+      "before": 424,
+      "created": 2,
+      "updated": 3,
+      "after": 426
+    },
+    "priceHistory": {
+      "before": 12975,
+      "created": 5,
+      "after": 12980
+    }
+  },
+  "importedProducts": [
+    {
+      "productId": "6aa31276a0a376d6c8c0fb67",
+      "offerId": "6aa31276a0a376d6c8c0fb6a",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "asin": "B0DGJ9RCHM",
+      "canonicalUrl": "https://www.amazon.in/dp/B0DGJ9RCHM",
+      "currentPrice": 144900,
+      "imageUrl": "https://m.media-amazon.com/images/I/71J1x0G0P+L._SL1500_.jpg",
+      "imageValidationState": "VERIFIED_EXACT",
+      "specificationCount": 3,
+      "isProductNew": false,
+      "isOfferNew": false
+    },
+    {
+      "productId": "6aa31276a0a376d6c8c0fb6f",
+      "offerId": "6aa31276a0a376d6c8c0fb72",
+      "name": "Apple MacBook Pro M3 Max 16-inch",
+      "brand": "Apple",
+      "category": "laptop",
+      "asin": "B0CM5BGB15",
+      "canonicalUrl": "https://www.amazon.in/dp/B0CM5BGB15",
+      "currentPrice": 349900,
+      "imageUrl": "https://m.media-amazon.com/images/I/61bX2AoG2bL._SL1500_.jpg",
+      "imageValidationState": "VERIFIED_EXACT",
+      "specificationCount": 3,
+      "isProductNew": false,
+      "isOfferNew": false
+    },
+    {
+      "productId": "6aa312c243f2167b5b3b2805",
+      "offerId": "6aa312c243f2167b5b3b2808",
+      "name": "Sony Bravia XR 65-inch OLED TV",
+      "brand": "Sony",
+      "category": "television",
+      "asin": "B0C6T7T4J9",
+      "canonicalUrl": "https://www.amazon.in/dp/B0C6T7T4J9",
+      "currentPrice": 249990,
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "imageValidationState": "VERIFIED_EXACT",
+      "specificationCount": 3,
+      "isProductNew": true,
+      "isOfferNew": true
+    },
+    {
+      "productId": "6aa312c243f2167b5b3b280d",
+      "offerId": "6aa312c243f2167b5b3b2810",
+      "name": "Bose QuietComfort Ultra Headphones",
+      "brand": "Bose",
+      "category": "headphones",
+      "asin": "B0CD2FPX1G",
+      "canonicalUrl": "https://www.amazon.in/dp/B0CD2FPX1G",
+      "currentPrice": 35900,
+      "imageUrl": "https://m.media-amazon.com/images/I/51w9aD4+k8L._SL1500_.jpg",
+      "imageValidationState": "VERIFIED_EXACT",
+      "specificationCount": 2,
+      "isProductNew": true,
+      "isOfferNew": true
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27259",
+      "offerId": "6a9f0ee02dd777de0cd2a476",
+      "name": "Sony PlayStation 5 Console",
+      "brand": "Sony",
+      "category": "gaming",
+      "asin": "B0CY5NTH9H",
+      "canonicalUrl": "https://www.amazon.in/dp/B0CY5NTH9H",
+      "currentPrice": 54990,
+      "imageUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+      "imageValidationState": "VERIFIED_EXACT",
+      "specificationCount": 2,
+      "isProductNew": false,
+      "isOfferNew": false
+    }
+  ]
+}

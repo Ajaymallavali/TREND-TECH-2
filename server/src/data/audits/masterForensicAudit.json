@@ -1,0 +1,58 @@
+{
+  "database": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "marketplaces": 7,
+    "priceHistory": 559
+  },
+  "productSource": {
+    "real": 0,
+    "synthetic": 867,
+    "unknown": 0
+  },
+  "marketplaceSource": {
+    "real": 0,
+    "synthetic": 1181,
+    "unknown": 0
+  },
+  "amazonAsinSource": {
+    "realApi": 0,
+    "static": 0,
+    "generated": 625,
+    "unknown": 556
+  },
+  "imageSource": {
+    "real": 0,
+    "static": 58,
+    "unsplash": 809,
+    "generated": 0,
+    "unknown": 0
+  },
+  "urlSource": {
+    "realDirect": 0,
+    "search": 305,
+    "generated": 876,
+    "unknown": 0
+  },
+  "priceSource": {
+    "real": 0,
+    "static": 1181,
+    "generated": 0,
+    "unknown": 0
+  },
+  "categorySource": {
+    "real": 0,
+    "static": 867,
+    "generated": 0,
+    "unknown": 0
+  },
+  "identityCollisions": {
+    "asinCollisions": 0,
+    "urlCollisions": 0,
+    "imageCollisions": 15,
+    "skuCollisions": 0
+  },
+  "rootCause": "Seed scripts (seedAllProducts.js) dynamically constructed synthetic Amazon URLs by concatenating '/dp/B0' with MongoDB Hex Product ObjectIDs. The catalog was built from hardcoded static templates rather than live API calls.",
+  "repairability": "NOT_REPAIRABLE",
+  "recommendedArchitecture": "Execute a clean REAL CATALOG REBUILD using live SerpAPI Amazon Product Search & Official Brand API ingestion directly into MongoDB."
+}

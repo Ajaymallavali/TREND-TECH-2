@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-09-23T16:35:53.725Z",
+  "totalCategories": 23,
+  "categories": {
+    "smartphone": {
+      "total": 54,
+      "legacy": 54,
+      "live": 0
+    },
+    "laptop": {
+      "total": 41,
+      "legacy": 41,
+      "live": 0
+    },
+    "television": {
+      "total": 32,
+      "legacy": 32,
+      "live": 0
+    },
+    "headphones": {
+      "total": 27,
+      "legacy": 27,
+      "live": 0
+    },
+    "smartwatch": {
+      "total": 25,
+      "legacy": 25,
+      "live": 0
+    },
+    "monitor": {
+      "total": 26,
+      "legacy": 26,
+      "live": 0
+    },
+    "tablet": {
+      "total": 22,
+      "legacy": 22,
+      "live": 0
+    },
+    "camera": {
+      "total": 22,
+      "legacy": 22,
+      "live": 0
+    },
+    "gaming": {
+      "total": 20,
+      "legacy": 20,
+      "live": 0
+    },
+    "shoes": {
+      "total": 15,
+      "legacy": 15,
+      "live": 0
+    },
+    "earbuds": {
+      "total": 15,
+      "legacy": 15,
+      "live": 0
+    },
+    "accessory": {
+      "total": 18,
+      "legacy": 18,
+      "live": 0
+    },
+    "mens-clothing": {
+      "total": 15,
+      "legacy": 15,
+      "live": 0
+    },
+    "womens-clothing": {
+      "total": 14,
+      "legacy": 14,
+      "live": 0
+    },
+    "bags": {
+      "total": 11,
+      "legacy": 11,
+      "live": 0
+    },
+    "watches-accessories": {
+      "total": 9,
+      "legacy": 9,
+      "live": 0
+    },
+    "beauty-personal-care": {
+      "total": 14,
+      "legacy": 14,
+      "live": 0
+    },
+    "air-conditioner": {
+      "total": 5,
+      "legacy": 5,
+      "live": 0
+    },
+    "washing-machine": {
+      "total": 4,
+      "legacy": 4,
+      "live": 0
+    },
+    "refrigerator": {
+      "total": 5,
+      "legacy": 5,
+      "live": 0
+    },
+    "audio": {
+      "total": 10,
+      "legacy": 10,
+      "live": 0
+    },
+    "home-appliances": {
+      "total": 4,
+      "legacy": 4,
+      "live": 0
+    },
+    "fashion-accessories": {
+      "total": 1,
+      "legacy": 1,
+      "live": 0
+    }
+  },
+  "wrongCategoryProducts": 0,
+  "missingCategory": 0,
+  "brandCategoryMismatches": 0
+}

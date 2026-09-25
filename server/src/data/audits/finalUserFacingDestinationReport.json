@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-15T17:07:44.949Z",
+  "productsChecked": 409,
+  "offersChecked": 765,
+  "offersRepaired": 1,
+  "offersRemainingUnavailable": 221,
+  "urlFormatValidCount": 561,
+  "actualDestinationVerifiedCount": 0,
+  "providerVerifiedCount": 552,
+  "unverifiableExternalCount": 0,
+  "brokenDestinationCount": 213,
+  "exactProductImageVerifiedCount": 325,
+  "imageUnavailableCount": 84,
+  "searchUrlCount": 0,
+  "wrongProductCount": 11,
+  "dealsDisplayedCount": 210,
+  "dealsSuppressedCount": 199,
+  "priceHistoryUnchangedCount": 13335,
+  "databaseBefore": {
+    "products": 409,
+    "offers": 765,
+    "histories": 13335
+  },
+  "databaseAfter": {
+    "products": 409,
+    "offers": 765,
+    "histories": 13335
+  }
+}

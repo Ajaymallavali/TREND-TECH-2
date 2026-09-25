@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-09-22T07:34:54.641Z",
+  "summary": {
+    "productsScanned": 867,
+    "imagesUpdated": 22,
+    "imagesSkipped": 0,
+    "duplicateConflicts": 8,
+    "errors": 0,
+    "verifiedExactImagesAfterWrite": 58,
+    "missingImagesAfterWrite": 589,
+    "genericImagesRemaining": 220
+  },
+  "updatedProducts": [
+    {
+      "productId": "6a9904e369652590e0aadcfe",
+      "name": "Television Bravia XR",
+      "brand": "Television",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca5ef",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca604",
+      "name": "Samsung Galaxy S24+",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca619",
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "name": "Samsung Galaxy S23 FE",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61VfL-WzBfL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca694",
+      "name": "OnePlus 12",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca766",
+      "name": "Xiaomi 14 Ultra",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71N-W7C46OL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca790",
+      "name": "Xiaomi Redmi Note 13 Pro+ 5G",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06056af8879d815dca7a5",
+      "name": "Xiaomi Redmi Note 13 5G",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71lD7fSl0wL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcabb7",
+      "name": "Sony 65\" Bravia 9 QLED Mini-LED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcabc6",
+      "name": "Sony 55\" Bravia XR A90L OLED",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcabd5",
+      "name": "Sony 65\" Bravia 3 4K LED Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcac98",
+      "name": "Sony 75\" Bravia 8 OLED 4K TV",
+      "brand": "Sony",
+      "category": "television",
+      "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcacb6",
+      "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "brand": "Sony",
+      "category": "headphones",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06057af8879d815dcad1f",
+      "name": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb175",
+      "name": "Xiaomi Pad 6 Max 14",
+      "brand": "Xiaomi",
+      "category": "tablet",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb184",
+      "name": "Xiaomi Pad 6 11-inch",
+      "brand": "Xiaomi",
+      "category": "tablet",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb355",
+      "name": "Sony PlayStation 5 Pro Console",
+      "brand": "Sony",
+      "category": "gaming",
+      "imageUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+      "verificationSource": "POST_WRITE_DB_REQUERY",
+      "verificationResult": "PASSED_VERIFICATION"
+    }
+  ]
+}

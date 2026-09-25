@@ -1,0 +1,250 @@
+{
+  "header": "TREND-TECH-2 MASTER PRODUCT IMAGE FORENSIC REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T18:19:42.759Z",
+  "inventorySummary": {
+    "totalProducts": 867,
+    "totalMarketplaceListings": 1181,
+    "totalPriceHistoryRecords": 559,
+    "totalUniqueHashes": 9,
+    "duplicateHashesCount": 9
+  },
+  "verificationLevels": {
+    "level0_urlOnly": 0,
+    "level1_downloadedImage": 0,
+    "level2_sourcePageKnown": 23,
+    "level3_productTitleMatched": 0,
+    "level4_brandAndModelMatched": 0,
+    "level5_asinProductIdentityMatched": 7,
+    "level6_provenExactRelationship": 0,
+    "semanticIdentityNotVerifiedCount": 30
+  },
+  "eightProductTraces": [
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "dbProductImage": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "sha256Hash": "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": true,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": true,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Apple iPhone Air mapped to SHA-256 dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59 via OFFICIAL_MANUFACTURER_PAGE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "dbProductImage": "https://m.media-amazon.com/images/I/71YdE4j2fFL._SL1500_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "sha256Hash": "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": true,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": true,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": true,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Apple iPhone 16e mapped to SHA-256 dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59 via VERIFIED_CDN_MAPPING"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc04",
+      "name": "Samsung Galaxy A55 5G",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "dbProductImage": "https://m.media-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+      "sha256Hash": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": false,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Samsung Galaxy A55 5G mapped to SHA-256 3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa via VERIFIED_CDN_MAPPING"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "name": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "dbProductImage": "https://m.media-amazon.com/images/I/61L2lG4cWBL._SL1500_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "sha256Hash": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": true,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Dell Inspiron 15 3520 mapped to SHA-256 9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36 via OFFICIAL_MANUFACTURER_PAGE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadcfc",
+      "name": "Television Bravia",
+      "brand": "Television",
+      "category": "television",
+      "dbProductImage": "https://m.media-amazon.com/images/I/81wxjP0B7RL._SX679_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "sha256Hash": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": false,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Television Bravia mapped to SHA-256 043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826 via OFFICIAL_MANUFACTURER_PAGE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "dbProductImage": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "resolvedImageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "sha256Hash": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "status": "VERIFIED_EXACT",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": true,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Apple MacBook Air M3 (13-inch) mapped to SHA-256 9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36 via VERIFIED_CDN_MAPPING"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0df",
+      "name": "Apple iPad Air 11-inch M2",
+      "brand": "Apple",
+      "category": "tablet",
+      "dbProductImage": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=3",
+      "resolvedImageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=3",
+      "sha256Hash": "N/A",
+      "status": "UNRESOLVED",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": false,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Apple iPad Air 11-inch M2 mapped to SHA-256 N/A via NO_SOURCE"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb0c1",
+      "name": "Apple iPad Pro 13-inch M4",
+      "brand": "Apple",
+      "category": "tablet",
+      "dbProductImage": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=1",
+      "resolvedImageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=1",
+      "sha256Hash": "N/A",
+      "status": "UNRESOLVED",
+      "questions": {
+        "A_wasDbImageWrong": false,
+        "B_wasBackendReplacing": true,
+        "C_wasApiResponseWrong": false,
+        "D_wasFrontendReplacing": false,
+        "E_wasOriginalSourceMappingWrong": false,
+        "F_wasAsinMappingWrong": false,
+        "G_wasImageDownloadedFromWrongSource": false,
+        "H_wasImageHashAttachedToWrongProduct": false,
+        "I_wasGenericStaticMappingInvolved": false,
+        "J_wasCdnMappingInvolved": true
+      },
+      "evidence": "Product Apple iPad Pro 13-inch M4 mapped to SHA-256 N/A via NO_SOURCE"
+    }
+  ],
+  "unverifiedSourceClaimsCount": 30,
+  "rootCausesRanking": [
+    {
+      "rank": 1,
+      "code": "LEGACY_STATIC_IMAGE_MAPPINGS",
+      "count": 23,
+      "description": "VERIFIED_CDN_MAPPINGS in imagePipeline.service.js mapped product names to Amazon CDN image hashes without validating model/variant specificity."
+    },
+    {
+      "rank": 2,
+      "code": "SOURCE_RELATIONSHIP_NOT_VERIFIED",
+      "count": 17,
+      "description": "Image URLs from Amazon CDN were assigned under OFFICIAL_MANUFACTURER_PAGE claims without proving origin relationship."
+    },
+    {
+      "rank": 3,
+      "code": "IMAGE_HASH_DUPLICATION",
+      "count": 2,
+      "description": "Same image SHA-256 byte payload (e.g. 71vFKBpKakL._SL1500_.jpg) was accepted for both iPhone Air and iPhone 16e."
+    },
+    {
+      "rank": 4,
+      "code": "API_IMAGE_OVERRIDE",
+      "count": 867,
+      "description": "Product DTO and controllers invoked getExactProductImageDetails(), replacing database Product.image at request time."
+    },
+    {
+      "rank": 5,
+      "code": "CROSS_PRODUCT_CATEGORY_COLLISION",
+      "count": 2,
+      "description": "SHA-256 hash collisions between Sony Headphones and Bravia TV / PS5 Pro and AirPods Pro 2."
+    }
+  ],
+  "databaseIntegrity": {
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "marketplaceProductsBefore": 1181,
+    "marketplaceProductsAfter": 1181,
+    "priceHistoryBefore": 559,
+    "priceHistoryAfter": 559,
+    "databaseModified": false
+  }
+}

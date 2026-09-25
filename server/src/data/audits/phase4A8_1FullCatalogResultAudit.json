@@ -1,0 +1,663 @@
+{
+  "header": "PHASE 4A.8.1 FULL CATALOG RESULT AUDIT REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:34:03.679Z",
+  "productAccounting": {
+    "productsProcessed": 867,
+    "verifiedExactImages": 30,
+    "unresolvedProducts": 835,
+    "identityMismatches": 0,
+    "duplicateConflicts": 2,
+    "exactImageCoveragePct": "3.5%",
+    "unresolvedCoveragePct": "96.3%"
+  },
+  "candidateAccounting": {
+    "candidateAttempts": 41,
+    "candidateSourcesFound": 44,
+    "candidateDownloadAttempts": 41,
+    "candidateDownloadSuccess": 32,
+    "candidateValid": 30,
+    "candidateInvalid": 11,
+    "candidate404": 9,
+    "candidate403": 0,
+    "candidate429": 0,
+    "candidate500": 0,
+    "candidateOtherErrors": 0,
+    "candidateDuplicate": 2,
+    "candidateIdentityMismatch": 0
+  },
+  "sourcePerformance": {
+    "official": {
+      "attempted": 24,
+      "successful": 24,
+      "failed": 0,
+      "verifiedExact": 24
+    },
+    "amazon": {
+      "attempted": 17,
+      "successful": 8,
+      "failed": 9,
+      "verifiedExact": 6
+    },
+    "flipkart": {
+      "attempted": 0,
+      "successful": 0,
+      "failed": 0,
+      "verifiedExact": 0
+    },
+    "myntra": {
+      "attempted": 0,
+      "successful": 0,
+      "failed": 0,
+      "verifiedExact": 0
+    },
+    "ajio": {
+      "attempted": 0,
+      "successful": 0,
+      "failed": 0,
+      "verifiedExact": 0
+    },
+    "nykaa": {
+      "attempted": 0,
+      "successful": 0,
+      "failed": 0,
+      "verifiedExact": 0
+    },
+    "other": {
+      "attempted": 0,
+      "successful": 0,
+      "failed": 0,
+      "verifiedExact": 0
+    }
+  },
+  "failureReasonBreakdown": {
+    "NO_EXACT_SOURCE": 827,
+    "IMAGE_404": 8,
+    "IMAGE_UNAVAILABLE": 0,
+    "IDENTITY_UNVERIFIED": 0,
+    "DUPLICATE_CONFLICT": 2,
+    "HTTP_ERROR": 0,
+    "OTHER": 0
+  },
+  "localFilesAudit": {
+    "expectedFiles": 30,
+    "downloadedFiles": 30,
+    "missingFiles": 0,
+    "unreadableFiles": 0
+  },
+  "duplicateConflicts": [
+    {
+      "productId": "6aa06057af8879d815dcacb6",
+      "productName": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "brand": "Sony",
+      "category": "headphones",
+      "collidingProductId": "6a9904e369652590e0aadcfc",
+      "collidingProductName": "Television Bravia",
+      "collidingCategory": "television",
+      "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "reason": "CROSS_PRODUCT_CONFLICT",
+      "conflictClassification": "CROSS_PRODUCT_CONFLICT"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb355",
+      "productName": "Sony PlayStation 5 Pro Console",
+      "brand": "Sony",
+      "category": "gaming",
+      "collidingProductId": "6aa06057af8879d815dcad1f",
+      "collidingProductName": "Apple AirPods Pro 2",
+      "collidingCategory": "headphones",
+      "sha256": "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc",
+      "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+      "reason": "CROSS_PRODUCT_CONFLICT",
+      "conflictClassification": "CROSS_PRODUCT_CONFLICT"
+    }
+  ],
+  "exactImageQualityCheck": "30/30 VERIFIED EXAMINED CLEAN (0 EXCEPTIONS)",
+  "categoryCoverage": [
+    {
+      "category": "smartphone",
+      "totalProducts": 338,
+      "verifiedImages": 24,
+      "unresolved": 314,
+      "coveragePct": "7.1%"
+    },
+    {
+      "category": "laptop",
+      "totalProducts": 99,
+      "verifiedImages": 2,
+      "unresolved": 97,
+      "coveragePct": "2.0%"
+    },
+    {
+      "category": "television",
+      "totalProducts": 75,
+      "verifiedImages": 1,
+      "unresolved": 74,
+      "coveragePct": "1.3%"
+    },
+    {
+      "category": "smartwatch",
+      "totalProducts": 65,
+      "verifiedImages": 0,
+      "unresolved": 65,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "mens-clothing",
+      "totalProducts": 45,
+      "verifiedImages": 0,
+      "unresolved": 45,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "headphones",
+      "totalProducts": 39,
+      "verifiedImages": 1,
+      "unresolved": 38,
+      "coveragePct": "2.6%"
+    },
+    {
+      "category": "camera",
+      "totalProducts": 39,
+      "verifiedImages": 0,
+      "unresolved": 39,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "gaming",
+      "totalProducts": 36,
+      "verifiedImages": 0,
+      "unresolved": 36,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "bags",
+      "totalProducts": 30,
+      "verifiedImages": 0,
+      "unresolved": 30,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "shoes",
+      "totalProducts": 21,
+      "verifiedImages": 0,
+      "unresolved": 21,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "tablet",
+      "totalProducts": 21,
+      "verifiedImages": 2,
+      "unresolved": 19,
+      "coveragePct": "9.5%"
+    },
+    {
+      "category": "air-conditioner",
+      "totalProducts": 15,
+      "verifiedImages": 0,
+      "unresolved": 15,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "monitor",
+      "totalProducts": 13,
+      "verifiedImages": 0,
+      "unresolved": 13,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "washing-machine",
+      "totalProducts": 10,
+      "verifiedImages": 0,
+      "unresolved": 10,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "accessory",
+      "totalProducts": 7,
+      "verifiedImages": 0,
+      "unresolved": 7,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "beauty-personal-care",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "earbuds",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "category": "womens-clothing",
+      "totalProducts": 2,
+      "verifiedImages": 0,
+      "unresolved": 2,
+      "coveragePct": "0.0%"
+    }
+  ],
+  "majorBrandCoverage": [
+    {
+      "brand": "Laptop",
+      "totalProducts": 45,
+      "verifiedImages": 0,
+      "unresolved": 45,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Smartphone",
+      "totalProducts": 43,
+      "verifiedImages": 0,
+      "unresolved": 43,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Smartwatch & Wearables",
+      "totalProducts": 43,
+      "verifiedImages": 0,
+      "unresolved": 43,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Beauty & Personal Care",
+      "totalProducts": 41,
+      "verifiedImages": 0,
+      "unresolved": 41,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Apple",
+      "totalProducts": 37,
+      "verifiedImages": 14,
+      "unresolved": 23,
+      "coveragePct": "37.8%"
+    },
+    {
+      "brand": "Television",
+      "totalProducts": 34,
+      "verifiedImages": 1,
+      "unresolved": 33,
+      "coveragePct": "2.9%"
+    },
+    {
+      "brand": "Computer Accessories",
+      "totalProducts": 34,
+      "verifiedImages": 0,
+      "unresolved": 34,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Samsung",
+      "totalProducts": 30,
+      "verifiedImages": 4,
+      "unresolved": 26,
+      "coveragePct": "13.3%"
+    },
+    {
+      "brand": "Tops",
+      "totalProducts": 30,
+      "verifiedImages": 0,
+      "unresolved": 30,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Audio",
+      "totalProducts": 27,
+      "verifiedImages": 0,
+      "unresolved": 27,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Kids",
+      "totalProducts": 27,
+      "verifiedImages": 0,
+      "unresolved": 27,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Bags & Travel",
+      "totalProducts": 25,
+      "verifiedImages": 0,
+      "unresolved": 25,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Bottoms",
+      "totalProducts": 24,
+      "verifiedImages": 0,
+      "unresolved": 24,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Footwear",
+      "totalProducts": 19,
+      "verifiedImages": 0,
+      "unresolved": 19,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Ethnic",
+      "totalProducts": 19,
+      "verifiedImages": 0,
+      "unresolved": 19,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Accessories",
+      "totalProducts": 18,
+      "verifiedImages": 0,
+      "unresolved": 18,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Cameras",
+      "totalProducts": 17,
+      "verifiedImages": 0,
+      "unresolved": 17,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Girls",
+      "totalProducts": 16,
+      "verifiedImages": 0,
+      "unresolved": 16,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Sony",
+      "totalProducts": 16,
+      "verifiedImages": 0,
+      "unresolved": 16,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Air Conditioners",
+      "totalProducts": 15,
+      "verifiedImages": 0,
+      "unresolved": 15,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "OnePlus",
+      "totalProducts": 14,
+      "verifiedImages": 7,
+      "unresolved": 7,
+      "coveragePct": "50.0%"
+    },
+    {
+      "brand": "Boys",
+      "totalProducts": 14,
+      "verifiedImages": 0,
+      "unresolved": 14,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Gaming",
+      "totalProducts": 13,
+      "verifiedImages": 0,
+      "unresolved": 13,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Sports & Fitness",
+      "totalProducts": 13,
+      "verifiedImages": 0,
+      "unresolved": 13,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "ASUS",
+      "totalProducts": 12,
+      "verifiedImages": 0,
+      "unresolved": 12,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Women",
+      "totalProducts": 12,
+      "verifiedImages": 0,
+      "unresolved": 12,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Dresses",
+      "totalProducts": 11,
+      "verifiedImages": 0,
+      "unresolved": 11,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Dell",
+      "totalProducts": 10,
+      "verifiedImages": 1,
+      "unresolved": 9,
+      "coveragePct": "10.0%"
+    },
+    {
+      "brand": "Lenovo",
+      "totalProducts": 10,
+      "verifiedImages": 0,
+      "unresolved": 10,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Washing Machines",
+      "totalProducts": 10,
+      "verifiedImages": 0,
+      "unresolved": 10,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Desktop",
+      "totalProducts": 9,
+      "verifiedImages": 0,
+      "unresolved": 9,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Men",
+      "totalProducts": 9,
+      "verifiedImages": 0,
+      "unresolved": 9,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Xiaomi",
+      "totalProducts": 9,
+      "verifiedImages": 3,
+      "unresolved": 6,
+      "coveragePct": "33.3%"
+    },
+    {
+      "brand": "Outerwear",
+      "totalProducts": 8,
+      "verifiedImages": 0,
+      "unresolved": 8,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Google",
+      "totalProducts": 8,
+      "verifiedImages": 0,
+      "unresolved": 8,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "LG",
+      "totalProducts": 8,
+      "verifiedImages": 0,
+      "unresolved": 8,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "HP",
+      "totalProducts": 7,
+      "verifiedImages": 0,
+      "unresolved": 7,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Activewear",
+      "totalProducts": 7,
+      "verifiedImages": 0,
+      "unresolved": 7,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Realme",
+      "totalProducts": 7,
+      "verifiedImages": 0,
+      "unresolved": 7,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Foldable Phone",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Apparel",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Nothing",
+      "totalProducts": 6,
+      "verifiedImages": 0,
+      "unresolved": 6,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "MSI",
+      "totalProducts": 5,
+      "verifiedImages": 0,
+      "unresolved": 5,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Microsoft",
+      "totalProducts": 5,
+      "verifiedImages": 0,
+      "unresolved": 5,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Motorola",
+      "totalProducts": 4,
+      "verifiedImages": 0,
+      "unresolved": 4,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "iQOO",
+      "totalProducts": 4,
+      "verifiedImages": 0,
+      "unresolved": 4,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Acer",
+      "totalProducts": 4,
+      "verifiedImages": 0,
+      "unresolved": 4,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Canon",
+      "totalProducts": 4,
+      "verifiedImages": 0,
+      "unresolved": 4,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Consoles",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Vivo",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "TCL",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Panasonic",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Bose",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "JBL",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Garmin",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Amazfit",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Nikon",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    },
+    {
+      "brand": "Fujifilm",
+      "totalProducts": 3,
+      "verifiedImages": 0,
+      "unresolved": 3,
+      "coveragePct": "0.0%"
+    }
+  ],
+  "databaseIntegrity": {
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "marketplaceProductsBefore": 1181,
+    "marketplaceProductsAfter": 1181,
+    "priceHistoryBefore": 559,
+    "priceHistoryAfter": 559,
+    "productImageWrites": 0,
+    "databaseModified": false
+  }
+}

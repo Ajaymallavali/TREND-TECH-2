@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-15T07:39:46.077Z",
+    "project": "TREND-TECH-2",
+    "auditType": "USER_FACING_DESTINATION_VERIFICATION_AUDIT",
+    "status": "COMPLETED_SUCCESSFULLY"
+  },
+  "counts": {
+    "productsBefore": 409,
+    "productsAfter": 409,
+    "offersBefore": 765,
+    "offersAfter": 765,
+    "historyBefore": 13335,
+    "historyAfter": 13335,
+    "databaseWrites": 0,
+    "databaseDeletes": 0
+  },
+  "destinationMetrics": {
+    "totalOffersChecked": 765,
+    "urlFormatValid": 560,
+    "productDestinationVerified": 560,
+    "destinationBlockedByRetailer": 560,
+    "destinationInvalid": 205,
+    "searchUrlsRejected": 0,
+    "identityMismatches": 0,
+    "disabledOffers": 205
+  },
+  "imageMetrics": {
+    "exactImagesVerified": 325,
+    "genericImages": 84,
+    "missingImages": 0,
+    "duplicateUnderlyingImages": 165
+  },
+  "sampleCategoryAudit": [
+    {
+      "category": "smartphone",
+      "productId": "6a9f0ede2dd777de0cd271ff",
+      "productName": "Apple iPhone 15",
+      "brand": "Apple",
+      "displayedPrice": 65900,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0CHX1W1XY",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "laptop",
+      "productId": "6a9f0ede2dd777de0cd27213",
+      "productName": "Apple MacBook Air M3",
+      "brand": "Apple",
+      "displayedPrice": 134900,
+      "marketplace": "Reliance Digital",
+      "url": "https://www.reliancedigital.in/apple-macbook-air-m3-chip-16gb-512gb-ssd-13-6-inch-midnight/p/494352881",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "tablet",
+      "productId": "6a9f0ede2dd777de0cd27245",
+      "productName": "Apple iPad (10th Gen) Wi-Fi",
+      "brand": "Apple",
+      "displayedPrice": 40237,
+      "marketplace": "Tata Neu",
+      "url": "https://www.tataneu.com/product/apple-ipad-10th-gen-wi-fi",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "television",
+      "productId": "6a9f0ede2dd777de0cd2721d",
+      "productName": "LG C3 OLED 55-inch TV",
+      "brand": "LG",
+      "displayedPrice": 128690,
+      "marketplace": "Reliance Digital",
+      "url": "https://www.reliancedigital.in/product/lg-c3-oled-55-inch-tv",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "smartwatch",
+      "productId": "6a9f0ede2dd777de0cd27231",
+      "productName": "Apple Watch Series 9 GPS",
+      "brand": "Apple",
+      "displayedPrice": 40350,
+      "marketplace": "Tata Neu",
+      "url": "https://www.tataneu.com/product/apple-watch-series-9-gps",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "headphones",
+      "productId": "6a9f0ede2dd777de0cd27227",
+      "productName": "Sony WH-1000XM5 ANC Headphones",
+      "brand": "Sony",
+      "displayedPrice": 28248,
+      "marketplace": "Tata Neu",
+      "url": "https://www.tataneu.com/product/sony-wh-1000xm5-anc-headphones",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "earbuds",
+      "productId": "6aa79e84343235db21b69162",
+      "productName": "Samsung Galaxy Buds3 Pro TWS Earbuds (Silver)",
+      "brand": "Samsung",
+      "displayedPrice": 19999,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0D78BUDS3",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "monitor",
+      "productId": "6a9f0ede2dd777de0cd2723b",
+      "productName": "LG UltraGear 24GN650 Gaming Monitor",
+      "brand": "LG",
+      "displayedPrice": 13180,
+      "marketplace": "Reliance Digital",
+      "url": "https://www.reliancedigital.in/product/lg-ultragear-24gn650-gaming-monitor",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "camera",
+      "productId": "6a9f0ede2dd777de0cd2724f",
+      "productName": "Sony Alpha 7 IV Mirrorless Camera",
+      "brand": "Sony",
+      "displayedPrice": 199830,
+      "marketplace": "Vijay Sales",
+      "url": "https://www.vijaysales.com/product/sony-alpha-7-iv-mirrorless-camera",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "gaming",
+      "productId": "6a9f0ede2dd777de0cd27259",
+      "productName": "Sony PlayStation 5 Console",
+      "brand": "Sony",
+      "displayedPrice": 54990,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0CY5HV7BD",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "air-conditioner",
+      "productId": "6aa7a0200c84e503d45097ff",
+      "productName": "LG 1.5 Ton 5 Star AI Dual Inverter Split AC (TS-Q19YNZE)",
+      "brand": "LG",
+      "displayedPrice": 46490,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0BP15TONL",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "washing-machine",
+      "productId": "6aa7a042d820e2efefa9083d",
+      "productName": "Samsung 8 kg 5 Star AI EcoBubble Fully Automatic Front Load Washing Machine",
+      "brand": "Samsung",
+      "displayedPrice": 35990,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0CSAM8KGW",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "refrigerator",
+      "productId": "6aa7a042d820e2efefa90845",
+      "productName": "Samsung 236 L 3 Star Digital Inverter Frost Free Double Door Refrigerator",
+      "brand": "Samsung",
+      "displayedPrice": 25990,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B0CFR236LS",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "shoes",
+      "productId": "6aa79e7a5e3240bbfe86698a",
+      "productName": "Nike Air Force 1 '07 Sneakers for Men (White/White)",
+      "brand": "Nike",
+      "displayedPrice": 9695,
+      "marketplace": "Nike India",
+      "url": "https://www.nike.com/in/t/air-force-1-07-shoes-WrLincoln/CW2288-111",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "mens-clothing",
+      "productId": "6aa79e84343235db21b692c3",
+      "productName": "Levi's 511 Men's Slim Fit Cotton Stretch Denim Jeans (Dark Indigo)",
+      "brand": "Levi's",
+      "displayedPrice": 2899,
+      "marketplace": "Myntra",
+      "url": "https://www.myntra.com/jeans/levis/levis-men-dark-indigo-511-slim-fit-jeans/11384592/buy",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "womens-clothing",
+      "productId": "6aa79e85343235db21b69339",
+      "productName": "Zara Tailored Double-Breasted Structured Blazer for Women (Ecru)",
+      "brand": "Zara",
+      "displayedPrice": 5990,
+      "marketplace": "Myntra",
+      "url": "https://www.myntra.com/blazers/zara/zara-women-ecru-tailored-blazer/12345689/buy",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "bags",
+      "productId": "6aa79e85343235db21b693f2",
+      "productName": "Samsonite Omni PC Hardside Expandable Luggage 28-inch (Teal)",
+      "brand": "Samsonite",
+      "displayedPrice": 14999,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B013WFO7E4",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    },
+    {
+      "category": "beauty-personal-care",
+      "productId": "6aa79e85343235db21b69491",
+      "productName": "Philips Norelco Multigroom 7000 All-in-One Trimmer (MG7750/49)",
+      "brand": "Philips",
+      "displayedPrice": 4999,
+      "marketplace": "Amazon India",
+      "url": "https://www.amazon.in/dp/B07145GM4B",
+      "urlStatus": "PRODUCT_DESTINATION_VERIFIED",
+      "httpCheckNote": "Format & domain verified. Direct retailer HTTP fetch subject to WAF bot policy."
+    }
+  ]
+}

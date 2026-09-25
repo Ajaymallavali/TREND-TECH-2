@@ -1,0 +1,156 @@
+[
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "productName": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "sourceType": "VERIFIED_CDN_INDEX",
+    "productUrl": "https://m.media-amazon.com",
+    "imageUrl": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "productName": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6aa06056af8879d815dca766",
+    "productName": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "sourceType": "VERIFIED_CDN_INDEX",
+    "productUrl": "https://m.media-amazon.com",
+    "imageUrl": "https://m.media-amazon.com/images/I/71N-W7C46OL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6aa06056af8879d815dca766",
+    "productName": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/71N-W7C46OL._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/71N-W7C46OL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc76",
+    "productName": "Dell Inspiron 15 3520",
+    "brand": "Dell",
+    "category": "laptop",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/61L2lG4cWBL._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/61L2lG4cWBL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcfc",
+    "productName": "Television Bravia",
+    "brand": "Television",
+    "category": "television",
+    "sourceType": "VERIFIED_CDN_INDEX",
+    "productUrl": "https://m.media-amazon.com",
+    "imageUrl": "https://m.media-amazon.com/images/I/81M+xWk89rL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcfc",
+    "productName": "Television Bravia",
+    "brand": "Television",
+    "category": "television",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/81wxjP0B7RL._SX679_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/81wxjP0B7RL._SX679_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadcee",
+    "productName": "Television Crystal UHD",
+    "brand": "Television",
+    "category": "television",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/71R375b47iL._SX679_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/71R375b47iL._SX679_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb355",
+    "productName": "Sony PlayStation 5 Pro Console",
+    "brand": "Sony",
+    "category": "gaming",
+    "sourceType": "VERIFIED_CDN_INDEX",
+    "productUrl": "https://m.media-amazon.com",
+    "imageUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb355",
+    "productName": "Sony PlayStation 5 Pro Console",
+    "brand": "Sony",
+    "category": "gaming",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/61b7M8k+B9L._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a98d181a6bfd56d867752df",
+    "productName": "iPhone 17 Pro Max Silicone Case",
+    "brand": "Apple",
+    "category": "accessory",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbea",
+    "productName": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "category": "smartphone",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/81Os1SDW92L._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/81Os1SDW92L._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbec",
+    "productName": "Apple iPhone 17 Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/81sigVkAHgL._SL1500_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/81sigVkAHgL._SL1500_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf0",
+    "productName": "Apple iPhone Air",
+    "brand": "Apple",
+    "category": "smartphone",
+    "sourceType": "STORED_PRODUCT_IMAGE",
+    "productUrl": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/71TPda7cwTL._SX679_.jpg",
+    "httpStatus": 404,
+    "failureReason": "HTTP 404 Not Found"
+  }
+]

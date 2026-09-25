@@ -1,0 +1,2597 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-15T06:03:29.141Z",
+    "project": "TREND-TECH-2",
+    "auditType": "PRODUCTION_DATA_AND_DEAL_ENGINE_AUDIT"
+  },
+  "counts": {
+    "before": {
+      "products": 409,
+      "offers": 765,
+      "histories": 13335
+    },
+    "after": {
+      "products": 409,
+      "offers": 765,
+      "histories": 13335
+    },
+    "deletes": 0,
+    "drops": 0
+  },
+  "urls": {
+    "total": 765,
+    "verifiedExact": 560,
+    "invalid": 205,
+    "searchUrlsRejected": 0,
+    "disabledOffers": 205
+  },
+  "images": {
+    "verified": 409,
+    "generic": 84,
+    "normalizedDuplicates": 165
+  },
+  "categoryCoverage": {
+    "smartphone": {
+      "count": 54,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "laptop": {
+      "count": 41,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "tablet": {
+      "count": 22,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "television": {
+      "count": 32,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "monitor": {
+      "count": 26,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "headphones": {
+      "count": 27,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "smartwatch": {
+      "count": 25,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "camera": {
+      "count": 22,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "gaming": {
+      "count": 20,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "air_conditioner": {
+      "count": 0,
+      "status": "MISSING_CATEGORY"
+    },
+    "washing_machine": {
+      "count": 0,
+      "status": "MISSING_CATEGORY"
+    },
+    "refrigerator": {
+      "count": 5,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "earbuds": {
+      "count": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "shoes": {
+      "count": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "bags": {
+      "count": 11,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "mens-clothing": {
+      "count": 15,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "womens-clothing": {
+      "count": 14,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "watches-accessories": {
+      "count": 9,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "beauty-personal-care": {
+      "count": 14,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "accessory": {
+      "count": 18,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "air-conditioner": {
+      "count": 5,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "washing-machine": {
+      "count": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "audio": {
+      "count": 10,
+      "status": "HEALTHY_CATEGORY"
+    },
+    "home-appliances": {
+      "count": 4,
+      "status": "LOW_COVERAGE_CATEGORY"
+    },
+    "fashion-accessories": {
+      "count": 1,
+      "status": "LOW_COVERAGE_CATEGORY"
+    }
+  },
+  "productAuditLog": [
+    {
+      "productId": "6a9f0ede2dd777de0cd271ff",
+      "name": "Apple iPhone 15",
+      "brand": "Apple",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg",
+      "offersCount": 3,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd27264",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CHX1W1XY",
+          "status": "VERIFIED_EXACT",
+          "price": 65900,
+          "originalPrice": 69900
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27286",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/apple-iphone-15-black-128-gb/p/itm6ac2b85a26c7e",
+          "status": "VERIFIED_EXACT",
+          "price": 65900,
+          "originalPrice": 99098
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd272a8",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-iphone-15",
+          "status": "VERIFIED_EXACT",
+          "price": 73772,
+          "originalPrice": 86776
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 13745,
+      "discountPercentage": 17
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27200",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd272ca",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-iphone-15-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 138127,
+          "originalPrice": 169879
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd272ec",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/apple-iphone-15-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 142553,
+          "originalPrice": 175640
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2730e",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/apple-iphone-15-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 137162
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27330",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-iphone-15-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 135162
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 31752,
+      "discountPercentage": 19
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27201",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/81Os1SDWJA-L._SL1500_.jpg",
+      "offersCount": 6,
+      "validOffersCount": 4,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd27352",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-iphone-15-pro-max",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 155654
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27374",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-iphone-15-pro-max",
+          "status": "VERIFIED_EXACT",
+          "price": 152916,
+          "originalPrice": 169235
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27396",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/apple-iphone-15-pro-max",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 150206
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd273b8",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/apple-iphone-15-pro-max",
+          "status": "VERIFIED_EXACT",
+          "price": 147096,
+          "originalPrice": 171830
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd273da",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/apple-iphone-15-pro-max",
+          "status": "VERIFIED_EXACT",
+          "price": 158129,
+          "originalPrice": 178145
+        },
+        {
+          "offerId": "6aa306ccf47c943cd3143794",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CHX1W1XY",
+          "status": "VERIFIED_EXACT",
+          "price": 148900,
+          "originalPrice": null
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 9783,
+      "discountPercentage": 6
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27202",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd273fc",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/samsung-galaxy-s24-ultra",
+          "status": "VERIFIED_EXACT",
+          "price": 127130,
+          "originalPrice": 156778
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2741e",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/samsung-galaxy-s24-ultra",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 120491
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27440",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/samsung-galaxy-s24-ultra",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 127174
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27462",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/samsung-galaxy-s24-ultra",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 125755
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27484",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/samsung-galaxy-s24-ultra",
+          "status": "VERIFIED_EXACT",
+          "price": 123073,
+          "originalPrice": 142705
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1140,
+      "discountPercentage": 1
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27203",
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd274a6",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/samsung-galaxy-s24",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 79457
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd274c8",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/samsung-galaxy-s24",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 77538
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd274ea",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/samsung-galaxy-s24",
+          "status": "VERIFIED_EXACT",
+          "price": 75591,
+          "originalPrice": 94079
+        },
+        {
+          "offerId": "6aa79e84343235db21b68fd5",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CS5Y2M9C",
+          "status": "VERIFIED_EXACT",
+          "price": 84999,
+          "originalPrice": 99999
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1918,
+      "discountPercentage": 2
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27204",
+      "name": "Samsung Galaxy A55 5G",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd2750c",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/samsung-galaxy-a55-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 41599
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2752e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/samsung-galaxy-a55-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 37933,
+          "originalPrice": 46391
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27550",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/samsung-galaxy-a55-5g",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 38499
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27572",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/samsung-galaxy-a55-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 37768,
+          "originalPrice": 43801
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27594",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/samsung-galaxy-a55-5g",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 39425
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 4066,
+      "discountPercentage": 10
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27205",
+      "name": "OnePlus 12",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd275b6",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CQPG21H5",
+          "status": "VERIFIED_EXACT",
+          "price": 42999,
+          "originalPrice": 45999
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd275d8",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oneplus-12",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 61265
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd275fa",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/oneplus-12",
+          "status": "VERIFIED_EXACT",
+          "price": 59754,
+          "originalPrice": 67270
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2761c",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/oneplus-12",
+          "status": "VERIFIED_EXACT",
+          "price": 67158,
+          "originalPrice": 73175
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2763e",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/oneplus-12",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 65396
+        }
+      ],
+      "dealStatus": "LOWEST_OBSERVED",
+      "priceDropAmount": 18870,
+      "discountPercentage": 30
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27206",
+      "name": "OnePlus 12R",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "offersCount": 4,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd27660",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oneplus-12r",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 38373
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27682",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/oneplus-12r",
+          "status": "VERIFIED_EXACT",
+          "price": 41445,
+          "originalPrice": 51087
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd276a4",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/oneplus-12r",
+          "status": "VERIFIED_EXACT",
+          "price": 38925,
+          "originalPrice": 43649
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd276c6",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CQPG21H5",
+          "status": "VERIFIED_EXACT",
+          "price": 45999,
+          "originalPrice": null
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 9642,
+      "discountPercentage": 19
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27207",
+      "name": "OnePlus Nord CE4 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd276e8",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/oneplus-nord-ce4-5g",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 24028
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2770a",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/oneplus-nord-ce4-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 26384,
+          "originalPrice": 31874
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2772c",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oneplus-nord-ce4-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 26124
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2774e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/oneplus-nord-ce4-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 23858,
+          "originalPrice": 26264
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 836,
+      "discountPercentage": 3
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27208",
+      "name": "Xiaomi Redmi Note 13 Pro",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd27770",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/xiaomi-redmi-note-13-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 24281
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27792",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/xiaomi-redmi-note-13-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 25928
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd277b4",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/xiaomi-redmi-note-13-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 26847,
+          "originalPrice": 30760
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd277d6",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/xiaomi-redmi-note-13-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 26861,
+          "originalPrice": 33179
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd277f8",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/xiaomi-redmi-note-13-pro",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 26550
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 6318,
+      "discountPercentage": 19
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27209",
+      "name": "Realme 12 Pro 5G",
+      "brand": "Realme",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0ede2dd777de0cd2781a",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/realme-12-pro-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 23623
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2783c",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/realme-12-pro-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 23392,
+          "originalPrice": 28660
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd2785e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/realme-12-pro-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 23230,
+          "originalPrice": 26352
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd27880",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/realme-12-pro-5g",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 22131
+        },
+        {
+          "offerId": "6a9f0ede2dd777de0cd278a2",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/realme-12-pro-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 22153,
+          "originalPrice": 26491
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1207,
+      "discountPercentage": 5
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720a",
+      "name": "Google Pixel 8",
+      "brand": "Google",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd278c4",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/google-pixel-8",
+          "status": "VERIFIED_EXACT",
+          "price": 61254,
+          "originalPrice": 76494
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd278e6",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/google-pixel-8",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 63998
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27908",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/google-pixel-8",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 61801
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2792a",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/google-pixel-8",
+          "status": "VERIFIED_EXACT",
+          "price": 63548,
+          "originalPrice": 73707
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2794c",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/google-pixel-8",
+          "status": "VERIFIED_EXACT",
+          "price": 66737,
+          "originalPrice": 77163
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 947,
+      "discountPercentage": 2
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720b",
+      "name": "Google Pixel 8 Pro",
+      "brand": "Google",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd2796e",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/google-pixel-8-pro",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 95553
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27990",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/google-pixel-8-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 96465
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd279b2",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/google-pixel-8-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 94532,
+          "originalPrice": 112801
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd279d4",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/google-pixel-8-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 100376,
+          "originalPrice": 115551
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd279f6",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/google-pixel-8-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 94986,
+          "originalPrice": 108157
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1057,
+      "discountPercentage": 1
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720c",
+      "name": "Motorola Edge 50 Pro",
+      "brand": "Motorola",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27a18",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/motorola-edge-50-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 30675,
+          "originalPrice": 36321
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27a3a",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/motorola-edge-50-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 32838
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27a5c",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/motorola-edge-50-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 32819
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27a7e",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/motorola-edge-50-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 29831,
+          "originalPrice": 34664
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27aa0",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/motorola-edge-50-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 34003,
+          "originalPrice": 39761
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 547,
+      "discountPercentage": 2
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720d",
+      "name": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "category": "smartphone",
+      "image": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ac2",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/nothing-phone-2-",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 42218
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ae4",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/nothing-phone-2a-plus-grey-256-gb/p/itm2aPlusNothing",
+          "status": "VERIFIED_EXACT",
+          "price": 27999,
+          "originalPrice": 46118
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27b06",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/nothing-phone-2-",
+          "status": "VERIFIED_EXACT",
+          "price": 40326,
+          "originalPrice": 45283
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27b28",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/nothing-phone-2-",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 41587
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27b4a",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/nothing-phone-2-",
+          "status": "VERIFIED_EXACT",
+          "price": 40385,
+          "originalPrice": 50103
+        }
+      ],
+      "dealStatus": "LOWEST_OBSERVED",
+      "priceDropAmount": 13132,
+      "discountPercentage": 32
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720e",
+      "name": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27b6c",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/nothing-phone-2a-",
+          "status": "VERIFIED_EXACT",
+          "price": 24208,
+          "originalPrice": 28310
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27b8e",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/nothing-phone-2a-",
+          "status": "VERIFIED_EXACT",
+          "price": 23766,
+          "originalPrice": 26131
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27bb0",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/nothing-phone-2a-",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 22813
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27bd2",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/nothing-phone-2a-",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 24219
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 301,
+      "discountPercentage": 1
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2720f",
+      "name": "Vivo V30 Pro",
+      "brand": "Vivo",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27bf4",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/vivo-v30-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 42665
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27c16",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/vivo-v30-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 42561,
+          "originalPrice": 49442
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27c38",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/vivo-v30-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 38552
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27c5a",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/vivo-v30-pro",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 41124
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27c7c",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/vivo-v30-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 40180,
+          "originalPrice": 50287
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 2097,
+      "discountPercentage": 5
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27210",
+      "name": "Oppo Reno 11 5G",
+      "brand": "Oppo",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27c9e",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/oppo-reno-11-5g",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 26242
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27cc0",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/oppo-reno-11-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 27644,
+          "originalPrice": 34091
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ce2",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oppo-reno-11-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 25803
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27d04",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/oppo-reno-11-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 26800,
+          "originalPrice": 30791
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27d26",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/oppo-reno-11-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 25696,
+          "originalPrice": 31723
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 605,
+      "discountPercentage": 2
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27211",
+      "name": "iQOO 12 5G",
+      "brand": "iQOO",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27d48",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/iqoo-12-5g",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 55005
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27d6a",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/iqoo-12-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 49862,
+          "originalPrice": 58564
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27d8c",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/iqoo-12-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 54621,
+          "originalPrice": 61403
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27dae",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/iqoo-12-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 49075
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27dd0",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/iqoo-12-5g",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 49532
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 5491,
+      "discountPercentage": 10
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27212",
+      "name": "Poco X6 Pro 5G",
+      "brand": "Poco",
+      "category": "smartphone",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27df2",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/poco-x6-pro-5g",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 24305
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27e14",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/poco-x6-pro-5g",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 24459
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27e36",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/poco-x6-pro-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 24051,
+          "originalPrice": 28279
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27e58",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/poco-x6-pro-5g",
+          "status": "VERIFIED_EXACT",
+          "price": 24340,
+          "originalPrice": 30112
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27e7a",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/poco-x6-pro-5g",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 25797
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 5772,
+      "discountPercentage": 19
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27213",
+      "name": "Apple MacBook Air M3",
+      "brand": "Apple",
+      "category": "laptop",
+      "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27e9c",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/apple-macbook-air-m3",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 113834
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ebe",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-macbook-air-m3",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 117151
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ee0",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/apple-macbook-air-m3-chip-16gb-512gb-ssd-13-6-inch-midnight/p/494352881",
+          "status": "VERIFIED_EXACT",
+          "price": 134900,
+          "originalPrice": 136264
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27f02",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/apple-macbook-air-m3",
+          "status": "VERIFIED_EXACT",
+          "price": 109912,
+          "originalPrice": 134660
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27f24",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CX24T72Y",
+          "status": "VERIFIED_EXACT",
+          "price": 134900,
+          "originalPrice": 134900
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 4649,
+      "discountPercentage": 4
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27214",
+      "name": "Apple MacBook Pro M3 Pro",
+      "brand": "Apple",
+      "category": "laptop",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27f46",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/apple-macbook-pro-m3-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 202223,
+          "originalPrice": 230669
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27f68",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/apple-macbook-pro-m3-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 197357
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27f8a",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-macbook-pro-m3-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 200948,
+          "originalPrice": 236308
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27fac",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-macbook-pro-m3-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 189939
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd27fce",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/apple-macbook-pro-m3-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 198963,
+          "originalPrice": 228857
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 2306,
+      "discountPercentage": 1
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27215",
+      "name": "ASUS TUF Gaming A15",
+      "brand": "Asus",
+      "category": "laptop",
+      "image": "https://m.media-amazon.com/images/I/71k42S6vFLL._SL1500_.jpg",
+      "offersCount": 6,
+      "validOffersCount": 4,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd27ff0",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/asus-tuf-gaming-a15",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 87993
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28012",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/asus-tuf-gaming-a15",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 85865
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28034",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/asus-tuf-gaming-a15",
+          "status": "VERIFIED_EXACT",
+          "price": 88237,
+          "originalPrice": 107901
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28056",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/asus-tuf-gaming-a15",
+          "status": "VERIFIED_EXACT",
+          "price": 86861,
+          "originalPrice": 95630
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28078",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/asus-tuf-gaming-a15",
+          "status": "VERIFIED_EXACT",
+          "price": 83832,
+          "originalPrice": 98970
+        },
+        {
+          "offerId": "6aa79e84343235db21b690b1",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0BYTUFA15",
+          "status": "VERIFIED_EXACT",
+          "price": 94990,
+          "originalPrice": 114990
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 5676,
+      "discountPercentage": 6
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27216",
+      "name": "HP Pavilion 15",
+      "brand": "HP",
+      "category": "laptop",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd2809a",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/hp-pavilion-15",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 59156
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd280bc",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/hp-pavilion-15",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 56159
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd280de",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/hp-pavilion-15",
+          "status": "VERIFIED_EXACT",
+          "price": 62362,
+          "originalPrice": 74180
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28100",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/hp-pavilion-15",
+          "status": "VERIFIED_EXACT",
+          "price": 59360,
+          "originalPrice": 69282
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 11818,
+      "discountPercentage": 16
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27217",
+      "name": "Dell Inspiron 15",
+      "brand": "Dell",
+      "category": "laptop",
+      "image": "https://m.media-amazon.com/images/I/71S+yqM2wIL._SL1500_.jpg",
+      "offersCount": 3,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28122",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/dell-inspiron-15",
+          "status": "VERIFIED_EXACT",
+          "price": 44800,
+          "originalPrice": 53643
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28144",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CHINSP15",
+          "status": "VERIFIED_EXACT",
+          "price": 47990,
+          "originalPrice": 61990
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28166",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/dell-inspiron-15",
+          "status": "VERIFIED_EXACT",
+          "price": 50094,
+          "originalPrice": 55981
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 14000,
+      "discountPercentage": 23
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27218",
+      "name": "Lenovo IdeaPad Slim 3",
+      "brand": "Lenovo",
+      "category": "laptop",
+      "image": "https://m.media-amazon.com/images/I/71k42S6vFLL._SL1500_.jpg",
+      "offersCount": 6,
+      "validOffersCount": 4,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28188",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/lenovo-ideapad-slim-3",
+          "status": "VERIFIED_EXACT",
+          "price": 40354,
+          "originalPrice": 46670
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd281aa",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/lenovo-ideapad-slim-3",
+          "status": "VERIFIED_EXACT",
+          "price": 38131,
+          "originalPrice": 42650
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd281cc",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/lenovo-ideapad-slim-3",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 37935
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd281ee",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/lenovo-ideapad-slim-3",
+          "status": "VERIFIED_EXACT",
+          "price": 36104,
+          "originalPrice": 42983
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28210",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/lenovo-ideapad-slim-3",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 37732
+        },
+        {
+          "offerId": "6aa79e84343235db21b69098",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0C5LENOVO",
+          "status": "VERIFIED_EXACT",
+          "price": 52990,
+          "originalPrice": 66990
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 2720,
+      "discountPercentage": 7
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27219",
+      "name": "Acer Aspire 5 Lite",
+      "brand": "Acer",
+      "category": "laptop",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28232",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/acer-aspire-5-lite",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 30881
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28254",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/acer-aspire-5-lite",
+          "status": "VERIFIED_EXACT",
+          "price": 34100,
+          "originalPrice": 39616
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28276",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/acer-aspire-5-lite",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 34079
+        }
+      ],
+      "dealStatus": "NO_VERIFIED_DEAL",
+      "priceDropAmount": null,
+      "discountPercentage": null
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721a",
+      "name": "ASUS Zenbook 14 OLED",
+      "brand": "Asus",
+      "category": "laptop",
+      "image": "https://m.media-amazon.com/images/I/71k42S6vFLL._SL1500_.jpg",
+      "offersCount": 3,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28298",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/asus-zenbook-14-oled",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 87860
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd282ba",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CWZENBOK",
+          "status": "VERIFIED_EXACT",
+          "price": 109990,
+          "originalPrice": 129990
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd282dc",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/asus-zenbook-14-oled",
+          "status": "VERIFIED_EXACT",
+          "price": 97491,
+          "originalPrice": 112712
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 20000,
+      "discountPercentage": 15
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721b",
+      "name": "MSI GF63 Thin",
+      "brand": "MSI",
+      "category": "laptop",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd282fe",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/msi-gf63-thin",
+          "status": "VERIFIED_EXACT",
+          "price": 54787,
+          "originalPrice": 64373
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28320",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/msi-gf63-thin",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 52774
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28342",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/msi-gf63-thin",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 57630
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28364",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/msi-gf63-thin",
+          "status": "VERIFIED_EXACT",
+          "price": 50143,
+          "originalPrice": 58910
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 4734,
+      "discountPercentage": 9
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721c",
+      "name": "HP Victus 16",
+      "brand": "HP",
+      "category": "laptop",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28386",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/hp-victus-16",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 80944
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd283a8",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/hp-victus-16",
+          "status": "VERIFIED_EXACT",
+          "price": 77855,
+          "originalPrice": 87225
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd283ca",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/hp-victus-16",
+          "status": "VERIFIED_EXACT",
+          "price": 83457,
+          "originalPrice": 99820
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd283ec",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/hp-victus-16",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 78897
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 2216,
+      "discountPercentage": 3
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721d",
+      "name": "LG C3 OLED 55-inch TV",
+      "brand": "LG",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd2840e",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/lg-c3-oled-55-inch-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 128690,
+          "originalPrice": 142432
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28430",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/lg-c3-oled-55-inch-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 124614,
+          "originalPrice": 150141
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28452",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/lg-c3-oled-55-inch-tv",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 125149
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28474",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/lg-c3-oled-55-inch-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 117387
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28496",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/lg-c3-oled-55-inch-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 128645,
+          "originalPrice": 157370
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 4992,
+      "discountPercentage": 4
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721e",
+      "name": "Samsung Crystal 4K 43-inch TV",
+      "brand": "Samsung",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd284b8",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/samsung-crystal-4k-43-inch-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 28991,
+          "originalPrice": 33605
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd284da",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/samsung-crystal-4k-43-inch-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 28548
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd284fc",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/samsung-crystal-4k-43-inch-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 28088,
+          "originalPrice": 33694
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1065,
+      "discountPercentage": 4
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2721f",
+      "name": "Sony Bravia 55-inch Google TV",
+      "brand": "Sony",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd2851e",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/sony-bravia-55-inch-google-tv",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 57191
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28540",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/sony-bravia-55-inch-google-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 58503,
+          "originalPrice": 66731
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28562",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/sony-bravia-55-inch-google-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 54134
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28584",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/sony-bravia-55-inch-google-tv",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 59314
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 8228,
+      "discountPercentage": 12
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27220",
+      "name": "OnePlus TV Y1S 32-inch",
+      "brand": "OnePlus",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd285a6",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/oneplus-tv-y1s-32-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 13026,
+          "originalPrice": 15283
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd285c8",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/oneplus-tv-y1s-32-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 13095,
+          "originalPrice": 14978
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd285ea",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/oneplus-tv-y1s-32-inch",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 14752
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2860c",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oneplus-tv-y1s-32-inch",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 13007
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2862e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/oneplus-tv-y1s-32-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 13230,
+          "originalPrice": 14946
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 2257,
+      "discountPercentage": 15
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27221",
+      "name": "Xiaomi Smart TV X50 50-inch",
+      "brand": "Xiaomi",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28650",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/xiaomi-smart-tv-x50-50-inch",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 31418
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28672",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/xiaomi-smart-tv-x50-50-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 31540,
+          "originalPrice": 34580
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28694",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/xiaomi-smart-tv-x50-50-inch",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 32678
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd286b6",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/xiaomi-smart-tv-x50-50-inch",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 30685
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 3040,
+      "discountPercentage": 9
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27222",
+      "name": "TCL 55-inch QLED Smart TV",
+      "brand": "TCL",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd286d8",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/tcl-55-inch-qled-smart-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 35803
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd286fa",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/tcl-55-inch-qled-smart-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 39530,
+          "originalPrice": 47640
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2871c",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/tcl-55-inch-qled-smart-tv",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 37408
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 8110,
+      "discountPercentage": 17
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27223",
+      "name": "LG 32-inch Smart LED TV",
+      "brand": "LG",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd2873e",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/lg-32-inch-smart-led-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 15387,
+          "originalPrice": 16961
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28760",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/lg-32-inch-smart-led-tv",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 15818
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28782",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/lg-32-inch-smart-led-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 15162,
+          "originalPrice": 16876
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd287a4",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/lg-32-inch-smart-led-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 15513
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd287c6",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/lg-32-inch-smart-led-tv",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 15422
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 195,
+      "discountPercentage": 1
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27224",
+      "name": "Samsung Neo QLED 55-inch 8K TV",
+      "brand": "Samsung",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd287e8",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/samsung-neo-qled-55-inch-8k-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 259636,
+          "originalPrice": 290938
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2880a",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/samsung-neo-qled-55-inch-8k-tv",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 263173
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2882c",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/samsung-neo-qled-55-inch-8k-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 251516
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2884e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/samsung-neo-qled-55-inch-8k-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 246380,
+          "originalPrice": 301337
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 8077,
+      "discountPercentage": 3
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27225",
+      "name": "Acer Advanced I Series 50-inch",
+      "brand": "Acer",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28870",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/acer-advanced-i-series-50-inch",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 25772
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28892",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/acer-advanced-i-series-50-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 26741,
+          "originalPrice": 31840
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd288b4",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/acer-advanced-i-series-50-inch",
+          "status": "VERIFIED_EXACT",
+          "price": 26788,
+          "originalPrice": 30561
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 5099,
+      "discountPercentage": 16
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27226",
+      "name": "VU 65-inch GloLED Smart TV",
+      "brand": "VU",
+      "category": "television",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd288d6",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/vu-65-inch-gloled-smart-tv",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 52962
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd288f8",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/vu-65-inch-gloled-smart-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 55877,
+          "originalPrice": 68158
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2891a",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/vu-65-inch-gloled-smart-tv",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 56020
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2893c",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/vu-65-inch-gloled-smart-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 56819,
+          "originalPrice": 68941
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd2895e",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/vu-65-inch-gloled-smart-tv",
+          "status": "VERIFIED_EXACT",
+          "price": 53209,
+          "originalPrice": 61792
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 12281,
+      "discountPercentage": 18
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27227",
+      "name": "Sony WH-1000XM5 ANC Headphones",
+      "brand": "Sony",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28980",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/sony-wh-1000xm5-anc-headphones",
+          "status": "VERIFIED_EXACT",
+          "price": 28248,
+          "originalPrice": 31935
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd289a2",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/sony-wh-1000xm5-anc-headphones",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 27980
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd289c4",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/sony-wh-1000xm5-anc-headphones",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 29072
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 3687,
+      "discountPercentage": 12
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27228",
+      "name": "Sony WF-1000XM5 TWS Earbuds",
+      "brand": "Sony",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 3,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd289e6",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/sony-wf-1000xm5-tws-earbuds",
+          "status": "VERIFIED_EXACT",
+          "price": 22443,
+          "originalPrice": 27443
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28a08",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/sony-wf-1000xm5-tws-earbuds",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 21279
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28a2a",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/sony-wf-1000xm5-tws-earbuds",
+          "status": "VERIFIED_EXACT",
+          "price": 22320,
+          "originalPrice": 25923
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28a4c",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/sony-wf-1000xm5-tws-earbuds",
+          "status": "VERIFIED_EXACT",
+          "price": 20726,
+          "originalPrice": 23122
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28a6e",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/sony-wf-1000xm5-tws-earbuds",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 21501
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1833,
+      "discountPercentage": 8
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27229",
+      "name": "Apple AirPods Pro (2nd Gen)",
+      "brand": "Apple",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28a90",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/apple-airpods-pro-2nd-gen-",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 24050
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28ab2",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-airpods-pro-2nd-gen-",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 25805
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28ad4",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-airpods-pro-2nd-gen-",
+          "status": "VERIFIED_EXACT",
+          "price": 24044,
+          "originalPrice": 28154
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28af6",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/apple-airpods-pro-2nd-gen-",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 24555
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28b18",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/apple-airpods-pro-2nd-gen-",
+          "status": "VERIFIED_EXACT",
+          "price": 25546,
+          "originalPrice": 31219
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 5673,
+      "discountPercentage": 18
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722a",
+      "name": "Apple AirPods (3rd Gen)",
+      "brand": "Apple",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28b3a",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/apple-airpods-3rd-gen-",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 20017
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28b5c",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/apple-airpods-3rd-gen-",
+          "status": "VERIFIED_EXACT",
+          "price": 18231,
+          "originalPrice": 22469
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28b7e",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/apple-airpods-3rd-gen-",
+          "status": "VERIFIED_EXACT",
+          "price": 18933,
+          "originalPrice": 22085
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1072,
+      "discountPercentage": 5
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722b",
+      "name": "OnePlus Buds 3",
+      "brand": "OnePlus",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 3,
+      "validOffersCount": 0,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28ba0",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/oneplus-buds-3",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 5610
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28bc2",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/oneplus-buds-3",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 5518
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28be4",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/oneplus-buds-3",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 5206
+        }
+      ],
+      "dealStatus": "NO_VERIFIED_DEAL",
+      "priceDropAmount": null,
+      "discountPercentage": null
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722c",
+      "name": "boAt Airdopes 141",
+      "brand": "boAt",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28c06",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/boat-airdopes-141",
+          "status": "VERIFIED_EXACT",
+          "price": 1340,
+          "originalPrice": 1629
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28c28",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/boat-airdopes-141",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 1227
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28c4a",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/boat-airdopes-141",
+          "status": "VERIFIED_EXACT",
+          "price": 1219,
+          "originalPrice": 1355
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28c6c",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/boat-airdopes-141",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 1240
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28c8e",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/boat-airdopes-141",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 1210
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 156,
+      "discountPercentage": 11
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722d",
+      "name": "Realme Buds Air 5 Pro",
+      "brand": "Realme",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 5,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28cb0",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/realme-buds-air-5-pro",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 4926
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28cd2",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/realme-buds-air-5-pro",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 5167
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28cf4",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/realme-buds-air-5-pro",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 4606
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28d16",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/realme-buds-air-5-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 5002,
+          "originalPrice": 5670
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28d38",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/realme-buds-air-5-pro",
+          "status": "VERIFIED_EXACT",
+          "price": 5088,
+          "originalPrice": 6082
+        }
+      ],
+      "dealStatus": "CURRENT_DISCOUNT",
+      "priceDropAmount": 994,
+      "discountPercentage": 16
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722e",
+      "name": "JBL Tune 770NC ANC Headphones",
+      "brand": "JBL",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 2,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28d5a",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/jbl-tune-770nc-anc-headphones",
+          "status": "VERIFIED_EXACT",
+          "price": 6684,
+          "originalPrice": 8399
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28d7c",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/jbl-tune-770nc-anc-headphones",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 6660
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28d9e",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/jbl-tune-770nc-anc-headphones",
+          "status": "VERIFIED_EXACT",
+          "price": 6540,
+          "originalPrice": 7436
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28dc0",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/jbl-tune-770nc-anc-headphones",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 6492
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 141,
+      "discountPercentage": 2
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd2722f",
+      "name": "Sennheiser Accentum Wireless",
+      "brand": "Sennheiser",
+      "category": "headphones",
+      "image": "https://m.media-amazon.com/images/I/61N+F-H0t3L._SL1500_.jpg",
+      "offersCount": 5,
+      "validOffersCount": 4,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28de2",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/sennheiser-accentum-wireless",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 12819
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28e04",
+          "marketplace": "Tata Neu",
+          "url": "https://www.tataneu.com/product/sennheiser-accentum-wireless",
+          "status": "VERIFIED_EXACT",
+          "price": 13767,
+          "originalPrice": 15225
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28e26",
+          "marketplace": "Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/sennheiser-accentum-wireless",
+          "status": "VERIFIED_EXACT",
+          "price": 13379,
+          "originalPrice": 14946
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28e48",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/sennheiser-accentum-wireless",
+          "status": "VERIFIED_EXACT",
+          "price": 12626,
+          "originalPrice": 15236
+        },
+        {
+          "offerId": "6aa79e84343235db21b6914a",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/dp/B0CHWR8KB8",
+          "status": "VERIFIED_EXACT",
+          "price": 11990,
+          "originalPrice": 14990
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 703,
+      "discountPercentage": 6
+    },
+    {
+      "productId": "6a9f0ede2dd777de0cd27230",
+      "name": "Bose QuietComfort Ultra",
+      "brand": "Bose",
+      "category": "headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=60",
+      "offersCount": 4,
+      "validOffersCount": 1,
+      "offers": [
+        {
+          "offerId": "6a9f0edf2dd777de0cd28e6a",
+          "marketplace": "Amazon India",
+          "url": "https://www.amazon.in/product/bose-quietcomfort-ultra",
+          "status": "INVALID_URL",
+          "reason": "Amazon URL missing canonical /dp/ASIN pattern",
+          "price": 37317
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28e8c",
+          "marketplace": "Vijay Sales",
+          "url": "https://www.vijaysales.com/product/bose-quietcomfort-ultra",
+          "status": "VERIFIED_EXACT",
+          "price": 35812,
+          "originalPrice": 42818
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28eae",
+          "marketplace": "Flipkart",
+          "url": "https://www.flipkart.com/product/bose-quietcomfort-ultra",
+          "status": "INVALID_URL",
+          "reason": "Flipkart URL missing product detail identifier /p/",
+          "price": 33751
+        },
+        {
+          "offerId": "6a9f0edf2dd777de0cd28ed0",
+          "marketplace": "Croma",
+          "url": "https://www.croma.com/product/bose-quietcomfort-ultra",
+          "status": "INVALID_URL",
+          "reason": "Croma URL missing product detail path",
+          "price": 37281
+        }
+      ],
+      "dealStatus": "PRICE_DROP",
+      "priceDropAmount": 1504,
+      "discountPercentage": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+import mongoose from 'mongoose';
+
+const { Schema } = mongoose;
+
+const priceHistorySchema = new Schema(
+  {
+    marketplaceProduct: {
+      type: Schema.Types.ObjectId,
+      ref: 'MarketplaceProduct',
+      required: true,
+      index: true,
+    },
+    price: { type: Number, required: true },
+    timestamp: { type: Date, default: Date.now },
+  },
+  { timestamps: true }
+);
+
+// Index to quickly query history chronologically for a specific listing
+priceHistorySchema.index({ marketplaceProduct: 1, timestamp: -1 });
+
+export const PriceHistory = mongoose.model('PriceHistory', priceHistorySchema);

@@ -1,0 +1,65 @@
+{
+  "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd": {
+    "productId": "6aa06056af8879d815dca571",
+    "name": "Apple iPhone 15 Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06056af8879d815dca571.jpg"
+  },
+  "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59": {
+    "productId": "6aa06056af8879d815dca533",
+    "name": "Apple iPhone 16 Plus",
+    "brand": "Apple",
+    "category": "smartphone",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06056af8879d815dca533.jpg"
+  },
+  "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa": {
+    "productId": "6aa06056af8879d815dca619",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06056af8879d815dca619.jpg"
+  },
+  "f86192c90508e4cff7bddadc80408a6d0f32382b9c832a3630b8603b30891fef": {
+    "productId": "6aa06056af8879d815dca766",
+    "name": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06056af8879d815dca766.jpg"
+  },
+  "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36": {
+    "productId": "6a9904e369652590e0aadc76",
+    "name": "Dell Inspiron 15 3520",
+    "brand": "Dell",
+    "category": "laptop",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6a9904e369652590e0aadc76.jpg"
+  },
+  "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826": {
+    "productId": "6a9904e369652590e0aadcfc",
+    "name": "Television Bravia",
+    "brand": "Television",
+    "category": "television",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6a9904e369652590e0aadcfc.jpg"
+  },
+  "957de0f14e477b6a82f2e146c4f499f3e8a18df0b0b5737c205731da822bbc3a": {
+    "productId": "6aa06056af8879d815dca59b",
+    "name": "Apple iPhone 15 Plus",
+    "brand": "Apple",
+    "category": "smartphone",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06056af8879d815dca59b.jpg"
+  },
+  "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc": {
+    "productId": "6aa06057af8879d815dcad1f",
+    "name": "Apple AirPods Pro 2",
+    "brand": "Apple",
+    "category": "headphones",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06057af8879d815dcad1f.jpg"
+  },
+  "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2": {
+    "productId": "6aa06058af8879d815dcb184",
+    "name": "Xiaomi Pad 6 11-inch",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "localPath": "C:\\Users\\ajaym\\Downloads\\TREND-TECH-2\\TREND-TECH-2\\server\\src\\data\\image-dry-run\\phase4A8\\6aa06058af8879d815dcb184.jpg"
+  }
+}

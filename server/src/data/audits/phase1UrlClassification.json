@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-22T06:39:41.797Z",
+  "totalOffers": 1181,
+  "classification": {
+    "EXACT_PRODUCT_URL": 626,
+    "SEARCH_URL": 0,
+    "INVALID_URL": 555,
+    "UNKNOWN": 0
+  },
+  "amazonAsinCount": 626,
+  "duplicateAsinCount": 2,
+  "duplicateAsins": [
+    {
+      "asin": "B06A9904E3",
+      "count": 371
+    },
+    {
+      "asin": "B06A9904E4",
+      "count": 254
+    }
+  ]
+}

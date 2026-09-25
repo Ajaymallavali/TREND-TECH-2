@@ -1,0 +1,122 @@
+[
+  {
+    "targetProduct": "Apple iPhone 16e",
+    "query": "Apple iPhone 16e 128GB",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Apple iPhone 16 Pro Max",
+    "query": "Apple iPhone 16 Pro Max 256GB",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Samsung Galaxy S24 Ultra",
+    "query": "Samsung Galaxy S24 Ultra 5G",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "OnePlus 13",
+    "query": "OnePlus 13 5G 256GB",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Xiaomi 14 Ultra",
+    "query": "Xiaomi 14 Ultra 512GB",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Apple MacBook Air M3",
+    "query": "Apple MacBook Air M3 13-inch",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Dell Inspiron 15 3520",
+    "query": "Dell Inspiron 15 3520 Laptop",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "HP Pavilion 15",
+    "query": "HP Pavilion 15 Intel Core i5",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Sony Bravia 55 inch 4K TV",
+    "query": "Sony Bravia 55 inch 4K TV",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "LG OLED 55 inch 4K TV",
+    "query": "LG OLED 55 inch 4K TV",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Samsung 55 inch Crystal 4K TV",
+    "query": "Samsung 55 inch Crystal 4K TV",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Sony WH-1000XM5",
+    "query": "Sony WH-1000XM5 Wireless Headphones",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Apple AirPods Pro 2",
+    "query": "Apple AirPods Pro 2",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Bose QuietComfort Ultra",
+    "query": "Bose QuietComfort Ultra Headphones",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Apple iPad Air 11-inch M2",
+    "query": "Apple iPad Air 11-inch M2",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Samsung Galaxy Tab S9",
+    "query": "Samsung Galaxy Tab S9",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Sony PlayStation 5 Pro",
+    "query": "Sony PlayStation 5 Pro Console",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Xbox Series X",
+    "query": "Xbox Series X 1TB Console",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Canon EOS R6 Mark II",
+    "query": "Canon EOS R6 Mark II Camera",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  },
+  {
+    "targetProduct": "Sony Alpha 7 IV",
+    "query": "Sony Alpha 7 IV Camera Body",
+    "decision": "UNRESOLVED",
+    "rejectionReason": "No live SerpAPI Amazon Search API candidate returned for target query"
+  }
+]

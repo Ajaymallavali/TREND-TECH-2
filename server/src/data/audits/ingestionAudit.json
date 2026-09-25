@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-10T19:53:06.643Z",
+    "dryRunMode": true,
+    "databaseWriteDisabled": true,
+    "totalBenchmarkTargets": 5,
+    "totalCandidatesEvaluated": 8,
+    "acceptedCount": 3,
+    "rejectedCount": 5
+  },
+  "benchmarkTargets": [
+    {
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "specs": {
+        "Storage": "256GB",
+        "RAM": "8GB"
+      }
+    },
+    {
+      "name": "Apple MacBook Air M3",
+      "brand": "Apple",
+      "category": "laptop",
+      "specs": {
+        "Storage": "512GB",
+        "RAM": "16GB"
+      }
+    },
+    {
+      "name": "LG C3 55-inch OLED TV",
+      "brand": "LG",
+      "category": "television",
+      "specs": {
+        "Size": "55-inch",
+        "Resolution": "4K UHD"
+      }
+    },
+    {
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "headphones",
+      "specs": {
+        "Type": "Over-ear",
+        "NoiseCancelling": "ANC"
+      }
+    },
+    {
+      "name": "Apple Watch Series 9",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "specs": {
+        "Size": "45mm",
+        "Connectivity": "GPS"
+      }
+    }
+  ],
+  "auditLogs": [
+    {
+      "timestamp": "2026-09-10T19:53:06.640Z",
+      "targetName": "Apple iPhone 15 Pro Max",
+      "targetCategory": "smartphone",
+      "candidateTitle": "Apple iPhone 15 Pro Max (256GB) - Natural Titanium",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 100,
+      "matchStatus": "ACCEPTED",
+      "rejectionReason": null,
+      "asin": "B0CHX1W1XY",
+      "canonicalUrl": "https://www.amazon.in/dp/B0CHX1W1XY",
+      "imageStatus": "VERIFIED_EXACT",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Os1SDWJA-L._SL1500_.jpg",
+      "price": 148900,
+      "priceStatus": "VALID",
+      "action": "WOULD_CREATE_OR_UPDATE"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.642Z",
+      "targetName": "Apple iPhone 15 Pro Max",
+      "targetCategory": "smartphone",
+      "candidateTitle": "iPhone 15 Pro Max Silicone Case with MagSafe",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 0,
+      "matchStatus": "REJECTED",
+      "rejectionReason": "ACCESSORY_REJECTED",
+      "asin": null,
+      "canonicalUrl": null,
+      "imageStatus": "IMAGE_UNVERIFIED",
+      "imageUrl": "https://m.media-amazon.com/images/I/51w9W4+a-iL._SL1500_.jpg",
+      "price": 4900,
+      "priceStatus": "INVALID",
+      "action": "NO_ACTION"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.642Z",
+      "targetName": "Apple MacBook Air M3",
+      "targetCategory": "laptop",
+      "candidateTitle": "Apple MacBook Air M3 15-inch (16GB RAM, 512GB SSD)",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 100,
+      "matchStatus": "ACCEPTED",
+      "rejectionReason": null,
+      "asin": "B0CX23G97J",
+      "canonicalUrl": "https://www.amazon.in/dp/B0CX23G97J",
+      "imageStatus": "VERIFIED_EXACT",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "price": 134900,
+      "priceStatus": "VALID",
+      "action": "WOULD_CREATE_OR_UPDATE"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.642Z",
+      "targetName": "Apple MacBook Air M3",
+      "targetCategory": "laptop",
+      "candidateTitle": "MacBook Air M3 Keyboard Cover Protector",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 0,
+      "matchStatus": "REJECTED",
+      "rejectionReason": "ACCESSORY_REJECTED",
+      "asin": null,
+      "canonicalUrl": null,
+      "imageStatus": "IMAGE_UNVERIFIED",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "price": 799,
+      "priceStatus": "INVALID",
+      "action": "NO_ACTION"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.643Z",
+      "targetName": "LG C3 55-inch OLED TV",
+      "targetCategory": "television",
+      "candidateTitle": "LG C3 55-inch Smart OLED 4K TV (OLED55C3PSA)",
+      "candidateMarketplace": "Flipkart",
+      "matchScore": 0,
+      "matchStatus": "REJECTED",
+      "rejectionReason": "PRODUCT_MISMATCH",
+      "asin": null,
+      "canonicalUrl": null,
+      "imageStatus": "IMAGE_UNVERIFIED",
+      "imageUrl": "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=801",
+      "price": 119990,
+      "priceStatus": "INVALID",
+      "action": "NO_ACTION"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.643Z",
+      "targetName": "Sony WH-1000XM5",
+      "targetCategory": "headphones",
+      "candidateTitle": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 100,
+      "matchStatus": "ACCEPTED",
+      "rejectionReason": null,
+      "asin": "B09XS7JWHH",
+      "canonicalUrl": "https://www.amazon.in/dp/B09XS7JWHH",
+      "imageStatus": "VERIFIED_EXACT",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "price": 29990,
+      "priceStatus": "VALID",
+      "action": "WOULD_CREATE_OR_UPDATE"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.643Z",
+      "targetName": "Sony WH-1000XM5",
+      "targetCategory": "headphones",
+      "candidateTitle": "Sony WH-1000XM5 Headphones (Unsplash Image)",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 100,
+      "matchStatus": "REJECTED",
+      "rejectionReason": "IMAGE_UNVERIFIED (GENERIC)",
+      "asin": "B09XS7JWHH",
+      "canonicalUrl": "https://www.amazon.in/dp/B09XS7JWHH",
+      "imageStatus": "GENERIC",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+      "price": 29990,
+      "priceStatus": "VALID",
+      "action": "NO_ACTION"
+    },
+    {
+      "timestamp": "2026-09-10T19:53:06.643Z",
+      "targetName": "Apple Watch Series 9",
+      "targetCategory": "smartwatch",
+      "candidateTitle": "Apple Watch Series 9 GPS 45mm Aluminum Case",
+      "candidateMarketplace": "Amazon India",
+      "matchScore": 0,
+      "matchStatus": "REJECTED",
+      "rejectionReason": "ACCESSORY_REJECTED",
+      "asin": null,
+      "canonicalUrl": null,
+      "imageStatus": "IMAGE_UNVERIFIED",
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=801",
+      "price": 41900,
+      "priceStatus": "INVALID",
+      "action": "NO_ACTION"
+    }
+  ]
+}

@@ -1,0 +1,5558 @@
+{
+  "timestamp": "2026-09-21T19:24:05.964Z",
+  "totalOffersScanned": 1181,
+  "validOffersCount": 626,
+  "invalidOffersCount": 555,
+  "invalidOfferDetails": [
+    {
+      "_id": "6aa06055af8879d815dca4ba",
+      "productId": "6a9904e369652590e0aadbea",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP1",
+      "price": 66400
+    },
+    {
+      "_id": "6aa06055af8879d815dca4c0",
+      "productId": "6a9904e369652590e0aadbea",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2017%20Pro%20Max",
+      "price": 65900
+    },
+    {
+      "_id": "6aa06055af8879d815dca4c6",
+      "productId": "6a9904e369652590e0aadbea",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2017%20Pro%20Max",
+      "price": 66400
+    },
+    {
+      "_id": "6aa06055af8879d815dca4ce",
+      "productId": "6a9904e369652590e0aadbec",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP2",
+      "price": 78900
+    },
+    {
+      "_id": "6aa06055af8879d815dca4d4",
+      "productId": "6a9904e369652590e0aadbec",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2017%20Pro",
+      "price": 78400
+    },
+    {
+      "_id": "6aa06055af8879d815dca4da",
+      "productId": "6a9904e369652590e0aadbec",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2017%20Pro",
+      "price": 78900
+    },
+    {
+      "_id": "6aa06055af8879d815dca4e2",
+      "productId": "6a9904e369652590e0aadbee",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP3",
+      "price": 91400
+    },
+    {
+      "_id": "6aa06055af8879d815dca4e8",
+      "productId": "6a9904e369652590e0aadbee",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2017",
+      "price": 90900
+    },
+    {
+      "_id": "6aa06056af8879d815dca4ee",
+      "productId": "6a9904e369652590e0aadbee",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2017",
+      "price": 91400
+    },
+    {
+      "_id": "6aa06056af8879d815dca4f7",
+      "productId": "6aa06056af8879d815dca4f4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP4",
+      "price": 103900
+    },
+    {
+      "_id": "6aa06056af8879d815dca4fd",
+      "productId": "6aa06056af8879d815dca4f4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2016%20Pro%20Max",
+      "price": 103400
+    },
+    {
+      "_id": "6aa06056af8879d815dca503",
+      "productId": "6aa06056af8879d815dca4f4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2016%20Pro%20Max",
+      "price": 103900
+    },
+    {
+      "_id": "6aa06056af8879d815dca50c",
+      "productId": "6aa06056af8879d815dca509",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP5",
+      "price": 116400
+    },
+    {
+      "_id": "6aa06056af8879d815dca512",
+      "productId": "6aa06056af8879d815dca509",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2016%20Pro",
+      "price": 115900
+    },
+    {
+      "_id": "6aa06056af8879d815dca518",
+      "productId": "6aa06056af8879d815dca509",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2016%20Pro",
+      "price": 116400
+    },
+    {
+      "_id": "6aa06056af8879d815dca521",
+      "productId": "6aa06056af8879d815dca51e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP6",
+      "price": 128900
+    },
+    {
+      "_id": "6aa06056af8879d815dca527",
+      "productId": "6aa06056af8879d815dca51e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2016",
+      "price": 128400
+    },
+    {
+      "_id": "6aa06056af8879d815dca52d",
+      "productId": "6aa06056af8879d815dca51e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2016",
+      "price": 128900
+    },
+    {
+      "_id": "6aa06056af8879d815dca536",
+      "productId": "6aa06056af8879d815dca533",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP7",
+      "price": 141400
+    },
+    {
+      "_id": "6aa06056af8879d815dca53c",
+      "productId": "6aa06056af8879d815dca533",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2016%20Plus",
+      "price": 140900
+    },
+    {
+      "_id": "6aa06056af8879d815dca542",
+      "productId": "6aa06056af8879d815dca533",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2016%20Plus",
+      "price": 141400
+    },
+    {
+      "_id": "6aa06056af8879d815dca54a",
+      "productId": "6a9904e369652590e0aadbf2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP8",
+      "price": 153900
+    },
+    {
+      "_id": "6aa06056af8879d815dca550",
+      "productId": "6a9904e369652590e0aadbf2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2016e",
+      "price": 153400
+    },
+    {
+      "_id": "6aa06056af8879d815dca556",
+      "productId": "6a9904e369652590e0aadbf2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2016e",
+      "price": 153900
+    },
+    {
+      "_id": "6aa06056af8879d815dca55f",
+      "productId": "6aa06056af8879d815dca55c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP9",
+      "price": 166400
+    },
+    {
+      "_id": "6aa06056af8879d815dca565",
+      "productId": "6aa06056af8879d815dca55c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2015%20Pro%20Max",
+      "price": 165900
+    },
+    {
+      "_id": "6aa06056af8879d815dca56b",
+      "productId": "6aa06056af8879d815dca55c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2015%20Pro%20Max",
+      "price": 166400
+    },
+    {
+      "_id": "6aa06056af8879d815dca574",
+      "productId": "6aa06056af8879d815dca571",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP10",
+      "price": 178900
+    },
+    {
+      "_id": "6aa06056af8879d815dca57a",
+      "productId": "6aa06056af8879d815dca571",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2015%20Pro",
+      "price": 178400
+    },
+    {
+      "_id": "6aa06056af8879d815dca580",
+      "productId": "6aa06056af8879d815dca571",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2015%20Pro",
+      "price": 178900
+    },
+    {
+      "_id": "6aa06056af8879d815dca589",
+      "productId": "6aa06056af8879d815dca586",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP11",
+      "price": 191400
+    },
+    {
+      "_id": "6aa06056af8879d815dca58f",
+      "productId": "6aa06056af8879d815dca586",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2015",
+      "price": 190900
+    },
+    {
+      "_id": "6aa06056af8879d815dca595",
+      "productId": "6aa06056af8879d815dca586",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2015",
+      "price": 191400
+    },
+    {
+      "_id": "6aa06056af8879d815dca59e",
+      "productId": "6aa06056af8879d815dca59b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP12",
+      "price": 203900
+    },
+    {
+      "_id": "6aa06056af8879d815dca5a4",
+      "productId": "6aa06056af8879d815dca59b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2015%20Plus",
+      "price": 203400
+    },
+    {
+      "_id": "6aa06056af8879d815dca5aa",
+      "productId": "6aa06056af8879d815dca59b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20iPhone%2015%20Plus",
+      "price": 203900
+    },
+    {
+      "_id": "6aa06056af8879d815dca5b3",
+      "productId": "6aa06056af8879d815dca5b0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP13",
+      "price": 45499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5b9",
+      "productId": "6aa06056af8879d815dca5b0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%20Ultra",
+      "price": 44999
+    },
+    {
+      "_id": "6aa06056af8879d815dca5bf",
+      "productId": "6aa06056af8879d815dca5b0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S25%20Ultra",
+      "price": 45499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5c8",
+      "productId": "6aa06056af8879d815dca5c5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP14",
+      "price": 57999
+    },
+    {
+      "_id": "6aa06056af8879d815dca5ce",
+      "productId": "6aa06056af8879d815dca5c5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%2B",
+      "price": 57499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5d4",
+      "productId": "6aa06056af8879d815dca5c5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S25%2B",
+      "price": 57999
+    },
+    {
+      "_id": "6aa06056af8879d815dca5dd",
+      "productId": "6aa06056af8879d815dca5da",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP15",
+      "price": 70499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5e3",
+      "productId": "6aa06056af8879d815dca5da",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25",
+      "price": 69999
+    },
+    {
+      "_id": "6aa06056af8879d815dca5e9",
+      "productId": "6aa06056af8879d815dca5da",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S25",
+      "price": 70499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5f2",
+      "productId": "6aa06056af8879d815dca5ef",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP16",
+      "price": 82999
+    },
+    {
+      "_id": "6aa06056af8879d815dca5f8",
+      "productId": "6aa06056af8879d815dca5ef",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24%20Ultra",
+      "price": 82499
+    },
+    {
+      "_id": "6aa06056af8879d815dca5fe",
+      "productId": "6aa06056af8879d815dca5ef",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S24%20Ultra",
+      "price": 82999
+    },
+    {
+      "_id": "6aa06056af8879d815dca607",
+      "productId": "6aa06056af8879d815dca604",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP17",
+      "price": 95499
+    },
+    {
+      "_id": "6aa06056af8879d815dca60d",
+      "productId": "6aa06056af8879d815dca604",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24%2B",
+      "price": 94999
+    },
+    {
+      "_id": "6aa06056af8879d815dca613",
+      "productId": "6aa06056af8879d815dca604",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S24%2B",
+      "price": 95499
+    },
+    {
+      "_id": "6aa06056af8879d815dca61c",
+      "productId": "6aa06056af8879d815dca619",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP18",
+      "price": 107999
+    },
+    {
+      "_id": "6aa06056af8879d815dca622",
+      "productId": "6aa06056af8879d815dca619",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24",
+      "price": 107499
+    },
+    {
+      "_id": "6aa06056af8879d815dca628",
+      "productId": "6aa06056af8879d815dca619",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S24",
+      "price": 107999
+    },
+    {
+      "_id": "6aa06056af8879d815dca630",
+      "productId": "6a9904e369652590e0aadc00",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP19",
+      "price": 120499
+    },
+    {
+      "_id": "6aa06056af8879d815dca636",
+      "productId": "6a9904e369652590e0aadc00",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Fold%206",
+      "price": 119999
+    },
+    {
+      "_id": "6aa06056af8879d815dca63c",
+      "productId": "6a9904e369652590e0aadc00",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20Z%20Fold%206",
+      "price": 120499
+    },
+    {
+      "_id": "6aa06056af8879d815dca644",
+      "productId": "6a9904e369652590e0aadc02",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP20",
+      "price": 132999
+    },
+    {
+      "_id": "6aa06056af8879d815dca64a",
+      "productId": "6a9904e369652590e0aadc02",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Flip%206",
+      "price": 132499
+    },
+    {
+      "_id": "6aa06056af8879d815dca650",
+      "productId": "6a9904e369652590e0aadc02",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20Z%20Flip%206",
+      "price": 132999
+    },
+    {
+      "_id": "6aa06056af8879d815dca659",
+      "productId": "6aa06056af8879d815dca656",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP21",
+      "price": 145499
+    },
+    {
+      "_id": "6aa06056af8879d815dca65f",
+      "productId": "6aa06056af8879d815dca656",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S23%20FE",
+      "price": 144999
+    },
+    {
+      "_id": "6aa06056af8879d815dca665",
+      "productId": "6aa06056af8879d815dca656",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20S23%20FE",
+      "price": 145499
+    },
+    {
+      "_id": "6aa06056af8879d815dca66d",
+      "productId": "6a9904e369652590e0aadc04",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP22",
+      "price": 157999
+    },
+    {
+      "_id": "6aa06056af8879d815dca673",
+      "productId": "6a9904e369652590e0aadc04",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A55%205G",
+      "price": 157499
+    },
+    {
+      "_id": "6aa06056af8879d815dca679",
+      "productId": "6a9904e369652590e0aadc04",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20A55%205G",
+      "price": 157999
+    },
+    {
+      "_id": "6aa06056af8879d815dca682",
+      "productId": "6aa06056af8879d815dca67f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP23",
+      "price": 36499
+    },
+    {
+      "_id": "6aa06056af8879d815dca688",
+      "productId": "6aa06056af8879d815dca67f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%2013",
+      "price": 35999
+    },
+    {
+      "_id": "6aa06056af8879d815dca68e",
+      "productId": "6aa06056af8879d815dca67f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%2013",
+      "price": 36499
+    },
+    {
+      "_id": "6aa06056af8879d815dca697",
+      "productId": "6aa06056af8879d815dca694",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP24",
+      "price": 48999
+    },
+    {
+      "_id": "6aa06056af8879d815dca69d",
+      "productId": "6aa06056af8879d815dca694",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%2012",
+      "price": 48499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6a3",
+      "productId": "6aa06056af8879d815dca694",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%2012",
+      "price": 48999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6ac",
+      "productId": "6aa06056af8879d815dca6a9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP25",
+      "price": 61499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6b2",
+      "productId": "6aa06056af8879d815dca6a9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%2012R",
+      "price": 60999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6b8",
+      "productId": "6aa06056af8879d815dca6a9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%2012R",
+      "price": 61499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6c1",
+      "productId": "6aa06056af8879d815dca6be",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP26",
+      "price": 73999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6c7",
+      "productId": "6aa06056af8879d815dca6be",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%20Nord%204",
+      "price": 73499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6cd",
+      "productId": "6aa06056af8879d815dca6be",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%20Nord%204",
+      "price": 73999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6d6",
+      "productId": "6aa06056af8879d815dca6d3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP27",
+      "price": 86499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6dc",
+      "productId": "6aa06056af8879d815dca6d3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%20Nord%20CE%204",
+      "price": 85999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6e2",
+      "productId": "6aa06056af8879d815dca6d3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%20Nord%20CE%204",
+      "price": 86499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6eb",
+      "productId": "6aa06056af8879d815dca6e8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP28",
+      "price": 58999
+    },
+    {
+      "_id": "6aa06056af8879d815dca6f1",
+      "productId": "6aa06056af8879d815dca6e8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%209%20Pro%20XL",
+      "price": 58499
+    },
+    {
+      "_id": "6aa06056af8879d815dca6f7",
+      "productId": "6aa06056af8879d815dca6e8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%209%20Pro%20XL",
+      "price": 58999
+    },
+    {
+      "_id": "6aa06056af8879d815dca700",
+      "productId": "6aa06056af8879d815dca6fd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP29",
+      "price": 71499
+    },
+    {
+      "_id": "6aa06056af8879d815dca706",
+      "productId": "6aa06056af8879d815dca6fd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%209%20Pro",
+      "price": 70999
+    },
+    {
+      "_id": "6aa06056af8879d815dca70c",
+      "productId": "6aa06056af8879d815dca6fd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%209%20Pro",
+      "price": 71499
+    },
+    {
+      "_id": "6aa06056af8879d815dca715",
+      "productId": "6aa06056af8879d815dca712",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP30",
+      "price": 83999
+    },
+    {
+      "_id": "6aa06056af8879d815dca71b",
+      "productId": "6aa06056af8879d815dca712",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%209",
+      "price": 83499
+    },
+    {
+      "_id": "6aa06056af8879d815dca721",
+      "productId": "6aa06056af8879d815dca712",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%209",
+      "price": 83999
+    },
+    {
+      "_id": "6aa06056af8879d815dca72a",
+      "productId": "6aa06056af8879d815dca727",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP31",
+      "price": 96499
+    },
+    {
+      "_id": "6aa06056af8879d815dca730",
+      "productId": "6aa06056af8879d815dca727",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%208a",
+      "price": 95999
+    },
+    {
+      "_id": "6aa06056af8879d815dca736",
+      "productId": "6aa06056af8879d815dca727",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%208a",
+      "price": 96499
+    },
+    {
+      "_id": "6aa06056af8879d815dca73f",
+      "productId": "6aa06056af8879d815dca73c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP32",
+      "price": 108999
+    },
+    {
+      "_id": "6aa06056af8879d815dca745",
+      "productId": "6aa06056af8879d815dca73c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%208%20Pro",
+      "price": 108499
+    },
+    {
+      "_id": "6aa06056af8879d815dca74b",
+      "productId": "6aa06056af8879d815dca73c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%208%20Pro",
+      "price": 108999
+    },
+    {
+      "_id": "6aa06056af8879d815dca754",
+      "productId": "6aa06056af8879d815dca751",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP33",
+      "price": 34499
+    },
+    {
+      "_id": "6aa06056af8879d815dca75a",
+      "productId": "6aa06056af8879d815dca751",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%2015%20Pro",
+      "price": 33999
+    },
+    {
+      "_id": "6aa06056af8879d815dca760",
+      "productId": "6aa06056af8879d815dca751",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%2015%20Pro",
+      "price": 34499
+    },
+    {
+      "_id": "6aa06056af8879d815dca769",
+      "productId": "6aa06056af8879d815dca766",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP34",
+      "price": 46999
+    },
+    {
+      "_id": "6aa06056af8879d815dca76f",
+      "productId": "6aa06056af8879d815dca766",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%2014%20Ultra",
+      "price": 46499
+    },
+    {
+      "_id": "6aa06056af8879d815dca775",
+      "productId": "6aa06056af8879d815dca766",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%2014%20Ultra",
+      "price": 46999
+    },
+    {
+      "_id": "6aa06056af8879d815dca77e",
+      "productId": "6aa06056af8879d815dca77b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP35",
+      "price": 59499
+    },
+    {
+      "_id": "6aa06056af8879d815dca784",
+      "productId": "6aa06056af8879d815dca77b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%2014",
+      "price": 58999
+    },
+    {
+      "_id": "6aa06056af8879d815dca78a",
+      "productId": "6aa06056af8879d815dca77b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%2014",
+      "price": 59499
+    },
+    {
+      "_id": "6aa06056af8879d815dca793",
+      "productId": "6aa06056af8879d815dca790",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP36",
+      "price": 71999
+    },
+    {
+      "_id": "6aa06056af8879d815dca799",
+      "productId": "6aa06056af8879d815dca790",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%2013%20Pro%2B%205G",
+      "price": 71499
+    },
+    {
+      "_id": "6aa06056af8879d815dca79f",
+      "productId": "6aa06056af8879d815dca790",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%20Redmi%20Note%2013%20Pro%2B%205G",
+      "price": 71999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7a8",
+      "productId": "6aa06056af8879d815dca7a5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP37",
+      "price": 84499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7ae",
+      "productId": "6aa06056af8879d815dca7a5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%2013%205G",
+      "price": 83999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7b4",
+      "productId": "6aa06056af8879d815dca7a5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%20Redmi%20Note%2013%205G",
+      "price": 84499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7bd",
+      "productId": "6aa06056af8879d815dca7ba",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP38",
+      "price": 42999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7c3",
+      "productId": "6aa06056af8879d815dca7ba",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nothing%20Phone%20(2a)",
+      "price": 42499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7c9",
+      "productId": "6aa06056af8879d815dca7ba",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nothing%20Phone%20(2a)",
+      "price": 42999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7d2",
+      "productId": "6aa06056af8879d815dca7cf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP39",
+      "price": 55499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7d8",
+      "productId": "6aa06056af8879d815dca7cf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nothing%20Phone%20(2)",
+      "price": 54999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7de",
+      "productId": "6aa06056af8879d815dca7cf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nothing%20Phone%20(2)",
+      "price": 55499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7e7",
+      "productId": "6aa06056af8879d815dca7e4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP40",
+      "price": 67999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7ed",
+      "productId": "6aa06056af8879d815dca7e4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nothing%20Phone%20(1)",
+      "price": 67499
+    },
+    {
+      "_id": "6aa06056af8879d815dca7f3",
+      "productId": "6aa06056af8879d815dca7e4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nothing%20Phone%20(1)",
+      "price": 67999
+    },
+    {
+      "_id": "6aa06056af8879d815dca7fc",
+      "productId": "6aa06056af8879d815dca7f9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP41",
+      "price": 50499
+    },
+    {
+      "_id": "6aa06056af8879d815dca802",
+      "productId": "6aa06056af8879d815dca7f9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%20GT%206",
+      "price": 49999
+    },
+    {
+      "_id": "6aa06056af8879d815dca808",
+      "productId": "6aa06056af8879d815dca7f9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Realme%20GT%206",
+      "price": 50499
+    },
+    {
+      "_id": "6aa06056af8879d815dca811",
+      "productId": "6aa06056af8879d815dca80e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP42",
+      "price": 62999
+    },
+    {
+      "_id": "6aa06056af8879d815dca817",
+      "productId": "6aa06056af8879d815dca80e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%20GT%206T",
+      "price": 62499
+    },
+    {
+      "_id": "6aa06056af8879d815dca81d",
+      "productId": "6aa06056af8879d815dca80e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Realme%20GT%206T",
+      "price": 62999
+    },
+    {
+      "_id": "6aa06056af8879d815dca826",
+      "productId": "6aa06056af8879d815dca823",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP43",
+      "price": 75499
+    },
+    {
+      "_id": "6aa06056af8879d815dca82c",
+      "productId": "6aa06056af8879d815dca823",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%2013%20Pro%2B%205G",
+      "price": 74999
+    },
+    {
+      "_id": "6aa06056af8879d815dca832",
+      "productId": "6aa06056af8879d815dca823",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Realme%2013%20Pro%2B%205G",
+      "price": 75499
+    },
+    {
+      "_id": "6aa06056af8879d815dca83b",
+      "productId": "6aa06056af8879d815dca838",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP44",
+      "price": 87999
+    },
+    {
+      "_id": "6aa06056af8879d815dca841",
+      "productId": "6aa06056af8879d815dca838",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%2012%20Pro%2B%205G",
+      "price": 87499
+    },
+    {
+      "_id": "6aa06056af8879d815dca847",
+      "productId": "6aa06056af8879d815dca838",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Realme%2012%20Pro%2B%205G",
+      "price": 87999
+    },
+    {
+      "_id": "6aa06056af8879d815dca850",
+      "productId": "6aa06056af8879d815dca84d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP45",
+      "price": 45499
+    },
+    {
+      "_id": "6aa06056af8879d815dca856",
+      "productId": "6aa06056af8879d815dca84d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Motorola%20Edge%2050%20Ultra",
+      "price": 44999
+    },
+    {
+      "_id": "6aa06056af8879d815dca85c",
+      "productId": "6aa06056af8879d815dca84d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Motorola%20Edge%2050%20Ultra",
+      "price": 45499
+    },
+    {
+      "_id": "6aa06056af8879d815dca865",
+      "productId": "6aa06056af8879d815dca862",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP46",
+      "price": 57999
+    },
+    {
+      "_id": "6aa06056af8879d815dca86b",
+      "productId": "6aa06056af8879d815dca862",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Motorola%20Edge%2050%20Pro",
+      "price": 57499
+    },
+    {
+      "_id": "6aa06056af8879d815dca871",
+      "productId": "6aa06056af8879d815dca862",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Motorola%20Edge%2050%20Pro",
+      "price": 57999
+    },
+    {
+      "_id": "6aa06056af8879d815dca87a",
+      "productId": "6aa06056af8879d815dca877",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP47",
+      "price": 70499
+    },
+    {
+      "_id": "6aa06056af8879d815dca880",
+      "productId": "6aa06056af8879d815dca877",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Motorola%20Edge%2050%20Fusion",
+      "price": 69999
+    },
+    {
+      "_id": "6aa06056af8879d815dca886",
+      "productId": "6aa06056af8879d815dca877",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Motorola%20Edge%2050%20Fusion",
+      "price": 70499
+    },
+    {
+      "_id": "6aa06056af8879d815dca88f",
+      "productId": "6aa06056af8879d815dca88c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP48",
+      "price": 82999
+    },
+    {
+      "_id": "6aa06056af8879d815dca895",
+      "productId": "6aa06056af8879d815dca88c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Motorola%20Razr%2050%20Ultra",
+      "price": 82499
+    },
+    {
+      "_id": "6aa06056af8879d815dca89b",
+      "productId": "6aa06056af8879d815dca88c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Motorola%20Razr%2050%20Ultra",
+      "price": 82999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8a4",
+      "productId": "6aa06056af8879d815dca8a1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP49",
+      "price": 46499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8aa",
+      "productId": "6aa06056af8879d815dca8a1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=iQOO%2013",
+      "price": 45999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8b0",
+      "productId": "6aa06056af8879d815dca8a1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=iQOO%2013",
+      "price": 46499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8b9",
+      "productId": "6aa06056af8879d815dca8b6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP50",
+      "price": 58999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8bf",
+      "productId": "6aa06056af8879d815dca8b6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=iQOO%2012",
+      "price": 58499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8c5",
+      "productId": "6aa06056af8879d815dca8b6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=iQOO%2012",
+      "price": 58999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8ce",
+      "productId": "6aa06056af8879d815dca8cb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP51",
+      "price": 71499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8d4",
+      "productId": "6aa06056af8879d815dca8cb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=iQOO%20Neo%209%20Pro",
+      "price": 70999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8da",
+      "productId": "6aa06056af8879d815dca8cb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=iQOO%20Neo%209%20Pro",
+      "price": 71499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8e3",
+      "productId": "6aa06056af8879d815dca8e0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP52",
+      "price": 83999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8e9",
+      "productId": "6aa06056af8879d815dca8e0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=iQOO%20Z9%20Turbo",
+      "price": 83499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8ef",
+      "productId": "6aa06056af8879d815dca8e0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=iQOO%20Z9%20Turbo",
+      "price": 83999
+    },
+    {
+      "_id": "6aa06056af8879d815dca8f8",
+      "productId": "6aa06056af8879d815dca8f5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP53",
+      "price": 68499
+    },
+    {
+      "_id": "6aa06056af8879d815dca8fe",
+      "productId": "6aa06056af8879d815dca8f5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Vivo%20X100%20Pro",
+      "price": 67999
+    },
+    {
+      "_id": "6aa06056af8879d815dca904",
+      "productId": "6aa06056af8879d815dca8f5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Vivo%20X100%20Pro",
+      "price": 68499
+    },
+    {
+      "_id": "6aa06056af8879d815dca90d",
+      "productId": "6aa06056af8879d815dca90a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP54",
+      "price": 80999
+    },
+    {
+      "_id": "6aa06056af8879d815dca913",
+      "productId": "6aa06056af8879d815dca90a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Vivo%20V40%20Pro",
+      "price": 80499
+    },
+    {
+      "_id": "6aa06056af8879d815dca919",
+      "productId": "6aa06056af8879d815dca90a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Vivo%20V40%20Pro",
+      "price": 80999
+    },
+    {
+      "_id": "6aa06056af8879d815dca922",
+      "productId": "6aa06056af8879d815dca91f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SP55",
+      "price": 93499
+    },
+    {
+      "_id": "6aa06056af8879d815dca928",
+      "productId": "6aa06056af8879d815dca91f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Vivo%20V30%20Pro",
+      "price": 92999
+    },
+    {
+      "_id": "6aa06056af8879d815dca92e",
+      "productId": "6aa06056af8879d815dca91f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Vivo%20V30%20Pro",
+      "price": 93499
+    },
+    {
+      "_id": "6aa06056af8879d815dca937",
+      "productId": "6aa06056af8879d815dca934",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP1",
+      "price": 90700
+    },
+    {
+      "_id": "6aa06056af8879d815dca93d",
+      "productId": "6aa06056af8879d815dca934",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Apple%20MacBook%20Air%2013%20M3",
+      "price": 90700
+    },
+    {
+      "_id": "6aa06056af8879d815dca946",
+      "productId": "6aa06056af8879d815dca943",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP2",
+      "price": 106500
+    },
+    {
+      "_id": "6aa06056af8879d815dca94c",
+      "productId": "6aa06056af8879d815dca943",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Apple%20MacBook%20Air%2015%20M3",
+      "price": 106500
+    },
+    {
+      "_id": "6aa06056af8879d815dca955",
+      "productId": "6aa06056af8879d815dca952",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP3",
+      "price": 122300
+    },
+    {
+      "_id": "6aa06056af8879d815dca95b",
+      "productId": "6aa06056af8879d815dca952",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Apple%20MacBook%20Pro%2014%20M3%20Pro",
+      "price": 122300
+    },
+    {
+      "_id": "6aa06056af8879d815dca964",
+      "productId": "6aa06056af8879d815dca961",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP4",
+      "price": 138100
+    },
+    {
+      "_id": "6aa06056af8879d815dca96a",
+      "productId": "6aa06056af8879d815dca961",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Apple%20MacBook%20Pro%2016%20M3%20Max",
+      "price": 138100
+    },
+    {
+      "_id": "6aa06056af8879d815dca973",
+      "productId": "6aa06056af8879d815dca970",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP5",
+      "price": 153900
+    },
+    {
+      "_id": "6aa06056af8879d815dca979",
+      "productId": "6aa06056af8879d815dca970",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Apple%20MacBook%20Air%2013%20M2",
+      "price": 153900
+    },
+    {
+      "_id": "6aa06056af8879d815dca982",
+      "productId": "6aa06056af8879d815dca97f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP6",
+      "price": 49790
+    },
+    {
+      "_id": "6aa06056af8879d815dca988",
+      "productId": "6aa06056af8879d815dca97f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20XPS%2013%20Touch",
+      "price": 49790
+    },
+    {
+      "_id": "6aa06056af8879d815dca991",
+      "productId": "6aa06056af8879d815dca98e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP7",
+      "price": 65590
+    },
+    {
+      "_id": "6aa06056af8879d815dca997",
+      "productId": "6aa06056af8879d815dca98e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20XPS%2014%20OLED",
+      "price": 65590
+    },
+    {
+      "_id": "6aa06056af8879d815dca9a0",
+      "productId": "6aa06056af8879d815dca99d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP8",
+      "price": 81390
+    },
+    {
+      "_id": "6aa06056af8879d815dca9a6",
+      "productId": "6aa06056af8879d815dca99d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20XPS%2016%20OLED",
+      "price": 81390
+    },
+    {
+      "_id": "6aa06056af8879d815dca9ae",
+      "productId": "6a9904e369652590e0aadc76",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP9",
+      "price": 97190
+    },
+    {
+      "_id": "6aa06056af8879d815dca9b4",
+      "productId": "6a9904e369652590e0aadc76",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20Inspiron%2015%203520",
+      "price": 97190
+    },
+    {
+      "_id": "6aa06056af8879d815dca9bd",
+      "productId": "6aa06056af8879d815dca9ba",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP10",
+      "price": 112990
+    },
+    {
+      "_id": "6aa06056af8879d815dca9c3",
+      "productId": "6aa06056af8879d815dca9ba",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20Latitude%207440",
+      "price": 112990
+    },
+    {
+      "_id": "6aa06056af8879d815dca9cc",
+      "productId": "6aa06056af8879d815dca9c9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP11",
+      "price": 128790
+    },
+    {
+      "_id": "6aa06056af8879d815dca9d2",
+      "productId": "6aa06056af8879d815dca9c9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Dell%20Alienware%20m18%20R2",
+      "price": 128790
+    },
+    {
+      "_id": "6aa06056af8879d815dca9db",
+      "productId": "6aa06056af8879d815dca9d8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP12",
+      "price": 64590
+    },
+    {
+      "_id": "6aa06056af8879d815dca9e1",
+      "productId": "6aa06056af8879d815dca9d8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=HP%20Spectre%20x360%2014",
+      "price": 64590
+    },
+    {
+      "_id": "6aa06056af8879d815dca9ea",
+      "productId": "6aa06056af8879d815dca9e7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP13",
+      "price": 80390
+    },
+    {
+      "_id": "6aa06056af8879d815dca9f0",
+      "productId": "6aa06056af8879d815dca9e7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=HP%20Envy%20x360%2015",
+      "price": 80390
+    },
+    {
+      "_id": "6aa06056af8879d815dca9f9",
+      "productId": "6aa06056af8879d815dca9f6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP14",
+      "price": 96190
+    },
+    {
+      "_id": "6aa06056af8879d815dca9ff",
+      "productId": "6aa06056af8879d815dca9f6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=HP%20Pavilion%20Plus%2014",
+      "price": 96190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa08",
+      "productId": "6aa06057af8879d815dcaa05",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP15",
+      "price": 111990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa0e",
+      "productId": "6aa06057af8879d815dcaa05",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=HP%20Omen%2016%20Gaming%20Laptop",
+      "price": 111990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa17",
+      "productId": "6aa06057af8879d815dcaa14",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP16",
+      "price": 127790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa1d",
+      "productId": "6aa06057af8879d815dcaa14",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=HP%20Victus%2016",
+      "price": 127790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa26",
+      "productId": "6aa06057af8879d815dcaa23",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP17",
+      "price": 66590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa2c",
+      "productId": "6aa06057af8879d815dcaa23",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Lenovo%20ThinkPad%20X1%20Carbon%20Gen%2012",
+      "price": 66590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa35",
+      "productId": "6aa06057af8879d815dcaa32",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP18",
+      "price": 82390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa3b",
+      "productId": "6aa06057af8879d815dcaa32",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Lenovo%20Yoga%209i%20Gen%209",
+      "price": 82390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa44",
+      "productId": "6aa06057af8879d815dcaa41",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP19",
+      "price": 98190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa4a",
+      "productId": "6aa06057af8879d815dcaa41",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Lenovo%20IdeaPad%20Slim%205",
+      "price": 98190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa53",
+      "productId": "6aa06057af8879d815dcaa50",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP20",
+      "price": 113990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa59",
+      "productId": "6aa06057af8879d815dcaa50",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Lenovo%20Legion%20Pro%207i",
+      "price": 113990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa62",
+      "productId": "6aa06057af8879d815dcaa5f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP21",
+      "price": 129790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa68",
+      "productId": "6aa06057af8879d815dcaa5f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Lenovo%20LOQ%2015%20Gaming",
+      "price": 129790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa71",
+      "productId": "6aa06057af8879d815dcaa6e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP22",
+      "price": 82590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa77",
+      "productId": "6aa06057af8879d815dcaa6e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=ASUS%20ROG%20Zephyrus%20G16",
+      "price": 82590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa80",
+      "productId": "6aa06057af8879d815dcaa7d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP23",
+      "price": 98390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa86",
+      "productId": "6aa06057af8879d815dcaa7d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=ASUS%20Zenbook%2014%20OLED",
+      "price": 98390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa8f",
+      "productId": "6aa06057af8879d815dcaa8c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP24",
+      "price": 114190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa95",
+      "productId": "6aa06057af8879d815dcaa8c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=ASUS%20Vivobook%20Pro%2015%20OLED",
+      "price": 114190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaa9d",
+      "productId": "6a9904e369652590e0aadcaa",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP25",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaaa3",
+      "productId": "6a9904e369652590e0aadcaa",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=ASUS%20TUF%20Gaming%20A15",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaaac",
+      "productId": "6aa06057af8879d815dcaaa9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP26",
+      "price": 145790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaab2",
+      "productId": "6aa06057af8879d815dcaaa9",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=ASUS%20ROG%20Strix%20SCAR%2018",
+      "price": 145790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaabb",
+      "productId": "6aa06057af8879d815dcaab8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP27",
+      "price": 64590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaac1",
+      "productId": "6aa06057af8879d815dcaab8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Acer%20Predator%20Helios%2016",
+      "price": 64590
+    },
+    {
+      "_id": "6aa06057af8879d815dcaaca",
+      "productId": "6aa06057af8879d815dcaac7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP28",
+      "price": 80390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaad0",
+      "productId": "6aa06057af8879d815dcaac7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Acer%20Swift%20Go%2014%20OLED",
+      "price": 80390
+    },
+    {
+      "_id": "6aa06057af8879d815dcaad9",
+      "productId": "6aa06057af8879d815dcaad6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP29",
+      "price": 96190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaadf",
+      "productId": "6aa06057af8879d815dcaad6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Acer%20Aspire%205",
+      "price": 96190
+    },
+    {
+      "_id": "6aa06057af8879d815dcaae8",
+      "productId": "6aa06057af8879d815dcaae5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP30",
+      "price": 111990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaaee",
+      "productId": "6aa06057af8879d815dcaae5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Acer%20Nitro%20V%2015",
+      "price": 111990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaaf7",
+      "productId": "6aa06057af8879d815dcaaf4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP31",
+      "price": 104790
+    },
+    {
+      "_id": "6aa06057af8879d815dcaafd",
+      "productId": "6aa06057af8879d815dcaaf4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=MSI%20Raider%20GE78%20HX",
+      "price": 104790
+    },
+    {
+      "_id": "6aa06057af8879d815dcab06",
+      "productId": "6aa06057af8879d815dcab03",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP32",
+      "price": 120590
+    },
+    {
+      "_id": "6aa06057af8879d815dcab0c",
+      "productId": "6aa06057af8879d815dcab03",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=MSI%20Stealth%2016%20Studio",
+      "price": 120590
+    },
+    {
+      "_id": "6aa06057af8879d815dcab15",
+      "productId": "6aa06057af8879d815dcab12",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP33",
+      "price": 136390
+    },
+    {
+      "_id": "6aa06057af8879d815dcab1b",
+      "productId": "6aa06057af8879d815dcab12",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=MSI%20Katana%2015",
+      "price": 136390
+    },
+    {
+      "_id": "6aa06057af8879d815dcab24",
+      "productId": "6aa06057af8879d815dcab21",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP34",
+      "price": 144190
+    },
+    {
+      "_id": "6aa06057af8879d815dcab2a",
+      "productId": "6aa06057af8879d815dcab21",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Microsoft%20Surface%20Laptop%207",
+      "price": 144190
+    },
+    {
+      "_id": "6aa06057af8879d815dcab33",
+      "productId": "6aa06057af8879d815dcab30",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00LP35",
+      "price": 159990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab39",
+      "productId": "6aa06057af8879d815dcab30",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.reliancedigital.in/search?q=Microsoft%20Surface%20Pro%2011",
+      "price": 159990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab42",
+      "productId": "6aa06057af8879d815dcab3f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV1",
+      "price": 319990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab48",
+      "productId": "6aa06057af8879d815dcab3f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%2065%22%20Neo%20QLED%208K%20(QN900D)",
+      "price": 319990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab51",
+      "productId": "6aa06057af8879d815dcab4e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV2",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab57",
+      "productId": "6aa06057af8879d815dcab4e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%2055%22%20The%20Frame%20TV%20QLED",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab60",
+      "productId": "6aa06057af8879d815dcab5d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV3",
+      "price": 199990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab66",
+      "productId": "6aa06057af8879d815dcab5d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%2065%22%20OLED%204K%20(S90D)",
+      "price": 199990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab6f",
+      "productId": "6aa06057af8879d815dcab6c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV4",
+      "price": 41990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab75",
+      "productId": "6aa06057af8879d815dcab6c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%2050%22%20Crystal%204K%20Vivid%20Pro",
+      "price": 41990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab7e",
+      "productId": "6aa06057af8879d815dcab7b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV5",
+      "price": 189990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab84",
+      "productId": "6aa06057af8879d815dcab7b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=LG%2065%22%20C4%204K%20Smart%20OLED%20TV",
+      "price": 189990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab8d",
+      "productId": "6aa06057af8879d815dcab8a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV6",
+      "price": 399990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab93",
+      "productId": "6aa06057af8879d815dcab8a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=LG%2077%22%20G4%20Gallery%20OLED%20TV",
+      "price": 399990
+    },
+    {
+      "_id": "6aa06057af8879d815dcab9c",
+      "productId": "6aa06057af8879d815dcab99",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV7",
+      "price": 72990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaba2",
+      "productId": "6aa06057af8879d815dcab99",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=LG%2055%22%20QNED83%204K%20TV",
+      "price": 72990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabab",
+      "productId": "6aa06057af8879d815dcaba8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV8",
+      "price": 31990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabb1",
+      "productId": "6aa06057af8879d815dcaba8",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=LG%2043%22%20UR7500%204K%20Smart%20TV",
+      "price": 31990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabba",
+      "productId": "6aa06057af8879d815dcabb7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV9",
+      "price": 269990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabc0",
+      "productId": "6aa06057af8879d815dcabb7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%2065%22%20Bravia%209%20QLED%20Mini-LED%204K%20TV",
+      "price": 269990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabc9",
+      "productId": "6aa06057af8879d815dcabc6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV10",
+      "price": 169990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabcf",
+      "productId": "6aa06057af8879d815dcabc6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%2055%22%20Bravia%20XR%20A90L%20OLED",
+      "price": 169990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabd8",
+      "productId": "6aa06057af8879d815dcabd5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV11",
+      "price": 94990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabde",
+      "productId": "6aa06057af8879d815dcabd5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%2065%22%20Bravia%203%204K%20LED%20Google%20TV",
+      "price": 94990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabe7",
+      "productId": "6aa06057af8879d815dcabe4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV12",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabed",
+      "productId": "6aa06057af8879d815dcabe4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%2050%22%20X74L%204K%20Smart%20TV",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabf6",
+      "productId": "6aa06057af8879d815dcabf3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV13",
+      "price": 64990
+    },
+    {
+      "_id": "6aa06057af8879d815dcabfc",
+      "productId": "6aa06057af8879d815dcabf3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=TCL%2055%22%20C845%20Mini-LED%204K%20TV",
+      "price": 64990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac05",
+      "productId": "6aa06057af8879d815dcac02",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV14",
+      "price": 54990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac0b",
+      "productId": "6aa06057af8879d815dcac02",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=TCL%2065%22%20P755%204K%20UHD%20TV",
+      "price": 54990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac14",
+      "productId": "6aa06057af8879d815dcac11",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV15",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac1a",
+      "productId": "6aa06057af8879d815dcac11",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Hisense%2065%22%20U8N%20Mini-LED%20TV",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac23",
+      "productId": "6aa06057af8879d815dcac20",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV16",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac29",
+      "productId": "6aa06057af8879d815dcac20",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Hisense%2055%22%20E7K%20Pro%20144Hz%20QLED",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac32",
+      "productId": "6aa06057af8879d815dcac2f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV17",
+      "price": 42999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac38",
+      "productId": "6aa06057af8879d815dcac2f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%2055%22%20TV%20U1S%204K",
+      "price": 42999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac41",
+      "productId": "6aa06057af8879d815dcac3e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV18",
+      "price": 36999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac47",
+      "productId": "6aa06057af8879d815dcac3e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%2055%22%20Smart%20TV%20X%20Pro%204K",
+      "price": 36999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac50",
+      "productId": "6aa06057af8879d815dcac4d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV19",
+      "price": 179990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac56",
+      "productId": "6aa06057af8879d815dcac4d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Panasonic%2055%22%20MZ2000%20OLED%20TV",
+      "price": 179990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac5f",
+      "productId": "6aa06057af8879d815dcac5c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV20",
+      "price": 69990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac65",
+      "productId": "6aa06057af8879d815dcac5c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Toshiba%2065%22%20M550%20Mini-LED%20TV",
+      "price": 69990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac6e",
+      "productId": "6aa06057af8879d815dcac6b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV21",
+      "price": 26999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac74",
+      "productId": "6aa06057af8879d815dcac6b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Xiaomi%2043%22%20Smart%20TV%20X%20Series%204K",
+      "price": 26999
+    },
+    {
+      "_id": "6aa06057af8879d815dcac7d",
+      "productId": "6aa06057af8879d815dcac7a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV22",
+      "price": 279990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac83",
+      "productId": "6aa06057af8879d815dcac7a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%2075%22%20QN85D%20Neo%20QLED%204K",
+      "price": 279990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac8c",
+      "productId": "6aa06057af8879d815dcac89",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV23",
+      "price": 599990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac92",
+      "productId": "6aa06057af8879d815dcac89",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=LG%2083%22%20OLED%20evo%20G3%204K%20TV",
+      "price": 599990
+    },
+    {
+      "_id": "6aa06057af8879d815dcac9b",
+      "productId": "6aa06057af8879d815dcac98",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV24",
+      "price": 349990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaca1",
+      "productId": "6aa06057af8879d815dcac98",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%2075%22%20Bravia%208%20OLED%204K%20TV",
+      "price": 349990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacaa",
+      "productId": "6aa06057af8879d815dcaca7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TV25",
+      "price": 139990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacb0",
+      "productId": "6aa06057af8879d815dcaca7",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=TCL%2075%22%20C755%20QD-Mini%20LED%204K",
+      "price": 139990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacb9",
+      "productId": "6aa06057af8879d815dcacb6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU1",
+      "price": 26990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacbf",
+      "productId": "6aa06057af8879d815dcacb6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20WH-1000XM5%20Wireless%20Noise%20Canceling%20Headphones",
+      "price": 26990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacc8",
+      "productId": "6aa06057af8879d815dcacc5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU2",
+      "price": 19990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacce",
+      "productId": "6aa06057af8879d815dcacc5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20WF-1000XM5%20TWS%20Earbuds",
+      "price": 19990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacd7",
+      "productId": "6aa06057af8879d815dcacd4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU3",
+      "price": 9990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacdd",
+      "productId": "6aa06057af8879d815dcacd4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20WH-CH720N%20Wireless%20ANC%20Headphones",
+      "price": 9990
+    },
+    {
+      "_id": "6aa06057af8879d815dcace6",
+      "productId": "6aa06057af8879d815dcace3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU4",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacec",
+      "productId": "6aa06057af8879d815dcace3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Bose%20QuietComfort%20Ultra%20Headphones",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacf5",
+      "productId": "6aa06057af8879d815dcacf2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU5",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcacfb",
+      "productId": "6aa06057af8879d815dcacf2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Bose%20QuietComfort%20Earbuds%20II",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcad04",
+      "productId": "6aa06057af8879d815dcad01",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU6",
+      "price": 13900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad0a",
+      "productId": "6aa06057af8879d815dcad01",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Bose%20SoundLink%20Flex%20Bluetooth%20Speaker",
+      "price": 13900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad13",
+      "productId": "6aa06057af8879d815dcad10",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU7",
+      "price": 59900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad19",
+      "productId": "6aa06057af8879d815dcad10",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20AirPods%20Max",
+      "price": 59900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad22",
+      "productId": "6aa06057af8879d815dcad1f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU8",
+      "price": 22900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad28",
+      "productId": "6aa06057af8879d815dcad1f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20AirPods%20Pro%202",
+      "price": 22900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad31",
+      "productId": "6aa06057af8879d815dcad2e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU9",
+      "price": 16900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad37",
+      "productId": "6aa06057af8879d815dcad2e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20AirPods%203",
+      "price": 16900
+    },
+    {
+      "_id": "6aa06057af8879d815dcad40",
+      "productId": "6aa06057af8879d815dcad3d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU10",
+      "price": 27990
+    },
+    {
+      "_id": "6aa06057af8879d815dcad46",
+      "productId": "6aa06057af8879d815dcad3d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sennheiser%20Momentum%204%20Wireless",
+      "price": 27990
+    },
+    {
+      "_id": "6aa06057af8879d815dcad4f",
+      "productId": "6aa06057af8879d815dcad4c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU11",
+      "price": 11990
+    },
+    {
+      "_id": "6aa06057af8879d815dcad55",
+      "productId": "6aa06057af8879d815dcad4c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sennheiser%20Accentum%20Wireless%20ANC",
+      "price": 11990
+    },
+    {
+      "_id": "6aa06057af8879d815dcad5e",
+      "productId": "6aa06057af8879d815dcad5b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU12",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad64",
+      "productId": "6aa06057af8879d815dcad5b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=JBL%20Tour%20One%20M2%20Headphones",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad6d",
+      "productId": "6aa06057af8879d815dcad6a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU13",
+      "price": 9999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad73",
+      "productId": "6aa06057af8879d815dcad6a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=JBL%20Live%20Pro%202%20TWS",
+      "price": 9999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad7c",
+      "productId": "6aa06057af8879d815dcad79",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU14",
+      "price": 14999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad82",
+      "productId": "6aa06057af8879d815dcad79",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=JBL%20Charge%205%20Bluetooth%20Speaker",
+      "price": 14999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad8b",
+      "productId": "6aa06057af8879d815dcad88",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU15",
+      "price": 7999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad91",
+      "productId": "6aa06057af8879d815dcad88",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nothing%20Ear%20(a)",
+      "price": 7999
+    },
+    {
+      "_id": "6aa06057af8879d815dcad9a",
+      "productId": "6aa06057af8879d815dcad97",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU16",
+      "price": 9999
+    },
+    {
+      "_id": "6aa06057af8879d815dcada0",
+      "productId": "6aa06057af8879d815dcad97",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nothing%20Ear%20(2)",
+      "price": 9999
+    },
+    {
+      "_id": "6aa06057af8879d815dcada9",
+      "productId": "6aa06057af8879d815dcada6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU17",
+      "price": 17990
+    },
+    {
+      "_id": "6aa06057af8879d815dcadaf",
+      "productId": "6aa06057af8879d815dcada6",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Audio-Technica%20ATH-M50xBT2",
+      "price": 17990
+    },
+    {
+      "_id": "6aa06057af8879d815dcadb8",
+      "productId": "6aa06057af8879d815dcadb5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU18",
+      "price": 24999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadbe",
+      "productId": "6aa06057af8879d815dcadb5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Marshall%20Monitor%20II%20ANC",
+      "price": 24999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadc7",
+      "productId": "6aa06057af8879d815dcadc4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU19",
+      "price": 14999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadcd",
+      "productId": "6aa06057af8879d815dcadc4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Marshall%20Emberton%20II%20Speaker",
+      "price": 14999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadd6",
+      "productId": "6aa06057af8879d815dcadd3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU20",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaddc",
+      "productId": "6aa06057af8879d815dcadd3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Buds3%20Pro",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcade5",
+      "productId": "6aa06057af8879d815dcade2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU21",
+      "price": 7999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadeb",
+      "productId": "6aa06057af8879d815dcade2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Buds%20FE",
+      "price": 7999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadf4",
+      "productId": "6aa06057af8879d815dcadf1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU22",
+      "price": 11999
+    },
+    {
+      "_id": "6aa06057af8879d815dcadfa",
+      "productId": "6aa06057af8879d815dcadf1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%20Buds%20Pro%203",
+      "price": 11999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae03",
+      "productId": "6aa06057af8879d815dcae00",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU23",
+      "price": 4999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae09",
+      "productId": "6aa06057af8879d815dcae00",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%20Buds%20Air%206%20Pro",
+      "price": 4999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae12",
+      "productId": "6aa06057af8879d815dcae0f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU24",
+      "price": 11999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae18",
+      "productId": "6aa06057af8879d815dcae0f",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Anker%20Soundcore%20Space%20Q45",
+      "price": 11999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae21",
+      "productId": "6aa06057af8879d815dcae1e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00AU25",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcae27",
+      "productId": "6aa06057af8879d815dcae1e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Shure%20AONIC%2050%20Gen%202",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcae30",
+      "productId": "6aa06057af8879d815dcae2d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW1",
+      "price": 89900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae36",
+      "productId": "6aa06057af8879d815dcae2d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20Watch%20Ultra%202",
+      "price": 89900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae3f",
+      "productId": "6aa06057af8879d815dcae3c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW2",
+      "price": 46900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae45",
+      "productId": "6aa06057af8879d815dcae3c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20Watch%20Series%2010",
+      "price": 46900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae4e",
+      "productId": "6aa06057af8879d815dcae4b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW3",
+      "price": 29900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae54",
+      "productId": "6aa06057af8879d815dcae4b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Apple%20Watch%20SE%20(2nd%20Gen)",
+      "price": 29900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae5d",
+      "productId": "6aa06057af8879d815dcae5a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW4",
+      "price": 59999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae63",
+      "productId": "6aa06057af8879d815dcae5a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%20Ultra",
+      "price": 59999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae6c",
+      "productId": "6aa06057af8879d815dcae69",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW5",
+      "price": 29999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae72",
+      "productId": "6aa06057af8879d815dcae69",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%207",
+      "price": 29999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae7b",
+      "productId": "6aa06057af8879d815dcae78",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW6",
+      "price": 24999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae81",
+      "productId": "6aa06057af8879d815dcae78",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%206%20Classic",
+      "price": 24999
+    },
+    {
+      "_id": "6aa06057af8879d815dcae8a",
+      "productId": "6aa06057af8879d815dcae87",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW7",
+      "price": 39900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae90",
+      "productId": "6aa06057af8879d815dcae87",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%20Watch%203",
+      "price": 39900
+    },
+    {
+      "_id": "6aa06057af8879d815dcae99",
+      "productId": "6aa06057af8879d815dcae96",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW8",
+      "price": 28990
+    },
+    {
+      "_id": "6aa06057af8879d815dcae9f",
+      "productId": "6aa06057af8879d815dcae96",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Google%20Pixel%20Watch%202",
+      "price": 28990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaea8",
+      "productId": "6aa06057af8879d815dcaea5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW9",
+      "price": 99990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaeae",
+      "productId": "6aa06057af8879d815dcaea5",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Garmin%20Fenix%208%20Sapphire%20AMOLED",
+      "price": 99990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaeb7",
+      "productId": "6aa06057af8879d815dcaeb4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW10",
+      "price": 50990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaebd",
+      "productId": "6aa06057af8879d815dcaeb4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Garmin%20Venu%203%20GPS%20Smartwatch",
+      "price": 50990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaec6",
+      "productId": "6aa06057af8879d815dcaec3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW11",
+      "price": 46990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaecc",
+      "productId": "6aa06057af8879d815dcaec3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Garmin%20Forerunner%20265",
+      "price": 46990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaed5",
+      "productId": "6aa06057af8879d815dcaed2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW12",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaedb",
+      "productId": "6aa06057af8879d815dcaed2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%20Watch%202",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaee4",
+      "productId": "6aa06057af8879d815dcaee1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW13",
+      "price": 15999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaeea",
+      "productId": "6aa06057af8879d815dcaee1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=OnePlus%20Watch%202R",
+      "price": 15999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaef3",
+      "productId": "6aa06057af8879d815dcaef0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW14",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaef9",
+      "productId": "6aa06057af8879d815dcaef0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Amazfit%20Balance",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf02",
+      "productId": "6aa06057af8879d815dcaeff",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW15",
+      "price": 22999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf08",
+      "productId": "6aa06057af8879d815dcaeff",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Amazfit%20Cheetah%20Pro",
+      "price": 22999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf11",
+      "productId": "6aa06057af8879d815dcaf0e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW16",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf17",
+      "productId": "6aa06057af8879d815dcaf0e",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Amazfit%20T-Rex%203",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf20",
+      "productId": "6aa06057af8879d815dcaf1d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW17",
+      "price": 21999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf26",
+      "productId": "6aa06057af8879d815dcaf1d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Fitbit%20Sense%202",
+      "price": 21999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf2f",
+      "productId": "6aa06057af8879d815dcaf2c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW18",
+      "price": 16999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf35",
+      "productId": "6aa06057af8879d815dcaf2c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Fitbit%20Versa%204",
+      "price": 16999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf3e",
+      "productId": "6aa06057af8879d815dcaf3b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW19",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf44",
+      "productId": "6aa06057af8879d815dcaf3b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Huawei%20Watch%20GT%204",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf4d",
+      "productId": "6aa06057af8879d815dcaf4a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW20",
+      "price": 3499
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf53",
+      "productId": "6aa06057af8879d815dcaf4a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=CMF%20Watch%20Pro%202%20by%20Nothing",
+      "price": 3499
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf5c",
+      "productId": "6aa06057af8879d815dcaf59",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW21",
+      "price": 4999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf62",
+      "productId": "6aa06057af8879d815dcaf59",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Realme%20Watch%20S2",
+      "price": 4999
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf6b",
+      "productId": "6aa06057af8879d815dcaf68",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00SW22",
+      "price": 8995
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf71",
+      "productId": "6aa06057af8879d815dcaf68",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Titan%20Celestial%20Smartwatch",
+      "price": 8995
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf7a",
+      "productId": "6aa06057af8879d815dcaf77",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN1",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf80",
+      "productId": "6aa06057af8879d815dcaf77",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Dell%20Alienware%2032%204K%20QD-OLED%20(AW3225QF)",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf89",
+      "productId": "6aa06057af8879d815dcaf86",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN2",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf8f",
+      "productId": "6aa06057af8879d815dcaf86",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Dell%20UltraSharp%2027%204K%20(U2724D)",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf98",
+      "productId": "6aa06057af8879d815dcaf95",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN3",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaf9e",
+      "productId": "6aa06057af8879d815dcaf95",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Dell%20Alienware%2027%20360Hz%20QD-OLED%20(AW2725DF)",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafa7",
+      "productId": "6aa06057af8879d815dcafa4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN4",
+      "price": 29990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafad",
+      "productId": "6aa06057af8879d815dcafa4",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Dell%2027%204K%20UHD%20Monitor%20(S2722QC)",
+      "price": 29990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafb6",
+      "productId": "6aa06057af8879d815dcafb3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN5",
+      "price": 79990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafbc",
+      "productId": "6aa06057af8879d815dcafb3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=LG%20UltraGear%2027%20240Hz%20OLED%20(27GR95QE)",
+      "price": 79990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafc5",
+      "productId": "6aa06057af8879d815dcafc2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN6",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafcb",
+      "productId": "6aa06057af8879d815dcafc2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=LG%20UltraGear%2034%20Curved%20OLED%20(34GS95QE)",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafd4",
+      "productId": "6aa06057af8879d815dcafd1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN7",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafda",
+      "productId": "6aa06057af8879d815dcafd1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=LG%20UltraFine%2027%204K%20IPS%20(27UP850)",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafe3",
+      "productId": "6aa06057af8879d815dcafe0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN8",
+      "price": 149990
+    },
+    {
+      "_id": "6aa06057af8879d815dcafe9",
+      "productId": "6aa06057af8879d815dcafe0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Samsung%20Odyssey%20OLED%20G9%2049%22",
+      "price": 149990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaff2",
+      "productId": "6aa06057af8879d815dcafef",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN9",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06057af8879d815dcaff8",
+      "productId": "6aa06057af8879d815dcafef",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Samsung%20Odyssey%20OLED%20G8%2032%22%204K%20240Hz",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb001",
+      "productId": "6aa06057af8879d815dcaffe",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN10",
+      "price": 49990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb007",
+      "productId": "6aa06057af8879d815dcaffe",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Samsung%20Smart%20Monitor%20M8%2032%22%204K",
+      "price": 49990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb010",
+      "productId": "6aa06057af8879d815dcb00d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN11",
+      "price": 134990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb016",
+      "productId": "6aa06057af8879d815dcb00d",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=ASUS%20ROG%20Swift%2032%204K%20OLED%20(PG32UCDM)",
+      "price": 134990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb01f",
+      "productId": "6aa06057af8879d815dcb01c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN12",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb025",
+      "productId": "6aa06057af8879d815dcb01c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=ASUS%20TUF%20Gaming%2027%20180Hz%20(VG27AQ3A)",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb02e",
+      "productId": "6aa06057af8879d815dcb02b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN13",
+      "price": 48990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb034",
+      "productId": "6aa06057af8879d815dcb02b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=ASUS%20ProArt%2027%204K%20(PA279CRV)",
+      "price": 48990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb03d",
+      "productId": "6aa06057af8879d815dcb03a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN14",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb043",
+      "productId": "6aa06057af8879d815dcb03a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=BenQ%20DesignVue%2032%204K%20(PD3220U)",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb04c",
+      "productId": "6aa06057af8879d815dcb049",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN15",
+      "price": 58990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb052",
+      "productId": "6aa06057af8879d815dcb049",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=BenQ%20ZOWIE%20XL2566K%20360Hz%20eSports",
+      "price": 58990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb05b",
+      "productId": "6aa06057af8879d815dcb058",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN16",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb061",
+      "productId": "6aa06057af8879d815dcb058",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=MSI%20MPG%2027%20360Hz%20QD-OLED%20(271QRX)",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb06a",
+      "productId": "6aa06057af8879d815dcb067",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN17",
+      "price": 22990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb070",
+      "productId": "6aa06057af8879d815dcb067",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=MSI%20MAG%2027%20180Hz%20WQHD%20(MAG274QRF)",
+      "price": 22990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb079",
+      "productId": "6aa06057af8879d815dcb076",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN18",
+      "price": 74990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb07f",
+      "productId": "6aa06057af8879d815dcb076",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=AOC%20AGON%20PRO%2027%20240Hz%20OLED",
+      "price": 74990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb088",
+      "productId": "6aa06057af8879d815dcb085",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN19",
+      "price": 139990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb08e",
+      "productId": "6aa06057af8879d815dcb085",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Gigabyte%20AORUS%20FO32U2P%204K%20OLED",
+      "price": 139990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb097",
+      "productId": "6aa06057af8879d815dcb094",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN20",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb09d",
+      "productId": "6aa06057af8879d815dcb094",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Gigabyte%20M27Q%2027%20170Hz%20QHD",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb0a6",
+      "productId": "6aa06057af8879d815dcb0a3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN21",
+      "price": 79990
+    },
+    {
+      "_id": "6aa06057af8879d815dcb0ac",
+      "productId": "6aa06057af8879d815dcb0a3",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=ViewSonic%20ColorEdge%2027%204K%20(VP2786-4K)",
+      "price": 79990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0b5",
+      "productId": "6aa06058af8879d815dcb0b2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00MN22",
+      "price": 23990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0bb",
+      "productId": "6aa06058af8879d815dcb0b2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.vijaysales.com/search?q=Lenovo%20Legion%20Y27q-30%20180Hz%20QHD",
+      "price": 23990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0c4",
+      "productId": "6aa06058af8879d815dcb0c1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB1",
+      "price": 129900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0ca",
+      "productId": "6aa06058af8879d815dcb0c1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%20Pro%2013-inch%20M4",
+      "price": 129900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0d3",
+      "productId": "6aa06058af8879d815dcb0d0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB2",
+      "price": 99900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0d9",
+      "productId": "6aa06058af8879d815dcb0d0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%20Pro%2011-inch%20M4",
+      "price": 99900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0e2",
+      "productId": "6aa06058af8879d815dcb0df",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB3",
+      "price": 59900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0e8",
+      "productId": "6aa06058af8879d815dcb0df",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%20Air%2011-inch%20M2",
+      "price": 59900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0f1",
+      "productId": "6aa06058af8879d815dcb0ee",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB4",
+      "price": 79900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb0f7",
+      "productId": "6aa06058af8879d815dcb0ee",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%20Air%2013-inch%20M2",
+      "price": 79900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb100",
+      "productId": "6aa06058af8879d815dcb0fd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB5",
+      "price": 34900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb106",
+      "productId": "6aa06058af8879d815dcb0fd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%2010th%20Gen%2010.9-inch",
+      "price": 34900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb10f",
+      "productId": "6aa06058af8879d815dcb10c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB6",
+      "price": 49900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb115",
+      "productId": "6aa06058af8879d815dcb10c",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Apple%20iPad%20mini%207th%20Gen%20A17%20Pro",
+      "price": 49900
+    },
+    {
+      "_id": "6aa06058af8879d815dcb11e",
+      "productId": "6aa06058af8879d815dcb11b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB7",
+      "price": 108999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb124",
+      "productId": "6aa06058af8879d815dcb11b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S10%20Ultra",
+      "price": 108999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb12d",
+      "productId": "6aa06058af8879d815dcb12a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB8",
+      "price": 90999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb133",
+      "productId": "6aa06058af8879d815dcb12a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S10%2B",
+      "price": 90999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb13c",
+      "productId": "6aa06058af8879d815dcb139",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB9",
+      "price": 34999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb142",
+      "productId": "6aa06058af8879d815dcb139",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S9%20FE",
+      "price": 34999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb14b",
+      "productId": "6aa06058af8879d815dcb148",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB10",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb151",
+      "productId": "6aa06058af8879d815dcb148",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20A9%2B",
+      "price": 18999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb15a",
+      "productId": "6aa06058af8879d815dcb157",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB11",
+      "price": 39999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb160",
+      "productId": "6aa06058af8879d815dcb157",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%20Pad%202",
+      "price": 39999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb169",
+      "productId": "6aa06058af8879d815dcb166",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB12",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb16f",
+      "productId": "6aa06058af8879d815dcb166",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=OnePlus%20Pad%20Go",
+      "price": 19999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb178",
+      "productId": "6aa06058af8879d815dcb175",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB13",
+      "price": 49999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb17e",
+      "productId": "6aa06058af8879d815dcb175",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%20Pad%206%20Max%2014",
+      "price": 49999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb187",
+      "productId": "6aa06058af8879d815dcb184",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB14",
+      "price": 26999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb18d",
+      "productId": "6aa06058af8879d815dcb184",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xiaomi%20Pad%206%2011-inch",
+      "price": 26999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb196",
+      "productId": "6aa06058af8879d815dcb193",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB15",
+      "price": 54999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb19c",
+      "productId": "6aa06058af8879d815dcb193",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Lenovo%20Tab%20P12%20Pro%2012.6%22",
+      "price": 54999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1a5",
+      "productId": "6aa06058af8879d815dcb1a2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB16",
+      "price": 39999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1ab",
+      "productId": "6aa06058af8879d815dcb1a2",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Lenovo%20Legion%20Tab%208.8%22%20Gaming",
+      "price": 39999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1b4",
+      "productId": "6aa06058af8879d815dcb1b1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB17",
+      "price": 49999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1ba",
+      "productId": "6aa06058af8879d815dcb1b1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Google%20Pixel%20Tablet%20with%20Speaker%20Dock",
+      "price": 49999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1c3",
+      "productId": "6aa06058af8879d815dcb1c0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB18",
+      "price": 116990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1c9",
+      "productId": "6aa06058af8879d815dcb1c0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Microsoft%20Surface%20Pro%2011%20Copilot%2B%20PC",
+      "price": 116990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1d2",
+      "productId": "6aa06058af8879d815dcb1cf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB19",
+      "price": 17999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1d8",
+      "productId": "6aa06058af8879d815dcb1cf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Realme%20Pad%202%2011.5%22",
+      "price": 17999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1e1",
+      "productId": "6aa06058af8879d815dcb1de",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB20",
+      "price": 22999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1e7",
+      "productId": "6aa06058af8879d815dcb1de",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Honor%20Pad%209%2012.1%22",
+      "price": 22999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1f0",
+      "productId": "6aa06058af8879d815dcb1ed",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB21",
+      "price": 12999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1f6",
+      "productId": "6aa06058af8879d815dcb1ed",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nokia%20T21%20Tablet",
+      "price": 12999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb1ff",
+      "productId": "6aa06058af8879d815dcb1fc",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00TB22",
+      "price": 45999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb205",
+      "productId": "6aa06058af8879d815dcb1fc",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20Active5%20Rugged",
+      "price": 45999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb20e",
+      "productId": "6aa06058af8879d815dcb20b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM1",
+      "price": 214990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb214",
+      "productId": "6aa06058af8879d815dcb20b",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%20Alpha%207%20IV%20Full-Frame%20Mirrorless%20Camera",
+      "price": 214990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb21d",
+      "productId": "6aa06058af8879d815dcb21a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM2",
+      "price": 349990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb223",
+      "productId": "6aa06058af8879d815dcb21a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%20Alpha%207R%20V%20Full-Frame%2061MP",
+      "price": 349990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb22c",
+      "productId": "6aa06058af8879d815dcb229",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM3",
+      "price": 85990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb232",
+      "productId": "6aa06058af8879d815dcb229",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%20ZV-E10%20II%20Vlogging%20Camera",
+      "price": 85990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb23b",
+      "productId": "6aa06058af8879d815dcb238",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM4",
+      "price": 399990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb241",
+      "productId": "6aa06058af8879d815dcb238",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Sony%20FX3%20Cinema%20Line%20Camera",
+      "price": 399990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb24a",
+      "productId": "6aa06058af8879d815dcb247",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM5",
+      "price": 209990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb250",
+      "productId": "6aa06058af8879d815dcb247",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Canon%20EOS%20R6%20Mark%20II%20Mirrorless",
+      "price": 209990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb259",
+      "productId": "6aa06058af8879d815dcb256",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM6",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb25f",
+      "productId": "6aa06058af8879d815dcb256",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Canon%20EOS%20R8%20Full-Frame",
+      "price": 129990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb268",
+      "productId": "6aa06058af8879d815dcb265",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM7",
+      "price": 409990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb26e",
+      "productId": "6aa06058af8879d815dcb265",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Canon%20EOS%20R5%20Mark%20II%2045MP",
+      "price": 409990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb277",
+      "productId": "6aa06058af8879d815dcb274",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM8",
+      "price": 56990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb27d",
+      "productId": "6aa06058af8879d815dcb274",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Canon%20EOS%20R50%20Vlogging%20Camera",
+      "price": 56990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb286",
+      "productId": "6aa06058af8879d815dcb283",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM9",
+      "price": 247990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb28c",
+      "productId": "6aa06058af8879d815dcb283",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nikon%20Z6%20III%20Mirrorless",
+      "price": 247990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb295",
+      "productId": "6aa06058af8879d815dcb292",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM10",
+      "price": 343990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb29b",
+      "productId": "6aa06058af8879d815dcb292",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nikon%20Z8%20Full-Frame%2045.7MP",
+      "price": 343990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2a4",
+      "productId": "6aa06058af8879d815dcb2a1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM11",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2aa",
+      "productId": "6aa06058af8879d815dcb2a1",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Nikon%20Zfc%20Retro%20Mirrorless",
+      "price": 84990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2b3",
+      "productId": "6aa06058af8879d815dcb2b0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM12",
+      "price": 149999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2b9",
+      "productId": "6aa06058af8879d815dcb2b0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Fujifilm%20X100VI%20Digital%20Camera",
+      "price": 149999
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2c2",
+      "productId": "6aa06058af8879d815dcb2bf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM13",
+      "price": 169990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2c8",
+      "productId": "6aa06058af8879d815dcb2bf",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Fujifilm%20X-T5%20Mirrorless",
+      "price": 169990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2d1",
+      "productId": "6aa06058af8879d815dcb2ce",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM14",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2d7",
+      "productId": "6aa06058af8879d815dcb2ce",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Fujifilm%20X-S20%20Vlogging%20Camera",
+      "price": 119990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2e0",
+      "productId": "6aa06058af8879d815dcb2dd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM15",
+      "price": 174990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2e6",
+      "productId": "6aa06058af8879d815dcb2dd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Panasonic%20Lumix%20S5%20II%20Full-Frame",
+      "price": 174990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2ef",
+      "productId": "6aa06058af8879d815dcb2ec",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM16",
+      "price": 164990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2f5",
+      "productId": "6aa06058af8879d815dcb2ec",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Panasonic%20Lumix%20GH6%20Micro%20Four%20Thirds",
+      "price": 164990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb2fe",
+      "productId": "6aa06058af8879d815dcb2fb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM17",
+      "price": 37990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb304",
+      "productId": "6aa06058af8879d815dcb2fb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=GoPro%20HERO12%20Black%20Action%20Camera",
+      "price": 37990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb30d",
+      "productId": "6aa06058af8879d815dcb30a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM18",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb313",
+      "productId": "6aa06058af8879d815dcb30a",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=GoPro%20HERO13%20Black%20Action%20Camera",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb31c",
+      "productId": "6aa06058af8879d815dcb319",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM19",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb322",
+      "productId": "6aa06058af8879d815dcb319",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=DJI%20Osmo%20Pocket%203%20Gimbal%20Camera",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb32b",
+      "productId": "6aa06058af8879d815dcb328",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM20",
+      "price": 29990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb331",
+      "productId": "6aa06058af8879d815dcb328",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=DJI%20Osmo%20Action%204%20Camera",
+      "price": 29990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb33a",
+      "productId": "6aa06058af8879d815dcb337",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM21",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb340",
+      "productId": "6aa06058af8879d815dcb337",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Insta360%20X4%208K%20360%20Camera",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb349",
+      "productId": "6aa06058af8879d815dcb346",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00CM22",
+      "price": 789990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb34f",
+      "productId": "6aa06058af8879d815dcb346",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.croma.com/search?q=Hasselblad%20X2D%20100C%20Medium%20Format",
+      "price": 789990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb358",
+      "productId": "6aa06058af8879d815dcb355",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM1",
+      "price": 69990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb35e",
+      "productId": "6aa06058af8879d815dcb355",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20PlayStation%205%20Pro%20Console",
+      "price": 69990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb367",
+      "productId": "6aa06058af8879d815dcb364",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM2",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb36d",
+      "productId": "6aa06058af8879d815dcb364",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20PS5%20Slim%20Digital%20Edition",
+      "price": 44990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb376",
+      "productId": "6aa06058af8879d815dcb373",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM3",
+      "price": 54990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb37c",
+      "productId": "6aa06058af8879d815dcb373",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Sony%20PS5%20Slim%20Disc%20Edition",
+      "price": 54990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb385",
+      "productId": "6aa06058af8879d815dcb382",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM4",
+      "price": 18990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb38b",
+      "productId": "6aa06058af8879d815dcb382",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=PlayStation%20Portal%20Remote%20Player",
+      "price": 18990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb394",
+      "productId": "6aa06058af8879d815dcb391",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM5",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb39a",
+      "productId": "6aa06058af8879d815dcb391",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Microsoft%20Xbox%20Series%20X%201TB",
+      "price": 52990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3a3",
+      "productId": "6aa06058af8879d815dcb3a0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM6",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3a9",
+      "productId": "6aa06058af8879d815dcb3a0",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Microsoft%20Xbox%20Series%20S%201TB%20Carbon%20Black",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3b2",
+      "productId": "6aa06058af8879d815dcb3af",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM7",
+      "price": 31990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3b8",
+      "productId": "6aa06058af8879d815dcb3af",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nintendo%20Switch%20OLED%20Model",
+      "price": 31990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3c1",
+      "productId": "6aa06058af8879d815dcb3be",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM8",
+      "price": 17990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3c7",
+      "productId": "6aa06058af8879d815dcb3be",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Nintendo%20Switch%20Lite",
+      "price": 17990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3d0",
+      "productId": "6aa06058af8879d815dcb3cd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM9",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3d6",
+      "productId": "6aa06058af8879d815dcb3cd",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=ASUS%20ROG%20Ally%20X%20Handheld%20Console",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3df",
+      "productId": "6aa06058af8879d815dcb3dc",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM10",
+      "price": 59990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3e5",
+      "productId": "6aa06058af8879d815dcb3dc",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=ASUS%20ROG%20Ally%20Ryzen%20Z1%20Extreme",
+      "price": 59990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3ee",
+      "productId": "6aa06058af8879d815dcb3eb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM11",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3f4",
+      "productId": "6aa06058af8879d815dcb3eb",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Lenovo%20Legion%20Go%20Handheld%20Console",
+      "price": 89990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb3fd",
+      "productId": "6aa06058af8879d815dcb3fa",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM12",
+      "price": 59990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb403",
+      "productId": "6aa06058af8879d815dcb3fa",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Steam%20Deck%20OLED%20512GB",
+      "price": 59990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb40c",
+      "productId": "6aa06058af8879d815dcb409",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM13",
+      "price": 299990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb412",
+      "productId": "6aa06058af8879d815dcb409",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Razer%20Blade%2016%20Gaming%20Laptop",
+      "price": 299990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb41b",
+      "productId": "6aa06058af8879d815dcb418",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM14",
+      "price": 14990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb421",
+      "productId": "6aa06058af8879d815dcb418",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Razer%20Kishi%20Ultra%20Mobile%20Gaming%20Controller",
+      "price": 14990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb42a",
+      "productId": "6aa06058af8879d815dcb427",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM15",
+      "price": 22995
+    },
+    {
+      "_id": "6aa06058af8879d815dcb430",
+      "productId": "6aa06058af8879d815dcb427",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Logitech%20G%20Pro%20X%202%20LIGHTSPEED%20Headset",
+      "price": 22995
+    },
+    {
+      "_id": "6aa06058af8879d815dcb439",
+      "productId": "6aa06058af8879d815dcb436",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM16",
+      "price": 15995
+    },
+    {
+      "_id": "6aa06058af8879d815dcb43f",
+      "productId": "6aa06058af8879d815dcb436",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Logitech%20G%20PRO%20X%20SUPERLIGHT%202%20Mouse",
+      "price": 15995
+    },
+    {
+      "_id": "6aa06058af8879d815dcb448",
+      "productId": "6aa06058af8879d815dcb445",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM17",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb44e",
+      "productId": "6aa06058af8879d815dcb445",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=SteelSeries%20Arctis%20Nova%20Pro%20Wireless",
+      "price": 34990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb457",
+      "productId": "6aa06058af8879d815dcb454",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM18",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb45d",
+      "productId": "6aa06058af8879d815dcb454",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Corsair%20K100%20RGB%20Mechanical%20Keyboard",
+      "price": 21990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb466",
+      "productId": "6aa06058af8879d815dcb463",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM19",
+      "price": 15990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb46c",
+      "productId": "6aa06058af8879d815dcb463",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Xbox%20Elite%20Wireless%20Controller%20Series%202",
+      "price": 15990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb475",
+      "productId": "6aa06058af8879d815dcb472",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM20",
+      "price": 18990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb47b",
+      "productId": "6aa06058af8879d815dcb472",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=DualSense%20Edge%20Wireless%20Controller",
+      "price": 18990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb484",
+      "productId": "6aa06058af8879d815dcb481",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM21",
+      "price": 14990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb48a",
+      "productId": "6aa06058af8879d815dcb481",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Elgato%20Stream%20Deck%20MK.2",
+      "price": 14990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb493",
+      "productId": "6aa06058af8879d815dcb490",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.amazon.in/dp/B00GM22",
+      "price": 64990
+    },
+    {
+      "_id": "6aa06058af8879d815dcb499",
+      "productId": "6aa06058af8879d815dcb490",
+      "hasValidProduct": true,
+      "hasValidMarketplace": true,
+      "hasValidUrl": false,
+      "hasValidPrice": true,
+      "url": "https://www.flipkart.com/search?q=Meta%20Quest%203%20VR%20Headset%20512GB",
+      "price": 64990
+    }
+  ]
+}

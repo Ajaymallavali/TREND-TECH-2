@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-22T18:46:18.567Z",
+    "mode": "DRY_RUN",
+    "databaseModified": false,
+    "totalProductsScanned": 867,
+    "exactLevel6Images": 43,
+    "missingImages": 809,
+    "identityMismatches": 4,
+    "duplicateConflicts": 11,
+    "downloadFailures": 0,
+    "unverifiedSources": 0,
+    "readyForDbWrite": 0
+  },
+  "criticalSampleValidations": {
+    "iphoneToMacbook": "PASS",
+    "iphoneToIpad": "PASS",
+    "a55ToM55": "PASS",
+    "headphonesToEarbuds": "PASS",
+    "laptopToTv": "PASS",
+    "crossProductShaCollision": "PASS",
+    "apiOverrideDisabled": "PASS",
+    "frontendOverrideDisabled": "PASS"
+  }
+}

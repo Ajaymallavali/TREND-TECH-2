@@ -1,0 +1,265 @@
+{
+  "header": "PHASE 4A.5 SOURCE RECOVERY",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:07:30.991Z",
+  "stats": {
+    "productsAttempted": 13,
+    "recovered": 8,
+    "stillUnresolved": 5,
+    "bySource": {
+      "official": 8,
+      "amazon": 0,
+      "flipkart": 0,
+      "myntra": 0,
+      "ajio": 0,
+      "nykaa": 0,
+      "other": 0
+    },
+    "byStatus": {
+      "validImages": 8,
+      "http404": 0,
+      "http403": 0,
+      "http429": 0,
+      "http500": 0,
+      "otherFailures": 0
+    },
+    "identityMismatches": 0,
+    "duplicateConflicts": 2
+  },
+  "invariantCheck": {
+    "sum": 13,
+    "expected": 13,
+    "result": "PASS"
+  },
+  "results": [
+    {
+      "productId": "6aa06056af8879d815dca5ef",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6aa06056af8879d815dca5ef",
+        "productName": "Samsung Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.samsung.com/in/smartphones/galaxy-s24-ultra",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 54,
+        "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6aa06056af8879d815dca766",
+      "name": "Xiaomi 14 Ultra",
+      "brand": "Xiaomi",
+      "category": "smartphone",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6aa06056af8879d815dca766",
+        "productName": "Xiaomi 14 Ultra",
+        "brand": "Xiaomi",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.mi.com/in/product/xiaomi-14-ultra",
+        "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 150,
+        "sha256": "f86192c90508e4cff7bddadc80408a6d0f32382b9c832a3630b8603b30891fef",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "name": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6a9904e369652590e0aadc76",
+        "productName": "Dell Inspiron 15 3520",
+        "brand": "Dell",
+        "category": "laptop",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.dell.com/en-in/shop/laptops/inspiron-15-3520-laptop/spd/inspiron-15-3520-laptop",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 42,
+        "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcfc",
+      "name": "Television Bravia",
+      "brand": "Television",
+      "category": "television",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6a9904e369652590e0aadcfc",
+        "productName": "Television Bravia",
+        "brand": "Television",
+        "category": "television",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.sony.co.in/bravia",
+        "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1125",
+        "fileSizeKB": 33,
+        "sha256": "043cb7d0e008199d8ceb2b21a40df2d75748e9be9371c25b3520f205facc6826",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadcee",
+      "name": "Television Crystal UHD",
+      "brand": "Television",
+      "category": "television",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6aa06058af8879d815dcb355",
+      "name": "Sony PlayStation 5 Pro Console",
+      "brand": "Sony",
+      "category": "gaming",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6aa06058af8879d815dcb355",
+        "productName": "Sony PlayStation 5 Pro Console",
+        "brand": "Sony",
+        "category": "gaming",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.playstation.com/en-in/ps5/ps5-pro",
+        "imageUrl": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 35,
+        "sha256": "9a148993d77d4e2e9eb397531449ffe4c12efd3975bd762f493d29da3d7c50cc",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6aa06057af8879d815dcafb3",
+      "name": "LG UltraGear 27 240Hz OLED (27GR95QE)",
+      "brand": "LG",
+      "category": "television",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "finalResult": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6aa06058af8879d815dcb247",
+      "name": "Canon EOS R6 Mark II Mirrorless",
+      "brand": "Canon",
+      "category": "camera",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "finalResult": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadda6",
+      "name": "Washing Machines LG",
+      "brand": "Washing Machines",
+      "category": "washing-machine",
+      "previousStatus": "A_NO_EXACT_SOURCE_FOUND",
+      "finalResult": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "UNRESOLVED",
+      "details": null
+    },
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbea",
+        "productName": "Apple iPhone 17 Pro Max",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 56,
+        "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbec",
+        "productName": "Apple iPhone 17 Pro",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 56,
+        "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "previousStatus": "C_IMAGE_URL_RETURNED_404",
+      "finalResult": "RECOVERED",
+      "details": {
+        "productId": "6a9904e369652590e0aadbf0",
+        "productName": "Apple iPhone Air",
+        "brand": "Apple",
+        "category": "smartphone",
+        "sourceType": "OFFICIAL_MANUFACTURER_PAGE",
+        "productUrl": "https://www.apple.com/in/iphone",
+        "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "dimensions": "1500x1500",
+        "fileSizeKB": 44,
+        "sha256": "dc035338e34583d899ad38620a1f9d8451a9895b1aed6c5938e399c02cedfd59",
+        "verificationStatus": "RECOVERED_EXACT_SOURCE"
+      }
+    }
+  ]
+}

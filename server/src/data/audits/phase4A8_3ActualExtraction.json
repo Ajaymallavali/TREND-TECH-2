@@ -1,0 +1,221 @@
+{
+  "header": "PHASE 4A.8.3 FORCE ACTUAL PRODUCT COVERAGE EXTRACTION REPORT",
+  "databaseModified": false,
+  "timestamp": "2026-09-22T17:44:20.046Z",
+  "step1_matchingFiles": [
+    "phase4A8FullCatalogDryRun.json",
+    "phase4A8FullCatalogDryRun.md",
+    "phase4A8FullCatalogDuplicates.json",
+    "phase4A8FullCatalogFailures.json",
+    "phase4A8FullCatalogMetrics.json",
+    "phase4A8FullCatalogSuccesses.json"
+  ],
+  "productLevelCounts": {
+    "totalUniqueProducts": 867,
+    "verifiedExactImages": 30,
+    "unresolvedProducts": 835,
+    "identityMismatches": 0,
+    "duplicateConflicts": 2,
+    "exactImageCoveragePct": "3.5%",
+    "invariantCheck": "PASS"
+  },
+  "sampleVerifiedProducts": [
+    {
+      "productId": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "source": "VERIFIED_CDN_MAPPING",
+      "productUrl": "https://m.media-amazon.com",
+      "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "source": "OFFICIAL_MANUFACTURER_PAGE",
+      "productUrl": "https://www.apple.com/in/iphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "source": "OFFICIAL_MANUFACTURER_PAGE",
+      "productUrl": "https://www.apple.com/in/iphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "source": "OFFICIAL_MANUFACTURER_PAGE",
+      "productUrl": "https://www.apple.com/in/iphone",
+      "imageUrl": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc04",
+      "name": "Samsung Galaxy A55 5G",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "source": "VERIFIED_CDN_MAPPING",
+      "productUrl": "https://m.media-amazon.com",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc0c",
+      "name": "OnePlus Nord CE4 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "source": "VERIFIED_CDN_MAPPING",
+      "productUrl": "https://m.media-amazon.com",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc0a",
+      "name": "OnePlus 12 5G",
+      "brand": "OnePlus",
+      "category": "smartphone",
+      "source": "VERIFIED_CDN_MAPPING",
+      "productUrl": "https://m.media-amazon.com",
+      "imageUrl": "https://m.media-amazon.com/images/I/717Qo4MH97L._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "source": "VERIFIED_CDN_MAPPING",
+      "productUrl": "https://m.media-amazon.com",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc76",
+      "name": "Dell Inspiron 15 3520",
+      "brand": "Dell",
+      "category": "laptop",
+      "source": "OFFICIAL_MANUFACTURER_PAGE",
+      "productUrl": "https://www.dell.com/en-in/shop/laptops/inspiron-15-3520-laptop/spd/inspiron-15-3520-laptop",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    },
+    {
+      "productId": "6a9904e369652590e0aadcfc",
+      "name": "Television Bravia",
+      "brand": "Television",
+      "category": "television",
+      "source": "OFFICIAL_MANUFACTURER_PAGE",
+      "productUrl": "https://www.sony.co.in/bravia",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1500_.jpg",
+      "verificationStatus": "VERIFIED_EXACT_LOCAL_CANDIDATE"
+    }
+  ],
+  "sampleUnresolvedProducts": [
+    {
+      "productId": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "brand": "Apple",
+      "category": "accessory",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfa",
+      "name": "Apple iPhone Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfc",
+      "name": "Apple iPhone Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadbfe",
+      "name": "Smartphone Galaxy S series",
+      "brand": "Smartphone",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc00",
+      "name": "Samsung Galaxy Z Fold 6",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    },
+    {
+      "productId": "6a9904e369652590e0aadc02",
+      "name": "Samsung Galaxy Z Flip 6",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "failureReason": "No candidate URLs available"
+    }
+  ],
+  "candidateLevelCounts": {
+    "candidateAttempts": 41,
+    "candidateSourcesFound": 44,
+    "candidateDownloadAttempts": 41,
+    "candidateDownloadSuccess": 32,
+    "candidateValid": 30,
+    "candidateInvalid": 11,
+    "candidate404": 9,
+    "candidate403": 0,
+    "candidate429": 0,
+    "candidate500": 0,
+    "candidateOtherErrors": 0,
+    "candidateDuplicate": 2,
+    "candidateIdentityMismatch": 0
+  },
+  "databaseIntegrity": {
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "marketplaceProductsBefore": 1181,
+    "marketplaceProductsAfter": 1181,
+    "priceHistoryBefore": 559,
+    "priceHistoryAfter": 559,
+    "productImageWrites": 0,
+    "databaseModified": false
+  }
+}

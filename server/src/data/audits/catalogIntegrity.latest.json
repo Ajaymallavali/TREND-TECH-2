@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-09-23T01:44:30.000Z",
+  "catalogMode": "GUARDRAILS_ACTIVE",
+  "guardrailsInstalled": true,
+  "ciIntegrated": true,
+  "catalogSafe": false,
+  "databaseCounts": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559
+  },
+  "metrics": {
+    "totalProducts": 867,
+    "liveVerifiedCount": 0,
+    "legacySyntheticCount": 867,
+    "imageCollisions": 222,
+    "imageUnavailableRate": 0.679,
+    "templateNames": 117,
+    "templateDescriptions": 753,
+    "categoryMismatches": 0,
+    "priceRepetition": 615,
+    "generatedAsins": 625,
+    "generatedUrls": 876,
+    "searchUrls": 305,
+    "mockDataLeaks": 0,
+    "brokenMarketplaceRelations": 0,
+    "priceProvenanceFailures": 1181
+  },
+  "currentViolations": [
+    {
+      "rule": "LEGACY_CATALOG_EXPOSURE",
+      "severity": "CRITICAL",
+      "count": 867,
+      "details": "867 legacy synthetic products exist in MongoDB and are exposed to API endpoints without live_verified scoping."
+    },
+    {
+      "rule": "SUSPICIOUS_PRICE_REPETITION",
+      "severity": "CRITICAL",
+      "count": 615,
+      "details": "457 marketplace records store hardcoded legacy offer currentPrice: 2999."
+    },
+    {
+      "rule": "GENERATED_ASIN",
+      "severity": "CRITICAL",
+      "count": 625,
+      "details": "625 marketplace records store generated ASINs derived from MongoDB ObjectIDs (B06A9904...)."
+    },
+    {
+      "rule": "GENERATED_MARKETPLACE_URL",
+      "severity": "CRITICAL",
+      "count": 876,
+      "details": "876 marketplace URLs were constructed using fake ASIN interpolation."
+    },
+    {
+      "rule": "IMAGE_UNAVAILABLE_THRESHOLD_EXCEEDED",
+      "severity": "CRITICAL",
+      "rate": 0.679,
+      "details": "67.9% of legacy catalog products have unverified/missing images (exceeds 10% threshold)."
+    }
+  ]
+}
