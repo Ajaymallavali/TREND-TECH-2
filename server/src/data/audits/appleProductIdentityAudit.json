@@ -1,0 +1,254 @@
+[
+  {
+    "productId": "6a98d181a6bfd56d867752df",
+    "name": "iPhone 17 Pro Max Silicone Case",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbea",
+    "name": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbec",
+    "name": "Apple iPhone 17 Pro",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbee",
+    "name": "Apple iPhone 17",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf0",
+    "name": "Apple iPhone Air",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf2",
+    "name": "Apple iPhone 16e",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf4",
+    "name": "Apple iPhone Plus",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf6",
+    "name": "Apple iPhone SE (3rd Gen)",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbf8",
+    "name": "Apple iPhone SE 2022",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfa",
+    "name": "Apple iPhone Pro",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadbfc",
+    "name": "Apple iPhone Pro Max",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc72",
+    "name": "Apple MacBook Air M3 (13-inch)",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc74",
+    "name": "Laptop MacBook Pro",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd32",
+    "name": "Smartwatch & Wearables Apple Watch Series",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd34",
+    "name": "Smartwatch & Wearables Apple Watch SE",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd36",
+    "name": "Smartwatch & Wearables Apple Watch Ultra",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6a9904e369652590e0aaddc0",
+    "name": "Audio Apple",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06056af8879d815dca4f4",
+    "name": "Apple iPhone 16 Pro Max",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca509",
+    "name": "Apple iPhone 16 Pro",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca51e",
+    "name": "Apple iPhone 16",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca533",
+    "name": "Apple iPhone 16 Plus",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca55c",
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca571",
+    "name": "Apple iPhone 15 Pro",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca586",
+    "name": "Apple iPhone 15",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca59b",
+    "name": "Apple iPhone 15 Plus",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca934",
+    "name": "Apple MacBook Air 13 M3",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06056af8879d815dca943",
+    "name": "Apple MacBook Air 15 M3",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06056af8879d815dca952",
+    "name": "Apple MacBook Pro 14 M3 Pro",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca961",
+    "name": "Apple MacBook Pro 16 M3 Max",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca970",
+    "name": "Apple MacBook Air 13 M2",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06057af8879d815dcad10",
+    "name": "Apple AirPods Max",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcad1f",
+    "name": "Apple AirPods Pro 2",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcad2e",
+    "name": "Apple AirPods 3",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae2d",
+    "name": "Apple Watch Ultra 2",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae3c",
+    "name": "Apple Watch Series 10",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae4b",
+    "name": "Apple Watch SE (2nd Gen)",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb0c1",
+    "name": "Apple iPad Pro 13-inch M4",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb0d0",
+    "name": "Apple iPad Pro 11-inch M4",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb0df",
+    "name": "Apple iPad Air 11-inch M2",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb0ee",
+    "name": "Apple iPad Air 13-inch M2",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb0fd",
+    "name": "Apple iPad 10th Gen 10.9-inch",
+    "brand": "Apple",
+    "identityStatus": "MODEL_AMBIGUOUS"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb10c",
+    "name": "Apple iPad mini 7th Gen A17 Pro",
+    "brand": "Apple",
+    "identityStatus": "OFFICIAL_VERIFIED"
+  }
+]
