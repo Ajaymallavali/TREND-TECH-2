@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06058af8879d815dcb0df",
+  "name": "Apple iPad Air 11-inch M2",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._SL1500_.jpg",
+  "localPath": "/product-images/apple/6aa06058af8879d815dcb0df/primary.jpg",
+  "sha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:47.523Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}

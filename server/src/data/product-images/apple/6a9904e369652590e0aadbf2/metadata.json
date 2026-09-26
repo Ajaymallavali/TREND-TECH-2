@@ -1,7 +1,14 @@
 {
   "productId": "6a9904e369652590e0aadbf2",
-  "originalUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
-  "sha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
-  "sizeBytes": 693100,
-  "cachedAt": "2026-09-25T19:02:14.487Z"
+  "name": "Apple iPhone 16e",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16e-finish-select-202502-black?wid=5120&hei=2880&fmt=p-jpg",
+  "localPath": "/product-images/apple/6a9904e369652590e0aadbf2/primary.jpg",
+  "sha256": "4e80aaa9094d306e8cc689d38dd4b3f73eab8bb2a2c59ce825a08cc56be3fc67",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:05.507Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
 }

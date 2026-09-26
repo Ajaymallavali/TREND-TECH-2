@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06058af8879d815dcb0c1",
+  "name": "Apple iPad Pro 13-inch M4",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-storage-select-202405-13inch-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+  "localPath": "/product-images/apple/6aa06058af8879d815dcb0c1/primary.jpg",
+  "sha256": "11baa60cf1c074d90f2f5cd842d86fe4470c49cd4db0532234eae531d00699c9",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:45.233Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}

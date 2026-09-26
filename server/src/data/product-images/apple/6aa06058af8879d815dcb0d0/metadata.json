@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06058af8879d815dcb0d0",
+  "name": "Apple iPad Pro 11-inch M4",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-storage-select-202405-11inch-spaceblack?wid=5120&hei=2880&fmt=p-jpg",
+  "localPath": "/product-images/apple/6aa06058af8879d815dcb0d0/primary.jpg",
+  "sha256": "81698d342961fa766aab7a40d0a2170e075a43eb6bd1a72951c682cfa9b002ed",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:46.151Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}

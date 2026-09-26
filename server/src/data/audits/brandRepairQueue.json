@@ -1,0 +1,361 @@
+{
+  "generatedAt": "2026-09-26T11:31:55.014Z",
+  "queue": [
+    {
+      "brand": "Laptop",
+      "count": 44
+    },
+    {
+      "brand": "Smartphone",
+      "count": 43
+    },
+    {
+      "brand": "Smartwatch & Wearables",
+      "count": 41
+    },
+    {
+      "brand": "Beauty & Personal Care",
+      "count": 41
+    },
+    {
+      "brand": "Apple",
+      "count": 40
+    },
+    {
+      "brand": "Television",
+      "count": 34
+    },
+    {
+      "brand": "Computer Accessories",
+      "count": 34
+    },
+    {
+      "brand": "Samsung",
+      "count": 30
+    },
+    {
+      "brand": "Tops",
+      "count": 30
+    },
+    {
+      "brand": "Audio",
+      "count": 27
+    },
+    {
+      "brand": "Kids",
+      "count": 27
+    },
+    {
+      "brand": "Bags & Travel",
+      "count": 25
+    },
+    {
+      "brand": "Bottoms",
+      "count": 24
+    },
+    {
+      "brand": "Footwear",
+      "count": 19
+    },
+    {
+      "brand": "Ethnic",
+      "count": 19
+    },
+    {
+      "brand": "Accessories",
+      "count": 18
+    },
+    {
+      "brand": "Cameras",
+      "count": 17
+    },
+    {
+      "brand": "Girls",
+      "count": 16
+    },
+    {
+      "brand": "Sony",
+      "count": 16
+    },
+    {
+      "brand": "Air Conditioners",
+      "count": 15
+    },
+    {
+      "brand": "OnePlus",
+      "count": 14
+    },
+    {
+      "brand": "Boys",
+      "count": 14
+    },
+    {
+      "brand": "Gaming",
+      "count": 13
+    },
+    {
+      "brand": "Sports & Fitness",
+      "count": 13
+    },
+    {
+      "brand": "ASUS",
+      "count": 12
+    },
+    {
+      "brand": "Women",
+      "count": 12
+    },
+    {
+      "brand": "Dresses",
+      "count": 11
+    },
+    {
+      "brand": "Dell",
+      "count": 10
+    },
+    {
+      "brand": "Lenovo",
+      "count": 10
+    },
+    {
+      "brand": "Washing Machines",
+      "count": 10
+    },
+    {
+      "brand": "Desktop",
+      "count": 9
+    },
+    {
+      "brand": "Men",
+      "count": 9
+    },
+    {
+      "brand": "Xiaomi",
+      "count": 9
+    },
+    {
+      "brand": "Outerwear",
+      "count": 8
+    },
+    {
+      "brand": "Google",
+      "count": 8
+    },
+    {
+      "brand": "LG",
+      "count": 8
+    },
+    {
+      "brand": "HP",
+      "count": 7
+    },
+    {
+      "brand": "Activewear",
+      "count": 7
+    },
+    {
+      "brand": "Realme",
+      "count": 7
+    },
+    {
+      "brand": "Foldable Phone",
+      "count": 6
+    },
+    {
+      "brand": "Apparel",
+      "count": 6
+    },
+    {
+      "brand": "Nothing",
+      "count": 6
+    },
+    {
+      "brand": "MSI",
+      "count": 5
+    },
+    {
+      "brand": "Microsoft",
+      "count": 5
+    },
+    {
+      "brand": "Motorola",
+      "count": 4
+    },
+    {
+      "brand": "iQOO",
+      "count": 4
+    },
+    {
+      "brand": "Acer",
+      "count": 4
+    },
+    {
+      "brand": "Canon",
+      "count": 4
+    },
+    {
+      "brand": "Consoles",
+      "count": 3
+    },
+    {
+      "brand": "Vivo",
+      "count": 3
+    },
+    {
+      "brand": "TCL",
+      "count": 3
+    },
+    {
+      "brand": "Panasonic",
+      "count": 3
+    },
+    {
+      "brand": "Bose",
+      "count": 3
+    },
+    {
+      "brand": "JBL",
+      "count": 3
+    },
+    {
+      "brand": "Garmin",
+      "count": 3
+    },
+    {
+      "brand": "Amazfit",
+      "count": 3
+    },
+    {
+      "brand": "Nikon",
+      "count": 3
+    },
+    {
+      "brand": "Fujifilm",
+      "count": 3
+    },
+    {
+      "brand": "Hisense",
+      "count": 2
+    },
+    {
+      "brand": "Sennheiser",
+      "count": 2
+    },
+    {
+      "brand": "Marshall",
+      "count": 2
+    },
+    {
+      "brand": "Fitbit",
+      "count": 2
+    },
+    {
+      "brand": "BenQ",
+      "count": 2
+    },
+    {
+      "brand": "Gigabyte",
+      "count": 2
+    },
+    {
+      "brand": "GoPro",
+      "count": 2
+    },
+    {
+      "brand": "DJI",
+      "count": 2
+    },
+    {
+      "brand": "Nintendo",
+      "count": 2
+    },
+    {
+      "brand": "Razer",
+      "count": 2
+    },
+    {
+      "brand": "Logitech G",
+      "count": 2
+    },
+    {
+      "brand": "Feature Phone",
+      "count": 1
+    },
+    {
+      "brand": "Toshiba",
+      "count": 1
+    },
+    {
+      "brand": "Audio-Technica",
+      "count": 1
+    },
+    {
+      "brand": "Anker",
+      "count": 1
+    },
+    {
+      "brand": "Shure",
+      "count": 1
+    },
+    {
+      "brand": "Huawei",
+      "count": 1
+    },
+    {
+      "brand": "Titan",
+      "count": 1
+    },
+    {
+      "brand": "AOC",
+      "count": 1
+    },
+    {
+      "brand": "ViewSonic",
+      "count": 1
+    },
+    {
+      "brand": "Honor",
+      "count": 1
+    },
+    {
+      "brand": "Nokia",
+      "count": 1
+    },
+    {
+      "brand": "Insta360",
+      "count": 1
+    },
+    {
+      "brand": "Hasselblad",
+      "count": 1
+    },
+    {
+      "brand": "Valve",
+      "count": 1
+    },
+    {
+      "brand": "SteelSeries",
+      "count": 1
+    },
+    {
+      "brand": "Corsair",
+      "count": 1
+    },
+    {
+      "brand": "Xbox",
+      "count": 1
+    },
+    {
+      "brand": "PlayStation",
+      "count": 1
+    },
+    {
+      "brand": "Elgato",
+      "count": 1
+    },
+    {
+      "brand": "Meta",
+      "count": 1
+    }
+  ]
+}

@@ -1,7 +1,14 @@
 {
   "productId": "6aa06057af8879d815dcae3c",
-  "originalUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/s10-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+  "name": "Apple Watch Series 10",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/s10-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+  "localPath": "/product-images/apple/6aa06057af8879d815dcae3c/primary.jpg",
   "sha256": "78878ef790af66387201c0d960cd1dc6c54e41ef72bae0130fea89839b5af4f7",
-  "sizeBytes": 739874,
-  "cachedAt": "2026-09-25T19:02:33.644Z"
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:43.772Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
 }

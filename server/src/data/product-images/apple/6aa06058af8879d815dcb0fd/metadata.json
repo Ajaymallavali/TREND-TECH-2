@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06058af8879d815dcb0fd",
+  "name": "Apple iPad 10th Gen 10.9-inch",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+  "localPath": "/product-images/apple/6aa06058af8879d815dcb0fd/primary.jpg",
+  "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:48.553Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}

@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06056af8879d815dca952",
+  "name": "Apple MacBook Pro 14 M3 Pro",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=4000&hei=2400&fmt=jpeg",
+  "localPath": "/product-images/apple/6aa06056af8879d815dca952/primary.jpg",
+  "sha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:34.080Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}

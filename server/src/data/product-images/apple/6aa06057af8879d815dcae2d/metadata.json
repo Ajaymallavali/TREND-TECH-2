@@ -1,7 +1,14 @@
 {
   "productId": "6aa06057af8879d815dcae2d",
-  "originalUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+  "name": "Apple Watch Ultra 2",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409?wid=3200&hei=3200&fmt=p-jpg",
+  "localPath": "/product-images/apple/6aa06057af8879d815dcae2d/primary.jpg",
   "sha256": "7aa8b469f5ba9f71c6007c72cbec3e6034331f6486989d7d9ba77b57db2ce811",
-  "sizeBytes": 816446,
-  "cachedAt": "2026-09-25T19:02:32.265Z"
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:41.209Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
 }

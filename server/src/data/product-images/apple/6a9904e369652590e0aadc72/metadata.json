@@ -1,0 +1,14 @@
+{
+  "productId": "6a9904e369652590e0aadc72",
+  "name": "Apple MacBook Air M3 (13-inch)",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+  "localPath": "/product-images/apple/6a9904e369652590e0aadc72/primary.jpg",
+  "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:45:07.363Z",
+  "verificationReason": "Verified against official Apple CDN model asset"
+}
