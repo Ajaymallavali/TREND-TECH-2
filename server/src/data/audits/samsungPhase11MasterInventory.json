@@ -1,0 +1,138 @@
+[
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "title": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "modelNumber": "SM-S936B",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "title": "Samsung Galaxy S23 FE",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "modelNumber": "SM-S711B",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "title": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "brand": "Samsung",
+    "category": "television",
+    "modelNumber": "QA65QN900DKXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "title": "Samsung 55\" The Frame TV QLED",
+    "brand": "Samsung",
+    "category": "television",
+    "modelNumber": "QA55LS03DAKXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "title": "Samsung 65\" OLED 4K (S90D)",
+    "brand": "Samsung",
+    "category": "television",
+    "modelNumber": "QA65S90DAKXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "title": "Samsung 50\" Crystal 4K Vivid Pro",
+    "brand": "Samsung",
+    "category": "television",
+    "modelNumber": "UA50DUE77AKXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "title": "Samsung 75\" QN85D Neo QLED 4K",
+    "brand": "Samsung",
+    "category": "television",
+    "modelNumber": "QA75QN85DAKXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "title": "Samsung Galaxy Buds FE",
+    "brand": "Samsung",
+    "category": "headphones",
+    "modelNumber": "SM-R400N",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "title": "Samsung Galaxy Watch Ultra",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "modelNumber": "SM-L705F",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "title": "Samsung Galaxy Watch 7",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "modelNumber": "SM-L310N",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "title": "Samsung Galaxy Watch 6 Classic",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "modelNumber": "SM-R950N",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "title": "Samsung Odyssey OLED G9 49\"",
+    "brand": "Samsung",
+    "category": "monitor",
+    "modelNumber": "LS49CG954SWXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "title": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "brand": "Samsung",
+    "category": "monitor",
+    "modelNumber": "LS32DG802SWXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "title": "Samsung Smart Monitor M8 32\" 4K",
+    "brand": "Samsung",
+    "category": "monitor",
+    "modelNumber": "LS32DM801UWXXL",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "title": "Samsung Galaxy Tab S10+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "modelNumber": "SM-X820N",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "title": "Samsung Galaxy Tab A9+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "modelNumber": "SM-X210N",
+    "imageStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "title": "Samsung Galaxy Tab Active5 Rugged",
+    "brand": "Samsung",
+    "category": "tablet",
+    "modelNumber": "SM-X306B",
+    "imageStatus": "UNVERIFIED"
+  }
+]
