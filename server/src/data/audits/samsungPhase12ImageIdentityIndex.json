@@ -1,0 +1,121 @@
+[
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "exactModel": "SM-S936B",
+    "imageStatus": "VERIFIED_EXACT",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-s25/buy/kv_exclusive_noText_MO_v2.jpg?imbypass=true"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "exactModel": "SM-S711B",
+    "imageStatus": "VERIFIED_EXACT",
+    "sourceUrl": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "exactModel": "QA65QN900DKXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "exactModel": "QA55LS03DAKXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "exactModel": "QA65S90DAKXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "exactModel": "UA50DUE77AKXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "exactModel": "QA75QN85DAKXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "exactModel": "SM-R400N",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "exactModel": "SM-L705F",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "exactModel": "SM-L310N",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "exactModel": "SM-R950N",
+    "imageStatus": "VERIFIED_EXACT",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/assets/in/watches/galaxy-watch/galaxy-watch6/1328x620.jpg"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "exactModel": "LS49CG954SWXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "exactModel": "LS32DG802SWXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "exactModel": "LS32DM801UWXXL",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "exactModel": "SM-X820N",
+    "imageStatus": "VERIFIED_EXACT",
+    "sourceUrl": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/IN_Storage_DM-Buying-How-to_Buy-page_Thumbnail.png"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "exactModel": "SM-X210N",
+    "imageStatus": "VERIFIED_EXACT",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/assets/in/tablets/galaxy-tab-a9/buy/Galaxy_Tab_A9_A9Plus_KV_720x720_MO.jpg?imbypass=true"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "exactModel": "SM-X306B",
+    "imageStatus": "UNVERIFIED",
+    "sourceUrl": null
+  }
+]

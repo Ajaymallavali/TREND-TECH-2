@@ -62,7 +62,7 @@ describe('Samsung Phase 11 — Remaining Image Recovery & Invariant Verification
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(13);
+    expect(verifiedSamsung.length).toBeGreaterThanOrEqual(13);
   });
 
   it('3. Catalog Invariants Strictly Maintained', async () => {

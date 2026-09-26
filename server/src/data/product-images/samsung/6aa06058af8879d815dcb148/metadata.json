@@ -1,0 +1,12 @@
+{
+  "productId": "6aa06058af8879d815dcb148",
+  "brand": "Samsung",
+  "productName": "Samsung Galaxy Tab A9+",
+  "exactModel": "SM-X210N",
+  "sourceType": "SAMSUNG_OFFICIAL",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/assets/in/tablets/galaxy-tab-a9/buy/Galaxy_Tab_A9_A9Plus_KV_720x720_MO.jpg?imbypass=true",
+  "localPath": "/product-images/samsung/6aa06058af8879d815dcb148/primary.jpg",
+  "sha256": "f469c1edbeeaa1fb6212284230867e8c8a487220b7b82cb858afd6b54fe08284",
+  "verifiedAt": "2026-09-26T14:09:32.516Z",
+  "verificationStatus": "VERIFIED_EXACT"
+}

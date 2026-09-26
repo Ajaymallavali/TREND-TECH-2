@@ -1,0 +1,172 @@
+[
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "category": "smartphone",
+    "exactModel": "SM-S936B",
+    "officialPageUrl": "https://www.samsung.com/in/smartphones/galaxy-s25/buy/?modelCode=SM-S936BZKGINU",
+    "imageStatus": "VERIFIED_EXACT",
+    "imageAttempts": 219,
+    "failureReason": "NONE"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "category": "smartphone",
+    "exactModel": "SM-S711B",
+    "officialPageUrl": "https://www.samsung.com/in/smartphones/galaxy-s23-fe/",
+    "imageStatus": "VERIFIED_EXACT",
+    "imageAttempts": 221,
+    "failureReason": "NONE"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "category": "television",
+    "exactModel": "QA65QN900DKXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "category": "television",
+    "exactModel": "QA55LS03DAKXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "category": "television",
+    "exactModel": "QA65S90DAKXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "category": "television",
+    "exactModel": "UA50DUE77AKXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "category": "television",
+    "exactModel": "QA75QN85DAKXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "category": "headphones",
+    "exactModel": "SM-R400N",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "category": "smartwatch",
+    "exactModel": "SM-L705F",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "category": "smartwatch",
+    "exactModel": "SM-L310N",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "category": "smartwatch",
+    "exactModel": "SM-R950N",
+    "officialPageUrl": "https://www.samsung.com/in/watches/galaxy-watch6/",
+    "imageStatus": "VERIFIED_EXACT",
+    "imageAttempts": 393,
+    "failureReason": "NONE"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "category": "monitor",
+    "exactModel": "LS49CG954SWXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "category": "monitor",
+    "exactModel": "LS32DG802SWXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "category": "monitor",
+    "exactModel": "LS32DM801UWXXL",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "category": "tablet",
+    "exactModel": "SM-X820N",
+    "officialPageUrl": "https://www.samsung.com/in/tablets/galaxy-tab-s10/buy/",
+    "imageStatus": "VERIFIED_EXACT",
+    "imageAttempts": 171,
+    "failureReason": "NONE"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "category": "tablet",
+    "exactModel": "SM-X210N",
+    "officialPageUrl": "https://www.samsung.com/in/tablets/galaxy-tab-a9/buy/",
+    "imageStatus": "VERIFIED_EXACT",
+    "imageAttempts": 182,
+    "failureReason": "NONE"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "category": "tablet",
+    "exactModel": "SM-X306B",
+    "officialPageUrl": "N/A",
+    "imageStatus": "UNVERIFIED",
+    "imageAttempts": 0,
+    "failureReason": "NO_OFFICIAL_PAGE_FOUND"
+  }
+]

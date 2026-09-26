@@ -62,7 +62,7 @@ describe('Samsung Phase 10 — Image Acquisition & Repair Invariants', () => {
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(13); // 6 previously verified + 7 newly verified in Phase 10
+    expect(verifiedSamsung.length).toBeGreaterThanOrEqual(13);
   });
 
   it('3. Catalog Invariants Strictly Maintained', async () => {

@@ -1,0 +1,12 @@
+{
+  "productId": "6aa06057af8879d815dcae78",
+  "brand": "Samsung",
+  "productName": "Samsung Galaxy Watch 6 Classic",
+  "exactModel": "SM-R950N",
+  "sourceType": "SAMSUNG_OFFICIAL",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/assets/in/watches/galaxy-watch/galaxy-watch6/1328x620.jpg",
+  "localPath": "/product-images/samsung/6aa06057af8879d815dcae78/primary.jpg",
+  "sha256": "de8ad447e915611a7e7ab9a6d663818e08e1e42bc82ab77d588541e9c3cd93d1",
+  "verifiedAt": "2026-09-26T14:09:18.295Z",
+  "verificationStatus": "VERIFIED_EXACT"
+}
