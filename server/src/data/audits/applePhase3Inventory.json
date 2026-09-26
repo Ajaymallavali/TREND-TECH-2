@@ -1,0 +1,493 @@
+{
+  "frozenVerifiedCount": 32,
+  "frozenInventory": [
+    {
+      "id": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone Air",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf0/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 16e",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf2/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "4e80aaa9094d306e8cc689d38dd4b3f73eab8bb2a2c59ce825a08cc56be3fc67"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone SE (3rd Gen)",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf6/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone SE 2022",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf8/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd"
+    },
+    {
+      "id": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Air M3 (13-inch)",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadc72/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36"
+    },
+    {
+      "id": "6a9904e369652590e0aadc74",
+      "name": "Laptop MacBook Pro",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Laptop MacBook Pro",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadc74/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b"
+    },
+    {
+      "id": "6a9904e369652590e0aadd34",
+      "name": "Smartwatch & Wearables Apple Watch SE",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "model": "Smartwatch & Wearables Apple Watch SE",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadd34/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa"
+    },
+    {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 16 Pro Max",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca4f4/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "5cfab09009ff1d35d048e1353333cd72fbd4a9c942f720d59815c6612f99f698"
+    },
+    {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 16 Pro",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca509/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "c1faa7fa7ebea7698a7a410ca3a53546bc564b36679240a416fb26ce82e89ada"
+    },
+    {
+      "id": "6aa06056af8879d815dca51e",
+      "name": "Apple iPhone 16",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 16",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca51e/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2"
+    },
+    {
+      "id": "6aa06056af8879d815dca533",
+      "name": "Apple iPhone 16 Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 16 Plus",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca533/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "e2506d391c0d3e95b5769afc163ca3228798a6240e2e518943eaff1a2accb245"
+    },
+    {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 15 Pro Max",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca55c/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "923453688760749232304c3fada51058f6ab149dfe4f61ec11fb3ab9a379d998"
+    },
+    {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 15 Pro",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca571/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "bbfd44ae4ba1cc48f6833c0cc67de8d8d63899a24a8ca06f35d261aca865921a"
+    },
+    {
+      "id": "6aa06056af8879d815dca586",
+      "name": "Apple iPhone 15",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 15",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca586/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "639fb9932979b494818f908e82ff06cab470badc806bdafa65c80996ed3943f6"
+    },
+    {
+      "id": "6aa06056af8879d815dca59b",
+      "name": "Apple iPhone 15 Plus",
+      "brand": "Apple",
+      "category": "smartphone",
+      "model": "Apple iPhone 15 Plus",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca59b/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "305f68019bd6cfd5378f96a57da5240ec67307ee1b0e3ed05e740643b0952018"
+    },
+    {
+      "id": "6aa06056af8879d815dca934",
+      "name": "Apple MacBook Air 13 M3",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Air 13 M3",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca934/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36"
+    },
+    {
+      "id": "6aa06056af8879d815dca943",
+      "name": "Apple MacBook Air 15 M3",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Air 15 M3",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca943/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36"
+    },
+    {
+      "id": "6aa06056af8879d815dca952",
+      "name": "Apple MacBook Pro 14 M3 Pro",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 14 M3 Pro",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca952/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b"
+    },
+    {
+      "id": "6aa06056af8879d815dca961",
+      "name": "Apple MacBook Pro 16 M3 Max",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 16 M3 Max",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca961/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b"
+    },
+    {
+      "id": "6aa06056af8879d815dca970",
+      "name": "Apple MacBook Air 13 M2",
+      "brand": "Apple",
+      "category": "laptop",
+      "model": "Apple MacBook Air 13 M2",
+      "imagePath": "/product-images/apple/6aa06056af8879d815dca970/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36"
+    },
+    {
+      "id": "6aa06057af8879d815dcad10",
+      "name": "Apple AirPods Max",
+      "brand": "Apple",
+      "category": "headphones",
+      "model": "Apple AirPods Max",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcad10/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "8826f1d162da993a1e5e4a4f3e8076533101d75ca445990390a63a6589079991"
+    },
+    {
+      "id": "6aa06057af8879d815dcad1f",
+      "name": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "model": "Apple AirPods Pro 2",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcad1f/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "2838f014e0096b6649e3210ae2ea0d1834efe51c130a0a6921970c0b8d1caebb"
+    },
+    {
+      "id": "6aa06057af8879d815dcad2e",
+      "name": "Apple AirPods 3",
+      "brand": "Apple",
+      "category": "headphones",
+      "model": "Apple AirPods 3",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcad2e/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "3b608647b256705700cd0b31c1186d6d9caf952696a908a04e92a42eabd273ca"
+    },
+    {
+      "id": "6aa06057af8879d815dcae2d",
+      "name": "Apple Watch Ultra 2",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "model": "Apple Watch Ultra 2",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcae2d/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "7aa8b469f5ba9f71c6007c72cbec3e6034331f6486989d7d9ba77b57db2ce811"
+    },
+    {
+      "id": "6aa06057af8879d815dcae3c",
+      "name": "Apple Watch Series 10",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "model": "Apple Watch Series 10",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcae3c/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "78878ef790af66387201c0d960cd1dc6c54e41ef72bae0130fea89839b5af4f7"
+    },
+    {
+      "id": "6aa06057af8879d815dcae4b",
+      "name": "Apple Watch SE (2nd Gen)",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "model": "Apple Watch SE (2nd Gen)",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcae4b/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa"
+    },
+    {
+      "id": "6aa06058af8879d815dcb0c1",
+      "name": "Apple iPad Pro 13-inch M4",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad Pro 13-inch M4",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb0c1/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "11baa60cf1c074d90f2f5cd842d86fe4470c49cd4db0532234eae531d00699c9"
+    },
+    {
+      "id": "6aa06058af8879d815dcb0d0",
+      "name": "Apple iPad Pro 11-inch M4",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad Pro 11-inch M4",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb0d0/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "81698d342961fa766aab7a40d0a2170e075a43eb6bd1a72951c682cfa9b002ed"
+    },
+    {
+      "id": "6aa06058af8879d815dcb0df",
+      "name": "Apple iPad Air 11-inch M2",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad Air 11-inch M2",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb0df/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2"
+    },
+    {
+      "id": "6aa06058af8879d815dcb0ee",
+      "name": "Apple iPad Air 13-inch M2",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad Air 13-inch M2",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb0ee/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2"
+    },
+    {
+      "id": "6aa06058af8879d815dcb0fd",
+      "name": "Apple iPad 10th Gen 10.9-inch",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad 10th Gen 10.9-inch",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb0fd/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd"
+    },
+    {
+      "id": "6aa06058af8879d815dcb10c",
+      "name": "Apple iPad mini 7th Gen A17 Pro",
+      "brand": "Apple",
+      "category": "tablet",
+      "model": "Apple iPad mini 7th Gen A17 Pro",
+      "imagePath": "/product-images/apple/6aa06058af8879d815dcb10c/primary.jpg",
+      "imageSource": "OFFICIAL_MANUFACTURER_CDN",
+      "imageStatus": "VERIFIED_EXACT",
+      "sha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2"
+    }
+  ],
+  "unverifiedCandidateCount": 8,
+  "unverifiedCandidates": [
+    {
+      "id": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "category": "accessories",
+      "specs": {
+        "model_number": "MGFQ4ZM/A",
+        "brand_name": "Apple",
+        "model_name": "iPhone Magsafe Cases",
+        "number_of_items": "1",
+        "unit_count": "1 Count",
+        "manufacturer": "Apple, Apple Inc, One Apple Park Way, Cupertino, CA 95014, USA. or Apple India Private Limited 13th Floor, Prestige Minsk Square, Municipal No. 6, Cubbon Road, Bengaluru, Karnataka - 560001, India",
+        "upc": "195950664119",
+        "global_trade_identification_number": "30195950664110",
+        "country_of_origin": "China",
+        "importer_contact_information": "(If applicable) Apple India Private Limited 13th Floor, Prestige Minsk Square, Municipal No. 6, Cubbon Road, Bengaluru, Karnataka - 560001, India",
+        "item_weight_unit_of_measure": "0.09 Kilograms",
+        "item_type_name": "iPhone MagSafe Cases",
+        "manufacturer_contact_information": "Apple Inc, One Apple Park Way, Cupertino, CA 95014, USA. or Apple India Private Limited 13th Floor, Prestige Minsk Square, Municipal No. 6, Cubbon Road, Bengaluru, Karnataka - 560001, India",
+        "packer_contact_information": "Not Applicable for Apple (Always)",
+        "manufacturer_part_number": "MGFQ4ZM/A",
+        "warranty_description": "Apple One (1) Year Limited Warranty",
+        "best_sellers_rank": "[object Object] [object Object]",
+        "asin": "B0FQFPWY45",
+        "customer_reviews": "4.3 out of 5 stars",
+        "rating": "4.3",
+        "reviews": "2119",
+        "compatible_phone_models": "iPhone 17 Pro Max",
+        "product_features": "Lightweight, Magnetic, Slim Fit, Wireless Charging Compatible",
+        "screen_size_unit_of_measure": "6.9 Inches",
+        "colour": "Terra Cotta",
+        "pattern": "Solid",
+        "style_name": "Silicone",
+        "form_factor": "Basic Case",
+        "enclosure_material": "TechWoven",
+        "product_finish_type": "Smooth",
+        "item_dimensions": "19.7 x 1.9 x 9.5 Centimeters",
+        "ASIN": "B0FQFPWY45"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "category": "smartphone",
+      "specs": {
+        "Display": "6.7-inch 120Hz LTPO OLED Display",
+        "Processor": "Apple Octa-Core High Performance Processor",
+        "RAM": "12 GB LPDDR5X",
+        "Storage": "256 GB UFS 4.0",
+        "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+        "Battery": "5000 mAh Fast Charging",
+        "OS": "iOS 18"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "category": "smartphone",
+      "specs": {
+        "Display": "6.7-inch 120Hz LTPO OLED Display",
+        "Processor": "Apple Octa-Core High Performance Processor",
+        "RAM": "12 GB LPDDR5X",
+        "Storage": "256 GB UFS 4.0",
+        "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+        "Battery": "5000 mAh Fast Charging",
+        "OS": "iOS 18"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "category": "smartphone",
+      "specs": {
+        "Display": "6.7-inch 120Hz LTPO OLED Display",
+        "Processor": "Apple Octa-Core High Performance Processor",
+        "RAM": "12 GB LPDDR5X",
+        "Storage": "256 GB UFS 4.0",
+        "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+        "Battery": "5000 mAh Fast Charging",
+        "OS": "iOS 18"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "category": "smartphone",
+      "specs": {
+        "Model": "Apple iPhone Plus",
+        "Brand": "Apple",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbfa",
+      "name": "Apple iPhone Pro",
+      "category": "smartphone",
+      "specs": {
+        "Model": "Apple iPhone Pro",
+        "Brand": "Apple",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadbfc",
+      "name": "Apple iPhone Pro Max",
+      "category": "smartphone",
+      "specs": {
+        "Model": "Apple iPhone Pro Max",
+        "Brand": "Apple",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      }
+    },
+    {
+      "id": "6a9904e369652590e0aadd32",
+      "name": "Smartwatch & Wearables Apple Watch Series",
+      "category": "smartwatch",
+      "specs": {
+        "Model": "Smartwatch & Wearables Apple Watch Series",
+        "Brand": "Smartwatch & Wearables",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      }
+    }
+  ]
+}
