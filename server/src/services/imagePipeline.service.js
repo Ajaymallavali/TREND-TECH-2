@@ -109,6 +109,14 @@ export function isValidProductImage(imageUrl) {
   const trimmed = imageUrl.trim();
   if (trimmed === '' || trimmed === 'null' || trimmed === 'undefined') return false;
 
+  if (
+    trimmed.startsWith('/product-images/') ||
+    trimmed.startsWith('server/src/data/product-images/') ||
+    trimmed.startsWith('/server/src/data/product-images/')
+  ) {
+    return true;
+  }
+
   try {
     const parsed = new URL(trimmed);
     return ['http:', 'https:'].includes(parsed.protocol);

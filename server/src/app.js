@@ -38,6 +38,11 @@ export function createApp() {
   app.use('/api/health', healthRoutes);
   app.use('/api', apiRoutes);
 
+  // Serve product image files safely from local storage
+  const productImagesPath = path.resolve(process.cwd(), 'server/src/data/product-images');
+  app.use('/product-images', express.static(productImagesPath));
+  app.use('/server/src/data/product-images', express.static(productImagesPath));
+
   // Serve static assets from client build for single combined server
   const clientDistPath = path.resolve(process.cwd(), 'client/dist');
   app.use(express.static(clientDistPath));

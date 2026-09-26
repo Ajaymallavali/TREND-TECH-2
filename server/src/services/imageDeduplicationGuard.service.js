@@ -108,7 +108,7 @@ export function enforceCategoryListingImageDeduplication(products = []) {
         url: canonical
       });
 
-      // Strip image from secondary colliding product
+      // Strip image from secondary colliding product in listing view
       p.image = null;
       p.imageStatus = 'DUPLICATE_CONFLICT';
       p.imageVerificationReason = `Collision detected with product ID ${prodIdA}`;
