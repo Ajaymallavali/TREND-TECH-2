@@ -1,0 +1,666 @@
+{
+  "generatedAt": "2026-09-26T12:10:43.622Z",
+  "metrics": {
+    "totalAppleProducts": 40,
+    "verifiedAppleCount": 32,
+    "unverifiedAppleCount": 8,
+    "http200Count": 32,
+    "shaMatchCount": 32,
+    "pipelinePassCount": 32,
+    "unexplainedDuplicateCount": 6,
+    "databaseIntegrityPass": true,
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "mpBefore": 1181,
+    "mpAfter": 1181,
+    "phBefore": 559,
+    "phAfter": 559,
+    "databaseWrites": 0,
+    "nonAppleModifications": 0
+  },
+  "pipelineStatuses": {
+    "databaseImagePath": "PASS",
+    "apiImagePath": "PASS",
+    "filesystemAsset": "PASS",
+    "expressHttpServing": "PASS",
+    "frontendUrlResolution": "PASS",
+    "categoryPageRendering": "PASS",
+    "productDetailRendering": "PASS",
+    "fallbackProtection": "PASS",
+    "sha256Consistency": "PASS",
+    "duplicateProtection": "FAIL",
+    "browserVerification": "PASS"
+  },
+  "verifiedResults": [
+    {
+      "id": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadbf0/primary.jpg",
+      "fileExists": true,
+      "fileSize": 693100,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "httpSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "metaSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadbf2/primary.jpg",
+      "fileExists": true,
+      "fileSize": 554933,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "4e80aaa9094d306e8cc689d38dd4b3f73eab8bb2a2c59ce825a08cc56be3fc67",
+      "httpSha256": "4e80aaa9094d306e8cc689d38dd4b3f73eab8bb2a2c59ce825a08cc56be3fc67",
+      "metaSha256": "4e80aaa9094d306e8cc689d38dd4b3f73eab8bb2a2c59ce825a08cc56be3fc67",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadbf6/primary.jpg",
+      "fileExists": true,
+      "fileSize": 57226,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "httpSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "metaSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadbf8/primary.jpg",
+      "fileExists": true,
+      "fileSize": 57226,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "httpSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "metaSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadc72",
+      "name": "Apple MacBook Air M3 (13-inch)",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadc72/primary.jpg",
+      "fileExists": true,
+      "fileSize": 42839,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "httpSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "metaSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadc74",
+      "name": "Laptop MacBook Pro",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadc74/primary.jpg",
+      "fileExists": true,
+      "fileSize": 313641,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "httpSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "metaSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6a9904e369652590e0aadd34",
+      "name": "Smartwatch & Wearables Apple Watch SE",
+      "category": "smartwatch",
+      "dbImagePath": "/product-images/apple/6a9904e369652590e0aadd34/primary.jpg",
+      "fileExists": true,
+      "fileSize": 55545,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "httpSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "metaSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca4f4/primary.jpg",
+      "fileExists": true,
+      "fileSize": 518842,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "5cfab09009ff1d35d048e1353333cd72fbd4a9c942f720d59815c6612f99f698",
+      "httpSha256": "5cfab09009ff1d35d048e1353333cd72fbd4a9c942f720d59815c6612f99f698",
+      "metaSha256": "5cfab09009ff1d35d048e1353333cd72fbd4a9c942f720d59815c6612f99f698",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca509/primary.jpg",
+      "fileExists": true,
+      "fileSize": 493207,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "c1faa7fa7ebea7698a7a410ca3a53546bc564b36679240a416fb26ce82e89ada",
+      "httpSha256": "c1faa7fa7ebea7698a7a410ca3a53546bc564b36679240a416fb26ce82e89ada",
+      "metaSha256": "c1faa7fa7ebea7698a7a410ca3a53546bc564b36679240a416fb26ce82e89ada",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca51e",
+      "name": "Apple iPhone 16",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca51e/primary.jpg",
+      "fileExists": true,
+      "fileSize": 693100,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "httpSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "metaSha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca533",
+      "name": "Apple iPhone 16 Plus",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca533/primary.jpg",
+      "fileExists": true,
+      "fileSize": 778826,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "e2506d391c0d3e95b5769afc163ca3228798a6240e2e518943eaff1a2accb245",
+      "httpSha256": "e2506d391c0d3e95b5769afc163ca3228798a6240e2e518943eaff1a2accb245",
+      "metaSha256": "e2506d391c0d3e95b5769afc163ca3228798a6240e2e518943eaff1a2accb245",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca55c/primary.jpg",
+      "fileExists": true,
+      "fileSize": 1264788,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "923453688760749232304c3fada51058f6ab149dfe4f61ec11fb3ab9a379d998",
+      "httpSha256": "923453688760749232304c3fada51058f6ab149dfe4f61ec11fb3ab9a379d998",
+      "metaSha256": "923453688760749232304c3fada51058f6ab149dfe4f61ec11fb3ab9a379d998",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca571/primary.jpg",
+      "fileExists": true,
+      "fileSize": 1094006,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "bbfd44ae4ba1cc48f6833c0cc67de8d8d63899a24a8ca06f35d261aca865921a",
+      "httpSha256": "bbfd44ae4ba1cc48f6833c0cc67de8d8d63899a24a8ca06f35d261aca865921a",
+      "metaSha256": "bbfd44ae4ba1cc48f6833c0cc67de8d8d63899a24a8ca06f35d261aca865921a",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca586",
+      "name": "Apple iPhone 15",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca586/primary.jpg",
+      "fileExists": true,
+      "fileSize": 665628,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "639fb9932979b494818f908e82ff06cab470badc806bdafa65c80996ed3943f6",
+      "httpSha256": "639fb9932979b494818f908e82ff06cab470badc806bdafa65c80996ed3943f6",
+      "metaSha256": "639fb9932979b494818f908e82ff06cab470badc806bdafa65c80996ed3943f6",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca59b",
+      "name": "Apple iPhone 15 Plus",
+      "category": "smartphone",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca59b/primary.jpg",
+      "fileExists": true,
+      "fileSize": 746170,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "305f68019bd6cfd5378f96a57da5240ec67307ee1b0e3ed05e740643b0952018",
+      "httpSha256": "305f68019bd6cfd5378f96a57da5240ec67307ee1b0e3ed05e740643b0952018",
+      "metaSha256": "305f68019bd6cfd5378f96a57da5240ec67307ee1b0e3ed05e740643b0952018",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca934",
+      "name": "Apple MacBook Air 13 M3",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca934/primary.jpg",
+      "fileExists": true,
+      "fileSize": 42839,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "httpSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "metaSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca943",
+      "name": "Apple MacBook Air 15 M3",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca943/primary.jpg",
+      "fileExists": true,
+      "fileSize": 42839,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "httpSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "metaSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca952",
+      "name": "Apple MacBook Pro 14 M3 Pro",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca952/primary.jpg",
+      "fileExists": true,
+      "fileSize": 313641,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "httpSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "metaSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca961",
+      "name": "Apple MacBook Pro 16 M3 Max",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca961/primary.jpg",
+      "fileExists": true,
+      "fileSize": 313641,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "httpSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "metaSha256": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06056af8879d815dca970",
+      "name": "Apple MacBook Air 13 M2",
+      "category": "laptop",
+      "dbImagePath": "/product-images/apple/6aa06056af8879d815dca970/primary.jpg",
+      "fileExists": true,
+      "fileSize": 42839,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "httpSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "metaSha256": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcad10",
+      "name": "Apple AirPods Max",
+      "category": "headphones",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcad10/primary.jpg",
+      "fileExists": true,
+      "fileSize": 218665,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "8826f1d162da993a1e5e4a4f3e8076533101d75ca445990390a63a6589079991",
+      "httpSha256": "8826f1d162da993a1e5e4a4f3e8076533101d75ca445990390a63a6589079991",
+      "metaSha256": "8826f1d162da993a1e5e4a4f3e8076533101d75ca445990390a63a6589079991",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcad1f",
+      "name": "Apple AirPods Pro 2",
+      "category": "headphones",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcad1f/primary.jpg",
+      "fileExists": true,
+      "fileSize": 162018,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "2838f014e0096b6649e3210ae2ea0d1834efe51c130a0a6921970c0b8d1caebb",
+      "httpSha256": "2838f014e0096b6649e3210ae2ea0d1834efe51c130a0a6921970c0b8d1caebb",
+      "metaSha256": "2838f014e0096b6649e3210ae2ea0d1834efe51c130a0a6921970c0b8d1caebb",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcad2e",
+      "name": "Apple AirPods 3",
+      "category": "headphones",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcad2e/primary.jpg",
+      "fileExists": true,
+      "fileSize": 287268,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "3b608647b256705700cd0b31c1186d6d9caf952696a908a04e92a42eabd273ca",
+      "httpSha256": "3b608647b256705700cd0b31c1186d6d9caf952696a908a04e92a42eabd273ca",
+      "metaSha256": "3b608647b256705700cd0b31c1186d6d9caf952696a908a04e92a42eabd273ca",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcae2d",
+      "name": "Apple Watch Ultra 2",
+      "category": "smartwatch",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcae2d/primary.jpg",
+      "fileExists": true,
+      "fileSize": 816446,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "7aa8b469f5ba9f71c6007c72cbec3e6034331f6486989d7d9ba77b57db2ce811",
+      "httpSha256": "7aa8b469f5ba9f71c6007c72cbec3e6034331f6486989d7d9ba77b57db2ce811",
+      "metaSha256": "7aa8b469f5ba9f71c6007c72cbec3e6034331f6486989d7d9ba77b57db2ce811",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcae3c",
+      "name": "Apple Watch Series 10",
+      "category": "smartwatch",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcae3c/primary.jpg",
+      "fileExists": true,
+      "fileSize": 739874,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "78878ef790af66387201c0d960cd1dc6c54e41ef72bae0130fea89839b5af4f7",
+      "httpSha256": "78878ef790af66387201c0d960cd1dc6c54e41ef72bae0130fea89839b5af4f7",
+      "metaSha256": "78878ef790af66387201c0d960cd1dc6c54e41ef72bae0130fea89839b5af4f7",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06057af8879d815dcae4b",
+      "name": "Apple Watch SE (2nd Gen)",
+      "category": "smartwatch",
+      "dbImagePath": "/product-images/apple/6aa06057af8879d815dcae4b/primary.jpg",
+      "fileExists": true,
+      "fileSize": 55545,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "httpSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "metaSha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb0c1",
+      "name": "Apple iPad Pro 13-inch M4",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb0c1/primary.jpg",
+      "fileExists": true,
+      "fileSize": 598901,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "11baa60cf1c074d90f2f5cd842d86fe4470c49cd4db0532234eae531d00699c9",
+      "httpSha256": "11baa60cf1c074d90f2f5cd842d86fe4470c49cd4db0532234eae531d00699c9",
+      "metaSha256": "11baa60cf1c074d90f2f5cd842d86fe4470c49cd4db0532234eae531d00699c9",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb0d0",
+      "name": "Apple iPad Pro 11-inch M4",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb0d0/primary.jpg",
+      "fileExists": true,
+      "fileSize": 511752,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "81698d342961fa766aab7a40d0a2170e075a43eb6bd1a72951c682cfa9b002ed",
+      "httpSha256": "81698d342961fa766aab7a40d0a2170e075a43eb6bd1a72951c682cfa9b002ed",
+      "metaSha256": "81698d342961fa766aab7a40d0a2170e075a43eb6bd1a72951c682cfa9b002ed",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb0df",
+      "name": "Apple iPad Air 11-inch M2",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb0df/primary.jpg",
+      "fileExists": true,
+      "fileSize": 95175,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "httpSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "metaSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb0ee",
+      "name": "Apple iPad Air 13-inch M2",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb0ee/primary.jpg",
+      "fileExists": true,
+      "fileSize": 95175,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "httpSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "metaSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb0fd",
+      "name": "Apple iPad 10th Gen 10.9-inch",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb0fd/primary.jpg",
+      "fileExists": true,
+      "fileSize": 57226,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "httpSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "metaSha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "shaMatch": true,
+      "pipelinePass": true
+    },
+    {
+      "id": "6aa06058af8879d815dcb10c",
+      "name": "Apple iPad mini 7th Gen A17 Pro",
+      "category": "tablet",
+      "dbImagePath": "/product-images/apple/6aa06058af8879d815dcb10c/primary.jpg",
+      "fileExists": true,
+      "fileSize": 95175,
+      "httpStatus": 200,
+      "httpContentType": "image/jpeg",
+      "diskSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "httpSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "metaSha256": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "shaMatch": true,
+      "pipelinePass": true
+    }
+  ],
+  "unverifiedProducts": [
+    {
+      "id": "6a98d181a6bfd56d867752df",
+      "name": "iPhone 17 Pro Max Silicone Case",
+      "category": "accessories",
+      "reason": "ACCESSORY_UNRELEASED_IDENTITY: Case for unreleased iPhone model line — device image cannot be attached to accessory"
+    },
+    {
+      "id": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "category": "smartphone",
+      "reason": "UNRELEASED_PRODUCT_MODEL: iPhone 17 series not currently present on official Apple store/CDN sources"
+    },
+    {
+      "id": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "category": "smartphone",
+      "reason": "UNRELEASED_PRODUCT_MODEL: iPhone 17 series not currently present on official Apple store/CDN sources"
+    },
+    {
+      "id": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "category": "smartphone",
+      "reason": "UNRELEASED_PRODUCT_MODEL: iPhone 17 series not currently present on official Apple store/CDN sources"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "category": "smartphone",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title lacks specific generation number (e.g. 14/15/16) — identity preserved without guessing"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfa",
+      "name": "Apple iPhone Pro",
+      "category": "smartphone",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title lacks specific generation number (e.g. 14/15/16) — identity preserved without guessing"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfc",
+      "name": "Apple iPhone Pro Max",
+      "category": "smartphone",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title lacks specific generation number (e.g. 14/15/16) — identity preserved without guessing"
+    },
+    {
+      "id": "6a9904e369652590e0aadd32",
+      "name": "Smartwatch & Wearables Apple Watch Series",
+      "category": "smartwatch",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title lacks specific series number — identity preserved without guessing"
+    }
+  ],
+  "unexplainedDuplicates": [
+    {
+      "hash": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "products": [
+        {
+          "id": "6a9904e369652590e0aadbf0",
+          "name": "Apple iPhone Air"
+        },
+        {
+          "id": "6aa06056af8879d815dca51e",
+          "name": "Apple iPhone 16"
+        }
+      ]
+    },
+    {
+      "hash": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "products": [
+        {
+          "id": "6a9904e369652590e0aadbf6",
+          "name": "Apple iPhone SE (3rd Gen)"
+        },
+        {
+          "id": "6a9904e369652590e0aadbf8",
+          "name": "Apple iPhone SE 2022"
+        },
+        {
+          "id": "6aa06058af8879d815dcb0fd",
+          "name": "Apple iPad 10th Gen 10.9-inch"
+        }
+      ]
+    },
+    {
+      "hash": "9be215fb59122b7ab8f4bdf2bc8adb97743b8a8cf7359a3816e4691a0ee7fe36",
+      "products": [
+        {
+          "id": "6a9904e369652590e0aadc72",
+          "name": "Apple MacBook Air M3 (13-inch)"
+        },
+        {
+          "id": "6aa06056af8879d815dca934",
+          "name": "Apple MacBook Air 13 M3"
+        },
+        {
+          "id": "6aa06056af8879d815dca943",
+          "name": "Apple MacBook Air 15 M3"
+        },
+        {
+          "id": "6aa06056af8879d815dca970",
+          "name": "Apple MacBook Air 13 M2"
+        }
+      ]
+    },
+    {
+      "hash": "2d81f692b27f5d27d4baba1442234c2f5c386bb3904853c352346088d5223c5b",
+      "products": [
+        {
+          "id": "6a9904e369652590e0aadc74",
+          "name": "Laptop MacBook Pro"
+        },
+        {
+          "id": "6aa06056af8879d815dca952",
+          "name": "Apple MacBook Pro 14 M3 Pro"
+        },
+        {
+          "id": "6aa06056af8879d815dca961",
+          "name": "Apple MacBook Pro 16 M3 Max"
+        }
+      ]
+    },
+    {
+      "hash": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "products": [
+        {
+          "id": "6a9904e369652590e0aadd34",
+          "name": "Smartwatch & Wearables Apple Watch SE"
+        },
+        {
+          "id": "6aa06057af8879d815dcae4b",
+          "name": "Apple Watch SE (2nd Gen)"
+        }
+      ]
+    },
+    {
+      "hash": "cd7e52542cc1a3190465b82fc871ec9f2fefe379f753c2c7373c856b1dbd3ca2",
+      "products": [
+        {
+          "id": "6aa06058af8879d815dcb0df",
+          "name": "Apple iPad Air 11-inch M2"
+        },
+        {
+          "id": "6aa06058af8879d815dcb0ee",
+          "name": "Apple iPad Air 13-inch M2"
+        },
+        {
+          "id": "6aa06058af8879d815dcb10c",
+          "name": "Apple iPad mini 7th Gen A17 Pro"
+        }
+      ]
+    }
+  ]
+}

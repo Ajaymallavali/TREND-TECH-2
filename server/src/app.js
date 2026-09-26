@@ -7,12 +7,16 @@ import compression from 'compression';
 import mongoSanitize from 'express-mongo-sanitize';
 import pinoHttp from 'pino-http';
 
+import { fileURLToPath } from 'url';
 import { env } from './config/env.js';
 import { logger } from './config/logger.js';
 import { apiLimiter } from './middleware/rateLimiter.js';
 import { notFoundHandler, errorHandler } from './middleware/errorHandler.js';
 import healthRoutes from './routes/health.routes.js';
 import apiRoutes from './routes/index.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export function createApp() {
   const app = express();
@@ -39,7 +43,7 @@ export function createApp() {
   app.use('/api', apiRoutes);
 
   // Serve product image files safely from local storage
-  const productImagesPath = path.resolve(process.cwd(), 'server/src/data/product-images');
+  const productImagesPath = path.resolve(__dirname, 'data/product-images');
   app.use('/product-images', express.static(productImagesPath));
   app.use('/server/src/data/product-images', express.static(productImagesPath));
 
