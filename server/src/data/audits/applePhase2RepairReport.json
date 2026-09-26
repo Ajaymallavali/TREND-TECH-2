@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-09-26T11:56:38.373Z",
+  "brand": "Apple",
+  "metrics": {
+    "totalAppleProducts": 40,
+    "previouslyVerified": 27,
+    "phase2Candidates": 13,
+    "newlyVerifiedInPhase2": 5,
+    "totalVerifiedFinal": 32,
+    "totalUnverifiedFinal": 8,
+    "wrongImages": 0,
+    "duplicateConflicts": 0,
+    "nonAppleModified": 0,
+    "databaseIntegrityPass": true
+  },
+  "recoveryTable": [
+    {
+      "id": "6a98d181a6bfd56d867752df",
+      "product": "iPhone 17 Pro Max Silicone Case",
+      "category": "accessories",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbea",
+      "product": "Apple iPhone 17 Pro Max",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbec",
+      "product": "Apple iPhone 17 Pro",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbee",
+      "product": "Apple iPhone 17",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf0",
+      "product": "Apple iPhone Air",
+      "category": "smartphone",
+      "officialSource": "Apple Official CDN",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf0/primary.jpg",
+      "sha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+      "status": "OFFICIAL_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf4",
+      "product": "Apple iPhone Plus",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf6",
+      "product": "Apple iPhone SE (3rd Gen)",
+      "category": "smartphone",
+      "officialSource": "Apple Official CDN",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf6/primary.jpg",
+      "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "status": "OFFICIAL_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf8",
+      "product": "Apple iPhone SE 2022",
+      "category": "smartphone",
+      "officialSource": "Apple Official CDN",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadbf8/primary.jpg",
+      "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+      "status": "OFFICIAL_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfa",
+      "product": "Apple iPhone Pro",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfc",
+      "product": "Apple iPhone Pro Max",
+      "category": "smartphone",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadd32",
+      "product": "Smartwatch & Wearables Apple Watch Series",
+      "category": "smartwatch",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadd34",
+      "product": "Smartwatch & Wearables Apple Watch SE",
+      "category": "smartwatch",
+      "officialSource": "Apple Official CDN",
+      "imagePath": "/product-images/apple/6a9904e369652590e0aadd34/primary.jpg",
+      "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "status": "OFFICIAL_VERIFIED"
+    },
+    {
+      "id": "6aa06057af8879d815dcae4b",
+      "product": "Apple Watch SE (2nd Gen)",
+      "category": "smartwatch",
+      "officialSource": "Apple Official CDN",
+      "imagePath": "/product-images/apple/6aa06057af8879d815dcae4b/primary.jpg",
+      "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+      "status": "OFFICIAL_VERIFIED"
+    }
+  ]
+}

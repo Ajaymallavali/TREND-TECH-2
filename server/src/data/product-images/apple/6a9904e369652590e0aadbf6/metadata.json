@@ -1,0 +1,14 @@
+{
+  "productId": "6a9904e369652590e0aadbf6",
+  "name": "Apple iPhone SE (3rd Gen)",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "m.media-amazon.com",
+  "sourceImageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+  "localPath": "/product-images/apple/6a9904e369652590e0aadbf6/primary.jpg",
+  "sha256": "f86084146bf548ffd72f9fd421f6ba087ecace2ef979b852822956ae737f22cd",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:56:36.728Z",
+  "verificationReason": "Phase 2: Verified against official store photography"
+}

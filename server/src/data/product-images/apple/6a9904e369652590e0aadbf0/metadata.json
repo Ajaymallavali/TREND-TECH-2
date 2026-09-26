@@ -1,0 +1,14 @@
+{
+  "productId": "6a9904e369652590e0aadbf0",
+  "name": "Apple iPhone Air",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "store.storeimages.cdn-apple.com",
+  "sourceImageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=p-jpg",
+  "localPath": "/product-images/apple/6a9904e369652590e0aadbf0/primary.jpg",
+  "sha256": "858b88afe3613a68f2bc5ee612903ca2479070224c6d615056da5b5f4bfc39f2",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:56:35.479Z",
+  "verificationReason": "Phase 2: Verified against official store photography"
+}

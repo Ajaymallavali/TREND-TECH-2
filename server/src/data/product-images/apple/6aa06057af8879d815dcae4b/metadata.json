@@ -1,0 +1,14 @@
+{
+  "productId": "6aa06057af8879d815dcae4b",
+  "name": "Apple Watch SE (2nd Gen)",
+  "brand": "Apple",
+  "sourceType": "OFFICIAL_MANUFACTURER",
+  "sourceDomain": "m.media-amazon.com",
+  "sourceImageUrl": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+  "localPath": "/product-images/apple/6aa06057af8879d815dcae4b/primary.jpg",
+  "sha256": "3af9e7e38f8d861656a6383213326a8f5d1b030cbc1404a0121425f18f3a31aa",
+  "mimeType": "image/jpeg",
+  "verificationStatus": "VERIFIED_EXACT",
+  "verifiedAt": "2026-09-26T11:56:38.365Z",
+  "verificationReason": "Phase 2: Verified against official store photography"
+}
