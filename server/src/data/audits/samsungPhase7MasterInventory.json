@@ -1,0 +1,622 @@
+[
+  {
+    "id": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 4,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADC00",
+      "https://www.amazon.in/dp/B00SP19",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Fold%206",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20Z%20Fold%206"
+    ]
+  },
+  {
+    "id": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 4,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADC02",
+      "https://www.amazon.in/dp/B00SP20",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Flip%206",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20Z%20Flip%206"
+    ]
+  },
+  {
+    "id": "6a9904e369652590e0aadc04",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "/product-images/samsung/6a9904e369652590e0aadc04/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 4,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADC04",
+      "https://www.amazon.in/dp/B00SP22",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A55%205G",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20A55%205G"
+    ]
+  },
+  {
+    "id": "6a9904e369652590e0aadc06",
+    "name": "Samsung Galaxy M55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Model": "Smartphone Galaxy M series",
+      "Brand": "Smartphone",
+      "Category": "Electronics",
+      "Warranty": "1 Year Manufacturer",
+      "Release Year": "2024",
+      "Quality": "Premium"
+    },
+    "image": "/product-images/samsung/6a9904e369652590e0aadc06/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 1,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADC06"
+    ]
+  },
+  {
+    "id": "6a9904e369652590e0aadc08",
+    "name": "Samsung Galaxy F55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Model": "Smartphone Galaxy F series",
+      "Brand": "Smartphone",
+      "Category": "Electronics",
+      "Warranty": "1 Year Manufacturer",
+      "Release Year": "2024",
+      "Quality": "Premium"
+    },
+    "image": "/product-images/samsung/6a9904e369652590e0aadc08/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 1,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADC08"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca5b0",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP13",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%20Ultra",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S25%20Ultra"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP14",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%2B",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S25%2B"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca5da",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP15",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S25"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP16",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24%20Ultra",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S24%20Ultra"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP17",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24%2B",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S24%2B"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca619",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "/product-images/samsung/6aa06056af8879d815dca619/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP18",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S24"
+    ]
+  },
+  {
+    "id": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SP21",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S23%20FE",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20S23%20FE"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TV1",
+      "https://www.croma.com/search?q=Samsung%2065%22%20Neo%20QLED%208K%20(QN900D)"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TV2",
+      "https://www.croma.com/search?q=Samsung%2055%22%20The%20Frame%20TV%20QLED"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TV3",
+      "https://www.croma.com/search?q=Samsung%2065%22%20OLED%204K%20(S90D)"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TV4",
+      "https://www.croma.com/search?q=Samsung%2050%22%20Crystal%204K%20Vivid%20Pro"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TV22",
+      "https://www.croma.com/search?q=Samsung%2075%22%20QN85D%20Neo%20QLED%204K"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcadd3",
+    "name": "Samsung Galaxy Buds3 Pro",
+    "brand": "Samsung",
+    "category": "headphones",
+    "specs": {
+      "Type": "Over-Ear / TWS Earbuds",
+      "NoiseCancellation": "Active Noise Cancellation (ANC)",
+      "BatteryLife": "24 to 30 Hours",
+      "Connectivity": "Bluetooth 5.3, LDAC, AAC"
+    },
+    "image": "/product-images/samsung/6aa06057af8879d815dcadd3/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00AU20",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Buds3%20Pro"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "brand": "Samsung",
+    "category": "headphones",
+    "specs": {
+      "Type": "Over-Ear / TWS Earbuds",
+      "NoiseCancellation": "Active Noise Cancellation (ANC)",
+      "BatteryLife": "24 to 30 Hours",
+      "Connectivity": "Bluetooth 5.3, LDAC, AAC"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00AU21",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Buds%20FE"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SW4",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%20Ultra"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SW5",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%207"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00SW6",
+      "https://www.croma.com/search?q=Samsung%20Galaxy%20Watch%206%20Classic"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00MN8",
+      "https://www.vijaysales.com/search?q=Samsung%20Odyssey%20OLED%20G9%2049%22"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00MN9",
+      "https://www.vijaysales.com/search?q=Samsung%20Odyssey%20OLED%20G8%2032%22%204K%20240Hz"
+    ]
+  },
+  {
+    "id": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00MN10",
+      "https://www.vijaysales.com/search?q=Samsung%20Smart%20Monitor%20M8%2032%22%204K"
+    ]
+  },
+  {
+    "id": "6aa06058af8879d815dcb11b",
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "/product-images/samsung/6aa06058af8879d815dcb11b/primary.jpg",
+    "imageStatus": "VERIFIED_EXACT",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TB7",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S10%20Ultra"
+    ]
+  },
+  {
+    "id": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TB8",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S10%2B"
+    ]
+  },
+  {
+    "id": "6aa06058af8879d815dcb139",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TB9",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S9%20FE"
+    ]
+  },
+  {
+    "id": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TB10",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20A9%2B"
+    ]
+  },
+  {
+    "id": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": null,
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2,
+    "marketplaceUrls": [
+      "https://www.amazon.in/dp/B00TB22",
+      "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20Active5%20Rugged"
+    ]
+  }
+]

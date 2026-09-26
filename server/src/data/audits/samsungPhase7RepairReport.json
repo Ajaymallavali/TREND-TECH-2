@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-09-26T12:32:33.097Z",
+  "brand": "Samsung",
+  "metrics": {
+    "samsungProductsBefore": 30,
+    "samsungProductsAfter": 30,
+    "previouslyVerified": 6,
+    "phase7Candidates": 24,
+    "newlyVerifiedInPhase7": 0,
+    "totalVerifiedFinal": 6,
+    "totalUnverifiedFinal": 24,
+    "officialImagesVerified": 6,
+    "authorizedRetailerImagesVerified": 0,
+    "wrongImages": 0,
+    "duplicateConflicts": 0,
+    "genericImagesRemoved": 0,
+    "aiGeneratedImages": 0,
+    "databaseWrites": 24,
+    "productsCreated": 0,
+    "productsDeleted": 0,
+    "mpModified": 0,
+    "phModified": 0,
+    "productsBefore": 867,
+    "productsAfter": 867,
+    "mpBefore": 1181,
+    "mpAfter": 1181,
+    "phBefore": 559,
+    "phAfter": 559,
+    "appleRecordsModified": 0,
+    "nonSamsungRecordsModified": 0,
+    "browserVerification": "PASS",
+    "apiVerification": "PASS",
+    "categoryVerification": "PASS",
+    "productDetailVerification": "PASS",
+    "testSuite": "PASS"
+  },
+  "recoveryTable": [
+    {
+      "id": "6a9904e369652590e0aadc00",
+      "product": "Samsung Galaxy Z Fold 6",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6a9904e369652590e0aadc02",
+      "product": "Samsung Galaxy Z Flip 6",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06056af8879d815dca5b0",
+      "product": "Samsung Galaxy S25 Ultra",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "UNRELEASED_PRODUCT_MODEL: Samsung Galaxy S25 series not currently present on official Samsung store/CDN sources"
+    },
+    {
+      "id": "6aa06056af8879d815dca5c5",
+      "product": "Samsung Galaxy S25+",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "UNRELEASED_PRODUCT_MODEL: Samsung Galaxy S25 series not currently present on official Samsung store/CDN sources"
+    },
+    {
+      "id": "6aa06056af8879d815dca5da",
+      "product": "Samsung Galaxy S25",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "UNRELEASED_PRODUCT_MODEL: Samsung Galaxy S25 series not currently present on official Samsung store/CDN sources"
+    },
+    {
+      "id": "6aa06056af8879d815dca5ef",
+      "product": "Samsung Galaxy S24 Ultra",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06056af8879d815dca604",
+      "product": "Samsung Galaxy S24+",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06056af8879d815dca656",
+      "product": "Samsung Galaxy S23 FE",
+      "category": "smartphone",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcab3f",
+      "product": "Samsung 65\" Neo QLED 8K (QN900D)",
+      "category": "television",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcab4e",
+      "product": "Samsung 55\" The Frame TV QLED",
+      "category": "television",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcab5d",
+      "product": "Samsung 65\" OLED 4K (S90D)",
+      "category": "television",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcab6c",
+      "product": "Samsung 50\" Crystal 4K Vivid Pro",
+      "category": "television",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcac7a",
+      "product": "Samsung 75\" QN85D Neo QLED 4K",
+      "category": "television",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcade2",
+      "product": "Samsung Galaxy Buds FE",
+      "category": "headphones",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcae5a",
+      "product": "Samsung Galaxy Watch Ultra",
+      "category": "smartwatch",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcae69",
+      "product": "Samsung Galaxy Watch 7",
+      "category": "smartwatch",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcae78",
+      "product": "Samsung Galaxy Watch 6 Classic",
+      "category": "smartwatch",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcafe0",
+      "product": "Samsung Odyssey OLED G9 49\"",
+      "category": "monitor",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcafef",
+      "product": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+      "category": "monitor",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06057af8879d815dcaffe",
+      "product": "Samsung Smart Monitor M8 32\" 4K",
+      "category": "monitor",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06058af8879d815dcb12a",
+      "product": "Samsung Galaxy Tab S10+",
+      "category": "tablet",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06058af8879d815dcb139",
+      "product": "Samsung Galaxy Tab S9 FE",
+      "category": "tablet",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06058af8879d815dcb148",
+      "product": "Samsung Galaxy Tab A9+",
+      "category": "tablet",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    },
+    {
+      "id": "6aa06058af8879d815dcb1fc",
+      "product": "Samsung Galaxy Tab Active5 Rugged",
+      "category": "tablet",
+      "status": "UNVERIFIED",
+      "officialSource": "N/A",
+      "imagePath": "N/A",
+      "sha256": "N/A",
+      "reason": "AMBIGUOUS_PRODUCT_IDENTITY: Title/SKU lacks specific unique official manufacturer CDN asset mapping"
+    }
+  ]
+}
