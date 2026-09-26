@@ -1,0 +1,698 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "originalName": "Samsung Galaxy Z Fold 6",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Z Fold",
+      "series": "",
+      "model": "Galaxy Z Fold 6",
+      "modelNumber": "SM-F956B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Z Fold 6"
+    },
+    "dbFields": {
+      "description": "Experience the new Smartphone Galaxy Z Fold from Smartphone. Features cutting-edge technology and premium build quality.",
+      "features": [],
+      "tags": [
+        "smartphone",
+        "electronics",
+        "mobile",
+        "smartphone",
+        "samsung"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "originalName": "Samsung Galaxy Z Flip 6",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Z Flip",
+      "series": "",
+      "model": "Galaxy Z Flip 6",
+      "modelNumber": "SM-F741B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Z Flip 6"
+    },
+    "dbFields": {
+      "description": "Experience the new Smartphone Galaxy Z Flip from Smartphone. Features cutting-edge technology and premium build quality.",
+      "features": [],
+      "tags": [
+        "smartphone",
+        "electronics",
+        "mobile",
+        "smartphone",
+        "samsung"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "originalName": "Samsung Galaxy S25 Ultra",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S25",
+      "model": "Galaxy S25 Ultra",
+      "modelNumber": "SM-S938B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S25 Ultra"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S25 Ultra powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S25 Ultra",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "originalName": "Samsung Galaxy S25+",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S25",
+      "model": "Galaxy S25+",
+      "modelNumber": "SM-S936B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S25+"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S25+ powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S25+",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "originalName": "Samsung Galaxy S25",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S25",
+      "model": "Galaxy S25",
+      "modelNumber": "SM-S931B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S25"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S25 powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S25",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "originalName": "Samsung Galaxy S24 Ultra",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S24",
+      "model": "Galaxy S24 Ultra",
+      "modelNumber": "SM-S928B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S24 Ultra"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S24 Ultra powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S24 Ultra",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "originalName": "Samsung Galaxy S24+",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S24",
+      "model": "Galaxy S24+",
+      "modelNumber": "SM-S926B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S24+"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S24+ powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S24+",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "originalName": "Samsung Galaxy S23 FE",
+    "category": "smartphone",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "series": "S23",
+      "model": "Galaxy S23 FE",
+      "modelNumber": "SM-S711B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy S23 FE"
+    },
+    "dbFields": {
+      "description": "Official commercial smartphone model Samsung Galaxy S23 FE powered by flagship mobile silicon, high-resolution OLED display, and professional camera system.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy S23 FE",
+        "Smartphone",
+        "Mobile",
+        "5G"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "originalName": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "category": "television",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Neo QLED 8K",
+      "series": "",
+      "model": "QN900D",
+      "modelNumber": "QA65QN900DKXXL",
+      "screenSize": 65,
+      "normalizedName": "Samsung QN900D"
+    },
+    "dbFields": {
+      "description": "Official commercial TV model Samsung 65\" Neo QLED 8K (QN900D) featuring 4K/8K resolution, Quantum Dot/OLED technology, and Dolby Atmos audio.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung 65\" Neo QLED 8K (QN900D)",
+        "Television",
+        "Smart TV",
+        "4K"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "originalName": "Samsung 55\" The Frame TV QLED",
+    "category": "television",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "The Frame",
+      "series": "",
+      "model": "LS03D",
+      "modelNumber": "QA55LS03DAKXXL",
+      "screenSize": 55,
+      "normalizedName": "Samsung LS03D"
+    },
+    "dbFields": {
+      "description": "Official commercial TV model Samsung 55\" The Frame TV QLED featuring 4K/8K resolution, Quantum Dot/OLED technology, and Dolby Atmos audio.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung 55\" The Frame TV QLED",
+        "Television",
+        "Smart TV",
+        "4K"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "originalName": "Samsung 65\" OLED 4K (S90D)",
+    "category": "television",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "OLED 4K",
+      "series": "",
+      "model": "S90D",
+      "modelNumber": "QA65S90DAKXXL",
+      "screenSize": 65,
+      "normalizedName": "Samsung S90D"
+    },
+    "dbFields": {
+      "description": "Official commercial TV model Samsung 65\" OLED 4K (S90D) featuring 4K/8K resolution, Quantum Dot/OLED technology, and Dolby Atmos audio.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung 65\" OLED 4K (S90D)",
+        "Television",
+        "Smart TV",
+        "4K"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "originalName": "Samsung 50\" Crystal 4K Vivid Pro",
+    "category": "television",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Crystal 4K",
+      "series": "",
+      "model": "DUE77",
+      "modelNumber": "UA50DUE77AKXXL",
+      "screenSize": 50,
+      "normalizedName": "Samsung DUE77"
+    },
+    "dbFields": {
+      "description": "Official commercial TV model Samsung 50\" Crystal 4K Vivid Pro featuring 4K/8K resolution, Quantum Dot/OLED technology, and Dolby Atmos audio.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung 50\" Crystal 4K Vivid Pro",
+        "Television",
+        "Smart TV",
+        "4K"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "originalName": "Samsung 75\" QN85D Neo QLED 4K",
+    "category": "television",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Neo QLED 4K",
+      "series": "",
+      "model": "QN85D",
+      "modelNumber": "QA75QN85DAKXXL",
+      "screenSize": 75,
+      "normalizedName": "Samsung QN85D"
+    },
+    "dbFields": {
+      "description": "Official commercial TV model Samsung 75\" QN85D Neo QLED 4K featuring 4K/8K resolution, Quantum Dot/OLED technology, and Dolby Atmos audio.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung 75\" QN85D Neo QLED 4K",
+        "Television",
+        "Smart TV",
+        "4K"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "originalName": "Samsung Galaxy Buds FE",
+    "category": "headphones",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Buds",
+      "series": "",
+      "model": "Galaxy Buds FE",
+      "modelNumber": "SM-R400N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Buds FE"
+    },
+    "dbFields": {
+      "description": "Commercial high-fidelity audio equipment Samsung Galaxy Buds FE featuring active noise cancellation, deep bass, and crystal clear acoustics.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Buds FE",
+        "Audio",
+        "Headphones",
+        "Earbuds"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "originalName": "Samsung Galaxy Watch Ultra",
+    "category": "smartwatch",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Watch",
+      "series": "",
+      "model": "Galaxy Watch Ultra",
+      "modelNumber": "SM-L705F",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Watch Ultra"
+    },
+    "dbFields": {
+      "description": "Official wearable smartwatch Samsung Galaxy Watch Ultra with health tracking, ECG, GPS, and multi-day battery life.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Watch Ultra",
+        "Smartwatch",
+        "Wearable",
+        "Fitness"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "originalName": "Samsung Galaxy Watch 7",
+    "category": "smartwatch",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Watch",
+      "series": "",
+      "model": "Galaxy Watch 7",
+      "modelNumber": "SM-L310N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Watch 7"
+    },
+    "dbFields": {
+      "description": "Official wearable smartwatch Samsung Galaxy Watch 7 with health tracking, ECG, GPS, and multi-day battery life.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Watch 7",
+        "Smartwatch",
+        "Wearable",
+        "Fitness"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "originalName": "Samsung Galaxy Watch 6 Classic",
+    "category": "smartwatch",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Watch",
+      "series": "",
+      "model": "Galaxy Watch 6 Classic",
+      "modelNumber": "SM-R950N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Watch 6 Classic"
+    },
+    "dbFields": {
+      "description": "Official wearable smartwatch Samsung Galaxy Watch 6 Classic with health tracking, ECG, GPS, and multi-day battery life.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Watch 6 Classic",
+        "Smartwatch",
+        "Wearable",
+        "Fitness"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "originalName": "Samsung Odyssey OLED G9 49\"",
+    "category": "monitor",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Odyssey OLED",
+      "series": "",
+      "model": "OLED G9 (G95SC)",
+      "modelNumber": "LS49CG954SWXXL",
+      "screenSize": 49,
+      "normalizedName": "Samsung OLED G9 (G95SC)"
+    },
+    "dbFields": {
+      "description": "High-resolution commercial display monitor Samsung Odyssey OLED G9 49\" engineered for gaming, professional color grading, and ultra-wide productivity.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Odyssey OLED G9 49\"",
+        "Monitor",
+        "Display",
+        "Gaming Monitor"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "originalName": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "category": "monitor",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Odyssey OLED",
+      "series": "",
+      "model": "OLED G8 (G80SD)",
+      "modelNumber": "LS32DG802SWXXL",
+      "screenSize": 32,
+      "normalizedName": "Samsung OLED G8 (G80SD)"
+    },
+    "dbFields": {
+      "description": "High-resolution commercial display monitor Samsung Odyssey OLED G8 32\" 4K 240Hz engineered for gaming, professional color grading, and ultra-wide productivity.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+        "Monitor",
+        "Display",
+        "Gaming Monitor"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "originalName": "Samsung Smart Monitor M8 32\" 4K",
+    "category": "monitor",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Smart Monitor",
+      "series": "",
+      "model": "Smart Monitor M8 (M80D)",
+      "modelNumber": "LS32DM801UWXXL",
+      "screenSize": 32,
+      "normalizedName": "Samsung Smart Monitor M8 (M80D)"
+    },
+    "dbFields": {
+      "description": "High-resolution commercial display monitor Samsung Smart Monitor M8 32\" 4K engineered for gaming, professional color grading, and ultra-wide productivity.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Smart Monitor M8 32\" 4K",
+        "Monitor",
+        "Display",
+        "Gaming Monitor"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "originalName": "Samsung Galaxy Tab S10+",
+    "category": "tablet",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Tab S",
+      "series": "",
+      "model": "Galaxy Tab S10+",
+      "modelNumber": "SM-X820N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Tab S10+"
+    },
+    "dbFields": {
+      "description": "Official commercial tablet device Samsung Galaxy Tab S10+ featuring OLED display, stylus pen support, and desktop-class multitasking.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Tab S10+",
+        "Tablet",
+        "iPad",
+        "Galaxy Tab"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06058af8879d815dcb139",
+    "originalName": "Samsung Galaxy Tab S9 FE",
+    "category": "tablet",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Tab S",
+      "series": "",
+      "model": "Galaxy Tab S9 FE",
+      "modelNumber": "SM-X510N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Tab S9 FE"
+    },
+    "dbFields": {
+      "description": "Official commercial tablet device Samsung Galaxy Tab S9 FE featuring OLED display, stylus pen support, and desktop-class multitasking.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Tab S9 FE",
+        "Tablet",
+        "iPad",
+        "Galaxy Tab"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "originalName": "Samsung Galaxy Tab A9+",
+    "category": "tablet",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Tab A",
+      "series": "",
+      "model": "Galaxy Tab A9+",
+      "modelNumber": "SM-X210N",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Tab A9+"
+    },
+    "dbFields": {
+      "description": "Official commercial tablet device Samsung Galaxy Tab A9+ featuring OLED display, stylus pen support, and desktop-class multitasking.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Tab A9+",
+        "Tablet",
+        "iPad",
+        "Galaxy Tab"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "originalName": "Samsung Galaxy Tab Active5 Rugged",
+    "category": "tablet",
+    "normalizedIdentity": {
+      "brand": "Samsung",
+      "family": "Galaxy Tab Active",
+      "series": "",
+      "model": "Galaxy Tab Active5",
+      "modelNumber": "SM-X306B",
+      "screenSize": null,
+      "normalizedName": "Samsung Galaxy Tab Active5"
+    },
+    "dbFields": {
+      "description": "Official commercial tablet device Samsung Galaxy Tab Active5 Rugged featuring OLED display, stylus pen support, and desktop-class multitasking.",
+      "features": [],
+      "tags": [
+        "Samsung",
+        "Samsung Galaxy Tab Active5 Rugged",
+        "Tablet",
+        "iPad",
+        "Galaxy Tab"
+      ],
+      "existingImage": null,
+      "existingImageStatus": "UNVERIFIED"
+    },
+    "linkedMarketplaceProductsCount": 0,
+    "linkedPriceHistoryCount": 0
+  }
+]
