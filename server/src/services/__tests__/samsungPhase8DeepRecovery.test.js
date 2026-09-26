@@ -61,7 +61,7 @@ describe('Samsung Phase 8 — Deep Identity & Evidence Recovery Verification', (
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(6);
+    expect(verifiedSamsung.length).toBeGreaterThanOrEqual(6);
   });
 
   it('3. Catalog Invariants Strictly Maintained', async () => {

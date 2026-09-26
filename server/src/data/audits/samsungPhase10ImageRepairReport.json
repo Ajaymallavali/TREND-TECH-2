@@ -1,0 +1,20 @@
+{
+  "samsungProducts": 30,
+  "previouslyVerified": 6,
+  "phase10Candidates": 24,
+  "imageAttempts": 7,
+  "newlyVerified": 7,
+  "stillUnverified": 17,
+  "officialImages": 7,
+  "authorizedRetailerImages": 0,
+  "wrongImages": 0,
+  "duplicateConflicts": 0,
+  "genericImages": 0,
+  "aiImages": 0,
+  "databaseWrites": 7,
+  "finalProductsCount": 867,
+  "finalMpsCount": 1181,
+  "finalPhCount": 559,
+  "appleRecordsModified": 0,
+  "nonSamsungRecordsModified": 0
+}

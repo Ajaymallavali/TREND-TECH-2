@@ -1,0 +1,290 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "category": "smartphone",
+    "exactModel": "SM-F956B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "category": "smartphone",
+    "exactModel": "SM-F741B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "name": "Samsung Galaxy S25 Ultra",
+    "category": "smartphone",
+    "exactModel": "SM-S938B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "category": "smartphone",
+    "exactModel": "SM-S936B",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "name": "Samsung Galaxy S25",
+    "category": "smartphone",
+    "exactModel": "SM-S931B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "smartphone",
+    "exactModel": "SM-S928B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "category": "smartphone",
+    "exactModel": "SM-S926B",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "category": "smartphone",
+    "exactModel": "SM-S711B",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "category": "television",
+    "exactModel": "QA65QN900DKXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "category": "television",
+    "exactModel": "QA55LS03DAKXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "category": "television",
+    "exactModel": "QA65S90DAKXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "category": "television",
+    "exactModel": "UA50DUE77AKXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "category": "television",
+    "exactModel": "QA75QN85DAKXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "category": "headphones",
+    "exactModel": "SM-R400N",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "category": "smartwatch",
+    "exactModel": "SM-L705F",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "category": "smartwatch",
+    "exactModel": "SM-L310N",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "category": "smartwatch",
+    "exactModel": "SM-R950N",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "category": "monitor",
+    "exactModel": "LS49CG954SWXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "category": "monitor",
+    "exactModel": "LS32DG802SWXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "category": "monitor",
+    "exactModel": "LS32DM801UWXXL",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "category": "tablet",
+    "exactModel": "SM-X820N",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06058af8879d815dcb139",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "category": "tablet",
+    "exactModel": "SM-X510N",
+    "status": "VERIFIED_EXACT",
+    "attempts": 1,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "category": "tablet",
+    "exactModel": "SM-X210N",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "category": "tablet",
+    "exactModel": "SM-X306B",
+    "status": "UNVERIFIED",
+    "attempts": 0,
+    "failureReasons": [
+      "SOURCE_UNAVAILABLE"
+    ],
+    "duplicateConflict": false
+  }
+]

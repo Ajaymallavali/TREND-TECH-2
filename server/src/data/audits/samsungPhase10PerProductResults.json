@@ -1,0 +1,242 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "category": "smartphone",
+    "exactModel": "SM-F956B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6a9904e369652590e0aadc00/primary.jpg",
+    "sha256": "d05019b510de58b7df65ccbba2382aea4ea28179fec8924be4a5c1eccf615180",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-z-fold6/images/galaxy-z-fold6-share-image.jpg"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "category": "smartphone",
+    "exactModel": "SM-F741B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6a9904e369652590e0aadc02/primary.jpg",
+    "sha256": "84295dada42665a1e2e2d957380c365a12d3623d400a046afd75071d05d5fdc6",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-z-flip6/images/galaxy-z-flip6-share-image.jpg"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "name": "Samsung Galaxy S25 Ultra",
+    "category": "smartphone",
+    "exactModel": "SM-S938B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6aa06056af8879d815dca5b0/primary.jpg",
+    "sha256": "41ad7b07335f6a960e97709a8480f5228c785d880be690592185564153da135d",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-share-image.jpg"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "category": "smartphone",
+    "exactModel": "SM-S936B",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "name": "Samsung Galaxy S25",
+    "category": "smartphone",
+    "exactModel": "SM-S931B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6aa06056af8879d815dca5da/primary.jpg",
+    "sha256": "d0e464582cef883e5023b5e920765c707d03038f0228a344a2582575a2797263",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-s25/images/galaxy-s25-share-image.jpg"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "smartphone",
+    "exactModel": "SM-S928B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6aa06056af8879d815dca5ef/primary.jpg",
+    "sha256": "10310cc346adc489b21330bfbd002420c10c1fc8918b469b1d884d39513d8a59",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-share-image.jpg"
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "category": "smartphone",
+    "exactModel": "SM-S926B",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6aa06056af8879d815dca604/primary.jpg",
+    "sha256": "fd2dc5294c495d1e7e3e0f3664891f78f522681da3b7ae272f805964a9b5df64",
+    "sourceUrl": "https://images.samsung.com/in/smartphones/galaxy-s24/images/galaxy-s24-share-image.jpg"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "category": "smartphone",
+    "exactModel": "SM-S711B",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "category": "television",
+    "exactModel": "QA65QN900DKXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "category": "television",
+    "exactModel": "QA55LS03DAKXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "category": "television",
+    "exactModel": "QA65S90DAKXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "category": "television",
+    "exactModel": "UA50DUE77AKXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "category": "television",
+    "exactModel": "QA75QN85DAKXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "category": "headphones",
+    "exactModel": "SM-R400N",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "category": "smartwatch",
+    "exactModel": "SM-L705F",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "category": "smartwatch",
+    "exactModel": "SM-L310N",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "category": "smartwatch",
+    "exactModel": "SM-R950N",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "category": "monitor",
+    "exactModel": "LS49CG954SWXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "category": "monitor",
+    "exactModel": "LS32DG802SWXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "category": "monitor",
+    "exactModel": "LS32DM801UWXXL",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "category": "tablet",
+    "exactModel": "SM-X820N",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06058af8879d815dcb139",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "category": "tablet",
+    "exactModel": "SM-X510N",
+    "verificationStatus": "VERIFIED_EXACT",
+    "imagePath": "/product-images/samsung/6aa06058af8879d815dcb139/primary.jpg",
+    "sha256": "c93707c4d99be5ef641a337bcf0710cfe6e24599353385b2cf1b3e4e69d46249",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x510nlgainu/gallery/in-galaxy-tab-s9-fe-sm-x510-sm-x510nlgainu-thumb-538493057"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "category": "tablet",
+    "exactModel": "SM-X210N",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "category": "tablet",
+    "exactModel": "SM-X306B",
+    "verificationStatus": "UNVERIFIED",
+    "imagePath": null,
+    "sha256": null,
+    "sourceUrl": null
+  }
+]

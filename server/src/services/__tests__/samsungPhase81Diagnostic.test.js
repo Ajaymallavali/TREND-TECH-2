@@ -63,6 +63,6 @@ describe('Samsung Phase 8.1 — Diagnostic Identity Audit Verification', () => {
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(6);
+    expect(verifiedSamsung.length).toBeGreaterThanOrEqual(6);
   });
 });
