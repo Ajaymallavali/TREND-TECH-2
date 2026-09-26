@@ -1,0 +1,491 @@
+[
+  {
+    "id": "6a9904e369652590e0aadc00",
+    "name": "Samsung Galaxy Z Fold 6",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71R2HjJ4K5L._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 4
+  },
+  {
+    "id": "6a9904e369652590e0aadc02",
+    "name": "Samsung Galaxy Z Flip 6",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71XMT65380L._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 4
+  },
+  {
+    "id": "6a9904e369652590e0aadc04",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 4
+  },
+  {
+    "id": "6a9904e369652590e0aadc06",
+    "name": "Samsung Galaxy M55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Model": "Smartphone Galaxy M series",
+      "Brand": "Smartphone",
+      "Category": "Electronics",
+      "Warranty": "1 Year Manufacturer",
+      "Release Year": "2024",
+      "Quality": "Premium"
+    },
+    "image": "https://m.media-amazon.com/images/I/71qGismu6NL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 1
+  },
+  {
+    "id": "6a9904e369652590e0aadc08",
+    "name": "Samsung Galaxy F55 5G",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Model": "Smartphone Galaxy F series",
+      "Brand": "Smartphone",
+      "Category": "Electronics",
+      "Warranty": "1 Year Manufacturer",
+      "Release Year": "2024",
+      "Quality": "Premium"
+    },
+    "image": "https://m.media-amazon.com/images/I/71CXhVhpM0L._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 1
+  },
+  {
+    "id": "6aa06056af8879d815dca5b0",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80&idx=13",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca5c5",
+    "name": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80&idx=14",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca5da",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80&idx=15",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca5ef",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71RVuW369qL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca604",
+    "name": "Samsung Galaxy S24+",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca619",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06056af8879d815dca656",
+    "name": "Samsung Galaxy S23 FE",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "specs": {
+      "Display": "6.7-inch 120Hz LTPO OLED Display",
+      "Processor": "Samsung Octa-Core High Performance Processor",
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB UFS 4.0",
+      "Camera": "50 MP Triple Camera System with OIS & Telephoto",
+      "Battery": "5000 mAh Fast Charging",
+      "OS": "Android 15"
+    },
+    "image": "https://m.media-amazon.com/images/I/61VfL-WzBfL._SL1500_.jpg",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 3
+  },
+  {
+    "id": "6aa06057af8879d815dcab3f",
+    "name": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80&idx=1",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcab4e",
+    "name": "Samsung 55\" The Frame TV QLED",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80&idx=2",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcab5d",
+    "name": "Samsung 65\" OLED 4K (S90D)",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80&idx=3",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcab6c",
+    "name": "Samsung 50\" Crystal 4K Vivid Pro",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80&idx=4",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcac7a",
+    "name": "Samsung 75\" QN85D Neo QLED 4K",
+    "brand": "Samsung",
+    "category": "television",
+    "specs": {
+      "Display": "55\" - 77\" 4K/8K UHD Display",
+      "Panel": "OLED / QLED / Mini-LED",
+      "HDR": "Dolby Vision, HDR10+",
+      "Audio": "Dolby Atmos, 40W-90W Speakers",
+      "SmartOS": "Google TV / Tizen / webOS"
+    },
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80&idx=22",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcadd3",
+    "name": "Samsung Galaxy Buds3 Pro",
+    "brand": "Samsung",
+    "category": "headphones",
+    "specs": {
+      "Type": "Over-Ear / TWS Earbuds",
+      "NoiseCancellation": "Active Noise Cancellation (ANC)",
+      "BatteryLife": "24 to 30 Hours",
+      "Connectivity": "Bluetooth 5.3, LDAC, AAC"
+    },
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80&idx=20",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcade2",
+    "name": "Samsung Galaxy Buds FE",
+    "brand": "Samsung",
+    "category": "headphones",
+    "specs": {
+      "Type": "Over-Ear / TWS Earbuds",
+      "NoiseCancellation": "Active Noise Cancellation (ANC)",
+      "BatteryLife": "24 to 30 Hours",
+      "Connectivity": "Bluetooth 5.3, LDAC, AAC"
+    },
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80&idx=21",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcae5a",
+    "name": "Samsung Galaxy Watch Ultra",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80&idx=4",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcae69",
+    "name": "Samsung Galaxy Watch 7",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80&idx=5",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcae78",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "specs": {
+      "Display": "AMOLED Always-On Display",
+      "Sensors": "Heart Rate, SpO2, ECG, Dual-Frequency GPS",
+      "WaterResistance": "50m to 100m Water Resistant",
+      "Battery": "Up to 36-100 Hours"
+    },
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80&idx=6",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcafe0",
+    "name": "Samsung Odyssey OLED G9 49\"",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop&q=80&idx=8",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcafef",
+    "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop&q=80&idx=9",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06057af8879d815dcaffe",
+    "name": "Samsung Smart Monitor M8 32\" 4K",
+    "brand": "Samsung",
+    "category": "monitor",
+    "specs": {
+      "DisplaySize": "27\" to 49\" OLED / QD-OLED Panel",
+      "Resolution": "4K UHD / QHD",
+      "RefreshRate": "144Hz to 240Hz",
+      "ResponseTime": "0.03ms"
+    },
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop&q=80&idx=10",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06058af8879d815dcb11b",
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=7",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06058af8879d815dcb12a",
+    "name": "Samsung Galaxy Tab S10+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=8",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06058af8879d815dcb139",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=9",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06058af8879d815dcb148",
+    "name": "Samsung Galaxy Tab A9+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=10",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  },
+  {
+    "id": "6aa06058af8879d815dcb1fc",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "brand": "Samsung",
+    "category": "tablet",
+    "specs": {
+      "Display": "11\" to 14.6\" High-Res Display",
+      "Processor": "Samsung Flagship Processor",
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB"
+    },
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80&idx=22",
+    "imageStatus": "UNVERIFIED",
+    "marketplaceCount": 2
+  }
+]
