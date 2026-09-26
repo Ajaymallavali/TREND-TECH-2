@@ -1,0 +1,290 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "resolvedModel": "Galaxy Z Fold 6",
+    "modelNumber": "SM-F956B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "resolvedModel": "Galaxy Z Flip 6",
+    "modelNumber": "SM-F741B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "resolvedModel": "Galaxy S25 Ultra",
+    "modelNumber": "SM-S938B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "resolvedModel": "Galaxy S25+",
+    "modelNumber": "SM-S936B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "resolvedModel": "Galaxy S25",
+    "modelNumber": "SM-S931B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "resolvedModel": "Galaxy S24 Ultra",
+    "modelNumber": "SM-S928B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "resolvedModel": "Galaxy S24+",
+    "modelNumber": "SM-S926B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "resolvedModel": "Galaxy S23 FE",
+    "modelNumber": "SM-S711B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "resolvedModel": "65\" QN900D",
+    "modelNumber": "QA65QN900DKXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "resolvedModel": "55\" LS03D",
+    "modelNumber": "QA55LS03DAKXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "resolvedModel": "65\" S90D",
+    "modelNumber": "QA65S90DAKXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "resolvedModel": "50\" Crystal 4K Vivid Pro",
+    "modelNumber": "UA50DUE77AKXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "resolvedModel": "75\" QN85D",
+    "modelNumber": "QA75QN85DAKXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "resolvedModel": "Galaxy Buds FE",
+    "modelNumber": "SM-R400N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "resolvedModel": "Galaxy Watch Ultra",
+    "modelNumber": "SM-L705F",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "resolvedModel": "Galaxy Watch 7",
+    "modelNumber": "SM-L310N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "resolvedModel": "Galaxy Watch 6 Classic",
+    "modelNumber": "SM-R950N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "resolvedModel": "Odyssey OLED G9 49\"",
+    "modelNumber": "LS49CG954SWXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "resolvedModel": "Odyssey OLED G8 32\"",
+    "modelNumber": "LS32DG802SWXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "resolvedModel": "Smart Monitor M8 32\"",
+    "modelNumber": "LS32DM801UWXXL",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "resolvedModel": "Galaxy Tab S10+",
+    "modelNumber": "SM-X820N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb139",
+    "resolvedModel": "Galaxy Tab S9 FE",
+    "modelNumber": "SM-X510N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "resolvedModel": "Galaxy Tab A9+",
+    "modelNumber": "SM-X210N",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "resolvedModel": "Galaxy Tab Active5 Rugged",
+    "modelNumber": "SM-X306B",
+    "checkedSources": [
+      "Official Samsung Website (samsung.com/in)",
+      "Official Samsung CDN Assets",
+      "Official Regional Support Pages"
+    ],
+    "result": "NO_UNIQUE_UNCOLLIDING_EXACT_ASSET_FOUND",
+    "verificationStatus": "UNVERIFIED"
+  }
+]
