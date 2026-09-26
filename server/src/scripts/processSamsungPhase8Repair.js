@@ -472,7 +472,9 @@ async function main() {
   await mongoose.disconnect();
 }
 
-main().catch(err => {
-  console.error('Fatal Error:', err);
-  process.exit(1);
-});
+if (process.argv[1] && process.argv[1].includes('processSamsungPhase8Repair.js')) {
+  main().catch(err => {
+    console.error('Fatal Error:', err);
+    process.exit(1);
+  });
+}

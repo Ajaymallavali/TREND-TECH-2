@@ -1,0 +1,194 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadc00",
+    "originalName": "Samsung Galaxy Z Fold 6",
+    "recoveredIdentity": "Galaxy Z Fold 6",
+    "modelNumber": "SM-F956B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6a9904e369652590e0aadc02",
+    "originalName": "Samsung Galaxy Z Flip 6",
+    "recoveredIdentity": "Galaxy Z Flip 6",
+    "modelNumber": "SM-F741B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5b0",
+    "originalName": "Samsung Galaxy S25 Ultra",
+    "recoveredIdentity": "Galaxy S25 Ultra",
+    "modelNumber": "SM-S938B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5c5",
+    "originalName": "Samsung Galaxy S25+",
+    "recoveredIdentity": "Galaxy S25+",
+    "modelNumber": "SM-S936B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5da",
+    "originalName": "Samsung Galaxy S25",
+    "recoveredIdentity": "Galaxy S25",
+    "modelNumber": "SM-S931B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca5ef",
+    "originalName": "Samsung Galaxy S24 Ultra",
+    "recoveredIdentity": "Galaxy S24 Ultra",
+    "modelNumber": "SM-S928B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca604",
+    "originalName": "Samsung Galaxy S24+",
+    "recoveredIdentity": "Galaxy S24+",
+    "modelNumber": "SM-S926B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "originalName": "Samsung Galaxy S23 FE",
+    "recoveredIdentity": "Galaxy S23 FE",
+    "modelNumber": "SM-S711B",
+    "category": "smartphone",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "originalName": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "recoveredIdentity": "65\" Neo QLED 8K QN900D",
+    "modelNumber": "QA65QN900DKXXL",
+    "category": "television",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "originalName": "Samsung 55\" The Frame TV QLED",
+    "recoveredIdentity": "55\" The Frame TV QLED",
+    "modelNumber": "QA55LS03DAKXXL",
+    "category": "television",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab5d",
+    "originalName": "Samsung 65\" OLED 4K (S90D)",
+    "recoveredIdentity": "65\" OLED 4K S90D",
+    "modelNumber": "QA65S90DAKXXL",
+    "category": "television",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "originalName": "Samsung 50\" Crystal 4K Vivid Pro",
+    "recoveredIdentity": "50\" Crystal 4K Vivid Pro",
+    "modelNumber": "UA50DUE77AKXXL",
+    "category": "television",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "originalName": "Samsung 75\" QN85D Neo QLED 4K",
+    "recoveredIdentity": "75\" QN85D Neo QLED 4K",
+    "modelNumber": "QA75QN85DAKXXL",
+    "category": "television",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "originalName": "Samsung Galaxy Buds FE",
+    "recoveredIdentity": "Galaxy Buds FE",
+    "modelNumber": "SM-R400N",
+    "category": "headphones",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae5a",
+    "originalName": "Samsung Galaxy Watch Ultra",
+    "recoveredIdentity": "Galaxy Watch Ultra",
+    "modelNumber": "SM-L705F",
+    "category": "smartwatch",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae69",
+    "originalName": "Samsung Galaxy Watch 7",
+    "recoveredIdentity": "Galaxy Watch 7",
+    "modelNumber": "SM-L310N",
+    "category": "smartwatch",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcae78",
+    "originalName": "Samsung Galaxy Watch 6 Classic",
+    "recoveredIdentity": "Galaxy Watch 6 Classic",
+    "modelNumber": "SM-R950N",
+    "category": "smartwatch",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "originalName": "Samsung Odyssey OLED G9 49\"",
+    "recoveredIdentity": "Odyssey OLED G9 49\"",
+    "modelNumber": "LS49CG954SWXXL",
+    "category": "monitor",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcafef",
+    "originalName": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+    "recoveredIdentity": "Odyssey OLED G8 32\"",
+    "modelNumber": "LS32DG802SWXXL",
+    "category": "monitor",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "originalName": "Samsung Smart Monitor M8 32\" 4K",
+    "recoveredIdentity": "Smart Monitor M8 32\"",
+    "modelNumber": "LS32DM801UWXXL",
+    "category": "monitor",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb12a",
+    "originalName": "Samsung Galaxy Tab S10+",
+    "recoveredIdentity": "Galaxy Tab S10+",
+    "modelNumber": "SM-X820N",
+    "category": "tablet",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb139",
+    "originalName": "Samsung Galaxy Tab S9 FE",
+    "recoveredIdentity": "Galaxy Tab S9 FE",
+    "modelNumber": "SM-X510N",
+    "category": "tablet",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb148",
+    "originalName": "Samsung Galaxy Tab A9+",
+    "recoveredIdentity": "Galaxy Tab A9+",
+    "modelNumber": "SM-X210N",
+    "category": "tablet",
+    "dbStatus": "UNVERIFIED"
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "originalName": "Samsung Galaxy Tab Active5 Rugged",
+    "recoveredIdentity": "Galaxy Tab Active5 Rugged",
+    "modelNumber": "SM-X306B",
+    "category": "tablet",
+    "dbStatus": "UNVERIFIED"
+  }
+]
