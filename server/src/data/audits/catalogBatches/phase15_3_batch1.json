@@ -1,0 +1,521 @@
+{
+  "batchNumber": 1,
+  "productsProcessed": 25,
+  "brandRecovery": {
+    "resolved": 13,
+    "partial": 0,
+    "unresolved": 12,
+    "conflicted": 0
+  },
+  "productTypeCounts": {
+    "Monitor": 4,
+    "Handheld Console": 2,
+    "Laptop": 7,
+    "Laptop Bag": 1,
+    "Backpack": 1,
+    "Belt": 1,
+    "Cap": 1,
+    "Clutch": 1,
+    "Crossbody Bag": 1,
+    "Cufflinks": 1,
+    "Handbag": 1,
+    "Hat": 1,
+    "Jewellery": 1,
+    "Scarf": 1,
+    "Shoulder Bag": 1
+  },
+  "domain": {
+    "TECH": 14,
+    "TREND": 11,
+    "UNKNOWN": 0
+  },
+  "categoryCounts": {
+    "Monitors": 4,
+    "Gaming": 2,
+    "Laptops": 7,
+    "Accessories": 12
+  },
+  "brands": {},
+  "brandAnomalies": [
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    },
+    {
+      "current": "Accessories",
+      "resolved": "UNVERIFIED",
+      "evidence": "Generic product title",
+      "confidence": "HIGH"
+    }
+  ],
+  "models": {
+    "exact": 13,
+    "regional": 0,
+    "partial": 0,
+    "unresolved": 12
+  },
+  "officialSources": {
+    "found": 13,
+    "unavailable": 12
+  },
+  "imageQueue": {
+    "ready": 13,
+    "blocked": 12
+  },
+  "existingImages": {
+    "preserved": 13,
+    "modified": 0,
+    "downgraded": 0
+  },
+  "marketplace": {
+    "Amazon": 26,
+    "Flipkart": 2,
+    "OTHER": 9
+  },
+  "deals": {
+    "eligible": 0,
+    "suppressed": 37,
+    "reasons": {
+      "LIVE_UNVERIFIED": 37
+    }
+  },
+  "details": [
+    {
+      "productId": "6aa06057af8879d815dcb076",
+      "title": "AOC AGON PRO 27 240Hz OLED",
+      "oldBrand": "AOC",
+      "resolvedBrand": "AOC",
+      "productType": "Monitor",
+      "domain": "TECH",
+      "oldCategory": "monitor",
+      "resolvedCategory": "Monitors",
+      "subcategory": "AGON PRO",
+      "oldModel": "N/A",
+      "resolvedModel": "AGON PRO 27 240Hz OLED",
+      "confidence": "HIGH",
+      "officialSource": "https://aoc.com/gaming/products/monitors/ag276qzd"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb3dc",
+      "title": "ASUS ROG Ally Ryzen Z1 Extreme",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Handheld Console",
+      "domain": "TECH",
+      "oldCategory": "gaming",
+      "resolvedCategory": "Gaming",
+      "subcategory": "ROG Ally",
+      "oldModel": "N/A",
+      "resolvedModel": "ROG Ally Ryzen Z1 Extreme",
+      "confidence": "HIGH",
+      "officialSource": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-2023/"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb3cd",
+      "title": "ASUS ROG Ally X Handheld Console",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Handheld Console",
+      "domain": "TECH",
+      "oldCategory": "gaming",
+      "resolvedCategory": "Gaming",
+      "subcategory": "ROG Ally",
+      "oldModel": "N/A",
+      "resolvedModel": "ROG Ally X",
+      "confidence": "HIGH",
+      "officialSource": "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-2024/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcaaa9",
+      "title": "ASUS ROG Strix SCAR 18",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "ROG Strix",
+      "oldModel": "N/A",
+      "resolvedModel": "ROG Strix SCAR 18",
+      "confidence": "HIGH",
+      "officialSource": "https://rog.asus.com/laptops/rog-strix/rog-strix-scar-18-2024/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcaa6e",
+      "title": "ASUS ROG Zephyrus G16",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "ROG Zephyrus",
+      "oldModel": "N/A",
+      "resolvedModel": "ROG Zephyrus G16",
+      "confidence": "HIGH",
+      "officialSource": "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g16-2024/"
+    },
+    {
+      "productId": "6a9904e369652590e0aadcaa",
+      "title": "ASUS TUF Gaming A15",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "TUF Gaming",
+      "oldModel": "N/A",
+      "resolvedModel": "TUF Gaming A15",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a15-2024/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcaa8c",
+      "title": "ASUS Vivobook Pro 15 OLED",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "Vivobook",
+      "oldModel": "N/A",
+      "resolvedModel": "Vivobook Pro 15 OLED",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/laptops/for-creators/vivobook/vivobook-pro-15-oled-k6502/"
+    },
+    {
+      "productId": "6a9904e369652590e0aadca4",
+      "title": "ASUS ZenBook 14 OLED",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "ZenBook",
+      "oldModel": "N/A",
+      "resolvedModel": "ZenBook 14 OLED",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/laptops/for-home/zenbook/zenbook-14-oled-ux3405/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcaa7d",
+      "title": "ASUS Zenbook 14 OLED",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Laptops",
+      "subcategory": "ZenBook",
+      "oldModel": "N/A",
+      "resolvedModel": "ZenBook 14 OLED",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/laptops/for-home/zenbook/zenbook-14-oled-ux3405/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcb02b",
+      "title": "ASUS ProArt 27 4K (PA279CRV)",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Monitor",
+      "domain": "TECH",
+      "oldCategory": "monitor",
+      "resolvedCategory": "Monitors",
+      "subcategory": "ProArt",
+      "oldModel": "N/A",
+      "resolvedModel": "ProArt PA279CRV",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa279crv/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcb00d",
+      "title": "ASUS ROG Swift 32 4K OLED (PG32UCDM)",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Monitor",
+      "domain": "TECH",
+      "oldCategory": "monitor",
+      "resolvedCategory": "Monitors",
+      "subcategory": "ROG Swift",
+      "oldModel": "N/A",
+      "resolvedModel": "ROG Swift PG32UCDM",
+      "confidence": "HIGH",
+      "officialSource": "https://rog.asus.com/monitors/32-to-34-inches/rog-swift-oled-pg32ucdm/"
+    },
+    {
+      "productId": "6aa06057af8879d815dcb01c",
+      "title": "ASUS TUF Gaming 27 180Hz (VG27AQ3A)",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Monitor",
+      "domain": "TECH",
+      "oldCategory": "monitor",
+      "resolvedCategory": "Monitors",
+      "subcategory": "TUF Gaming",
+      "oldModel": "N/A",
+      "resolvedModel": "TUF Gaming VG27AQ3A",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aq3a/"
+    },
+    {
+      "productId": "6a9904e369652590e0aadca2",
+      "title": "ASUS VivoBook 15 OLED",
+      "oldBrand": "ASUS",
+      "resolvedBrand": "ASUS",
+      "productType": "Laptop",
+      "domain": "TECH",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Laptops",
+      "subcategory": "Vivobook",
+      "oldModel": "N/A",
+      "resolvedModel": "Vivobook 15 OLED",
+      "confidence": "HIGH",
+      "officialSource": "https://www.asus.com/laptops/for-home/vivobook/vivobook-15-oled-x1505/"
+    },
+    {
+      "productId": "6a9904e469652590e0aadede",
+      "title": "Accessories Laptop bags",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Laptop Bag",
+      "domain": "TECH",
+      "oldCategory": "laptop",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aaded2",
+      "title": "Accessories Backpacks",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Backpack",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aaded4",
+      "title": "Accessories Belts",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Belt",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aaded8",
+      "title": "Accessories Caps",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Cap",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadf76",
+      "title": "Accessories Clutches",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Clutch",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadedc",
+      "title": "Accessories Crossbody bags",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Crossbody Bag",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadee2",
+      "title": "Accessories Cufflinks",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Cufflinks",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadf6e",
+      "title": "Accessories Handbags",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Handbag",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadeda",
+      "title": "Accessories Hats",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Hat",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadf78",
+      "title": "Accessories Jewellery",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Jewellery",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadf7a",
+      "title": "Accessories Scarves",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Scarf",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    },
+    {
+      "productId": "6a9904e469652590e0aadf72",
+      "title": "Accessories Shoulder bags",
+      "oldBrand": "Accessories",
+      "resolvedBrand": "UNVERIFIED",
+      "productType": "Shoulder Bag",
+      "domain": "TREND",
+      "oldCategory": "smartphone",
+      "resolvedCategory": "Accessories",
+      "subcategory": "UNVERIFIED",
+      "oldModel": "N/A",
+      "resolvedModel": "UNVERIFIED",
+      "confidence": "LOW",
+      "officialSource": null
+    }
+  ]
+}
