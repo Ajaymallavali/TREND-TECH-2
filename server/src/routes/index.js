@@ -7,6 +7,7 @@ import priceAlertRoutes from './priceAlert.routes.js';
 import comparisonRoutes from './comparison.routes.js';
 import adminRoutes from './admin.routes.js';
 import redirectRoutes from './redirect.routes.js';
+import uploadRoutes from './upload.routes.js';
 import { Marketplace } from '../models/Marketplace.model.js';
 import { getCategoryList } from '../utils/categoryMapper.js';
 
@@ -20,6 +21,7 @@ router.use('/price-alerts', priceAlertRoutes);
 router.use('/comparisons', comparisonRoutes);
 router.use('/admin', adminRoutes);
 router.use('/go', redirectRoutes);
+router.use('/upload', uploadRoutes);
 
 // GET /api/categories
 router.get('/categories', (req, res) => {
