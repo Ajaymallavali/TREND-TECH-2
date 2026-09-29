@@ -70,7 +70,7 @@ describe('Samsung Phase 13 — Deep Official Image Acquisition & Invariant Verif
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(21);
+    expect(verifiedSamsung.length).toBe(25);
   });
 
   it('3. Catalog Invariants Strictly Maintained', async () => {
