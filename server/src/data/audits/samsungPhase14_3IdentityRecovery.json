@@ -1,0 +1,122 @@
+{
+  "phase": "14.3",
+  "purpose": "identity-recovery-only",
+  "imageAcquisitionPerformed": false,
+  "productsModified": 0,
+  "products": [
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "title": "Samsung Galaxy S23 FE",
+      "category": "smartphone",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00SP21.", "Previous Phase 8 hallucinated SM-S711B with evidenceSource N/A."],
+      "conflicts": ["Previous model SM-S711B lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcab3f",
+      "title": "Samsung 65\" Neo QLED 8K (QN900D)",
+      "category": "television",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00TV1.", "Previous Phase 8 hallucinated QA65QN900DKXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model QA65QN900DKXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcab4e",
+      "title": "Samsung 55\" The Frame TV QLED",
+      "category": "television",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00TV2.", "Previous Phase 8 hallucinated QA55LS03DAKXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model QA55LS03DAKXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcab6c",
+      "title": "Samsung 50\" Crystal 4K Vivid Pro",
+      "category": "television",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00TV4.", "Previous Phase 8 hallucinated UA50DUE77AKXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model UA50DUE77AKXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcac7a",
+      "title": "Samsung 75\" QN85D Neo QLED 4K",
+      "category": "television",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00TV22.", "Previous Phase 8 hallucinated QA75QN85DAKXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model QA75QN85DAKXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "title": "Samsung Galaxy Buds FE",
+      "category": "headphones",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00AU21.", "Previous Phase 8 hallucinated SM-R400N with evidenceSource N/A."],
+      "conflicts": ["Previous model SM-R400N lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "title": "Samsung Odyssey OLED G9 49\"",
+      "category": "monitor",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00MN8.", "Previous Phase 8 hallucinated LS49CG954SWXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model LS49CG954SWXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06057af8879d815dcaffe",
+      "title": "Samsung Smart Monitor M8 32\" 4K",
+      "category": "monitor",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00MN10.", "Previous Phase 8 hallucinated LS32DM801UWXXL with evidenceSource N/A."],
+      "conflicts": ["Previous model LS32DM801UWXXL lacks any project data basis."]
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "title": "Samsung Galaxy Tab Active5 Rugged",
+      "category": "tablet",
+      "currentModel": "N/A",
+      "candidateModels": [],
+      "confidence": "UNRESOLVED",
+      "identityStatus": "IDENTITY_UNRESOLVED",
+      "evidence": ["Title-only data.", "MarketplaceProduct URL uses synthetic ASIN B00TB22.", "Previous Phase 8 hallucinated SM-X306B with evidenceSource N/A."],
+      "conflicts": ["Previous model SM-X306B lacks any project data basis."]
+    }
+  ],
+  "databaseCountsBefore": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559
+  },
+  "databaseCountsAfter": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559
+  },
+  "appleModified": 0,
+  "nonSamsungModified": 0,
+  "tests": {
+    "catalogIntegrity": "PASS"
+  }
+}
