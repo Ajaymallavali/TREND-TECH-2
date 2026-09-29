@@ -167,7 +167,7 @@ export default function CategoryPage() {
                 {currentBrand ? `${currentBrand} ${categoryTitle}` : `Top ${categoryTitle} Overall`}
               </h1>
               <span className="rounded-full bg-accent-600 px-3 py-0.5 text-xs font-extrabold text-white">
-                {filteredProducts.length} VERIFIED
+                {filteredProducts.filter(p => p.identityStatus === 'IDENTITY_VERIFIED').length} VERIFIED
               </span>
               {currentBrand && (
                 <Link

@@ -1,0 +1,45 @@
+{
+  "rootCause": "Vite proxy was configured for port 5000 while the backend server started on port 5001 (as specified in server/.env). Additionally, the backend Mongoose schemas for Product and MarketplaceProduct were silently stripping newly added decoupled verification fields (like identityStatus, model) because strict mode was implicitly enabled, causing the frontend to miscalculate the verified count.",
+  "failingEndpoint": {
+    "endpoint": "/api/products?category=smartphone",
+    "method": "GET",
+    "statusBefore": "502 Bad Gateway / Proxy Error (frontend 'network error')",
+    "statusAfter": "200 OK"
+  },
+  "frontend": {
+    "categoryPage": "PASS",
+    "productsVisible": "YES",
+    "verifiedCount": 27
+  },
+  "api": {
+    "productApi": "PASS",
+    "categoryApi": "PASS",
+    "responseContract": "PASS"
+  },
+  "categoriesTested": {
+    "Smartphones": "PASS (326 products)",
+    "Laptops": "PASS (95 products)",
+    "Tablets": "PASS (21 products)",
+    "Televisions": "PASS (75 products)",
+    "Monitors": "PASS (13 products)",
+    "Smartwatches": "PASS (65 products)",
+    "Headphones": "PASS (39 products)",
+    "Cameras": "PASS (22 products)"
+  },
+  "productDetail": "PASS",
+  "images": "PASS",
+  "marketplaceRead": "PASS",
+  "database": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559
+  },
+  "scope": {
+    "productsCreated": 0,
+    "productsDeleted": 0,
+    "marketplaceRecordsCreated": 0,
+    "marketplaceRecordsDeleted": 0,
+    "appleModified": 0,
+    "samsungModified": 0
+  }
+}

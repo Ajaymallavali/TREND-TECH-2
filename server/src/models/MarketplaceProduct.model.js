@@ -16,7 +16,7 @@ const marketplaceProductSchema = new Schema(
     externalProductId: { type: String, default: null, index: true },
     sourceStatus: { type: String, enum: ['LEGACY_SYNTHETIC', 'LIVE_VERIFIED', 'UNRESOLVED'], default: 'LEGACY_SYNTHETIC', index: true },
   },
-  { timestamps: true }
+  { timestamps: true, strict: false }
 );
 
 // Create compound index for product + marketplace uniqueness

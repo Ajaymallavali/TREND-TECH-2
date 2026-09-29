@@ -32,7 +32,7 @@ const productSchema = new Schema(
     specs: { type: Map, of: String, default: {} },
     tags: [{ type: String, trim: true }],
   },
-  { timestamps: true }
+  { timestamps: true, strict: false }
 );
 
 export const Product = mongoose.model('Product', productSchema);
