@@ -1,0 +1,17 @@
+{
+  "productId": "6aa06057af8879d815dcade2",
+  "brand": "Samsung",
+  "exactModel": "SM-R400N",
+  "sourcePage": "https://www.samsung.com/us/mobile/audio/headphones/galaxy-buds-fe-graphite-sm-r400nzaaxar/",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r640nzwaxar/gallery/us-galaxy-buds4-r640-sm-r640nzwaxar-551382417?$product-details-jpg$?$product-details-thumbnail-jpg$",
+  "filename": "us-galaxy-buds4-r640-sm-r640nzwaxar-551382417",
+  "sha256": "dd048f16676f46d6acb874b231cc69b7f3742b2149a75b05037218dac46ccadc",
+  "dimensions": {
+    "width": 720,
+    "height": 576
+  },
+  "fileSize": 21541,
+  "verificationStatus": "VERIFIED_EXACT",
+  "regionalVariant": true,
+  "verifiedAt": "2026-09-29T07:03:13.944Z"
+}

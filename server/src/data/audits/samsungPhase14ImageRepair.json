@@ -1,0 +1,577 @@
+{
+  "phase": "14",
+  "productsBefore": 867,
+  "productsAfter": 867,
+  "marketplaceProductsBefore": 1181,
+  "marketplaceProductsAfter": 1181,
+  "priceHistoryBefore": 559,
+  "priceHistoryAfter": 559,
+  "samsungProductsTotal": 30,
+  "samsungVerifiedBefore": 19,
+  "samsungVerifiedAfter": 22,
+  "productsAttempted": [
+    "6aa06056af8879d815dca656",
+    "6aa06057af8879d815dcab3f",
+    "6aa06057af8879d815dcab4e",
+    "6aa06057af8879d815dcab5d",
+    "6aa06057af8879d815dcab6c",
+    "6aa06057af8879d815dcac7a",
+    "6aa06057af8879d815dcade2",
+    "6aa06057af8879d815dcafe0",
+    "6aa06057af8879d815dcafef",
+    "6aa06057af8879d815dcaffe",
+    "6aa06058af8879d815dcb1fc"
+  ],
+  "productsVerified": [
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "title": "Samsung 65\" OLED 4K (S90D)",
+      "model": "QA65S90DAKXXL",
+      "category": "television",
+      "sourcePage": "https://www.samsung.com/au/tvs/oled-tv/s90d-65-inch-oled-4k-smart-tv-qa65s90dawxxy/",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/qa65s90dawxxy/gallery/au-oled-s90d-qa65s90dawxxy-540639954?$624_468_PNG$",
+      "sha256": "1dfd33c4445018fbde8881b79c4469d89fc600a32284fbdcd78ba19aee9e8018",
+      "verification": "REGIONAL_VARIANT",
+      "reason": "Verified against official Samsung product page photography"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "title": "Samsung Odyssey OLED G9 49\"",
+      "model": "LS49CG954SWXXL",
+      "category": "monitor",
+      "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954sexxy/",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/ls49cg954eexxy/gallery/au-odyssey-g9-g95c-ls49cg954eexxy-thumb-539265340?$720_576_PNG$",
+      "sha256": "eff4d5e86fd9f99cc8a7f679ea274a5938e998fd6e62b6d78bad6af837cd13c3",
+      "verification": "REGIONAL_VARIANT",
+      "reason": "Verified against official Samsung product page photography"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "title": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+      "model": "LS32DG802SWXXL",
+      "category": "monitor",
+      "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802sexxy/",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/ls32dg802sexxy/gallery/au-odyssey-oled-g8-g80sd-ls32dg802sexxy-550450584?$624_468_PNG$",
+      "sha256": "b2bed1957a85e2f180a51fce5fda5915cce6039871f7e5782ce84fb42fe9530c",
+      "verification": "REGIONAL_VARIANT",
+      "reason": "Verified against official Samsung product page photography"
+    }
+  ],
+  "productsRemainingUnverified": [
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "title": "Samsung Galaxy S23 FE",
+      "model": "SM-S711B",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab3f",
+      "title": "Samsung 65\" Neo QLED 8K (QN900D)",
+      "model": "QA65QN900DKXXL",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab4e",
+      "title": "Samsung 55\" The Frame TV QLED",
+      "model": "QA55LS03DAKXXL",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab6c",
+      "title": "Samsung 50\" Crystal 4K Vivid Pro",
+      "model": "UA50DUE77AKXXL",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcac7a",
+      "title": "Samsung 75\" QN85D Neo QLED 4K",
+      "model": "QA75QN85DAKXXL",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "title": "Samsung Galaxy Buds FE",
+      "model": "SM-R400N",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06057af8879d815dcaffe",
+      "title": "Samsung Smart Monitor M8 32\" 4K",
+      "model": "LS32DM801UWXXL",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "title": "Samsung Galaxy Tab Active5 Rugged",
+      "model": "SM-X306B",
+      "reason": "NO_OFFICIAL_IMAGE_BINARY"
+    }
+  ],
+  "genericAssetsRejected": [
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/icon/pwa_icon_192x192.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/logo-square-letter.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06056af8879d815dca656",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/icon/pwa_icon_192x192.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/logo-square-letter.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://apps.bazaarvoice.com/common/images/intelligent_trustmark_icons/trustmark_en.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/tariff-popup-icon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-01.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-02.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-03.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-04.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-05.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/@care-image-new.jpg?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/@care-image.jpg?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://www.samsung.com/us/smg/etc.clientlibs/samsung/clientlibs/us/common/clientlib-common/resources/images/favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://image-us.samsung.com/SamsungUS/home/samsung-logo-191-1.jpg?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/uk/smartphones/galaxy-s25-ultra/buy/03_Device/Galaxy_AI_PC.png?$720_576_PNG$",
+      "reason": "File size too small (Icon/Placeholder)"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/icon/pwa_icon_192x192.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/logo-square-letter.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/icon/pwa_icon_192x192.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/logo-square-letter.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://apps.bazaarvoice.com/common/images/intelligent_trustmark_icons/trustmark_en.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/tariff-popup-icon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-01.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-02.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-03.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-04.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/upgrade-popup-condition-icon-05.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/@care-image-new.jpg?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/@care-image.jpg?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/icon/pwa_icon_192x192.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "url": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/logo-square-letter.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    },
+    {
+      "productId": "6aa06058af8879d815dcb1fc",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/app_ico.png?$720_576_PNG$",
+      "reason": "Generic Asset Pattern"
+    }
+  ],
+  "wrongModelRejected": [
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-553270300?$720_576_PNG$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r640nzwaxar/gallery/us-galaxy-buds4-r640-sm-r640nzwaxar-551382417?$product-details-jpg$?$product-details-thumbnail-jpg$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r640nzwaxar/gallery/us-galaxy-buds4-r640-sm-r640nzwaxar-551382417?$product-details-jpg$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-553270299?$PD_GALLERY_PNG$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/wib/us-wib-SM-R420NZAAXAR-548986610?$720_576_PNG$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-553270299?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-553270299?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653119?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653119?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653129?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653129?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653213?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653213?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653215?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653215?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653229?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653229?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653239?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653239?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653241?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzaaxar/gallery/us-galaxy-buds3-fe-sm-r420nzaaxar-548653241?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-553270300?$PD_GALLERY_PNG$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/wib/us-wib-SM-R420NZKAXAR-548986751?$720_576_PNG$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-553270300?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-553270300?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653450?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653450?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653463?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653463?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653467?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653467?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653477?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653477?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653484?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653484?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653495?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653495?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653501?$product-details-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcade2",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r420nzkaxar/gallery/us-galaxy-buds3-fe-sm-r420nzkaxar-548653501?$product-details-thumbnail-jpg$",
+      "reason": "Model Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls55cg970nexxy/gallery/au-odyssey-ark-g97nc-ls55cg970nexxy-thumb-538389018?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls32hg732sexxy/gallery/au-odyssey-oled-g7-g73sh-ls32hg732sexxy-thumb-552754808?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls27hg806efxxy/gallery/au-odyssey-g8-g80hf-ls27hg806efxxy-thumb-552012308?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls49fg912eexxy/gallery/au-odyssey-g9-g91f-ls49fg912eexxy-thumb-547163172?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls27hg612sexxy/gallery/au-odyssey-oled-g6-27g61sh-ls27hg612sexxy-thumb-553793292?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls57cg952nexxy/gallery/au-odyssey-neo-g9-g95nc-ls57cg952nexxy-thumb-537810195?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls49dg950sexxy/gallery/au-odyssey-oled-g9-g95sd-ls49dg950sexxy-thumb-544168141?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls27fg502sexxy/gallery/au-odyssey-oled-g5-27g50sf-ls27fg502sexxy-thumb-549356797?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls49dg930sexxy/gallery/au-odyssey-oled-g9-g93sd-ls49dg930sexxy-thumb-544168819?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls40fg752eexxy/gallery/au-odyssey-g7-40g75f-ls40fg752eexxy-thumb-548242194?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "url": "https://images.samsung.com/is/image/samsung/p6pim/au/ls34dg850sexxy/gallery/au-odyssey-oled-g8-g85sd-ls34dg850sexxy-thumb-000?$720_576_PNG$",
+      "reason": "Strict Model Base Mismatch"
+    }
+  ],
+  "duplicateConflicts": [],
+  "imageAttempts": 94,
+  "imageDownloads": 17,
+  "databaseWrites": 3,
+  "appleModified": 0,
+  "nonSamsungModified": 0,
+  "tests": {},
+  "gitCommit": ""
+}

@@ -1,0 +1,17 @@
+{
+  "productId": "6aa06057af8879d815dcafe0",
+  "brand": "Samsung",
+  "exactModel": "LS49CG954SWXXL",
+  "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954sexxy/",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/ls49cg954eexxy/gallery/au-odyssey-g9-g95c-ls49cg954eexxy-thumb-539265340?$720_576_PNG$",
+  "filename": "au-odyssey-g9-g95c-ls49cg954eexxy-thumb-539265340",
+  "sha256": "eff4d5e86fd9f99cc8a7f679ea274a5938e998fd6e62b6d78bad6af837cd13c3",
+  "dimensions": {
+    "width": 720,
+    "height": 576
+  },
+  "fileSize": 76033,
+  "verificationStatus": "VERIFIED_EXACT",
+  "regionalVariant": true,
+  "verifiedAt": "2026-09-29T07:06:23.760Z"
+}

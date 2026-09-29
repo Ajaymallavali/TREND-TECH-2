@@ -1,0 +1,17 @@
+{
+  "productId": "6aa06057af8879d815dcab5d",
+  "brand": "Samsung",
+  "exactModel": "QA65S90DAKXXL",
+  "sourcePage": "https://www.samsung.com/au/tvs/oled-tv/s90d-65-inch-oled-4k-smart-tv-qa65s90dawxxy/",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/qa65s90dawxxy/gallery/au-oled-s90d-qa65s90dawxxy-540639954?$624_468_PNG$",
+  "filename": "au-oled-s90d-qa65s90dawxxy-540639954",
+  "sha256": "1dfd33c4445018fbde8881b79c4469d89fc600a32284fbdcd78ba19aee9e8018",
+  "dimensions": {
+    "width": 720,
+    "height": 576
+  },
+  "fileSize": 404989,
+  "verificationStatus": "VERIFIED_EXACT",
+  "regionalVariant": true,
+  "verifiedAt": "2026-09-29T07:05:49.622Z"
+}

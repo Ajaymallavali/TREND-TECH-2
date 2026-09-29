@@ -1,0 +1,17 @@
+{
+  "productId": "6aa06057af8879d815dcafef",
+  "brand": "Samsung",
+  "exactModel": "LS32DG802SWXXL",
+  "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802sexxy/",
+  "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/au/ls32dg802sexxy/gallery/au-odyssey-oled-g8-g80sd-ls32dg802sexxy-550450584?$624_468_PNG$",
+  "filename": "au-odyssey-oled-g8-g80sd-ls32dg802sexxy-550450584",
+  "sha256": "b2bed1957a85e2f180a51fce5fda5915cce6039871f7e5782ce84fb42fe9530c",
+  "dimensions": {
+    "width": 720,
+    "height": 576
+  },
+  "fileSize": 354121,
+  "verificationStatus": "VERIFIED_EXACT",
+  "regionalVariant": true,
+  "verifiedAt": "2026-09-29T07:06:25.454Z"
+}

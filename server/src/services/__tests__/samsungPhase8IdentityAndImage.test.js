@@ -87,6 +87,7 @@ describe('Samsung Phase 8 — Identity Enrichment & Image Recovery Verification'
     for (const p of verifiedSamsung) {
       const imgPath = path.join(__dirname, `../../data/product-images/samsung/${p._id.toString()}/primary.jpg`);
       const metaPath = path.join(__dirname, `../../data/product-images/samsung/${p._id.toString()}/metadata.json`);
+      if (!fs.existsSync(imgPath)) console.log('FAILED IMG:', imgPath);
       expect(fs.existsSync(imgPath)).toBe(true);
       expect(fs.existsSync(metaPath)).toBe(true);
     }
