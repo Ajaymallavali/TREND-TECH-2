@@ -1,0 +1,110 @@
+[
+  {
+    "productId": "6aa06056af8879d815dca656",
+    "title": "Samsung Galaxy S23 FE",
+    "model": "N/A",
+    "category": "smartphone",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Galaxy S23 FE",
+    "generation": "S23",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcab3f",
+    "title": "Samsung 65\" Neo QLED 8K (QN900D)",
+    "model": "N/A",
+    "category": "television",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Neo QLED 8K (QN900D)",
+    "generation": "D-Series (2024)",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcab4e",
+    "title": "Samsung 55\" The Frame TV QLED",
+    "model": "N/A",
+    "category": "television",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "The Frame",
+    "generation": "D-Series (2024)",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcab6c",
+    "title": "Samsung 50\" Crystal 4K Vivid Pro",
+    "model": "N/A",
+    "category": "television",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Crystal 4K",
+    "generation": "D-Series (2024)",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcac7a",
+    "title": "Samsung 75\" QN85D Neo QLED 4K",
+    "model": "N/A",
+    "category": "television",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Neo QLED 4K (QN85D)",
+    "generation": "D-Series (2024)",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcade2",
+    "title": "Samsung Galaxy Buds FE",
+    "model": "N/A",
+    "category": "headphones",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Galaxy Buds FE",
+    "generation": "FE",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcafe0",
+    "title": "Samsung Odyssey OLED G9 49\"",
+    "model": "N/A",
+    "category": "monitor",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Odyssey OLED G9",
+    "generation": "G95SC/G95SD",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06057af8879d815dcaffe",
+    "title": "Samsung Smart Monitor M8 32\" 4K",
+    "model": "N/A",
+    "category": "monitor",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Smart Monitor M8",
+    "generation": "M80D",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  },
+  {
+    "productId": "6aa06058af8879d815dcb1fc",
+    "title": "Samsung Galaxy Tab Active5 Rugged",
+    "model": "N/A",
+    "category": "tablet",
+    "identityStatus": "IDENTITY_REQUIRES_REVIEW",
+    "exactProductFamily": "Galaxy Tab Active5",
+    "generation": "Active5",
+    "regionalModelPattern": "UNKNOWN",
+    "imageAcquisitionRisk": "HIGH",
+    "notes": "Model number is missing from the database record. Extracted identity from title, but requires manual model mapping."
+  }
+]
