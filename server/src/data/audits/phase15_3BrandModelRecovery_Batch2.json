@@ -1,0 +1,68 @@
+{
+  "batchNumber": 2,
+  "productsProcessed": 25,
+  "identity": {
+    "HIGH": 4,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNRESOLVED": 21,
+    "CONFLICTED": 0
+  },
+  "models": {
+    "Exact": 4,
+    "Regional": 0,
+    "Partial": 0,
+    "Unresolved": 21
+  },
+  "officialSources": {
+    "Found": 4,
+    "NotFound": 21
+  },
+  "brandsProcessed": [
+    "Daikin",
+    "LG",
+    "Blue Star",
+    "Carrier",
+    "Hitachi",
+    "Lloyd",
+    "Godrej",
+    "Haier",
+    "UNVERIFIED",
+    "Acer"
+  ],
+  "productTypes": {
+    "Air Conditioner": 8,
+    "Watch": 1,
+    "Sunglasses": 1,
+    "Wallet": 1,
+    "Tie": 1,
+    "Sports Bra": 1,
+    "Leggings": 1,
+    "Yoga Pants": 1,
+    "Gym Top": 1,
+    "Track Pants": 1,
+    "Running Shorts": 1,
+    "Tracksuit": 1,
+    "Tote Bag": 1,
+    "Sling Bag": 1,
+    "Laptop": 4
+  },
+  "categories": {
+    "Appliances": 8,
+    "Watches": 1,
+    "Fashion Accessories": 5,
+    "Women Fashion": 4,
+    "Men Fashion": 3,
+    "Laptops": 4
+  },
+  "dealsEligible": 8,
+  "dealsSuppressed": 21,
+  "marketplace": {
+    "Amazon": 25,
+    "Flipkart": 0,
+    "Myntra": 0,
+    "Ajio": 0,
+    "Nykaa": 0,
+    "OTHER": 4
+  }
+}

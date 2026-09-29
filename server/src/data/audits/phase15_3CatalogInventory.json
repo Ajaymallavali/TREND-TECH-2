@@ -1,0 +1,1152 @@
+{
+  "totalProducts": 867,
+  "brands": {
+    "Apple": {
+      "count": 40,
+      "categories": {
+        "accessories": 1,
+        "Smartphones": 18,
+        "laptop": 7,
+        "smartwatch": 5,
+        "headphones": 3,
+        "tablet": 6
+      },
+      "productTypes": {
+        "Unknown": 22,
+        "Smartphone": 18
+      },
+      "identityStates": {
+        "UNVERIFIED": 22,
+        "IDENTITY_VERIFIED": 15,
+        "IDENTITY_PARTIAL": 3
+      }
+    },
+    "Smartphone": {
+      "count": 43,
+      "categories": {
+        "smartphone": 43
+      },
+      "productTypes": {
+        "Unknown": 43
+      },
+      "identityStates": {
+        "UNVERIFIED": 43
+      }
+    },
+    "Samsung": {
+      "count": 30,
+      "categories": {
+        "Smartphones": 12,
+        "television": 5,
+        "headphones": 2,
+        "smartwatch": 3,
+        "monitor": 3,
+        "tablet": 5
+      },
+      "productTypes": {
+        "Smartphone": 12,
+        "Unknown": 18
+      },
+      "identityStates": {
+        "IDENTITY_VERIFIED": 12,
+        "UNVERIFIED": 18
+      }
+    },
+    "OnePlus": {
+      "count": 14,
+      "categories": {
+        "smartphone": 8,
+        "television": 1,
+        "headphones": 1,
+        "smartwatch": 2,
+        "tablet": 2
+      },
+      "productTypes": {
+        "Unknown": 14
+      },
+      "identityStates": {
+        "UNVERIFIED": 14
+      }
+    },
+    "Feature Phone": {
+      "count": 1,
+      "categories": {
+        "smartphone": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Foldable Phone": {
+      "count": 6,
+      "categories": {
+        "smartphone": 6
+      },
+      "productTypes": {
+        "Unknown": 6
+      },
+      "identityStates": {
+        "UNVERIFIED": 6
+      }
+    },
+    "Dell": {
+      "count": 10,
+      "categories": {
+        "laptop": 6,
+        "monitor": 4
+      },
+      "productTypes": {
+        "Unknown": 10
+      },
+      "identityStates": {
+        "UNVERIFIED": 10
+      }
+    },
+    "Laptop": {
+      "count": 44,
+      "categories": {
+        "laptop": 43,
+        "tablet": 1
+      },
+      "productTypes": {
+        "Unknown": 44
+      },
+      "identityStates": {
+        "UNVERIFIED": 44
+      }
+    },
+    "HP": {
+      "count": 7,
+      "categories": {
+        "laptop": 7
+      },
+      "productTypes": {
+        "Unknown": 7
+      },
+      "identityStates": {
+        "UNVERIFIED": 7
+      }
+    },
+    "Lenovo": {
+      "count": 10,
+      "categories": {
+        "tablet": 3,
+        "laptop": 5,
+        "monitor": 1,
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 10
+      },
+      "identityStates": {
+        "UNVERIFIED": 10
+      }
+    },
+    "ASUS": {
+      "count": 12,
+      "categories": {
+        "Laptops": 7,
+        "Monitors": 3,
+        "Gaming": 2
+      },
+      "productTypes": {
+        "Laptop": 7,
+        "Monitor": 3,
+        "Handheld Console": 2
+      },
+      "identityStates": {
+        "IDENTITY_VERIFIED": 12
+      }
+    },
+    "Desktop": {
+      "count": 9,
+      "categories": {
+        "smartphone": 7,
+        "monitor": 1,
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 9
+      },
+      "identityStates": {
+        "UNVERIFIED": 9
+      }
+    },
+    "Television": {
+      "count": 34,
+      "categories": {
+        "television": 31,
+        "smartphone": 3
+      },
+      "productTypes": {
+        "Unknown": 34
+      },
+      "identityStates": {
+        "UNVERIFIED": 34
+      }
+    },
+    "Smartwatch & Wearables": {
+      "count": 41,
+      "categories": {
+        "smartwatch": 36,
+        "smartphone": 5
+      },
+      "productTypes": {
+        "Unknown": 41
+      },
+      "identityStates": {
+        "UNVERIFIED": 41
+      }
+    },
+    "Air Conditioners": {
+      "count": 15,
+      "categories": {
+        "smartphone": 15
+      },
+      "productTypes": {
+        "Unknown": 15
+      },
+      "identityStates": {
+        "UNVERIFIED": 15
+      }
+    },
+    "Washing Machines": {
+      "count": 10,
+      "categories": {
+        "smartphone": 10
+      },
+      "productTypes": {
+        "Unknown": 10
+      },
+      "identityStates": {
+        "UNVERIFIED": 10
+      }
+    },
+    "Audio": {
+      "count": 27,
+      "categories": {
+        "headphones": 20,
+        "smartphone": 7
+      },
+      "productTypes": {
+        "Unknown": 27
+      },
+      "identityStates": {
+        "UNVERIFIED": 27
+      }
+    },
+    "Consoles": {
+      "count": 3,
+      "categories": {
+        "gaming": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Gaming": {
+      "count": 13,
+      "categories": {
+        "laptop": 6,
+        "gaming": 7
+      },
+      "productTypes": {
+        "Unknown": 13
+      },
+      "identityStates": {
+        "UNVERIFIED": 13
+      }
+    },
+    "Cameras": {
+      "count": 17,
+      "categories": {
+        "camera": 17
+      },
+      "productTypes": {
+        "Unknown": 17
+      },
+      "identityStates": {
+        "UNVERIFIED": 17
+      }
+    },
+    "Computer Accessories": {
+      "count": 34,
+      "categories": {
+        "gaming": 8,
+        "smartphone": 23,
+        "monitor": 1,
+        "accessories": 2
+      },
+      "productTypes": {
+        "Unknown": 34
+      },
+      "identityStates": {
+        "UNVERIFIED": 34
+      }
+    },
+    "Tops": {
+      "count": 30,
+      "categories": {
+        "smartphone": 30
+      },
+      "productTypes": {
+        "Unknown": 30
+      },
+      "identityStates": {
+        "UNVERIFIED": 30
+      }
+    },
+    "Bottoms": {
+      "count": 24,
+      "categories": {
+        "smartphone": 24
+      },
+      "productTypes": {
+        "Unknown": 24
+      },
+      "identityStates": {
+        "UNVERIFIED": 24
+      }
+    },
+    "Footwear": {
+      "count": 19,
+      "categories": {
+        "smartphone": 19
+      },
+      "productTypes": {
+        "Unknown": 19
+      },
+      "identityStates": {
+        "UNVERIFIED": 19
+      }
+    },
+    "Accessories": {
+      "count": 6,
+      "categories": {
+        "smartwatch": 1,
+        "smartphone": 5
+      },
+      "productTypes": {
+        "Unknown": 6
+      },
+      "identityStates": {
+        "UNVERIFIED": 6
+      }
+    },
+    "UNVERIFIED": {
+      "count": 12,
+      "categories": {
+        "Accessories": 12
+      },
+      "productTypes": {
+        "Backpack": 1,
+        "Belt": 1,
+        "Cap": 1,
+        "Hat": 1,
+        "Crossbody Bag": 1,
+        "Laptop Bag": 1,
+        "Cufflinks": 1,
+        "Handbag": 1,
+        "Shoulder Bag": 1,
+        "Clutch": 1,
+        "Jewellery": 1,
+        "Scarf": 1
+      },
+      "identityStates": {
+        "IDENTITY_UNVERIFIED": 12
+      }
+    },
+    "Dresses": {
+      "count": 11,
+      "categories": {
+        "smartphone": 11
+      },
+      "productTypes": {
+        "Unknown": 11
+      },
+      "identityStates": {
+        "UNVERIFIED": 11
+      }
+    },
+    "Outerwear": {
+      "count": 8,
+      "categories": {
+        "smartphone": 8
+      },
+      "productTypes": {
+        "Unknown": 8
+      },
+      "identityStates": {
+        "UNVERIFIED": 8
+      }
+    },
+    "Activewear": {
+      "count": 7,
+      "categories": {
+        "smartphone": 7
+      },
+      "productTypes": {
+        "Unknown": 7
+      },
+      "identityStates": {
+        "UNVERIFIED": 7
+      }
+    },
+    "Ethnic": {
+      "count": 19,
+      "categories": {
+        "smartphone": 19
+      },
+      "productTypes": {
+        "Unknown": 19
+      },
+      "identityStates": {
+        "UNVERIFIED": 19
+      }
+    },
+    "Kids": {
+      "count": 27,
+      "categories": {
+        "smartphone": 27
+      },
+      "productTypes": {
+        "Unknown": 27
+      },
+      "identityStates": {
+        "UNVERIFIED": 27
+      }
+    },
+    "Boys": {
+      "count": 14,
+      "categories": {
+        "smartphone": 14
+      },
+      "productTypes": {
+        "Unknown": 14
+      },
+      "identityStates": {
+        "UNVERIFIED": 14
+      }
+    },
+    "Girls": {
+      "count": 16,
+      "categories": {
+        "smartphone": 16
+      },
+      "productTypes": {
+        "Unknown": 16
+      },
+      "identityStates": {
+        "UNVERIFIED": 16
+      }
+    },
+    "Men": {
+      "count": 9,
+      "categories": {
+        "smartphone": 9
+      },
+      "productTypes": {
+        "Unknown": 9
+      },
+      "identityStates": {
+        "UNVERIFIED": 9
+      }
+    },
+    "Women": {
+      "count": 12,
+      "categories": {
+        "smartphone": 12
+      },
+      "productTypes": {
+        "Unknown": 12
+      },
+      "identityStates": {
+        "UNVERIFIED": 12
+      }
+    },
+    "Apparel": {
+      "count": 6,
+      "categories": {
+        "smartphone": 6
+      },
+      "productTypes": {
+        "Unknown": 6
+      },
+      "identityStates": {
+        "UNVERIFIED": 6
+      }
+    },
+    "Sports & Fitness": {
+      "count": 13,
+      "categories": {
+        "smartphone": 13
+      },
+      "productTypes": {
+        "Unknown": 13
+      },
+      "identityStates": {
+        "UNVERIFIED": 13
+      }
+    },
+    "Bags & Travel": {
+      "count": 25,
+      "categories": {
+        "smartphone": 24,
+        "accessories": 1
+      },
+      "productTypes": {
+        "Unknown": 25
+      },
+      "identityStates": {
+        "UNVERIFIED": 25
+      }
+    },
+    "Beauty & Personal Care": {
+      "count": 41,
+      "categories": {
+        "smartphone": 41
+      },
+      "productTypes": {
+        "Unknown": 41
+      },
+      "identityStates": {
+        "UNVERIFIED": 41
+      }
+    },
+    "Google": {
+      "count": 8,
+      "categories": {
+        "smartphone": 5,
+        "smartwatch": 2,
+        "tablet": 1
+      },
+      "productTypes": {
+        "Unknown": 8
+      },
+      "identityStates": {
+        "UNVERIFIED": 8
+      }
+    },
+    "Xiaomi": {
+      "count": 9,
+      "categories": {
+        "smartphone": 5,
+        "television": 2,
+        "tablet": 2
+      },
+      "productTypes": {
+        "Unknown": 9
+      },
+      "identityStates": {
+        "UNVERIFIED": 9
+      }
+    },
+    "Nothing": {
+      "count": 6,
+      "categories": {
+        "smartphone": 3,
+        "headphones": 2,
+        "smartwatch": 1
+      },
+      "productTypes": {
+        "Unknown": 6
+      },
+      "identityStates": {
+        "UNVERIFIED": 6
+      }
+    },
+    "Realme": {
+      "count": 7,
+      "categories": {
+        "smartphone": 4,
+        "headphones": 1,
+        "smartwatch": 1,
+        "tablet": 1
+      },
+      "productTypes": {
+        "Unknown": 7
+      },
+      "identityStates": {
+        "UNVERIFIED": 7
+      }
+    },
+    "Motorola": {
+      "count": 4,
+      "categories": {
+        "smartphone": 4
+      },
+      "productTypes": {
+        "Unknown": 4
+      },
+      "identityStates": {
+        "UNVERIFIED": 4
+      }
+    },
+    "iQOO": {
+      "count": 4,
+      "categories": {
+        "smartphone": 4
+      },
+      "productTypes": {
+        "Unknown": 4
+      },
+      "identityStates": {
+        "UNVERIFIED": 4
+      }
+    },
+    "Vivo": {
+      "count": 3,
+      "categories": {
+        "smartphone": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Acer": {
+      "count": 4,
+      "categories": {
+        "laptop": 4
+      },
+      "productTypes": {
+        "Unknown": 4
+      },
+      "identityStates": {
+        "UNVERIFIED": 4
+      }
+    },
+    "MSI": {
+      "count": 5,
+      "categories": {
+        "laptop": 3,
+        "monitor": 2
+      },
+      "productTypes": {
+        "Unknown": 5
+      },
+      "identityStates": {
+        "UNVERIFIED": 5
+      }
+    },
+    "Microsoft": {
+      "count": 5,
+      "categories": {
+        "laptop": 2,
+        "tablet": 1,
+        "gaming": 2
+      },
+      "productTypes": {
+        "Unknown": 5
+      },
+      "identityStates": {
+        "UNVERIFIED": 5
+      }
+    },
+    "LG": {
+      "count": 8,
+      "categories": {
+        "television": 5,
+        "monitor": 3
+      },
+      "productTypes": {
+        "Unknown": 8
+      },
+      "identityStates": {
+        "UNVERIFIED": 8
+      }
+    },
+    "Sony": {
+      "count": 16,
+      "categories": {
+        "television": 5,
+        "headphones": 3,
+        "camera": 4,
+        "gaming": 4
+      },
+      "productTypes": {
+        "Unknown": 16
+      },
+      "identityStates": {
+        "UNVERIFIED": 16
+      }
+    },
+    "TCL": {
+      "count": 3,
+      "categories": {
+        "television": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Hisense": {
+      "count": 2,
+      "categories": {
+        "television": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Panasonic": {
+      "count": 3,
+      "categories": {
+        "television": 1,
+        "camera": 2
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Toshiba": {
+      "count": 1,
+      "categories": {
+        "television": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Bose": {
+      "count": 3,
+      "categories": {
+        "headphones": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Sennheiser": {
+      "count": 2,
+      "categories": {
+        "headphones": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "JBL": {
+      "count": 3,
+      "categories": {
+        "headphones": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Audio-Technica": {
+      "count": 1,
+      "categories": {
+        "headphones": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Marshall": {
+      "count": 2,
+      "categories": {
+        "headphones": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Anker": {
+      "count": 1,
+      "categories": {
+        "headphones": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Shure": {
+      "count": 1,
+      "categories": {
+        "headphones": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Garmin": {
+      "count": 3,
+      "categories": {
+        "smartwatch": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Amazfit": {
+      "count": 3,
+      "categories": {
+        "smartwatch": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Fitbit": {
+      "count": 2,
+      "categories": {
+        "smartwatch": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Huawei": {
+      "count": 1,
+      "categories": {
+        "smartwatch": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Titan": {
+      "count": 1,
+      "categories": {
+        "smartwatch": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "BenQ": {
+      "count": 2,
+      "categories": {
+        "monitor": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "AOC": {
+      "count": 1,
+      "categories": {
+        "Monitors": 1
+      },
+      "productTypes": {
+        "Monitor": 1
+      },
+      "identityStates": {
+        "IDENTITY_VERIFIED": 1
+      }
+    },
+    "Gigabyte": {
+      "count": 2,
+      "categories": {
+        "monitor": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "ViewSonic": {
+      "count": 1,
+      "categories": {
+        "monitor": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Honor": {
+      "count": 1,
+      "categories": {
+        "tablet": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Nokia": {
+      "count": 1,
+      "categories": {
+        "tablet": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Canon": {
+      "count": 4,
+      "categories": {
+        "camera": 4
+      },
+      "productTypes": {
+        "Unknown": 4
+      },
+      "identityStates": {
+        "UNVERIFIED": 4
+      }
+    },
+    "Nikon": {
+      "count": 3,
+      "categories": {
+        "camera": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "Fujifilm": {
+      "count": 3,
+      "categories": {
+        "camera": 3
+      },
+      "productTypes": {
+        "Unknown": 3
+      },
+      "identityStates": {
+        "UNVERIFIED": 3
+      }
+    },
+    "GoPro": {
+      "count": 2,
+      "categories": {
+        "camera": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "DJI": {
+      "count": 2,
+      "categories": {
+        "camera": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Insta360": {
+      "count": 1,
+      "categories": {
+        "camera": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Hasselblad": {
+      "count": 1,
+      "categories": {
+        "camera": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Nintendo": {
+      "count": 2,
+      "categories": {
+        "gaming": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Valve": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Razer": {
+      "count": 2,
+      "categories": {
+        "gaming": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "Logitech G": {
+      "count": 2,
+      "categories": {
+        "gaming": 2
+      },
+      "productTypes": {
+        "Unknown": 2
+      },
+      "identityStates": {
+        "UNVERIFIED": 2
+      }
+    },
+    "SteelSeries": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Corsair": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Xbox": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "PlayStation": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Elgato": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    },
+    "Meta": {
+      "count": 1,
+      "categories": {
+        "gaming": 1
+      },
+      "productTypes": {
+        "Unknown": 1
+      },
+      "identityStates": {
+        "UNVERIFIED": 1
+      }
+    }
+  }
+}
