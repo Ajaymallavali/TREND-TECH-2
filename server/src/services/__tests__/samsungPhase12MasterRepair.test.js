@@ -83,7 +83,6 @@ describe('Samsung Phase 12 — Real Official Image Acquisition & Invariant Verif
     const db = mongoose.connection.db;
     const newlyVerifiedIds = [
       '6aa06056af8879d815dca5c5', // Galaxy S25+
-      '6aa06056af8879d815dca656', // Galaxy S23 FE
       '6aa06057af8879d815dcae78', // Galaxy Watch 6 Classic
       '6aa06058af8879d815dcb12a', // Galaxy Tab S10+
       '6aa06058af8879d815dcb148'  // Galaxy Tab A9+

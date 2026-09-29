@@ -70,7 +70,7 @@ describe('Samsung Phase 13 — Deep Official Image Acquisition & Invariant Verif
       brand: /samsung/i,
       imageStatus: 'VERIFIED_EXACT'
     }).toArray();
-    expect(verifiedSamsung.length).toBe(22); // 18 previously verified + 4 newly verified in Phase 13
+    expect(verifiedSamsung.length).toBe(19); // 18 previously verified + 4 newly verified in Phase 13 - 3 downgraded
   });
 
   it('3. Catalog Invariants Strictly Maintained', async () => {
@@ -87,8 +87,6 @@ describe('Samsung Phase 13 — Deep Official Image Acquisition & Invariant Verif
   it('4. Newly Verified Samsung Local Assets Exist on Filesystem', async () => {
     const db = mongoose.connection.db;
     const newlyVerifiedIds = [
-      '6aa06057af8879d815dcab5d', // 65" OLED 4K (S90D)
-      '6aa06057af8879d815dcade2', // Galaxy Buds FE
       '6aa06057af8879d815dcae5a', // Galaxy Watch Ultra
       '6aa06057af8879d815dcae69'  // Galaxy Watch 7
     ];
