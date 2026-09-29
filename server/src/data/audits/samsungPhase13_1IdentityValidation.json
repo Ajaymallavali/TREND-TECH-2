@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-29T06:42:21.513Z",
+  "targetsAttempted": 4,
+  "passed": 2,
+  "failed": 2,
+  "duplicateConflictsInvestigated": 2,
+  "duplicateFindings": [
+    {
+      "conflictHash": "466bfa1802115d9a8ef53ab62278f0df859b9f4586a2bddb0e3d1f5e5da0eca2",
+      "productsAffected": [
+        "6aa06057af8879d815dcab5d (S90D)",
+        "6aa06058af8879d815dcb1fc (Tab Active5)"
+      ],
+      "finding": "The duplicate hash belongs to app_ico.png (a generic Samsung asset). The Phase 13 script incorrectly matched this on multiple product pages. S90D bypassed it but matched another generic image. Tab Active5 failed on it."
+    }
+  ],
+  "results": [
+    {
+      "id": "6aa06057af8879d815dcab5d",
+      "title": "Samsung 65\" OLED 4K (S90D)",
+      "model": "QA65S90DAKXXL",
+      "validationStatus": "FAILED",
+      "action": "DOWNGRADED_TO_UNVERIFIED",
+      "evidence": "Acquired image is a generic Samsung Care image (@care-image-new.jpg), not the product."
+    },
+    {
+      "id": "6aa06057af8879d815dcade2",
+      "title": "Samsung Galaxy Buds FE",
+      "model": "SM-R400N",
+      "validationStatus": "FAILED",
+      "action": "DOWNGRADED_TO_UNVERIFIED",
+      "evidence": "Acquired image is for SM-R420 (Galaxy Buds3 FE), an incorrect image assignment for SM-R400N."
+    },
+    {
+      "id": "6aa06057af8879d815dcae5a",
+      "title": "Samsung Galaxy Watch Ultra",
+      "model": "SM-L705F",
+      "validationStatus": "PASSED",
+      "action": "MAINTAIN_VERIFIED_EXACT",
+      "evidence": "SM-L705UZB1XAA is a verified regional/color variant of SM-L705F."
+    },
+    {
+      "id": "6aa06057af8879d815dcae69",
+      "title": "Samsung Galaxy Watch 7",
+      "model": "SM-L310N",
+      "validationStatus": "PASSED",
+      "action": "MAINTAIN_VERIFIED_EXACT",
+      "evidence": "SM-L310NZGAXAA is a verified regional/color variant of SM-L310N."
+    }
+  ]
+}
