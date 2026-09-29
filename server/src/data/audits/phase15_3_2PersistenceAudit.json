@@ -1,0 +1,42 @@
+{
+  "audit": {
+    "batchNumber": 3,
+    "productsAttempted": 25,
+    "identity": {
+      "HIGH": 12,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "UNRESOLVED": 13,
+      "CONFLICTED": 0
+    },
+    "images": {
+      "attempted": 12,
+      "downloaded": 12,
+      "exact": 12,
+      "regional": 0,
+      "rejected": 0,
+      "wrongModel": 0,
+      "generic": 0,
+      "duplicate": 0
+    },
+    "marketplace": {
+      "Amazon": 25,
+      "Flipkart": 4,
+      "Myntra": 0,
+      "Ajio": 0,
+      "Nykaa": 0,
+      "OTHER": 6,
+      "Valid": 22,
+      "Unverified": 13
+    },
+    "deals": {
+      "eligible": 22,
+      "suppressed": 13
+    },
+    "prices": {
+      "verified": 22,
+      "unavailable": 13,
+      "fabricated": 0
+    }
+  }
+}
