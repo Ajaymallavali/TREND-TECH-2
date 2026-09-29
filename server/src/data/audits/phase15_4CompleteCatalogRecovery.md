@@ -23,10 +23,10 @@ Products missing: 0
 
 ## Brands
 
-Total brands: 45
-Verified brands: 14
-Unresolved brands: 31
-Pseudo-brand records: 31
+Total brands: 97
+Verified brands: 4
+Unresolved brands: 93
+Pseudo-brand records: 93
 
 ## Categories
 
@@ -34,8 +34,8 @@ Every category with:
 
 category: Multiple
 product count: 867
-verified count: 51
-unverified count: 816
+verified count: 17
+unverified count: 850
 
 ## Product Types
 
@@ -43,23 +43,23 @@ Every product type with counts. (Omitted full list for brevity, 867 total proces
 
 ## Models
 
-Exact models: 51
+Exact models: 17
 Regional variants: 0
 Partial models: 0
-Unresolved models: 816
+Unresolved models: 850
 
 ## Identity
 
-Verified: 51
+Verified: 17
 Partial: 0
-Unresolved: 816
+Unresolved: 850
 Conflicted: 0
 
 ## Images
 
-Exact: 79
+Exact: 78
 Regional: 0
-Pending: 788
+Pending: 789
 Wrong model: 0
 Generic: 0
 Duplicate: 0
@@ -67,9 +67,9 @@ Invalid binary: 0
 
 ## Image Forensics
 
-Real SHA256: 79
-Real dimensions: 79
-Source binary match: 79
+Real SHA256: 78
+Real dimensions: 78
+Source binary match: 78
 
 Placeholder SHA: 0
 Zero dimensions: 0
@@ -85,28 +85,28 @@ Ajio: 0
 Nykaa: 0
 OTHER: 0
 
-Verified: 55
-Unverified: 1126
+Verified: 33
+Unverified: 1148
 Synthetic: 0
 Broken: 0
 Wrong product: 0
 
 ## Prices
 
-Verified: 55
-Unavailable: 1126
+Verified: 33
+Unavailable: 1148
 Fabricated: 0
 
 Fabricated MUST = 0.
 
 ## Deals
 
-Eligible: 55
-Suppressed: 1126
+Eligible: 33
+Suppressed: 1148
 
 ## Redirects
 
-Real validated redirects: 55
+Real validated redirects: 33
 Invalid: 0
 Synthetic: 0
 Broken: 0
@@ -164,13 +164,13 @@ Redirect: PASS
 
 ## Batch
 
-Batch number: 4
+Batch number: 37
 Batch size: 25
-Processed: 25
-HIGH: 13
+Processed: 25 (last batch)
+HIGH: 0
 MEDIUM: 0
 LOW: 0
-UNRESOLVED: 12
+UNRESOLVED: 25
 
 ## Tests
 
