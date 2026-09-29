@@ -1,0 +1,51 @@
+{
+  "targets": 3,
+  "passed": 2,
+  "failed": 1,
+  "downgraded": 1,
+  "duplicateConflicts": 0,
+  "results": [
+    {
+      "productId": "6aa06057af8879d815dcab5d",
+      "title": "Samsung 65\" OLED 4K (S90D)",
+      "dbModel": "QA65S90DAKXXL",
+      "acquiredModel": "QA65S90DAWXXY",
+      "sourcePage": "https://www.samsung.com/au/tvs/oled-tv/s90d-65-inch-oled-4k-smart-tv-qa65s90dawxxy/",
+      "sha256": "1dfd33c4445018fbde8881b79c4469d89fc600a32284fbdcd78ba19aee9e8018",
+      "dimensions": "624x468",
+      "fileSize": 404989,
+      "duplicate": false,
+      "verdict": "VALIDATED_REGIONAL_VARIANT",
+      "action": "NONE",
+      "reason": "Both models are identical S90D OLED 65-inch variants."
+    },
+    {
+      "productId": "6aa06057af8879d815dcafe0",
+      "title": "Samsung Odyssey OLED G9 49\"",
+      "dbModel": "LS49CG954SWXXL",
+      "acquiredModel": "LS49CG954EEXXY",
+      "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954sexxy/",
+      "sha256": "eff4d5e86fd9f99cc8a7f679ea274a5938e998fd6e62b6d78bad6af837cd13c3",
+      "dimensions": "720x576",
+      "fileSize": 76033,
+      "duplicate": false,
+      "verdict": "FAILED_WRONG_PRODUCT",
+      "action": "DOWNGRADED_TO_UNVERIFIED",
+      "reason": "DB model is Odyssey OLED G9 (G95SC/G95SD). Acquired image is Odyssey G9 (G95C) which is a different VA panel."
+    },
+    {
+      "productId": "6aa06057af8879d815dcafef",
+      "title": "Samsung Odyssey OLED G8 32\" 4K 240Hz",
+      "dbModel": "LS32DG802SWXXL",
+      "acquiredModel": "LS32DG802SEXXY",
+      "sourcePage": "https://www.samsung.com/au/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802sexxy/",
+      "sha256": "b2bed1957a85e2f180a51fce5fda5915cce6039871f7e5782ce84fb42fe9530c",
+      "dimensions": "624x468",
+      "fileSize": 354121,
+      "duplicate": false,
+      "verdict": "VALIDATED_REGIONAL_VARIANT",
+      "action": "NONE",
+      "reason": "Both models correspond to the identical Odyssey OLED G8 (G80SD) monitor."
+    }
+  ]
+}
