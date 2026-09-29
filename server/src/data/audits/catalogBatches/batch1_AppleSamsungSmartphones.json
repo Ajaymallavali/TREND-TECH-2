@@ -1,0 +1,189 @@
+{
+  "processed": 30,
+  "identityVerified": 27,
+  "identityPartial": 3,
+  "marketplaceUpdated": 81,
+  "dealsEvaluated": 81,
+  "details": [
+    {
+      "id": "6a9904e369652590e0aadbea",
+      "name": "Apple iPhone 17 Pro Max",
+      "model": "iPhone 17 Pro Max",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbec",
+      "name": "Apple iPhone 17 Pro",
+      "model": "iPhone 17 Pro",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbee",
+      "name": "Apple iPhone 17",
+      "model": "iPhone 17",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf0",
+      "name": "Apple iPhone Air",
+      "model": "iPhone Air",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf2",
+      "name": "Apple iPhone 16e",
+      "model": "iPhone 16e",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf4",
+      "name": "Apple iPhone Plus",
+      "model": "UNVERIFIED",
+      "identityStatus": "IDENTITY_PARTIAL"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf6",
+      "name": "Apple iPhone SE (3rd Gen)",
+      "model": "iPhone SE (3rd Gen)",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbf8",
+      "name": "Apple iPhone SE 2022",
+      "model": "iPhone SE 2022",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfa",
+      "name": "Apple iPhone Pro",
+      "model": "UNVERIFIED",
+      "identityStatus": "IDENTITY_PARTIAL"
+    },
+    {
+      "id": "6a9904e369652590e0aadbfc",
+      "name": "Apple iPhone Pro Max",
+      "model": "UNVERIFIED",
+      "identityStatus": "IDENTITY_PARTIAL"
+    },
+    {
+      "id": "6a9904e369652590e0aadc00",
+      "name": "Samsung Galaxy Z Fold 6",
+      "model": "Galaxy Z Fold 6",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadc02",
+      "name": "Samsung Galaxy Z Flip 6",
+      "model": "Galaxy Z Flip 6",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadc04",
+      "name": "Samsung Galaxy A55 5G",
+      "model": "Galaxy A55 5G",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadc06",
+      "name": "Samsung Galaxy M55 5G",
+      "model": "Galaxy M55 5G",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6a9904e369652590e0aadc08",
+      "name": "Samsung Galaxy F55 5G",
+      "model": "Galaxy F55 5G",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca4f4",
+      "name": "Apple iPhone 16 Pro Max",
+      "model": "iPhone 16 Pro Max",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca509",
+      "name": "Apple iPhone 16 Pro",
+      "model": "iPhone 16 Pro",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca51e",
+      "name": "Apple iPhone 16",
+      "model": "iPhone 16",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca533",
+      "name": "Apple iPhone 16 Plus",
+      "model": "iPhone 16 Plus",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca55c",
+      "name": "Apple iPhone 15 Pro Max",
+      "model": "iPhone 15 Pro Max",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca571",
+      "name": "Apple iPhone 15 Pro",
+      "model": "iPhone 15 Pro",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca586",
+      "name": "Apple iPhone 15",
+      "model": "iPhone 15",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca59b",
+      "name": "Apple iPhone 15 Plus",
+      "model": "iPhone 15 Plus",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca5b0",
+      "name": "Samsung Galaxy S25 Ultra",
+      "model": "Galaxy S25 Ultra",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca5c5",
+      "name": "Samsung Galaxy S25+",
+      "model": "Galaxy S25+",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca5da",
+      "name": "Samsung Galaxy S25",
+      "model": "Galaxy S25",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca5ef",
+      "name": "Samsung Galaxy S24 Ultra",
+      "model": "Galaxy S24 Ultra",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca604",
+      "name": "Samsung Galaxy S24+",
+      "model": "Galaxy S24+",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca619",
+      "name": "Samsung Galaxy S24",
+      "model": "Galaxy S24",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    {
+      "id": "6aa06056af8879d815dca656",
+      "name": "Samsung Galaxy S23 FE",
+      "model": "Galaxy S23 FE",
+      "identityStatus": "IDENTITY_VERIFIED"
+    }
+  ]
+}

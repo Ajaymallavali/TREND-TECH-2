@@ -1,0 +1,711 @@
+{
+  "db": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559
+  },
+  "identity": {
+    "verified": 27,
+    "partial": 3,
+    "unverified": 837,
+    "conflicted": 0,
+    "synthetic": 0
+  },
+  "domains": {
+    "TECH": 30,
+    "TREND": 0,
+    "UNKNOWN": 837
+  },
+  "categories": {
+    "accessories": 4,
+    "Smartphones": 30,
+    "smartphone": 453,
+    "laptop": 90,
+    "tablet": 24,
+    "monitor": 24,
+    "gaming": 41,
+    "television": 56,
+    "smartwatch": 61,
+    "headphones": 45,
+    "camera": 39
+  },
+  "brands": [
+    "Apple",
+    "Samsung",
+    "OnePlus",
+    "Dell",
+    "HP",
+    "Lenovo",
+    "ASUS",
+    "Desktop",
+    "Smartwatch & Wearables",
+    "Air Conditioners",
+    "Washing Machines",
+    "Audio",
+    "Consoles",
+    "Gaming",
+    "Cameras",
+    "Computer Accessories",
+    "Tops",
+    "Bottoms",
+    "Footwear",
+    "Accessories",
+    "Dresses",
+    "Outerwear",
+    "Activewear",
+    "Ethnic",
+    "Kids",
+    "Boys",
+    "Girls",
+    "Men",
+    "Women",
+    "Apparel",
+    "Sports & Fitness",
+    "Bags & Travel",
+    "Beauty & Personal Care",
+    "Google",
+    "Xiaomi",
+    "Nothing",
+    "Realme",
+    "Motorola",
+    "iQOO",
+    "Vivo",
+    "Acer",
+    "MSI",
+    "Microsoft",
+    "LG",
+    "Sony",
+    "TCL",
+    "Hisense",
+    "Panasonic",
+    "Toshiba",
+    "Bose",
+    "Sennheiser",
+    "JBL",
+    "Audio-Technica",
+    "Marshall",
+    "Anker",
+    "Shure",
+    "Garmin",
+    "Amazfit",
+    "Fitbit",
+    "Huawei",
+    "Titan",
+    "BenQ",
+    "AOC",
+    "Gigabyte",
+    "ViewSonic",
+    "Honor",
+    "Nokia",
+    "Canon",
+    "Nikon",
+    "Fujifilm",
+    "GoPro",
+    "DJI",
+    "Insta360",
+    "Hasselblad",
+    "Nintendo",
+    "Valve",
+    "Razer",
+    "Logitech G",
+    "SteelSeries",
+    "Corsair",
+    "Xbox",
+    "PlayStation",
+    "Elgato",
+    "Meta"
+  ],
+  "brandAnomalies": [
+    {
+      "id": "6a9904e369652590e0aadbfe",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc10",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc12",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc14",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc16",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc18",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc1a",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc1c",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc1e",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc20",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc22",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc24",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc26",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc28",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc2a",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc2c",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc2e",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc30",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc32",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc34",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc36",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc38",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc3a",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc3c",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc3e",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc40",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc42",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc44",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc46",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc48",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc4a",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc4c",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc4e",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc50",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc52",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc54",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc56",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc58",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc5a",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc5c",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc5e",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc60",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc62",
+      "brand": "Smartphone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc64",
+      "brand": "Feature Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc66",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc68",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc6a",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc6c",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc6e",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc70",
+      "brand": "Foldable Phone"
+    },
+    {
+      "id": "6a9904e369652590e0aadc78",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc7a",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc7c",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc7e",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc80",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc86",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc88",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc8a",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc8c",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc8e",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc90",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc94",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc96",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc98",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc9a",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc9c",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadc9e",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadca0",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadca6",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadca8",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcac",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcae",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcb0",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcb2",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcb4",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcb6",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcb8",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcba",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcbc",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcbe",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcc0",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcc2",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcc4",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcc6",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcc8",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcca",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadccc",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcce",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcd0",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcd2",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcd4",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcd6",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcd8",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcda",
+      "brand": "Laptop"
+    },
+    {
+      "id": "6a9904e369652590e0aadcee",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcf0",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcf2",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcf4",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcf6",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcf8",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcfa",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcfc",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadcfe",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd00",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd02",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd04",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd06",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd08",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd0a",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd0c",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd0e",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd10",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd12",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd14",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd16",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd18",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd1a",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd1c",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd1e",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd20",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd22",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd24",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd26",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd28",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd2a",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd2c",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd2e",
+      "brand": "Television"
+    },
+    {
+      "id": "6a9904e369652590e0aadd30",
+      "brand": "Television"
+    }
+  ],
+  "models": {
+    "exact": 27,
+    "partial": 3,
+    "unresolved": 837
+  },
+  "images": {
+    "exact": 57,
+    "regional": 0,
+    "unverified": 810,
+    "wrongModel": 0,
+    "generic": 0,
+    "duplicate": 0
+  },
+  "marketplaces": {
+    "Amazon": {
+      "total": 876,
+      "liveVerified": 0,
+      "unverified": 839,
+      "synthetic": 37,
+      "broken": 0
+    },
+    "Flipkart": {
+      "total": 124,
+      "liveVerified": 0,
+      "unverified": 102,
+      "synthetic": 0,
+      "broken": 22
+    },
+    "Myntra": {
+      "total": 0,
+      "liveVerified": 0,
+      "unverified": 0,
+      "synthetic": 0,
+      "broken": 0
+    },
+    "Ajio": {
+      "total": 0,
+      "liveVerified": 0,
+      "unverified": 0,
+      "synthetic": 0,
+      "broken": 0
+    },
+    "Nykaa": {
+      "total": 0,
+      "liveVerified": 0,
+      "unverified": 0,
+      "synthetic": 0,
+      "broken": 0
+    },
+    "OTHER": {
+      "total": 181,
+      "liveVerified": 0,
+      "unverified": 159,
+      "synthetic": 0,
+      "broken": 22
+    }
+  },
+  "deals": {
+    "eligible": 0,
+    "suppressed": 1181,
+    "suppressionReasons": {
+      "UNVERIFIED_OR_LEGACY": 1100,
+      "LEGACY_SYNTHETIC": 37,
+      "BROKEN_URL": 44
+    }
+  },
+  "redirects": {
+    "valid": 0,
+    "invalid": 1181,
+    "synthetic": 37,
+    "broken": 44
+  },
+  "comparison": {
+    "eligibleGroups": []
+  },
+  "recommendations": {
+    "eligible": 0,
+    "suppressed": 867
+  }
+}
