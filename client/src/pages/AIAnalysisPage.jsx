@@ -37,13 +37,11 @@ export default function AIAnalysisPage() {
     },
     onMutate: () => {
       setProgressStages([
-        'Understanding request...'
+        'Initializing AI Shopping Research...',
+        'Checking secure catalog and live web sources...',
+        'Validating exact product identity and variants...',
+        'Awaiting verified marketplace evidence...'
       ]);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Request understood', '✓ Searching catalog & web']), 400);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Identifying exact product', '✓ Validating variant']), 800);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Verifying image', '✓ Finding marketplaces']), 1200);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Checking current prices', '✓ Calculating savings']), 1600);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Finding best deal', '✓ Preparing AI explanation']), 2000);
     }
   });
 
@@ -233,18 +231,21 @@ export default function AIAnalysisPage() {
         {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && data.status !== 'SUCCESS_EXTERNAL' && (
           <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-3">
             <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
-            <h2 className="text-lg font-black text-red-900">{data.status === 'INVALID_URL' ? 'Invalid Product URL' : 'Product Not Found'}</h2>
+            <h2 className="text-lg font-black text-red-900">
+              {data.status === 'INVALID_URL' ? 'Invalid Product URL' : 'PRODUCT NOT VERIFIED'}
+            </h2>
             <p className="text-sm text-red-700 font-medium">
-              {data.error || 'We could not securely match this to a verified product identity in our catalog.'}
+              {data.status === 'INVALID_URL' 
+                ? data.error || 'Please provide a valid, supported marketplace URL.' 
+                : 'Insufficient verified information was found to establish the exact product.'}
             </p>
           </section>
         )}
 
         {/* SUCCESS RESULT STATE */}
-        {!isLoading && !mutation.isError && data && (data.status === 'SUCCESS' || data.status === 'SUCCESS_EXTERNAL') && data.product && (
-          <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            
-            {/* 1. PRODUCT IDENTIFIED */}
+        {data && !isLoading && (
+          <div className="space-y-8 animate-in fade-in duration-500">
+{/* 1. PRODUCT IDENTIFIED */}
             <section className="card bg-white p-6 md:p-8 border border-ink-100 rounded-2xl flex flex-col md:flex-row gap-8 items-start">
               <div className="w-full md:w-1/3 flex-shrink-0">
                 <div className="aspect-square bg-ink-50 rounded-2xl border border-ink-100 p-6 flex items-center justify-center relative">
@@ -261,8 +262,8 @@ export default function AIAnalysisPage() {
                       <ShieldCheck className="h-3 w-3" /> Catalog Verified
                     </span>
                   ) : data.identity.status === 'EXTERNAL_LIVE_VERIFIED' ? (
-                    <span className="absolute top-3 right-3 bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
-                      <ShieldCheck className="h-3 w-3" /> External Live Result
+                    <span className="absolute top-3 right-3 bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1 uppercase">
+                      <ShieldCheck className="h-3 w-3" /> External Web Product
                     </span>
                   ) : (
                     <span className="absolute top-3 right-3 bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
@@ -310,14 +311,257 @@ export default function AIAnalysisPage() {
                 </div>
               </div>
             </section>
+{data.identity.matchConfidence === 'AMBIGUOUS' && (
+              <section className="bg-amber-50 border border-amber-200 p-6 rounded-2xl text-center shadow-sm">
+                <ShieldAlert className="h-10 w-10 text-amber-500 mx-auto mb-3" />
+                <h3 className="text-lg font-black text-amber-800">MULTIPLE POSSIBLE MATCHES</h3>
+                <p className="text-sm font-medium text-amber-700 mt-2">
+                  Multiple variants or similar models exist. Please refine your search to see exact verified deals (e.g. specify RAM/Storage or screen size).
+                </p>
+              </section>
+            )}
+{/* 2. BEST VERIFIED DEAL */}
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.bestDeal && (
+              <section className="bg-gradient-to-r from-accent-600 to-accent-800 text-white p-6 md:p-8 rounded-2xl shadow-lg border border-accent-700 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="space-y-2 text-center md:text-left w-full">
+                  <div className="flex items-center justify-center md:justify-start gap-2 text-accent-200">
+                    <CheckCircle2 className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Best Verified Deal</span>
+                  </div>
+                  <h3 className="text-3xl font-black">{data.bestDeal.marketplace}</h3>
+                  
+                  <div className="flex items-end justify-center md:justify-start gap-3 mt-4">
+                    <span className="text-4xl font-black">{formatINR(data.bestDeal.price)}</span>
+                    {data.bestDeal.discountPercentage && (
+                      <span className="text-lg text-accent-200 line-through mb-1">
+                        {formatINR(data.bestDeal.mrp)}
+                      </span>
+                    )}
+                  </div>
+                  
+                  {data.bestDeal.savings && (
+                    <p className="text-sm font-semibold text-accent-100 bg-accent-900/40 inline-block px-3 py-1 rounded-full mt-2">
+                      Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
+                    </p>
+                  )}
+                </div>
 
-            {/* AI RESEARCH SECTIONS */}
+                <div className="w-full md:w-auto flex-shrink-0">
+                  <a
+                    href={data.bestDeal.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white text-accent-800 px-8 py-4 rounded-xl font-black text-lg w-full flex items-center justify-center gap-2 hover:bg-accent-50 transition-colors shadow-sm"
+                  >
+                    BUY NOW <ArrowRight className="h-5 w-5" />
+                  </a>
+                </div>
+              </section>
+            )}
+{/* SOURCE VS BEST MARKETPLACE */}
+            {data.sourceInfo && data.sourceInfo.marketplace && data.sourceInfo.price && data.bestDeal && data.sourceInfo.marketplace !== data.bestDeal.marketplace && data.sourceInfo.price > data.bestDeal.price && (
+              <section className="card bg-amber-50 p-6 border border-amber-200 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div>
+                  <div className="flex items-center gap-2 text-amber-700 mb-1">
+                    <Zap className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Source vs Best Marketplace</span>
+                  </div>
+                  <p className="text-sm font-semibold text-amber-900 mt-2">
+                    The analyzed product is from <strong className="font-black">{data.sourceInfo.marketplace}</strong> ({formatINR(data.sourceInfo.price)}). A verified lower price was found on <strong className="font-black">{data.bestDeal.marketplace}</strong> ({formatINR(data.bestDeal.price)}).
+                  </p>
+                </div>
+                <div className="bg-white px-4 py-3 rounded-xl border border-amber-100 flex-shrink-0 text-center shadow-sm">
+                  <span className="block text-[10px] font-bold text-amber-600 uppercase">Potential Savings</span>
+                  <span className="block text-2xl font-black text-amber-600">{formatINR(data.sourceInfo.price - data.bestDeal.price)}</span>
+                </div>
+              </section>
+            )}
+{/* 4 BEST METRICS CARDS */}
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.marketplaces && data.marketplaces.filter(mp => mp.isVerified).length > 0 && (() => {
+              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available');
+              if (verifiedOffers.length === 0) return null;
+              
+              const bestPrice = Math.min(...verifiedOffers.map(o => o.price));
+              const bestDiscount = Math.max(...verifiedOffers.map(o => o.discountPercentage || 0));
+              const bestSavings = Math.max(...verifiedOffers.map(o => o.savings || 0));
+              
+              return (
+                <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Price</span>
+                    <span className="text-xl font-black text-ink-900">{formatINR(bestPrice)}</span>
+                  </div>
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Discount</span>
+                    <span className="text-xl font-black text-ink-900">{bestDiscount > 0 ? `${bestDiscount}% OFF` : 'N/A'}</span>
+                  </div>
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Savings</span>
+                    <span className="text-xl font-black text-ink-900">{bestSavings > 0 ? formatINR(bestSavings) : 'N/A'}</span>
+                  </div>
+                  <div className="card bg-white p-5 border-accent-200 rounded-2xl flex flex-col justify-center bg-accent-50">
+                    <span className="text-[10px] font-bold text-accent-700 uppercase tracking-widest mb-1">Best Verified Deal</span>
+                    <span className="text-xl font-black text-accent-900 truncate">{data.bestDeal ? data.bestDeal.marketplace : 'None'}</span>
+                  </div>
+                </section>
+              );
+            })()}
+{/* PREFERRED STORE SECTION */}
+            {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
+              <section className="bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div>
+                  <div className="flex items-center gap-2 text-ink-500 mb-1">
+                    <TrendingUp className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Preferred Store</span>
+                  </div>
+                  <h3 className="text-xl font-black text-ink-900">{data.preferredDeal.marketplace}</h3>
+                  <div className="flex items-end gap-2 mt-2">
+                    <span className="text-2xl font-black text-ink-900">{formatINR(data.preferredDeal.price)}</span>
+                    <span className="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded-full mb-1">
+                      +{formatINR(data.preferredDeal.price - data.bestDeal.price)} compared to Best Deal
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href={data.preferredDeal.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-outline px-6 py-3 text-sm whitespace-nowrap flex items-center gap-2"
+                >
+                  BUY NOW ON {data.preferredDeal.marketplace.toUpperCase()} <ExternalLink className="h-4 w-4" />
+                </a>
+              </section>
+            )}
+{/* 3. COMPARE STORES */}
+            <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4 overflow-x-auto">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <h3 className="text-sm font-bold text-ink-900 uppercase flex items-center gap-2">
+                  <Zap className="h-4 w-4 text-accent-600" /> Compare Stores
+                </h3>
+                <span className="text-xs font-semibold text-ink-500 bg-ink-50 px-3 py-1 rounded-full border border-ink-100">
+                  {data.marketplaces.filter(mp => mp.isVerified).length === 1 
+                    ? "1 verified marketplace offer" 
+                    : `${data.marketplaces.filter(mp => mp.isVerified).length} verified marketplace offers compared`}
+                </span>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                {data.marketplaces.map((mp, idx) => (
+                  <div key={mp._id || idx} className="card bg-ink-50 border border-ink-100 rounded-2xl p-5 flex flex-col relative overflow-hidden">
+                    {mp.isVerified && (
+                      <div className="absolute top-0 right-0 bg-green-100 text-green-800 text-[9px] font-black uppercase px-2 py-1 rounded-bl-lg flex items-center gap-1">
+                        <CheckCircle2 className="h-2.5 w-2.5" /> Verified
+                      </div>
+                    )}
+                    <h4 className="text-lg font-black text-ink-900 mb-2">{mp.marketplace}</h4>
+                    <div className="flex items-end gap-2 mb-3">
+                      <span className="text-2xl font-black text-ink-900">{formatINR(mp.price)}</span>
+                      {mp.mrp && <span className="text-sm font-semibold text-ink-400 line-through mb-0.5">{formatINR(mp.mrp)}</span>}
+                    </div>
+                    
+                    <div className="flex items-center gap-2 mb-4">
+                      {mp.discountPercentage > 0 ? (
+                        <span className="text-[10px] font-bold bg-green-100 text-green-800 px-2 py-0.5 rounded uppercase">
+                          {mp.discountPercentage}% OFF
+                        </span>
+                      ) : null}
+                      {mp.savings > 0 ? (
+                        <span className="text-[10px] font-bold bg-accent-100 text-accent-800 px-2 py-0.5 rounded uppercase">
+                          Save {formatINR(mp.savings)}
+                        </span>
+                      ) : null}
+                    </div>
+                    
+                    {data.verification && data.verification.checkedAt && (
+                      <p className="text-[10px] font-semibold text-ink-400 mb-4 flex items-center gap-1">
+                        Checked recently
+                      </p>
+                    )}
+
+                    <div className="mt-auto pt-2 border-t border-ink-200">
+                      {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && mp.availability === 'Available' && mp.url ? (
+                        <a href={mp.url} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full py-2.5 text-xs inline-flex items-center justify-center gap-2">
+                          BUY NOW <ExternalLink className="h-3 w-3" />
+                        </a>
+                      ) : (
+                        <span className="block w-full text-center py-2.5 text-xs font-bold text-ink-400 bg-ink-100 rounded-lg">
+                          Unavailable
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                {data.marketplaces.length === 0 && (
+                  <div className="col-span-full py-12 text-center text-sm font-medium text-ink-500">
+                    No verified deals currently available for this exact product model.
+                  </div>
+                )}
+              </div>
+
+              {/* COVERAGE FOOTER */}
+              <div className="mt-4 pt-4 border-t border-ink-100 flex flex-wrap gap-4 text-[10px] font-semibold">
+                <div className="flex items-center gap-2">
+                  <span className="text-ink-500 uppercase">Checked:</span>
+                  <div className="flex gap-2 text-green-700">
+                    {data.coverage.checked.map(c => <span key={c} className="flex items-center gap-0.5"><CheckCircle2 className="h-3 w-3" /> {c}</span>)}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-ink-500 uppercase">Unavailable:</span>
+                  <div className="flex gap-2 text-ink-400">
+                    {data.coverage.unavailable.map(c => <span key={c}>— {c}</span>)}
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* 7. HOW THE DEAL WAS CALCULATED */}
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.bestDeal && data.marketplaces.filter(mp => mp.isVerified && mp.price).length > 1 && (() => {
+              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available').sort((a,b) => b.price - a.price);
+              const highest = verifiedOffers[0];
+              const lowest = data.bestDeal;
+              if (highest && lowest && highest.price > lowest.price) {
+                return (
+                  <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
+                    <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
+                      <Zap className="h-4 w-4 text-accent-600" /> How the deal was calculated
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center bg-ink-50 p-6 rounded-xl border border-ink-100">
+                      <div className="text-center md:text-left">
+                        <p className="text-[10px] font-bold text-ink-500 uppercase">Highest Verified Offer</p>
+                        <p className="text-lg font-black text-ink-900 mt-1">{highest.marketplace}</p>
+                        <p className="text-xl font-bold text-ink-700">{formatINR(highest.price)}</p>
+                      </div>
+                      <div className="flex flex-col items-center justify-center">
+                        <span className="text-[10px] font-bold text-ink-400 uppercase mb-2">Difference</span>
+                        <div className="bg-white border border-ink-200 px-4 py-2 rounded-full font-black text-accent-700 shadow-sm whitespace-nowrap">
+                          {formatINR(highest.price)} - {formatINR(lowest.price)} = {formatINR(highest.price - lowest.price)}
+                        </div>
+                      </div>
+                      <div className="text-center md:text-right">
+                        <p className="text-[10px] font-bold text-ink-500 uppercase">Lowest Verified Offer</p>
+                        <p className="text-lg font-black text-accent-700 mt-1">{lowest.marketplace}</p>
+                        <p className="text-xl font-bold text-accent-700">{formatINR(lowest.price)}</p>
+                      </div>
+                    </div>
+                    <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
+                      <p className="text-sm font-semibold text-green-900">
+                        <strong className="font-black">Why this is the best verified deal:</strong> Among the verified marketplace offers returned for the exact product and variant, {lowest.marketplace} has the lowest current verified price.
+                      </p>
+                    </div>
+                  </section>
+                );
+              }
+              return null;
+            })()}
+
+{/* AI RESEARCH SECTIONS */}
             {data.research && (
               <section className="space-y-6">
                 {/* AI VERDICT */}
                 <div className="card bg-white p-6 border border-ink-100 rounded-2xl">
                   <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest mb-3 flex items-center gap-2">
-                    <Zap className="h-4 w-4 text-accent-600" /> AI Verdict
+                    <Zap className="h-4 w-4 text-accent-600" /> AI Verdict <span className="ml-auto text-[10px] bg-green-100 text-green-800 px-2 py-0.5 rounded-full border border-green-200">BASED ON VERIFIED SOURCES</span>
                   </h3>
                   <p className="text-sm font-medium text-ink-800 leading-relaxed bg-ink-50 p-4 rounded-xl border border-ink-100">
                     {data.research.verdict}
@@ -396,254 +640,87 @@ export default function AIAnalysisPage() {
               </section>
             )}
 
-            {/* SOURCE VS BEST MARKETPLACE */}
-            {data.sourceInfo && data.sourceInfo.marketplace && data.sourceInfo.price && data.bestDeal && data.sourceInfo.marketplace !== data.bestDeal.marketplace && data.sourceInfo.price > data.bestDeal.price && (
-              <section className="card bg-amber-50 p-6 border border-amber-200 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
-                <div>
-                  <div className="flex items-center gap-2 text-amber-700 mb-1">
-                    <Zap className="h-4 w-4" />
-                    <span className="text-xs font-bold uppercase tracking-widest">Source vs Best Marketplace</span>
-                  </div>
-                  <p className="text-sm font-semibold text-amber-900 mt-2">
-                    The analyzed product is from <strong className="font-black">{data.sourceInfo.marketplace}</strong> ({formatINR(data.sourceInfo.price)}). A verified lower price was found on <strong className="font-black">{data.bestDeal.marketplace}</strong> ({formatINR(data.bestDeal.price)}).
-                  </p>
-                </div>
-                <div className="bg-white px-4 py-3 rounded-xl border border-amber-100 flex-shrink-0 text-center shadow-sm">
-                  <span className="block text-[10px] font-bold text-amber-600 uppercase">Potential Savings</span>
-                  <span className="block text-2xl font-black text-amber-600">{formatINR(data.sourceInfo.price - data.bestDeal.price)}</span>
-                </div>
-              </section>
-            )}
-
-            {/* 2. BEST VERIFIED DEAL */}
-            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.bestDeal && (
-              <section className="bg-gradient-to-r from-accent-600 to-accent-800 text-white p-6 md:p-8 rounded-2xl shadow-lg border border-accent-700 flex flex-col md:flex-row items-center justify-between gap-6">
-                <div className="space-y-2 text-center md:text-left w-full">
-                  <div className="flex items-center justify-center md:justify-start gap-2 text-accent-200">
-                    <CheckCircle2 className="h-4 w-4" />
-                    <span className="text-xs font-bold uppercase tracking-widest">Best Verified Deal</span>
-                  </div>
-                  <h3 className="text-3xl font-black">{data.bestDeal.marketplace}</h3>
-                  
-                  <div className="flex items-end justify-center md:justify-start gap-3 mt-4">
-                    <span className="text-4xl font-black">{formatINR(data.bestDeal.price)}</span>
-                    {data.bestDeal.discountPercentage && (
-                      <span className="text-lg text-accent-200 line-through mb-1">
-                        {formatINR(data.bestDeal.mrp)}
-                      </span>
-                    )}
-                  </div>
-                  
-                  {data.bestDeal.savings && (
-                    <p className="text-sm font-semibold text-accent-100 bg-accent-900/40 inline-block px-3 py-1 rounded-full mt-2">
-                      Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
-                    </p>
-                  )}
-                </div>
-
-                <div className="w-full md:w-auto flex-shrink-0">
-                  <a
-                    href={data.bestDeal.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white text-accent-800 px-8 py-4 rounded-xl font-black text-lg w-full flex items-center justify-center gap-2 hover:bg-accent-50 transition-colors shadow-sm"
-                  >
-                    BUY NOW <ArrowRight className="h-5 w-5" />
-                  </a>
-                </div>
-              </section>
-            )}
-
-            {data.identity.matchConfidence === 'AMBIGUOUS' && (
-              <section className="bg-amber-50 border border-amber-200 p-6 rounded-2xl text-center shadow-sm">
-                <ShieldAlert className="h-10 w-10 text-amber-500 mx-auto mb-3" />
-                <h3 className="text-lg font-black text-amber-800">PARTIAL MATCH / VARIANT NOT VERIFIED</h3>
-                <p className="text-sm font-medium text-amber-700 mt-2">
-                  Multiple variants or similar models exist. Please refine your search to see exact verified deals (e.g. specify RAM/Storage or screen size).
-                </p>
-              </section>
-            )}
-
-            {/* 4 BEST METRICS CARDS */}
-            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.marketplaces && data.marketplaces.filter(mp => mp.isVerified).length > 0 && (() => {
-              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available');
-              if (verifiedOffers.length === 0) return null;
-              
-              const bestPrice = Math.min(...verifiedOffers.map(o => o.price));
-              const bestDiscount = Math.max(...verifiedOffers.map(o => o.discountPercentage || 0));
-              const bestSavings = Math.max(...verifiedOffers.map(o => o.savings || 0));
-              
-              return (
-                <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Price</span>
-                    <span className="text-xl font-black text-ink-900">{formatINR(bestPrice)}</span>
-                  </div>
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Discount</span>
-                    <span className="text-xl font-black text-ink-900">{bestDiscount > 0 ? `${bestDiscount}% OFF` : 'N/A'}</span>
-                  </div>
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Savings</span>
-                    <span className="text-xl font-black text-ink-900">{bestSavings > 0 ? formatINR(bestSavings) : 'N/A'}</span>
-                  </div>
-                  <div className="card bg-white p-5 border-accent-200 rounded-2xl flex flex-col justify-center bg-accent-50">
-                    <span className="text-[10px] font-bold text-accent-700 uppercase tracking-widest mb-1">Best Verified Deal</span>
-                    <span className="text-xl font-black text-accent-900 truncate">{data.bestDeal ? data.bestDeal.marketplace : 'None'}</span>
-                  </div>
-                </section>
-              );
-            })()}
-
-            {/* PREFERRED STORE SECTION */}
-            {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
-              <section className="bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
-                <div>
-                  <div className="flex items-center gap-2 text-ink-500 mb-1">
-                    <TrendingUp className="h-4 w-4" />
-                    <span className="text-xs font-bold uppercase tracking-widest">Preferred Store</span>
-                  </div>
-                  <h3 className="text-xl font-black text-ink-900">{data.preferredDeal.marketplace}</h3>
-                  <div className="flex items-end gap-2 mt-2">
-                    <span className="text-2xl font-black text-ink-900">{formatINR(data.preferredDeal.price)}</span>
-                    <span className="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded-full mb-1">
-                      +{formatINR(data.preferredDeal.price - data.bestDeal.price)} compared to Best Deal
-                    </span>
-                  </div>
-                </div>
-                <a
-                  href={data.preferredDeal.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-outline px-6 py-3 text-sm whitespace-nowrap flex items-center gap-2"
-                >
-                  BUY NOW ON {data.preferredDeal.marketplace.toUpperCase()} <ExternalLink className="h-4 w-4" />
-                </a>
-              </section>
-            )}
-
-            {/* 3. COMPARE STORES */}
-            <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4 overflow-x-auto">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                <h3 className="text-sm font-bold text-ink-900 uppercase flex items-center gap-2">
-                  <Zap className="h-4 w-4 text-accent-600" /> Compare Stores
+            {/* 9. RESEARCH EVIDENCE */}
+            {data.evidence && (
+              <section className="card bg-ink-900 text-white p-6 border border-ink-800 rounded-2xl space-y-4 shadow-sm">
+                <h3 className="text-xs font-black text-ink-300 uppercase tracking-widest flex items-center gap-2 mb-4">
+                  <ShieldCheck className="h-4 w-4 text-green-400" /> AI Research Evidence
                 </h3>
-                <span className="text-xs font-semibold text-ink-500 bg-ink-50 px-3 py-1 rounded-full border border-ink-100">
-                  {data.marketplaces.filter(mp => mp.isVerified).length === 1 
-                    ? "1 verified marketplace offer" 
-                    : `${data.marketplaces.filter(mp => mp.isVerified).length} verified marketplace offers compared`}
-                </span>
-              </div>
-              
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="border-b border-ink-100">
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Marketplace</th>
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Price</th>
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Discount</th>
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Savings</th>
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Status</th>
-                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase text-right">Action</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-ink-50">
-                  {data.marketplaces.map((mp, idx) => (
-                    <tr key={mp._id || idx} className="hover:bg-ink-50/50">
-                      <td className="py-4 px-4 font-bold text-ink-900 text-sm">{mp.marketplace}</td>
-                      <td className="py-4 px-4 font-black text-ink-900">
-                        {formatINR(mp.price)}
-                        {mp.mrp && <span className="block text-[10px] text-ink-400 line-through font-medium">{formatINR(mp.mrp)}</span>}
-                      </td>
-                      <td className="py-4 px-4">
-                        {mp.discountPercentage ? (
-                          <span className="text-xs font-bold text-green-700 bg-green-100 px-2 py-0.5 rounded">{mp.discountPercentage}% OFF</span>
-                        ) : (
-                          <span className="text-xs text-ink-400">—</span>
-                        )}
-                      </td>
-                      <td className="py-4 px-4">
-                        {mp.savings ? (
-                          <span className="text-xs font-semibold text-ink-700">{formatINR(mp.savings)}</span>
-                        ) : (
-                          <span className="text-xs text-ink-400">—</span>
-                        )}
-                      </td>
-                      <td className="py-4 px-4">
-                        <span className={`text-[10px] font-bold px-2 py-1 rounded ${mp.availability === 'Available' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                          {mp.availability}
-                        </span>
-                      </td>
-                      <td className="py-4 px-4 text-right">
-                        {data.identity.matchConfidence === 'EXACT' && mp.availability === 'Available' && mp.url ? (
-                          <a href={mp.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 btn-secondary py-1.5 px-3 text-[11px] font-bold">
-                            BUY NOW <ExternalLink className="h-3 w-3" />
-                          </a>
-                        ) : (
-                          <span className="text-xs font-semibold text-ink-400">Unavailable</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                  {data.marketplaces.length === 0 && (
-                    <tr>
-                      <td colSpan="6" className="py-12 text-center text-sm font-medium text-ink-500">
-                        No verified deals currently available for this exact product model.
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </table>
-
-              {/* COVERAGE FOOTER */}
-              <div className="mt-4 pt-4 border-t border-ink-100 flex flex-wrap gap-4 text-[10px] font-semibold">
-                <div className="flex items-center gap-2">
-                  <span className="text-ink-500 uppercase">Checked:</span>
-                  <div className="flex gap-2 text-green-700">
-                    {data.coverage.checked.map(c => <span key={c} className="flex items-center gap-0.5"><CheckCircle2 className="h-3 w-3" /> {c}</span>)}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Input</p>
+                    <p className="text-sm font-black text-ink-100 line-clamp-1" title={data.evidence.input}>{data.evidence.input}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Intent</p>
+                    <p className="text-sm font-black text-blue-400">{data.evidence.intent}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Research Mode</p>
+                    <p className="text-sm font-black text-purple-400">{data.evidence.researchMode.replace('_', ' ')}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Product Identity</p>
+                    <p className="text-sm font-black text-green-400">{data.evidence.identity}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Variant</p>
+                    <p className="text-sm font-black text-green-400">{data.evidence.variant}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Image</p>
+                    <p className={`text-sm font-black ${data.evidence.image === 'VERIFIED' ? 'text-green-400' : 'text-amber-400'}`}>{data.evidence.image}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Marketplaces</p>
+                    <p className="text-sm font-black text-ink-100">{data.evidence.verifiedOffers} Verified Offers</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Sources</p>
+                    <p className="text-sm font-black text-ink-100">{data.evidence.sources.length} Verified Sources</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-ink-500 uppercase">Unavailable:</span>
-                  <div className="flex gap-2 text-ink-400">
-                    {data.coverage.unavailable.map(c => <span key={c}>— {c}</span>)}
-                  </div>
-                </div>
-              </div>
-            </section>
+              </section>
+            )}
 
-            {/* VERIFICATION DETAILS */}
-            <section className="card bg-ink-900 p-6 border border-ink-800 rounded-2xl space-y-4 shadow-sm text-white">
-              <h3 className="text-xs font-black text-ink-300 uppercase tracking-widest flex items-center gap-2 mb-4">
-                <ShieldCheck className="h-4 w-4 text-green-400" /> Verification Details
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                <div className="space-y-1">
-                  <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Product Identity</p>
-                  <p className="text-xs font-black text-green-400">{data.identity.matchConfidence}</p>
+
+            {/* 10. WEB SOURCES */}
+            {data.evidence && data.evidence.sources && data.evidence.sources.length > 0 && (
+              <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
+                <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
+                  <LinkIcon className="h-4 w-4 text-accent-600" /> Source Traceability
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {data.evidence.sources.map((src, idx) => {
+                    let domain = 'Unknown';
+                    try {
+                      domain = new URL(src).hostname;
+                    } catch(e) {}
+                    
+                    return (
+                      <div key={idx} className="p-4 bg-ink-50 border border-ink-100 rounded-xl flex flex-col justify-between h-full">
+                        <div>
+                          <p className="text-sm font-black text-ink-900 truncate mb-1" title={src}>{domain}</p>
+                          <p className="text-[10px] font-bold text-ink-500 uppercase mb-3">Verified Source</p>
+                          <div className="space-y-1 mb-4">
+                            <p className="text-xs font-semibold text-green-700 flex items-center gap-1.5"><CheckCircle2 className="h-3 w-3" /> Used for Pricing</p>
+                            <p className="text-xs font-semibold text-green-700 flex items-center gap-1.5"><CheckCircle2 className="h-3 w-3" /> Used for Product Identity</p>
+                            <p className="text-xs font-semibold text-green-700 flex items-center gap-1.5"><CheckCircle2 className="h-3 w-3" /> Used for AI Analysis</p>
+                          </div>
+                        </div>
+                        <a href={src} target="_blank" rel="noopener noreferrer" className="btn-outline py-2 px-4 text-xs inline-flex items-center justify-center gap-2 mt-auto w-full">
+                          OPEN SOURCE <ExternalLink className="h-3 w-3" />
+                        </a>
+                      </div>
+                    );
+                  })}
                 </div>
-                <div className="space-y-1">
-                  <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Image</p>
-                  <p className={`text-xs font-black ${data.image.status === 'VERIFIED_EXACT' ? 'text-green-400' : 'text-amber-400'}`}>
-                    {data.image.status.replace('_', ' ')}
-                  </p>
-                </div>
-                <div className="space-y-1">
-                  <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Price</p>
-                  <p className="text-xs font-black text-green-400">VERIFIED</p>
-                </div>
-                <div className="space-y-1">
-                  <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Marketplace</p>
-                  <p className="text-xs font-black text-green-400">VERIFIED</p>
-                </div>
-                <div className="space-y-1">
-                  <p className="text-[10px] text-ink-400 uppercase font-bold tracking-widest">Store URL</p>
-                  <p className="text-xs font-black text-green-400">VALIDATED</p>
-                </div>
-              </div>
-            </section>
+              </section>
+            )}
+
           </div>
         )}
-      </main>
+</main>
     </div>
   );
 }

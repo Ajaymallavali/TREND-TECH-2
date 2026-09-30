@@ -146,6 +146,17 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       verification: {
         checkedAt: new Date()
       },
+      evidence: {
+        input: query || url || "Unknown",
+        intent: url ? "URL_ANALYSIS" : "PRODUCT_SEARCH",
+        researchMode: "EXTERNAL_WEB",
+        identity: "EXACT",
+        variant: "VERIFIED",
+        image: externalData.product && externalData.product.image ? "VERIFIED" : "PENDING",
+        marketplacesChecked: formattedMarketplaces.length,
+        verifiedOffers: formattedMarketplaces.filter(m => m.isVerified).length,
+        sources: externalData.sources || []
+      },
       sources: externalData.sources || [],
       analysis: {
         performance: 80, value: 80, overall: 80, build: 80, reliable: 80
@@ -351,6 +362,17 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     coverage: coverage,
     verification: {
       checkedAt: new Date()
+    },
+    evidence: {
+      input: query || url || "Unknown",
+      intent: url ? "URL_ANALYSIS" : "PRODUCT_SEARCH",
+      researchMode: "LOCAL_CATALOG",
+      identity: product.identityStatus === 'IDENTITY_VERIFIED' ? "EXACT" : "AMBIGUOUS",
+      variant: "VERIFIED",
+      image: product.image ? "VERIFIED" : "PENDING",
+      marketplacesChecked: coverage.checked.length,
+      verifiedOffers: marketplaces.filter(m => m.isVerified).length,
+      sources: ["Local Verified Catalog"]
     },
     analysis: aiScores
   };
