@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import { validateStoreUrl, findProductByUrlOrQuery } from './matcher.js';
 import { computeAIScores } from '../aiWorkflow.service.js';
 
-export async function analyzeProductWorkflow({ query, url, reelUrl, description }) {
+export async function analyzeProductWorkflow({ query, url, reelUrl, description, preferredStore }) {
   const Product = mongoose.model('Product');
   const MarketplaceProduct = mongoose.model('MarketplaceProduct');
   const PriceHistory = mongoose.model('PriceHistory');
@@ -27,7 +27,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
   if (!product) {
     return {
       status: 'PRODUCT_NOT_FOUND',
-      error: 'Product identity could not be matched against verified catalog.',
+      error: 'Product not available in verified catalog. External live discovery is currently unavailable.',
       coverage: { checked: [], unavailable: [] },
       marketplaces: [],
       product: null
@@ -110,6 +110,12 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
       coverage.unavailable.push(m);
     }
   });
+
+  let preferredDeal = null;
+  if (preferredStore && preferredStore.trim().toLowerCase() !== 'any') {
+    const pStoreClean = preferredStore.trim().toLowerCase();
+    preferredDeal = marketplaces.find(m => m.marketplace.toLowerCase().includes(pStoreClean) && m.isVerified && m.price && m.availability === 'Available') || null;
+  }
 
   const priceHistoryDocs = await PriceHistory.find({ 
     marketplaceProduct: { $in: mps.map(m => m._id) }
@@ -221,6 +227,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
     },
     marketplaces: marketplaces,
     bestDeal: bestDeal,
+    preferredDeal: preferredDeal,
     priceHistory: priceHistoryDocs,
     coverage: coverage,
     verification: {

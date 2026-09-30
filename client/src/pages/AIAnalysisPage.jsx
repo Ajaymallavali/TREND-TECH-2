@@ -16,6 +16,7 @@ function formatINR(price) {
 export default function AIAnalysisPage() {
   const [inputData, setInputData] = useState('');
   const [contextData, setContextData] = useState('');
+  const [preferredStore, setPreferredStore] = useState('Any');
   
   const [progressStages, setProgressStages] = useState([]);
 
@@ -40,7 +41,7 @@ export default function AIAnalysisPage() {
     e.preventDefault();
     if (!inputData.trim()) return;
 
-    let payload = { description: contextData };
+    let payload = { description: contextData, preferredStore: preferredStore };
     const isUrl = inputData.startsWith('http://') || inputData.startsWith('https://');
     
     if (isUrl) {
@@ -93,7 +94,7 @@ export default function AIAnalysisPage() {
         {/* STEP 1: Input Form */}
         <section className="card bg-white p-6 shadow-sm border border-ink-100 rounded-2xl">
           <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               <div>
                 <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
                   <Search className="h-3.5 w-3.5 text-accent-600" /> Product Name, Model, or Store URL
@@ -108,18 +109,38 @@ export default function AIAnalysisPage() {
                 />
               </div>
 
-              <div>
-                <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                  <Activity className="h-3.5 w-3.5 text-ink-400" /> Additional Details / Specs Context
-                </label>
-                <input
-                  type="text"
-                  placeholder="e.g. 256GB under ₹80,000"
-                  className="input-field text-xs py-2 border-dashed w-full"
-                  value={contextData}
-                  onChange={(e) => setContextData(e.target.value)}
-                  disabled={isLoading}
-                />
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="md:col-span-2">
+                  <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                    <Activity className="h-3.5 w-3.5 text-ink-400" /> Additional Details / Specs Context
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="e.g. 256GB under ₹80,000"
+                    className="input-field text-xs py-2 border-dashed w-full"
+                    value={contextData}
+                    onChange={(e) => setContextData(e.target.value)}
+                    disabled={isLoading}
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                    <TrendingUp className="h-3.5 w-3.5 text-ink-400" /> Preferred Store
+                  </label>
+                  <select
+                    className="input-field text-xs py-2 w-full"
+                    value={preferredStore}
+                    onChange={(e) => setPreferredStore(e.target.value)}
+                    disabled={isLoading}
+                  >
+                    <option value="Any">Any Verified Store</option>
+                    <option value="Amazon">Amazon</option>
+                    <option value="Flipkart">Flipkart</option>
+                    <option value="Myntra">Myntra</option>
+                    <option value="Croma">Croma</option>
+                  </select>
+                </div>
               </div>
             </div>
 
@@ -349,6 +370,33 @@ export default function AIAnalysisPage() {
                     BUY NOW <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
+              </section>
+            )}
+
+            {/* PREFERRED STORE SECTION */}
+            {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
+              <section className="bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div>
+                  <div className="flex items-center gap-2 text-ink-500 mb-1">
+                    <TrendingUp className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Preferred Store</span>
+                  </div>
+                  <h3 className="text-xl font-black text-ink-900">{data.preferredDeal.marketplace}</h3>
+                  <div className="flex items-end gap-2 mt-2">
+                    <span className="text-2xl font-black text-ink-900">{formatINR(data.preferredDeal.price)}</span>
+                    <span className="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded-full mb-1">
+                      +{formatINR(data.preferredDeal.price - data.bestDeal.price)} compared to Best Deal
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href={data.preferredDeal.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-outline px-6 py-3 text-sm whitespace-nowrap flex items-center gap-2"
+                >
+                  BUY NOW ON {data.preferredDeal.marketplace.toUpperCase()} <ExternalLink className="h-4 w-4" />
+                </a>
               </section>
             )}
 

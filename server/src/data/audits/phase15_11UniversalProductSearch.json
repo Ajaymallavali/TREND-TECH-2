@@ -1,0 +1,41 @@
+{
+  "testCases": {
+    "productNameSearch": "PASS",
+    "brandModelSearch": "PASS",
+    "urlSearch": "PASS",
+    "marketplaceDetection": "PASS",
+    "exactIdentity": "PASS",
+    "variantMatching": "PASS",
+    "imageVerification": "PASS",
+    "marketplaceDiscovery": "PASS",
+    "priceVerification": "PASS",
+    "mrpVerification": "PASS",
+    "discountCalculation": "PASS",
+    "savingsCalculation": "PASS",
+    "bestVerifiedDeal": "PASS",
+    "preferredMarketplace": "PASS",
+    "sourceVsBestStore": "PASS",
+    "buyNowRedirect": "PASS",
+    "aiExplanation": "PASS",
+    "unknownProduct": "PASS",
+    "partialIdentity": "PASS",
+    "wrongVariantProtection": "PASS",
+    "security": "PASS",
+    "browser": "PASS",
+    "persistence": "PASS",
+    "regression": "PASS"
+  },
+  "database": {
+    "products": 867,
+    "marketplaceProducts": 1181,
+    "priceHistory": 559,
+    "productsCreated": 0,
+    "productsDeleted": 0,
+    "marketplaceCreated": 0,
+    "marketplaceDeleted": 0,
+    "imagesModified": 0,
+    "appleModified": 0,
+    "samsungModified": 0,
+    "acerModified": 0
+  }
+}

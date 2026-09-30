@@ -55,10 +55,39 @@ export async function findProductByUrlOrQuery(storeUrl, query) {
   }
   
   if (!product && query) {
-    // Basic text search
     const cleanQuery = query.toLowerCase().trim();
-    // Try exact or prefix
-    product = await Product.findOne({ name: { $regex: new RegExp(cleanQuery, 'i') } });
+    // Keywords for advanced matching
+    const keywords = cleanQuery.split(/\s+/);
+    const regexList = keywords.map(kw => new RegExp(kw, 'i'));
+
+    // Try finding products matching all keywords in the name or tags
+    const products = await Product.find({
+      $and: regexList.map(r => ({
+        $or: [
+          { name: { $regex: r } },
+          { model: { $regex: r } },
+          { tags: { $regex: r } },
+          { brand: { $regex: r } }
+        ]
+      }))
+    }).lean();
+
+    if (products.length > 0) {
+      // Prioritize exact name matches
+      const exactNameMatch = products.find(p => p.name.toLowerCase() === cleanQuery);
+      if (exactNameMatch) {
+        product = exactNameMatch;
+      } else {
+        // Find best match by prioritizing those with IDENTITY_VERIFIED
+        products.sort((a, b) => {
+          if (a.identityStatus === 'IDENTITY_VERIFIED' && b.identityStatus !== 'IDENTITY_VERIFIED') return -1;
+          if (b.identityStatus === 'IDENTITY_VERIFIED' && a.identityStatus !== 'IDENTITY_VERIFIED') return 1;
+          // Sort by name length closest to query length
+          return Math.abs(a.name.length - cleanQuery.length) - Math.abs(b.name.length - cleanQuery.length);
+        });
+        product = products[0];
+      }
+    }
   }
   
   return product;
