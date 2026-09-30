@@ -110,7 +110,7 @@ export default function CategoryPage() {
     e.preventDefault();
     if (searchQuestion.trim()) {
       setIsNavigating(true);
-      navigate(`/search?q=${encodeURIComponent(searchQuestion)}&category=${currentCategory}`);
+      navigate(`/analysis?q=${encodeURIComponent(searchQuestion)}`);
     }
   };
 
@@ -119,27 +119,7 @@ export default function CategoryPage() {
       <TopProgressBar />
 
       {/* Header bar */}
-      <header className="border-b border-ink-100 bg-white sticky top-0 z-30 shadow-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-3.5">
-          <Link to="/" className="flex items-center gap-2 group">
-            <span className="text-xl font-black tracking-tight text-ink-900 group-hover:text-accent-600 transition-colors">
-              TREND-TECH
-            </span>
-            <span className="rounded bg-accent-50 px-2 py-0.5 text-[10px] font-bold text-accent-700 border border-accent-100">
-              INDIA
-            </span>
-          </Link>
-
-          <div className="flex items-center gap-4">
-            <Link to="/analysis" className="text-xs font-semibold text-accent-700 hover:text-accent-950 flex items-center gap-1.5 bg-accent-50/60 px-3 py-1.5 rounded-lg border border-accent-100">
-              <Sparkles className="h-3.5 w-3.5" /> AI Analysis
-            </Link>
-            <Link to="/search" className="text-xs font-semibold text-ink-600 hover:text-ink-900">
-              Search Catalog
-            </Link>
-          </div>
-        </div>
-      </header>
+      
 
       {/* Main Container */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 py-6 space-y-6">
@@ -184,13 +164,13 @@ export default function CategoryPage() {
           </div>
 
           {/* AI QUESTION BAR */}
-          <form onSubmit={handleQuestionSubmit} className="w-full sm:w-80 relative flex items-center">
+          <form onSubmit={handleQuestionSubmit} className="w-full sm:w-80 relative flex items-center group">
             <input
               type="text"
-              placeholder="Ask AI: Which has best camera?"
+              placeholder={`Ask AI to find the best ${categoryTitle.toLowerCase()}...`}
               value={searchQuestion}
               onChange={(e) => setSearchQuestion(e.target.value)}
-              className="w-full rounded-xl border border-ink-200 bg-white py-2 pl-3.5 pr-10 text-xs font-medium text-ink-800 placeholder-ink-400 shadow-sm focus:border-accent-500 focus:outline-none focus:ring-1 focus:ring-accent-500"
+              className="w-full rounded-full border border-ink-200 bg-white py-2.5 pl-4 pr-10 text-xs font-medium text-ink-800 placeholder-ink-400 shadow-sm focus:border-accent-500 focus:outline-none focus:ring-1 focus:ring-accent-500 transition-all group-hover:border-accent-300"
             />
             <button
               type="submit"
@@ -441,25 +421,41 @@ export default function CategoryPage() {
                           </span>
                         </div>
 
-                        {directDealUrl ? (
-                          <a
-                            href={directDealUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-primary py-1.5 px-3 text-xs font-semibold flex items-center gap-1 shadow-sm"
-                          >
-                            <span>View Deal</span>
-                            <ExternalLink className="h-3.5 w-3.5" />
-                          </a>
-                        ) : (
-                          <Link
-                            to={`/product/${product._id}`}
-                            className="btn-primary py-1.5 px-3.5 text-xs font-semibold flex items-center gap-1 shadow-sm"
-                          >
-                            <span>View</span>
-                            <ChevronRight className="h-3.5 w-3.5" />
-                          </Link>
-                        )}
+                        <div className="flex flex-col gap-2">
+                          {directDealUrl ? (
+                            <a
+                              href={directDealUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn-primary py-1.5 px-3 text-xs font-semibold flex items-center justify-center gap-1 shadow-sm"
+                            >
+                              <span>View Deal</span>
+                              <ExternalLink className="h-3.5 w-3.5" />
+                            </a>
+                          ) : (
+                            <Link
+                              to={`/product/${product._id}`}
+                              className="btn-primary py-1.5 px-3 text-xs font-semibold flex items-center justify-center gap-1 shadow-sm"
+                            >
+                              <span>View</span>
+                              <ChevronRight className="h-3.5 w-3.5" />
+                            </Link>
+                          )}
+                          <div className="grid grid-cols-2 gap-2">
+                            <Link
+                              to={`/compare?products=${product._id}`}
+                              className="btn-secondary py-1 text-center text-[10px] font-semibold text-ink-700 border border-ink-200 hover:bg-ink-50 flex items-center justify-center"
+                            >
+                              Compare
+                            </Link>
+                            <Link
+                              to={`/analysis?q=${encodeURIComponent('Analyze ' + product.name)}`}
+                              className="w-full py-1 text-center text-[10px] font-bold text-accent-700 bg-accent-50 border border-accent-100 hover:bg-accent-100 rounded flex items-center justify-center gap-1 transition-colors uppercase tracking-widest"
+                            >
+                              <Sparkles className="w-3 h-3" /> AI
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   );

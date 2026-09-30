@@ -16,6 +16,8 @@ import ComparePage from './pages/ComparePage.jsx';
 import AdminDashboardPage from './pages/AdminDashboardPage.jsx';
 import AIAnalysisPage from './pages/AIAnalysisPage.jsx';
 
+import AppLayout from './components/shopping/AppLayout.jsx';
+
 export default function App() {
   const bootstrap = useAuthStore((s) => s.bootstrap);
 
@@ -25,25 +27,32 @@ export default function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/forgot-password" element={<ForgotPasswordPage />} />
       <Route path="/reset-password" element={<ResetPasswordPage />} />
-      <Route path="/product/:id" element={<ProductDetailPage />} />
-      <Route path="/category/:category" element={<CategoryPage />} />
-      <Route path="/category/:category/brand/:brand" element={<CategoryPage />} />
-      <Route path="/search" element={<SearchPage />} />
-      <Route path="/compare" element={<ComparePage />} />
-      <Route path="/analysis" element={<AIAnalysisPage />} />
 
-      <Route element={<ProtectedRoute />}>
-        <Route path="/dashboard" element={<DashboardPage />} />
-      </Route>
+      <Route element={<AppLayout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/product/:id" element={<ProductDetailPage />} />
+        <Route path="/category/:category" element={<CategoryPage />} />
+        <Route path="/category/:category/brand/:brand" element={<CategoryPage />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/compare" element={<ComparePage />} />
+        <Route path="/analysis" element={<AIAnalysisPage />} />
+        <Route path="/trend" element={<HomePage mode="trend" />} />
+        <Route path="/tech" element={<HomePage mode="tech" />} />
+        <Route path="/deals" element={<HomePage mode="deals" />} />
 
-      <Route element={<ProtectedRoute adminOnly={true} />}>
-        <Route path="/admin" element={<AdminDashboardPage />} />
+        <Route element={<ProtectedRoute />}>
+          <Route path="/dashboard" element={<DashboardPage />} />
+        </Route>
+
+        <Route element={<ProtectedRoute adminOnly={true} />}>
+          <Route path="/admin" element={<AdminDashboardPage />} />
+        </Route>
       </Route>
     </Routes>
   );
 }
+

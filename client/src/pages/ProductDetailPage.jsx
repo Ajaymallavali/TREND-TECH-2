@@ -154,19 +154,7 @@ export default function ProductDetailPage() {
   return (
     <div className="min-h-screen bg-ink-50 pb-20">
       {/* Header Bar */}
-      <header className="border-b border-ink-100 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="flex items-center gap-4">
-            <Link to="/" className="rounded-lg p-2 text-ink-500 hover:bg-ink-50 hover:text-ink-900 transition-colors">
-              <ArrowLeft className="h-5 w-5" />
-            </Link>
-            <span className="text-sm font-semibold tracking-tight text-ink-900">Compare Product</span>
-          </div>
-          <Link to="/" className="text-xs font-semibold text-accent-700 hover:underline">
-            Back to search
-          </Link>
-        </div>
-      </header>
+      
 
       <main className="mx-auto mt-8 max-w-6xl px-6 space-y-8">
         {/* Product Identity */}
@@ -194,6 +182,13 @@ export default function ProductDetailPage() {
               <Bell className="h-4 w-4" />
               Track Price
             </button>
+            <Link
+              to={`/analysis?q=${encodeURIComponent('Analyze ' + name)}`}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-purple-200 bg-purple-50 px-4 py-2 text-xs font-semibold text-purple-700 shadow-sm hover:bg-purple-100 transition-colors"
+            >
+              <Sparkles className="h-4 w-4" />
+              Analyze with AI
+            </Link>
             {marketplaces.length > 0 && (() => {
               const indicator = getStatusIndicator(marketplaces[0].lastUpdated, hasRealTime, marketplaces[0].priceStatus);
               return (

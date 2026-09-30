@@ -10,6 +10,7 @@ import { useAuthStore } from '../store/authStore.js';
 import { apiClient } from '../services/apiClient.js';
 import ProductImage from '../components/ProductImage.jsx';
 import TopProgressBar from '../components/TopProgressBar.jsx';
+import AIShoppingSearch from '../components/shopping/AIShoppingSearch.jsx';
 import { useSavedProducts } from '../hooks/useSavedProducts.js';
 
 const formatINR = (val) => {
@@ -65,11 +66,18 @@ const CATEGORY_GROUPS = [
 
 const POPULAR_SEARCHES = ['iPhone 16 Pro', 'MacBook Air M3', 'Sony WH-1000XM5', 'LG OLED TV', 'Nike Air Force 1', 'PS5 Slim'];
 
-export default function HomePage() {
+export default function HomePage({ mode }) {
   const [searchInput, setSearchInput] = useState('');
   const navigate = useNavigate();
   const { user, status, logout } = useAuthStore();
   const { isSaved, toggleSave } = useSavedProducts();
+
+  const filteredGroups = CATEGORY_GROUPS.filter(group => {
+    if (mode === 'trend') return group.title === 'Fashion & Style' || group.title === 'Beauty & Personal Care';
+    if (mode === 'tech') return group.title === 'Electronics & Gadgets' || group.title === 'Home & Appliances';
+    if (mode === 'deals') return false; // Show nothing or everything, but deals will just focus on Deals section.
+    return true;
+  });
 
   // Fetch real deals from server
   const { data: deals = [], isLoading: dealsLoading } = useQuery({
@@ -104,47 +112,7 @@ export default function HomePage() {
       <TopProgressBar />
 
       {/* Navigation Header */}
-      <header className="border-b border-ink-100 bg-white sticky top-0 z-30 shadow-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-3.5">
-          <Link to="/" className="flex items-center gap-2 group">
-            <span className="text-xl font-black tracking-tight text-ink-900 group-hover:text-accent-600 transition-colors">
-              TREND-TECH
-            </span>
-            <span className="rounded bg-accent-50 px-2 py-0.5 text-[10px] font-bold text-accent-700 border border-accent-100">
-              INDIA
-            </span>
-          </Link>
-          
-          <div className="flex items-center gap-4">
-            <Link to="/analysis" className="text-xs font-semibold text-accent-700 hover:text-accent-950 flex items-center gap-1.5 bg-accent-50/60 px-3 py-1.5 rounded-lg border border-accent-100">
-              <Sparkles className="h-3.5 w-3.5" /> AI Analysis
-            </Link>
-            <Link to="/compare" className="text-xs font-semibold text-ink-600 hover:text-ink-900">
-              Compare
-            </Link>
-
-            {status === 'authenticated' ? (
-              <>
-                <Link to="/dashboard" className="text-xs font-semibold text-ink-600 hover:text-ink-900">
-                  Dashboard
-                </Link>
-                <button onClick={logout} className="btn-secondary py-1.5 px-3.5 text-xs">
-                  Log out
-                </button>
-              </>
-            ) : (
-              <>
-                <Link to="/login" className="text-xs font-semibold text-ink-600 hover:text-ink-900">
-                  Log in
-                </Link>
-                <Link to="/register" className="btn-primary py-1.5 px-3.5 text-xs">
-                  Sign up
-                </Link>
-              </>
-            )}
-          </div>
-        </div>
-      </header>
+      
 
       {/* Hero / Search Section */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-12 text-center">
@@ -152,52 +120,56 @@ export default function HomePage() {
           <Sparkles className="h-3.5 w-3.5 text-accent-600" />
           <span>India's Smartest Shopping Intelligence Platform (₹ INR)</span>
         </div>
-        <h1 className="mt-4 text-3xl font-black tracking-tight text-ink-900 sm:text-5xl leading-tight">
-          Compare Verified Prices in India.<br className="hidden sm:inline" /> Buy Smarter.
-        </h1>
-        <p className="mx-auto mt-3 max-w-xl text-xs sm:text-sm text-ink-500 font-medium leading-relaxed">
-          Track real-time prices across Amazon India, Flipkart, Croma, Reliance Digital, Vijay Sales, Tata Neu, and Myntra.
-        </p>
         
-        {/* Search Input */}
-        <form onSubmit={handleSearch} className="mx-auto mt-6 max-w-lg flex gap-2">
-          <div className="relative flex-grow">
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
-              <SearchIcon className="h-4 w-4 text-ink-400" />
-            </div>
-            <input
-              className="w-full rounded-xl border border-ink-200 bg-white py-2.5 pl-10 pr-4 text-xs font-medium text-ink-900 placeholder-ink-400 shadow-sm focus:border-accent-500 focus:outline-none focus:ring-1 focus:ring-accent-500"
-              placeholder="Search phones, laptops, TVs, headphones..."
-              value={searchInput}
-              onChange={(e) => setSearchInput(e.target.value)}
-            />
-          </div>
-          <button type="submit" className="btn-primary px-5 text-xs font-semibold shadow-sm">
-            Search
-          </button>
-        </form>
-
-        {/* Popular Searches */}
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-xs text-ink-400">
-          <span className="font-semibold text-ink-500">Popular:</span>
-          {POPULAR_SEARCHES.map((term) => (
-            <Link
-              key={term}
-              to={`/search?q=${encodeURIComponent(term)}`}
-              className="rounded-full bg-white border border-ink-100 px-3 py-1 text-[11px] font-medium text-ink-600 hover:border-accent-300 hover:text-accent-600 transition-colors shadow-2xs"
-            >
-              {term}
-            </Link>
-          ))}
-        </div>
+        {mode === 'trend' ? (
+          <>
+            <h1 className="mt-4 text-3xl font-black tracking-tight text-ink-900 sm:text-5xl leading-tight">
+              Trend Fashion Hub.<br className="hidden sm:inline" /> Discover Style.
+            </h1>
+            <p className="mx-auto mt-3 max-w-xl text-xs sm:text-sm text-ink-500 font-medium leading-relaxed">
+              Explore the latest in fashion and personal care.
+            </p>
+          </>
+        ) : mode === 'tech' ? (
+          <>
+            <h1 className="mt-4 text-3xl font-black tracking-tight text-ink-900 sm:text-5xl leading-tight">
+              Tech Electronics Hub.<br className="hidden sm:inline" /> Compare verified prices.
+            </h1>
+            <p className="mx-auto mt-3 max-w-xl text-xs sm:text-sm text-ink-500 font-medium leading-relaxed">
+              Track real-time prices across Amazon India, Flipkart, Croma, Reliance Digital, Vijay Sales, Tata Neu, and Myntra.
+            </p>
+          </>
+        ) : mode === 'deals' ? (
+          <>
+            <h1 className="mt-4 text-3xl font-black tracking-tight text-ink-900 sm:text-5xl leading-tight">
+              Live Verified Deals.<br className="hidden sm:inline" /> Don't Miss Out.
+            </h1>
+            <p className="mx-auto mt-3 max-w-xl text-xs sm:text-sm text-ink-500 font-medium leading-relaxed">
+              Explore genuine verified price drops happening right now.
+            </p>
+          </>
+        ) : (
+          <>
+            <h1 className="mt-4 text-3xl font-black tracking-tight text-ink-900 sm:text-5xl leading-tight">
+              Compare Verified Prices in India.<br className="hidden sm:inline" /> Buy Smarter.
+            </h1>
+            <p className="mx-auto mt-3 max-w-xl text-xs sm:text-sm text-ink-500 font-medium leading-relaxed">
+              Track real-time prices across Amazon India, Flipkart, Croma, Reliance Digital, Vijay Sales, Tata Neu, and Myntra.
+            </p>
+          </>
+        )}
+        
+        {/* AI Shopping Search */}
+        <AIShoppingSearch />
       </section>
 
       {/* MAIN CONTENT AREA */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 space-y-12">
         
         {/* REDESIGNED CATEGORY SECTIONS (Reference 1 Layout) */}
-        <section className="space-y-8">
-          {CATEGORY_GROUPS.map((group) => (
+        {mode !== 'deals' && (
+          <section className="space-y-8">
+            {filteredGroups.map((group) => (
             <div key={group.title} className="space-y-3">
               <h2 className="text-base sm:text-lg font-bold text-ink-900 tracking-tight flex items-center gap-2">
                 <span>{group.title}</span>
@@ -226,8 +198,9 @@ export default function HomePage() {
             </div>
           ))}
         </section>
+        )}
 
-        {/* Specs Comparison CTA */}
+        {mode !== 'deals' && (
         <section className="rounded-2xl border border-accent-100 bg-gradient-to-r from-accent-50/40 via-white to-accent-50/20 p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-sm">
           <div>
             <h3 className="text-base font-bold text-ink-900">Side-by-Side Product Comparison</h3>
@@ -238,6 +211,7 @@ export default function HomePage() {
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </section>
+        )}
 
         {/* TODAY'S BEST DEALS SECTION */}
         <section>
@@ -292,21 +266,29 @@ export default function HomePage() {
                         </div>
                       )}
                     </div>
-                    <div className="grid grid-cols-2 gap-2 mt-3">
-                      <a
-                        href={deal.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-primary py-2 text-center text-xs font-semibold bg-red-600 hover:bg-red-700 text-white flex items-center justify-center gap-1 shadow-2xs"
-                      >
-                        <span>View Deal</span>
-                        <ExternalLink className="w-3 h-3" />
-                      </a>
+                    <div className="flex flex-col gap-2 mt-3">
+                      <div className="grid grid-cols-2 gap-2">
+                        <a
+                          href={deal.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-primary py-2 text-center text-[11px] font-semibold bg-red-600 hover:bg-red-700 text-white flex items-center justify-center gap-1 shadow-2xs"
+                        >
+                          <span>Buy Now</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                        <Link
+                          to={`/compare?products=${deal.product._id}`}
+                          className="btn-secondary py-2 text-center text-[11px] font-semibold text-ink-700 border border-ink-200 hover:bg-ink-50 flex items-center justify-center"
+                        >
+                          Compare
+                        </Link>
+                      </div>
                       <Link
-                        to={`/product/${deal.product._id}`}
-                        className="btn-secondary py-2 text-center text-xs font-semibold text-ink-700 border border-ink-200 hover:bg-ink-50 flex items-center justify-center"
+                        to={`/analysis?q=${encodeURIComponent('Analyze deal for ' + deal.product.name)}`}
+                        className="w-full py-1.5 text-center text-[10px] font-bold text-accent-700 bg-accent-50 border border-accent-100 hover:bg-accent-100 rounded-lg flex items-center justify-center gap-1 transition-colors uppercase tracking-widest"
                       >
-                        Compare
+                        <Sparkles className="w-3 h-3" /> Analyze with AI
                       </Link>
                     </div>
                   </div>

@@ -20,11 +20,33 @@ function formatINR(price) {
   return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(price);
 }
 
+import { useLocation } from 'react-router-dom';
+
 export default function AIAnalysisPage() {
+  const location = useLocation();
   const [inputData, setInputData] = useState('');
   const [contextData, setContextData] = useState('');
   const [preferredStore, setPreferredStore] = useState('Any');
   const [progressStages, setProgressStages] = useState([]);
+  
+  // Ref to track if initial query was submitted
+  const [initialRun, setInitialRun] = useState(false);
+
+  React.useEffect(() => {
+    if (initialRun) return;
+    const params = new URLSearchParams(location.search);
+    const query = params.get('q');
+    if (query) {
+      setInputData(query);
+      setInitialRun(true);
+      setTimeout(() => {
+        const form = document.querySelector('form');
+        if (form) form.requestSubmit();
+      }, 100);
+    } else {
+      setInitialRun(true);
+    }
+  }, [location.search, initialRun]);
 
   const { data: searchSuggestions } = useQuery({
     queryKey: ['suggestions', inputData],
@@ -91,20 +113,7 @@ export default function AIAnalysisPage() {
 
   return (
     <div className="min-h-screen bg-ink-50">
-      <header className="border-b border-ink-100 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <Link to="/" className="flex items-center gap-2">
-            <TrendingUp className="h-6 w-6 text-accent-600" />
-            <span className="text-lg font-semibold tracking-tight text-ink-900">TREND-TECH</span>
-          </Link>
-          <div className="flex items-center gap-4 text-xs font-semibold text-ink-600">
-            <Link to="/" className="hover:text-ink-900">Home</Link>
-            <Link to="/search" className="hover:text-ink-900">Search Catalog</Link>
-            <Link to="/compare" className="hover:text-ink-900">Compare Tool</Link>
-            <Link to="/analysis" className="text-accent-600 border-b-2 border-accent-600 pb-0.5">AI Analysis</Link>
-          </div>
-        </div>
-      </header>
+      
 
       <main className="mx-auto max-w-5xl px-6 py-10 space-y-10">
         <div className="text-center max-w-2xl mx-auto">

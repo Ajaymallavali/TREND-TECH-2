@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { Search, SlidersHorizontal, ArrowUpDown, Sparkles, Star, ShoppingBag, Eye, Heart } from 'lucide-react';
 import { apiClient } from '../services/apiClient.js';
 import ProductImage from '../components/ProductImage.jsx';
+import AIShoppingSearch from '../components/shopping/AIShoppingSearch.jsx';
 import { useSavedProducts } from '../hooks/useSavedProducts.js';
 
 const formatINR = (val) => {
@@ -100,35 +101,15 @@ export default function SearchPage() {
   return (
     <div className="min-h-screen bg-ink-50">
       {/* Header bar */}
-      <header className="border-b border-ink-100 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-lg font-semibold tracking-tight text-ink-900">TREND-TECH</span>
-          </Link>
-          <form onSubmit={handleSearchSubmit} className="flex-grow max-w-md mx-6 relative">
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-              <Search className="h-4 w-4 text-ink-400" />
-            </div>
-            <input
-              className="input-field pl-9 py-1.5 text-xs"
-              placeholder="Search phones, laptops, TVs..."
-              value={searchInput}
-              onChange={(e) => setSearchInput(e.target.value)}
-            />
-          </form>
-          <div className="flex items-center gap-3">
-            <Link to="/analysis" className="text-xs font-semibold text-accent-700 hover:text-accent-950 flex items-center gap-1">
-              <Sparkles className="h-3.5 w-3.5" /> AI Analysis
-            </Link>
-            <Link to="/dashboard" className="text-xs font-semibold text-ink-600 hover:text-ink-900">
-              Dashboard
-            </Link>
-          </div>
-        </div>
-      </header>
+      
 
       {/* Main Container */}
       <main className="mx-auto max-w-6xl px-6 py-8">
+        
+        <div className="mb-8">
+          <AIShoppingSearch compact={true} />
+        </div>
+
         
         {/* Category Tabs Pill Row */}
         <div className="flex flex-wrap gap-2 mb-6">
@@ -323,12 +304,28 @@ export default function SearchPage() {
                           </span>
                         </div>
 
-                        <Link
-                          to={`/product/${p._id}`}
-                          className="btn-primary py-2 text-center w-full block text-xs font-semibold flex items-center justify-center gap-1"
-                        >
-                          <Eye className="h-3.5 w-3.5" /> Compare Offers
-                        </Link>
+                        <div className="flex flex-col gap-2">
+                          <Link
+                            to={`/product/${p._id}`}
+                            className="btn-primary py-2 text-center w-full block text-xs font-semibold flex items-center justify-center gap-1"
+                          >
+                            <Eye className="h-3.5 w-3.5" /> View Details
+                          </Link>
+                          <div className="grid grid-cols-2 gap-2">
+                            <Link
+                              to={`/compare?products=${p._id}`}
+                              className="btn-secondary py-1.5 text-center text-[10px] font-semibold text-ink-700 border border-ink-200 hover:bg-ink-50 flex items-center justify-center"
+                            >
+                              Compare
+                            </Link>
+                            <Link
+                              to={`/analysis?q=${encodeURIComponent('Analyze ' + p.name)}`}
+                              className="w-full py-1.5 text-center text-[10px] font-bold text-accent-700 bg-accent-50 border border-accent-100 hover:bg-accent-100 rounded flex items-center justify-center gap-1 transition-colors uppercase tracking-widest"
+                            >
+                              <Sparkles className="w-3 h-3" /> AI
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   );

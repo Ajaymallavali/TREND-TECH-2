@@ -161,19 +161,7 @@ export default function ComparePage() {
     <div className="min-h-screen bg-ink-50 pb-20">
       
       {/* Header bar */}
-      <header className="border-b border-ink-100 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="flex items-center gap-4">
-            <Link to="/" className="rounded-lg p-2 text-ink-500 hover:bg-ink-50 hover:text-ink-900 transition-colors">
-              <ArrowLeft className="h-5 w-5" />
-            </Link>
-            <span className="text-sm font-semibold tracking-tight text-ink-900">Product Comparison</span>
-          </div>
-          <Link to="/" className="text-xs font-semibold text-accent-700 hover:underline">
-            Back to search
-          </Link>
-        </div>
-      </header>
+      
 
       {/* Main Layout */}
       <main className="mx-auto mt-8 max-w-6xl px-6 space-y-8">
