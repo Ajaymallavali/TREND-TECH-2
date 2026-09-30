@@ -136,9 +136,11 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     
     let sourceMarketplace = null;
     let sourcePrice = null;
+    let sourceOffer = null;
     if (externalData.sourceMarketplace) {
       sourceMarketplace = externalData.sourceMarketplace.marketplace;
       sourcePrice = externalData.sourceMarketplace.price;
+      sourceOffer = formattedMarketplaces.find(m => m.marketplace === sourceMarketplace) || null;
     }
 
     const dealMetrics = calculateDealMetrics(formattedMarketplaces.filter(m => m.isVerified && m.price && m.availability === 'Available'), bestExternalDeal);
@@ -191,6 +193,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
         watchOutFor: (externalData.aiAnalysis && externalData.aiAnalysis.watchOuts) ? externalData.aiAnalysis.watchOuts.map(w => `⚠️ ${w}`) : []
       },
       marketplaces: formattedMarketplaces,
+      sourceOffer: sourceOffer,
       bestDeal: bestExternalDeal,
       preferredDeal: preferredDeal,
       priceHistory: [],
@@ -368,6 +371,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
 
   let sourceMarketplace = null;
   let sourcePrice = null;
+  let sourceOffer = null;
   
   if (url) {
     try {
@@ -390,9 +394,12 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
         } catch(e) { return false; }
       });
       
-      if (exactMpMatch && exactMpMatch.isVerified && exactMpMatch.price) {
-        sourcePrice = exactMpMatch.price;
-        sourceMarketplace = exactMpMatch.marketplace;
+      if (exactMpMatch) {
+        sourceOffer = exactMpMatch;
+        if (exactMpMatch.isVerified && exactMpMatch.price) {
+          sourcePrice = exactMpMatch.price;
+          sourceMarketplace = exactMpMatch.marketplace;
+        }
       }
     } catch (e) {
       // ignore parsing errors here
@@ -483,6 +490,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       watchOutFor
     },
     marketplaces: marketplaces,
+    sourceOffer: sourceOffer,
     bestDeal: bestDeal,
     preferredDeal: preferredDeal,
     priceHistory: priceHistoryDocs,
