@@ -206,7 +206,7 @@ export default function AIAnalysisPage() {
         )}
 
         {/* LOGICAL ERROR STATE */}
-        {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && (
+        {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && data.status !== 'SUCCESS_EXTERNAL' && (
           <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-3">
             <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
             <h2 className="text-lg font-black text-red-900">{data.status === 'INVALID_URL' ? 'Invalid Product URL' : 'Product Not Found'}</h2>
@@ -217,7 +217,7 @@ export default function AIAnalysisPage() {
         )}
 
         {/* SUCCESS RESULT STATE */}
-        {!isLoading && !mutation.isError && data && data.status === 'SUCCESS' && data.product && (
+        {!isLoading && !mutation.isError && data && (data.status === 'SUCCESS' || data.status === 'SUCCESS_EXTERNAL') && data.product && (
           <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
             
             {/* 1. PRODUCT IDENTIFIED */}
@@ -234,7 +234,11 @@ export default function AIAnalysisPage() {
                   )}
                   {data.identity.status === 'IDENTITY_VERIFIED' ? (
                     <span className="absolute top-3 right-3 bg-green-100 text-green-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
-                      <ShieldCheck className="h-3 w-3" /> Exact Identity Verified
+                      <ShieldCheck className="h-3 w-3" /> Catalog Verified
+                    </span>
+                  ) : data.identity.status === 'EXTERNAL_LIVE_VERIFIED' ? (
+                    <span className="absolute top-3 right-3 bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
+                      <ShieldCheck className="h-3 w-3" /> External Live Result
                     </span>
                   ) : (
                     <span className="absolute top-3 right-3 bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
@@ -332,6 +336,27 @@ export default function AIAnalysisPage() {
                     ))}
                   </div>
                 </div>
+
+                {/* SOURCES */}
+                {data.sources && data.sources.length > 0 && (
+                  <div className="card bg-white p-6 border border-ink-100 rounded-2xl">
+                    <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest mb-4">Sources (Gemini Web Search)</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {data.sources.map((src, idx) => (
+                        <a 
+                          key={idx} 
+                          href={src} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-[10px] bg-ink-50 border border-ink-200 text-ink-600 px-3 py-1.5 rounded-full hover:bg-ink-100 transition-colors max-w-full truncate"
+                          title={src}
+                        >
+                          {new URL(src).hostname}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </section>
             )}
 
