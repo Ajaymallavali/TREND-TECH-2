@@ -115,12 +115,52 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
     marketplaceProduct: { $in: mps.map(m => m._id) }
   }).sort({ timestamp: 1 }).lean();
 
+  let sourceMarketplace = null;
+  let sourcePrice = null;
+  
+  if (url) {
+    try {
+      const parsedInputUrl = new URL(url);
+      const host = parsedInputUrl.hostname.toLowerCase();
+      let detectedName = 'Unknown Store';
+      if (host.includes('amazon')) detectedName = 'Amazon';
+      if (host.includes('flipkart')) detectedName = 'Flipkart';
+      if (host.includes('myntra')) detectedName = 'Myntra';
+      if (host.includes('ajio')) detectedName = 'Ajio';
+      if (host.includes('nykaa')) detectedName = 'Nykaa';
+      if (host.includes('croma')) detectedName = 'Croma';
+      
+      sourceMarketplace = detectedName;
+
+      const exactMpMatch = marketplaces.find(m => {
+        try {
+          const mUrl = new URL(m.url);
+          return mUrl.pathname === parsedInputUrl.pathname;
+        } catch(e) { return false; }
+      });
+      
+      if (exactMpMatch && exactMpMatch.isVerified && exactMpMatch.price) {
+        sourcePrice = exactMpMatch.price;
+        sourceMarketplace = exactMpMatch.marketplace;
+      }
+    } catch (e) {
+      // ignore parsing errors here
+    }
+  }
+
   const aiScores = computeAIScores(product, marketplaces, lowestVerifiedPrice === Infinity ? null : lowestVerifiedPrice);
   
   // Basic AI Verdict logic
   let verdict = `This ${product.category || 'device'} provides a strong overall package based on verified specifications.`;
   if (lowestVerifiedPrice !== Infinity) {
-    verdict = `Among the verified offers analyzed, the ${product.name} offers excellent value at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}, balancing its core specs with solid marketplace availability.`;
+    if (sourceMarketplace && sourcePrice && bestDeal && sourceMarketplace !== bestDeal.marketplace && sourcePrice > lowestVerifiedPrice) {
+      const diff = sourcePrice - lowestVerifiedPrice;
+      verdict = `${bestDeal.marketplace} currently has the lowest verified price among the available verified offers, at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}. ${sourceMarketplace} is ₹${sourcePrice.toLocaleString('en-IN')}, so the ${bestDeal.marketplace} offer is ₹${diff.toLocaleString('en-IN')} cheaper.`;
+    } else if (sourceMarketplace && sourcePrice && bestDeal && sourceMarketplace === bestDeal.marketplace && sourcePrice === lowestVerifiedPrice) {
+      verdict = `The provided ${sourceMarketplace} offer is currently the best verified deal at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}.`;
+    } else {
+      verdict = `Among the verified offers analyzed, the ${product.name} offers excellent value at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}, balancing its core specs with solid marketplace availability.`;
+    }
   }
   
   const pros = [];
@@ -150,6 +190,11 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
 
   return {
     status: 'SUCCESS',
+    sourceInfo: {
+      url: url || null,
+      marketplace: sourceMarketplace,
+      price: sourcePrice,
+    },
     product: {
       _id: product._id,
       brand: product.brand,

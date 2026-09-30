@@ -204,7 +204,14 @@ export default function AIAnalysisPage() {
 
               <div className="w-full space-y-4">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-widest text-ink-400">{data.product.brand}</span>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs font-bold uppercase tracking-widest text-ink-400">{data.product.brand}</span>
+                    {data.sourceInfo && data.sourceInfo.marketplace && (
+                      <span className="text-[10px] font-bold uppercase tracking-widest bg-ink-100 text-ink-700 px-2 py-0.5 rounded-full border border-ink-200">
+                        SOURCE: {data.sourceInfo.marketplace}
+                      </span>
+                    )}
+                  </div>
                   <h2 className="text-2xl font-black text-ink-900">{data.product.name}</h2>
                   <p className="text-sm text-ink-500 font-medium mt-1">
                     {data.product.category} • Variant: {data.product.variant}
@@ -310,6 +317,13 @@ export default function AIAnalysisPage() {
                       Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
                     </p>
                   )}
+                  
+                  {data.sourceInfo && data.sourceInfo.marketplace && data.sourceInfo.price && data.sourceInfo.marketplace !== data.bestDeal.marketplace && data.sourceInfo.price > data.bestDeal.price && (
+                    <p className="text-xs font-bold text-amber-300 mt-2 block">
+                      Save {formatINR(data.sourceInfo.price - data.bestDeal.price)} compared with your {data.sourceInfo.marketplace} link
+                    </p>
+                  )}
+                  
                   {data.marketplaces.filter(mp => mp.isVerified && mp.price).length > 1 && (() => {
                     const verifiedPrices = data.marketplaces.filter(mp => mp.isVerified && mp.price).map(mp => mp.price);
                     const highestVerified = Math.max(...verifiedPrices);
