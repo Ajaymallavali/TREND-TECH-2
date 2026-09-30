@@ -167,7 +167,7 @@ export default function CategoryPage() {
                 {currentBrand ? `${currentBrand} ${categoryTitle}` : `Top ${categoryTitle} Overall`}
               </h1>
               <span className="rounded-full bg-accent-600 px-3 py-0.5 text-xs font-extrabold text-white">
-                {filteredProducts.filter(p => p.identityStatus === 'IDENTITY_VERIFIED').length} VERIFIED
+                Products found: {filteredProducts.length} | Verified: {filteredProducts.filter(p => p.identityStatus === 'IDENTITY_VERIFIED').length} | Pending verification: {filteredProducts.filter(p => p.identityStatus !== 'IDENTITY_VERIFIED').length}
               </span>
               {currentBrand && (
                 <Link
@@ -381,7 +381,7 @@ export default function CategoryPage() {
             ) : filteredProducts.length === 0 ? (
               <div className="rounded-2xl border border-dashed border-ink-200 bg-white p-12 text-center">
                 <ShoppingBag className="mx-auto h-10 w-10 text-ink-300 mb-2" />
-                <h3 className="text-base font-bold text-ink-900">No verified products available yet</h3>
+                <h3 className="text-base font-bold text-ink-900">No products available yet</h3>
                 <p className="mt-1 text-xs text-ink-400">Our market intelligence engine monitors verified store prices continuously.</p>
               </div>
             ) : (

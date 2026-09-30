@@ -384,14 +384,6 @@ export function isUserFacingProductEligible(product) {
     'smartphone cmf phone',
     'smartphone neo',
     'smartphone z series',
-    'air conditioners daikin',
-    'air conditioners lg',
-    'air conditioners samsung',
-    'air conditioners voltas',
-    'air conditioners blue star',
-    'air conditioners panasonic',
-    'air conditioners carrier',
-    'air conditioners hitachi',
     'cameras canon',
     'cameras nikon',
     'cameras sony',
@@ -405,7 +397,7 @@ export function isUserFacingProductEligible(product) {
   }
 
   // Generic prefix template checks
-  if (nameLower.startsWith('smartphone phone') || nameLower.startsWith('air conditioners ') || nameLower.startsWith('cameras ')) {
+  if (nameLower.startsWith('smartphone phone') || nameLower.startsWith('cameras ')) {
     return false;
   }
 

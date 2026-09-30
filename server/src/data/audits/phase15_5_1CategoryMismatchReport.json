@@ -1,0 +1,152 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadd88",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Daikin",
+    "currentBrand": "Daikin",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8a",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners LG",
+    "currentBrand": "LG",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8c",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Samsung",
+    "currentBrand": "Samsung",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8e",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Voltas",
+    "currentBrand": "Voltas",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd90",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Blue Star",
+    "currentBrand": "Blue Star",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd92",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Panasonic",
+    "currentBrand": "Panasonic",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd94",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Carrier",
+    "currentBrand": "Carrier",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd96",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Hitachi",
+    "currentBrand": "Hitachi",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd98",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Lloyd",
+    "currentBrand": "Lloyd",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9a",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Whirlpool",
+    "currentBrand": "Whirlpool",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9c",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Godrej",
+    "currentBrand": "Godrej",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9e",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Haier",
+    "currentBrand": "Haier",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda0",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners O General",
+    "currentBrand": "O General",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda2",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Mitsubishi Electric",
+    "currentBrand": "Mitsubishi Electric",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda4",
+    "currentCategory": "Appliances",
+    "currentProductType": "Air Conditioner",
+    "currentName": "Air Conditioners Toshiba",
+    "currentBrand": "Toshiba",
+    "candidateCanonicalCategory": "air-conditioner",
+    "evidence": "Contains AC keywords",
+    "confidence": "HIGH"
+  }
+]

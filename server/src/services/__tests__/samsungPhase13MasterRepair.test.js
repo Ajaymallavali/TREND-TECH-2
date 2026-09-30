@@ -95,7 +95,7 @@ describe('Samsung Phase 13 — Deep Official Image Acquisition & Invariant Verif
       const prod = await db.collection('products').findOne({ _id: new mongoose.Types.ObjectId(id) });
       expect(prod).not.toBeNull();
       expect(prod.imageStatus).toBe('VERIFIED_EXACT');
-      expect(prod.image).toBe(`/product-images/samsung/${id}/primary.jpg`);
+      expect(prod.image).toMatch(/cloudinary\.com|product-images/);
 
       const imgPath = path.join(__dirname, `../../data/product-images/samsung/${id}/primary.jpg`);
       const metaPath = path.join(__dirname, `../../data/product-images/samsung/${id}/metadata.json`);

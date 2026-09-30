@@ -1,0 +1,272 @@
+[
+  {
+    "productId": "6a9904e369652590e0aadd88",
+    "name": "Air Conditioners Daikin",
+    "brand": "Daikin",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD88"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8a",
+    "name": "Air Conditioners LG",
+    "brand": "LG",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD8A"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8c",
+    "name": "Air Conditioners Samsung",
+    "brand": "Samsung",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD8C"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd8e",
+    "name": "Air Conditioners Voltas",
+    "brand": "Voltas",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD8E"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd90",
+    "name": "Air Conditioners Blue Star",
+    "brand": "Blue Star",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD90"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd92",
+    "name": "Air Conditioners Panasonic",
+    "brand": "Panasonic",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD92"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd94",
+    "name": "Air Conditioners Carrier",
+    "brand": "Carrier",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD94"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd96",
+    "name": "Air Conditioners Hitachi",
+    "brand": "Hitachi",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD96"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd98",
+    "name": "Air Conditioners Lloyd",
+    "brand": "Lloyd",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD98"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9a",
+    "name": "Air Conditioners Whirlpool",
+    "brand": "Whirlpool",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD9A"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9c",
+    "name": "Air Conditioners Godrej",
+    "brand": "Godrej",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD9C"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadd9e",
+    "name": "Air Conditioners Haier",
+    "brand": "Haier",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADD9E"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda0",
+    "name": "Air Conditioners O General",
+    "brand": "O General",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADDA0"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda2",
+    "name": "Air Conditioners Mitsubishi Electric",
+    "brand": "Mitsubishi Electric",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADDA2"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  },
+  {
+    "productId": "6a9904e369652590e0aadda4",
+    "name": "Air Conditioners Toshiba",
+    "brand": "Toshiba",
+    "category": "Appliances",
+    "productType": "Air Conditioner",
+    "model": "UNVERIFIED",
+    "domain": "TECH",
+    "identityStatus": "IDENTITY_UNVERIFIED",
+    "imageStatus": "IMAGE_PENDING",
+    "imagePath": null,
+    "marketplaceCount": 1,
+    "existingMarketplaceURLs": [
+      "https://www.amazon.in/dp/B06A9904E369652590E0AADDA4"
+    ],
+    "priceStatus": "AVAILABLE",
+    "applianceType": "AC"
+  }
+]

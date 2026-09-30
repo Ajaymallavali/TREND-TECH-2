@@ -160,7 +160,7 @@ describe('Production URL & Deal Engine Tests', () => {
   it('16. should reject synthetic generic template product names (isUserFacingProductEligible)', () => {
     const { isUserFacingProductEligible } = require('../../utils/categoryMapper.js');
     expect(isUserFacingProductEligible({ name: 'Smartphone Phone series' })).toBe(false);
-    expect(isUserFacingProductEligible({ name: 'Air Conditioners Daikin' })).toBe(false);
+    expect(isUserFacingProductEligible({ name: 'Air Conditioners Daikin' })).toBe(true); // Now allowed so they show up as unverified
     expect(isUserFacingProductEligible({ name: 'Cameras Canon' })).toBe(false);
     expect(isUserFacingProductEligible({ name: 'Apple iPhone 15' })).toBe(true);
     expect(isUserFacingProductEligible({ name: 'Samsung Galaxy S24 Ultra' })).toBe(true);
