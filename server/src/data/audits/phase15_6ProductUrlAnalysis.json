@@ -1,0 +1,20 @@
+{
+  "URLs_analyzed": 4,
+  "Products_identified": 2,
+  "Exact_identities": 0,
+  "Ambiguous_identities": 2,
+  "Marketplace_sources_checked": 6,
+  "Exact_marketplace_matches": 0,
+  "Wrong_product_matches_rejected": 0,
+  "Verified_prices": 0,
+  "Unavailable_prices": 2,
+  "Verified_discounts": 0,
+  "Best_verified_deals": 0,
+  "Redirects_validated": 0,
+  "Redirects_rejected": 3,
+  "Images_verified": 2,
+  "Images_rejected": 0,
+  "Synthetic_URLs_rejected": 2,
+  "Errors": 2,
+  "API_failures": 0
+}

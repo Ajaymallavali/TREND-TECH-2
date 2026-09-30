@@ -7,7 +7,8 @@ import { isValidMarketplaceUrl } from '../utils/urlValidator.js';
 import * as priceVerification from '../services/priceVerification.service.js';
 import { normalizeCategory, determineProductCategory, isUserFacingProductEligible } from '../utils/categoryMapper.js';
 import { getExactProductImage, getExactProductImageDetails } from '../services/imagePipeline.service.js';
-import { analyzeProductWorkflow, computeAIScores, generateKeyStrengths, generateKeyLimitations, findBetterAlternatives, getTopCategoryOverall } from '../services/aiWorkflow.service.js';
+import { computeAIScores, generateKeyStrengths, generateKeyLimitations, findBetterAlternatives, getTopCategoryOverall } from '../services/aiWorkflow.service.js';
+import { analyzeProductWorkflow } from '../services/productUrlAnalysis/index.js';
 import { evaluateProductDealSignal, DEAL_STATUSES } from '../services/deal.service.js';
 import { enforceCategoryListingImageDeduplication } from '../services/imageDeduplicationGuard.service.js';
 

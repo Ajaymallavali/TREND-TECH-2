@@ -1,27 +1,23 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@tanstack/react-query';
-import { Sparkles, Search, Link as LinkIcon, Video, CheckCircle2, AlertTriangle, ArrowUpRight, TrendingUp, ChevronDown, ChevronUp, Star, ShieldCheck, Zap, Layers, Award } from 'lucide-react';
-import { apiClient } from '../services/apiClient.js';
-import ProductImage from '../components/ProductImage.jsx';
+import {
+  Search, Link as LinkIcon, AlertTriangle, CheckCircle2,
+  TrendingUp, Play, Zap, ArrowRight, ExternalLink,
+  ShieldAlert, ShieldCheck, HelpCircle, Activity
+} from 'lucide-react';
+import apiClient from '../lib/apiClient';
 
-const formatINR = (val) => {
-  if (val === null || val === undefined) return 'Price unavailable';
-  return new Intl.NumberFormat('en-IN', {
-    style: 'currency',
-    currency: 'INR',
-    maximumFractionDigits: 0,
-  }).format(val);
-};
+function formatINR(price) {
+  if (price == null) return 'Unavailable';
+  return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(price);
+}
 
 export default function AIAnalysisPage() {
   const [query, setQuery] = useState('');
   const [url, setUrl] = useState('');
   const [reelUrl, setReelUrl] = useState('');
   const [description, setDescription] = useState('');
-
-  const [expandedStrength, setExpandedStrength] = useState(null);
-  const [expandedLimitation, setExpandedLimitation] = useState(null);
 
   const mutation = useMutation({
     mutationFn: async (payload) => {
@@ -63,14 +59,14 @@ export default function AIAnalysisPage() {
         {/* Banner Title */}
         <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-accent-50 px-3 py-1 text-xs font-bold text-accent-700 mb-3">
-            <Sparkles className="h-3.5 w-3.5" />
-            <span>AI Product Research & Deal Recommendation Engine</span>
+            <Zap className="h-3.5 w-3.5" />
+            <span>REAL Product Research & Deal Comparison Engine</span>
           </div>
           <h1 className="text-3xl font-black text-ink-900 tracking-tight sm:text-4xl">
-            Smart Product & Reel AI Analysis
+            Product URL Analysis
           </h1>
           <p className="mt-2 text-xs text-ink-500 font-medium">
-            Paste a product name, store link, or social review reel to extract exact products, compare prices across Indian stores, and get AI recommendation scores.
+            Paste a product store link or search query to extract exact product identity, cross-compare real verified offers across Indian marketplaces, and discover the absolute lowest verified price.
           </p>
         </div>
 
@@ -84,7 +80,7 @@ export default function AIAnalysisPage() {
                 </label>
                 <input
                   type="text"
-                  placeholder="e.g. iPhone 15 Pro Max, Galaxy S24, MacBook Air..."
+                  placeholder="e.g. iPhone 15 Pro Max, Galaxy S24..."
                   className="input-field text-xs py-2"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
@@ -105,376 +101,232 @@ export default function AIAnalysisPage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <div>
                 <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                  <Video className="h-3.5 w-3.5 text-red-500" /> Social / Review Reel URL (Optional)
+                  <Play className="h-3.5 w-3.5 text-ink-400" /> Social / Review Reel URL (Optional)
                 </label>
                 <input
                   type="url"
-                  placeholder="https://www.instagram.com/reel/... or YouTube link"
-                  className="input-field text-xs py-2"
+                  placeholder="Insta Reel, YouTube Short..."
+                  className="input-field text-xs py-2 border-dashed"
                   value={reelUrl}
                   onChange={(e) => setReelUrl(e.target.value)}
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5">
-                  Additional Details / Specs Context
+                <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                  <Activity className="h-3.5 w-3.5 text-ink-400" /> Additional Details / Specs Context
                 </label>
                 <input
                   type="text"
-                  placeholder="e.g. 256GB storage variant, under ₹1,20,000 budget"
-                  className="input-field text-xs py-2"
+                  placeholder="e.g. 256GB under ₹80,000"
+                  className="input-field text-xs py-2 border-dashed"
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                 />
               </div>
             </div>
 
-            <div className="pt-2 flex justify-end">
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="btn-primary py-2.5 px-6 text-xs font-bold flex items-center gap-2"
-              >
-                {isLoading ? (
-                  <>
-                    <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                    <span>Analyzing Source Content...</span>
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="h-4 w-4" />
-                    <span>Run AI Analysis Workflow</span>
-                  </>
-                )}
-              </button>
-            </div>
+            <button
+              type="submit"
+              disabled={isLoading || (!query && !url && !reelUrl && !description)}
+              className="btn-primary w-full py-3 text-sm mt-4 flex items-center justify-center gap-2"
+            >
+              {isLoading ? (
+                <>
+                  <div className="h-4 w-4 rounded-full border-2 border-white/30 border-t-white animate-spin" />
+                  Analyzing product... Resolving identity... Checking offers...
+                </>
+              ) : (
+                <>Run Product Analysis & Deal Comparison</>
+              )}
+            </button>
           </form>
         </section>
 
-        {/* STEP 2: Research Progress Display */}
-        {isLoading && (
-          <section className="card bg-white p-6 border border-accent-200 rounded-2xl shadow-sm space-y-4 animate-pulse">
-            <h3 className="text-sm font-bold text-ink-900 flex items-center gap-2">
-              <Sparkles className="h-4 w-4 text-accent-600 animate-bounce" /> Research Progress
-            </h3>
-            <div className="space-y-3 text-xs">
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>1. Reading source content & parameters...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>2. Extracting & identifying mentioned electronics...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>3. Matching exact product models against canonical catalog...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>4. Collecting verified technical specifications...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>5. Comparing marketplace prices across Indian retailers...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>6. Computing AI evaluation scores & key strengths...</span>
-              </div>
-              <div className="flex items-center gap-3 text-accent-700 font-semibold">
-                <CheckCircle2 className="h-4 w-4 text-accent-600" />
-                <span>7. Generating final recommendation & category rankings...</span>
-              </div>
-            </div>
+        {/* ERROR STATE */}
+        {!isLoading && data && data.status !== 'SUCCESS' && (
+          <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-3">
+            <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
+            <h2 className="text-lg font-black text-red-900">{data.status === 'INVALID_URL' ? 'Invalid Product URL' : 'Product Not Found'}</h2>
+            <p className="text-sm text-red-700 font-medium">
+              {data.error || 'We could not securely match this to a verified product identity in our catalog.'}
+            </p>
           </section>
         )}
 
-        {/* ANALYSIS RESULTS */}
-        {data && (
-          <div className="space-y-12">
+        {/* SUCCESS RESULT STATE */}
+        {!isLoading && data && data.status === 'SUCCESS' && data.product && (
+          <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
             
-            {data.analyzedProducts.map((item, idx) => {
-              const p = item.product;
-              const scores = item.aiScores;
-
-              return (
-                <div key={p._id || idx} className="space-y-8 border-b border-ink-100 pb-10">
-                  
-                  {/* Candidate Header */}
-                  <div className="card bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row gap-6 items-start">
-                    
-                    <div className="w-full md:w-48 flex-shrink-0">
-                      <ProductImage src={p.image} alt={p.name} category={p.category} aspectClassName="aspect-square" />
+            {/* 1. PRODUCT IDENTIFIED */}
+            <section className="card bg-white p-6 md:p-8 border border-ink-100 rounded-2xl flex flex-col md:flex-row gap-8 items-start">
+              <div className="w-full md:w-1/3 flex-shrink-0">
+                <div className="aspect-square bg-ink-50 rounded-2xl border border-ink-100 p-6 flex items-center justify-center relative">
+                  {data.image.status === 'VERIFIED_EXACT' ? (
+                    <img src={data.image.url} alt={data.product.name} className="h-full w-full object-contain" />
+                  ) : (
+                    <div className="text-center text-ink-400 space-y-2">
+                      <HelpCircle className="h-8 w-8 mx-auto opacity-50" />
+                      <p className="text-xs font-semibold">Image pending verification.</p>
                     </div>
-
-                    {/* Product Details & Lowest Price */}
-                    <div className="flex-grow space-y-3">
-                      <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-accent-700 bg-accent-50 border border-accent-100 px-2 py-0.5 rounded">
-                          {p.brand}
-                        </span>
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-ink-500 bg-ink-50 px-2 py-0.5 rounded">
-                          {p.category}
-                        </span>
-                      </div>
-
-                      <h2 className="text-xl font-extrabold text-ink-900 tracking-tight">
-                        {p.name}
-                      </h2>
-
-                      <p className="text-xs text-ink-500 leading-relaxed">
-                        {p.description}
-                      </p>
-
-                      {/* Lowest Price Banner */}
-                      <div className="pt-2 flex flex-wrap items-center gap-4">
-                        <div className="bg-green-50 border border-green-200 rounded-xl px-4 py-2">
-                          <span className="block text-[9px] font-bold text-green-700 uppercase">Lowest Verified Price</span>
-                          <span className="text-xl font-black text-green-700">{formatINR(item.lowestPrice)}</span>
-                          {item.cheapestMarketplace && (
-                            <span className="block text-[10px] font-semibold text-green-800">on {item.cheapestMarketplace}</span>
-                          )}
-                        </div>
-
-                        {/* Overall AI Score */}
-                        <div className="bg-accent-50 border border-accent-200 rounded-xl px-4 py-2">
-                          <span className="block text-[9px] font-bold text-accent-800 uppercase">AI Analysis Score</span>
-                          <span className="text-xl font-black text-accent-700">
-                            {typeof scores.overallValue === 'number' ? `${scores.overallValue} / 100` : scores.overallValue}
-                          </span>
-                          <span className="block text-[10px] font-semibold text-accent-800">Overall Value Score</span>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  {/* STEP 4: Price Comparison Table */}
-                  <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
-                    <h3 className="text-sm font-bold text-ink-900 flex items-center gap-2">
-                      <TrendingUp className="h-4 w-4 text-accent-600" /> Verified Marketplace Offers
-                    </h3>
-
-                    <div className="overflow-x-auto">
-                      <table className="w-full text-left text-xs border-collapse">
-                        <thead>
-                          <tr className="border-b border-ink-100 bg-ink-50/50 text-ink-500 font-bold uppercase text-[10px]">
-                            <th className="py-2.5 px-3">Store</th>
-                            <th className="py-2.5 px-3">Current Price</th>
-                            <th className="py-2.5 px-3">Stock Status</th>
-                            <th className="py-2.5 px-3 text-right">Action</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-ink-50">
-                          {item.offers.map((offer) => (
-                            <tr key={offer._id || offer.marketplace} className="hover:bg-ink-50/40">
-                              <td className="py-3 px-3 font-semibold text-ink-900 flex items-center gap-2">
-                                {offer.logoUrl && <img src={offer.logoUrl} alt={offer.marketplace} className="h-4 w-auto object-contain" />}
-                                {offer.marketplace}
-                              </td>
-                              <td className="py-3 px-3 font-bold text-ink-900">
-                                {formatINR(offer.currentPrice)}
-                              </td>
-                              <td className="py-3 px-3">
-                                <span className="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
-                                  In Stock
-                                </span>
-                              </td>
-                              <td className="py-3 px-3 text-right">
-                                <a
-                                  href={offer.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="btn-primary py-1 px-3 text-[11px] font-semibold inline-flex items-center gap-1"
-                                >
-                                  Compare Offers <ArrowUpRight className="h-3 w-3" />
-                                </a>
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
-
-                  {/* STEP 5: AI Evaluation Scores Grid */}
-                  <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
-                    <div className="flex items-center justify-between">
-                      <h3 className="text-sm font-bold text-ink-900 flex items-center gap-2">
-                        <Award className="h-4 w-4 text-accent-600" /> AI Analysis Scores
-                      </h3>
-                      <span className="text-[10px] font-bold text-ink-400 uppercase tracking-wider">
-                        Derived from specs & market data
-                      </span>
-                    </div>
-
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 text-center">
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Performance</span>
-                        <span className="text-lg font-black text-ink-900">{scores.performance}</span>
-                      </div>
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Features</span>
-                        <span className="text-lg font-black text-ink-900">{scores.features}</span>
-                      </div>
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Build Quality</span>
-                        <span className="text-lg font-black text-ink-900">{scores.buildQuality}</span>
-                      </div>
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Ease of Use</span>
-                        <span className="text-lg font-black text-ink-900">{scores.easeOfUse}</span>
-                      </div>
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Price Value</span>
-                        <span className="text-lg font-black text-ink-900">{scores.priceToPerformance}</span>
-                      </div>
-                      <div className="p-3 bg-ink-50/60 rounded-xl border border-ink-100">
-                        <span className="block text-[10px] font-bold text-ink-500 uppercase">Availability</span>
-                        <span className="text-lg font-black text-ink-900">{scores.availability}</span>
-                      </div>
-                    </div>
-                  </section>
-
-                  {/* STEP 6 & 7: Strengths & Limitations */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    
-                    {/* Strengths */}
-                    <div className="card bg-white p-6 border border-green-100 rounded-2xl space-y-3">
-                      <h3 className="text-sm font-bold text-green-800 flex items-center gap-1.5">
-                        <CheckCircle2 className="h-4 w-4 text-green-600" /> Key Strengths
-                      </h3>
-
-                      <div className="space-y-2">
-                        {item.strengths.map((s, idx) => (
-                          <div key={idx} className="border border-green-100 bg-green-50/30 rounded-xl p-3 text-xs">
-                            <button
-                              onClick={() => setExpandedStrength(expandedStrength === idx ? null : idx)}
-                              className="w-full flex items-center justify-between font-bold text-green-900 text-left"
-                            >
-                              <span>✓ {s.title}</span>
-                              {expandedStrength === idx ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
-                            </button>
-                            {expandedStrength === idx && (
-                              <p className="mt-2 text-[11px] text-green-800 leading-relaxed border-t border-green-100 pt-2">
-                                {s.detail}
-                              </p>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Limitations */}
-                    <div className="card bg-white p-6 border border-red-100 rounded-2xl space-y-3">
-                      <h3 className="text-sm font-bold text-red-800 flex items-center gap-1.5">
-                        <AlertTriangle className="h-4 w-4 text-red-600" /> Key Limitations
-                      </h3>
-
-                      <div className="space-y-2">
-                        {item.limitations.map((l, idx) => (
-                          <div key={idx} className="border border-red-100 bg-red-50/30 rounded-xl p-3 text-xs">
-                            <button
-                              onClick={() => setExpandedLimitation(expandedLimitation === idx ? null : idx)}
-                              className="w-full flex items-center justify-between font-bold text-red-900 text-left"
-                            >
-                              <span>✕ {l.title}</span>
-                              {expandedLimitation === idx ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
-                            </button>
-                            {expandedLimitation === idx && (
-                              <p className="mt-2 text-[11px] text-red-800 leading-relaxed border-t border-red-100 pt-2">
-                                {l.detail}
-                              </p>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                  </div>
-
-                  {/* STEP 8: Better Alternatives */}
-                  {item.alternatives.length > 0 && (
-                    <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
-                      <h3 className="text-sm font-bold text-ink-900 flex items-center gap-2">
-                        <Zap className="h-4 w-4 text-accent-600" /> See Better Options
-                      </h3>
-
-                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                        {item.alternatives.map((alt) => (
-                          <div key={alt._id} className="border border-ink-100 bg-ink-50/30 rounded-xl p-4 flex flex-col justify-between space-y-3">
-                            <div>
-                              <div className="h-28 bg-white rounded-lg border p-1 mb-2 flex items-center justify-center">
-                                {alt.image ? (
-                                  <img src={alt.image} alt={alt.name} className="h-full w-auto max-h-[90px] object-contain" />
-                                ) : (
-                                  <span className="text-[10px] text-ink-400">No Image</span>
-                                )}
-                              </div>
-                              <span className="text-[9px] font-bold uppercase text-ink-400">{alt.brand}</span>
-                              <h4 className="font-bold text-xs text-ink-900 line-clamp-1">{alt.name}</h4>
-                              <span className="text-xs font-black text-accent-700 mt-1 block">{formatINR(alt.lowestPrice)}</span>
-                            </div>
-
-                            <div className="pt-2 border-t border-ink-100">
-                              <p className="text-[10px] text-ink-500 line-clamp-2">{alt.whyBetter}</p>
-                              <Link
-                                to={`/product/${alt._id}`}
-                                className="btn-secondary py-1 text-center w-full block text-[10px] font-semibold mt-2"
-                              >
-                                View Product
-                              </Link>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </section>
                   )}
-
+                  {data.identity.status === 'IDENTITY_VERIFIED' ? (
+                    <span className="absolute top-3 right-3 bg-green-100 text-green-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
+                      <ShieldCheck className="h-3 w-3" /> Exact Identity Verified
+                    </span>
+                  ) : (
+                    <span className="absolute top-3 right-3 bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded flex items-center gap-1">
+                      <ShieldAlert className="h-3 w-3" /> Identity Ambiguous
+                    </span>
+                  )}
                 </div>
-              );
-            })}
+              </div>
 
-            {/* STEP 9: Top Category Overall */}
-            {data.topOverall.length > 0 && (
-              <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
-                <h3 className="text-sm font-bold text-ink-900 flex items-center gap-2">
-                  <Layers className="h-4 w-4 text-accent-600" /> Top {data.topOverallCategory.toUpperCase()} Overall Rankings
-                </h3>
+              <div className="w-full space-y-4">
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-widest text-ink-400">{data.product.brand}</span>
+                  <h2 className="text-2xl font-black text-ink-900">{data.product.name}</h2>
+                  <p className="text-sm text-ink-500 font-medium mt-1">
+                    {data.product.category} • Variant: {data.product.variant}
+                  </p>
+                </div>
 
-                <div className="space-y-2">
-                  {data.topOverall.map((topP, idx) => (
-                    <div key={topP._id} className="flex items-center justify-between p-3 border border-ink-100 rounded-xl bg-ink-50/30 text-xs">
-                      <div className="flex items-center gap-3">
-                        <span className="h-6 w-6 rounded-full bg-accent-600 text-white font-bold flex items-center justify-center text-xs">
-                          #{idx + 1}
-                        </span>
-                        <div>
-                          <span className="font-bold text-ink-900 block">{topP.name}</span>
-                          <span className="text-[10px] text-ink-400 uppercase font-semibold">{topP.brand}</span>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-4">
-                        <span className="font-bold text-accent-700">{formatINR(topP.lowestPrice)}</span>
-                        <Link to={`/product/${topP._id}`} className="btn-secondary py-1 px-3 text-[10px] font-semibold">
-                          Compare Offers
-                        </Link>
-                      </div>
+                <div className="grid grid-cols-2 gap-4">
+                  {data.product.specifications && Object.entries(data.product.specifications).slice(0, 4).map(([k, v]) => (
+                    <div key={k} className="p-3 bg-ink-50 rounded-xl border border-ink-100">
+                      <span className="block text-[10px] font-bold text-ink-500 uppercase">{k}</span>
+                      <span className="text-xs font-semibold text-ink-900">{v}</span>
                     </div>
                   ))}
+                </div>
+              </div>
+            </section>
+
+            {/* 2. BEST VERIFIED DEAL */}
+            {data.bestDeal && (
+              <section className="bg-gradient-to-r from-accent-600 to-accent-800 text-white p-6 md:p-8 rounded-2xl shadow-lg border border-accent-700 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="space-y-2 text-center md:text-left w-full">
+                  <div className="flex items-center justify-center md:justify-start gap-2 text-accent-200">
+                    <CheckCircle2 className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Best Verified Deal</span>
+                  </div>
+                  <h3 className="text-3xl font-black">{data.bestDeal.marketplace}</h3>
+                  
+                  <div className="flex items-end justify-center md:justify-start gap-3 mt-4">
+                    <span className="text-4xl font-black">{formatINR(data.bestDeal.price)}</span>
+                    {data.bestDeal.discountPercentage && (
+                      <span className="text-lg text-accent-200 line-through mb-1">
+                        {formatINR(data.bestDeal.mrp)}
+                      </span>
+                    )}
+                  </div>
+                  
+                  {data.bestDeal.savings && (
+                    <p className="text-sm font-semibold text-accent-100 bg-accent-900/40 inline-block px-3 py-1 rounded-full mt-2">
+                      Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
+                    </p>
+                  )}
+                </div>
+
+                <div className="w-full md:w-auto flex-shrink-0">
+                  <a
+                    href={data.bestDeal.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white text-accent-800 px-8 py-4 rounded-xl font-black text-lg w-full flex items-center justify-center gap-2 hover:bg-accent-50 transition-colors shadow-sm"
+                  >
+                    BUY NOW <ArrowRight className="h-5 w-5" />
+                  </a>
                 </div>
               </section>
             )}
 
+            {/* 3. COMPARE STORES */}
+            <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4 overflow-x-auto">
+              <h3 className="text-sm font-bold text-ink-900 uppercase flex items-center gap-2">
+                <Zap className="h-4 w-4 text-accent-600" /> Compare Stores
+              </h3>
+              
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="border-b border-ink-100">
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Marketplace</th>
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Price</th>
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Discount</th>
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Savings</th>
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase">Status</th>
+                    <th className="py-3 px-4 text-xs font-bold text-ink-500 uppercase text-right">Action</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-ink-50">
+                  {data.marketplaces.map((mp, idx) => (
+                    <tr key={mp._id || idx} className="hover:bg-ink-50/50">
+                      <td className="py-4 px-4 font-bold text-ink-900 text-sm">{mp.marketplace}</td>
+                      <td className="py-4 px-4 font-black text-ink-900">
+                        {formatINR(mp.price)}
+                        {mp.mrp && <span className="block text-[10px] text-ink-400 line-through font-medium">{formatINR(mp.mrp)}</span>}
+                      </td>
+                      <td className="py-4 px-4">
+                        {mp.discountPercentage ? (
+                          <span className="text-xs font-bold text-green-700 bg-green-100 px-2 py-0.5 rounded">{mp.discountPercentage}% OFF</span>
+                        ) : (
+                          <span className="text-xs text-ink-400">—</span>
+                        )}
+                      </td>
+                      <td className="py-4 px-4">
+                        {mp.savings ? (
+                          <span className="text-xs font-semibold text-ink-700">{formatINR(mp.savings)}</span>
+                        ) : (
+                          <span className="text-xs text-ink-400">—</span>
+                        )}
+                      </td>
+                      <td className="py-4 px-4">
+                        <span className={`text-[10px] font-bold px-2 py-1 rounded ${mp.availability === 'Available' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                          {mp.availability}
+                        </span>
+                      </td>
+                      <td className="py-4 px-4 text-right">
+                        {mp.availability === 'Available' && mp.url ? (
+                          <a href={mp.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 btn-secondary py-1.5 px-3 text-[11px] font-bold">
+                            VIEW DEAL <ExternalLink className="h-3 w-3" />
+                          </a>
+                        ) : (
+                          <span className="text-xs font-semibold text-ink-400">Unavailable</span>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                  {data.marketplaces.length === 0 && (
+                    <tr>
+                      <td colSpan="6" className="py-12 text-center text-sm font-medium text-ink-500">
+                        No verified deals currently available for this exact product model.
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+
+              {/* COVERAGE FOOTER */}
+              <div className="mt-4 pt-4 border-t border-ink-100 flex flex-wrap gap-4 text-[10px] font-semibold">
+                <div className="flex items-center gap-2">
+                  <span className="text-ink-500 uppercase">Checked:</span>
+                  <div className="flex gap-2 text-green-700">
+                    {data.coverage.checked.map(c => <span key={c} className="flex items-center gap-0.5"><CheckCircle2 className="h-3 w-3" /> {c}</span>)}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-ink-500 uppercase">Unavailable:</span>
+                  <div className="flex gap-2 text-ink-400">
+                    {data.coverage.unavailable.map(c => <span key={c}>— {c}</span>)}
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         )}
-
       </main>
     </div>
   );
