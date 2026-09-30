@@ -1,0 +1,466 @@
+{
+  "totalProducts": 867,
+  "identity": {
+    "verified": 38,
+    "unverified": 712,
+    "pending": 117
+  },
+  "images": {
+    "verified": 61,
+    "unverified": 210,
+    "missing": 592,
+    "duplicate": 0,
+    "generic": 4
+  },
+  "pricing": {
+    "verified": 38,
+    "unverified": 829,
+    "missing": 0,
+    "mrpVerified": 866,
+    "mrpUnavailable": 1,
+    "discountVerified": 0,
+    "savingsVerified": 0
+  },
+  "deals": {
+    "eligible": 0,
+    "reasons": {
+      "UNKNOWN": 852,
+      "DEAL_SUPPRESSED": 15
+    }
+  },
+  "history": {
+    "withoutHistory": 616,
+    "withHistory": 251,
+    "verifiedSnapshots": 559
+  },
+  "marketplaces": {
+    "Amazon": {
+      "existing": 876,
+      "verified": 0,
+      "unverified": 876,
+      "exactMatches": 0,
+      "wrongVariantMatches": 0,
+      "validRedirects": 876
+    },
+    "Flipkart": {
+      "existing": 124,
+      "verified": 0,
+      "unverified": 124,
+      "exactMatches": 0,
+      "wrongVariantMatches": 0,
+      "validRedirects": 124
+    },
+    "OTHER": {
+      "existing": 181,
+      "verified": 0,
+      "unverified": 181,
+      "exactMatches": 0,
+      "wrongVariantMatches": 0,
+      "validRedirects": 181
+    }
+  },
+  "categories": {
+    "Accessories": {
+      "total": 13,
+      "idVerified": 0,
+      "imgVerified": 1,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 1
+    },
+    "Smartphones": {
+      "total": 30,
+      "idVerified": 16,
+      "imgVerified": 24,
+      "mpVerified": 0,
+      "priceVerified": 16,
+      "dealEligible": 0,
+      "priceHistory": 22
+    },
+    "smartphone": {
+      "total": 408,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 33
+    },
+    "Laptops": {
+      "total": 15,
+      "idVerified": 4,
+      "imgVerified": 8,
+      "mpVerified": 0,
+      "priceVerified": 4,
+      "dealEligible": 0,
+      "priceHistory": 12
+    },
+    "laptop": {
+      "total": 75,
+      "idVerified": 3,
+      "imgVerified": 3,
+      "mpVerified": 0,
+      "priceVerified": 3,
+      "dealEligible": 0,
+      "priceHistory": 23
+    },
+    "tablet": {
+      "total": 24,
+      "idVerified": 7,
+      "imgVerified": 10,
+      "mpVerified": 0,
+      "priceVerified": 7,
+      "dealEligible": 0,
+      "priceHistory": 22
+    },
+    "monitor": {
+      "total": 20,
+      "idVerified": 0,
+      "imgVerified": 1,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 18
+    },
+    "gaming": {
+      "total": 39,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 20
+    },
+    "television": {
+      "total": 56,
+      "idVerified": 0,
+      "imgVerified": 3,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 25
+    },
+    "Smartwatches": {
+      "total": 4,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 3
+    },
+    "smartwatch": {
+      "total": 56,
+      "idVerified": 4,
+      "imgVerified": 7,
+      "mpVerified": 0,
+      "priceVerified": 4,
+      "dealEligible": 0,
+      "priceHistory": 19
+    },
+    "air-conditioner": {
+      "total": 15,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "headphones": {
+      "total": 36,
+      "idVerified": 1,
+      "imgVerified": 2,
+      "mpVerified": 0,
+      "priceVerified": 1,
+      "dealEligible": 0,
+      "priceHistory": 21
+    },
+    "Audio": {
+      "total": 5,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "camera": {
+      "total": 39,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 22
+    },
+    "accessories": {
+      "total": 3,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "Watches": {
+      "total": 1,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "Fashion Accessories": {
+      "total": 5,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "Women Fashion": {
+      "total": 6,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "Men Fashion": {
+      "total": 7,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 0
+    },
+    "Headphones": {
+      "total": 2,
+      "idVerified": 1,
+      "imgVerified": 1,
+      "mpVerified": 0,
+      "priceVerified": 1,
+      "dealEligible": 0,
+      "priceHistory": 2
+    },
+    "Earbuds": {
+      "total": 2,
+      "idVerified": 2,
+      "imgVerified": 1,
+      "mpVerified": 0,
+      "priceVerified": 2,
+      "dealEligible": 0,
+      "priceHistory": 2
+    },
+    "Monitors": {
+      "total": 4,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 4
+    },
+    "Gaming Consoles": {
+      "total": 2,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0,
+      "priceHistory": 2
+    }
+  },
+  "brands": {
+    "Apple": {
+      "total": 40,
+      "idVerified": 32,
+      "imgVerified": 32,
+      "mpVerified": 0,
+      "priceVerified": 32,
+      "dealEligible": 0
+    },
+    "UNKNOWN": {
+      "total": 675,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Samsung": {
+      "total": 31,
+      "idVerified": 6,
+      "imgVerified": 25,
+      "mpVerified": 0,
+      "priceVerified": 6,
+      "dealEligible": 0
+    },
+    "OnePlus": {
+      "total": 14,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Dell": {
+      "total": 10,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "HP": {
+      "total": 7,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Lenovo": {
+      "total": 10,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Asus": {
+      "total": 12,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Xiaomi": {
+      "total": 9,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Realme": {
+      "total": 7,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Motorola": {
+      "total": 4,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Vivo": {
+      "total": 3,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Acer": {
+      "total": 4,
+      "idVerified": 0,
+      "imgVerified": 4,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "LG": {
+      "total": 8,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Sony": {
+      "total": 15,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Panasonic": {
+      "total": 3,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Canon": {
+      "total": 4,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Nikon": {
+      "total": 3,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Fujifilm": {
+      "total": 3,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "GoPro": {
+      "total": 2,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "DJI": {
+      "total": 2,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    },
+    "Insta360": {
+      "total": 1,
+      "idVerified": 0,
+      "imgVerified": 0,
+      "mpVerified": 0,
+      "priceVerified": 0,
+      "dealEligible": 0
+    }
+  },
+  "multipleOffersCount": 0,
+  "noOffersCount": 0,
+  "noHistoryCount": 616,
+  "oneOfferCount": 0,
+  "insufficientEvidence": 0,
+  "priceDropEligible": 0,
+  "priceIncreaseEligible": 0,
+  "priceUnchanged": 556
+}
