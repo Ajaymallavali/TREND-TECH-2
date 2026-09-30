@@ -115,6 +115,39 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
     marketplaceProduct: { $in: mps.map(m => m._id) }
   }).sort({ timestamp: 1 }).lean();
 
+  const aiScores = computeAIScores(product, marketplaces, lowestVerifiedPrice === Infinity ? null : lowestVerifiedPrice);
+  
+  // Basic AI Verdict logic
+  let verdict = `This ${product.category || 'device'} provides a strong overall package based on verified specifications.`;
+  if (lowestVerifiedPrice !== Infinity) {
+    verdict = `Among the verified offers analyzed, the ${product.name} offers excellent value at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}, balancing its core specs with solid marketplace availability.`;
+  }
+  
+  const pros = [];
+  const specsObj = product.specs ? (product.specs instanceof Map ? Object.fromEntries(product.specs) : product.specs) : {};
+  for (const [key, val] of Object.entries(specsObj)) {
+    if (typeof val === 'string' && val.trim() && pros.length < 4) {
+      pros.push(`✓ ${key}: ${val}`);
+    }
+  }
+  if (lowestVerifiedPrice !== Infinity) {
+    pros.push(`✓ Verified marketplace availability starting at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}`);
+  }
+
+  const watchOutFor = [];
+  if (lowestVerifiedPrice !== Infinity && lowestVerifiedPrice > 80000) {
+    watchOutFor.push(`⚠ Premium Segment Price Point (₹${lowestVerifiedPrice.toLocaleString('en-IN')})`);
+  }
+  if (marketplaces.filter(m => m.isVerified).length === 1) {
+    watchOutFor.push(`⚠ Limited marketplace availability (only 1 verified store)`);
+  }
+  if (watchOutFor.length === 0) {
+    watchOutFor.push(`Not enough verified evidence to identify a specific concern.`);
+  }
+
+  let bestFor = ['Everyday Use', 'Performance'];
+  if (aiScores.performance > 90) bestFor = ['Power Users', 'Gaming', 'Performance'];
+
   return {
     status: 'SUCCESS',
     product: {
@@ -124,7 +157,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
       model: product.model,
       category: product.category,
       variant: product.specs && product.specs.Storage ? product.specs.Storage : 'Standard',
-      specifications: product.specs,
+      specifications: specsObj,
     },
     identity: {
       matchConfidence: product.identityStatus === 'IDENTITY_VERIFIED' ? 'EXACT' : 'AMBIGUOUS',
@@ -134,6 +167,13 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
       url: product.image,
       status: product.imageStatus || (product.image ? 'VERIFIED_EXACT' : 'PENDING')
     },
+    specs: specsObj,
+    research: {
+      verdict,
+      bestFor,
+      pros,
+      watchOutFor
+    },
     marketplaces: marketplaces,
     bestDeal: bestDeal,
     priceHistory: priceHistoryDocs,
@@ -141,6 +181,6 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description 
     verification: {
       checkedAt: new Date()
     },
-    analysis: computeAIScores(product, marketplaces, lowestVerifiedPrice === Infinity ? null : lowestVerifiedPrice)
+    analysis: aiScores
   };
 }

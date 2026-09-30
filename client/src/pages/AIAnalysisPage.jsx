@@ -63,7 +63,7 @@ export default function AIAnalysisPage() {
             <span>REAL Product Research & Deal Comparison Engine</span>
           </div>
           <h1 className="text-3xl font-black text-ink-900 tracking-tight sm:text-4xl">
-            Product URL Analysis
+            TREND-TECH AI PRODUCT RESEARCH
           </h1>
           <p className="mt-2 text-xs text-ink-500 font-medium">
             Paste a product store link or search query to extract exact product identity, cross-compare real verified offers across Indian marketplaces, and discover the absolute lowest verified price.
@@ -218,6 +218,70 @@ export default function AIAnalysisPage() {
                 </div>
               </div>
             </section>
+
+            {/* AI RESEARCH SECTIONS */}
+            {data.research && (
+              <section className="space-y-6">
+                {/* AI VERDICT */}
+                <div className="card bg-white p-6 border border-ink-100 rounded-2xl">
+                  <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+                    <Zap className="h-4 w-4 text-accent-600" /> AI Verdict
+                  </h3>
+                  <p className="text-sm font-medium text-ink-800 leading-relaxed bg-ink-50 p-4 rounded-xl border border-ink-100">
+                    {data.research.verdict}
+                  </p>
+                  {data.research.bestFor && data.research.bestFor.length > 0 && (
+                    <div className="mt-4 flex items-center gap-2 flex-wrap">
+                      <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest">Best For:</span>
+                      {data.research.bestFor.map(b => (
+                        <span key={b} className="text-xs font-bold bg-white border border-ink-200 text-ink-700 px-3 py-1 rounded-full shadow-sm">
+                          {b}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* PROS */}
+                  <div className="card bg-white p-6 border border-green-200 rounded-2xl">
+                    <h3 className="text-xs font-black text-green-700 uppercase tracking-widest mb-4">Pros</h3>
+                    <ul className="space-y-3">
+                      {data.research.pros.map((p, idx) => (
+                        <li key={idx} className="text-sm font-semibold text-green-900 flex items-start gap-2">
+                          {p}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* WATCH OUT FOR */}
+                  <div className="card bg-white p-6 border border-amber-200 rounded-2xl">
+                    <h3 className="text-xs font-black text-amber-700 uppercase tracking-widest mb-4">Watch Out For</h3>
+                    <ul className="space-y-3">
+                      {data.research.watchOutFor.map((w, idx) => (
+                        <li key={idx} className="text-sm font-semibold text-amber-900 flex items-start gap-2">
+                          {w}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                {/* KEY SPECS */}
+                <div className="card bg-white p-6 border border-ink-100 rounded-2xl">
+                  <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest mb-4">Key Specs</h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {Object.entries(data.specs || {}).map(([k, v]) => (
+                      <div key={k} className="bg-ink-50 p-3 rounded-xl border border-ink-100 flex flex-col justify-center">
+                        <p className="text-[10px] font-bold text-ink-400 uppercase mb-1">{k}</p>
+                        <p className="text-xs font-semibold text-ink-900 line-clamp-2" title={v}>{v}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
 
             {/* 2. BEST VERIFIED DEAL */}
             {data.bestDeal && (
