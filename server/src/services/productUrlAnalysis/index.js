@@ -143,6 +143,22 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
 
     const dealMetrics = calculateDealMetrics(formattedMarketplaces.filter(m => m.isVerified && m.price && m.availability === 'Available'), bestExternalDeal);
 
+    const dealScanner = formattedMarketplaces.map(mp => {
+      if (!mp.isVerified || !mp.price) return null;
+      return {
+        marketplace: mp.marketplace,
+        currentPrice: mp.price,
+        previousPrice: null,
+        priceChange: null,
+        status: 'INSUFFICIENT HISTORY',
+        lowestVerified: null,
+        highestVerified: null,
+        averageVerified: null,
+        isLowestEver: false,
+        historyCount: 1
+      };
+    }).filter(Boolean);
+
     return {
       status: 'SUCCESS_EXTERNAL',
       sourceInfo: {
@@ -195,6 +211,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       },
       sources: externalData.sources || [],
       dealMetrics,
+      dealScanner,
       analysis: {
         performance: 80, value: 80, overall: 80, build: 80, reliable: 80
       }
@@ -268,6 +285,17 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       bestDeal = offer;
     }
 
+    if (offer.isVerified && offer.price && offer.price > 0 && offer.availability === 'Available') {
+      const lastHistory = await PriceHistory.findOne({ marketplaceProduct: mp._id }).sort({ timestamp: -1 });
+      if (!lastHistory || lastHistory.price !== offer.price) {
+        await PriceHistory.create({
+          marketplaceProduct: mp._id,
+          price: offer.price,
+          timestamp: new Date()
+        });
+      }
+    }
+
     marketplaces.push(offer);
   }
 
@@ -287,6 +315,55 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
   const priceHistoryDocs = await PriceHistory.find({ 
     marketplaceProduct: { $in: mps.map(m => m._id) }
   }).sort({ timestamp: 1 }).lean();
+
+  const historyByMp = {};
+  priceHistoryDocs.forEach(doc => {
+    const mpId = doc.marketplaceProduct.toString();
+    if (!historyByMp[mpId]) historyByMp[mpId] = [];
+    historyByMp[mpId].push(doc);
+  });
+
+  const dealScanner = marketplaces.map(mp => {
+    if (!mp.isVerified || !mp.price) return null;
+    const history = historyByMp[mp._id.toString()] || [];
+    
+    let status = 'INSUFFICIENT HISTORY';
+    let previousPrice = null;
+    let priceChange = null;
+    
+    if (history.length >= 2) {
+      const currentObservation = history[history.length - 1];
+      const prevObservation = history[history.length - 2];
+      
+      previousPrice = prevObservation.price;
+      priceChange = currentObservation.price - previousPrice;
+      
+      if (priceChange < 0) status = 'PRICE DROP';
+      else if (priceChange > 0) status = 'PRICE INCREASE';
+      else status = 'PRICE UNCHANGED';
+    } else if (history.length === 1) {
+      status = 'NEW PRICE';
+    }
+
+    const lowestVerified = history.length > 0 ? Math.min(...history.map(h => h.price)) : null;
+    const highestVerified = history.length > 0 ? Math.max(...history.map(h => h.price)) : null;
+    const averageVerified = history.length > 0 ? Math.round(history.reduce((a,b)=>a+b.price, 0) / history.length) : null;
+    
+    const isLowestEver = history.length > 1 && mp.price <= lowestVerified;
+
+    return {
+      marketplace: mp.marketplace,
+      currentPrice: mp.price,
+      previousPrice,
+      priceChange,
+      status,
+      lowestVerified,
+      highestVerified,
+      averageVerified,
+      isLowestEver,
+      historyCount: history.length
+    };
+  }).filter(Boolean);
 
   let sourceMarketplace = null;
   let sourcePrice = null;
@@ -334,6 +411,17 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       verdict = `The provided ${sourceMarketplace} offer is currently the best verified deal at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}.`;
     } else {
       verdict = `Among the verified offers analyzed, the ${product.name} offers excellent value at ₹${lowestVerifiedPrice.toLocaleString('en-IN')}, balancing its core specs with solid marketplace availability.`;
+    }
+  }
+
+  if (dealScanner && dealScanner.length > 0 && bestDeal) {
+    const bdScanner = dealScanner.find(ds => ds.marketplace === bestDeal.marketplace);
+    if (bdScanner && bdScanner.historyCount > 1) {
+      if (bdScanner.isLowestEver) {
+        verdict += ` The current price matches the lowest verified price in the available history for ${bestDeal.marketplace}.`;
+      } else if (bdScanner.status === 'PRICE DROP' && bdScanner.priceChange < 0) {
+        verdict += ` The current verified price is ₹${Math.abs(bdScanner.priceChange).toLocaleString('en-IN')} below the previous verified observation on ${bestDeal.marketplace}.`;
+      }
     }
   }
   
@@ -413,6 +501,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       sources: ["Local Verified Catalog"]
     },
     dealMetrics,
+    dealScanner,
     analysis: aiScores
   };
 }

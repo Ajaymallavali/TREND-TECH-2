@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import {
   Search, Link as LinkIcon, AlertTriangle, CheckCircle2,
-  TrendingUp, Play, Zap, ArrowRight, ExternalLink,
-  ShieldAlert, ShieldCheck, HelpCircle, Activity
+  TrendingUp, TrendingDown, Play, Zap, ArrowRight, ExternalLink,
+  ShieldAlert, ShieldCheck, HelpCircle, Activity, Bell, RefreshCw, BarChart3
 } from 'lucide-react';
 import { apiClient } from '../services/apiClient';
 
@@ -288,15 +288,26 @@ export default function AIAnalysisPage() {
                     {data.product.category} • Variant: {data.product.variant}
                   </p>
 
-                  <div className="mt-4">
+                  <div className="mt-4 flex flex-wrap items-center gap-2">
+                    <button 
+                      onClick={() => handleSearch()}
+                      className="btn-outline px-4 py-2 text-xs inline-flex items-center gap-2 border-ink-300 text-ink-700 hover:bg-ink-50"
+                    >
+                      <RefreshCw className="h-3 w-3" /> CHECK CURRENT PRICE
+                    </button>
                     {data.identity.status === 'EXTERNAL_LIVE_VERIFIED' ? (
                       <p className="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-2 rounded border border-amber-200 inline-block">
-                        External web product — local catalog comparison unavailable.
+                        External web product — price tracking and local catalog comparison unavailable.
                       </p>
                     ) : (
-                      <Link to={`/compare?p1=${data.product._id}`} className="btn-outline px-4 py-2 text-xs inline-flex items-center gap-2">
-                        + ADD TO COMPARE
-                      </Link>
+                      <>
+                        <button className="btn-primary px-4 py-2 text-xs inline-flex items-center gap-2 bg-accent-600 hover:bg-accent-700 text-white shadow-sm border border-accent-700 rounded-lg">
+                          <Bell className="h-3 w-3" /> TRACK PRICE
+                        </button>
+                        <Link to={`/compare?p1=${data.product._id}`} className="btn-outline px-4 py-2 text-xs inline-flex items-center gap-2">
+                          + ADD TO COMPARE
+                        </Link>
+                      </>
                     )}
                   </div>
                 </div>
@@ -397,6 +408,67 @@ export default function AIAnalysisPage() {
                 </div>
               </section>
             )}
+
+            {/* DEAL SCANNER & PRICE TRACKING */}
+            {data.dealScanner && data.dealScanner.length > 0 && (
+              <section className="card bg-white border border-ink-100 rounded-2xl p-6">
+                <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-6">
+                  <BarChart3 className="h-4 w-4 text-accent-600" /> Verified Deal Scanner & History
+                </h3>
+                <div className="space-y-4">
+                  {data.dealScanner.map((scanner, i) => (
+                    <div key={i} className="border border-ink-100 rounded-xl p-4 bg-ink-50/50 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                      <div className="flex-1">
+                        <div className="flex items-center gap-3 mb-2">
+                          <span className="font-black text-ink-900 text-lg">{scanner.marketplace}</span>
+                          {scanner.status === 'PRICE DROP' && <span className="bg-green-100 text-green-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider flex items-center gap-1"><TrendingDown className="h-3 w-3" /> VERIFIED PRICE DROP</span>}
+                          {scanner.status === 'PRICE INCREASE' && <span className="bg-red-100 text-red-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider flex items-center gap-1"><TrendingUp className="h-3 w-3" /> PRICE INCREASE</span>}
+                          {scanner.status === 'PRICE UNCHANGED' && <span className="bg-yellow-100 text-yellow-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">PRICE UNCHANGED</span>}
+                          {scanner.status === 'NEW PRICE' && <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">NEW PRICE</span>}
+                          {scanner.status === 'INSUFFICIENT HISTORY' && <span className="bg-ink-200 text-ink-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">INSUFFICIENT HISTORY</span>}
+                        </div>
+                        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+                          <div>
+                            <span className="text-ink-500 text-xs font-semibold uppercase">Current:</span>
+                            <span className="ml-2 font-black text-ink-900">{formatINR(scanner.currentPrice)}</span>
+                          </div>
+                          {scanner.previousPrice && (
+                            <div>
+                              <span className="text-ink-500 text-xs font-semibold uppercase">Previous:</span>
+                              <span className="ml-2 font-bold text-ink-700">{formatINR(scanner.previousPrice)}</span>
+                            </div>
+                          )}
+                          {scanner.lowestVerified && scanner.historyCount > 1 && (
+                            <div>
+                              <span className="text-ink-500 text-xs font-semibold uppercase">Lowest Verified:</span>
+                              <span className="ml-2 font-bold text-ink-700">{formatINR(scanner.lowestVerified)}</span>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      
+                      {/* Analysis Badge */}
+                      <div className="md:text-right">
+                        {scanner.isLowestEver ? (
+                          <div className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-lg border border-green-200 inline-block">
+                            Matches lowest verified price in available history
+                          </div>
+                        ) : scanner.lowestVerified && scanner.currentPrice > scanner.lowestVerified ? (
+                          <div className="text-[10px] font-medium text-ink-500 bg-white px-3 py-2 rounded-lg border border-ink-100 inline-block max-w-[200px]">
+                            {formatINR(scanner.currentPrice - scanner.lowestVerified)} above the lowest recorded verified price ({formatINR(scanner.lowestVerified)})
+                          </div>
+                        ) : scanner.historyCount <= 1 ? (
+                          <div className="text-[10px] font-medium text-ink-400 bg-white px-3 py-2 rounded-lg border border-ink-100 inline-block">
+                            Not enough verified history to calculate this metric.
+                          </div>
+                        ) : null}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
 {/* PREFERRED STORE SECTION */}
             {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
               <section className="bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
