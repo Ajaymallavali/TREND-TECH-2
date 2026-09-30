@@ -1,0 +1,51 @@
+{
+  "counts": {
+    "Products": 867,
+    "MarketplaceProducts": 1181,
+    "PriceHistory": 559
+  },
+  "report": {
+    "verifiedCanonicalProducts": 17,
+    "productsWith0VerifiedOffers": 0,
+    "productsWith1VerifiedOffer": 2,
+    "productsWith2PlusVerifiedOffers": 15,
+    "marketplaces": {
+      "Amazon": {
+        "existing": 876,
+        "verified": 18,
+        "unverified": 858,
+        "broken": 0
+      },
+      "Flipkart": {
+        "existing": 124,
+        "verified": 3,
+        "unverified": 121,
+        "broken": 0
+      },
+      "Myntra": {
+        "existing": 0,
+        "verified": 0,
+        "unverified": 0,
+        "broken": 0
+      },
+      "Ajio": {
+        "existing": 0,
+        "verified": 0,
+        "unverified": 0,
+        "broken": 0
+      },
+      "Nykaa": {
+        "existing": 0,
+        "verified": 0,
+        "unverified": 0,
+        "broken": 0
+      },
+      "OTHER": {
+        "existing": 181,
+        "verified": 12,
+        "unverified": 169,
+        "broken": 0
+      }
+    }
+  }
+}

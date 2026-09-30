@@ -243,6 +243,19 @@ export default function AIAnalysisPage() {
                       Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
                     </p>
                   )}
+                  {data.marketplaces.filter(mp => mp.isVerified && mp.price).length > 1 && (() => {
+                    const verifiedPrices = data.marketplaces.filter(mp => mp.isVerified && mp.price).map(mp => mp.price);
+                    const highestVerified = Math.max(...verifiedPrices);
+                    const lowestVerified = Math.min(...verifiedPrices);
+                    if (highestVerified > lowestVerified && data.bestDeal.price === lowestVerified) {
+                      return (
+                        <p className="text-xs font-medium text-accent-200 mt-2">
+                          Save {formatINR(highestVerified - lowestVerified)} compared with the highest verified offer
+                        </p>
+                      );
+                    }
+                    return null;
+                  })()}
                 </div>
 
                 <div className="w-full md:w-auto flex-shrink-0">
@@ -260,9 +273,16 @@ export default function AIAnalysisPage() {
 
             {/* 3. COMPARE STORES */}
             <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4 overflow-x-auto">
-              <h3 className="text-sm font-bold text-ink-900 uppercase flex items-center gap-2">
-                <Zap className="h-4 w-4 text-accent-600" /> Compare Stores
-              </h3>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <h3 className="text-sm font-bold text-ink-900 uppercase flex items-center gap-2">
+                  <Zap className="h-4 w-4 text-accent-600" /> Compare Stores
+                </h3>
+                <span className="text-xs font-semibold text-ink-500 bg-ink-50 px-3 py-1 rounded-full border border-ink-100">
+                  {data.marketplaces.filter(mp => mp.isVerified).length === 1 
+                    ? "1 verified marketplace offer" 
+                    : `${data.marketplaces.filter(mp => mp.isVerified).length} verified marketplace offers compared`}
+                </span>
+              </div>
               
               <table className="w-full text-left border-collapse">
                 <thead>

@@ -2,14 +2,19 @@ const mongoose = require('mongoose');
 
 async function run() {
   await mongoose.connect('mongodb://localhost:27017/trend-tech');
+  const Product = mongoose.connection.db.collection('products');
   const MP = mongoose.connection.db.collection('marketplaceproducts');
-  const count = await MP.countDocuments({ sourceStatus: 'LIVE_VERIFIED' });
-  console.log(`Count LIVE_VERIFIED: ${count}`);
-  const mps = await MP.find({ sourceStatus: 'LIVE_VERIFIED' }).limit(5).toArray();
-  for (let mp of mps) {
-    const P = mongoose.connection.db.collection('products');
-    const p = await P.findOne({ _id: mp.product });
-    console.log(mp.url, p.name);
+  
+  const allProducts = await Product.find({ identityStatus: 'IDENTITY_VERIFIED' }).toArray();
+  for (const p of allProducts) {
+    const mps = await MP.find({ product: p._id, sourceStatus: 'LIVE_VERIFIED' }).toArray();
+    if (mps.length >= 2) {
+      console.log('---', p.name, '---');
+      for (const mp of mps) {
+        console.log(mp.url);
+      }
+      break;
+    }
   }
   process.exit(0);
 }
