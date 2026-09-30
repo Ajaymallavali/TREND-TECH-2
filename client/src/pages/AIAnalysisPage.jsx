@@ -37,13 +37,13 @@ export default function AIAnalysisPage() {
     },
     onMutate: () => {
       setProgressStages([
-        'Analyzing product...',
-        '✓ Input recognized',
-        '✓ Product identified'
+        'Understanding request...'
       ]);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Exact model checked', '✓ Image verified']), 800);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Marketplace offers checked', '✓ Prices verified']), 1500);
-      setTimeout(() => setProgressStages(prev => [...prev, '✓ Discounts calculated', '✓ Best deal identified', '✓ AI research prepared']), 2200);
+      setTimeout(() => setProgressStages(prev => [...prev, '✓ Request understood', '✓ Searching catalog & web']), 400);
+      setTimeout(() => setProgressStages(prev => [...prev, '✓ Identifying exact product', '✓ Validating variant']), 800);
+      setTimeout(() => setProgressStages(prev => [...prev, '✓ Verifying image', '✓ Finding marketplaces']), 1200);
+      setTimeout(() => setProgressStages(prev => [...prev, '✓ Checking current prices', '✓ Calculating savings']), 1600);
+      setTimeout(() => setProgressStages(prev => [...prev, '✓ Finding best deal', '✓ Preparing AI explanation']), 2000);
     }
   });
 
@@ -94,10 +94,10 @@ export default function AIAnalysisPage() {
             <span>REAL Product Research & Deal Comparison Engine</span>
           </div>
           <h1 className="text-3xl font-black text-ink-900 tracking-tight sm:text-4xl">
-            TREND-TECH AI PRODUCT RESEARCH
+            AI Shopping Research
           </h1>
           <p className="mt-2 text-xs text-ink-500 font-medium">
-            Enter a product name, model, or paste a store link to extract exact product identity, compare real verified offers across Indian marketplaces, and discover the absolute lowest verified price.
+            Search any product, analyze a product URL, compare marketplaces, and find the best verified deal.
           </p>
         </div>
 
@@ -107,13 +107,13 @@ export default function AIAnalysisPage() {
             <div className="grid grid-cols-1 gap-4">
               <div>
                 <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                  <Search className="h-3.5 w-3.5 text-accent-600" /> Product Name, Model, or Store URL
+                  <Search className="h-3.5 w-3.5 text-accent-600" /> Search Input
                 </label>
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="e.g. Samsung Galaxy S25 Ultra OR https://www.amazon.in/dp/..."
-                    className="input-field text-xs py-2 w-full"
+                    placeholder="Search a product or paste an Amazon / Flipkart / shopping URL..."
+                    className="input-field text-sm py-3 w-full border-2 border-accent-100 focus:border-accent-600"
                     value={inputData}
                     onChange={(e) => setInputData(e.target.value)}
                     disabled={isLoading}
@@ -133,7 +133,7 @@ export default function AIAnalysisPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="md:col-span-2">
                   <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                    <Activity className="h-3.5 w-3.5 text-ink-400" /> Additional Details / Specs Context
+                    <Activity className="h-3.5 w-3.5 text-ink-400" /> Additional Context (Optional)
                   </label>
                   <input
                     type="text"
@@ -165,13 +165,37 @@ export default function AIAnalysisPage() {
               </div>
             </div>
 
-            <button
-              type="submit"
-              disabled={isLoading || !inputData.trim()}
-              className="btn-primary w-full py-3 text-sm mt-4 flex items-center justify-center gap-2"
-            >
-              {isLoading ? 'Analyzing...' : 'Run Product Analysis & Deal Comparison'}
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4 pt-4 border-t border-ink-100">
+              <div className="flex gap-2 w-full sm:w-auto">
+                <button
+                  type="button"
+                  onClick={() => { setInputData(''); setContextData(''); mutation.reset(); }}
+                  disabled={isLoading || (!inputData && !contextData && !mutation.data)}
+                  className="btn-outline py-2 px-4 text-xs font-bold w-full sm:w-auto"
+                >
+                  Clear
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { 
+                    const samples = ["Samsung Galaxy S25 Ultra", "best gaming laptop under 100000", "Apple MacBook Air M3", "Sony WH-1000XM5"];
+                    setInputData(samples[Math.floor(Math.random() * samples.length)]);
+                  }}
+                  disabled={isLoading}
+                  className="btn-secondary py-2 px-4 text-xs font-bold w-full sm:w-auto flex items-center justify-center gap-1"
+                >
+                  <Play className="h-3 w-3" /> Random
+                </button>
+              </div>
+              
+              <button
+                type="submit"
+                disabled={isLoading || !inputData.trim()}
+                className="btn-primary py-3 px-8 text-sm w-full sm:w-auto flex items-center justify-center gap-2"
+              >
+                {isLoading ? 'Analyzing...' : 'Analyze Product'}
+              </button>
+            </div>
           </form>
         </section>
 
@@ -262,6 +286,18 @@ export default function AIAnalysisPage() {
                   <p className="text-sm text-ink-500 font-medium mt-1">
                     {data.product.category} • Variant: {data.product.variant}
                   </p>
+
+                  <div className="mt-4">
+                    {data.identity.status === 'EXTERNAL_LIVE_VERIFIED' ? (
+                      <p className="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-2 rounded border border-amber-200 inline-block">
+                        External product — comparison available from verified web offers only.
+                      </p>
+                    ) : (
+                      <Link to={`/compare?p1=${data.product._id}`} className="btn-outline px-4 py-2 text-xs inline-flex items-center gap-2">
+                        + ADD TO COMPARE
+                      </Link>
+                    )}
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
@@ -360,8 +396,27 @@ export default function AIAnalysisPage() {
               </section>
             )}
 
+            {/* SOURCE VS BEST MARKETPLACE */}
+            {data.sourceInfo && data.sourceInfo.marketplace && data.sourceInfo.price && data.bestDeal && data.sourceInfo.marketplace !== data.bestDeal.marketplace && data.sourceInfo.price > data.bestDeal.price && (
+              <section className="card bg-amber-50 p-6 border border-amber-200 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div>
+                  <div className="flex items-center gap-2 text-amber-700 mb-1">
+                    <Zap className="h-4 w-4" />
+                    <span className="text-xs font-bold uppercase tracking-widest">Source vs Best Marketplace</span>
+                  </div>
+                  <p className="text-sm font-semibold text-amber-900 mt-2">
+                    The analyzed product is from <strong className="font-black">{data.sourceInfo.marketplace}</strong> ({formatINR(data.sourceInfo.price)}). A verified lower price was found on <strong className="font-black">{data.bestDeal.marketplace}</strong> ({formatINR(data.bestDeal.price)}).
+                  </p>
+                </div>
+                <div className="bg-white px-4 py-3 rounded-xl border border-amber-100 flex-shrink-0 text-center shadow-sm">
+                  <span className="block text-[10px] font-bold text-amber-600 uppercase">Potential Savings</span>
+                  <span className="block text-2xl font-black text-amber-600">{formatINR(data.sourceInfo.price - data.bestDeal.price)}</span>
+                </div>
+              </section>
+            )}
+
             {/* 2. BEST VERIFIED DEAL */}
-            {data.bestDeal && (
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.bestDeal && (
               <section className="bg-gradient-to-r from-accent-600 to-accent-800 text-white p-6 md:p-8 rounded-2xl shadow-lg border border-accent-700 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="space-y-2 text-center md:text-left w-full">
                   <div className="flex items-center justify-center md:justify-start gap-2 text-accent-200">
@@ -384,26 +439,6 @@ export default function AIAnalysisPage() {
                       Save {formatINR(data.bestDeal.savings)} ({data.bestDeal.discountPercentage}% OFF)
                     </p>
                   )}
-                  
-                  {data.sourceInfo && data.sourceInfo.marketplace && data.sourceInfo.price && data.sourceInfo.marketplace !== data.bestDeal.marketplace && data.sourceInfo.price > data.bestDeal.price && (
-                    <p className="text-xs font-bold text-amber-300 mt-2 block">
-                      Save {formatINR(data.sourceInfo.price - data.bestDeal.price)} compared with your {data.sourceInfo.marketplace} link
-                    </p>
-                  )}
-                  
-                  {data.marketplaces.filter(mp => mp.isVerified && mp.price).length > 1 && (() => {
-                    const verifiedPrices = data.marketplaces.filter(mp => mp.isVerified && mp.price).map(mp => mp.price);
-                    const highestVerified = Math.max(...verifiedPrices);
-                    const lowestVerified = Math.min(...verifiedPrices);
-                    if (highestVerified > lowestVerified && data.bestDeal.price === lowestVerified) {
-                      return (
-                        <p className="text-xs font-medium text-accent-200 mt-2">
-                          Save {formatINR(highestVerified - lowestVerified)} compared with the highest verified offer
-                        </p>
-                      );
-                    }
-                    return null;
-                  })()}
                 </div>
 
                 <div className="w-full md:w-auto flex-shrink-0">
@@ -418,6 +453,47 @@ export default function AIAnalysisPage() {
                 </div>
               </section>
             )}
+
+            {data.identity.matchConfidence === 'AMBIGUOUS' && (
+              <section className="bg-amber-50 border border-amber-200 p-6 rounded-2xl text-center shadow-sm">
+                <ShieldAlert className="h-10 w-10 text-amber-500 mx-auto mb-3" />
+                <h3 className="text-lg font-black text-amber-800">PARTIAL MATCH / VARIANT NOT VERIFIED</h3>
+                <p className="text-sm font-medium text-amber-700 mt-2">
+                  Multiple variants or similar models exist. Please refine your search to see exact verified deals (e.g. specify RAM/Storage or screen size).
+                </p>
+              </section>
+            )}
+
+            {/* 4 BEST METRICS CARDS */}
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.marketplaces && data.marketplaces.filter(mp => mp.isVerified).length > 0 && (() => {
+              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available');
+              if (verifiedOffers.length === 0) return null;
+              
+              const bestPrice = Math.min(...verifiedOffers.map(o => o.price));
+              const bestDiscount = Math.max(...verifiedOffers.map(o => o.discountPercentage || 0));
+              const bestSavings = Math.max(...verifiedOffers.map(o => o.savings || 0));
+              
+              return (
+                <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Price</span>
+                    <span className="text-xl font-black text-ink-900">{formatINR(bestPrice)}</span>
+                  </div>
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Discount</span>
+                    <span className="text-xl font-black text-ink-900">{bestDiscount > 0 ? `${bestDiscount}% OFF` : 'N/A'}</span>
+                  </div>
+                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Savings</span>
+                    <span className="text-xl font-black text-ink-900">{bestSavings > 0 ? formatINR(bestSavings) : 'N/A'}</span>
+                  </div>
+                  <div className="card bg-white p-5 border-accent-200 rounded-2xl flex flex-col justify-center bg-accent-50">
+                    <span className="text-[10px] font-bold text-accent-700 uppercase tracking-widest mb-1">Best Verified Deal</span>
+                    <span className="text-xl font-black text-accent-900 truncate">{data.bestDeal ? data.bestDeal.marketplace : 'None'}</span>
+                  </div>
+                </section>
+              );
+            })()}
 
             {/* PREFERRED STORE SECTION */}
             {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
@@ -498,9 +574,9 @@ export default function AIAnalysisPage() {
                         </span>
                       </td>
                       <td className="py-4 px-4 text-right">
-                        {mp.availability === 'Available' && mp.url ? (
+                        {data.identity.matchConfidence === 'EXACT' && mp.availability === 'Available' && mp.url ? (
                           <a href={mp.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 btn-secondary py-1.5 px-3 text-[11px] font-bold">
-                            VIEW DEAL <ExternalLink className="h-3 w-3" />
+                            BUY NOW <ExternalLink className="h-3 w-3" />
                           </a>
                         ) : (
                           <span className="text-xs font-semibold text-ink-400">Unavailable</span>
