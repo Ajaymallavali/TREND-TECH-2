@@ -506,8 +506,8 @@ export const getBestDeals = async (req, res, next) => {
 
 export const executeAIWorkflow = async (req, res, next) => {
   try {
-    const { query, url, reelUrl, description } = req.body;
-    const result = await analyzeProductWorkflow({ query, url, reelUrl, description });
+    const { query, url, reelUrl, description, preferredStore } = req.body;
+    const result = await analyzeProductWorkflow({ query, url, reelUrl, description, preferredStore });
     res.status(200).json({
       success: true,
       data: result,

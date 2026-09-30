@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import {
   Search, Link as LinkIcon, AlertTriangle, CheckCircle2,
   TrendingUp, Play, Zap, ArrowRight, ExternalLink,
@@ -19,6 +19,16 @@ export default function AIAnalysisPage() {
   const [preferredStore, setPreferredStore] = useState('Any');
   
   const [progressStages, setProgressStages] = useState([]);
+
+  const { data: searchSuggestions } = useQuery({
+    queryKey: ['suggestions', inputData],
+    queryFn: async () => {
+      if (inputData.length < 3 || inputData.startsWith('http')) return [];
+      const res = await apiClient.get(`/products?q=${encodeURIComponent(inputData)}`);
+      return res.data.data || [];
+    },
+    enabled: inputData.length >= 3 && !inputData.startsWith('http'),
+  });
 
   const mutation = useMutation({
     mutationFn: async (payload) => {
@@ -99,14 +109,25 @@ export default function AIAnalysisPage() {
                 <label className="block text-xs font-bold text-ink-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
                   <Search className="h-3.5 w-3.5 text-accent-600" /> Product Name, Model, or Store URL
                 </label>
-                <input
-                  type="text"
-                  placeholder="e.g. Samsung Galaxy S25 Ultra OR https://www.amazon.in/dp/..."
-                  className="input-field text-xs py-2 w-full"
-                  value={inputData}
-                  onChange={(e) => setInputData(e.target.value)}
-                  disabled={isLoading}
-                />
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="e.g. Samsung Galaxy S25 Ultra OR https://www.amazon.in/dp/..."
+                    className="input-field text-xs py-2 w-full"
+                    value={inputData}
+                    onChange={(e) => setInputData(e.target.value)}
+                    disabled={isLoading}
+                    list="product-suggestions"
+                    autoComplete="off"
+                  />
+                  {inputData.length > 2 && !inputData.startsWith('http') && searchSuggestions && searchSuggestions.length > 0 && (
+                    <datalist id="product-suggestions">
+                      {searchSuggestions.slice(0, 10).map((prod) => (
+                        <option key={prod._id} value={prod.name} />
+                      ))}
+                    </datalist>
+                  )}
+                </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
