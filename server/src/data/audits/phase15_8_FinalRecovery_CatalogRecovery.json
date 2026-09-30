@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "IDENTITY": {
+      "EXACT": 0,
+      "REGIONAL": 0,
+      "PARTIAL": 112,
+      "UNRESOLVED": 675,
+      "CONFLICTED": 0
+    },
+    "IMAGES": {
+      "EXACT": 0,
+      "REGIONAL": 0,
+      "PENDING": 787,
+      "WRONG": 0,
+      "GENERIC": 0,
+      "DUPLICATE": 0
+    },
+    "MARKETPLACE": {
+      "VERIFIED": 0,
+      "UNVERIFIED": 0,
+      "BROKEN": 0,
+      "WRONG_PRODUCT": 0,
+      "SYNTHETIC": 1006
+    },
+    "PRICES": {
+      "VERIFIED": 0,
+      "UNAVAILABLE": 1006,
+      "FABRICATED": 0
+    },
+    "DEALS": {
+      "ELIGIBLE": 0,
+      "SUPPRESSED": 1006
+    }
+  },
+  "itemsProcessed": 787
+}
