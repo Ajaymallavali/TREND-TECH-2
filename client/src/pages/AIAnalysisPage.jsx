@@ -53,7 +53,7 @@ export default function AIAnalysisPage() {
 
   const handleSubmit = (e) => {
     if (e) e.preventDefault();
-    if (!inputData.trim()) return;
+    if (mutation.isPending || !inputData.trim()) return;
 
     let payload = { description: contextData, preferredStore: preferredStore };
     const isUrl = inputData.startsWith('http://') || inputData.startsWith('https://');
