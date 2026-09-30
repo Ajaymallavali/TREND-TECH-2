@@ -6,7 +6,7 @@ import {
   TrendingUp, Play, Zap, ArrowRight, ExternalLink,
   ShieldAlert, ShieldCheck, HelpCircle, Activity
 } from 'lucide-react';
-import apiClient from '../lib/apiClient';
+import { apiClient } from '../services/apiClient';
 
 function formatINR(price) {
   if (price == null) return 'Unavailable';
@@ -147,7 +147,21 @@ export default function AIAnalysisPage() {
         </section>
 
         {/* ERROR STATE */}
-        {!isLoading && data && data.status !== 'SUCCESS' && (
+        {!isLoading && mutation.isError && (
+          <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-4">
+            <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
+            <h2 className="text-lg font-black text-red-900">Unable to analyze this product right now.</h2>
+            <p className="text-sm text-red-700 font-medium">
+              Please check your connection or try again later.
+            </p>
+            <button onClick={handleSubmit} className="btn-primary py-2 px-6 text-xs mt-2">
+              Retry
+            </button>
+          </section>
+        )}
+
+        {/* LOGICAL ERROR STATE */}
+        {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && (
           <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-3">
             <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
             <h2 className="text-lg font-black text-red-900">{data.status === 'INVALID_URL' ? 'Invalid Product URL' : 'Product Not Found'}</h2>
@@ -158,7 +172,7 @@ export default function AIAnalysisPage() {
         )}
 
         {/* SUCCESS RESULT STATE */}
-        {!isLoading && data && data.status === 'SUCCESS' && data.product && (
+        {!isLoading && !mutation.isError && data && data.status === 'SUCCESS' && data.product && (
           <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
             
             {/* 1. PRODUCT IDENTIFIED */}
