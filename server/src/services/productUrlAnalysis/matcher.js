@@ -146,15 +146,11 @@ export async function findProductByUrlOrQuery(storeUrl, query) {
       const exactNameMatch = products.find(p => p.name.toLowerCase() === cleanQuery);
       if (exactNameMatch) {
         product = exactNameMatch;
-      } else {
-        // Find best match by prioritizing those with IDENTITY_VERIFIED
-        products.sort((a, b) => {
-          if (a.identityStatus === 'IDENTITY_VERIFIED' && b.identityStatus !== 'IDENTITY_VERIFIED') return -1;
-          if (b.identityStatus === 'IDENTITY_VERIFIED' && a.identityStatus !== 'IDENTITY_VERIFIED') return 1;
-          // Sort by name length closest to query length
-          return Math.abs(a.name.length - cleanQuery.length) - Math.abs(b.name.length - cleanQuery.length);
-        });
+      } else if (products.length === 1) {
         product = products[0];
+      } else {
+        // Partial match: return array
+        return products.slice(0, 5); // Return top 5 matches
       }
     }
   }

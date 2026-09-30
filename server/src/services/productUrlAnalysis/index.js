@@ -65,6 +65,15 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
   }
 
   let product = await findProductByUrlOrQuery(url, query);
+  
+  if (Array.isArray(product)) {
+    return {
+      status: 'PARTIAL_MATCH',
+      message: 'Multiple matching products found. Please clarify your request.',
+      candidates: product
+    };
+  }
+
   let isExternalLiveResult = false;
   let externalData = null;
   
