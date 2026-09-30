@@ -1,0 +1,548 @@
+{
+  "invariants": {
+    "Products": 867,
+    "MarketplaceProducts": 1181,
+    "PriceHistory": 559
+  },
+  "acRecords": [
+    {
+      "productId": "6a9904e369652590e0aadd90",
+      "name": "Air Conditioners Blue Star",
+      "brand": "Blue Star",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Blue Star from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Blue Star",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd91"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD90"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd94",
+      "name": "Air Conditioners Carrier",
+      "brand": "Carrier",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Carrier from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Carrier",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd95"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD94"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd88",
+      "name": "Air Conditioners Daikin",
+      "brand": "Daikin",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Daikin from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Daikin",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd89"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD88"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd9c",
+      "name": "Air Conditioners Godrej",
+      "brand": "Godrej",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Godrej from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Godrej",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd9d"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD9C"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd9e",
+      "name": "Air Conditioners Haier",
+      "brand": "Haier",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Haier from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Haier",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd9f"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD9E"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd96",
+      "name": "Air Conditioners Hitachi",
+      "brand": "Hitachi",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Hitachi from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Hitachi",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd97"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD96"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8a",
+      "name": "Air Conditioners LG",
+      "brand": "LG",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners LG from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners LG",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd8b"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD8A"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd98",
+      "name": "Air Conditioners Lloyd",
+      "brand": "Lloyd",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Lloyd from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Lloyd",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd99"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD98"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadda2",
+      "name": "Air Conditioners Mitsubishi Electric",
+      "brand": "Mitsubishi Electric",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Mitsubishi Electric from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Mitsubishi Electric",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadda3"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADDA2"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadda0",
+      "name": "Air Conditioners O General",
+      "brand": "O General",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners O General from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners O General",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadda1"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADDA0"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd92",
+      "name": "Air Conditioners Panasonic",
+      "brand": "Panasonic",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Panasonic from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Panasonic",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd93"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD92"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8c",
+      "name": "Air Conditioners Samsung",
+      "brand": "Samsung",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Samsung from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Samsung",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd8d"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD8C"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadda4",
+      "name": "Air Conditioners Toshiba",
+      "brand": "Toshiba",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Toshiba from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Toshiba",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadda5"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADDA4"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd8e",
+      "name": "Air Conditioners Voltas",
+      "brand": "Voltas",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Voltas from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Voltas",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd8f"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD8E"
+      ],
+      "price": [
+        2999
+      ]
+    },
+    {
+      "productId": "6a9904e369652590e0aadd9a",
+      "name": "Air Conditioners Whirlpool",
+      "brand": "Whirlpool",
+      "category": "air-conditioner",
+      "productType": "Air Conditioner",
+      "model": "UNVERIFIED",
+      "description": "Experience the new Air Conditioners Whirlpool from Air Conditioners. Features cutting-edge technology and premium build quality.",
+      "specifications": {
+        "Model": "Air Conditioners Whirlpool",
+        "Brand": "Air Conditioners",
+        "Category": "Electronics",
+        "Warranty": "1 Year Manufacturer",
+        "Release Year": "2024",
+        "Quality": "Premium"
+      },
+      "identityStatus": "IDENTITY_UNVERIFIED",
+      "imageStatus": "IMAGE_PENDING",
+      "imagePath": null,
+      "marketplaceIds": [
+        "6a9904e369652590e0aadd9b"
+      ],
+      "urls": [
+        "https://www.amazon.in/dp/B06A9904E369652590E0AADD9A"
+      ],
+      "price": [
+        2999
+      ]
+    }
+  ],
+  "verifiedState": {
+    "6a9904e369652590e0aadca2": {
+      "brand": "ASUS",
+      "hash": "d4d91bf246703a54f41d61fbdbe5e66624b463930a16252ebb8012691bc90be8",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711529/trend-tech/products/6a9904e369652590e0aadca2_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6a9904e369652590e0aadca4": {
+      "brand": "ASUS",
+      "hash": "c9ca7fb0670cd6cc1324309c2c245b9fc651280450e0dc955c58cae926f89993",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711530/trend-tech/products/6a9904e369652590e0aadca4_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6a9904e369652590e0aadcaa": {
+      "brand": "ASUS",
+      "hash": "98d2500400eba7f2d8794217e49c49440f502526af9f2a32000cea949809536c",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711534/trend-tech/products/6a9904e369652590e0aadcaa_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaa6e": {
+      "brand": "ASUS",
+      "hash": "2c40d5cf471eb30feaef8e12a538a9e687c72ce97d5deabd4376258cad5f6542",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711645/trend-tech/products/6aa06057af8879d815dcaa6e_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaa7d": {
+      "brand": "ASUS",
+      "hash": "ec10409638003a35e559e735d45dc762ab9c2f118bddd2872a28d53ec9379811",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711647/trend-tech/products/6aa06057af8879d815dcaa7d_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaa8c": {
+      "brand": "ASUS",
+      "hash": "3291ccb75fc55babf04bd92949090977e8c0eff682f0c90dc54734fb348d7a59",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711653/trend-tech/products/6aa06057af8879d815dcaa8c_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaaa9": {
+      "brand": "ASUS",
+      "hash": "3d7b39ecb274ddb15671e9d5182c76dde3ebbb22fe83df9e95aad731fccf1e94",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711655/trend-tech/products/6aa06057af8879d815dcaaa9_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcae0f": {
+      "brand": "Anker",
+      "hash": "377d21b2d19142553ced17a5ecffe0b639cb1273a57e30816d0dd8c9d94ac92e",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711716/trend-tech/products/6aa06057af8879d815dcae0f_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaef0": {
+      "brand": "Amazfit",
+      "hash": "654d7212a5b1a57944fcde3e2e049c38c1980e8ce765b76fef06400281a14d99",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711784/trend-tech/products/6aa06057af8879d815dcaef0_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaeff": {
+      "brand": "Amazfit",
+      "hash": "c3b743061dda6cd97de087c8434dc5809ac104d27a54533375c778c3297333e9",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711786/trend-tech/products/6aa06057af8879d815dcaeff_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcaf0e": {
+      "brand": "Amazfit",
+      "hash": "1b42af75413643aeca5872f60de52c44049e3ac54f34ce55a26db7bca48c661e",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711787/trend-tech/products/6aa06057af8879d815dcaf0e_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcb00d": {
+      "brand": "ASUS",
+      "hash": "de699c6765bf46c2d0fbc7385c35b997307593705e0b9b6a6305c68cfdeaa883",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711788/trend-tech/products/6aa06057af8879d815dcb00d_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcb01c": {
+      "brand": "ASUS",
+      "hash": "3967d2e44715553ca022db3df5fad6b0e581621cd85882f6922ea9e85702c8cd",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711790/trend-tech/products/6aa06057af8879d815dcb01c_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcb02b": {
+      "brand": "ASUS",
+      "hash": "a356c757efa9913acc0fde006d4cc419b6cd66f03c6fe6d0325b3cb5efbc0925",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711792/trend-tech/products/6aa06057af8879d815dcb02b_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06057af8879d815dcb076": {
+      "brand": "AOC",
+      "hash": "2ee42ffbf65bf036126b9bdabe2000ed6e0e96444b49e8fd4e865f72517a85e9",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711795/trend-tech/products/6aa06057af8879d815dcb076_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06058af8879d815dcb3cd": {
+      "brand": "ASUS",
+      "hash": "ccd2750782bc7af2277db523c72fd8f33857971d689b850a53f05d8cc78deb08",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711840/trend-tech/products/6aa06058af8879d815dcb3cd_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    },
+    "6aa06058af8879d815dcb3dc": {
+      "brand": "ASUS",
+      "hash": "cbb884b886845a0196aa03084445948a27b6c42eb5c432fef514353b7705ea0c",
+      "image": "https://res.cloudinary.com/ffjt1wkl/image/upload/v1790711842/trend-tech/products/6aa06058af8879d815dcb3dc_primary.png",
+      "identityStatus": "IDENTITY_VERIFIED"
+    }
+  }
+}

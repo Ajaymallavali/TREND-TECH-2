@@ -1,0 +1,44 @@
+{
+  "AC_Records": 15,
+  "Identity": {
+    "EXACT": 0,
+    "REGIONAL": 0,
+    "PARTIAL": 0,
+    "UNRESOLVED": 15,
+    "CONFLICTED": 0
+  },
+  "Images": {
+    "EXACT": 0,
+    "REGIONAL": 0,
+    "PENDING": 15,
+    "WRONG_MODEL": 0,
+    "GENERIC": 0,
+    "DUPLICATE": 0
+  },
+  "Marketplace": {
+    "REAL_VERIFIED": 0,
+    "UNVERIFIED": 0,
+    "SYNTHETIC": 15,
+    "BROKEN": 0,
+    "WRONG_PRODUCT": 0
+  },
+  "Prices": {
+    "VERIFIED": 0,
+    "UNAVAILABLE": 15,
+    "FABRICATED": 0
+  },
+  "Deals": {
+    "ELIGIBLE": 0,
+    "SUPPRESSED": 15
+  },
+  "Redirects": {
+    "VALID": 0,
+    "INVALID": 0,
+    "SYNTHETIC": 15,
+    "BROKEN": 0
+  },
+  "RefrigeratorStatus": {
+    "existingRecords": 0,
+    "recoveryAction": "NO_SYNTHETIC_CREATION"
+  }
+}
