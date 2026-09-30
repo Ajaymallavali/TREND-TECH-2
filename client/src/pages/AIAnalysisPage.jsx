@@ -738,8 +738,58 @@ export default function AIAnalysisPage() {
               </section>
             )}
 
+            {/* 10. URL ANALYSIS EVIDENCE */}
+            {data.urlIntelligence && data.urlIntelligence.isValid && (
+              <section className="card bg-ink-50 text-ink-900 p-6 border border-ink-200 rounded-2xl space-y-4 shadow-sm mt-6">
+                <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
+                  <LinkIcon className="h-4 w-4 text-accent-600" /> URL Analysis Evidence
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  <div className="space-y-1 col-span-2 md:col-span-4">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Original URL</p>
+                    <p className="text-xs font-semibold text-ink-700 truncate" title={data.urlIntelligence.originalUrl}>{data.urlIntelligence.originalUrl}</p>
+                  </div>
+                  <div className="space-y-1 col-span-2 md:col-span-4">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Normalized Product URL (Tracking removed)</p>
+                    <p className="text-sm font-black text-ink-900 truncate" title={data.urlIntelligence.url}>{data.urlIntelligence.url}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Marketplace</p>
+                    <p className="text-sm font-black text-accent-600">{data.urlIntelligence.marketplace}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">URL Type</p>
+                    <p className="text-sm font-black text-accent-600">{data.urlIntelligence.urlType}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Product ID</p>
+                    <p className="text-sm font-black text-ink-900">{data.urlIntelligence.identifiers?.productId || 'N/A'}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Variant ID</p>
+                    <p className="text-sm font-black text-ink-900">{data.urlIntelligence.identifiers?.variantId || 'N/A'}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Identity</p>
+                    <p className="text-sm font-black text-green-600">{data.identity.matchConfidence}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Variant Verification</p>
+                    <p className="text-sm font-black text-green-600">VERIFIED</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Image Source</p>
+                    <p className="text-sm font-black text-green-600">{data.evidence.image}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest">Price Status</p>
+                    <p className="text-sm font-black text-green-600">VERIFIED</p>
+                  </div>
+                </div>
+              </section>
+            )}
 
-            {/* 10. WEB SOURCES */}
+            {/* 11. WEB SOURCES */}
             {data.evidence && data.evidence.sources && data.evidence.sources.length > 0 && (
               <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
                 <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">

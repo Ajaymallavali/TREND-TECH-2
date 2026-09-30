@@ -15,20 +15,89 @@ export function validateStoreUrl(storeUrl) {
       return { isValid: false, reason: 'Only HTTPS protocol is supported' };
     }
     
-    // Check if domain ends with one of the approved domains
-    const hostname = parsed.hostname.toLowerCase();
+    let hostname = parsed.hostname.toLowerCase();
+    if (hostname.startsWith('www.')) {
+      hostname = hostname.substring(4);
+    }
+    
     const isApproved = APPROVED_DOMAINS.some(d => hostname === d || hostname.endsWith(`.${d}`));
     
     if (!isApproved) {
       return { isValid: false, reason: 'Domain not in approved marketplace list' };
     }
     
-    // Basic structural checks to reject homepage/search
-    if (parsed.pathname === '/' || parsed.pathname.includes('/search') || parsed.pathname.toLowerCase().includes('/s?k=')) {
-      return { isValid: false, reason: 'URL appears to be a homepage or search page, not a product page' };
+    let marketplace = 'Unknown';
+    if (hostname.includes('amazon')) marketplace = 'Amazon';
+    else if (hostname.includes('flipkart')) marketplace = 'Flipkart';
+    else if (hostname.includes('myntra')) marketplace = 'Myntra';
+    else if (hostname.includes('ajio')) marketplace = 'Ajio';
+    else if (hostname.includes('nykaa')) marketplace = 'Nykaa';
+    else if (hostname.includes('croma')) marketplace = 'Croma';
+    else if (hostname.includes('apple')) marketplace = 'Apple';
+    else if (hostname.includes('samsung')) marketplace = 'Samsung';
+    else if (hostname.includes('reliancedigital')) marketplace = 'Reliance Digital';
+    
+    let urlType = 'UNKNOWN PAGE';
+    let productId = null;
+    let variantId = null;
+    
+    const pathname = parsed.pathname;
+    
+    // Determine type & identifiers
+    if (pathname === '/' || pathname === '') {
+      urlType = 'HOME PAGE';
+    } else if (pathname.includes('/search') || (pathname.toLowerCase().includes('/s') && parsed.searchParams.has('k'))) {
+      urlType = 'PRODUCT SEARCH PAGE';
+    } else if (pathname.includes('/c/') || pathname.includes('/category/')) {
+      urlType = 'CATEGORY PAGE';
+    } else if (pathname.includes('/seller/') || pathname.includes('/store/')) {
+      urlType = 'SELLER PAGE';
+    } else {
+      urlType = 'EXACT PRODUCT PAGE';
+      
+      if (marketplace === 'Amazon') {
+        const dpMatch = pathname.match(/\/(dp|gp\/product)\/([A-Z0-9]{10})/i);
+        if (dpMatch) productId = dpMatch[2]; // ASIN
+      } else if (marketplace === 'Flipkart') {
+        const pidMatch = parsed.searchParams.get('pid');
+        if (pidMatch) productId = pidMatch;
+        const lidMatch = parsed.searchParams.get('lid');
+        if (lidMatch) variantId = lidMatch;
+      }
     }
     
-    return { isValid: true, domain: hostname, url: parsed.toString() };
+    if (urlType !== 'EXACT PRODUCT PAGE') {
+      return { isValid: false, reason: `URL Type: ${urlType}. Product URL required.` };
+    }
+    
+    // Normalization: strip tracking params
+    const safeParams = ['pid', 'lid', 'id', 'sku', 'variant'];
+    const keysToDelete = [];
+    for (const key of parsed.searchParams.keys()) {
+      if (!safeParams.includes(key.toLowerCase())) {
+        keysToDelete.push(key);
+      }
+    }
+    keysToDelete.forEach(k => parsed.searchParams.delete(k));
+    
+    // Remove trailing slash
+    let normalizedUrl = parsed.toString();
+    if (normalizedUrl.endsWith('/')) {
+      normalizedUrl = normalizedUrl.slice(0, -1);
+    }
+    
+    return {
+      isValid: true,
+      domain: hostname,
+      url: normalizedUrl,
+      originalUrl: storeUrl,
+      marketplace,
+      urlType,
+      identifiers: {
+        productId,
+        variantId
+      }
+    };
   } catch (e) {
     return { isValid: false, reason: 'Malformed URL' };
   }

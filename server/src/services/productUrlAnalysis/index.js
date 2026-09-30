@@ -212,6 +212,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       sources: externalData.sources || [],
       dealMetrics,
       dealScanner,
+      urlIntelligence: url ? validationResult : null,
       analysis: {
         performance: 80, value: 80, overall: 80, build: 80, reliable: 80
       }
@@ -500,6 +501,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       verifiedOffers: marketplaces.filter(m => m.isVerified).length,
       sources: ["Local Verified Catalog"]
     },
+    urlIntelligence: url ? validationResult : null,
     dealMetrics,
     dealScanner,
     analysis: aiScores
