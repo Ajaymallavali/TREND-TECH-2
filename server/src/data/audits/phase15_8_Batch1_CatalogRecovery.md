@@ -1,0 +1,552 @@
+# Phase 15.8 Catalog Recovery - Batch1
+
+### 6a9904e469652590e0aae054
+- **Brand**: UNKNOWN
+- **Category**: accessories
+- **ProductType**: undefined
+- **OriginalName**: Bags & Travel Suitcase
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E469652590E0AAE054
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade70
+- **Brand**: UNKNOWN
+- **Category**: accessories
+- **ProductType**: undefined
+- **OriginalName**: Computer Accessories Laptop stand
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE70
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade6e
+- **Brand**: UNKNOWN
+- **Category**: accessories
+- **ProductType**: undefined
+- **OriginalName**: Computer Accessories Power bank
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE6E
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade26
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras 360 camera
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE26
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade10
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Canon
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE10
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade20
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras DJI
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE20
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade2e
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Dash camera
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE2E
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade30
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Drone camera
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE30
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade16
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Fujifilm
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE16
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade1e
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras GoPro
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE1E
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade22
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Insta360
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE22
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade28
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Instant camera
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE28
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade24
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Kodak
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE24
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade1c
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Leica
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE1C
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade12
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Nikon
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE12
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade1a
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Olympus/OM System
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE1A
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade18
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Panasonic Lumix
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE18
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade2c
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Security camera
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE2C
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade14
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Sony
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE14
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6a9904e369652590e0aade2a
+- **Brand**: UNKNOWN
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Cameras Webcam
+- **ResolvedModel**: UNRESOLVED
+- **IdentityStatus**: IDENTITY_UNRESOLVED
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B06A9904E369652590E0AADE2A
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_UNRESOLVED
+- **Reason**: Generic category placeholder without specific model evidence
+
+### 6aa06058af8879d815dcb265
+- **Brand**: Canon
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Canon EOS R5 Mark II 45MP
+- **ResolvedModel**: EOS R5 Mark II
+- **IdentityStatus**: IDENTITY_PARTIAL
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B00CM7, https://www.croma.com/search?q=Canon%20EOS%20R5%20Mark%20II%2045MP
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_PARTIAL
+- **Reason**: Model identifiable but missing exact official image and valid URL
+
+### 6aa06058af8879d815dcb274
+- **Brand**: Canon
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Canon EOS R50 Vlogging Camera
+- **ResolvedModel**: EOS R50
+- **IdentityStatus**: IDENTITY_PARTIAL
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B00CM8, https://www.croma.com/search?q=Canon%20EOS%20R50%20Vlogging%20Camera
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_PARTIAL
+- **Reason**: Model identifiable but missing exact official image and valid URL
+
+### 6aa06058af8879d815dcb247
+- **Brand**: Canon
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Canon EOS R6 Mark II Mirrorless
+- **ResolvedModel**: EOS R6 Mark II
+- **IdentityStatus**: IDENTITY_PARTIAL
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B00CM5, https://www.croma.com/search?q=Canon%20EOS%20R6%20Mark%20II%20Mirrorless
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_PARTIAL
+- **Reason**: Model identifiable but missing exact official image and valid URL
+
+### 6aa06058af8879d815dcb256
+- **Brand**: Canon
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: Canon EOS R8 Full-Frame
+- **ResolvedModel**: EOS R8
+- **IdentityStatus**: IDENTITY_PARTIAL
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B00CM6, https://www.croma.com/search?q=Canon%20EOS%20R8%20Full-Frame
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_PARTIAL
+- **Reason**: Model identifiable but missing exact official image and valid URL
+
+### 6aa06058af8879d815dcb328
+- **Brand**: DJI
+- **Category**: camera
+- **ProductType**: undefined
+- **OriginalName**: DJI Osmo Action 4 Camera
+- **ResolvedModel**: Osmo Action 4
+- **IdentityStatus**: IDENTITY_PARTIAL
+- **OfficialSource**: Missing
+- **ImageSource**: Pending
+- **ImageSHA256**: N/A
+- **ImageDimensions**: N/A
+- **ImageVerification**: PENDING
+- **Marketplace**: Various
+- **MarketplaceURL**: https://www.amazon.in/dp/B00CM20, https://www.croma.com/search?q=DJI%20Osmo%20Action%204%20Camera
+- **MarketplaceVerification**: SYNTHETIC
+- **Price**: UNAVAILABLE
+- **MRP**: UNAVAILABLE
+- **Discount**: UNAVAILABLE
+- **Savings**: UNAVAILABLE
+- **FinalStatus**: IDENTITY_PARTIAL
+- **Reason**: Model identifiable but missing exact official image and valid URL
+
