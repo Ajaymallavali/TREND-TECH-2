@@ -291,7 +291,7 @@ export default function AIAnalysisPage() {
                   <div className="mt-4">
                     {data.identity.status === 'EXTERNAL_LIVE_VERIFIED' ? (
                       <p className="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-2 rounded border border-amber-200 inline-block">
-                        External product — comparison available from verified web offers only.
+                        External web product — local catalog comparison unavailable.
                       </p>
                     ) : (
                       <Link to={`/compare?p1=${data.product._id}`} className="btn-outline px-4 py-2 text-xs inline-flex items-center gap-2">
@@ -377,35 +377,26 @@ export default function AIAnalysisPage() {
               </section>
             )}
 {/* 4 BEST METRICS CARDS */}
-            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.marketplaces && data.marketplaces.filter(mp => mp.isVerified).length > 0 && (() => {
-              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available');
-              if (verifiedOffers.length === 0) return null;
-              
-              const bestPrice = Math.min(...verifiedOffers.map(o => o.price));
-              const bestDiscount = Math.max(...verifiedOffers.map(o => o.discountPercentage || 0));
-              const bestSavings = Math.max(...verifiedOffers.map(o => o.savings || 0));
-              
-              return (
-                <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Price</span>
-                    <span className="text-xl font-black text-ink-900">{formatINR(bestPrice)}</span>
-                  </div>
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Discount</span>
-                    <span className="text-xl font-black text-ink-900">{bestDiscount > 0 ? `${bestDiscount}% OFF` : 'N/A'}</span>
-                  </div>
-                  <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
-                    <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Savings</span>
-                    <span className="text-xl font-black text-ink-900">{bestSavings > 0 ? formatINR(bestSavings) : 'N/A'}</span>
-                  </div>
-                  <div className="card bg-white p-5 border-accent-200 rounded-2xl flex flex-col justify-center bg-accent-50">
-                    <span className="text-[10px] font-bold text-accent-700 uppercase tracking-widest mb-1">Best Verified Deal</span>
-                    <span className="text-xl font-black text-accent-900 truncate">{data.bestDeal ? data.bestDeal.marketplace : 'None'}</span>
-                  </div>
-                </section>
-              );
-            })()}
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.dealMetrics && (
+              <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                  <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Price</span>
+                  <span className="text-xl font-black text-ink-900">{formatINR(data.dealMetrics.bestPrice)}</span>
+                </div>
+                <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                  <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Discount</span>
+                  <span className="text-xl font-black text-ink-900">{data.dealMetrics.bestDiscount ? `${data.dealMetrics.bestDiscount}% OFF` : 'N/A'}</span>
+                </div>
+                <div className="card bg-white p-5 border border-ink-100 rounded-2xl flex flex-col justify-center">
+                  <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Savings</span>
+                  <span className="text-xl font-black text-ink-900">{data.dealMetrics.bestSavings ? formatINR(data.dealMetrics.bestSavings) : 'N/A'}</span>
+                </div>
+                <div className="card bg-white p-5 border-accent-200 rounded-2xl flex flex-col justify-center bg-accent-50">
+                  <span className="text-[10px] font-bold text-accent-700 uppercase tracking-widest mb-1">Best Verified Deal</span>
+                  <span className="text-xl font-black text-accent-900 truncate">{data.bestDeal ? data.bestDeal.marketplace : 'None'}</span>
+                </div>
+              </section>
+            )}
 {/* PREFERRED STORE SECTION */}
             {data.preferredDeal && data.bestDeal && data.preferredDeal.marketplace !== data.bestDeal.marketplace && (
               <section className="bg-white p-6 border border-ink-100 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
@@ -516,44 +507,36 @@ export default function AIAnalysisPage() {
             </section>
 
             {/* 7. HOW THE DEAL WAS CALCULATED */}
-            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.bestDeal && data.marketplaces.filter(mp => mp.isVerified && mp.price).length > 1 && (() => {
-              const verifiedOffers = data.marketplaces.filter(mp => mp.isVerified && mp.price && mp.availability === 'Available').sort((a,b) => b.price - a.price);
-              const highest = verifiedOffers[0];
-              const lowest = data.bestDeal;
-              if (highest && lowest && highest.price > lowest.price) {
-                return (
-                  <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
-                    <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
-                      <Zap className="h-4 w-4 text-accent-600" /> How the deal was calculated
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center bg-ink-50 p-6 rounded-xl border border-ink-100">
-                      <div className="text-center md:text-left">
-                        <p className="text-[10px] font-bold text-ink-500 uppercase">Highest Verified Offer</p>
-                        <p className="text-lg font-black text-ink-900 mt-1">{highest.marketplace}</p>
-                        <p className="text-xl font-bold text-ink-700">{formatINR(highest.price)}</p>
-                      </div>
-                      <div className="flex flex-col items-center justify-center">
-                        <span className="text-[10px] font-bold text-ink-400 uppercase mb-2">Difference</span>
-                        <div className="bg-white border border-ink-200 px-4 py-2 rounded-full font-black text-accent-700 shadow-sm whitespace-nowrap">
-                          {formatINR(highest.price)} - {formatINR(lowest.price)} = {formatINR(highest.price - lowest.price)}
-                        </div>
-                      </div>
-                      <div className="text-center md:text-right">
-                        <p className="text-[10px] font-bold text-ink-500 uppercase">Lowest Verified Offer</p>
-                        <p className="text-lg font-black text-accent-700 mt-1">{lowest.marketplace}</p>
-                        <p className="text-xl font-bold text-accent-700">{formatINR(lowest.price)}</p>
-                      </div>
+            {(data.identity.matchConfidence === 'EXACT' || data.identity.status === 'IDENTITY_VERIFIED' || data.identity.status === 'EXTERNAL_LIVE_VERIFIED') && data.dealMetrics && data.dealMetrics.difference > 0 && (
+              <section className="card bg-white p-6 border border-ink-100 rounded-2xl space-y-4">
+                <h3 className="text-xs font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
+                  <Zap className="h-4 w-4 text-accent-600" /> How the deal was calculated
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center bg-ink-50 p-6 rounded-xl border border-ink-100">
+                  <div className="text-center md:text-left">
+                    <p className="text-[10px] font-bold text-ink-500 uppercase">Highest Verified Offer</p>
+                    <p className="text-lg font-black text-ink-900 mt-1">{data.dealMetrics.highestVerifiedOffer.marketplace}</p>
+                    <p className="text-xl font-bold text-ink-700">{formatINR(data.dealMetrics.highestVerifiedOffer.price)}</p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center">
+                    <span className="text-[10px] font-bold text-ink-400 uppercase mb-2">Difference</span>
+                    <div className="bg-white border border-ink-200 px-4 py-2 rounded-full font-black text-accent-700 shadow-sm whitespace-nowrap">
+                      {formatINR(data.dealMetrics.highestVerifiedOffer.price)} - {formatINR(data.dealMetrics.lowestVerifiedOffer.price)} = {formatINR(data.dealMetrics.difference)}
                     </div>
-                    <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
-                      <p className="text-sm font-semibold text-green-900">
-                        <strong className="font-black">Why this is the best verified deal:</strong> Among the verified marketplace offers returned for the exact product and variant, {lowest.marketplace} has the lowest current verified price.
-                      </p>
-                    </div>
-                  </section>
-                );
-              }
-              return null;
-            })()}
+                  </div>
+                  <div className="text-center md:text-right">
+                    <p className="text-[10px] font-bold text-ink-500 uppercase">Lowest Verified Offer</p>
+                    <p className="text-lg font-black text-accent-700 mt-1">{data.dealMetrics.lowestVerifiedOffer.marketplace}</p>
+                    <p className="text-xl font-bold text-accent-700">{formatINR(data.dealMetrics.lowestVerifiedOffer.price)}</p>
+                  </div>
+                </div>
+                <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
+                  <p className="text-sm font-semibold text-green-900">
+                    <strong className="font-black">Why this is the best verified deal:</strong> Among the verified marketplace offers returned for the exact product and variant, {data.dealMetrics.lowestVerifiedOffer.marketplace} has the lowest current verified price.
+                  </p>
+                </div>
+              </section>
+            )}
 
 {/* AI RESEARCH SECTIONS */}
             {data.research && (

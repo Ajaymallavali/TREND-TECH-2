@@ -2,6 +2,40 @@ import mongoose from 'mongoose';
 import { validateStoreUrl, findProductByUrlOrQuery } from './matcher.js';
 import { computeAIScores } from '../aiWorkflow.service.js';
 
+function detectIntent(q, u) {
+  if (u || (q && q.includes('http'))) return 'URL_ANALYSIS';
+  if (!q) return 'PRODUCT_SEARCH';
+  const queryLower = q.toLowerCase();
+  if (queryLower.includes('compare') || queryLower.includes('vs')) return 'PRICE_COMPARISON';
+  if (queryLower.includes('best') || queryLower.includes('under') || queryLower.includes('cheap')) return 'DEAL_SEARCH';
+  return 'PRODUCT_SEARCH';
+}
+
+function calculateDealMetrics(verifiedOffers, bestDeal) {
+  if (!verifiedOffers || verifiedOffers.length === 0) return null;
+  const bestPrice = Math.min(...verifiedOffers.map(o => o.price));
+  const bestDiscount = Math.max(...verifiedOffers.map(o => o.discountPercentage || 0));
+  const bestSavings = Math.max(...verifiedOffers.map(o => o.savings || 0));
+  
+  const sorted = [...verifiedOffers].sort((a,b) => b.price - a.price);
+  const highestOffer = sorted[0];
+  const lowestOffer = bestDeal || sorted[sorted.length - 1];
+  
+  let difference = null;
+  if (highestOffer && lowestOffer && highestOffer.price > lowestOffer.price) {
+    difference = highestOffer.price - lowestOffer.price;
+  }
+
+  return {
+    bestPrice,
+    bestDiscount: bestDiscount > 0 ? bestDiscount : null,
+    bestSavings: bestSavings > 0 ? bestSavings : null,
+    highestVerifiedOffer: highestOffer ? { marketplace: highestOffer.marketplace, price: highestOffer.price } : null,
+    lowestVerifiedOffer: lowestOffer ? { marketplace: lowestOffer.marketplace, price: lowestOffer.price } : null,
+    difference
+  };
+}
+
 export async function analyzeProductWorkflow({ query, url, reelUrl, description, preferredStore }) {
   const Product = mongoose.model('Product');
   const MarketplaceProduct = mongoose.model('MarketplaceProduct');
@@ -107,6 +141,8 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       sourcePrice = externalData.sourceMarketplace.price;
     }
 
+    const dealMetrics = calculateDealMetrics(formattedMarketplaces.filter(m => m.isVerified && m.price && m.availability === 'Available'), bestExternalDeal);
+
     return {
       status: 'SUCCESS_EXTERNAL',
       sourceInfo: {
@@ -148,7 +184,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       },
       evidence: {
         input: query || url || "Unknown",
-        intent: url ? "URL_ANALYSIS" : "PRODUCT_SEARCH",
+        intent: detectIntent(query, url),
         researchMode: "EXTERNAL_WEB",
         identity: "EXACT",
         variant: "VERIFIED",
@@ -158,6 +194,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
         sources: externalData.sources || []
       },
       sources: externalData.sources || [],
+      dealMetrics,
       analysis: {
         performance: 80, value: 80, overall: 80, build: 80, reliable: 80
       }
@@ -284,6 +321,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     }
   }
 
+  const dealMetrics = calculateDealMetrics(marketplaces.filter(m => m.isVerified && m.price && m.availability === 'Available'), bestDeal);
   const aiScores = computeAIScores(product, marketplaces, lowestVerifiedPrice === Infinity ? null : lowestVerifiedPrice);
   
   // Basic AI Verdict logic
@@ -365,7 +403,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     },
     evidence: {
       input: query || url || "Unknown",
-      intent: url ? "URL_ANALYSIS" : "PRODUCT_SEARCH",
+      intent: detectIntent(query, url),
       researchMode: "LOCAL_CATALOG",
       identity: product.identityStatus === 'IDENTITY_VERIFIED' ? "EXACT" : "AMBIGUOUS",
       variant: "VERIFIED",
@@ -374,6 +412,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       verifiedOffers: marketplaces.filter(m => m.isVerified).length,
       sources: ["Local Verified Catalog"]
     },
+    dealMetrics,
     analysis: aiScores
   };
 }
