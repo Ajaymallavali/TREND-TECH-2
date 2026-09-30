@@ -56,6 +56,14 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     };
   }
 
+  if (!url && query) {
+    const { generateRecommendations } = await import('../recommendationEngine/index.js');
+    const recResult = await generateRecommendations(query);
+    if (recResult) {
+      return recResult;
+    }
+  }
+
   let product = await findProductByUrlOrQuery(url, query);
   let isExternalLiveResult = false;
   let externalData = null;

@@ -228,7 +228,7 @@ export default function AIAnalysisPage() {
         )}
 
         {/* LOGICAL ERROR STATE */}
-        {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && data.status !== 'SUCCESS_EXTERNAL' && (
+        {!isLoading && !mutation.isError && data && data.status !== 'SUCCESS' && data.status !== 'SUCCESS_EXTERNAL' && data.status !== 'RECOMMENDATION_SUCCESS' && data.status !== 'COMPARISON_SUCCESS' && (
           <section className="card bg-red-50 p-8 border border-red-200 rounded-2xl text-center space-y-3">
             <AlertTriangle className="h-10 w-10 text-red-500 mx-auto" />
             <h2 className="text-lg font-black text-red-900">
@@ -243,7 +243,7 @@ export default function AIAnalysisPage() {
         )}
 
         {/* SUCCESS RESULT STATE */}
-        {data && !isLoading && (
+        {data && !isLoading && (data.status === 'SUCCESS' || data.status === 'SUCCESS_EXTERNAL') && (
           <div className="space-y-8 animate-in fade-in duration-500">
             {/* SOURCE PRODUCT */}
             {data.urlIntelligence && data.urlIntelligence.isValid && data.sourceOffer && (
@@ -851,6 +851,150 @@ export default function AIAnalysisPage() {
 
           </div>
         )}
+
+        {/* RECOMMENDATION RESULT STATE */}
+        {data && !isLoading && data.status === 'RECOMMENDATION_SUCCESS' && (
+          <div className="space-y-8 animate-in fade-in duration-500">
+            {/* UNDERSTOOD REQUEST */}
+            <section className="card bg-ink-900 text-white p-6 md:p-8 rounded-2xl shadow-sm border border-ink-800">
+              <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest flex items-center gap-2 mb-4">
+                <Search className="h-4 w-4 text-accent-400" /> Understood Request
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div>
+                  <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest mb-1">Intent</p>
+                  <p className="text-sm font-black text-blue-400">{data.request.intent}</p>
+                </div>
+                <div>
+                  <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest mb-1">Category</p>
+                  <p className="text-sm font-black text-purple-400">{data.request.category || 'Any'}</p>
+                </div>
+                <div>
+                  <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest mb-1">Budget</p>
+                  <p className="text-sm font-black text-green-400">
+                    {data.request.budget ? (data.request.budget.maxPrice ? `Under ${formatINR(data.request.budget.maxPrice)}` : `Over ${formatINR(data.request.budget.minPrice)}`) : 'No limit'}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] text-ink-500 uppercase font-bold tracking-widest mb-1">Requirements</p>
+                  <div className="flex flex-wrap gap-1">
+                    {data.request.requirements && data.request.requirements.length > 0 ? (
+                      data.request.requirements.map((req, i) => (
+                        <span key={i} className="text-[10px] bg-ink-800 text-ink-200 px-2 py-0.5 rounded uppercase font-bold border border-ink-700">{req}</span>
+                      ))
+                    ) : (
+                      <span className="text-sm font-bold text-ink-400">None</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {data.recommendations && data.recommendations.length > 0 ? (
+              <div className="space-y-6">
+                <h3 className="text-lg font-black text-ink-900 uppercase tracking-widest flex items-center gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-green-600" /> Recommended Products
+                </h3>
+                {data.recommendations.map((rec, idx) => (
+                  <section key={rec.product._id} className="card bg-white p-6 border border-ink-200 rounded-2xl flex flex-col md:flex-row gap-6 items-center shadow-sm relative overflow-hidden">
+                    {idx === 0 && (
+                      <div className="absolute top-0 right-0 bg-gradient-to-l from-accent-600 to-accent-800 text-white text-[10px] font-black px-4 py-1.5 uppercase tracking-widest shadow-sm">
+                        Top Recommendation
+                      </div>
+                    )}
+                    <div className="w-full md:w-1/4 flex-shrink-0 bg-ink-50 p-4 rounded-xl border border-ink-100 flex items-center justify-center">
+                      <img src={rec.product.image} alt={rec.product.name} className="h-32 object-contain" />
+                    </div>
+                    <div className="flex-1 space-y-3">
+                      <div>
+                        <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest">{rec.product.brand} • #{rec.rank} Match</span>
+                        <h4 className="text-xl font-black text-ink-900">{rec.product.name}</h4>
+                        {rec.requirementMatch && rec.requirementMatch.length > 0 && (
+                          <div className="flex flex-wrap gap-2 mt-2">
+                            {rec.requirementMatch.map(rm => (
+                              <span key={rm} className="text-[10px] bg-green-50 text-green-700 border border-green-200 px-2 py-1 rounded-md uppercase font-bold flex items-center gap-1">
+                                <CheckCircle2 className="h-3 w-3" /> {rm}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                        <p className="text-sm text-ink-600 font-medium mt-2">{rec.explanation}</p>
+                      </div>
+                    </div>
+                    <div className="w-full md:w-1/4 flex flex-col items-end gap-3 text-right">
+                      <div>
+                        <p className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">Best Verified Deal</p>
+                        <p className="text-2xl font-black text-ink-900">{formatINR(rec.deal.price)}</p>
+                        {rec.deal.mrp > rec.deal.price && (
+                          <p className="text-sm font-semibold text-ink-400 line-through">{formatINR(rec.deal.mrp)}</p>
+                        )}
+                      </div>
+                      <div className="flex gap-2 w-full justify-end">
+                        <Link to={`/compare?p1=${rec.product._id}`} className="btn-outline px-4 py-2 text-xs w-full text-center md:w-auto">
+                          COMPARE
+                        </Link>
+                        <a href={rec.deal.url} target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-2 text-xs bg-accent-600 hover:bg-accent-700 text-white rounded-lg font-black w-full text-center md:w-auto flex items-center justify-center gap-1">
+                          BUY NOW <ExternalLink className="h-3 w-3" />
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                ))}
+              </div>
+            ) : (
+              <section className="bg-amber-50 border border-amber-200 p-8 rounded-2xl text-center shadow-sm">
+                <ShieldAlert className="h-10 w-10 text-amber-500 mx-auto mb-3" />
+                <h3 className="text-lg font-black text-amber-800">NO EXACT MATCHES FOUND</h3>
+                <p className="text-sm font-medium text-amber-700 mt-2">{data.message || 'Try broadening your requirements or increasing your budget.'}</p>
+              </section>
+            )}
+          </div>
+        )}
+
+        {/* COMPARISON RESULT STATE */}
+        {data && !isLoading && data.status === 'COMPARISON_SUCCESS' && (
+          <div className="space-y-8 animate-in fade-in duration-500">
+            <h3 className="text-xl font-black text-ink-900 uppercase tracking-widest flex items-center gap-2 mb-4">
+              <Zap className="h-6 w-6 text-accent-600" /> Product Comparison
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {data.comparison.map((c, idx) => (
+                <section key={c.product._id} className="card bg-white p-6 md:p-8 border border-ink-200 rounded-2xl flex flex-col items-center text-center shadow-sm">
+                  <div className="bg-ink-50 p-6 w-full rounded-xl border border-ink-100 flex items-center justify-center mb-6 h-48">
+                    <img src={c.product.image} alt={c.product.name} className="h-full object-contain" />
+                  </div>
+                  <span className="text-[10px] font-bold text-ink-500 uppercase tracking-widest mb-1">{c.product.brand}</span>
+                  <h4 className="text-2xl font-black text-ink-900 mb-2">{c.product.name}</h4>
+                  
+                  {c.deal ? (
+                    <div className="bg-green-50 border border-green-200 p-4 rounded-xl w-full mb-6">
+                      <p className="text-[10px] font-bold text-green-800 uppercase tracking-widest mb-1">Verified Deal on {c.deal.marketplace}</p>
+                      <p className="text-3xl font-black text-green-900">{formatINR(c.deal.price)}</p>
+                      <a href={c.deal.url} target="_blank" rel="noopener noreferrer" className="btn-primary mt-4 w-full bg-accent-600 hover:bg-accent-700 text-white rounded-lg py-3 text-sm font-black flex items-center justify-center gap-2">
+                        BUY NOW <ArrowRight className="h-4 w-4" />
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="bg-ink-50 border border-ink-200 p-4 rounded-xl w-full mb-6">
+                      <p className="text-sm font-bold text-ink-500 uppercase tracking-widest">No Verified Offers</p>
+                    </div>
+                  )}
+
+                  <div className="w-full text-left space-y-3">
+                    <p className="text-xs font-bold text-ink-500 uppercase tracking-widest mb-2 border-b border-ink-100 pb-1">Key Specifications</p>
+                    {Object.entries(c.product.specs || {}).slice(0, 6).map(([k, v]) => (
+                      <div key={k} className="flex justify-between items-center text-sm">
+                        <span className="font-semibold text-ink-600">{k}</span>
+                        <span className="font-black text-ink-900">{v}</span>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </div>
+        )}
+
 </main>
     </div>
   );
