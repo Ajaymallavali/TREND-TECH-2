@@ -1,0 +1,4052 @@
+[
+  {
+    "ProductId": "6a9904e369652590e0aadbfe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc10",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc12",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc14",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc16",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc18",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc20",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc22",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc24",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc26",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc28",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc30",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc32",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc34",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc36",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc38",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc40",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc42",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc44",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc46",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc48",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc50",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc52",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc54",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc56",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc58",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc60",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc62",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc64",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc66",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc68",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6c",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc70",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc78",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc80",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc86",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc88",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc90",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc94",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc96",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc98",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcac",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcae",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcba",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcbc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcbe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc6",
+    "Original": "UNKNOWN",
+    "Resolved": "TITAN",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcca",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadccc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcce",
+    "Original": "UNKNOWN",
+    "Resolved": "SAMSUNG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd0",
+    "Original": "UNKNOWN",
+    "Resolved": "LG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd4",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcda",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcdc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcde",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcea",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcec",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcee",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd00",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd02",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd04",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd06",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd08",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd10",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd12",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd14",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd16",
+    "Original": "UNKNOWN",
+    "Resolved": "PANASONIC",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd18",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd20",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd22",
+    "Original": "UNKNOWN",
+    "Resolved": "HAIER",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd24",
+    "Original": "UNKNOWN",
+    "Resolved": "MOTOROLA",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd26",
+    "Original": "UNKNOWN",
+    "Resolved": "ACER",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd28",
+    "Original": "UNKNOWN",
+    "Resolved": "REALME",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd30",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd36",
+    "Original": "UNKNOWN",
+    "Resolved": "APPLE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd38",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd40",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd42",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd44",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd46",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd48",
+    "Original": "UNKNOWN",
+    "Resolved": "VIVO",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd50",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd52",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd54",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd56",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd58",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5e",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd60",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd62",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd64",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd66",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd68",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd70",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd72",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd74",
+    "Original": "UNKNOWN",
+    "Resolved": "TITAN",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd76",
+    "Original": "UNKNOWN",
+    "Resolved": "FASTRACK",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd78",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7a",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7c",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd80",
+    "Original": "UNKNOWN",
+    "Resolved": "REALME",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd82",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd84",
+    "Original": "UNKNOWN",
+    "Resolved": "BOULT",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd86",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd88",
+    "Original": "UNKNOWN",
+    "Resolved": "DAIKIN",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd8a",
+    "Original": "UNKNOWN",
+    "Resolved": "LG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd8e",
+    "Original": "UNKNOWN",
+    "Resolved": "VOLTAS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd90",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd92",
+    "Original": "UNKNOWN",
+    "Resolved": "PANASONIC",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd94",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd96",
+    "Original": "UNKNOWN",
+    "Resolved": "HITACHI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd98",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9a",
+    "Original": "UNKNOWN",
+    "Resolved": "WHIRLPOOL",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9c",
+    "Original": "UNKNOWN",
+    "Resolved": "GODREJ",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9e",
+    "Original": "UNKNOWN",
+    "Resolved": "HAIER",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda6",
+    "Original": "UNKNOWN",
+    "Resolved": "LG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda8",
+    "Original": "UNKNOWN",
+    "Resolved": "SAMSUNG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddaa",
+    "Original": "UNKNOWN",
+    "Resolved": "WHIRLPOOL",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddac",
+    "Original": "UNKNOWN",
+    "Resolved": "IFB",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddae",
+    "Original": "UNKNOWN",
+    "Resolved": "BOSCH",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb0",
+    "Original": "UNKNOWN",
+    "Resolved": "HAIER",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb2",
+    "Original": "UNKNOWN",
+    "Resolved": "PANASONIC",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb4",
+    "Original": "UNKNOWN",
+    "Resolved": "GODREJ",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb6",
+    "Original": "UNKNOWN",
+    "Resolved": "VOLTAS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddba",
+    "Original": "UNKNOWN",
+    "Resolved": "SONY",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddbc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddbe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc0",
+    "Original": "UNKNOWN",
+    "Resolved": "APPLE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc2",
+    "Original": "UNKNOWN",
+    "Resolved": "SAMSUNG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc4",
+    "Original": "UNKNOWN",
+    "Resolved": "ONEPLUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc8",
+    "Original": "UNKNOWN",
+    "Resolved": "BOAT",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddca",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddcc",
+    "Original": "UNKNOWN",
+    "Resolved": "REALME",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddce",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd2",
+    "Original": "UNKNOWN",
+    "Resolved": "BOULT",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddda",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadddc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddde",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde0",
+    "Original": "UNKNOWN",
+    "Resolved": "XIAOMI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddea",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddec",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddee",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf6",
+    "Original": "UNKNOWN",
+    "Resolved": "ASUS",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf8",
+    "Original": "UNKNOWN",
+    "Resolved": "LENOVO",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfa",
+    "Original": "UNKNOWN",
+    "Resolved": "ACER",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfc",
+    "Original": "UNKNOWN",
+    "Resolved": "HP",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade00",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade02",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade04",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade06",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade08",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade10",
+    "Original": "UNKNOWN",
+    "Resolved": "CANON",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade12",
+    "Original": "UNKNOWN",
+    "Resolved": "NIKON",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade14",
+    "Original": "UNKNOWN",
+    "Resolved": "SONY",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade16",
+    "Original": "UNKNOWN",
+    "Resolved": "FUJIFILM",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade18",
+    "Original": "UNKNOWN",
+    "Resolved": "PANASONIC",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1e",
+    "Original": "UNKNOWN",
+    "Resolved": "GOPRO",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade20",
+    "Original": "UNKNOWN",
+    "Resolved": "DJI",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade22",
+    "Original": "UNKNOWN",
+    "Resolved": "INSTA360",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade24",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade26",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade28",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade30",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade32",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade34",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade36",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade38",
+    "Original": "UNKNOWN",
+    "Resolved": "HP",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3a",
+    "Original": "UNKNOWN",
+    "Resolved": "DELL",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade40",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade42",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade44",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade46",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade48",
+    "Original": "UNKNOWN",
+    "Resolved": "SAMSUNG",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade50",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade52",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade54",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade56",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade58",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade60",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade62",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade64",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade66",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade68",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade70",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade72",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade74",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade76",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade78",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade80",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade82",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade84",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade86",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade88",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade90",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade92",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade94",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade96",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade98",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeaa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeac",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeae",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeba",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadebc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadebe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeca",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadecc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadece",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeda",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadedc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadede",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeea",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeec",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeee",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf00",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf02",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf04",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf06",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf08",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf10",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf12",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf14",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf16",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf18",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf20",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf22",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf24",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf26",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf28",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf30",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf32",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf34",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf36",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf38",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf40",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf42",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf44",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf46",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf48",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf50",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf52",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf54",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf56",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf58",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf60",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf62",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf64",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf66",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf68",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf70",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf72",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf74",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf76",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf78",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf80",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf82",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf84",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf86",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf88",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf90",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf92",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf94",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf96",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf98",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfaa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfac",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfae",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfba",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfbc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfbe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfca",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfcc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfce",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfda",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfdc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfde",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfea",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfec",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfee",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffe",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae000",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae002",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae004",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae006",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae008",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae010",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae012",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae014",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae016",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae018",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae020",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae022",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae024",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae026",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae028",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae030",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae032",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae034",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae036",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae038",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae040",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae042",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae044",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae046",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae048",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae050",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae052",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae054",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae056",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae058",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae060",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae062",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae064",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae066",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae068",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae070",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae072",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae074",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae076",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae078",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae080",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae082",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae084",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae086",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae088",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae090",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae092",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae094",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae096",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae098",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0aa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ac",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ae",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ba",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0bc",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0be",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c2",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ca",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca6e8",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca6fd",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca712",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca727",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca73c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7ba",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7cf",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7e4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8a1",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8b6",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8cb",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8e0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaaf4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab03",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab12",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab21",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab30",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcabf3",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac02",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac11",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac20",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac5c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaca7",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcace3",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcacf2",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad01",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad3d",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad4c",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad5b",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad6a",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad79",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad88",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad97",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcada6",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcadb5",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcadc4",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae0f",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae1e",
+    "Original": "UNKNOWN",
+    "Resolved": "NOISE",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae87",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae96",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaea5",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaeb4",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaec3",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaef0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaeff",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf0e",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf1d",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf2c",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf3b",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf4a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf68",
+    "Original": "UNKNOWN",
+    "Resolved": "TITAN",
+    "Status": "BRAND_LIKELY"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb03a",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb049",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb058",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb067",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb076",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb085",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb094",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb0a3",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1b1",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1c0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1de",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1ed",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb346",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb382",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb391",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3a0",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3af",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3be",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3fa",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb409",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb418",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb427",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb436",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb445",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb454",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb463",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb472",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb481",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb490",
+    "Original": "UNKNOWN",
+    "Resolved": null,
+    "Status": "BRAND_UNKNOWN"
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "Brand": "Apple",
+    "Products": 40,
+    "Models": 33,
+    "Variants": 1,
+    "ValidImages": 3,
+    "MissingImages": 37,
+    "RepairRequired": 37,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "UNKNOWN",
+    "Products": 593,
+    "Models": 1,
+    "Variants": 3,
+    "ValidImages": 0,
+    "MissingImages": 593,
+    "RepairRequired": 593,
+    "IdentityPending": 593
+  },
+  {
+    "Brand": "Samsung",
+    "Products": 31,
+    "Models": 31,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 31,
+    "RepairRequired": 31,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "OnePlus",
+    "Products": 14,
+    "Models": 14,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 14,
+    "RepairRequired": 14,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "ONEPLUS",
+    "Products": 6,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 6,
+    "RepairRequired": 6,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "XIAOMI",
+    "Products": 6,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 6,
+    "RepairRequired": 6,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Dell",
+    "Products": 10,
+    "Models": 10,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 10,
+    "RepairRequired": 10,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "HP",
+    "Products": 9,
+    "Models": 8,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 9,
+    "RepairRequired": 9,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Lenovo",
+    "Products": 10,
+    "Models": 10,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 10,
+    "RepairRequired": 10,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Asus",
+    "Products": 12,
+    "Models": 12,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 12,
+    "RepairRequired": 12,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "TITAN",
+    "Products": 3,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "SAMSUNG",
+    "Products": 4,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 4,
+    "RepairRequired": 4,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "LG",
+    "Products": 11,
+    "Models": 9,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 11,
+    "RepairRequired": 11,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "PANASONIC",
+    "Products": 4,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 4,
+    "RepairRequired": 4,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "HAIER",
+    "Products": 3,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "MOTOROLA",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "ACER",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "REALME",
+    "Products": 3,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "APPLE",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "VIVO",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "NOISE",
+    "Products": 17,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 17,
+    "RepairRequired": 17,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "FASTRACK",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "BOULT",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "DAIKIN",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "VOLTAS",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "HITACHI",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "WHIRLPOOL",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "GODREJ",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "IFB",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "BOSCH",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "SONY",
+    "Products": 2,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "BOAT",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "ASUS",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "LENOVO",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "CANON",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "NIKON",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "FUJIFILM",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "GOPRO",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "DJI",
+    "Products": 3,
+    "Models": 3,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "INSTA360",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "DELL",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Xiaomi",
+    "Products": 9,
+    "Models": 9,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 9,
+    "RepairRequired": 9,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Realme",
+    "Products": 7,
+    "Models": 7,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 7,
+    "RepairRequired": 7,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Motorola",
+    "Products": 4,
+    "Models": 4,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 4,
+    "RepairRequired": 4,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Vivo",
+    "Products": 3,
+    "Models": 3,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Acer",
+    "Products": 4,
+    "Models": 4,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 4,
+    "RepairRequired": 4,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Sony",
+    "Products": 15,
+    "Models": 15,
+    "Variants": 2,
+    "ValidImages": 0,
+    "MissingImages": 15,
+    "RepairRequired": 15,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Panasonic",
+    "Products": 3,
+    "Models": 3,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Canon",
+    "Products": 4,
+    "Models": 4,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 4,
+    "RepairRequired": 4,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Nikon",
+    "Products": 3,
+    "Models": 3,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Fujifilm",
+    "Products": 3,
+    "Models": 3,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 3,
+    "RepairRequired": 3,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "GoPro",
+    "Products": 2,
+    "Models": 2,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 2,
+    "RepairRequired": 2,
+    "IdentityPending": 0
+  },
+  {
+    "Brand": "Insta360",
+    "Products": 1,
+    "Models": 1,
+    "Variants": 0,
+    "ValidImages": 0,
+    "MissingImages": 1,
+    "RepairRequired": 1,
+    "IdentityPending": 0
+  }
+]

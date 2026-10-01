@@ -1,0 +1,39 @@
+{
+  "totalProducts": 867,
+  "trend": 14,
+  "tech": 853,
+  "unclassified": 0,
+  "rawCategories": 24,
+  "normalizedCategories": 13,
+  "brands": 53,
+  "unknownBrands": 593,
+  "confirmedBrands": 192,
+  "ambiguousBrands": 82,
+  "uniqueModels": 185,
+  "uniqueModelNumbers": 26,
+  "uniqueVariants": 6,
+  "modelNumbersUnknown": 840,
+  "variantsUnknown": 859,
+  "identity": {
+    "exact": 3,
+    "highConfidence": 271,
+    "partial": 0,
+    "ambiguous": 593,
+    "unresolved": 0
+  },
+  "images": {
+    "valid": 3,
+    "invalid": 269,
+    "missing": 595,
+    "broken": 0,
+    "remote": 269,
+    "local": 3
+  },
+  "acquisition": {
+    "repairable": 0,
+    "newImageRequired": 216,
+    "reuseAllowed": 55,
+    "blockedByIdentity": 593,
+    "totalAssetsRequired": 216
+  }
+}
