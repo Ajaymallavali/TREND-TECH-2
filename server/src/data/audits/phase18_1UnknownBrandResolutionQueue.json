@@ -1,0 +1,4727 @@
+[
+  {
+    "ProductId": "6a9904e369652590e0aadbfe",
+    "ProductName": "Smartphone Galaxy S series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc10",
+    "ProductName": "Smartphone OnePlus CE series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc12",
+    "ProductName": "Smartphone OnePlus R series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc14",
+    "ProductName": "Smartphone Xiaomi flagship series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc16",
+    "ProductName": "Smartphone Xiaomi T series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc18",
+    "ProductName": "Smartphone Redmi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1a",
+    "ProductName": "Smartphone Redmi Note",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1c",
+    "ProductName": "Smartphone Redmi A",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc1e",
+    "ProductName": "Smartphone Redmi K",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc20",
+    "ProductName": "Smartphone Poco",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc22",
+    "ProductName": "Smartphone Pixel",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc24",
+    "ProductName": "Smartphone Pixel Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc26",
+    "ProductName": "Smartphone Pixel A",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc28",
+    "ProductName": "Smartphone Pixel Fold",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2a",
+    "ProductName": "Smartphone X series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2c",
+    "ProductName": "Smartphone V series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc2e",
+    "ProductName": "Smartphone Y series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc30",
+    "ProductName": "Smartphone T series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc32",
+    "ProductName": "Smartphone Find X",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc34",
+    "ProductName": "Smartphone Find N",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc36",
+    "ProductName": "Smartphone Reno",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc38",
+    "ProductName": "Smartphone A series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3a",
+    "ProductName": "Smartphone F series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3c",
+    "ProductName": "Smartphone GT",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc3e",
+    "ProductName": "Smartphone Number series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc40",
+    "ProductName": "Smartphone Narzo",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc42",
+    "ProductName": "Smartphone C series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc44",
+    "ProductName": "Smartphone P series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc46",
+    "ProductName": "Smartphone Razr",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc48",
+    "ProductName": "Smartphone Edge",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4a",
+    "ProductName": "Smartphone Moto G",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4c",
+    "ProductName": "Smartphone Moto E",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc4e",
+    "ProductName": "Smartphone Phone series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc50",
+    "ProductName": "Smartphone Phone (a)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc52",
+    "ProductName": "Smartphone CMF Phone",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc54",
+    "ProductName": "Smartphone iQOO flagship",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc56",
+    "ProductName": "Smartphone Neo",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc58",
+    "ProductName": "Smartphone Z series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5a",
+    "ProductName": "Smartphone Magic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5c",
+    "ProductName": "Smartphone HMD smartphones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc5e",
+    "ProductName": "Smartphone Nokia C",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc60",
+    "ProductName": "Smartphone Nokia G",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc62",
+    "ProductName": "Smartphone Nokia X",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc64",
+    "ProductName": "Feature Phone Nokia feature phones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc66",
+    "ProductName": "Foldable Phone Galaxy Z Fold",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc68",
+    "ProductName": "Foldable Phone Galaxy Z Flip",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6a",
+    "ProductName": "Foldable Phone Pixel Fold",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6c",
+    "ProductName": "Foldable Phone OnePlus Open",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc6e",
+    "ProductName": "Foldable Phone Razr",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc70",
+    "ProductName": "Foldable Phone Find N",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc78",
+    "ProductName": "Laptop XPS",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7a",
+    "ProductName": "Laptop Latitude",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7c",
+    "ProductName": "Laptop Precision",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc7e",
+    "ProductName": "Laptop Alienware",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc80",
+    "ProductName": "Laptop Vostro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc86",
+    "ProductName": "Laptop Spectre",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc88",
+    "ProductName": "Laptop EliteBook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8a",
+    "ProductName": "Laptop ProBook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8c",
+    "ProductName": "Laptop Victus",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc8e",
+    "ProductName": "Laptop Omen",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc90",
+    "ProductName": "Laptop ZBook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc94",
+    "ProductName": "Laptop ThinkPad",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc96",
+    "ProductName": "Laptop ThinkBook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc98",
+    "ProductName": "Laptop Yoga",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9a",
+    "ProductName": "Laptop Legion",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9c",
+    "ProductName": "Laptop LOQ",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadc9e",
+    "ProductName": "Laptop Slim",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca0",
+    "ProductName": "Laptop V-series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca6",
+    "ProductName": "Laptop ExpertBook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadca8",
+    "ProductName": "Laptop ROG",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcac",
+    "ProductName": "Laptop ProArt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcae",
+    "ProductName": "Laptop Chromebook",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb0",
+    "ProductName": "Laptop Aspire",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb2",
+    "ProductName": "Laptop Swift",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb4",
+    "ProductName": "Laptop Nitro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb6",
+    "ProductName": "Laptop Predator",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcb8",
+    "ProductName": "Laptop TravelMate",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcba",
+    "ProductName": "Laptop Modern",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcbc",
+    "ProductName": "Laptop Prestige",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcbe",
+    "ProductName": "Laptop Creator",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc0",
+    "ProductName": "Laptop Katana",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc2",
+    "ProductName": "Laptop Cyborg",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc4",
+    "ProductName": "Laptop Raider",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc6",
+    "ProductName": "Laptop Titan",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcc8",
+    "ProductName": "Laptop Stealth",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcca",
+    "ProductName": "Surface Laptop",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadccc",
+    "ProductName": "Laptop Surface Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcce",
+    "ProductName": "Laptop Samsung",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SAMSUNG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd0",
+    "ProductName": "Laptop LG",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "LG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd2",
+    "ProductName": "Laptop Huawei",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd4",
+    "ProductName": "Laptop Xiaomi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd6",
+    "ProductName": "Laptop Gigabyte",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcd8",
+    "ProductName": "Laptop Razer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcda",
+    "ProductName": "Laptop Framework",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcdc",
+    "ProductName": "Desktop Mac Mini",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcde",
+    "ProductName": "Desktop iMac",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce0",
+    "ProductName": "Desktop Mac Studio",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce2",
+    "ProductName": "Desktop Mac Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce4",
+    "ProductName": "Desktop Studio Display",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce6",
+    "ProductName": "Desktop PCs",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadce8",
+    "ProductName": "Desktop Mini PCs",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcea",
+    "ProductName": "Desktop All-in-one PCs",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcec",
+    "ProductName": "Desktop Gaming desktops",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcee",
+    "ProductName": "Television Crystal UHD",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf0",
+    "ProductName": "Television QLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf2",
+    "ProductName": "Television Neo QLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf4",
+    "ProductName": "Television OLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf6",
+    "ProductName": "Television UHD",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcf8",
+    "ProductName": "Television NanoCell",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfa",
+    "ProductName": "Television QNED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfc",
+    "ProductName": "Television Bravia",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadcfe",
+    "ProductName": "Television Bravia XR",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd00",
+    "ProductName": "Television Mini LED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd02",
+    "ProductName": "Television Full Array",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd04",
+    "ProductName": "Television P series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd06",
+    "ProductName": "Television C series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd08",
+    "ProductName": "Television A series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0a",
+    "ProductName": "Television U series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0c",
+    "ProductName": "Television E series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd0e",
+    "ProductName": "Television ULED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd10",
+    "ProductName": "Television Xiaomi TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd12",
+    "ProductName": "Television Redmi TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd14",
+    "ProductName": "Television OnePlus TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd16",
+    "ProductName": "Television Panasonic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "PANASONIC",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd18",
+    "ProductName": "Television Vu",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1a",
+    "ProductName": "Television Thomson",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1c",
+    "ProductName": "Television Kodak",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd1e",
+    "ProductName": "Television Toshiba",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd20",
+    "ProductName": "Television Philips",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd22",
+    "ProductName": "Television Haier",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HAIER",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd24",
+    "ProductName": "Television Motorola",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "MOTOROLA",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd26",
+    "ProductName": "Television Acer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ACER",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd28",
+    "ProductName": "Television Realme",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "REALME",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2a",
+    "ProductName": "Television Blaupunkt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2c",
+    "ProductName": "Television Onida",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd2e",
+    "ProductName": "Television Sansui",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd30",
+    "ProductName": "Television iFFALCON",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd36",
+    "ProductName": "Smartwatch & Wearables Apple Watch Ultra",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "APPLE",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd38",
+    "ProductName": "Smartwatch & Wearables Galaxy Watch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3a",
+    "ProductName": "Smartwatch & Wearables Galaxy Watch Classic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3c",
+    "ProductName": "Smartwatch & Wearables Galaxy Watch Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd3e",
+    "ProductName": "Smartwatch & Wearables Pixel Watch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd40",
+    "ProductName": "Smartwatch & Wearables Forerunner",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd42",
+    "ProductName": "Smartwatch & Wearables Fenix",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd44",
+    "ProductName": "Smartwatch & Wearables Venu",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd46",
+    "ProductName": "Smartwatch & Wearables Instinct",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd48",
+    "ProductName": "Smartwatch & Wearables Vivoactive",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "VIVO",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4a",
+    "ProductName": "Smartwatch & Wearables Versa",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4c",
+    "ProductName": "Smartwatch & Wearables Sense",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd4e",
+    "ProductName": "Smartwatch & Wearables Charge",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd50",
+    "ProductName": "Smartwatch & Wearables Inspire",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd52",
+    "ProductName": "Smartwatch & Wearables GTR",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd54",
+    "ProductName": "Smartwatch & Wearables GTS",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd56",
+    "ProductName": "Smartwatch & Wearables Balance",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd58",
+    "ProductName": "Smartwatch & Wearables Active",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5a",
+    "ProductName": "Smartwatch & Wearables T-Rex",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5c",
+    "ProductName": "Smartwatch & Wearables ColorFit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd5e",
+    "ProductName": "Smartwatch & Wearables NoiseFit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd60",
+    "ProductName": "Smartwatch & Wearables Pro series",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd62",
+    "ProductName": "Smartwatch & Wearables Wave",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd64",
+    "ProductName": "Smartwatch & Wearables Storm",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd66",
+    "ProductName": "Smartwatch & Wearables Ultima",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd68",
+    "ProductName": "Smartwatch & Wearables Lunar",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6a",
+    "ProductName": "Smartwatch & Wearables Xtend",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6c",
+    "ProductName": "Smartwatch & Wearables Ninja",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd6e",
+    "ProductName": "Smartwatch & Wearables Phoenix",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd70",
+    "ProductName": "Smartwatch & Wearables Visionary",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd72",
+    "ProductName": "Smartwatch & Wearables Dream",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd74",
+    "ProductName": "Smartwatch & Wearables Titan Smart",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd76",
+    "ProductName": "Smartwatch & Wearables Fastrack",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd78",
+    "ProductName": "Smartwatch & Wearables Huawei",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7a",
+    "ProductName": "Smartwatch & Wearables OnePlus",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7c",
+    "ProductName": "Smartwatch & Wearables Xiaomi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd7e",
+    "ProductName": "Smartwatch & Wearables Redmi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd80",
+    "ProductName": "Smartwatch & Wearables Realme",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "REALME",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd82",
+    "ProductName": "Smartwatch & Wearables CMF",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd84",
+    "ProductName": "Smartwatch & Wearables Boult",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd86",
+    "ProductName": "Smartwatch & Wearables Pebble",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd88",
+    "ProductName": "Air Conditioners Daikin",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "DAIKIN",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd8a",
+    "ProductName": "Air Conditioners LG",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "LG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd8e",
+    "ProductName": "Air Conditioners Voltas",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "VOLTAS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd90",
+    "ProductName": "Air Conditioners Blue Star",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd92",
+    "ProductName": "Air Conditioners Panasonic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "PANASONIC",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd94",
+    "ProductName": "Air Conditioners Carrier",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd96",
+    "ProductName": "Air Conditioners Hitachi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HITACHI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd98",
+    "ProductName": "Air Conditioners Lloyd",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9a",
+    "ProductName": "Air Conditioners Whirlpool",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "WHIRLPOOL",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9c",
+    "ProductName": "Air Conditioners Godrej",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "GODREJ",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadd9e",
+    "ProductName": "Air Conditioners Haier",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HAIER",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda0",
+    "ProductName": "Air Conditioners O General",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda2",
+    "ProductName": "Air Conditioners Mitsubishi Electric",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda4",
+    "ProductName": "Air Conditioners Toshiba",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda6",
+    "ProductName": "Washing Machines LG",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "LG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadda8",
+    "ProductName": "Washing Machines Samsung",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SAMSUNG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddaa",
+    "ProductName": "Washing Machines Whirlpool",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "WHIRLPOOL",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddac",
+    "ProductName": "Washing Machines IFB",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "IFB",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddae",
+    "ProductName": "Washing Machines Bosch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "BOSCH",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb0",
+    "ProductName": "Washing Machines Haier",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HAIER",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb2",
+    "ProductName": "Washing Machines Panasonic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "PANASONIC",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb4",
+    "ProductName": "Washing Machines Godrej",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "GODREJ",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb6",
+    "ProductName": "Washing Machines Voltas Beko",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "VOLTAS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddb8",
+    "ProductName": "Washing Machines Siemens",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddba",
+    "ProductName": "Audio Sony",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SONY",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddbc",
+    "ProductName": "Audio Bose",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddbe",
+    "ProductName": "Audio JBL",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc0",
+    "ProductName": "Audio Apple",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "APPLE",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc2",
+    "ProductName": "Audio Samsung",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SAMSUNG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc4",
+    "ProductName": "Audio OnePlus",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ONEPLUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc6",
+    "ProductName": "Audio Nothing",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddc8",
+    "ProductName": "Audio boAt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddca",
+    "ProductName": "Audio Noise",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddcc",
+    "ProductName": "Audio Realme",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "REALME",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddce",
+    "ProductName": "Audio Skullcandy",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd0",
+    "ProductName": "Audio Jabra",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd2",
+    "ProductName": "Audio Boult",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd4",
+    "ProductName": "Audio Sennheiser",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd6",
+    "ProductName": "Audio Marshall",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddd8",
+    "ProductName": "Audio-Technica",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddda",
+    "ProductName": "Audio Anker Soundcore",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadddc",
+    "ProductName": "Audio Zebronics",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddde",
+    "ProductName": "Audio Philips",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde0",
+    "ProductName": "Audio Xiaomi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "XIAOMI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde2",
+    "ProductName": "Audio Wired earphones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde4",
+    "ProductName": "Audio Neckbands",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde6",
+    "ProductName": "Audio Gaming headsets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadde8",
+    "ProductName": "Audio Party speakers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddea",
+    "ProductName": "Audio Home theatre",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddec",
+    "ProductName": "Audio Amplifiers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddee",
+    "ProductName": "Audio Microphones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf0",
+    "ProductName": "Consoles PlayStation",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf2",
+    "ProductName": "Consoles Xbox",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf4",
+    "ProductName": "Consoles Nintendo Switch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf6",
+    "ProductName": "Gaming ASUS ROG",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ASUS",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddf8",
+    "ProductName": "Gaming Lenovo Legion",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "LENOVO",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfa",
+    "ProductName": "Gaming Acer Predator",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "ACER",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfc",
+    "ProductName": "Gaming HP Omen",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HP",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aaddfe",
+    "ProductName": "Gaming MSI",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade00",
+    "ProductName": "Gaming Alienware",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade02",
+    "ProductName": "Gaming Razer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade04",
+    "ProductName": "Gaming Logitech G",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade06",
+    "ProductName": "Gaming Corsair",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade08",
+    "ProductName": "Gaming SteelSeries",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0a",
+    "ProductName": "Gaming HyperX",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0c",
+    "ProductName": "Gaming NZXT",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade0e",
+    "ProductName": "Gaming Cooler Master",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade10",
+    "ProductName": "Cameras Canon",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "CANON",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade12",
+    "ProductName": "Cameras Nikon",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "NIKON",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade14",
+    "ProductName": "Cameras Sony",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SONY",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade16",
+    "ProductName": "Cameras Fujifilm",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "FUJIFILM",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade18",
+    "ProductName": "Cameras Panasonic Lumix",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "PANASONIC",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1a",
+    "ProductName": "Cameras Olympus/OM System",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1c",
+    "ProductName": "Cameras Leica",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade1e",
+    "ProductName": "Cameras GoPro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "GOPRO",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade20",
+    "ProductName": "Cameras DJI",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "DJI",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade22",
+    "ProductName": "Cameras Insta360",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "INSTA360",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade24",
+    "ProductName": "Cameras Kodak",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade26",
+    "ProductName": "Cameras 360 camera",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade28",
+    "ProductName": "Cameras Instant camera",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2a",
+    "ProductName": "Cameras Webcam",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2c",
+    "ProductName": "Cameras Security camera",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade2e",
+    "ProductName": "Cameras Dash camera",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade30",
+    "ProductName": "Cameras Drone camera",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade32",
+    "ProductName": "Computer Accessories Logitech",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade34",
+    "ProductName": "Computer Accessories Razer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade36",
+    "ProductName": "Computer Accessories Corsair",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade38",
+    "ProductName": "Computer Accessories HP",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "HP",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3a",
+    "ProductName": "Computer Accessories Dell",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "DELL",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3c",
+    "ProductName": "Computer Accessories Mechanical",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade3e",
+    "ProductName": "Computer Accessories Membrane",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade40",
+    "ProductName": "Computer Accessories Wireless",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade42",
+    "ProductName": "Computer Accessories Gaming",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade44",
+    "ProductName": "Computer Accessories Ergonomic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade46",
+    "ProductName": "Computer Accessories Productivity",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade48",
+    "ProductName": "Computer Accessories Samsung",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": "SAMSUNG",
+    "Classification": "BRAND_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4a",
+    "ProductName": "Computer Accessories WD",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4c",
+    "ProductName": "Computer Accessories SanDisk",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade4e",
+    "ProductName": "Computer Accessories Seagate",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade50",
+    "ProductName": "Computer Accessories Kingston",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade52",
+    "ProductName": "Computer Accessories TP-Link",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade54",
+    "ProductName": "Computer Accessories Netgear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade56",
+    "ProductName": "Computer Accessories Intel",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade58",
+    "ProductName": "Computer Accessories AMD",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5a",
+    "ProductName": "Computer Accessories NVIDIA",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5c",
+    "ProductName": "Computer Accessories Gigabyte",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade5e",
+    "ProductName": "Computer Accessories MSI",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade60",
+    "ProductName": "Computer Accessories Zotac",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade62",
+    "ProductName": "Computer Accessories Webcam",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade64",
+    "ProductName": "Computer Accessories Monitor",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade66",
+    "ProductName": "Computer Accessories Printer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade68",
+    "ProductName": "Computer Accessories Scanner",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6a",
+    "ProductName": "Computer Accessories Router",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6c",
+    "ProductName": "Computer Accessories Wi-Fi extender",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade6e",
+    "ProductName": "Computer Accessories Power bank",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade70",
+    "ProductName": "Computer Accessories Laptop stand",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade72",
+    "ProductName": "Computer Accessories Docking station",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade74",
+    "ProductName": "Computer Accessories USB hub",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade76",
+    "ProductName": "Tops T-shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade78",
+    "ProductName": "Tops Shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7a",
+    "ProductName": "Tops Hoodie",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7c",
+    "ProductName": "Tops Polo T-shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade7e",
+    "ProductName": "Tops Sweatshirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade80",
+    "ProductName": "Tops Jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade82",
+    "ProductName": "Tops Formal shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade84",
+    "ProductName": "Tops Blazer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade86",
+    "ProductName": "Tops Suit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade88",
+    "ProductName": "Tops Graphic T-shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8a",
+    "ProductName": "Tops Oversized T-shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8c",
+    "ProductName": "Tops Henley",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade8e",
+    "ProductName": "Tops Casual shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade90",
+    "ProductName": "Tops Oxford shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade92",
+    "ProductName": "Tops Linen shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade94",
+    "ProductName": "Tops Denim shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade96",
+    "ProductName": "Tops Hawaiian shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade98",
+    "ProductName": "Tops Flannel shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9a",
+    "ProductName": "Tops Bomber jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9c",
+    "ProductName": "Tops Puffer jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aade9e",
+    "ProductName": "Tops Waistcoat",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea0",
+    "ProductName": "Bottoms Jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea2",
+    "ProductName": "Bottoms Skinny jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea4",
+    "ProductName": "Bottoms Straight-fit jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea6",
+    "ProductName": "Bottoms Chinos",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadea8",
+    "ProductName": "Bottoms Joggers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeaa",
+    "ProductName": "Bottoms Trousers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeac",
+    "ProductName": "Bottoms Track pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeae",
+    "ProductName": "Bottoms Formal trousers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb0",
+    "ProductName": "Bottoms Relaxed-fit jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb2",
+    "ProductName": "Bottoms Baggy jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb4",
+    "ProductName": "Bottoms Cargo pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb6",
+    "ProductName": "Bottoms Shorts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeb8",
+    "ProductName": "Bottoms Denim shorts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeba",
+    "ProductName": "Bottoms Linen pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadebc",
+    "ProductName": "Footwear Sneakers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadebe",
+    "ProductName": "Footwear Running shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec0",
+    "ProductName": "Footwear Casual shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec2",
+    "ProductName": "Footwear Boots",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec4",
+    "ProductName": "Footwear Formal shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec6",
+    "ProductName": "Footwear Loafers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadec8",
+    "ProductName": "Footwear Sandals",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadeca",
+    "ProductName": "Footwear Slides",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadecc",
+    "ProductName": "Footwear Flip-flops",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e369652590e0aadece",
+    "ProductName": "Accessories Watches",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded0",
+    "ProductName": "Accessories Sunglasses",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded2",
+    "ProductName": "Accessories Backpacks",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded4",
+    "ProductName": "Accessories Belts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded6",
+    "ProductName": "Accessories Wallets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aaded8",
+    "ProductName": "Accessories Caps",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeda",
+    "ProductName": "Accessories Hats",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadedc",
+    "ProductName": "Accessories Crossbody bags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadede",
+    "ProductName": "Accessories Laptop bags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee0",
+    "ProductName": "Accessories Ties",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee2",
+    "ProductName": "Accessories Cufflinks",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee4",
+    "ProductName": "Dresses Midi Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee6",
+    "ProductName": "Dresses Maxi Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadee8",
+    "ProductName": "Dresses Mini Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeea",
+    "ProductName": "Dresses Bodycon Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeec",
+    "ProductName": "Dresses Wrap Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadeee",
+    "ProductName": "Dresses Shirt Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef0",
+    "ProductName": "Dresses A-line Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef2",
+    "ProductName": "Dresses Cocktail Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef4",
+    "ProductName": "Dresses Party Dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef6",
+    "ProductName": "Dresses Slip dress",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadef8",
+    "ProductName": "Dresses Co-ord set",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefa",
+    "ProductName": "Tops Blouse",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefc",
+    "ProductName": "Tops Crop top",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadefe",
+    "ProductName": "Tops Camisole",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf00",
+    "ProductName": "Tops Tank top",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf02",
+    "ProductName": "Tops Tube top",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf04",
+    "ProductName": "Tops Halter top",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf06",
+    "ProductName": "Tops Tunic",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf08",
+    "ProductName": "Tops Bodysuit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0a",
+    "ProductName": "Tops Sweater",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0c",
+    "ProductName": "Bottoms Wide-leg jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf0e",
+    "ProductName": "Bottoms Mom jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf10",
+    "ProductName": "Bottoms Boyfriend jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf12",
+    "ProductName": "Bottoms Straight jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf14",
+    "ProductName": "Bottoms Bootcut jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf16",
+    "ProductName": "Bottoms Palazzo",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf18",
+    "ProductName": "Bottoms Culottes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1a",
+    "ProductName": "Bottoms Mini skirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1c",
+    "ProductName": "Bottoms Midi skirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf1e",
+    "ProductName": "Bottoms Maxi skirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf20",
+    "ProductName": "Outerwear Blazer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf22",
+    "ProductName": "Outerwear Trench coat",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf24",
+    "ProductName": "Outerwear Denim jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf26",
+    "ProductName": "Outerwear Leather jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf28",
+    "ProductName": "Outerwear Bomber jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2a",
+    "ProductName": "Outerwear Puffer jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2c",
+    "ProductName": "Outerwear Cardigan",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf2e",
+    "ProductName": "Outerwear Shrug",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf30",
+    "ProductName": "Activewear Sports bra",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf32",
+    "ProductName": "Activewear Leggings",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf34",
+    "ProductName": "Activewear Yoga pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf36",
+    "ProductName": "Activewear Gym top",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf38",
+    "ProductName": "Activewear Track pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3a",
+    "ProductName": "Activewear Running shorts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3c",
+    "ProductName": "Activewear Tracksuit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf3e",
+    "ProductName": "Ethnic Manyavar",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf40",
+    "ProductName": "Ethnic FabIndia",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf42",
+    "ProductName": "Ethnic Biba",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf44",
+    "ProductName": "Ethnic Soch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf46",
+    "ProductName": "Ethnic W",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf48",
+    "ProductName": "Ethnic Aurelia",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4a",
+    "ProductName": "Ethnic Libas",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4c",
+    "ProductName": "Ethnic Global Desi",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf4e",
+    "ProductName": "Ethnic Rangriti",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf50",
+    "ProductName": "Ethnic Jaypore",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf52",
+    "ProductName": "Ethnic Mohey",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf54",
+    "ProductName": "Ethnic Indya",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf56",
+    "ProductName": "Ethnic Palazzo set",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf58",
+    "ProductName": "Ethnic Anarkali",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5a",
+    "ProductName": "Ethnic Sharara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5c",
+    "ProductName": "Ethnic Gharara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf5e",
+    "ProductName": "Ethnic Dupatta",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf60",
+    "ProductName": "Ethnic Indo-western",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf62",
+    "ProductName": "Ethnic dresses",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf64",
+    "ProductName": "Footwear Heels",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf66",
+    "ProductName": "Footwear Flats",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf68",
+    "ProductName": "Footwear Ballet flats",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6a",
+    "ProductName": "Footwear Pumps",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6c",
+    "ProductName": "Footwear Stilettos",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf6e",
+    "ProductName": "Accessories Handbags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf70",
+    "ProductName": "Accessories Tote bags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf72",
+    "ProductName": "Accessories Shoulder bags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf74",
+    "ProductName": "Accessories Sling bags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf76",
+    "ProductName": "Accessories Clutches",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf78",
+    "ProductName": "Accessories Jewellery",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7a",
+    "ProductName": "Accessories Scarves",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7c",
+    "ProductName": "Kids 0–3 months",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf7e",
+    "ProductName": "Kids 3–6 months",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf80",
+    "ProductName": "Kids 6–12 months",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf82",
+    "ProductName": "Kids 1–2 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf84",
+    "ProductName": "Kids 2–4 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf86",
+    "ProductName": "Kids 4–6 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf88",
+    "ProductName": "Kids 6–8 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8a",
+    "ProductName": "Kids 8–10 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8c",
+    "ProductName": "Kids 10–12 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf8e",
+    "ProductName": "Kids 12–14 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf90",
+    "ProductName": "Kids 14–16 years",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf92",
+    "ProductName": "Boys T-shirts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf94",
+    "ProductName": "Boys Shirts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf96",
+    "ProductName": "Boys Jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf98",
+    "ProductName": "Boys Jackets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9a",
+    "ProductName": "Boys Polo T-shirt",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9c",
+    "ProductName": "Boys Shorts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadf9e",
+    "ProductName": "Boys Joggers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa0",
+    "ProductName": "Boys Cargo pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa2",
+    "ProductName": "Boys Hoodies",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa4",
+    "ProductName": "Boys Ethnic wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa6",
+    "ProductName": "Boys School wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfa8",
+    "ProductName": "Boys Sportswear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfaa",
+    "ProductName": "Boys Sneakers",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfac",
+    "ProductName": "Boys Sandals",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfae",
+    "ProductName": "Girls Dresses",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb0",
+    "ProductName": "Girls Tops",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb2",
+    "ProductName": "Girls Skirts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb4",
+    "ProductName": "Girls Frocks",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb6",
+    "ProductName": "Girls T-shirts",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfb8",
+    "ProductName": "Girls Jeans",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfba",
+    "ProductName": "Girls Leggings",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfbc",
+    "ProductName": "Girls Jumpsuits",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfbe",
+    "ProductName": "Girls Co-ord sets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc0",
+    "ProductName": "Girls Hoodies",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc2",
+    "ProductName": "Girls Jackets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc4",
+    "ProductName": "Girls Ethnic wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc6",
+    "ProductName": "Girls Party wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfc8",
+    "ProductName": "Girls Sportswear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfca",
+    "ProductName": "Girls Shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfcc",
+    "ProductName": "Girls Sandals",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfce",
+    "ProductName": "Kids Mothercare",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd0",
+    "ProductName": "Kids FirstCry",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd2",
+    "ProductName": "Kids Hopscotch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd4",
+    "ProductName": "Kids Allen Solly Junior",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd6",
+    "ProductName": "Kids United Colors of Benetton",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfd8",
+    "ProductName": "Pepe Jeans Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfda",
+    "ProductName": "Kids Gini & Jony",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfdc",
+    "ProductName": "Max Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfde",
+    "ProductName": "Kids Pantaloons",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe0",
+    "ProductName": "Kids Lifestyle",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe2",
+    "ProductName": "Kids Chicco",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe4",
+    "ProductName": "Adidas Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe6",
+    "ProductName": "Nike Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfe8",
+    "ProductName": "Puma Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfea",
+    "ProductName": "Skechers Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfec",
+    "ProductName": "GAP Kids",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadfee",
+    "ProductName": "Men Kurta",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff0",
+    "ProductName": "Men Sherwani",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff2",
+    "ProductName": "Men Nehru Jacket",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff4",
+    "ProductName": "Men Bandhgala",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff6",
+    "ProductName": "Men Kurta pajama",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadff8",
+    "ProductName": "Men Dhoti",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffa",
+    "ProductName": "Men Indo-western",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffc",
+    "ProductName": "Men Wedding wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aadffe",
+    "ProductName": "Men Ethnic sets",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae000",
+    "ProductName": "Women Lehenga",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae002",
+    "ProductName": "Women Saree",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae004",
+    "ProductName": "Women Kurta",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae006",
+    "ProductName": "Women Salwar Suit",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae008",
+    "ProductName": "Women Anarkali",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00a",
+    "ProductName": "Women Kurti",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00c",
+    "ProductName": "Women Palazzo set",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae00e",
+    "ProductName": "Women Sharara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae010",
+    "ProductName": "Women Gharara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae012",
+    "ProductName": "Women Dupatta",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae014",
+    "ProductName": "Women Indo-western",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae016",
+    "ProductName": "Women Ethnic dresses",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae018",
+    "ProductName": "Footwear Training shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01a",
+    "ProductName": "Footwear Football shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01c",
+    "ProductName": "Footwear Basketball shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae01e",
+    "ProductName": "Footwear Cricket shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae020",
+    "ProductName": "Footwear Tennis shoes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae022",
+    "ProductName": "Apparel Gym clothing",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae024",
+    "ProductName": "Apparel Compression wear",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae026",
+    "ProductName": "Apparel Yoga clothing",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae028",
+    "ProductName": "Apparel Track pants",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02a",
+    "ProductName": "Apparel Sports bras",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02c",
+    "ProductName": "Apparel Jerseys",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae02e",
+    "ProductName": "Sports & Fitness Decathlon",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae030",
+    "ProductName": "Sports & Fitness Yonex",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae032",
+    "ProductName": "Sports & Fitness Wilson",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae034",
+    "ProductName": "Sports & Fitness Cosco",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae036",
+    "ProductName": "Sports & Fitness Nivia",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae038",
+    "ProductName": "Sports & Fitness Head",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03a",
+    "ProductName": "Sports & Fitness Football",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03c",
+    "ProductName": "Sports & Fitness Cricket equipment",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae03e",
+    "ProductName": "Sports & Fitness Dumbbells",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae040",
+    "ProductName": "Sports & Fitness Treadmills",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae042",
+    "ProductName": "Sports & Fitness Exercise bikes",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae044",
+    "ProductName": "Sports & Fitness Yoga mats",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae046",
+    "ProductName": "Sports & Fitness Resistance bands",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae048",
+    "ProductName": "Bags & Travel American Tourister",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04a",
+    "ProductName": "Bags & Travel Samsonite",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04c",
+    "ProductName": "Bags & Travel Safari",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae04e",
+    "ProductName": "Bags & Travel VIP",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae050",
+    "ProductName": "Bags & Travel Skybags",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae052",
+    "ProductName": "Bags & Travel Trolley",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae054",
+    "ProductName": "Bags & Travel Suitcase",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae056",
+    "ProductName": "Bags & Travel Cabin luggage",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae058",
+    "ProductName": "Bags & Travel Wildcraft",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05a",
+    "ProductName": "Bags & Travel Nike",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05c",
+    "ProductName": "Bags & Travel Adidas",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae05e",
+    "ProductName": "Bags & Travel Puma",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae060",
+    "ProductName": "Bags & Travel Herschel",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae062",
+    "ProductName": "Bags & Travel Mokobara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae064",
+    "ProductName": "Bags & Travel School bag",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae066",
+    "ProductName": "Bags & Travel College backpack",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae068",
+    "ProductName": "Bags & Travel Travel backpack",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06a",
+    "ProductName": "Bags & Travel Caprese",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06c",
+    "ProductName": "Bags & Travel Lavie",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae06e",
+    "ProductName": "Bags & Travel Hidesign",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae070",
+    "ProductName": "Bags & Travel Tote",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae072",
+    "ProductName": "Bags & Travel Sling",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae074",
+    "ProductName": "Bags & Travel Crossbody",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae076",
+    "ProductName": "Bags & Travel Messenger bag",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae078",
+    "ProductName": "Bags & Travel Wallet",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07a",
+    "ProductName": "Beauty & Personal Care L'Oréal",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07c",
+    "ProductName": "Beauty & Personal Care Maybelline",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae07e",
+    "ProductName": "Beauty & Personal Care Lakmé",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae080",
+    "ProductName": "Beauty & Personal Care MAC",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae082",
+    "ProductName": "Beauty & Personal Care Nykaa",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae084",
+    "ProductName": "Beauty & Personal Care Revlon",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae086",
+    "ProductName": "Beauty & Personal Care Foundation",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae088",
+    "ProductName": "Beauty & Personal Care Concealer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08a",
+    "ProductName": "Beauty & Personal Care Lipstick",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08c",
+    "ProductName": "Beauty & Personal Care Lip gloss",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae08e",
+    "ProductName": "Beauty & Personal Care Mascara",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae090",
+    "ProductName": "Beauty & Personal Care Eyeliner",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae092",
+    "ProductName": "Beauty & Personal Care Eyeshadow",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae094",
+    "ProductName": "Beauty & Personal Care Blush",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae096",
+    "ProductName": "Beauty & Personal Care Highlighter",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae098",
+    "ProductName": "Beauty & Personal Care Primer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09a",
+    "ProductName": "Beauty & Personal Care Minimalist",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09c",
+    "ProductName": "Beauty & Personal Care Mamaearth",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae09e",
+    "ProductName": "Beauty & Personal Care Plum",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a0",
+    "ProductName": "Beauty & Personal Care The Derma Co",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a2",
+    "ProductName": "Beauty & Personal Care Cetaphil",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a4",
+    "ProductName": "Beauty & Personal Care Neutrogena",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a6",
+    "ProductName": "Beauty & Personal Care Nivea",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0a8",
+    "ProductName": "Beauty & Personal Care Dove",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0aa",
+    "ProductName": "Beauty & Personal Care Face wash",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ac",
+    "ProductName": "Beauty & Personal Care Cleanser",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ae",
+    "ProductName": "Beauty & Personal Care Moisturizer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b0",
+    "ProductName": "Beauty & Personal Care Sunscreen",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b2",
+    "ProductName": "Beauty & Personal Care Serum",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b4",
+    "ProductName": "Beauty & Personal Care Toner",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b6",
+    "ProductName": "Beauty & Personal Care Face mask",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0b8",
+    "ProductName": "Beauty & Personal Care Garnier",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ba",
+    "ProductName": "Beauty & Personal Care Dyson",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0bc",
+    "ProductName": "Beauty & Personal Care Philips",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0be",
+    "ProductName": "Beauty & Personal Care Shampoo",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c0",
+    "ProductName": "Beauty & Personal Care Conditioner",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c2",
+    "ProductName": "Beauty & Personal Care Hair serum",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c4",
+    "ProductName": "Beauty & Personal Care Hair oil",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c6",
+    "ProductName": "Beauty & Personal Care Hair dryer",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0c8",
+    "ProductName": "Beauty & Personal Care Hair straightener",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6a9904e469652590e0aae0ca",
+    "ProductName": "Beauty & Personal Care Hair curler",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca6e8",
+    "ProductName": "Google Pixel 9 Pro XL",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca6fd",
+    "ProductName": "Google Pixel 9 Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca712",
+    "ProductName": "Google Pixel 9",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca727",
+    "ProductName": "Google Pixel 8a",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca73c",
+    "ProductName": "Google Pixel 8 Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7ba",
+    "ProductName": "Nothing Phone (2a)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7cf",
+    "ProductName": "Nothing Phone (2)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca7e4",
+    "ProductName": "Nothing Phone (1)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8a1",
+    "ProductName": "iQOO 13",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8b6",
+    "ProductName": "iQOO 12",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8cb",
+    "ProductName": "iQOO Neo 9 Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06056af8879d815dca8e0",
+    "ProductName": "iQOO Z9 Turbo",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaaf4",
+    "ProductName": "MSI Raider GE78 HX",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab03",
+    "ProductName": "MSI Stealth 16 Studio",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab12",
+    "ProductName": "MSI Katana 15",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab21",
+    "ProductName": "Microsoft Surface Laptop 7",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcab30",
+    "ProductName": "Microsoft Surface Pro 11",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcabf3",
+    "ProductName": "TCL 55\" C845 Mini-LED 4K TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac02",
+    "ProductName": "TCL 65\" P755 4K UHD TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac11",
+    "ProductName": "Hisense 65\" U8N Mini-LED TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac20",
+    "ProductName": "Hisense 55\" E7K Pro 144Hz QLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcac5c",
+    "ProductName": "Toshiba 65\" M550 Mini-LED TV",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaca7",
+    "ProductName": "TCL 75\" C755 QD-Mini LED 4K",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcace3",
+    "ProductName": "Bose QuietComfort Ultra Headphones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcacf2",
+    "ProductName": "Bose QuietComfort Earbuds II",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad01",
+    "ProductName": "Bose SoundLink Flex Bluetooth Speaker",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad3d",
+    "ProductName": "Sennheiser Momentum 4 Wireless",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad4c",
+    "ProductName": "Sennheiser Accentum Wireless ANC",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad5b",
+    "ProductName": "JBL Tour One M2 Headphones",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad6a",
+    "ProductName": "JBL Live Pro 2 TWS",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad79",
+    "ProductName": "JBL Charge 5 Bluetooth Speaker",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad88",
+    "ProductName": "Nothing Ear (a)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcad97",
+    "ProductName": "Nothing Ear (2)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcada6",
+    "ProductName": "Audio-Technica ATH-M50xBT2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcadb5",
+    "ProductName": "Marshall Monitor II ANC",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcadc4",
+    "ProductName": "Marshall Emberton II Speaker",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae0f",
+    "ProductName": "Anker Soundcore Space Q45",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae1e",
+    "ProductName": "Shure AONIC 50 Gen 2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae87",
+    "ProductName": "Google Pixel Watch 3",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcae96",
+    "ProductName": "Google Pixel Watch 2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaea5",
+    "ProductName": "Garmin Fenix 8 Sapphire AMOLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaeb4",
+    "ProductName": "Garmin Venu 3 GPS Smartwatch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaec3",
+    "ProductName": "Garmin Forerunner 265",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaef0",
+    "ProductName": "Amazfit Balance",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaeff",
+    "ProductName": "Amazfit Cheetah Pro",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf0e",
+    "ProductName": "Amazfit T-Rex 3",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf1d",
+    "ProductName": "Fitbit Sense 2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf2c",
+    "ProductName": "Fitbit Versa 4",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf3b",
+    "ProductName": "Huawei Watch GT 4",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf4a",
+    "ProductName": "CMF Watch Pro 2 by Nothing",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcaf68",
+    "ProductName": "Titan Celestial Smartwatch",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb03a",
+    "ProductName": "BenQ DesignVue 32 4K (PD3220U)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb049",
+    "ProductName": "BenQ ZOWIE XL2566K 360Hz eSports",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb058",
+    "ProductName": "MSI MPG 27 360Hz QD-OLED (271QRX)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb067",
+    "ProductName": "MSI MAG 27 180Hz WQHD (MAG274QRF)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb076",
+    "ProductName": "AOC AGON PRO 27 240Hz OLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb085",
+    "ProductName": "Gigabyte AORUS FO32U2P 4K OLED",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb094",
+    "ProductName": "Gigabyte M27Q 27 170Hz QHD",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06057af8879d815dcb0a3",
+    "ProductName": "ViewSonic ColorEdge 27 4K (VP2786-4K)",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1b1",
+    "ProductName": "Google Pixel Tablet with Speaker Dock",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1c0",
+    "ProductName": "Microsoft Surface Pro 11 Copilot+ PC",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1de",
+    "ProductName": "Honor Pad 9 12.1\"",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb1ed",
+    "ProductName": "Nokia T21 Tablet",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb346",
+    "ProductName": "Hasselblad X2D 100C Medium Format",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb382",
+    "ProductName": "PlayStation Portal Remote Player",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb391",
+    "ProductName": "Microsoft Xbox Series X 1TB",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3a0",
+    "ProductName": "Microsoft Xbox Series S 1TB Carbon Black",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3af",
+    "ProductName": "Nintendo Switch OLED Model",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3be",
+    "ProductName": "Nintendo Switch Lite",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb3fa",
+    "ProductName": "Steam Deck OLED 512GB",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb409",
+    "ProductName": "Razer Blade 16 Gaming Laptop",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb418",
+    "ProductName": "Razer Kishi Ultra Mobile Gaming Controller",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb427",
+    "ProductName": "Logitech G Pro X 2 LIGHTSPEED Headset",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb436",
+    "ProductName": "Logitech G PRO X SUPERLIGHT 2 Mouse",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb445",
+    "ProductName": "SteelSeries Arctis Nova Pro Wireless",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb454",
+    "ProductName": "Corsair K100 RGB Mechanical Keyboard",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb463",
+    "ProductName": "Xbox Elite Wireless Controller Series 2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb472",
+    "ProductName": "DualSense Edge Wireless Controller",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb481",
+    "ProductName": "Elgato Stream Deck MK.2",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  },
+  {
+    "ProductId": "6aa06058af8879d815dcb490",
+    "ProductName": "Meta Quest 3 VR Headset 512GB",
+    "CurrentBrand": "UNKNOWN",
+    "IdentifiableBrandCandidate": null,
+    "Classification": "BRAND_NOT_IDENTIFIABLE"
+  }
+]

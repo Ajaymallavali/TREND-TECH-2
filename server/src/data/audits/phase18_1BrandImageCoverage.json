@@ -1,0 +1,222 @@
+{
+  "Apple": {
+    "total": 40,
+    "models": 33,
+    "variants": 1,
+    "valid": 3,
+    "missing": 3,
+    "broken": 0,
+    "remote": 34,
+    "pending": 37
+  },
+  "UNKNOWN": {
+    "total": 675,
+    "models": 1,
+    "variants": 0,
+    "valid": 0,
+    "missing": 583,
+    "broken": 0,
+    "remote": 92,
+    "pending": 675
+  },
+  "Samsung": {
+    "total": 31,
+    "models": 31,
+    "variants": 0,
+    "valid": 0,
+    "missing": 9,
+    "broken": 0,
+    "remote": 22,
+    "pending": 31
+  },
+  "OnePlus": {
+    "total": 14,
+    "models": 14,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 14,
+    "pending": 14
+  },
+  "Dell": {
+    "total": 10,
+    "models": 10,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 10,
+    "pending": 10
+  },
+  "HP": {
+    "total": 7,
+    "models": 7,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 7,
+    "pending": 7
+  },
+  "Lenovo": {
+    "total": 10,
+    "models": 10,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 10,
+    "pending": 10
+  },
+  "Asus": {
+    "total": 12,
+    "models": 12,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 12,
+    "pending": 12
+  },
+  "Xiaomi": {
+    "total": 9,
+    "models": 9,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 9,
+    "pending": 9
+  },
+  "Realme": {
+    "total": 7,
+    "models": 7,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 7,
+    "pending": 7
+  },
+  "Motorola": {
+    "total": 4,
+    "models": 4,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 4,
+    "pending": 4
+  },
+  "Vivo": {
+    "total": 3,
+    "models": 3,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 3,
+    "pending": 3
+  },
+  "Acer": {
+    "total": 4,
+    "models": 4,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 4,
+    "pending": 4
+  },
+  "LG": {
+    "total": 8,
+    "models": 8,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 8,
+    "pending": 8
+  },
+  "Sony": {
+    "total": 15,
+    "models": 15,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 15,
+    "pending": 15
+  },
+  "Panasonic": {
+    "total": 3,
+    "models": 3,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 3,
+    "pending": 3
+  },
+  "Canon": {
+    "total": 4,
+    "models": 4,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 4,
+    "pending": 4
+  },
+  "Nikon": {
+    "total": 3,
+    "models": 3,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 3,
+    "pending": 3
+  },
+  "Fujifilm": {
+    "total": 3,
+    "models": 3,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 3,
+    "pending": 3
+  },
+  "GoPro": {
+    "total": 2,
+    "models": 2,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 2,
+    "pending": 2
+  },
+  "DJI": {
+    "total": 2,
+    "models": 2,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 2,
+    "pending": 2
+  },
+  "Insta360": {
+    "total": 1,
+    "models": 1,
+    "variants": 0,
+    "valid": 0,
+    "missing": 0,
+    "broken": 0,
+    "remote": 1,
+    "pending": 1
+  }
+}

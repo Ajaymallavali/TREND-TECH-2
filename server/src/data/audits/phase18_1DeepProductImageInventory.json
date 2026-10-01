@@ -1,0 +1,30 @@
+{
+  "totalProducts": 867,
+  "trend": 14,
+  "tech": 853,
+  "unclassified": 0,
+  "rawCategories": 24,
+  "normalizedCategories": 13,
+  "brands": 22,
+  "unknownBrands": 675,
+  "uniqueModels": 185,
+  "uniqueModelNumbers": 0,
+  "uniqueVariants": 1,
+  "images": {
+    "valid": 3,
+    "invalid": 269,
+    "missing": 595,
+    "broken": 0,
+    "remote": 269,
+    "local": 3
+  },
+  "repair": {
+    "trueRepairRequired": 864,
+    "trueNewImageFilesRequired": 864,
+    "imageReuseAllowed": 3,
+    "pathProvenanceRepair": 0,
+    "browserRenderingRepair": 269,
+    "identityVerification": 0,
+    "variantVerification": 0
+  }
+}

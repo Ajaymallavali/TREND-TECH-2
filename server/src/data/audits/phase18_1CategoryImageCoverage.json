@@ -1,0 +1,106 @@
+{
+  "Air Conditioner": {
+    "total": 36,
+    "valid": 1,
+    "missing": 35,
+    "broken": 0,
+    "remote": 0,
+    "pending": 35
+  },
+  "Smartphone": {
+    "total": 438,
+    "valid": 0,
+    "missing": 369,
+    "broken": 0,
+    "remote": 69,
+    "pending": 438
+  },
+  "Laptop": {
+    "total": 90,
+    "valid": 1,
+    "missing": 48,
+    "broken": 0,
+    "remote": 41,
+    "pending": 89
+  },
+  "Tablet": {
+    "total": 24,
+    "valid": 0,
+    "missing": 1,
+    "broken": 0,
+    "remote": 23,
+    "pending": 24
+  },
+  "Monitor": {
+    "total": 24,
+    "valid": 0,
+    "missing": 5,
+    "broken": 0,
+    "remote": 19,
+    "pending": 24
+  },
+  "Gaming": {
+    "total": 41,
+    "valid": 0,
+    "missing": 19,
+    "broken": 0,
+    "remote": 22,
+    "pending": 41
+  },
+  "Television": {
+    "total": 56,
+    "valid": 0,
+    "missing": 32,
+    "broken": 0,
+    "remote": 24,
+    "pending": 56
+  },
+  "Smartwatch": {
+    "total": 61,
+    "valid": 0,
+    "missing": 36,
+    "broken": 0,
+    "remote": 25,
+    "pending": 61
+  },
+  "Headphone": {
+    "total": 38,
+    "valid": 0,
+    "missing": 15,
+    "broken": 0,
+    "remote": 23,
+    "pending": 38
+  },
+  "Audio": {
+    "total": 5,
+    "valid": 0,
+    "missing": 5,
+    "broken": 0,
+    "remote": 0,
+    "pending": 5
+  },
+  "Camera": {
+    "total": 39,
+    "valid": 0,
+    "missing": 17,
+    "broken": 0,
+    "remote": 22,
+    "pending": 39
+  },
+  "Fashion": {
+    "total": 13,
+    "valid": 0,
+    "missing": 13,
+    "broken": 0,
+    "remote": 0,
+    "pending": 13
+  },
+  "Earbuds": {
+    "total": 2,
+    "valid": 1,
+    "missing": 0,
+    "broken": 0,
+    "remote": 1,
+    "pending": 1
+  }
+}
