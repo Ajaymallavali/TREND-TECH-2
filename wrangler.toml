@@ -1,3 +1,8 @@
 name = "trend-tech"
 compatibility_date = "2024-09-23"
-pages_build_output_dir = "./client/dist"
+
+[build]
+command = "npm run build"
+
+[assets]
+directory = "./client/dist"
