@@ -1,5 +1,33 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import mongoose from 'mongoose';
 import { URL } from 'url';
+import { Product } from '../../models/Product.model.js';
+import { MarketplaceProduct } from '../../models/MarketplaceProduct.model.js';
+import { isDBConnected } from '../../config/db.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+let catalogSnapshot = null;
+function getCatalogSnapshot() {
+  if (catalogSnapshot) return catalogSnapshot;
+  try {
+    const candidates = [
+      path.resolve(__dirname, '../../data/catalogSnapshot.json'),
+      path.resolve(process.cwd(), 'server/src/data/catalogSnapshot.json'),
+      path.resolve(process.cwd(), 'client/dist/catalogSnapshot.json'),
+    ];
+    for (const c of candidates) {
+      if (fs.existsSync(c)) {
+        catalogSnapshot = JSON.parse(fs.readFileSync(c, 'utf8'));
+        break;
+      }
+    }
+  } catch {}
+  return catalogSnapshot;
+}
 
 const APPROVED_DOMAINS = [
   'amazon.in', 'amazon.com', 'flipkart.com', 'myntra.com', 
@@ -104,10 +132,30 @@ export function validateStoreUrl(storeUrl, { allowSearchUrls = false } = {}) {
 }
 
 export async function findProductByUrlOrQuery(storeUrl, query) {
-  const Product = mongoose.model('Product');
-  const MarketplaceProduct = mongoose.model('MarketplaceProduct');
-  
   let product = null;
+
+  if (!isDBConnected()) {
+    const snap = getCatalogSnapshot();
+    if (snap && snap.data) {
+      if (query) {
+        const qLower = query.toLowerCase().trim();
+        const matches = snap.data.filter(
+          (p) =>
+            (p.name && p.name.toLowerCase().includes(qLower)) ||
+            (p.brand && p.brand.toLowerCase().includes(qLower))
+        );
+        if (matches.length === 1) return matches[0];
+        if (matches.length > 1) return matches.slice(0, 5);
+      }
+      if (storeUrl) {
+        const match = snap.data.find((p) =>
+          (p.offers || []).some((o) => o.url && o.url.includes(storeUrl))
+        );
+        if (match) return match;
+      }
+    }
+    return null;
+  }
   
   if (storeUrl) {
     const val = validateStoreUrl(storeUrl);

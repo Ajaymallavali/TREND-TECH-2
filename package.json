@@ -26,6 +26,7 @@
     "deploy:vercel": "npx vercel --prod"
   },
   "dependencies": {
+    "@google/genai": "^2.24.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",

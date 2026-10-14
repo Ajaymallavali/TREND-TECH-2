@@ -1,4 +1,8 @@
 import mongoose from 'mongoose';
+import { Product } from '../../models/Product.model.js';
+import { MarketplaceProduct } from '../../models/MarketplaceProduct.model.js';
+import { PriceHistory } from '../../models/PriceHistory.model.js';
+import { isDBConnected } from '../../config/db.js';
 import { validateStoreUrl, findProductByUrlOrQuery } from './matcher.js';
 import { computeAIScores } from '../aiWorkflow.service.js';
 import { buildAutomatedStoreUrl } from '../../utils/storeUrlHelper.js';
@@ -38,10 +42,6 @@ function calculateDealMetrics(verifiedOffers, bestDeal) {
 }
 
 export async function analyzeProductWorkflow({ query, url, reelUrl, description, preferredStore }) {
-  const Product = mongoose.model('Product');
-  const MarketplaceProduct = mongoose.model('MarketplaceProduct');
-  const PriceHistory = mongoose.model('PriceHistory');
-  
   let validationResult = { isValid: true };
   if (url) {
     validationResult = validateStoreUrl(url);
