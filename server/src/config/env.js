@@ -26,7 +26,7 @@ const envSchema = z.object({
   JWT_REFRESH_EXPIRES_IN: z.string().default('7d'),
   COOKIE_SECRET: z.string().min(16).default('trendtech_default_cookie_secret_2026_xyz'),
 
-  GOOGLE_CLIENT_ID: z.string().optional().default(''),
+  GOOGLE_CLIENT_ID: z.string().optional().default('264204286937-gg132tridl4n33afjl724i67sm2pts3c.apps.googleusercontent.com'),
 
   SMTP_HOST: z.string().optional().default(''),
   SMTP_PORT: z.coerce.number().optional().default(587),
@@ -56,7 +56,7 @@ export const env = parsed.success ? parsed.data : {
   JWT_ACCESS_EXPIRES_IN: '15m',
   JWT_REFRESH_EXPIRES_IN: '7d',
   COOKIE_SECRET: process.env.COOKIE_SECRET || 'trendtech_default_cookie_secret_2026_xyz',
-  GOOGLE_CLIENT_ID: '',
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID || '264204286937-gg132tridl4n33afjl724i67sm2pts3c.apps.googleusercontent.com',
   SMTP_HOST: '',
   SMTP_PORT: 587,
   SMTP_USER: '',
