@@ -2,6 +2,7 @@
   "name": "trend-tech",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "TREND-TECH \u2014 a shopping intelligence and price-comparison platform (MERN)",
   "workspaces": [
     "client",
@@ -20,6 +21,8 @@
     "docker:down": "docker compose down",
     "lint": "npm run lint --workspace=server && npm run lint --workspace=client",
     "build": "npm run build --workspace=client",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:cloudflare": "npm run build && wrangler pages deploy ./client/dist --project-name=trend-tech",
+    "deploy:vercel": "npx vercel --prod"
   }
 }

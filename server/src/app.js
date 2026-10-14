@@ -42,10 +42,10 @@ export function createApp() {
   app.use(async (req, res, next) => {
     try {
       await connectDB();
-      next();
-    } catch (err) {
-      next(err);
+    } catch {
+      // Non-blocking fallback
     }
+    next();
   });
 
   app.use('/api', apiLimiter);

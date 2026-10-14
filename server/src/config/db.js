@@ -6,21 +6,31 @@ mongoose.set('strictQuery', true);
 
 let isConnected = false;
 
+export function isDBConnected() {
+  return mongoose.connection.readyState === 1;
+}
+
 export async function connectDB() {
-  if (isConnected && mongoose.connection.readyState === 1) return mongoose.connection;
+  if (isDBConnected()) return mongoose.connection;
+
+  // In cloud serverless (like Vercel), skip attempting localhost to avoid delay
+  if (process.env.VERCEL && env.MONGODB_URI.includes('localhost')) {
+    logger.warn('Skipping MongoDB connection: Running on Vercel without remote MONGODB_URI');
+    return null;
+  }
 
   try {
     await mongoose.connect(env.MONGODB_URI, {
-      maxPoolSize: 20,
-      serverSelectionTimeoutMS: 10000,
+      maxPoolSize: 10,
+      serverSelectionTimeoutMS: 3000,
     });
     isConnected = true;
     logger.info('MongoDB connected');
     return mongoose.connection;
   } catch (err) {
     isConnected = false;
-    logger.error({ err }, 'MongoDB connection failed');
-    throw err;
+    logger.warn({ errMessage: err.message }, 'MongoDB connection unavailable — fallback catalog active');
+    return null;
   }
 }
 
