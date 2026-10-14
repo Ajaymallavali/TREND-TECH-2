@@ -13,7 +13,7 @@ dotenv.config({ path: path.join(__dirname, '../../.env') });
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME || 'ffjt1wkl',
   api_key: process.env.CLOUDINARY_API_KEY || '886124727776774',
-  api_secret: process.env.CLOUDINARY_API_SECRET || 'FADIJxqiYUoq492JC3msqQkqGtY'
+  api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
 async function main() {
