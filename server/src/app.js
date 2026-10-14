@@ -1,4 +1,5 @@
 import express from 'express';
+import fs from 'fs';
 import path from 'path';
 import helmet from 'helmet';
 import cors from 'cors';
@@ -27,7 +28,7 @@ export function createApp() {
   app.use(helmet());
   app.use(
     cors({
-      origin: env.CLIENT_URL,
+      origin: env.CLIENT_URL || true,
       credentials: true,
     })
   );
@@ -48,7 +49,9 @@ export function createApp() {
   app.use('/server/src/data/product-images', express.static(productImagesPath));
 
   // Serve static assets from client build for single combined server
-  const clientDistPath = path.resolve(process.cwd(), 'client/dist');
+  const clientDistPath = fs.existsSync(path.resolve(process.cwd(), 'client/dist'))
+    ? path.resolve(process.cwd(), 'client/dist')
+    : path.resolve(__dirname, '../../client/dist');
   app.use(express.static(clientDistPath));
 
   app.get('*', (req, res, next) => {
