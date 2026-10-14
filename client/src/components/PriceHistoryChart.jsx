@@ -39,6 +39,15 @@ export default function PriceHistoryChart({ data = [], selectedMarketplaces = []
     );
   }
 
+  // Derive all store keys present in data
+  const allStores = Array.from(
+    new Set(data.flatMap((item) => Object.keys(item).filter((key) => key !== 'date')))
+  );
+  const activeStores = selectedMarketplaces.length > 0
+    ? selectedMarketplaces.filter((s) => allStores.includes(s))
+    : allStores;
+  const storesToRender = activeStores.length > 0 ? activeStores : allStores;
+
   // Format Y-axis value to INR (using currency formatting helper or simple symbol)
   const formatYAxis = (val) => {
     return new Intl.NumberFormat('en-IN', {
@@ -116,7 +125,7 @@ export default function PriceHistoryChart({ data = [], selectedMarketplaces = []
               return <span className="text-xs font-medium text-ink-600">{value}</span>;
             }}
           />
-          {selectedMarketplaces.map((mName) => (
+          {storesToRender.map((mName) => (
             <Line
               key={mName}
               type="monotone"

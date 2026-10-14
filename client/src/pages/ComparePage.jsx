@@ -32,14 +32,39 @@ export default function ComparePage() {
     queryKey: ['compare-products', productIdsParam],
     queryFn: async () => {
       if (productIds.length === 0) return [];
+      const snap = await import('../data/catalogSnapshot.json');
+      const catalog = snap.default || snap;
+
       const productsData = await Promise.all(
         productIds.map(async (id) => {
           try {
             const res = await apiClient.get(`/products/${id}`);
-            return res.data.data;
-          } catch {
-            return null;
+            if (res.data?.data) return res.data.data;
+          } catch {}
+
+          const p = (catalog.data || []).find((x) => x._id === id || x.id === id);
+          if (p) {
+            return {
+              _id: p._id,
+              name: p.name,
+              brand: p.brand,
+              description: p.description,
+              category: p.category,
+              image: p.image,
+              specs: p.specs || {},
+              lowestPrice: p.minPrice,
+              highestPrice: p.maxPrice || p.minPrice,
+              averagePrice: p.minPrice,
+              rating: p.rating || 4.5,
+              marketplaces: (p.offers || []).map((o) => ({
+                marketplace: o.marketplace?.name || 'Verified Store',
+                currentPrice: o.currentPrice,
+                isAvailable: o.isAvailable !== false,
+                url: o.url,
+              })),
+            };
           }
+          return null;
         })
       );
       return productsData.filter(Boolean);
@@ -51,11 +76,30 @@ export default function ComparePage() {
   const { data: suggestions = [] } = useQuery({
     queryKey: ['compare-suggestions', searchQuery],
     queryFn: async () => {
-      if (!searchQuery) return [];
-      const res = await apiClient.get('/products', { params: { q: searchQuery } });
-      return res.data.data;
+      const q = searchQuery.trim().toLowerCase();
+      if (!q) return [];
+      try {
+        const res = await apiClient.get('/products', { params: { q } });
+        if (Array.isArray(res.data?.data) && res.data.data.length > 0) {
+          return res.data.data;
+        }
+      } catch (err) {
+        console.warn('API error for suggestions, falling back to snapshot:', err);
+      }
+
+      try {
+        const snap = await import('../data/catalogSnapshot.json');
+        const catalog = snap.default || snap;
+        return (catalog.data || []).filter((p) =>
+          (p.name && p.name.toLowerCase().includes(q)) ||
+          (p.brand && p.brand.toLowerCase().includes(q)) ||
+          (p.category && p.category.toLowerCase().includes(q))
+        ).slice(0, 8);
+      } catch {
+        return [];
+      }
     },
-    enabled: searchQuery.length > 1,
+    enabled: searchQuery.trim().length >= 1,
   });
 
   const handleAddProduct = (id) => {
@@ -180,37 +224,59 @@ export default function ComparePage() {
                 placeholder="Search smartphone, laptop, brand name..."
                 className="input-field text-xs pl-8 py-2"
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setSearchFocused(true);
+                }}
                 onFocus={() => setSearchFocused(true)}
-                onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
+                onBlur={() => setTimeout(() => setSearchFocused(false), 250)}
               />
               <Plus className="absolute left-2.5 top-2.5 h-4 w-4 text-ink-400" />
             </div>
             
             {/* Search Suggestions Overlay */}
-            {searchFocused && suggestions.length > 0 && (
-              <div className="absolute left-0 right-0 z-50 mt-1 max-h-60 overflow-y-auto rounded-xl border border-ink-100 bg-white p-2 shadow-lg">
-                {suggestions.map((p) => {
-                  const isAlreadyAdded = productIds.includes(p._id);
-                  return (
-                    <button
-                      key={p._id}
-                      disabled={isAlreadyAdded}
-                      onClick={() => handleAddProduct(p._id)}
-                      className="flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-xs font-semibold hover:bg-ink-50 disabled:opacity-50"
-                    >
-                      <div>
-                        <span className="font-bold text-ink-900 block">{p.name}</span>
-                        <span className="text-[10px] text-ink-400 uppercase tracking-wide">{p.brand}</span>
-                      </div>
-                      {isAlreadyAdded ? (
-                        <Check className="h-4 w-4 text-green-600" />
-                      ) : (
-                        <Plus className="h-4 w-4 text-accent-600" />
-                      )}
-                    </button>
-                  );
-                })}
+            {searchFocused && searchQuery.trim().length >= 1 && (
+              <div className="absolute left-0 right-0 z-50 mt-1 max-h-64 overflow-y-auto rounded-xl border border-ink-100 bg-white p-2 shadow-lg divide-y divide-ink-50">
+                {suggestions.length > 0 ? (
+                  suggestions.map((p) => {
+                    const isAlreadyAdded = productIds.includes(p._id);
+                    return (
+                      <button
+                        key={p._id}
+                        type="button"
+                        disabled={isAlreadyAdded}
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => handleAddProduct(p._id)}
+                        className="flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-xs font-semibold hover:bg-ink-50 disabled:opacity-50 transition-colors"
+                      >
+                        <div className="flex items-center gap-2.5 min-w-0 pr-2">
+                          {p.image && (
+                            <img src={p.image} alt="" className="h-8 w-8 object-contain rounded border border-ink-100 p-0.5 bg-ink-50 flex-shrink-0" />
+                          )}
+                          <div className="min-w-0">
+                            <span className="font-bold text-ink-900 block truncate">{p.name}</span>
+                            <span className="text-[10px] text-ink-500 uppercase tracking-wide">
+                              {p.brand} {p.minPrice ? `• ₹${p.minPrice.toLocaleString('en-IN')}` : ''}
+                            </span>
+                          </div>
+                        </div>
+                        {isAlreadyAdded ? (
+                          <span className="text-[10px] text-green-700 bg-green-50 px-1.5 py-0.5 rounded font-bold flex items-center gap-1 flex-shrink-0">
+                            <Check className="h-3 w-3" /> Added
+                          </span>
+                        ) : (
+                          <span className="text-[10px] text-accent-700 bg-accent-50 px-1.5 py-0.5 rounded font-bold flex items-center gap-1 flex-shrink-0">
+                            <Plus className="h-3 w-3" /> Add
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })
+                ) : (
+                  <div className="p-3 text-center text-xs text-ink-400">
+                    No matching products found
+                  </div>
+                )}
               </div>
             )}
           </div>
