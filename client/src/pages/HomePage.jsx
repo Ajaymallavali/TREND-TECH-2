@@ -84,8 +84,23 @@ export default function HomePage({ mode }) {
   const { data: deals = [], isLoading: dealsLoading } = useQuery({
     queryKey: ['home-deals'],
     queryFn: async () => {
-      const res = await apiClient.get('/products');
-      const products = res.data.data || [];
+      let products = [];
+      try {
+        const res = await apiClient.get('/products');
+        products = res.data?.data || [];
+      } catch (err) {
+        console.warn('API fetch failed, loading in-memory catalog snapshot for deals:', err);
+      }
+
+      if (!products || products.length === 0) {
+        try {
+          const snap = await import('../data/catalogSnapshot.json');
+          products = (snap.default || snap).data || [];
+        } catch {
+          products = [];
+        }
+      }
+
       return products
         .filter((p) => p.dealStatus && p.dealStatus !== 'STABLE' && p.minPrice && p.image)
         .map((p) => {

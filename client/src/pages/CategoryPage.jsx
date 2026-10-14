@@ -69,8 +69,65 @@ export default function CategoryPage() {
       if (budgetFilter === 'under40k') params.maxPrice = 40000;
       if (budgetFilter === 'under25k') params.maxPrice = 25000;
 
-      const res = await apiClient.get('/products', { params });
-      return res.data || {};
+      try {
+        const res = await apiClient.get('/products', { params });
+        if (res.data && Array.isArray(res.data.data)) {
+          return res.data;
+        }
+      } catch (err) {
+        console.warn('API fetch failed, loading in-memory catalog snapshot:', err);
+      }
+
+      // Seamless direct fallback to bundled catalog snapshot
+      try {
+        const snap = await import('../data/catalogSnapshot.json');
+        const catalog = snap.default || snap;
+        let filtered = (catalog.data || []).filter(
+          (p) => (p.category || '').toLowerCase() === currentCategory.toLowerCase()
+        );
+
+        const brandCountsMap = {};
+        filtered.forEach((p) => {
+          if (p.brand) {
+            const b = p.brand.trim();
+            brandCountsMap[b] = (brandCountsMap[b] || 0) + 1;
+          }
+        });
+        const brandSummary = Object.entries(brandCountsMap)
+          .map(([name, count]) => ({ name, count }))
+          .sort((a, b) => b.count - a.count);
+
+        if (currentBrand) {
+          filtered = filtered.filter(
+            (p) => p.brand && p.brand.trim().toLowerCase() === currentBrand.toLowerCase()
+          );
+        }
+
+        if (budgetFilter === 'above60k') filtered = filtered.filter((p) => (p.minPrice || 0) >= 60000);
+        if (budgetFilter === 'under60k') filtered = filtered.filter((p) => (p.minPrice || 0) <= 60000 && (p.minPrice || 0) > 0);
+        if (budgetFilter === 'under40k') filtered = filtered.filter((p) => (p.minPrice || 0) <= 40000 && (p.minPrice || 0) > 0);
+        if (budgetFilter === 'under25k') filtered = filtered.filter((p) => (p.minPrice || 0) <= 25000 && (p.minPrice || 0) > 0);
+
+        if (sortBy === 'price_asc') {
+          filtered.sort((a, b) => (a.minPrice || Infinity) - (b.minPrice || Infinity));
+        } else if (sortBy === 'price_desc') {
+          filtered.sort((a, b) => (b.minPrice || 0) - (a.minPrice || 0));
+        } else if (sortBy === 'discount_desc') {
+          filtered.sort((a, b) => (b.discountPercentage || 0) - (a.discountPercentage || 0));
+        } else if (sortBy === 'rating_desc') {
+          filtered.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        }
+
+        return {
+          success: true,
+          data: filtered,
+          brandSummary,
+          totalCount: filtered.length,
+        };
+      } catch (fallbackErr) {
+        console.error('Fallback snapshot failed:', fallbackErr);
+        throw fallbackErr;
+      }
     },
   });
 

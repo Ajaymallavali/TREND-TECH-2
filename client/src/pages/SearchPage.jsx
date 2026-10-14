@@ -62,8 +62,53 @@ export default function SearchPage() {
       if (minRating) params.rating = minRating;
       if (sortBy) params.sortBy = sortBy;
 
-      const res = await apiClient.get('/products', { params });
-      return res.data.data;
+      try {
+        const res = await apiClient.get('/products', { params });
+        if (res.data?.data) return res.data.data;
+      } catch (err) {
+        console.warn('API search failed, falling back to snapshot:', err);
+      }
+
+      try {
+        const snap = await import('../data/catalogSnapshot.json');
+        const catalog = snap.default || snap;
+        let filtered = [...(catalog.data || [])];
+
+        if (queryParam) {
+          const qLower = queryParam.toLowerCase();
+          filtered = filtered.filter(
+            (p) =>
+              (p.name && p.name.toLowerCase().includes(qLower)) ||
+              (p.brand && p.brand.toLowerCase().includes(qLower)) ||
+              (p.description && p.description.toLowerCase().includes(qLower))
+          );
+        }
+
+        if (selectedCategory) {
+          const catLower = selectedCategory.toLowerCase();
+          filtered = filtered.filter((p) => (p.category || '').toLowerCase() === catLower);
+        }
+
+        if (selectedBrand) {
+          filtered = filtered.filter(
+            (p) => p.brand && p.brand.toLowerCase() === selectedBrand.toLowerCase()
+          );
+        }
+
+        if (minPrice) filtered = filtered.filter((p) => (p.minPrice || 0) >= parseFloat(minPrice));
+        if (maxPrice) filtered = filtered.filter((p) => (p.minPrice || 0) <= parseFloat(maxPrice));
+        if (minRating) filtered = filtered.filter((p) => (p.rating || 4.2) >= parseFloat(minRating));
+
+        if (sortBy === 'price_asc') filtered.sort((a, b) => (a.minPrice || Infinity) - (b.minPrice || Infinity));
+        else if (sortBy === 'price_desc') filtered.sort((a, b) => (b.minPrice || 0) - (a.minPrice || 0));
+        else if (sortBy === 'discount_desc') filtered.sort((a, b) => (b.discountPercentage || 0) - (a.discountPercentage || 0));
+        else if (sortBy === 'rating_desc') filtered.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+
+        return filtered;
+      } catch (fallbackErr) {
+        console.error('Search snapshot fallback error:', fallbackErr);
+        return [];
+      }
     },
   });
 

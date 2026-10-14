@@ -51,6 +51,8 @@ export function createApp() {
   app.use('/api', apiLimiter);
   app.use('/api/health', healthRoutes);
   app.use('/api', apiRoutes);
+  app.use('/health', healthRoutes);
+  app.use('/', apiRoutes);
 
   // Serve product image files safely from local storage
   const productImagesPath = path.resolve(__dirname, 'data/product-images');

@@ -18,12 +18,17 @@ let cachedSnapshot = null;
 async function getClientSnapshot() {
   if (cachedSnapshot) return cachedSnapshot;
   try {
-    const res = await fetch('/catalogSnapshot.json');
-    if (res.ok) {
-      cachedSnapshot = await res.json();
-    }
+    const mod = await import('../data/catalogSnapshot.json');
+    cachedSnapshot = mod.default || mod;
   } catch (err) {
-    // Non-blocking
+    try {
+      const res = await fetch('/catalogSnapshot.json');
+      if (res.ok) {
+        cachedSnapshot = await res.json();
+      }
+    } catch {
+      // Non-blocking
+    }
   }
   return cachedSnapshot;
 }
