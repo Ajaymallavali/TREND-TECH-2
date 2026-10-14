@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { TrendingUp } from 'lucide-react';
 import { useAuthStore } from '../store/authStore.js';
+import { GoogleLogin } from '@react-oauth/google';
 
 const schema = z.object({
   email: z.string().email('Enter a valid email'),
@@ -13,6 +14,7 @@ const schema = z.object({
 
 export default function LoginPage() {
   const login = useAuthStore((s) => s.login);
+  const googleLogin = useAuthStore((s) => s.googleLogin);
   const navigate = useNavigate();
   const location = useLocation();
   const [serverError, setServerError] = useState(null);
@@ -33,6 +35,20 @@ export default function LoginPage() {
     }
   };
 
+  const onGoogleSuccess = async (credentialResponse) => {
+    setServerError(null);
+    const result = await googleLogin(credentialResponse.credential);
+    if (result.ok) {
+      navigate(location.state?.from?.pathname || '/dashboard', { replace: true });
+    } else {
+      setServerError(result.message);
+    }
+  };
+
+  const onGoogleError = () => {
+    setServerError('Google Sign-In was unsuccessful. Try again later.');
+  };
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-ink-50 px-4">
       <div className="w-full max-w-sm">
@@ -44,6 +60,28 @@ export default function LoginPage() {
         <div className="card">
           <h1 className="mb-1 text-xl font-semibold text-ink-900">Welcome back</h1>
           <p className="mb-6 text-sm text-ink-500">Log in to track prices and manage alerts.</p>
+
+          <div className="mb-4 flex justify-center">
+            <GoogleLogin
+              onSuccess={onGoogleSuccess}
+              onError={onGoogleError}
+              useOneTap
+              theme="outline"
+              size="large"
+              shape="rectangular"
+              text="signin_with"
+              width="100%"
+            />
+          </div>
+
+          <div className="relative mb-6">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-ink-200"></div>
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span className="bg-white px-2 text-ink-500">Or continue with</span>
+            </div>
+          </div>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4" noValidate>
             <div>

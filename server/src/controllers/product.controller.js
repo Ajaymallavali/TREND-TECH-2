@@ -13,6 +13,8 @@ import { evaluateProductDealSignal, DEAL_STATUSES } from '../services/deal.servi
 import { enforceCategoryListingImageDeduplication } from '../services/imageDeduplicationGuard.service.js';
 
 import { isRealCommercialBrand, normalizeBrand } from '../utils/productIdentity.js';
+import { getOrGenerateOfferReport, getOrGenerateAnnualPurchases } from '../services/offerReport.service.js';
+import { buildAutomatedStoreUrl } from '../utils/storeUrlHelper.js';
 
 // Helper to filter and validate listings
 const isValidListing = (l) => {
@@ -93,7 +95,7 @@ export const getProducts = async (req, res, next) => {
             logoUrl: l.marketplace.logoUrl,
             baseUrl: l.marketplace.baseUrl
           } : null,
-          url: l.url,
+          url: buildAutomatedStoreUrl(l.marketplace ? l.marketplace.name : '', p, l.url),
           currentPrice: l.currentPrice,
           originalPrice: l.originalPrice,
           currency: l.currency || 'INR',
@@ -156,6 +158,14 @@ export const getProducts = async (req, res, next) => {
 
     // Enforce category listing image deduplication guard
     productsWithPrices = enforceCategoryListingImageDeduplication(productsWithPrices);
+
+    // Prioritize products with verified unique images so storefront features real items
+    productsWithPrices.sort((a, b) => {
+      const aHas = Boolean(a.image && (a.image.startsWith('http') || a.image.startsWith('/product-images/')));
+      const bHas = Boolean(b.image && (b.image.startsWith('http') || b.image.startsWith('/product-images/')));
+      if (aHas !== bHas) return bHas ? 1 : -1;
+      return 0;
+    });
 
     res.status(200).json({
       success: true,
@@ -294,6 +304,8 @@ export const getProductDetails = async (req, res, next) => {
         text: recText,
       },
       aiAnalysis,
+      historicalOfferReport: getOrGenerateOfferReport(product, bestDeals, targetBestPrice),
+      annualPurchases: getOrGenerateAnnualPurchases(product, targetBestPrice),
       marketplaces: bestDeals.map((l) => {
         const isBest = l.price !== null && targetBestPrice !== null && l.price === targetBestPrice;
         const discountPercentage = l.price && l.originalPrice
@@ -379,7 +391,7 @@ export const getPriceHistory = async (req, res, next) => {
     const bestDealIds = bestDeals.map((d) => d._id);
 
     const thirtyDaysAgo = new Date();
-    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 31);
 
     const historyDocs = await PriceHistory.find({
       marketplaceProduct: { $in: bestDealIds },
@@ -487,7 +499,7 @@ export const getBestDeals = async (req, res, next) => {
           dealStatus: dealResult.dealStatus,
           dealSource: dealResult.dealSource,
           marketplace: mName,
-          url: bestOffer.url,
+          url: buildAutomatedStoreUrl(mName, p, bestOffer.url),
           logoUrl,
         });
       }

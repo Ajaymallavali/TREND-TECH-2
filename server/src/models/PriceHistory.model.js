@@ -19,4 +19,6 @@ const priceHistorySchema = new Schema(
 // Index to quickly query history chronologically for a specific listing
 priceHistorySchema.index({ marketplaceProduct: 1, timestamp: -1 });
 
-export const PriceHistory = mongoose.model('PriceHistory', priceHistorySchema);
+import { createFirestoreModel } from '../database/firestore/FirestoreAdapter.js';
+const MongoPH = mongoose.model('PriceHistory', priceHistorySchema);
+export const PriceHistory = process.env.DATABASE_PROVIDER === 'firestore' ? createFirestoreModel('priceHistory') : MongoPH;

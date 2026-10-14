@@ -13,4 +13,6 @@ const marketplaceSchema = new Schema(
   { timestamps: true }
 );
 
-export const Marketplace = mongoose.model('Marketplace', marketplaceSchema);
+import { createFirestoreModel } from '../database/firestore/FirestoreAdapter.js';
+const MongoMarketplace = mongoose.model('Marketplace', marketplaceSchema);
+export const Marketplace = process.env.DATABASE_PROVIDER === 'firestore' ? createFirestoreModel('marketplaces') : MongoMarketplace;

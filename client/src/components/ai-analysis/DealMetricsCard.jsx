@@ -1,5 +1,6 @@
 import React from 'react';
 import { Zap, TrendingUp, ExternalLink } from 'lucide-react';
+import { getStoreRedirectUrl } from '../../utils/storeUrlHelper';
 
 export function DealMetricsCard({ identity, dealMetrics, bestDeal, preferredDeal, sourceInfo, formatINR }) {
   if (!dealMetrics) return null;
@@ -61,7 +62,7 @@ export function DealMetricsCard({ identity, dealMetrics, bestDeal, preferredDeal
             </div>
           </div>
           <a
-            href={preferredDeal.url}
+            href={getStoreRedirectUrl(preferredDeal.marketplace, identity, preferredDeal.url)}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline px-6 py-3 text-sm whitespace-nowrap flex items-center gap-2"

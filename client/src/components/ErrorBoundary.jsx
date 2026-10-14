@@ -36,6 +36,15 @@ export class ErrorBoundary extends React.Component {
               An unexpected error occurred while displaying this page. Your data is safe.
             </p>
 
+            {this.state.error && (
+              <div className="mt-3 text-left">
+                <details className="text-[11px] text-red-600 bg-red-50 p-2.5 rounded-lg border border-red-100">
+                  <summary className="font-semibold cursor-pointer select-none">Technical error details</summary>
+                  <p className="mt-1 font-mono text-[10px] break-all">{this.state.error.message || String(this.state.error)}</p>
+                </details>
+              </div>
+            )}
+
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <button
                 onClick={this.handleReload}

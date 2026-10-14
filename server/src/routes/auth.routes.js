@@ -15,6 +15,7 @@ const router = Router();
 
 router.post('/register', authLimiter, validate({ body: registerSchema }), authController.register);
 router.post('/login', authLimiter, validate({ body: loginSchema }), authController.login);
+router.post('/google-login', authLimiter, authController.googleLogin);
 router.post('/refresh', authController.refresh);
 router.post('/logout', authController.logout);
 router.get('/me', authenticate, authController.me);

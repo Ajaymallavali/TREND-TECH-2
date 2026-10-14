@@ -1,5 +1,6 @@
 import React from 'react';
 import { Zap, ArrowRight } from 'lucide-react';
+import { getStoreRedirectUrl } from '../../utils/storeUrlHelper';
 
 export default function ComparisonResult({ data, formatINR }) {
   if (!data || data.status !== 'COMPARISON_SUCCESS') return null;
@@ -22,7 +23,7 @@ export default function ComparisonResult({ data, formatINR }) {
               <div className="bg-green-50 border border-green-200 p-4 rounded-xl w-full mb-6">
                 <p className="text-[10px] font-bold text-green-800 uppercase tracking-widest mb-1">Verified Deal on {c.deal.marketplace}</p>
                 <p className="text-3xl font-black text-green-900">{formatINR(c.deal.price)}</p>
-                <a href={c.deal.url} target="_blank" rel="noopener noreferrer" className="btn-primary mt-4 w-full bg-accent-600 hover:bg-accent-700 text-white rounded-lg py-3 text-sm font-black flex items-center justify-center gap-2">
+                <a href={getStoreRedirectUrl(c.deal.marketplace, c.product, c.deal.url)} target="_blank" rel="noopener noreferrer" className="btn-primary mt-4 w-full bg-accent-600 hover:bg-accent-700 text-white rounded-lg py-3 text-sm font-black flex items-center justify-center gap-2">
                   BUY NOW <ArrowRight className="h-4 w-4" />
                 </a>
               </div>

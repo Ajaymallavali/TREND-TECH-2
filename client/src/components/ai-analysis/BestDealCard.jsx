@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight, Zap, CheckCircle2 } from 'lucide-react';
+import { getStoreRedirectUrl } from '../../utils/storeUrlHelper';
 
-export function BestDealCard({ bestDeal, formatINR }) {
+export function BestDealCard({ bestDeal, product, formatINR }) {
   if (!bestDeal) return null;
 
   return (
@@ -32,7 +33,7 @@ export function BestDealCard({ bestDeal, formatINR }) {
 
       <div className="w-full md:w-auto flex-shrink-0 relative z-10">
         <a
-          href={bestDeal.url}
+          href={getStoreRedirectUrl(bestDeal.marketplace, product, bestDeal.url)}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-accent-800 px-8 py-4 rounded-xl font-black text-lg w-full flex items-center justify-center gap-2 hover:bg-accent-50 transition-colors shadow-sm"

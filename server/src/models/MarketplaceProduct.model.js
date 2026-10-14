@@ -10,7 +10,7 @@ const marketplaceProductSchema = new Schema(
     url: { type: String, required: true },
     currentPrice: { type: Number, required: true },
     originalPrice: { type: Number, default: null },
-    currency: { type: String, default: 'USD' },
+    currency: { type: String, default: 'INR' },
     isAvailable: { type: Boolean, default: true },
     lastUpdated: { type: Date, default: Date.now },
     externalProductId: { type: String, default: null, index: true },
@@ -22,4 +22,6 @@ const marketplaceProductSchema = new Schema(
 // Create compound index for product + marketplace uniqueness
 marketplaceProductSchema.index({ product: 1, marketplace: 1 }, { unique: true });
 
-export const MarketplaceProduct = mongoose.model('MarketplaceProduct', marketplaceProductSchema);
+import { createFirestoreModel } from '../database/firestore/FirestoreAdapter.js';
+const MongoMP = mongoose.model('MarketplaceProduct', marketplaceProductSchema);
+export const MarketplaceProduct = process.env.DATABASE_PROVIDER === 'firestore' ? createFirestoreModel('marketplaceProducts') : MongoMP;

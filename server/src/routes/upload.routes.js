@@ -10,7 +10,7 @@ import { env } from '../config/env.js';
 cloudinary.config({
   cloud_name: env.CLOUDINARY_CLOUD_NAME || 'ffjt1wkl',
   api_key: env.CLOUDINARY_API_KEY || '886124727776774',
-  api_secret: env.CLOUDINARY_API_SECRET || 'FADIJxqiYUoq492JC3msqQkqGtY',
+  api_secret: env.CLOUDINARY_API_SECRET,
 });
 
 const storage = new CloudinaryStorage({

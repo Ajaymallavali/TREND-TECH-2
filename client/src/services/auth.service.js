@@ -34,3 +34,8 @@ export async function changePasswordRequest(payload) {
   const { data } = await apiClient.post('/auth/change-password', payload);
   return data.data;
 }
+
+export async function googleLoginRequest(payload) {
+  const { data } = await apiClient.post('/auth/google-login', payload);
+  return data.data;
+}

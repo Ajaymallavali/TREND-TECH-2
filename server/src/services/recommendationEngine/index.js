@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import { parseShoppingQuery } from './parser.js';
+import { buildAutomatedStoreUrl } from '../../utils/storeUrlHelper.js';
 
 export async function generateRecommendations(query) {
   const Product = mongoose.model('Product');
@@ -29,11 +30,12 @@ export async function generateRecommendations(query) {
         let deal = null;
         if (pMps.length > 0) {
           const bestOffer = pMps.sort((a,b) => a.currentPrice - b.currentPrice)[0];
+          const mName = bestOffer.marketplace ? bestOffer.marketplace.name : 'Unknown';
           deal = {
             price: bestOffer.currentPrice,
             mrp: bestOffer.originalPrice,
-            marketplace: bestOffer.marketplace ? bestOffer.marketplace.name : 'Unknown',
-            url: bestOffer.url
+            marketplace: mName,
+            url: buildAutomatedStoreUrl(mName, p, bestOffer.url)
           };
         }
         return { product: p, deal };
@@ -137,7 +139,7 @@ export async function generateRecommendations(query) {
         discountPercentage: discount,
         savings: savings,
         marketplace: bestOffer.marketplace ? bestOffer.marketplace.name : 'Unknown',
-        url: bestOffer.url,
+        url: buildAutomatedStoreUrl(bestOffer.marketplace ? bestOffer.marketplace.name : 'Unknown', p, bestOffer.url),
         isVerified: bestOffer.sourceStatus === 'LIVE_VERIFIED'
       },
       score,

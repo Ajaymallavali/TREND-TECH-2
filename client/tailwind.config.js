@@ -42,7 +42,7 @@ export default {
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       boxShadow: {
-        card: '0 1px 2px rgba(9,10,16,0.04), 0 1px 6px rgba(9,10,16,0.06)',
+        card: '0 1px 3px rgba(9,10,16,0.04), 0 1px 6px rgba(9,10,16,0.05)',
       },
     },
   },

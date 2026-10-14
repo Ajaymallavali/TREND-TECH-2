@@ -31,8 +31,12 @@ const productSchema = new Schema(
     slug: { type: String, default: null, index: true },
     specs: { type: Map, of: String, default: {} },
     tags: [{ type: String, trim: true }],
+    historicalOfferReport: { type: Schema.Types.Mixed, default: null },
+    annualPurchases: { type: Schema.Types.Mixed, default: null },
   },
   { timestamps: true, strict: false }
 );
 
-export const Product = mongoose.model('Product', productSchema);
+import { createFirestoreModel } from '../database/firestore/FirestoreAdapter.js';
+const MongoProduct = mongoose.model('Product', productSchema);
+export const Product = process.env.DATABASE_PROVIDER === 'firestore' ? createFirestoreModel('products') : MongoProduct;

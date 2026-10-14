@@ -11,7 +11,7 @@ export const CANONICAL_CATEGORIES = {
   TELEVISION: 'television',
   HEADPHONES: 'headphones',
   EARBUDS: 'earbuds',
-  AUDIO: 'audio',
+  AUDIO: 'headphones',
   SMARTWATCH: 'smartwatch',
   MONITOR: 'monitor',
   TABLET: 'tablet',
@@ -20,7 +20,8 @@ export const CANONICAL_CATEGORIES = {
   AIR_CONDITIONER: 'air-conditioner',
   WASHING_MACHINE: 'washing-machine',
   REFRIGERATOR: 'refrigerator',
-  ACCESSORY: 'accessory',
+  ACCESSORY: 'accessories',
+  ACCESSORIES: 'accessories',
   HOME_APPLIANCES: 'home-appliances',
   MENS_CLOTHING: 'mens-clothing',
   WOMENS_CLOTHING: 'womens-clothing',
@@ -55,7 +56,7 @@ const CATEGORY_ALIAS_MAP = {
   headphone: CANONICAL_CATEGORIES.HEADPHONES,
   earbuds: CANONICAL_CATEGORIES.EARBUDS,
   earbud: CANONICAL_CATEGORIES.EARBUDS,
-  audio: CANONICAL_CATEGORIES.AUDIO,
+  audio: CANONICAL_CATEGORIES.HEADPHONES,
 
   // Smartwatch aliases
   smartwatch: CANONICAL_CATEGORIES.SMARTWATCH,
@@ -123,225 +124,426 @@ export function determineProductCategory(product) {
   const desc = (product.description || '').toLowerCase();
   const categoryRaw = (product.category || '').toLowerCase();
 
-  // 0. Phone Accessories / Chargers / Cases / Covers / Screen Protectors / Sports Mat
-  if (
-    name.includes(' case') ||
+  const isLaptopAccessory =
+    name.includes('stand') ||
+    name.includes('bag') ||
+    name.includes('backpack') ||
+    name.includes('sleeve') ||
+    name.includes('case') ||
     name.includes('cover') ||
-    name.includes('screen protector') ||
-    name.includes('tempered glass') ||
-    name.includes('charging cable') ||
-    name.includes('charger') ||
-    name.includes('power bank') ||
-    name.includes('adapter') ||
-    name.includes('yoga mat') ||
-    name.includes('mat ') ||
-    name.includes('treadmill') ||
-    name.includes('dumbbells') ||
-    categoryRaw === 'accessory' ||
-    categoryRaw === 'accessories' ||
-    categoryRaw === 'phone-accessory' ||
-    categoryRaw.includes('sports')
+    name.includes('cooler') ||
+    name.includes('mount') ||
+    name.includes('skin');
+
+  // 1. Smartwatch & Fitness Band (Evaluated before OLED/AMOLED display checks!)
+  if (
+    name.startsWith('smartwatch') ||
+    name.includes('smartwatch') ||
+    name.includes('amazfit') ||
+    name.includes('forerunner') ||
+    name.includes('fenix') ||
+    name.includes('fitness band') ||
+    (name.includes('watch') && !name.includes('stopwatch') && !name.includes('watching')) ||
+    categoryRaw === 'smartwatch' ||
+    categoryRaw === 'smartwatches' ||
+    categoryRaw === 'watches'
   ) {
-    return CANONICAL_CATEGORIES.ACCESSORY;
+    return CANONICAL_CATEGORIES.SMARTWATCH;
   }
 
-  // 1. Desktop / Mac Mini / iMac -> LAPTOP / COMPUTERS
+  // 2. Laptop / Desktop / All-in-One PC (Evaluated before TV/Monitor/Gaming hardware to protect OLED & Gaming laptops)
   if (
-    name.includes('desktop') ||
-    name.includes('imac') ||
-    name.includes('mac mini') ||
-    name.includes('mac studio') ||
-    name.includes('mac pro') ||
-    (name.includes('pc') && brand.includes('desktop'))
+    !isLaptopAccessory &&
+    (name.startsWith('laptop') ||
+      name.startsWith('desktop') ||
+      name.includes('macbook') ||
+      name.includes('laptop') ||
+      name.includes('notebook') ||
+      name.includes('thinkpad') ||
+      name.includes('ideapad') ||
+      name.includes('zenbook') ||
+      name.includes('vivobook') ||
+      name.includes('swift go') ||
+      name.includes('pavilion') ||
+      name.includes('spectre') ||
+      name.includes('envy') ||
+      name.includes('inspiron') ||
+      name.includes('latitude') ||
+      name.includes('xps') ||
+      name.includes('vostro') ||
+      name.includes('chromebook') ||
+      name.includes('imac') ||
+      name.includes('mac mini') ||
+      name.includes('mac studio') ||
+      name.includes('mac pro') ||
+      name.includes('blade 16') ||
+      name.includes('blade 14') ||
+      name.includes('blade 18') ||
+      name.includes('zephyrus') ||
+      name.includes('strix scar') ||
+      name.includes('predator helios') ||
+      name.includes('galaxy book') ||
+      name.includes('surface laptop') ||
+      name.includes('loq') ||
+      name.includes('legion pro') ||
+      name.includes('victus') ||
+      (name.includes('omen') && !name.includes('women')) ||
+      categoryRaw === 'laptop' ||
+      categoryRaw === 'laptops')
   ) {
     return CANONICAL_CATEGORIES.LAPTOP;
   }
 
-  // 2. Laptop / Notebook / MacBook
+  // 3. Monitor / Computer Displays (Evaluated before TV to protect OLED gaming monitors)
   if (
-    name.includes('macbook') ||
-    name.includes('laptop') ||
-    name.includes('notebook') ||
-    name.includes('thinkpad') ||
-    name.includes('ideapad') ||
-    name.includes('zenbook') ||
-    name.includes('pavilion') ||
-    name.includes('vivobook') ||
-    name.includes('spectre') ||
-    name.includes('chromebook')
+    !isLaptopAccessory &&
+    !name.includes('marshall') &&
+    (name.startsWith('monitor') ||
+      name.includes('monitor') ||
+      name.includes('ultragear') ||
+      name.includes('ultrasharp') ||
+      name.includes('proart') ||
+      name.includes('agon') ||
+      name.includes('studio display') ||
+      name.includes('odyssey') ||
+      name.includes('rog swift') ||
+      name.includes('designvue') ||
+      name.includes('zowie') ||
+      name.includes('coloredge') ||
+      (name.includes('alienware') && (name.includes('aw') || name.includes('hz') || name.includes('oled') || name.includes('curved'))) ||
+      categoryRaw === 'monitor' ||
+      categoryRaw === 'monitors')
   ) {
-    return CANONICAL_CATEGORIES.LAPTOP;
+    return CANONICAL_CATEGORIES.MONITOR;
   }
 
-  // 3. Tablet (CHECK BEFORE BRAND KEYWORDS)
+  // 4. Audio / Headphones / Earbuds
   if (
-    name.includes('ipad') ||
-    name.includes('tablet') ||
-    name.includes('pad 6') ||
-    name.includes('pad 5') ||
-    name.includes('pad max') ||
-    name.includes('xiaomi pad') ||
-    name.includes('redmi pad') ||
-    name.includes('realme pad') ||
-    name.includes('galaxy tab') ||
-    name.includes('lenovo tab') ||
-    name.includes('surface pro') ||
-    name.includes('matepad')
+    name.startsWith('audio') ||
+    name.includes('earphone') ||
+    name.includes('headphone') ||
+    name.includes('soundbar') ||
+    name.includes('speaker') ||
+    name.includes('microphone') ||
+    name.includes('amplifier') ||
+    name.includes('sennheiser') ||
+    name.includes('marshall') ||
+    name.includes('audio-technica') ||
+    name.includes('airpods') ||
+    name.includes('earbud') ||
+    name.includes('buds') ||
+    name.includes('tws') ||
+    name.includes('wh-1000xm') ||
+    name.includes('wf-1000xm') ||
+    name.includes('space q45') ||
+    categoryRaw === 'audio' ||
+    categoryRaw === 'headphones' ||
+    categoryRaw === 'earbuds'
   ) {
-    return CANONICAL_CATEGORIES.TABLET;
+    if (name.includes('airpods') || name.includes('earbud') || name.includes('buds') || name.includes('tws') || name.includes('wf-1000xm')) {
+      return CANONICAL_CATEGORIES.EARBUDS;
+    }
+    return CANONICAL_CATEGORIES.HEADPHONES;
   }
 
-  // 4. Air Conditioner
+  // 5. Cameras & Webcams
   if (
-    name.includes('air conditioner') ||
-    name.includes('split ac') ||
-    name.includes('window ac') ||
-    (brand.includes('air conditioner') && !name.includes('phone'))
-  ) {
-    return CANONICAL_CATEGORIES.AIR_CONDITIONER;
-  }
-
-  // 5. Washing Machine
-  if (name.includes('washing machine') || name.includes('front load') || name.includes('top load')) {
-    return CANONICAL_CATEGORIES.WASHING_MACHINE;
-  }
-
-  // 6. Refrigerator
-  if (name.includes('refrigerator') || name.includes('fridge')) {
-    return CANONICAL_CATEGORIES.REFRIGERATOR;
-  }
-
-  // 7. Television
-  if (
-    name.includes('tv') ||
-    name.includes('television') ||
-    name.includes('bravia') ||
-    name.includes('oled') ||
-    name.includes('qled')
-  ) {
-    return CANONICAL_CATEGORIES.TELEVISION;
-  }
-
-  // 8. Camera
-  if (
+    name.startsWith('camera') ||
+    name.startsWith('cameras') ||
     name.includes('camera') ||
+    name.includes('webcam') ||
     name.includes('eos r') ||
     name.includes('canon eos') ||
     name.includes('nikon z') ||
     name.includes('sony alpha') ||
     name.includes('gopro') ||
-    name.includes('powershot')
+    name.includes('powershot') ||
+    name.includes('lumix') ||
+    name.includes('insta360') ||
+    name.includes('dslr') ||
+    categoryRaw === 'camera'
   ) {
     return CANONICAL_CATEGORIES.CAMERA;
   }
 
-  // 9. Headphones
+  // 6. Tablet / iPad (Evaluated before smartphone so OnePlus Pad, Realme Pad, etc. remain tablets)
   if (
-    name.includes('headphone') ||
-    name.includes('wh-1000xm') ||
-    name.includes('airpods max') ||
-    (categoryRaw === 'headphones' && !name.includes('bud'))
+    name.includes('ipad') ||
+    name.includes('tablet') ||
+    name.includes('tab s') ||
+    name.includes('tab a') ||
+    name.includes('pad go') ||
+    name.includes('pad 6') ||
+    name.includes('pad 5') ||
+    name.includes('pad 2') ||
+    name.includes('pad 9') ||
+    name.includes('xiaomi pad') ||
+    name.includes('redmi pad') ||
+    name.includes('matepad') ||
+    categoryRaw === 'tablet'
   ) {
-    return CANONICAL_CATEGORIES.HEADPHONES;
+    return CANONICAL_CATEGORIES.TABLET;
   }
 
-  // 10. Earbuds
+  // 7. Washing Machine
   if (
-    name.includes('earbud') ||
-    name.includes('airpods') ||
-    name.includes('buds') ||
-    name.includes('tws')
+    name.startsWith('washing machines') ||
+    name.includes('washing machine') ||
+    name.includes('front load') ||
+    name.includes('top load') ||
+    categoryRaw === 'washing-machine'
   ) {
-    return CANONICAL_CATEGORIES.EARBUDS;
+    return CANONICAL_CATEGORIES.WASHING_MACHINE;
   }
 
-  // 11. Smartwatch
+  // 8. Refrigerator
   if (
-    name.includes('watch') ||
-    name.includes('smartwatch') ||
-    name.includes('fitness band')
+    name.startsWith('refrigerator') ||
+    name.includes('refrigerator') ||
+    name.includes('fridge') ||
+    categoryRaw === 'refrigerator'
   ) {
-    return CANONICAL_CATEGORIES.SMARTWATCH;
+    return CANONICAL_CATEGORIES.REFRIGERATOR;
   }
 
-  // 12. Monitor
-  if (name.includes('monitor') || name.includes('display')) {
-    return CANONICAL_CATEGORIES.MONITOR;
-  }
-
-  // 13. Shoes & Sneakers
+  // 9. Air Conditioner
   if (
+    name.startsWith('air conditioner') ||
+    name.includes('air conditioner') ||
+    name.includes('split ac') ||
+    name.includes('window ac') ||
+    (brand.includes('air conditioner') && !name.includes('phone')) ||
+    categoryRaw === 'air-conditioner'
+  ) {
+    return CANONICAL_CATEGORIES.AIR_CONDITIONER;
+  }
+
+  // 10. Television (Only reaches genuine TVs now)
+  if (
+    name.startsWith('television') ||
+    name.startsWith('tv ') ||
+    name.includes('tv') ||
+    name.includes('television') ||
+    name.includes('bravia') ||
+    name.includes('oled') ||
+    name.includes('qled') ||
+    name.includes('crystal uhd') ||
+    name.includes('nanocell') ||
+    categoryRaw === 'television'
+  ) {
+    return CANONICAL_CATEGORIES.TELEVISION;
+  }
+
+  // 11. Computer Accessories & PC Components & Gaming Consoles
+  if (
+    name.startsWith('computer accessories') ||
+    name.includes('keyboard') ||
+    name.includes('mouse') ||
+    name.includes('mechanical') ||
+    name.includes('membrane') ||
+    name.includes('gpu') ||
+    name.includes('graphics') ||
+    name.includes('rtx') ||
+    name.includes('gtx') ||
+    name.includes('radeon') ||
+    name.includes('intel') ||
+    name.includes('amd') ||
+    name.includes('nvidia') ||
+    name.includes('gigabyte') ||
+    name.includes('msi') ||
+    name.includes('zotac') ||
+    name.includes('corsair') ||
+    name.includes('printer') ||
+    name.includes('scanner') ||
+    name.includes('docking') ||
+    name.includes('usb hub') ||
+    name.includes('router') ||
+    name.includes('seagate') ||
+    name.includes('sandisk') ||
+    name.includes('kingston') ||
+    name.includes('tp-link') ||
+    name.includes('netgear') ||
+    name.startsWith('gaming') ||
+    name.startsWith('consoles') ||
+    name.includes('playstation') ||
+    name.includes('xbox') ||
+    name.includes('nintendo') ||
+    name.includes('rog ally') ||
+    categoryRaw === 'gaming' ||
+    categoryRaw === 'gaming consoles'
+  ) {
+    return CANONICAL_CATEGORIES.GAMING;
+  }
+
+  // 12. Shoes & Sneakers
+  if (
+    name.startsWith('footwear') ||
     name.includes('shoe') ||
     name.includes('sneaker') ||
     name.includes('footwear') ||
-    name.includes('air force 1') ||
-    name.includes('jordan')
+    name.includes('boot') ||
+    name.includes('heel') ||
+    name.includes('flat') ||
+    name.includes('loafer') ||
+    name.includes('sandal') ||
+    name.includes('slide') ||
+    name.includes('flip-flop') ||
+    categoryRaw === 'shoes'
   ) {
     return CANONICAL_CATEGORIES.SHOES;
   }
 
-  // 14. Clothing / Kurta / Apparel
+  // 13. Bags & Luggage
   if (
-    name.includes('kurta') ||
-    name.includes('jeans') ||
-    name.includes('t-shirt') ||
-    name.includes('shirt') ||
-    name.includes('dress') ||
-    categoryRaw.includes('clothing') ||
-    categoryRaw.includes('fashion')
+    name.startsWith('bags') ||
+    name.includes('bag') ||
+    name.includes('backpack') ||
+    name.includes('luggage') ||
+    name.includes('suitcase') ||
+    name.includes('handbag') ||
+    name.includes('tote') ||
+    name.includes('wallet') ||
+    categoryRaw === 'bags'
   ) {
-    return name.includes('women') ? CANONICAL_CATEGORIES.WOMENS_CLOTHING : CANONICAL_CATEGORIES.MENS_CLOTHING;
+    return CANONICAL_CATEGORIES.BAGS;
   }
 
-  // 15. Beauty / Personal Care
+  // 14. Beauty & Personal Care
   if (
-    name.includes('mascara') ||
-    name.includes('shampoo') ||
-    name.includes('face wash') ||
+    name.startsWith('beauty') ||
     name.includes('lipstick') ||
+    name.includes('foundation') ||
     name.includes('serum') ||
+    name.includes('cream') ||
+    name.includes('shampoo') ||
+    name.includes('conditioner') ||
+    name.includes('sunscreen') ||
+    name.includes('moisturizer') ||
+    name.includes('cleanser') ||
+    name.includes('eyeliner') ||
+    name.includes('mascara') ||
+    name.includes('primer') ||
+    name.includes('hair') ||
+    name.includes('makeup') ||
+    categoryRaw === 'beauty-personal-care' ||
     categoryRaw.includes('beauty')
   ) {
     return CANONICAL_CATEGORIES.BEAUTY_PERSONAL_CARE;
   }
 
-  // 16. Bags / Luggage
-  if (name.includes('bag') || name.includes('backpack') || name.includes('luggage')) {
-    return CANONICAL_CATEGORIES.BAGS;
+  // 15. Kids & Apparel
+  if (name.includes('kids') || name.includes('boys') || name.includes('girls')) {
+    return name.includes('girls') ? CANONICAL_CATEGORIES.WOMENS_CLOTHING : CANONICAL_CATEGORIES.MENS_CLOTHING;
   }
 
-  // 17. Smartphone - specific model or keyword check
+  // 16. Men's Clothing
+  if (
+    name.startsWith('men ') ||
+    name.includes('sherwani') ||
+    name.includes('nehru jacket') ||
+    name.includes('bandhgala') ||
+    name.includes('dhoti') ||
+    name.includes('chinos') ||
+    name.includes('formal shirt') ||
+    name.includes('oxford shirt') ||
+    name.includes('polo t-shirt') ||
+    name.includes('henley') ||
+    name.includes('waistcoat') ||
+    categoryRaw === 'men fashion' ||
+    categoryRaw === 'mens-clothing'
+  ) {
+    return CANONICAL_CATEGORIES.MENS_CLOTHING;
+  }
+
+  // 17. Women's Clothing
+  if (
+    name.startsWith('women ') ||
+    name.startsWith('dresses') ||
+    name.startsWith('ethnic') ||
+    name.includes('saree') ||
+    name.includes('lehenga') ||
+    name.includes('kurti') ||
+    name.includes('anarkali') ||
+    name.includes('palazzo') ||
+    name.includes('sharara') ||
+    name.includes('gharara') ||
+    name.includes('dupatta') ||
+    name.includes('dress') ||
+    name.includes('skirt') ||
+    name.includes('blouse') ||
+    name.includes('crop top') ||
+    categoryRaw === 'women fashion' ||
+    categoryRaw === 'womens-clothing'
+  ) {
+    return CANONICAL_CATEGORIES.WOMENS_CLOTHING;
+  }
+
+  // 18. General Apparel
+  if (
+    name.startsWith('tops') ||
+    name.startsWith('bottoms') ||
+    name.startsWith('outerwear') ||
+    name.startsWith('activewear') ||
+    name.startsWith('apparel')
+  ) {
+    return name.includes('women') || name.includes('dress') || name.includes('skirt') || name.includes('top')
+      ? CANONICAL_CATEGORIES.WOMENS_CLOTHING
+      : CANONICAL_CATEGORIES.MENS_CLOTHING;
+  }
+
+  // 19. Accessories & Sports
+  if (
+    name.startsWith('sports') ||
+    name.startsWith('accessories') ||
+    name.includes('case') ||
+    name.includes('cover') ||
+    name.includes('screen protector') ||
+    name.includes('tempered glass') ||
+    name.includes('mat') ||
+    name.includes('sunglasses') ||
+    name.includes('tie') ||
+    name.includes('cufflinks') ||
+    categoryRaw === 'accessories' ||
+    categoryRaw === 'accessory' ||
+    categoryRaw === 'fashion accessories' ||
+    categoryRaw.includes('sports')
+  ) {
+    return CANONICAL_CATEGORIES.ACCESSORIES;
+  }
+
+  // 20. Smartphone - Strict Check: ONLY Genuine Mobile Phones
   if (
     name.includes('iphone') ||
     name.includes('galaxy s') ||
     name.includes('galaxy a') ||
     name.includes('galaxy z') ||
+    name.includes('galaxy m') ||
+    name.includes('galaxy f') ||
     name.includes('pixel') ||
     name.includes('oneplus') ||
-    name.includes('xiaomi 14') ||
-    name.includes('xiaomi 15') ||
-    name.includes('redmi note') ||
-    name.includes('redmi 13') ||
-    name.includes('redmi 12') ||
+    name.includes('xiaomi') ||
+    name.includes('redmi') ||
+    name.includes('poco') ||
     name.includes('realme') ||
     name.includes('vivo') ||
     name.includes('oppo') ||
     name.includes('motorola') ||
     name.includes('nothing phone') ||
-    name.includes('nokia') ||
     name.includes('iqoo') ||
-    name.includes('poco') ||
+    name.includes('nokia') ||
     name.includes('smartphone') ||
-    name.includes('mobile')
+    name.includes('foldable phone')
   ) {
     return CANONICAL_CATEGORIES.SMARTPHONE;
   }
 
-  // Fallback to normalized product.category if defined and matches known canonical category
+  // Fallback to normalized product.category if defined and matches known canonical category (and not smartphone)
   const normalizedRaw = normalizeCategory(categoryRaw);
-  if (normalizedRaw) return normalizedRaw;
+  if (normalizedRaw && normalizedRaw !== CANONICAL_CATEGORIES.SMARTPHONE) {
+    return normalizedRaw;
+  }
 
-  return CANONICAL_CATEGORIES.SMARTPHONE;
+  return CANONICAL_CATEGORIES.ACCESSORIES;
 }
 
 export function getCategoryList() {

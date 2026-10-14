@@ -1,0 +1,640 @@
+# Product Image Coverage Audit
+
+> [!IMPORTANT]
+> A total of **595** products are currently missing verified images in the database.
+
+## 💻 Tech Categories (561 Missing)
+
+### Audio (5)
+- **UNKNOWN** Audio Bose
+- **UNKNOWN** Audio Apple
+- **UNKNOWN** Audio Boult
+- **UNKNOWN** Audio Anker Soundcore
+- **UNKNOWN** Audio Amplifiers
+
+### Smartphones (3)
+- **Apple** Apple iPhone Plus
+- **Apple** Apple iPhone Pro
+- **Apple** Apple iPhone Pro Max
+
+### Air-conditioner (15)
+- **UNKNOWN** Air Conditioners Daikin
+- **UNKNOWN** Air Conditioners LG
+- **Samsung** Air Conditioners Samsung
+- **UNKNOWN** Air Conditioners Voltas
+- **UNKNOWN** Air Conditioners Blue Star
+- **UNKNOWN** Air Conditioners Panasonic
+- **UNKNOWN** Air Conditioners Carrier
+- **UNKNOWN** Air Conditioners Hitachi
+- **UNKNOWN** Air Conditioners Lloyd
+- **UNKNOWN** Air Conditioners Whirlpool
+- **UNKNOWN** Air Conditioners Godrej
+- **UNKNOWN** Air Conditioners Haier
+- **UNKNOWN** Air Conditioners O General
+- **UNKNOWN** Air Conditioners Mitsubishi Electric
+- **UNKNOWN** Air Conditioners Toshiba
+
+### Camera (17)
+- **UNKNOWN** Cameras Canon
+- **UNKNOWN** Cameras Nikon
+- **UNKNOWN** Cameras Sony
+- **UNKNOWN** Cameras Fujifilm
+- **UNKNOWN** Cameras Panasonic Lumix
+- **UNKNOWN** Cameras Olympus/OM System
+- **UNKNOWN** Cameras Leica
+- **UNKNOWN** Cameras GoPro
+- **UNKNOWN** Cameras DJI
+- **UNKNOWN** Cameras Insta360
+- **UNKNOWN** Cameras Kodak
+- **UNKNOWN** Cameras 360 camera
+- **UNKNOWN** Cameras Instant camera
+- **UNKNOWN** Cameras Webcam
+- **UNKNOWN** Cameras Security camera
+- **UNKNOWN** Cameras Dash camera
+- **UNKNOWN** Cameras Drone camera
+
+### Gaming (19)
+- **UNKNOWN** Desktop Gaming desktops
+- **UNKNOWN** Consoles PlayStation
+- **UNKNOWN** Consoles Xbox
+- **UNKNOWN** Consoles Nintendo Switch
+- **UNKNOWN** Gaming Razer
+- **UNKNOWN** Gaming Logitech G
+- **UNKNOWN** Gaming Corsair
+- **UNKNOWN** Gaming SteelSeries
+- **UNKNOWN** Gaming HyperX
+- **UNKNOWN** Gaming NZXT
+- **UNKNOWN** Gaming Cooler Master
+- **UNKNOWN** Computer Accessories Logitech
+- **UNKNOWN** Computer Accessories Razer
+- **UNKNOWN** Computer Accessories HP
+- **UNKNOWN** Computer Accessories Dell
+- **UNKNOWN** Computer Accessories Wireless
+- **UNKNOWN** Computer Accessories Gaming
+- **UNKNOWN** Computer Accessories Ergonomic
+- **UNKNOWN** Computer Accessories Productivity
+
+### Headphones (15)
+- **UNKNOWN** Audio Sony
+- **UNKNOWN** Audio JBL
+- **UNKNOWN** Audio Samsung
+- **UNKNOWN** Audio Nothing
+- **UNKNOWN** Audio boAt
+- **UNKNOWN** Audio Noise
+- **UNKNOWN** Audio Skullcandy
+- **UNKNOWN** Audio Jabra
+- **UNKNOWN** Audio Zebronics
+- **UNKNOWN** Audio Philips
+- **UNKNOWN** Audio Xiaomi
+- **UNKNOWN** Audio Neckbands
+- **UNKNOWN** Audio Gaming headsets
+- **UNKNOWN** Audio Party speakers
+- **UNKNOWN** Audio Home theatre
+
+### Laptop (48)
+- **UNKNOWN** Laptop Latitude
+- **UNKNOWN** Laptop Precision
+- **UNKNOWN** Laptop Alienware
+- **UNKNOWN** Laptop Vostro
+- **UNKNOWN** Laptop Spectre
+- **UNKNOWN** Laptop EliteBook
+- **UNKNOWN** Laptop ProBook
+- **UNKNOWN** Laptop Victus
+- **UNKNOWN** Laptop Omen
+- **UNKNOWN** Laptop ZBook
+- **UNKNOWN** Laptop ThinkBook
+- **UNKNOWN** Laptop Yoga
+- **UNKNOWN** Laptop Legion
+- **UNKNOWN** Laptop LOQ
+- **UNKNOWN** Laptop Slim
+- **UNKNOWN** Laptop V-series
+- **UNKNOWN** Laptop ExpertBook
+- **UNKNOWN** Laptop ROG
+- **UNKNOWN** Laptop ProArt
+- **UNKNOWN** Laptop Chromebook
+- **UNKNOWN** Laptop Aspire
+- **UNKNOWN** Laptop Swift
+- **UNKNOWN** Laptop Nitro
+- **UNKNOWN** Laptop Predator
+- **UNKNOWN** Laptop TravelMate
+- **UNKNOWN** Laptop Modern
+- **UNKNOWN** Laptop Prestige
+- **UNKNOWN** Laptop Creator
+- **UNKNOWN** Laptop Katana
+- **UNKNOWN** Laptop Cyborg
+- **UNKNOWN** Laptop Raider
+- **UNKNOWN** Laptop Titan
+- **UNKNOWN** Laptop Stealth
+- **UNKNOWN** Surface Laptop
+- **UNKNOWN** Laptop Surface Pro
+- **UNKNOWN** Laptop Samsung
+- **UNKNOWN** Laptop LG
+- **UNKNOWN** Laptop Huawei
+- **UNKNOWN** Laptop Xiaomi
+- **UNKNOWN** Laptop Gigabyte
+- **UNKNOWN** Laptop Razer
+- **UNKNOWN** Laptop Framework
+- **UNKNOWN** Gaming ASUS ROG
+- **UNKNOWN** Gaming Lenovo Legion
+- **UNKNOWN** Gaming Acer Predator
+- **UNKNOWN** Gaming HP Omen
+- **UNKNOWN** Gaming MSI
+- **UNKNOWN** Gaming Alienware
+
+### Monitor (5)
+- **UNKNOWN** Desktop Studio Display
+- **UNKNOWN** Computer Accessories Monitor
+- **Samsung** Samsung Odyssey OLED G9 49"
+- **Samsung** Samsung Odyssey OLED G8 32" 4K 240Hz
+- **Samsung** Samsung Smart Monitor M8 32" 4K
+
+### Smartphone (366)
+- **UNKNOWN** Smartphone OnePlus CE series
+- **UNKNOWN** Smartphone OnePlus R series
+- **UNKNOWN** Smartphone Xiaomi flagship series
+- **UNKNOWN** Smartphone Xiaomi T series
+- **UNKNOWN** Smartphone Redmi
+- **UNKNOWN** Smartphone Redmi Note
+- **UNKNOWN** Smartphone Redmi A
+- **UNKNOWN** Smartphone Redmi K
+- **UNKNOWN** Smartphone Poco
+- **UNKNOWN** Smartphone Pixel Pro
+- **UNKNOWN** Smartphone Pixel A
+- **UNKNOWN** Smartphone Pixel Fold
+- **UNKNOWN** Smartphone X series
+- **UNKNOWN** Smartphone V series
+- **UNKNOWN** Smartphone Y series
+- **UNKNOWN** Smartphone T series
+- **UNKNOWN** Smartphone Find N
+- **UNKNOWN** Smartphone Reno
+- **UNKNOWN** Smartphone A series
+- **UNKNOWN** Smartphone F series
+- **UNKNOWN** Smartphone GT
+- **UNKNOWN** Smartphone Number series
+- **UNKNOWN** Smartphone Narzo
+- **UNKNOWN** Smartphone C series
+- **UNKNOWN** Smartphone P series
+- **UNKNOWN** Smartphone Razr
+- **UNKNOWN** Smartphone Edge
+- **UNKNOWN** Smartphone Moto G
+- **UNKNOWN** Smartphone Phone series
+- **UNKNOWN** Smartphone Phone (a)
+- **UNKNOWN** Smartphone CMF Phone
+- **UNKNOWN** Smartphone iQOO flagship
+- **UNKNOWN** Smartphone Neo
+- **UNKNOWN** Smartphone Z series
+- **UNKNOWN** Smartphone Magic
+- **UNKNOWN** Smartphone HMD smartphones
+- **UNKNOWN** Smartphone Nokia C
+- **UNKNOWN** Smartphone Nokia G
+- **UNKNOWN** Smartphone Nokia X
+- **UNKNOWN** Feature Phone Nokia feature phones
+- **UNKNOWN** Foldable Phone Galaxy Z Fold
+- **UNKNOWN** Foldable Phone Galaxy Z Flip
+- **UNKNOWN** Foldable Phone Pixel Fold
+- **UNKNOWN** Foldable Phone OnePlus Open
+- **UNKNOWN** Foldable Phone Razr
+- **UNKNOWN** Foldable Phone Find N
+- **UNKNOWN** Desktop Mac Mini
+- **UNKNOWN** Desktop iMac
+- **UNKNOWN** Desktop Mac Studio
+- **UNKNOWN** Desktop Mac Pro
+- **UNKNOWN** Desktop PCs
+- **UNKNOWN** Desktop Mini PCs
+- **UNKNOWN** Desktop All-in-one PCs
+- **UNKNOWN** Television Redmi TV
+- **UNKNOWN** Television OnePlus TV
+- **UNKNOWN** Television Realme
+- **UNKNOWN** Smartwatch & Wearables Pixel Watch
+- **UNKNOWN** Smartwatch & Wearables Vivoactive
+- **UNKNOWN** Smartwatch & Wearables OnePlus
+- **UNKNOWN** Smartwatch & Wearables Redmi
+- **UNKNOWN** Smartwatch & Wearables Realme
+- **UNKNOWN** Washing Machines LG
+- **UNKNOWN** Washing Machines Samsung
+- **UNKNOWN** Washing Machines Whirlpool
+- **UNKNOWN** Washing Machines IFB
+- **UNKNOWN** Washing Machines Bosch
+- **UNKNOWN** Washing Machines Haier
+- **UNKNOWN** Washing Machines Panasonic
+- **UNKNOWN** Washing Machines Godrej
+- **UNKNOWN** Washing Machines Voltas Beko
+- **UNKNOWN** Washing Machines Siemens
+- **UNKNOWN** Audio OnePlus
+- **UNKNOWN** Audio Realme
+- **UNKNOWN** Audio Sennheiser
+- **UNKNOWN** Audio Marshall
+- **UNKNOWN** Audio-Technica
+- **UNKNOWN** Audio Wired earphones
+- **UNKNOWN** Audio Microphones
+- **UNKNOWN** Computer Accessories Corsair
+- **UNKNOWN** Computer Accessories Mechanical
+- **UNKNOWN** Computer Accessories Membrane
+- **UNKNOWN** Computer Accessories Samsung
+- **UNKNOWN** Computer Accessories WD
+- **UNKNOWN** Computer Accessories SanDisk
+- **UNKNOWN** Computer Accessories Seagate
+- **UNKNOWN** Computer Accessories Kingston
+- **UNKNOWN** Computer Accessories TP-Link
+- **UNKNOWN** Computer Accessories Netgear
+- **UNKNOWN** Computer Accessories Intel
+- **UNKNOWN** Computer Accessories AMD
+- **UNKNOWN** Computer Accessories NVIDIA
+- **UNKNOWN** Computer Accessories Gigabyte
+- **UNKNOWN** Computer Accessories MSI
+- **UNKNOWN** Computer Accessories Zotac
+- **UNKNOWN** Computer Accessories Webcam
+- **UNKNOWN** Computer Accessories Printer
+- **UNKNOWN** Computer Accessories Scanner
+- **UNKNOWN** Computer Accessories Router
+- **UNKNOWN** Computer Accessories Wi-Fi extender
+- **UNKNOWN** Computer Accessories Docking station
+- **UNKNOWN** Computer Accessories USB hub
+- **UNKNOWN** Tops T-shirt
+- **UNKNOWN** Tops Shirt
+- **UNKNOWN** Tops Hoodie
+- **UNKNOWN** Tops Polo T-shirt
+- **UNKNOWN** Tops Sweatshirt
+- **UNKNOWN** Tops Jacket
+- **UNKNOWN** Tops Formal shirt
+- **UNKNOWN** Tops Blazer
+- **UNKNOWN** Tops Suit
+- **UNKNOWN** Tops Graphic T-shirt
+- **UNKNOWN** Tops Oversized T-shirt
+- **UNKNOWN** Tops Henley
+- **UNKNOWN** Tops Casual shirt
+- **UNKNOWN** Tops Oxford shirt
+- **UNKNOWN** Tops Linen shirt
+- **UNKNOWN** Tops Denim shirt
+- **UNKNOWN** Tops Hawaiian shirt
+- **UNKNOWN** Tops Flannel shirt
+- **UNKNOWN** Tops Bomber jacket
+- **UNKNOWN** Tops Puffer jacket
+- **UNKNOWN** Tops Waistcoat
+- **UNKNOWN** Bottoms Jeans
+- **UNKNOWN** Bottoms Skinny jeans
+- **UNKNOWN** Bottoms Straight-fit jeans
+- **UNKNOWN** Bottoms Chinos
+- **UNKNOWN** Bottoms Joggers
+- **UNKNOWN** Bottoms Trousers
+- **UNKNOWN** Bottoms Track pants
+- **UNKNOWN** Bottoms Formal trousers
+- **UNKNOWN** Bottoms Relaxed-fit jeans
+- **UNKNOWN** Bottoms Baggy jeans
+- **UNKNOWN** Bottoms Cargo pants
+- **UNKNOWN** Bottoms Shorts
+- **UNKNOWN** Bottoms Denim shorts
+- **UNKNOWN** Bottoms Linen pants
+- **UNKNOWN** Footwear Sneakers
+- **UNKNOWN** Footwear Running shoes
+- **UNKNOWN** Footwear Casual shoes
+- **UNKNOWN** Footwear Boots
+- **UNKNOWN** Footwear Formal shoes
+- **UNKNOWN** Footwear Loafers
+- **UNKNOWN** Footwear Sandals
+- **UNKNOWN** Footwear Slides
+- **UNKNOWN** Footwear Flip-flops
+- **UNKNOWN** Dresses Midi Dress
+- **UNKNOWN** Dresses Maxi Dress
+- **UNKNOWN** Dresses Mini Dress
+- **UNKNOWN** Dresses Bodycon Dress
+- **UNKNOWN** Dresses Wrap Dress
+- **UNKNOWN** Dresses Shirt Dress
+- **UNKNOWN** Dresses A-line Dress
+- **UNKNOWN** Dresses Cocktail Dress
+- **UNKNOWN** Dresses Party Dress
+- **UNKNOWN** Dresses Slip dress
+- **UNKNOWN** Dresses Co-ord set
+- **UNKNOWN** Tops Blouse
+- **UNKNOWN** Tops Crop top
+- **UNKNOWN** Tops Camisole
+- **UNKNOWN** Tops Tank top
+- **UNKNOWN** Tops Tube top
+- **UNKNOWN** Tops Halter top
+- **UNKNOWN** Tops Tunic
+- **UNKNOWN** Tops Bodysuit
+- **UNKNOWN** Tops Sweater
+- **UNKNOWN** Bottoms Wide-leg jeans
+- **UNKNOWN** Bottoms Mom jeans
+- **UNKNOWN** Bottoms Boyfriend jeans
+- **UNKNOWN** Bottoms Straight jeans
+- **UNKNOWN** Bottoms Bootcut jeans
+- **UNKNOWN** Bottoms Palazzo
+- **UNKNOWN** Bottoms Culottes
+- **UNKNOWN** Bottoms Mini skirt
+- **UNKNOWN** Bottoms Midi skirt
+- **UNKNOWN** Bottoms Maxi skirt
+- **UNKNOWN** Outerwear Blazer
+- **UNKNOWN** Outerwear Trench coat
+- **UNKNOWN** Outerwear Denim jacket
+- **UNKNOWN** Outerwear Leather jacket
+- **UNKNOWN** Outerwear Bomber jacket
+- **UNKNOWN** Outerwear Puffer jacket
+- **UNKNOWN** Outerwear Cardigan
+- **UNKNOWN** Outerwear Shrug
+- **UNKNOWN** Ethnic Manyavar
+- **UNKNOWN** Ethnic FabIndia
+- **UNKNOWN** Ethnic Biba
+- **UNKNOWN** Ethnic Soch
+- **UNKNOWN** Ethnic W
+- **UNKNOWN** Ethnic Aurelia
+- **UNKNOWN** Ethnic Libas
+- **UNKNOWN** Ethnic Global Desi
+- **UNKNOWN** Ethnic Rangriti
+- **UNKNOWN** Ethnic Jaypore
+- **UNKNOWN** Ethnic Mohey
+- **UNKNOWN** Ethnic Indya
+- **UNKNOWN** Ethnic Palazzo set
+- **UNKNOWN** Ethnic Anarkali
+- **UNKNOWN** Ethnic Sharara
+- **UNKNOWN** Ethnic Gharara
+- **UNKNOWN** Ethnic Dupatta
+- **UNKNOWN** Ethnic Indo-western
+- **UNKNOWN** Ethnic dresses
+- **UNKNOWN** Footwear Heels
+- **UNKNOWN** Footwear Flats
+- **UNKNOWN** Footwear Ballet flats
+- **UNKNOWN** Footwear Pumps
+- **UNKNOWN** Footwear Stilettos
+- **UNKNOWN** Kids 0–3 months
+- **UNKNOWN** Kids 3–6 months
+- **UNKNOWN** Kids 6–12 months
+- **UNKNOWN** Kids 1–2 years
+- **UNKNOWN** Kids 2–4 years
+- **UNKNOWN** Kids 4–6 years
+- **UNKNOWN** Kids 6–8 years
+- **UNKNOWN** Kids 8–10 years
+- **UNKNOWN** Kids 10–12 years
+- **UNKNOWN** Kids 12–14 years
+- **UNKNOWN** Kids 14–16 years
+- **UNKNOWN** Boys T-shirts
+- **UNKNOWN** Boys Shirts
+- **UNKNOWN** Boys Jeans
+- **UNKNOWN** Boys Jackets
+- **UNKNOWN** Boys Polo T-shirt
+- **UNKNOWN** Boys Shorts
+- **UNKNOWN** Boys Joggers
+- **UNKNOWN** Boys Cargo pants
+- **UNKNOWN** Boys Hoodies
+- **UNKNOWN** Boys Ethnic wear
+- **UNKNOWN** Boys School wear
+- **UNKNOWN** Boys Sportswear
+- **UNKNOWN** Boys Sneakers
+- **UNKNOWN** Boys Sandals
+- **UNKNOWN** Girls Dresses
+- **UNKNOWN** Girls Tops
+- **UNKNOWN** Girls Skirts
+- **UNKNOWN** Girls Frocks
+- **UNKNOWN** Girls T-shirts
+- **UNKNOWN** Girls Jeans
+- **UNKNOWN** Girls Leggings
+- **UNKNOWN** Girls Jumpsuits
+- **UNKNOWN** Girls Co-ord sets
+- **UNKNOWN** Girls Hoodies
+- **UNKNOWN** Girls Jackets
+- **UNKNOWN** Girls Ethnic wear
+- **UNKNOWN** Girls Party wear
+- **UNKNOWN** Girls Sportswear
+- **UNKNOWN** Girls Shoes
+- **UNKNOWN** Girls Sandals
+- **UNKNOWN** Kids Mothercare
+- **UNKNOWN** Kids FirstCry
+- **UNKNOWN** Kids Hopscotch
+- **UNKNOWN** Kids Allen Solly Junior
+- **UNKNOWN** Kids United Colors of Benetton
+- **UNKNOWN** Pepe Jeans Kids
+- **UNKNOWN** Kids Gini & Jony
+- **UNKNOWN** Max Kids
+- **UNKNOWN** Kids Pantaloons
+- **UNKNOWN** Kids Lifestyle
+- **UNKNOWN** Kids Chicco
+- **UNKNOWN** Adidas Kids
+- **UNKNOWN** Nike Kids
+- **UNKNOWN** Puma Kids
+- **UNKNOWN** Skechers Kids
+- **UNKNOWN** GAP Kids
+- **UNKNOWN** Men Kurta
+- **UNKNOWN** Men Sherwani
+- **UNKNOWN** Men Nehru Jacket
+- **UNKNOWN** Men Bandhgala
+- **UNKNOWN** Men Kurta pajama
+- **UNKNOWN** Men Dhoti
+- **UNKNOWN** Men Indo-western
+- **UNKNOWN** Men Wedding wear
+- **UNKNOWN** Men Ethnic sets
+- **UNKNOWN** Women Lehenga
+- **UNKNOWN** Women Saree
+- **UNKNOWN** Women Kurta
+- **UNKNOWN** Women Salwar Suit
+- **UNKNOWN** Women Anarkali
+- **UNKNOWN** Women Kurti
+- **UNKNOWN** Women Palazzo set
+- **UNKNOWN** Women Sharara
+- **UNKNOWN** Women Gharara
+- **UNKNOWN** Women Dupatta
+- **UNKNOWN** Women Indo-western
+- **UNKNOWN** Women Ethnic dresses
+- **UNKNOWN** Footwear Training shoes
+- **UNKNOWN** Footwear Football shoes
+- **UNKNOWN** Footwear Basketball shoes
+- **UNKNOWN** Footwear Cricket shoes
+- **UNKNOWN** Footwear Tennis shoes
+- **UNKNOWN** Sports & Fitness Decathlon
+- **UNKNOWN** Sports & Fitness Yonex
+- **UNKNOWN** Sports & Fitness Wilson
+- **UNKNOWN** Sports & Fitness Cosco
+- **UNKNOWN** Sports & Fitness Nivia
+- **UNKNOWN** Sports & Fitness Head
+- **UNKNOWN** Sports & Fitness Football
+- **UNKNOWN** Sports & Fitness Cricket equipment
+- **UNKNOWN** Sports & Fitness Dumbbells
+- **UNKNOWN** Sports & Fitness Treadmills
+- **UNKNOWN** Sports & Fitness Exercise bikes
+- **UNKNOWN** Sports & Fitness Resistance bands
+- **UNKNOWN** Bags & Travel American Tourister
+- **UNKNOWN** Bags & Travel Samsonite
+- **UNKNOWN** Bags & Travel Safari
+- **UNKNOWN** Bags & Travel VIP
+- **UNKNOWN** Bags & Travel Skybags
+- **UNKNOWN** Bags & Travel Trolley
+- **UNKNOWN** Bags & Travel Cabin luggage
+- **UNKNOWN** Bags & Travel Wildcraft
+- **UNKNOWN** Bags & Travel Nike
+- **UNKNOWN** Bags & Travel Adidas
+- **UNKNOWN** Bags & Travel Puma
+- **UNKNOWN** Bags & Travel Herschel
+- **UNKNOWN** Bags & Travel Mokobara
+- **UNKNOWN** Bags & Travel School bag
+- **UNKNOWN** Bags & Travel College backpack
+- **UNKNOWN** Bags & Travel Travel backpack
+- **UNKNOWN** Bags & Travel Caprese
+- **UNKNOWN** Bags & Travel Lavie
+- **UNKNOWN** Bags & Travel Hidesign
+- **UNKNOWN** Bags & Travel Tote
+- **UNKNOWN** Bags & Travel Sling
+- **UNKNOWN** Bags & Travel Crossbody
+- **UNKNOWN** Bags & Travel Messenger bag
+- **UNKNOWN** Bags & Travel Wallet
+- **UNKNOWN** Beauty & Personal Care L'Oréal
+- **UNKNOWN** Beauty & Personal Care Maybelline
+- **UNKNOWN** Beauty & Personal Care Lakmé
+- **UNKNOWN** Beauty & Personal Care MAC
+- **UNKNOWN** Beauty & Personal Care Nykaa
+- **UNKNOWN** Beauty & Personal Care Revlon
+- **UNKNOWN** Beauty & Personal Care Foundation
+- **UNKNOWN** Beauty & Personal Care Concealer
+- **UNKNOWN** Beauty & Personal Care Lipstick
+- **UNKNOWN** Beauty & Personal Care Lip gloss
+- **UNKNOWN** Beauty & Personal Care Eyeliner
+- **UNKNOWN** Beauty & Personal Care Eyeshadow
+- **UNKNOWN** Beauty & Personal Care Blush
+- **UNKNOWN** Beauty & Personal Care Highlighter
+- **UNKNOWN** Beauty & Personal Care Primer
+- **UNKNOWN** Beauty & Personal Care Minimalist
+- **UNKNOWN** Beauty & Personal Care Mamaearth
+- **UNKNOWN** Beauty & Personal Care Plum
+- **UNKNOWN** Beauty & Personal Care The Derma Co
+- **UNKNOWN** Beauty & Personal Care Cetaphil
+- **UNKNOWN** Beauty & Personal Care Neutrogena
+- **UNKNOWN** Beauty & Personal Care Nivea
+- **UNKNOWN** Beauty & Personal Care Dove
+- **UNKNOWN** Beauty & Personal Care Face wash
+- **UNKNOWN** Beauty & Personal Care Cleanser
+- **UNKNOWN** Beauty & Personal Care Moisturizer
+- **UNKNOWN** Beauty & Personal Care Sunscreen
+- **UNKNOWN** Beauty & Personal Care Serum
+- **UNKNOWN** Beauty & Personal Care Toner
+- **UNKNOWN** Beauty & Personal Care Face mask
+- **UNKNOWN** Beauty & Personal Care Garnier
+- **UNKNOWN** Beauty & Personal Care Dyson
+- **UNKNOWN** Beauty & Personal Care Philips
+- **UNKNOWN** Beauty & Personal Care Shampoo
+- **UNKNOWN** Beauty & Personal Care Conditioner
+- **UNKNOWN** Beauty & Personal Care Hair serum
+- **UNKNOWN** Beauty & Personal Care Hair oil
+- **UNKNOWN** Beauty & Personal Care Hair dryer
+- **UNKNOWN** Beauty & Personal Care Hair straightener
+- **UNKNOWN** Beauty & Personal Care Hair curler
+
+### Smartwatch (35)
+- **UNKNOWN** Smartwatch & Wearables Apple Watch Ultra
+- **UNKNOWN** Smartwatch & Wearables Galaxy Watch Classic
+- **UNKNOWN** Smartwatch & Wearables Galaxy Watch Pro
+- **UNKNOWN** Smartwatch & Wearables Forerunner
+- **UNKNOWN** Smartwatch & Wearables Fenix
+- **UNKNOWN** Smartwatch & Wearables Venu
+- **UNKNOWN** Smartwatch & Wearables Instinct
+- **UNKNOWN** Smartwatch & Wearables Versa
+- **UNKNOWN** Smartwatch & Wearables Sense
+- **UNKNOWN** Smartwatch & Wearables Charge
+- **UNKNOWN** Smartwatch & Wearables Inspire
+- **UNKNOWN** Smartwatch & Wearables GTR
+- **UNKNOWN** Smartwatch & Wearables GTS
+- **UNKNOWN** Smartwatch & Wearables Balance
+- **UNKNOWN** Smartwatch & Wearables Active
+- **UNKNOWN** Smartwatch & Wearables T-Rex
+- **UNKNOWN** Smartwatch & Wearables ColorFit
+- **UNKNOWN** Smartwatch & Wearables NoiseFit
+- **UNKNOWN** Smartwatch & Wearables Pro series
+- **UNKNOWN** Smartwatch & Wearables Wave
+- **UNKNOWN** Smartwatch & Wearables Storm
+- **UNKNOWN** Smartwatch & Wearables Ultima
+- **UNKNOWN** Smartwatch & Wearables Lunar
+- **UNKNOWN** Smartwatch & Wearables Xtend
+- **UNKNOWN** Smartwatch & Wearables Ninja
+- **UNKNOWN** Smartwatch & Wearables Phoenix
+- **UNKNOWN** Smartwatch & Wearables Visionary
+- **UNKNOWN** Smartwatch & Wearables Dream
+- **UNKNOWN** Smartwatch & Wearables Titan Smart
+- **UNKNOWN** Smartwatch & Wearables Fastrack
+- **UNKNOWN** Smartwatch & Wearables Huawei
+- **UNKNOWN** Smartwatch & Wearables Xiaomi
+- **UNKNOWN** Smartwatch & Wearables CMF
+- **UNKNOWN** Smartwatch & Wearables Boult
+- **UNKNOWN** Smartwatch & Wearables Pebble
+
+### Tablet (1)
+- **Samsung** Samsung Galaxy Tab Active5 Rugged
+
+### Television (32)
+- **UNKNOWN** Television QLED
+- **UNKNOWN** Television Neo QLED
+- **UNKNOWN** Television OLED
+- **UNKNOWN** Television UHD
+- **UNKNOWN** Television NanoCell
+- **UNKNOWN** Television QNED
+- **UNKNOWN** Television Mini LED
+- **UNKNOWN** Television Full Array
+- **UNKNOWN** Television P series
+- **UNKNOWN** Television C series
+- **UNKNOWN** Television A series
+- **UNKNOWN** Television U series
+- **UNKNOWN** Television E series
+- **UNKNOWN** Television ULED
+- **UNKNOWN** Television Xiaomi TV
+- **UNKNOWN** Television Panasonic
+- **UNKNOWN** Television Vu
+- **UNKNOWN** Television Thomson
+- **UNKNOWN** Television Kodak
+- **UNKNOWN** Television Toshiba
+- **UNKNOWN** Television Philips
+- **UNKNOWN** Television Haier
+- **UNKNOWN** Television Motorola
+- **UNKNOWN** Television Acer
+- **UNKNOWN** Television Blaupunkt
+- **UNKNOWN** Television Onida
+- **UNKNOWN** Television Sansui
+- **UNKNOWN** Television iFFALCON
+- **Samsung** Samsung 65" Neo QLED 8K (QN900D)
+- **Samsung** Samsung 55" The Frame TV QLED
+- **Samsung** Samsung 50" Crystal 4K Vivid Pro
+- **Samsung** Samsung 75" QN85D Neo QLED 4K
+
+## 👗 Trend (Fashion) Categories (34 Missing)
+
+### Accessories (12)
+- **UNKNOWN** Accessories Backpacks
+- **UNKNOWN** Accessories Belts
+- **UNKNOWN** Accessories Caps
+- **UNKNOWN** Accessories Hats
+- **UNKNOWN** Accessories Crossbody bags
+- **UNKNOWN** Accessories Laptop bags
+- **UNKNOWN** Accessories Cufflinks
+- **UNKNOWN** Accessories Handbags
+- **UNKNOWN** Accessories Shoulder bags
+- **UNKNOWN** Accessories Clutches
+- **UNKNOWN** Accessories Jewellery
+- **UNKNOWN** Accessories Scarves
+
+### Fashion Accessories (5)
+- **UNKNOWN** Accessories Sunglasses
+- **UNKNOWN** Accessories Wallets
+- **UNKNOWN** Accessories Ties
+- **UNKNOWN** Accessories Tote bags
+- **UNKNOWN** Accessories Sling bags
+
+### Men Fashion (7)
+- **UNKNOWN** Activewear Track pants
+- **UNKNOWN** Activewear Running shorts
+- **UNKNOWN** Activewear Tracksuit
+- **UNKNOWN** Apparel Gym clothing
+- **UNKNOWN** Apparel Compression wear
+- **UNKNOWN** Apparel Track pants
+- **UNKNOWN** Apparel Jerseys
+
+### Watches (1)
+- **UNKNOWN** Accessories Watches
+
+### Women Fashion (6)
+- **UNKNOWN** Activewear Sports bra
+- **UNKNOWN** Activewear Leggings
+- **UNKNOWN** Activewear Yoga pants
+- **UNKNOWN** Activewear Gym top
+- **UNKNOWN** Apparel Yoga clothing
+- **UNKNOWN** Apparel Sports bras
+
+### Accessories (3)
+- **UNKNOWN** Computer Accessories Power bank
+- **UNKNOWN** Computer Accessories Laptop stand
+- **UNKNOWN** Bags & Travel Suitcase
+

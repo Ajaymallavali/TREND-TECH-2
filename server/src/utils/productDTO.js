@@ -45,7 +45,9 @@ export function formatProductDTO(product, listings = []) {
   // Sort available offers by price ascending
   const availableOffersWithPrice = formattedOffers.filter(o => o.isAvailable && o.currentPrice > 0 && o.url);
   availableOffersWithPrice.sort((a, b) => a.currentPrice - b.currentPrice);
-  const bestDealUrl = availableOffersWithPrice.length > 0 ? availableOffersWithPrice[0].url : (formattedOffers.length > 0 ? formattedOffers[0].url : null);
+  const bestOffer = availableOffersWithPrice.length > 0 ? availableOffersWithPrice[0] : (formattedOffers.length > 0 ? formattedOffers[0] : null);
+  const bestDealUrl = bestOffer ? bestOffer.url : null;
+  const bestMarketplaceName = bestOffer && bestOffer.marketplace ? bestOffer.marketplace.name : null;
 
   const dealResult = evaluateProductDealSignal(product, validListings, []);
 
@@ -64,7 +66,8 @@ export function formatProductDTO(product, listings = []) {
     maxPrice: maxPriceVal,
     discountPercentage: dealResult.discountPercentage || 0,
     dealStatus: dealResult.dealStatus || 'STABLE',
-    dealSource: bestDealUrl,
+    dealSource: bestMarketplaceName || 'Amazon India',
+    dealSourceUrl: bestDealUrl,
     offersCount: validListings.length,
     offers: formattedOffers,
   };

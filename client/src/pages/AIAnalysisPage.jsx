@@ -79,9 +79,16 @@ export default function AIAnalysisPage() {
 
     let payload = { description: contextData, preferredStore: preferredStore };
     const isUrl = inputData.startsWith('http://') || inputData.startsWith('https://');
+    const isSocialVideo = isUrl && (
+      inputData.includes('instagram.com/reel/') || 
+      inputData.includes('youtube.com/shorts/') ||
+      inputData.includes('tiktok.com/')
+    );
     
-    if (isUrl) {
-      payload.url = inputData.trim();
+    if (isSocialVideo) {
+      payload.reelUrl = inputData.trim().replace(/\s+/g, '');
+    } else if (isUrl) {
+      payload.url = inputData.trim().replace(/\s+/g, '');
     } else {
       payload.query = inputData.trim();
     }

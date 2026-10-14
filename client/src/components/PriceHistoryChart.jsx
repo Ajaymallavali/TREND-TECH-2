@@ -12,6 +12,11 @@ import {
 const getColorForMarketplace = (name) => {
   const colors = {
     'Amazon': '#FF9900',
+    'Amazon India': '#FF9900',
+    'Flipkart': '#2874F0',
+    'Croma': '#00BFA5',
+    'Reliance Digital': '#E31837',
+    'Vijay Sales': '#D32F2F',
     'Walmart': '#0071CE',
     'Best Buy': '#0046BE',
     'eBay': '#E53238',
@@ -19,7 +24,6 @@ const getColorForMarketplace = (name) => {
     'B&H Photo Video': '#487A7B',
     'Target': '#CC0000',
     'Costco': '#E31837',
-    'Micro Center': '#006699',
     'Apple': '#000000',
     'Samsung': '#1428A0',
   };

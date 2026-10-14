@@ -24,7 +24,7 @@ export default function AIAnalysisInput({
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search a product, compare products, or paste a URL..."
+                placeholder="Search a product, compare products, or paste a Store / Reel / Shorts URL..."
                 className="input-field text-sm py-3 w-full border-2 border-accent-100 focus:border-accent-600"
                 value={inputData}
                 onChange={(e) => setInputData(e.target.value)}

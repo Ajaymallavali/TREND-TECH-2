@@ -22,13 +22,13 @@ export default function AIShoppingSearch({ compact = false }) {
   if (compact) {
     return (
       <form onSubmit={handleSearch} className="flex-grow max-w-xl mx-auto relative group">
-        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+        <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
           <Sparkles className="h-4 w-4 text-accent-500" />
         </div>
         <input
           type="text"
-          className="block w-full pl-10 pr-10 py-2 border border-ink-200 rounded-full text-xs bg-white text-ink-900 placeholder-ink-400 focus:outline-none focus:ring-1 focus:ring-accent-500 focus:border-accent-500 shadow-sm transition-all group-hover:border-accent-300"
-          placeholder="Ask AI: Try 'Best gaming laptop under ₹100000'"
+          className="block w-full pl-10 pr-10 py-2 border border-ink-200/80 rounded-xl text-xs bg-white text-ink-900 placeholder-ink-400 focus:outline-none focus:ring-2 focus:ring-accent-100 focus:border-accent-500 shadow-xs transition-all group-hover:border-accent-300"
+          placeholder="Ask AI: Try 'Best gaming laptop under ₹1,00,000'"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -41,29 +41,37 @@ export default function AIShoppingSearch({ compact = false }) {
 
   return (
     <div className="mx-auto mt-6 max-w-2xl w-full">
-      <form onSubmit={handleSearch} className="relative group shadow-lg rounded-2xl">
-        <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-          <Sparkles className="h-5 w-5 text-accent-500" />
+      <form
+        onSubmit={handleSearch}
+        className="relative group bg-white rounded-2xl p-1.5 border border-ink-200/80 hover:border-accent-300 focus-within:border-accent-500 focus-within:ring-4 focus-within:ring-accent-100/60 shadow-md transition-all duration-200 flex items-center"
+      >
+        <div className="pl-3.5 pr-2 flex items-center pointer-events-none text-accent-600">
+          <Sparkles className="h-5 w-5 animate-pulse" />
         </div>
         <input
           type="text"
-          className="block w-full pl-12 pr-16 py-4 border-2 border-accent-100 rounded-2xl text-sm font-medium bg-white text-ink-900 placeholder-ink-400 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-accent-500 transition-all hover:border-accent-300"
-          placeholder="What are you looking for? Try 'Best gaming laptop under ₹100000'"
+          className="block w-full py-3 pr-4 text-sm font-medium bg-transparent text-ink-900 placeholder:text-ink-400 focus:outline-none"
+          placeholder="Ask AI: 'Best phone under ₹30,000' or paste Amazon/Flipkart URL..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button type="submit" className="absolute inset-y-2 right-2 px-4 bg-accent-600 text-white rounded-xl text-xs font-bold hover:bg-accent-700 transition-colors shadow-sm flex items-center gap-1.5">
-          Ask AI <ArrowRight className="h-3.5 w-3.5" />
+        <button
+          type="submit"
+          className="btn-accent px-4 py-2.5 text-xs font-bold shrink-0 flex items-center gap-1.5 shadow-xs"
+        >
+          <span>Ask AI</span>
+          <ArrowRight className="h-3.5 w-3.5" />
         </button>
       </form>
 
-      <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
-        <span className="text-[10px] font-bold text-ink-400 uppercase tracking-widest mr-2">Examples:</span>
+      <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">
+        <span className="text-[10px] font-bold text-ink-400 uppercase tracking-wider mr-1">Trending:</span>
         {suggestions.map((term) => (
           <button
             key={term}
+            type="button"
             onClick={() => navigate(`/analysis?q=${encodeURIComponent(term)}`)}
-            className="rounded-full bg-white border border-ink-200 px-3 py-1.5 text-[11px] font-semibold text-ink-600 hover:border-accent-300 hover:text-accent-700 hover:bg-accent-50 transition-colors shadow-sm"
+            className="rounded-full bg-white border border-ink-200/70 px-3 py-1 text-[11px] font-semibold text-ink-600 hover:border-accent-400 hover:text-accent-700 hover:bg-accent-50/50 hover:shadow-xs transition-all duration-150"
           >
             {term}
           </button>

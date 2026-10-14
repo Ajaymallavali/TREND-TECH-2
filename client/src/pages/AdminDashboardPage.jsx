@@ -329,7 +329,7 @@ export default function AdminDashboardPage() {
             )}
 
             {/* JOBS MONITOR TAB */}
-            {activeTab === 'overview' ? null : activeSubTab === 'jobs' && (
+            {activeSubTab === 'jobs' && (
               <div className="card bg-white p-6 space-y-6">
                 <div>
                   <h2 className="text-lg font-bold text-ink-900">Synchronization History</h2>

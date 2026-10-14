@@ -19,6 +19,12 @@ export const login = asyncHandler(async (req, res) => {
   sendSuccess(res, { data: { user, accessToken }, message: 'Logged in successfully' });
 });
 
+export const googleLogin = asyncHandler(async (req, res) => {
+  const { user, accessToken, refreshToken } = await authService.googleLogin(req.body);
+  setAuthCookies(res, { accessToken, refreshToken });
+  sendSuccess(res, { data: { user, accessToken }, message: 'Logged in with Google' });
+});
+
 export const refresh = asyncHandler(async (req, res) => {
   const token = req.cookies?.refreshToken || req.body?.refreshToken;
   const { user, accessToken, refreshToken } = await authService.refreshSession(token);

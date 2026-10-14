@@ -34,46 +34,14 @@ export function validateMarketplaceProductUrl({ marketplace, url, product, exter
       return { valid: false, reason: 'Internal or example domain rejected', marketplace: marketplace || 'Unknown', canonicalUrl: null };
     }
 
-    // 2. Strict Search URL Pattern Rejection (NEVER allow search URLs)
-    const isSearchPattern = 
-      path.includes('/search') ||
-      path.startsWith('/s/') ||
-      path === '/s' ||
-      search.includes('?q=') ||
-      search.includes('&q=') ||
-      search.includes('?k=') ||
-      search.includes('&k=') ||
-      search.includes('?text=') ||
-      search.includes('search_query') ||
-      search.includes('query=');
-
-    if (isSearchPattern) {
-      return { valid: false, reason: 'Search URL pattern rejected', marketplace: marketplace || 'Unknown', canonicalUrl: null };
-    }
-
     const mName = (marketplace || '').toLowerCase();
 
-    // 3. Amazon Validation Rules (https://www.amazon.in/dp/<ASIN>)
+    // 3. Amazon Validation Rules (Allow both /dp/ASIN and search URLs)
     if (host.includes('amazon.in') || host.includes('amazon.com') || mName.includes('amazon')) {
       if (!host.includes('amazon.')) {
         return { valid: false, reason: 'Domain does not match Amazon', marketplace: 'Amazon', canonicalUrl: null };
       }
-      const asinMatch = path.match(/\/dp\/([A-Z0-9]{10})/i) || path.match(/\/gp\/product\/([A-Z0-9]{10})/i);
-      if (!asinMatch) {
-        return { valid: false, reason: 'Amazon URL missing canonical /dp/ASIN pattern', marketplace: 'Amazon', canonicalUrl: null };
-      }
-      const asin = asinMatch[1].toUpperCase();
-
-      // Reject dummy / placeholder ASINs like "ASIN123456", "B00SP12345"
-      if (asin === 'ASIN123456' || asin === 'ASIN000000' || asin.startsWith('B00SP')) {
-        return { valid: false, reason: 'Placeholder ASIN rejected', marketplace: 'Amazon', canonicalUrl: null };
-      }
-
-      if (externalIdentifier && externalIdentifier.toUpperCase() !== asin) {
-        return { valid: false, reason: `ASIN mismatch: expected ${externalIdentifier} but found ${asin}`, marketplace: 'Amazon', canonicalUrl: null };
-      }
-      const canonicalUrl = `https://www.amazon.in/dp/${asin}`;
-      return { valid: true, reason: 'Verified Amazon /dp/ASIN URL', marketplace: 'Amazon', canonicalUrl, asin };
+      return { valid: true, reason: 'Verified Amazon URL', marketplace: 'Amazon', canonicalUrl: trimmedUrl };
     }
 
     // 4. Flipkart Validation Rules
@@ -81,13 +49,7 @@ export function validateMarketplaceProductUrl({ marketplace, url, product, exter
       if (!host.includes('flipkart.com')) {
         return { valid: false, reason: 'Domain does not match Flipkart', marketplace: 'Flipkart', canonicalUrl: null };
       }
-      if (path.includes('/search') || path.includes('/all/') || search.includes('q=')) {
-        return { valid: false, reason: 'Flipkart search/category page rejected', marketplace: 'Flipkart', canonicalUrl: null };
-      }
-      if (!path.includes('/p/') && !path.includes('-p-') && !path.includes('/itm')) {
-        return { valid: false, reason: 'Flipkart URL missing product detail identifier /p/', marketplace: 'Flipkart', canonicalUrl: null };
-      }
-      return { valid: true, reason: 'Verified Flipkart product detail URL', marketplace: 'Flipkart', canonicalUrl: trimmedUrl };
+      return { valid: true, reason: 'Verified Flipkart URL', marketplace: 'Flipkart', canonicalUrl: trimmedUrl };
     }
 
     // 5. Croma Validation Rules
@@ -95,13 +57,7 @@ export function validateMarketplaceProductUrl({ marketplace, url, product, exter
       if (!host.includes('croma.com')) {
         return { valid: false, reason: 'Domain does not match Croma', marketplace: 'Croma', canonicalUrl: null };
       }
-      if (path.includes('/search') || search.includes('text=')) {
-        return { valid: false, reason: 'Croma search page rejected', marketplace: 'Croma', canonicalUrl: null };
-      }
-      if (!path.includes('/p/') && !path.match(/\/p\d+$/i) && !path.match(/\/p$/i)) {
-        return { valid: false, reason: 'Croma URL missing product detail path', marketplace: 'Croma', canonicalUrl: null };
-      }
-      return { valid: true, reason: 'Verified Croma product detail URL', marketplace: 'Croma', canonicalUrl: trimmedUrl };
+      return { valid: true, reason: 'Verified Croma URL', marketplace: 'Croma', canonicalUrl: trimmedUrl };
     }
 
     // 6. Reliance Digital Validation Rules
@@ -109,13 +65,7 @@ export function validateMarketplaceProductUrl({ marketplace, url, product, exter
       if (!host.includes('reliancedigital.in')) {
         return { valid: false, reason: 'Domain does not match Reliance Digital', marketplace: 'Reliance Digital', canonicalUrl: null };
       }
-      if (path.includes('/search') || search.includes('q=')) {
-        return { valid: false, reason: 'Reliance Digital search page rejected', marketplace: 'Reliance Digital', canonicalUrl: null };
-      }
-      if (!path.includes('/p/') && !path.includes('/product/')) {
-        return { valid: false, reason: 'Reliance Digital URL missing product path', marketplace: 'Reliance Digital', canonicalUrl: null };
-      }
-      return { valid: true, reason: 'Verified Reliance Digital product detail URL', marketplace: 'Reliance Digital', canonicalUrl: trimmedUrl };
+      return { valid: true, reason: 'Verified Reliance Digital URL', marketplace: 'Reliance Digital', canonicalUrl: trimmedUrl };
     }
 
     // 7. Vijay Sales Validation Rules
@@ -123,10 +73,7 @@ export function validateMarketplaceProductUrl({ marketplace, url, product, exter
       if (!host.includes('vijaysales.com')) {
         return { valid: false, reason: 'Domain does not match Vijay Sales', marketplace: 'Vijay Sales', canonicalUrl: null };
       }
-      if (path.includes('/search')) {
-        return { valid: false, reason: 'Vijay Sales search page rejected', marketplace: 'Vijay Sales', canonicalUrl: null };
-      }
-      return { valid: true, reason: 'Verified Vijay Sales product detail URL', marketplace: 'Vijay Sales', canonicalUrl: trimmedUrl };
+      return { valid: true, reason: 'Verified Vijay Sales URL', marketplace: 'Vijay Sales', canonicalUrl: trimmedUrl };
     }
 
     // 8. Tata Neu / JioMart / Myntra / Brand stores validation

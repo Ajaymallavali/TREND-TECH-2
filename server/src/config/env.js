@@ -26,6 +26,8 @@ const envSchema = z.object({
   JWT_REFRESH_EXPIRES_IN: z.string().default('7d'),
   COOKIE_SECRET: z.string().min(16, 'COOKIE_SECRET must be at least 16 chars'),
 
+  GOOGLE_CLIENT_ID: z.string().optional().default(''),
+
   SMTP_HOST: z.string().optional().default(''),
   SMTP_PORT: z.coerce.number().optional().default(587),
   SMTP_USER: z.string().optional().default(''),

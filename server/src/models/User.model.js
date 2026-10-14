@@ -23,7 +23,13 @@ const userSchema = new Schema(
       trim: true,
       index: true,
     },
-    passwordHash: { type: String, required: true, select: false },
+    authProvider: { type: String, enum: ['LOCAL', 'GOOGLE'], default: 'LOCAL' },
+    googleId: { type: String, sparse: true, unique: true },
+    passwordHash: { 
+      type: String, 
+      required: function() { return this.authProvider === 'LOCAL'; },
+      select: false 
+    },
     avatar: { type: String, default: null },
     role: { type: String, enum: ['USER', 'ADMIN'], default: 'USER' },
 
@@ -66,4 +72,6 @@ userSchema.set('toJSON', {
   },
 });
 
-export const User = mongoose.model('User', userSchema);
+import { createFirestoreModel } from '../database/firestore/FirestoreAdapter.js';
+const MongoUser = mongoose.model('User', userSchema);
+export const User = process.env.DATABASE_PROVIDER === 'firestore' ? createFirestoreModel('users') : MongoUser;

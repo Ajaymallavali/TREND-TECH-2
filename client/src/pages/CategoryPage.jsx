@@ -8,6 +8,7 @@ import {
 import { apiClient } from '../services/apiClient.js';
 import ProductImage from '../components/ProductImage.jsx';
 import TopProgressBar from '../components/TopProgressBar.jsx';
+import { getStoreRedirectUrl } from '../utils/storeUrlHelper';
 
 const formatINR = (val) => {
   if (val === null || val === undefined) return 'Price unavailable';
@@ -21,14 +22,16 @@ const formatINR = (val) => {
 const CATEGORY_NAMES = {
   smartphone: 'Smartphones',
   laptop: 'Laptops',
+  tablet: 'Tablets & iPads',
   television: 'Smart TVs',
   tv: 'Smart TVs',
-  headphones: 'Over-Ear Headphones',
+  headphones: 'Headphones & Audio',
   earbuds: 'True Wireless Earbuds',
+  audio: 'Headphones & Audio',
   smartwatch: 'Smartwatches',
   monitor: 'Monitors',
   camera: 'Cameras',
-  gaming: 'Gaming Consoles',
+  gaming: 'Gaming & PC Components',
   'air-conditioner': 'Split ACs',
   refrigerator: 'Refrigerators',
   'washing-machine': 'Washing Machines',
@@ -37,6 +40,8 @@ const CATEGORY_NAMES = {
   'beauty-personal-care': 'Beauty & Personal Care',
   'mens-clothing': "Men's Clothing",
   'womens-clothing': "Women's Clothing",
+  accessories: 'Accessories & Tech Gear',
+  accessory: 'Accessories & Tech Gear',
 };
 
 export default function CategoryPage() {
@@ -372,17 +377,19 @@ export default function CategoryPage() {
                   const validOffers = offers.filter((o) => o.isAvailable && o.currentPrice > 0 && o.url);
                   validOffers.sort((a, b) => a.currentPrice - b.currentPrice);
                   const bestOffer = validOffers.length > 0 ? validOffers[0] : null;
-                  const directDealUrl = bestOffer ? bestOffer.url : (product.dealSource && product.dealSource.startsWith('http') ? product.dealSource : null);
+                  const directDealUrl = bestOffer 
+                    ? getStoreRedirectUrl(bestOffer.marketplace, product, bestOffer.url) 
+                    : (product.dealSource && product.dealSource.startsWith('http') ? getStoreRedirectUrl(product.brand || '', product, product.dealSource) : null);
 
                   return (
                     <div
                       key={product._id}
-                      className="group rounded-2xl border border-ink-100 bg-white p-4 shadow-sm hover:border-accent-200 hover:shadow-md transition-all flex flex-col justify-between relative"
+                      className="group rounded-2xl border border-ink-100 bg-white p-4 shadow-card hover:border-accent-300 hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative"
                     >
                       <div>
-                        {/* Rank Badge */}
+                        {/* Rank Badge & Brand */}
                         <div className="flex items-center justify-between mb-3">
-                          <span className="rounded-full bg-ink-900 px-2.5 py-0.5 text-[10px] font-black text-white tracking-widest">
+                          <span className="rounded-full bg-ink-900 px-2.5 py-0.5 text-[10px] font-black text-white tracking-widest shadow-2xs">
                             #{rankNum}
                           </span>
                           <span className="text-[10px] font-bold text-ink-400 uppercase tracking-wider">
@@ -390,15 +397,17 @@ export default function CategoryPage() {
                           </span>
                         </div>
 
-                        {/* Product Image Area (object-fit: contain) */}
-                        <Link to={`/product/${product._id}`} className="block mb-3">
-                          <ProductImage
-                            src={product.image}
-                            alt={product.name}
-                            category={product.category}
-                            aspectClassName="aspect-square"
-                            className="max-h-[160px] mx-auto"
-                          />
+                        {/* Product Image Area with clean containment */}
+                        <Link to={`/product/${product._id}`} className="block mb-3.5">
+                          <div className="aspect-square w-full rounded-xl bg-ink-50/40 p-3 border border-ink-100/50 flex items-center justify-center overflow-hidden">
+                            <ProductImage
+                              src={product.image}
+                              alt={product.name}
+                              category={product.category}
+                              aspectClassName="aspect-square"
+                              className="max-h-[160px] mx-auto group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </div>
                         </Link>
 
                         {/* Title & Description */}
@@ -413,12 +422,24 @@ export default function CategoryPage() {
                       </div>
 
                       {/* Footer: Price & Direct View Deal Button */}
-                      <div className="mt-4 pt-3 border-t border-ink-50 flex items-center justify-between gap-2">
+                      <div className="mt-4 pt-3.5 border-t border-ink-50 flex items-center justify-between gap-2">
                         <div>
-                          <span className="block text-[9px] text-ink-400 font-bold uppercase">Lowest Price</span>
-                          <span className="text-base font-extrabold text-ink-950">
-                            {formatINR(product.minPrice)}
-                          </span>
+                          <span className="block text-[9px] text-ink-400 font-bold uppercase tracking-wider">Lowest Price</span>
+                          <div className="flex items-baseline gap-1.5 mt-0.5">
+                            <span className="text-base font-extrabold text-ink-950">
+                              {formatINR(product.minPrice)}
+                            </span>
+                            {product.maxPrice > product.minPrice && (
+                              <span className="text-[10px] text-ink-400 line-through font-semibold">
+                                {formatINR(product.maxPrice)}
+                              </span>
+                            )}
+                          </div>
+                          {product.discountPercentage > 0 && (
+                            <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-extrabold uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200/60 mt-1">
+                              {product.discountPercentage}% OFF
+                            </span>
+                          )}
                         </div>
 
                         <div className="flex flex-col gap-2">
@@ -427,7 +448,7 @@ export default function CategoryPage() {
                               href={directDealUrl}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="btn-primary py-1.5 px-3 text-xs font-semibold flex items-center justify-center gap-1 shadow-sm"
+                              className="btn-primary py-2 px-3.5 text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs"
                             >
                               <span>View Deal</span>
                               <ExternalLink className="h-3.5 w-3.5" />
@@ -435,24 +456,24 @@ export default function CategoryPage() {
                           ) : (
                             <Link
                               to={`/product/${product._id}`}
-                              className="btn-primary py-1.5 px-3 text-xs font-semibold flex items-center justify-center gap-1 shadow-sm"
+                              className="btn-primary py-2 px-3.5 text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs"
                             >
                               <span>View</span>
                               <ChevronRight className="h-3.5 w-3.5" />
                             </Link>
                           )}
-                          <div className="grid grid-cols-2 gap-2">
+                          <div className="grid grid-cols-2 gap-1.5">
                             <Link
                               to={`/compare?products=${product._id}`}
-                              className="btn-secondary py-1 text-center text-[10px] font-semibold text-ink-700 border border-ink-200 hover:bg-ink-50 flex items-center justify-center"
+                              className="btn-secondary py-1 text-center text-[10px] font-semibold text-ink-700 flex items-center justify-center"
                             >
                               Compare
                             </Link>
                             <Link
                               to={`/analysis?q=${encodeURIComponent('Analyze ' + product.name)}`}
-                              className="w-full py-1 text-center text-[10px] font-bold text-accent-700 bg-accent-50 border border-accent-100 hover:bg-accent-100 rounded flex items-center justify-center gap-1 transition-colors uppercase tracking-widest"
+                              className="py-1 text-center text-[10px] font-bold text-accent-700 bg-accent-50/80 border border-accent-200/60 hover:bg-accent-100 rounded-lg flex items-center justify-center gap-1 transition-colors uppercase tracking-wider"
                             >
-                              <Sparkles className="w-3 h-3" /> AI
+                              <Sparkles className="w-3 h-3 text-accent-600" /> AI
                             </Link>
                           </div>
                         </div>

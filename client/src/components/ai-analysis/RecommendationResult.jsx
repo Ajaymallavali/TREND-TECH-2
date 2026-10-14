@@ -1,13 +1,33 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Search, CheckCircle2, ExternalLink, ShieldAlert } from 'lucide-react';
+import { getStoreRedirectUrl } from '../../utils/storeUrlHelper';
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.1 }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 300, damping: 24 } }
+};
 
 export default function RecommendationResult({ data, formatINR }) {
   if (!data || data.status !== 'RECOMMENDATION_SUCCESS') return null;
 
   return (
-    <div className="space-y-8 animate-in fade-in duration-500">
-      <section className="card bg-ink-900 text-white p-6 md:p-8 rounded-2xl shadow-sm border border-ink-800">
+    <motion.div 
+      variants={containerVariants}
+      initial="hidden"
+      animate="show"
+      className="space-y-8"
+    >
+      <motion.section variants={itemVariants} className="card bg-ink-900 text-white p-6 md:p-8 rounded-2xl shadow-sm border border-ink-800">
         <h3 className="text-xs font-black text-ink-400 uppercase tracking-widest flex items-center gap-2 mb-4">
           <Search className="h-4 w-4 text-accent-400" /> Understood Request
         </h3>
@@ -39,15 +59,15 @@ export default function RecommendationResult({ data, formatINR }) {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       {data.recommendations && data.recommendations.length > 0 ? (
-        <div className="space-y-6">
-          <h3 className="text-lg font-black text-ink-900 uppercase tracking-widest flex items-center gap-2">
+        <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-6">
+          <motion.h3 variants={itemVariants} className="text-lg font-black text-ink-900 uppercase tracking-widest flex items-center gap-2">
             <CheckCircle2 className="h-5 w-5 text-green-600" /> Recommended Products
-          </h3>
+          </motion.h3>
           {data.recommendations.map((rec, idx) => (
-            <section key={rec.product._id} className="card bg-white p-6 border border-ink-200 rounded-2xl flex flex-col md:flex-row gap-6 items-center shadow-sm relative overflow-hidden">
+            <motion.section variants={itemVariants} key={rec.product._id} className="card bg-white p-6 border border-ink-200 rounded-2xl flex flex-col md:flex-row gap-6 items-center shadow-sm relative overflow-hidden">
               {idx === 0 && (
                 <div className="absolute top-0 right-0 bg-gradient-to-l from-accent-600 to-accent-800 text-white text-[10px] font-black px-4 py-1.5 uppercase tracking-widest shadow-sm">
                   Top Recommendation
@@ -84,21 +104,21 @@ export default function RecommendationResult({ data, formatINR }) {
                   <Link to={`/compare?p1=${rec.product._id}`} className="btn-outline px-4 py-2 text-xs w-full text-center md:w-auto">
                     COMPARE
                   </Link>
-                  <a href={rec.deal.url} target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-2 text-xs bg-accent-600 hover:bg-accent-700 text-white rounded-lg font-black w-full text-center md:w-auto flex items-center justify-center gap-1">
+                  <a href={getStoreRedirectUrl(rec.deal.marketplace, rec.product, rec.deal.url)} target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-2 text-xs bg-accent-600 hover:bg-accent-700 text-white rounded-lg font-black w-full text-center md:w-auto flex items-center justify-center gap-1">
                     BUY NOW <ExternalLink className="h-3 w-3" />
                   </a>
                 </div>
               </div>
-            </section>
+            </motion.section>
           ))}
-        </div>
+        </motion.div>
       ) : (
-        <section className="bg-amber-50 border border-amber-200 p-8 rounded-2xl text-center shadow-sm">
+        <motion.section variants={itemVariants} className="bg-amber-50 border border-amber-200 p-8 rounded-2xl text-center shadow-sm">
           <ShieldAlert className="h-10 w-10 text-amber-500 mx-auto mb-3" />
           <h3 className="text-lg font-black text-amber-800">NO EXACT MATCHES FOUND</h3>
           <p className="text-sm font-medium text-amber-700 mt-2">{data.message || 'Try broadening your requirements or increasing your budget.'}</p>
-        </section>
+        </motion.section>
       )}
-    </div>
+    </motion.div>
   );
 }

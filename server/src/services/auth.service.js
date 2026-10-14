@@ -1,5 +1,7 @@
 import argon2 from 'argon2';
 import crypto from 'node:crypto';
+import { OAuth2Client } from 'google-auth-library';
+import { env } from '../config/env.js';
 import { User } from '../models/User.model.js';
 import { ApiError } from '../utils/ApiError.js';
 import {
@@ -160,4 +162,45 @@ async function issueSession(user) {
   await user.save();
 
   return { user, accessToken, refreshToken };
+}
+
+const googleClient = new OAuth2Client(env.GOOGLE_CLIENT_ID);
+
+export async function googleLogin({ credential }) {
+  if (!credential) throw ApiError.badRequest('NO_CREDENTIAL', 'Google credential missing');
+
+  let payload;
+  try {
+    const ticket = await googleClient.verifyIdToken({
+      idToken: credential,
+      audience: env.GOOGLE_CLIENT_ID || undefined,
+    });
+    payload = ticket.getPayload();
+  } catch (err) {
+    throw ApiError.unauthorized('INVALID_GOOGLE_TOKEN', 'Google token verification failed');
+  }
+
+  const { sub: googleId, email, name, picture } = payload;
+  if (!email) throw ApiError.badRequest('NO_EMAIL', 'Google account has no email');
+
+  let user = await User.findOne({ email });
+  
+  if (user) {
+    if (user.authProvider !== 'GOOGLE') {
+      user.authProvider = 'GOOGLE';
+      user.googleId = googleId;
+      if (!user.avatar) user.avatar = picture;
+      await user.save();
+    }
+  } else {
+    user = await User.create({
+      name,
+      email,
+      authProvider: 'GOOGLE',
+      googleId,
+      avatar: picture
+    });
+  }
+
+  return issueSession(user);
 }

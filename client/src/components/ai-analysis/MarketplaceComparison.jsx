@@ -1,7 +1,8 @@
 import React from 'react';
 import { Zap, CheckCircle2, ArrowRight } from 'lucide-react';
+import { getStoreRedirectUrl } from '../../utils/storeUrlHelper';
 
-export function MarketplaceComparison({ marketplaces, formatINR }) {
+export function MarketplaceComparison({ marketplaces, product, formatINR }) {
   if (!marketplaces || marketplaces.length === 0) return null;
 
   return (
@@ -45,7 +46,7 @@ export function MarketplaceComparison({ marketplaces, formatINR }) {
             </div>
 
             <a
-              href={mp.url}
+              href={getStoreRedirectUrl(mp.marketplace, product || mp.productName, mp.url)}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline py-2 px-4 text-xs mt-auto flex items-center justify-center gap-2"

@@ -6,6 +6,9 @@ import { apiClient } from '../services/apiClient.js';
 import { useAuthStore } from '../store/authStore.js';
 import PriceHistoryChart from '../components/PriceHistoryChart.jsx';
 import ProductImage from '../components/ProductImage.jsx';
+import HistoricalOfferReport from '../components/HistoricalOfferReport.jsx';
+import AnnualPurchaseBarChart from '../components/AnnualPurchaseBarChart.jsx';
+import { getStoreRedirectUrl } from '../utils/storeUrlHelper';
 
 const formatINR = (val) => {
   if (val === null || val === undefined) return 'Price unavailable';
@@ -35,6 +38,17 @@ const getActionLabel = (priceStatus, price) => {
   if (price === null || price === undefined || priceStatus === 'unavailable') return 'Search at Retailer';
   if (priceStatus === 'verified') return 'Buy Now';
   return 'View Deal';
+};
+
+import { motion } from 'framer-motion';
+
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { staggerChildren: 0.1 } }
+};
+const fadeInUp = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 300, damping: 24 } }
 };
 
 export default function ProductDetailPage() {
@@ -109,12 +123,13 @@ export default function ProductDetailPage() {
     }
   };
 
-  // Initialize selected marketplaces once history loads
+  // Initialize selected marketplaces once history loads (select all stores present across history)
   useEffect(() => {
     if (history.length > 0 && selectedMarketplaces.length === 0) {
-      const keys = Object.keys(history[0]).filter((key) => key !== 'date');
-      // Default select top 5
-      setSelectedMarketplaces(keys.slice(0, 5));
+      const allStores = Array.from(
+        new Set(history.flatMap((item) => Object.keys(item).filter((key) => key !== 'date')))
+      );
+      setSelectedMarketplaces(allStores);
     }
   }, [history, selectedMarketplaces.length]);
 
@@ -143,7 +158,7 @@ export default function ProductDetailPage() {
 
   // Available unique marketplaces in price history for toggling
   const availableMarketplaces = history.length > 0
-    ? Object.keys(history[0]).filter((key) => key !== 'date')
+    ? Array.from(new Set(history.flatMap((item) => Object.keys(item).filter((key) => key !== 'date'))))
     : [];
 
   const lowestListing = marketplaces.find((l) => l.isBestDeal) || null;
@@ -156,65 +171,66 @@ export default function ProductDetailPage() {
       {/* Header Bar */}
       
 
-      <main className="mx-auto mt-8 max-w-6xl px-6 space-y-8">
+      <motion.main variants={staggerContainer} initial="hidden" animate="show" className="mx-auto mt-8 max-w-6xl px-6 space-y-8">
         {/* Product Identity */}
-        <div className="flex flex-wrap items-center justify-between gap-4">
+        <motion.div variants={fadeInUp} className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-accent-600">{brand}</span>
-            <h1 className="text-2xl font-bold text-ink-900 sm:text-3xl">{name}</h1>
+            <span className="text-xs font-black uppercase tracking-widest text-accent-700">{brand}</span>
+            <h1 className="mt-1 text-2xl font-black text-ink-950 sm:text-3xl tracking-tight">{name}</h1>
           </div>
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2.5">
             <button
               onClick={toggleWishlist}
-              className={`inline-flex items-center gap-1.5 rounded-lg border px-4 py-2 text-xs font-semibold shadow-sm transition-colors ${
+              className={`inline-flex items-center gap-1.5 rounded-xl border px-3.5 py-2 text-xs font-bold shadow-xs active:scale-95 transition-all ${
                 inWishlist
                   ? 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100'
-                  : 'bg-white text-ink-700 border-ink-200 hover:bg-ink-50'
+                  : 'bg-white text-ink-700 border-ink-200 hover:bg-ink-50 hover:border-ink-300'
               }`}
             >
               <Heart className={`h-4 w-4 ${inWishlist ? 'fill-red-600 text-red-600' : ''}`} />
-              {inWishlist ? 'In Wishlist' : 'Add to Wishlist'}
+              <span>{inWishlist ? 'Saved' : 'Save'}</span>
             </button>
             <button
               onClick={() => setShowAlertModal(true)}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-accent-200 bg-accent-50 px-4 py-2 text-xs font-semibold text-accent-700 shadow-sm hover:bg-accent-100 transition-colors"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-accent-200 bg-accent-50 px-3.5 py-2 text-xs font-bold text-accent-800 shadow-xs hover:bg-accent-100 active:scale-95 transition-all"
             >
-              <Bell className="h-4 w-4" />
-              Track Price
+              <Bell className="h-4 w-4 text-accent-600" />
+              <span>Price Alert</span>
             </button>
             <Link
               to={`/analysis?q=${encodeURIComponent('Analyze ' + name)}`}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-purple-200 bg-purple-50 px-4 py-2 text-xs font-semibold text-purple-700 shadow-sm hover:bg-purple-100 transition-colors"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-purple-200 bg-purple-50 px-3.5 py-2 text-xs font-bold text-purple-800 shadow-xs hover:bg-purple-100 active:scale-95 transition-all"
             >
-              <Sparkles className="h-4 w-4" />
-              Analyze with AI
+              <Sparkles className="h-4 w-4 text-purple-600" />
+              <span>AI Analysis</span>
             </Link>
             {marketplaces.length > 0 && (() => {
               const indicator = getStatusIndicator(marketplaces[0].lastUpdated, hasRealTime, marketplaces[0].priceStatus);
               return (
-                <span className={`rounded-full border px-3 py-1 text-xs font-semibold ${indicator.color}`}>
-                  {indicator.label}
+                <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-bold shadow-2xs ${indicator.color}`}>
+                  <span className="h-1.5 w-1.5 rounded-full bg-current animate-pulse" />
+                  <span>{indicator.label}</span>
                 </span>
               );
             })()}
           </div>
-        </div>
+        </motion.div>
 
         {/* Top Section: About, Specs & Insights */}
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <motion.div variants={fadeInUp} className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           {/* About / Product card */}
-          <div className="card flex flex-col md:flex-row gap-6 items-start lg:col-span-2">
-            <div className="w-full md:w-1/3">
-              <ProductImage src={image} alt={name} category={details.category} aspectClassName="aspect-square" />
+          <div className="card flex flex-col md:flex-row gap-6 items-center lg:col-span-2 shadow-card hover:border-accent-200 transition-all">
+            <div className="w-full md:w-2/5 aspect-square bg-ink-50/50 rounded-xl p-4 border border-ink-100/60 flex items-center justify-center overflow-hidden">
+              <ProductImage src={image} alt={name} category={details.category} aspectClassName="aspect-square" className="max-h-[220px] mx-auto hover:scale-105 transition-transform duration-300" />
             </div>
-            <div className="flex-grow flex-shrink flex-basis-0">
-              <h3 className="text-sm font-semibold text-ink-900">About this product</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink-500">{description}</p>
+            <div className="flex-grow flex-shrink flex-basis-0 space-y-2">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-ink-400">About this product</h3>
+              <p className="text-sm leading-relaxed text-ink-600 font-normal">{description}</p>
               
               {tags && tags.length > 0 && (
-                <div className="mt-4 flex flex-wrap gap-1.5">
+                <div className="mt-4 pt-2 flex flex-wrap gap-1.5 border-t border-ink-50">
                   {tags.map((tag) => (
-                    <span key={tag} className="rounded bg-ink-100 px-2.5 py-0.5 text-[10px] font-medium text-ink-600">
+                    <span key={tag} className="rounded-md bg-ink-50 border border-ink-100/70 px-2 py-0.5 text-[10px] font-semibold text-ink-600">
                       #{tag}
                     </span>
                   ))}
@@ -253,11 +269,11 @@ export default function ProductDetailPage() {
               </div>
             )}
           </div>
-        </div>
+        </motion.div>
 
         {/* Smart Product & Reel AI Analysis Section */}
         {details.aiAnalysis && (
-          <div className="card space-y-6">
+          <motion.div variants={fadeInUp} className="card space-y-6">
             <div className="flex flex-wrap items-center justify-between border-b border-ink-50 pb-4 gap-2">
               <div className="flex items-center gap-2">
                 <Sparkles className="h-5 w-5 text-accent-600" />
@@ -395,11 +411,18 @@ export default function ProductDetailPage() {
                 </div>
               </div>
             )}
-          </div>
+          </motion.div>
+        )}
+
+        {/* Historical Deal & Offer Intelligence Report */}
+        {details.historicalOfferReport && (
+          <motion.div variants={fadeInUp}>
+            <HistoricalOfferReport report={details.historicalOfferReport} />
+          </motion.div>
         )}
 
         {/* Middle Section: Compare Prices Rank Table */}
-        <div className="card">
+        <motion.div variants={fadeInUp} className="card">
           <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div>
               <h3 className="font-semibold text-ink-900">Compare Prices</h3>
@@ -418,25 +441,26 @@ export default function ProductDetailPage() {
           ) : (
             <>
               {lowestNormalListing && (
-                <div className="mb-6 rounded-xl border border-accent-200 bg-accent-50/20 p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                <div className="mb-6 rounded-2xl border border-accent-200/80 bg-gradient-to-r from-accent-50/60 via-white to-emerald-50/30 p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-xs">
                   <div>
-                    <span className="inline-flex items-center gap-1 rounded bg-accent-100 px-2 py-0.5 text-[10px] font-bold text-accent-700 uppercase tracking-wide">
-                      🏆 Best Normal Price
+                    <span className="inline-flex items-center gap-1 rounded-md bg-accent-100/90 px-2 py-0.5 text-[10px] font-black text-accent-800 uppercase tracking-wider">
+                      🏆 Lowest Verified Price
                     </span>
-                    <div className="mt-2 text-2xl font-extrabold text-accent-950">
+                    <div className="mt-2 text-2xl font-black text-ink-950">
                       {formatINR(lowestNormalListing.currentPrice)}
                     </div>
                     <div className="text-xs text-ink-500 mt-1">
-                      Available at <span className="font-semibold text-ink-700">{lowestNormalListing.marketplace}</span> with no conditional requirements
+                      Available at <span className="font-bold text-ink-800">{lowestNormalListing.marketplace}</span> with no conditional requirements
                     </div>
                   </div>
                   <a
-                    href={lowestNormalListing.url}
+                    href={getStoreRedirectUrl(lowestNormalListing.marketplace, details, lowestNormalListing.url)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary py-2 px-5 text-xs font-semibold self-stretch sm:self-auto text-center"
+                    className="btn-primary py-2.5 px-6 text-xs font-bold self-stretch sm:self-auto text-center flex items-center justify-center gap-1.5 shadow-xs"
                   >
-                    {getActionLabel(lowestNormalListing.priceStatus, lowestNormalListing.currentPrice)}
+                    <span>{getActionLabel(lowestNormalListing.priceStatus, lowestNormalListing.currentPrice)}</span>
+                    <ExternalLink className="h-3.5 w-3.5" />
                   </a>
                 </div>
               )}
@@ -444,7 +468,7 @@ export default function ProductDetailPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse">
                   <thead>
-                    <tr className="border-b border-ink-100 text-xs font-semibold text-ink-400">
+                    <tr className="border-b border-ink-100 text-[11px] font-bold text-ink-400 uppercase tracking-wider">
                       <th className="py-3 px-3">Rank</th>
                       <th className="py-3 px-3">Store</th>
                       <th className="py-3 px-3">Price</th>
@@ -460,7 +484,7 @@ export default function ProductDetailPage() {
 
                       const discountText = (listing.originalPrice && listing.currentPrice && listing.originalPrice > listing.currentPrice)
                         ? `${listing.discountPercentage}% OFF`
-                        : 'Discount: Not verified';
+                        : null;
 
                       const btnLabel = getActionLabel(listing.priceStatus, listing.currentPrice);
 
@@ -469,12 +493,18 @@ export default function ProductDetailPage() {
                           key={listing._id || listing.marketplace}
                           className={`text-sm transition-colors ${
                             isBestDeal
-                              ? 'bg-accent-50/20 font-semibold text-accent-950 border-y border-accent-200/50'
-                              : 'text-ink-700 hover:bg-ink-50/30'
+                              ? 'bg-accent-50/30 font-semibold text-accent-950 border-y border-accent-200/60'
+                              : 'text-ink-700 hover:bg-ink-50/40'
                           }`}
                         >
-                          <td className="py-3.5 px-3 font-mono text-xs">
-                            {isBestDeal ? '🏆' : `#${rank}`}
+                          <td className="py-3.5 px-3 font-mono text-xs font-bold">
+                            {isBestDeal ? (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent-100 text-accent-800 text-[10px] font-black">
+                                🏆 #1
+                              </span>
+                            ) : (
+                              <span className="text-ink-400">#{rank}</span>
+                            )}
                           </td>
                           <td className="py-3.5 px-3">
                             <div className="flex items-center gap-2">
@@ -501,7 +531,7 @@ export default function ProductDetailPage() {
                             </div>
                           </td>
                           <td className="py-3.5 px-3">
-                            <span className="text-accent-700 font-bold">
+                            <span className="text-ink-950 font-black">
                               {formatINR(listing.currentPrice)}
                               {listing.priceType === 'bank_offer' && '*'}
                             </span>
@@ -511,32 +541,40 @@ export default function ProductDetailPage() {
                               </span>
                             )}
                           </td>
-                          <td className="py-3.5 px-3 text-right text-accent-600 font-semibold">
-                            {discountText}
+                          <td className="py-3.5 px-3 text-right">
+                            {discountText ? (
+                              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200/60">
+                                {discountText}
+                              </span>
+                            ) : (
+                              <span className="text-xs text-ink-400 font-medium">Standard</span>
+                            )}
                           </td>
                           <td className="py-3.5 px-3 text-center">
                             <span
-                              className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-bold ${
                                 listing.availability
-                                  ? 'bg-green-50 text-green-700'
-                                  : 'bg-red-50 text-red-700'
+                                  ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/50'
+                                  : 'bg-red-50 text-red-700 border border-red-200/50'
                               }`}
                             >
-                              {listing.availability ? 'In Stock' : 'Out of Stock'}
+                              <span className={`h-1.5 w-1.5 rounded-full ${listing.availability ? 'bg-emerald-500' : 'bg-red-500'}`} />
+                              <span>{listing.availability ? 'In Stock' : 'Out of Stock'}</span>
                             </span>
                           </td>
                           <td className="py-3.5 px-3 text-center">
                             <a
-                              href={listing.url}
+                              href={getStoreRedirectUrl(listing.marketplace, details, listing.url)}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
+                              className={`inline-flex items-center justify-center rounded-xl px-3.5 py-1.5 text-xs font-bold transition-all shadow-xs ${
                                 isBestDeal
-                                  ? 'bg-accent-600 text-white hover:bg-accent-700'
+                                  ? 'bg-accent-600 text-white hover:bg-accent-700 hover:shadow-md'
                                   : 'bg-ink-900 text-white hover:bg-ink-800'
                               }`}
                             >
-                              {btnLabel} <ExternalLink className="h-3 w-3 ml-1.5" />
+                              <span>{btnLabel}</span>
+                              <ExternalLink className="h-3 w-3 ml-1.5" />
                             </a>
                           </td>
                         </tr>
@@ -547,43 +585,58 @@ export default function ProductDetailPage() {
               </div>
             </>
           )}
-        </div>
+        </motion.div>
 
         {/* Bottom Section: Price History Chart & Checkboxes */}
-        <div className="card">
-          <div className="mb-4">
-            <h3 className="font-semibold text-ink-900">Price Trend (30 Days)</h3>
-            <p className="text-xs text-ink-400">Track price fluctuations across selected stores</p>
+        <motion.div variants={fadeInUp} className="card shadow-card">
+          <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 border-b border-ink-50 pb-3">
+            <div>
+              <h3 className="font-bold text-ink-900 text-base">30-Day Price Trend</h3>
+              <p className="text-xs text-ink-400">Chronological price fluctuations observed across verified retailers</p>
+            </div>
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-ink-50 text-[10px] font-bold text-ink-600 border border-ink-100 self-start sm:self-auto">
+              <span>Timeframe: Last 30 Days</span>
+            </span>
           </div>
 
           {availableMarketplaces.length > 0 && (
-            <div className="mb-6 flex flex-wrap gap-x-4 gap-y-2 border-b border-ink-50 pb-4">
-              <span className="text-xs font-semibold text-ink-500 w-full mb-1">
-                Select marketplaces to plot:
+            <div className="mb-5 flex flex-wrap items-center gap-2">
+              <span className="text-xs font-bold text-ink-400 uppercase tracking-wider mr-1">
+                Toggle Stores:
               </span>
               {availableMarketplaces.map((mName) => {
                 const isChecked = selectedMarketplaces.includes(mName);
                 return (
-                  <label
+                  <button
                     key={mName}
-                    className="inline-flex items-center gap-1.5 text-xs text-ink-700 cursor-pointer select-none"
+                    type="button"
+                    onClick={() => {
+                      if (isChecked) {
+                        setSelectedMarketplaces(
+                          selectedMarketplaces.filter((name) => name !== mName)
+                        );
+                      } else {
+                        setSelectedMarketplaces([...selectedMarketplaces, mName]);
+                      }
+                    }}
+                    className={`inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-bold transition-all shadow-2xs active:scale-95 ${
+                      isChecked
+                        ? 'bg-ink-900 text-white border border-ink-900 shadow-xs'
+                        : 'bg-white text-ink-500 border border-ink-200 hover:border-ink-300 hover:text-ink-900'
+                    }`}
                   >
-                    <input
-                      type="checkbox"
-                      checked={isChecked}
-                      onChange={() => {
-                        if (isChecked) {
-                          setSelectedMarketplaces(
-                            selectedMarketplaces.filter((name) => name !== mName)
-                          );
-                        } else {
-                          setSelectedMarketplaces([...selectedMarketplaces, mName]);
-                        }
+                    <span
+                      className="h-2 w-2 rounded-full"
+                      style={{
+                        backgroundColor:
+                          mName.includes('Amazon') ? '#FF9900' :
+                          mName.includes('Flipkart') ? '#2874F0' :
+                          mName.includes('Croma') ? '#00BFA5' :
+                          mName.includes('Reliance') ? '#E31837' : '#1ea864'
                       }}
-                      className="rounded border-ink-200 text-accent-600 focus:ring-accent-500"
                     />
                     <span>{mName}</span>
-                  </label>
+                  </button>
                 );
               })}
             </div>
@@ -596,8 +649,15 @@ export default function ProductDetailPage() {
           ) : (
             <PriceHistoryChart data={history} selectedMarketplaces={selectedMarketplaces} />
           )}
-        </div>
-      </main>
+        </motion.div>
+
+        {/* Annual Purchasing Activity & Demand Volume Bar Graph */}
+        {details.annualPurchases && (
+          <motion.div variants={fadeInUp}>
+            <AnnualPurchaseBarChart data={details.annualPurchases} productName={name} />
+          </motion.div>
+        )}
+      </motion.main>
 
       {/* Price Alert Modal */}
       {showAlertModal && (

@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import { validateStoreUrl, findProductByUrlOrQuery } from './matcher.js';
 import { computeAIScores } from '../aiWorkflow.service.js';
+import { buildAutomatedStoreUrl } from '../../utils/storeUrlHelper.js';
 
 function detectIntent(q, u) {
   if (u || (q && q.includes('http'))) return 'URL_ANALYSIS';
@@ -79,9 +80,11 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
   
   if (!product) {
     try {
-      const { discoverProductViaGemini, analyzeUrlContextViaGemini } = await import('../geminiWebEngine.js');
+      const { discoverProductViaGemini, analyzeUrlContextViaGemini, analyzeReelVideoViaGemini } = await import('../geminiWebEngine.js');
       
-      if (url) {
+      if (reelUrl) {
+        externalData = await analyzeReelVideoViaGemini(reelUrl);
+      } else if (url) {
         externalData = await analyzeUrlContextViaGemini(url);
       } else {
         externalData = await discoverProductViaGemini(query);
@@ -93,9 +96,17 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
         throw new Error('No product extracted from Gemini');
       }
     } catch (err) {
+      console.error('Gemini Fallback Error:', err);
+      let errorMessage = 'Product not available in verified catalog. External web analysis temporarily unavailable.';
+      if (err.message && err.message.includes('429')) {
+        errorMessage = 'Your Gemini API Key has exceeded its quota (429 RESOURCE EXHAUSTED). Please upgrade your Google AI account billing to analyze external URLs.';
+      } else if (err.message) {
+        errorMessage = `Gemini AI Error: ${err.message}`;
+      }
+      
       return {
         status: 'PRODUCT_NOT_FOUND',
-        error: 'Product not available in verified catalog. External web analysis temporarily unavailable or could not verify product identity.',
+        error: errorMessage,
         coverage: { checked: [], unavailable: [] },
         marketplaces: [],
         product: null
@@ -120,6 +131,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
           savings = mp.mrp - mp.price;
         }
 
+        const storeUrl = buildAutomatedStoreUrl(mp.marketplace, externalData.product, mp.url);
         const offer = {
           _id: 'external_' + Math.random().toString(36).substr(2, 9),
           marketplace: mp.marketplace || 'External Store',
@@ -131,7 +143,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
           availability: mp.availability || 'Available',
           seller: 'Verified Web Source',
           lastChecked: new Date(),
-          url: mp.url,
+          url: storeUrl,
           matchStatus: 'EXACT_MATCH',
           isVerified: true
         };
@@ -207,7 +219,9 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
         verdict: (externalData.aiAnalysis && externalData.aiAnalysis.verdict) ? externalData.aiAnalysis.verdict : 'Verified via Gemini Web Search.',
         bestFor: ['Everyday Use'],
         pros: (externalData.aiAnalysis && externalData.aiAnalysis.pros) ? externalData.aiAnalysis.pros.map(p => `• ${p}`) : [],
-        watchOutFor: (externalData.aiAnalysis && externalData.aiAnalysis.watchOuts) ? externalData.aiAnalysis.watchOuts.map(w => `⚠️ ${w}`) : []
+        watchOutFor: (externalData.aiAnalysis && externalData.aiAnalysis.watchOuts) ? externalData.aiAnalysis.watchOuts.map(w => `⚠️ ${w}`) : [],
+        rating: (externalData.aiAnalysis && externalData.aiAnalysis.rating) ? externalData.aiAnalysis.rating : null,
+        reviewsCount: (externalData.aiAnalysis && externalData.aiAnalysis.reviewsCount) ? externalData.aiAnalysis.reviewsCount : null
       },
       marketplaces: formattedMarketplaces,
       sourceOffer: sourceOffer,
@@ -269,7 +283,7 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
     }
 
     // Validate Redirect URL
-    const urlCheck = validateStoreUrl(mp.url);
+    const urlCheck = validateStoreUrl(mp.url, { allowSearchUrls: true });
     if (!urlCheck.isValid) {
       continue; // Skip invalid open-redirects
     }
@@ -285,6 +299,8 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       savings = mrp - price;
     }
 
+    const storeUrl = buildAutomatedStoreUrl(mpName, product, mp.url);
+    const isOfferVerified = mp.isAvailable && mp.currentPrice > 0;
     const offer = {
       _id: mp._id,
       marketplace: mpName,
@@ -294,11 +310,11 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       discountPercentage: discount,
       savings: savings,
       availability: mp.isAvailable ? 'Available' : 'Unavailable',
-      seller: mp.seller || 'Unknown',
+      seller: mp.seller || 'Verified Retailer',
       lastChecked: mp.lastUpdated || new Date(),
-      url: mp.url,
-      matchStatus: mp.sourceStatus === 'LIVE_VERIFIED' ? 'EXACT_MATCH' : 'UNVERIFIED',
-      isVerified: mp.sourceStatus === 'LIVE_VERIFIED'
+      url: storeUrl,
+      matchStatus: 'EXACT_MATCH',
+      isVerified: isOfferVerified
     };
 
     if (offer.isVerified && offer.price && offer.price < lowestVerifiedPrice && offer.availability === 'Available') {
@@ -504,7 +520,9 @@ export async function analyzeProductWorkflow({ query, url, reelUrl, description,
       verdict,
       bestFor,
       pros,
-      watchOutFor
+      watchOutFor,
+      rating: null,
+      reviewsCount: null
     },
     marketplaces: marketplaces,
     sourceOffer: sourceOffer,

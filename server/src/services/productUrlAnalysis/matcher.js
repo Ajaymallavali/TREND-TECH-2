@@ -7,7 +7,7 @@ const APPROVED_DOMAINS = [
   'croma.com', 'reliancedigital.in'
 ];
 
-export function validateStoreUrl(storeUrl) {
+export function validateStoreUrl(storeUrl, { allowSearchUrls = false } = {}) {
   if (!storeUrl) return { isValid: false, reason: 'No URL provided' };
   try {
     const parsed = new URL(storeUrl);
@@ -66,7 +66,7 @@ export function validateStoreUrl(storeUrl) {
       }
     }
     
-    if (urlType !== 'EXACT PRODUCT PAGE') {
+    if (urlType !== 'EXACT PRODUCT PAGE' && !(allowSearchUrls && urlType === 'PRODUCT SEARCH PAGE')) {
       return { isValid: false, reason: `URL Type: ${urlType}. Product URL required.` };
     }
     
@@ -124,33 +124,160 @@ export async function findProductByUrlOrQuery(storeUrl, query) {
   }
   
   if (!product && query) {
-    const cleanQuery = query.toLowerCase().trim();
-    // Keywords for advanced matching
-    const keywords = cleanQuery.split(/\s+/);
-    const regexList = keywords.map(kw => new RegExp(kw, 'i'));
+    let cleanQuery = query.toLowerCase().trim();
 
-    // Try finding products matching all keywords in the name or tags
-    const products = await Product.find({
-      $and: regexList.map(r => ({
-        $or: [
-          { name: { $regex: r } },
-          { model: { $regex: r } },
-          { tags: { $regex: r } },
-          { brand: { $regex: r } }
-        ]
-      }))
+    // Strip common intent prefixes so queries like "Analyze Smartphone Reno" match catalog products
+    const intentPrefixes = [
+      /^analyze\s+deals?\s+for\s+/i,
+      /^analyze\s+product\s+/i,
+      /^analyze\s+price\s+(?:of|for)\s+/i,
+      /^analyze\s+/i,
+      /^compare\s+deals?\s+for\s+/i,
+      /^compare\s+price\s+of\s+/i,
+      /^compare\s+/i,
+      /^check\s+price\s+(?:of|for)\s+/i,
+      /^check\s+deals?\s+for\s+/i,
+      /^check\s+/i,
+      /^find\s+best\s+price\s+for\s+/i,
+      /^find\s+deals?\s+for\s+/i,
+      /^find\s+/i,
+      /^search\s+for\s+/i,
+      /^search\s+/i,
+      /^show\s+me\s+deals?\s+for\s+/i,
+      /^show\s+me\s+/i,
+      /^best\s+deals?\s+for\s+/i,
+      /^best\s+price\s+for\s+/i,
+      /^reviews?\s+of\s+/i,
+      /^reviews?\s+/i,
+      /^price\s+of\s+/i,
+      /^deals?\s+for\s+/i
+    ];
+
+    for (const prefix of intentPrefixes) {
+      cleanQuery = cleanQuery.replace(prefix, '').trim();
+    }
+
+    // Also strip generic category prefixes from query (e.g. "smartphone razr" -> "razr", "television bravia" -> "bravia")
+    const categoryPrefixes = [
+      /^smartphones?\s+/i,
+      /^foldable\s+phones?\s+/i,
+      /^televisions?\s+/i,
+      /^tvs?\s+/i,
+      /^laptops?\s+/i,
+      /^desktops?\s+/i,
+      /^smartwatch(?:es)?\s+/i,
+      /^audios?\s+/i,
+      /^headphones?\s+/i,
+      /^earbuds?\s+/i,
+      /^cameras?\s+/i,
+    ];
+
+    let strippedQuery = cleanQuery;
+    for (const pref of categoryPrefixes) {
+      strippedQuery = strippedQuery.replace(pref, '').trim();
+    }
+
+    // Try exact product name match first
+    const exactNameMatch = await Product.findOne({
+      $or: [
+        { name: new RegExp(`^${cleanQuery}$`, 'i') },
+        { name: new RegExp(`^${strippedQuery}$`, 'i') }
+      ]
     }).lean();
+    if (exactNameMatch) {
+      return exactNameMatch;
+    }
 
-    if (products.length > 0) {
-      // Prioritize exact name matches
-      const exactNameMatch = products.find(p => p.name.toLowerCase() === cleanQuery);
-      if (exactNameMatch) {
-        product = exactNameMatch;
-      } else if (products.length === 1) {
-        product = products[0];
-      } else {
-        // Partial match: return array
-        return products.slice(0, 5); // Return top 5 matches
+    // Filter out filler words for keyword matching
+    const stopWords = new Set(['a', 'an', 'the', 'in', 'on', 'at', 'for', 'of', 'with', 'and', 'or', 'to', 'is', 'it', 'deal', 'deals', 'price', 'analyze', 'review', 'buy', 'me']);
+    const rawTokens = cleanQuery.split(/[\s,+/_-]+/);
+    const keywords = rawTokens.filter(t => t.length > 1 && !stopWords.has(t));
+    const strippedTokens = strippedQuery.split(/[\s,+/_-]+/).filter(t => t.length > 1 && !stopWords.has(t));
+
+    // Combine distinct query search terms
+    const allSearchTokens = Array.from(new Set([...keywords, ...strippedTokens]));
+
+    if (allSearchTokens.length > 0) {
+      const regexList = allSearchTokens.map(kw => new RegExp(kw, 'i'));
+
+      // Try finding products matching keywords in name, model, tags, or brand
+      const products = await Product.find({
+        $and: regexList.map(r => ({
+          $or: [
+            { name: { $regex: r } },
+            { model: { $regex: r } },
+            { tags: { $regex: r } },
+            { brand: { $regex: r } }
+          ]
+        }))
+      }).lean();
+
+      if (products.length > 0) {
+        // Prioritize exact name matches
+        const exactMatch = products.find(p => 
+          p.name.toLowerCase() === cleanQuery || 
+          p.name.toLowerCase() === strippedQuery
+        );
+        if (exactMatch) {
+          return exactMatch;
+        }
+
+        if (products.length === 1) {
+          return products[0];
+        }
+
+        // Intelligent ranking for multiple candidates
+        const isAccessoryQuery = /case|cover|glass|protector|strap|cable|charger|adapter/i.test(cleanQuery);
+
+        const scored = products.map(p => {
+          let score = 0;
+          const pName = (p.name || '').toLowerCase();
+          const pBrand = (p.brand || '').toLowerCase();
+          const pModel = (p.model || '').toLowerCase();
+          const pCat = (p.category || '').toLowerCase();
+
+          // Heavily deprioritize accessories if user is looking for a primary device
+          if (!isAccessoryQuery && (pCat === 'accessories' || /case|cover|protector|strap|cable/i.test(pName))) {
+            score -= 100;
+          }
+
+          // Exact word boundary matches
+          for (const kw of allSearchTokens) {
+            const kwReg = new RegExp(`\\b${kw}\\b`, 'i');
+            if (kwReg.test(pName)) score += 10;
+            if (kwReg.test(pModel)) score += 8;
+            if (kwReg.test(pBrand)) score += 5;
+          }
+
+          // Flagship / Ultra / Pro preference for top-tier queries
+          if (pName.includes('ultra') || pName.includes('pro max') || pName.includes('pro')) {
+            score += 3;
+          }
+
+          // Prefer verified products with complete specs
+          if (p.sourceStatus === 'LIVE_VERIFIED') score += 2;
+          if (p.specs && Object.keys(p.specs).length > 3) score += 2;
+
+          // If query exactly matches a product tag or previous alias, give strong bonus
+          if (p.tags && Array.isArray(p.tags)) {
+            if (p.tags.some(t => t.toLowerCase() === cleanQuery)) {
+              score += 40; // Exact match for query terms like "smartphone razr"
+            } else if (p.tags.some(t => t.toLowerCase() === strippedQuery)) {
+              score += 15;
+            }
+          }
+
+          return { product: p, score };
+        });
+
+        scored.sort((a, b) => b.score - a.score);
+
+        // If top scored item is strong, return it directly so user gets the AI analysis immediately
+        if (scored.length > 0 && scored[0].score > 0) {
+          return scored[0].product;
+        }
+
+        return products.slice(0, 5);
       }
     }
   }
