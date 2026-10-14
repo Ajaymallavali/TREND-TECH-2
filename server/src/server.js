@@ -48,8 +48,16 @@ async function bootstrap() {
   });
 }
 
-bootstrap().catch((err) => {
-  // eslint-disable-next-line no-console
-  console.error('Failed to start server:', err);
-  process.exit(1);
-});
+let appInstance = null;
+
+if (!process.env.VERCEL) {
+  bootstrap().catch((err) => {
+    // eslint-disable-next-line no-console
+    console.error('Failed to start server:', err);
+    process.exit(1);
+  });
+} else {
+  appInstance = createApp();
+}
+
+export default appInstance;

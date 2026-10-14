@@ -15,6 +15,7 @@ import { apiLimiter } from './middleware/rateLimiter.js';
 import { notFoundHandler, errorHandler } from './middleware/errorHandler.js';
 import healthRoutes from './routes/health.routes.js';
 import apiRoutes from './routes/index.js';
+import { connectDB } from './config/db.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -37,7 +38,15 @@ export function createApp() {
   app.use(express.urlencoded({ extended: true, limit: '1mb' }));
   app.use(cookieParser(env.COOKIE_SECRET));
   app.use(mongoSanitize());
-  app.use(pinoHttp({ logger, autoLogging: { ignore: (req) => req.url === '/api/health' } }));
+  // Ensure database is connected (essential for Vercel serverless cold starts)
+  app.use(async (req, res, next) => {
+    try {
+      await connectDB();
+      next();
+    } catch (err) {
+      next(err);
+    }
+  });
 
   app.use('/api', apiLimiter);
   app.use('/api/health', healthRoutes);
@@ -66,3 +75,6 @@ export function createApp() {
 
   return app;
 }
+
+export const app = createApp();
+export default app;

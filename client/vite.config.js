@@ -7,15 +7,15 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5001',
+        target: process.env.SERVER_URL || 'http://localhost:5001',
         changeOrigin: true,
       },
       '/product-images': {
-        target: 'http://localhost:5001',
+        target: process.env.SERVER_URL || 'http://localhost:5001',
         changeOrigin: true,
       },
       '/server/src/data/product-images': {
-        target: 'http://localhost:5001',
+        target: process.env.SERVER_URL || 'http://localhost:5001',
         changeOrigin: true,
       },
     },
